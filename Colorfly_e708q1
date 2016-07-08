@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Colorfly e708q1 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Colorfly_e708q1","wgTitle":"Colorfly e708q1","wgCurRevisionId":17881,"wgArticleId":2686,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["NDH TODO","Devices","A31s Tablets","Devices with HDMI port","Devices with Wifi"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Colorfly_e708q1","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Colorfly_e708q1"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Colorfly_e708q1 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Colorfly e708q1</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Colorfly e708q1</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:IMG_1009.PNG" class="image"><img alt="IMG 1009.PNG" src="/images/thumb/5/5c/IMG_1009.PNG/250px-IMG_1009.PNG" width="250" height="445"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.colorfly.eu">www.colorfly.eu</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+190 (H) x 113 (W) x 7.6 (D) mm</td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+September 2013</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.colorfly.eu/E708/index.html">Official E708 Q1 Datasheet</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A31s" title="A31s" class="mw-redirect">A31s</a> Allwinner A31s-up to 1 GHz Quad-Core Cortex-A7</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+ELPIA J4216BBBG-GN-F (2x512mb ) DDR3 SDRAM 1GB</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+Intel I29F64G08AAMEI 8GB</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V⎓2A<br/>3.7V 2300Mha Li-Po battery</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">LCD</th><td class="" style="">
+1200x800 (7" 16:9 edge-lit)</td></tr><tr class=""><th scope="row" style="text-align:left;">Touchscreen</th><td class="" style="">
+Googix GT911 5-finger capacitive</td></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI ver B</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm headphone plug, internal speaker, internal microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+WiFi 802.11 b/g/n (<a href="/Wifi#Realtek" title="Wifi"><span class="__cf_email__" data-cfemail="184a4c54202920205d4d586d6b7a">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:0bda:8179</a>)<br/><i>no bluetooth</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+1x USB2.0 OTG</td></tr><tr class=""><th scope="row" style="text-align:left;">Camera</th><td class="" style="">
+0.3MP front camera (<a href="/CSI" title="CSI">GC0308</a>)<br/><i>none on rear side</i></td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+Accelerometer STK8313</td></tr>
+</table>
+<p><span style="color:#ba0000">This page needs to be properly filled according to the <a href="/New_Device_howto" title="New Device howto">New Device Howto</a> and the <a href="/New_Device_page" title="New Device page">New Device Page guide</a>.</span>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">2</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Boot_from_SDCard_mode"><span class="tocnumber">2.1</span> <span class="toctext">Boot from SDCard mode</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#ADB"><span class="tocnumber">2.2</span> <span class="toctext">ADB</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Recovery_mode"><span class="tocnumber">2.3</span> <span class="toctext">Recovery mode</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Device_disassembly_.28voids_warranty.29"><span class="tocnumber">3</span> <span class="toctext">Device disassembly (voids warranty)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Adding_a_serial_port"><span class="tocnumber">3.1</span> <span class="toctext">Adding a serial port</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Pictures"><span class="tocnumber">4</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Also_known_as"><span class="tocnumber">5</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Manufacturer_images"><span class="tocnumber">6.1</span> <span class="toctext">Manufacturer images</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>On the back of the device, the following is printed:
+</p>
+<dl><dt>(Colorfly)
+</dt><dt>7" TABLET PC
+</dt></dl>
+<p>E708 Q1
+<br/>5.0V ⎓ 2.0 A <span style="margin-left:2em">Wi-Fi</span>
+<br/>Colorfly GmbH
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<p><span style="color:#ba0000">Add MANUFACTURER DEVICE specific tips, tricks, Caveats and nice to have changes here.</span>
+</p>
+<h2> <span class="mw-headline" id="Boot_from_SDCard_mode"> Boot from SDCard mode </span></h2>
+<p><b>How to prepare and Boot from MicroUSB:</b>
+</p><p><b>1.Zero the beginning of the SD card:</b>
+</p>
+<pre>  dd if=/dev/zero of=/dev/sdX bs=1M count=8
+</pre>
+<p><b>2.Start fdisk to partition the SD card:</b>
+</p>
+<pre>     2.1-fdisk /dev/sdX
+         At the fdisk prompt, delete old partitions and create a new one:
+         Type o. This will clear out any partitions on the drive.
+         Type p to list partitions. There should be no partitions left.
+         Now type n, then p for primary, 1 for the first partition on the drive,
+         2048 for the first sector, and then press ENTER to accept the default last sector.
+         Write the partition table and exit by typing w.
+     2.2-Create and mount the ext4 filesystem:
+          mkfs.ext4 /dev/sdX1
+          mkdir mnt
+          mount /dev/sdX1 mnt
+     2.3-Download and extract the root filesystem (for example, arch linux):
+         wget <a rel="nofollow" class="external free" href="http://os.archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz">http://os.archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz</a>
+         bsdtar -xpf ArchLinuxARM-armv7-latest.tar.gz -C /mnt
+         sync
+         umount /mnt
+</pre>
+<p><b>3.Install the U-Boot bootloader:</b>
+</p>
+<pre>     <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=summary">Download git form denx.de:</a>
+          Edit sun6i-a31s-colorfly-e708-q1.dts to enable axp22x battery poweb:
+                  At the end of file add:
+                     <i>&amp;axp22x { backup = &lt;3000000 200&gt;;   };</i>                     
+         Next how to compile U-Boot:
+         1-Configure u.boot for colorfly e708 
+         make CROSS_COMPILE=arm-linux-gnueabihf- colorfly_e708_q1_defconfig
+         2-If necessary configure sources:
+         make CROSS_COMPILE=arm-linux-gnueabihf- menuconfig 
+         3-Compile u-Boot
+         make CROSS_COMPILE=arm-linux-gnueabihf- 
+         4-Install U-BOOT on MicroSD boot sectors:
+         dd if=u-boot-sunxi-with-spl.bin of=/dev/sdb bs=1024 seek=8
+         5-Copy sun6i-a31s-colorfly-e708-q1.dtb (from ./arch/arm/dts/sun6i-a31s-colorfly-e708-q1.dtb) 
+           to /mnt/boot (partition /dev/sdb1)
+</pre>
+<p><b>4.boot.scr</b>
+-boot.scr
+</p>
+<pre>             1.mount /dev/sdb1  /mnt/
+             2.boot.cmd (source):
+             part uuid ${devtype} ${devnum}:${bootpart} uuid
+             setenv bootargs console=${console} root=PARTUUID=${uuid} rw rootwait
+             if load ${devtype} ${devnum}:${bootpart} ${kernel_addr_r} /boot/zImage; then
+               if load ${devtype} ${devnum}:${bootpart} ${fdt_addr_r} /boot/dtbs/${fdtfile}; then
+                 if load ${devtype} ${devnum}:${bootpart} ${ramdisk_addr_r} /boot/initramfs-linux.img; then
+                     bootz ${kernel_addr_r} ${ramdisk_addr_r}:${filesize} ${fdt_addr_r};
+             else
+             bootz ${kernel_addr_r} - ${fdt_addr_r};
+                fi;
+              fi;
+             fi                       
+            3.compile boot.cmd:
+                   mkimage -C none -A arm -T script -d boot.cmd boot.scr
+            4. Copy boot.scr to /mnt/boot
+                   cp boot.scr /mnt/boot
+            5. Umount /mnt 
+               sync
+               umount /mnt
+</pre>
+<p><b>5. How to compile linux kernel </b>
+</p><p>Compile zImage with this options&#160;:
+</p><p>Download kernel:
+git clone <a rel="nofollow" class="external free" href="git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git">git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git</a>
+</p>
+<pre>            1.Prepare compile kernel to suni allwinner:
+                 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- sunxi_defconfig
+            2.Modify kernel propertiers(menu config):
+                 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- menuconfig
+                   2.1Kernel options (menu config) you can select this as modules(M):
+                       Wifi:
+                            1-Networking support --&gt;Wireless --&gt;Cfg80211
+                            2-Device drivers --&gt;Network Device Support--&gt;wireles Lan
+                            3-Device drivers --&gt;Staging drivers--&gt; RTL8188                             
+                             TouchScreen:
+                                -Device drivers --&gt;Imput devices---&gt; Goodix 911   
+                             OTG, filesystem (NTFS, DOS)..:
+                                 1-Device drivers --&gt;USB suport---&gt; Otg, Mass storage, etc..
+                                 2-File systems--&gt; NTFS, VFAT...
+           3.Compile Kernel:
+             ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make zImage 
+              (copy to microsd partitrion, in my case sdb1 (vfat) de ./arch/arm/boot/zImage to /mnt/boot/zImage) 
+            4.Install Modules:
+               mount second microsd partition to /mnt (mount /dev/sdb2 /mnt)
+               ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-  INSTALL_MOD_PATH=/mnt  make modules modules_install
+               Now we have new modules in /mnt/lib/modules/4.6.0-rc2/...
+             5-Sync and umount /mnt:
+               sync
+               umount /mnt
+        
+</pre>
+<p><b>NOTE</b>: In order to test battery status and charge (at now not soported at mailine kernel)download a modificied mainline kernel from <a class="external free" href="https://github.com/micile/linux-sunxi/tree/AXP_Battery">https://github.com/micile/linux-sunxi/tree/AXP_Battery</a> and compile zImage and modules witch sunxi_defconfig options.
+</p><p>Insert the micro SD card into the colorfly e708 and apply 5V power.
+The default root password is root.
+</p><p><b>6. In order to calibrate touch screen, X11:</b>
+</p>
+<pre>      6.1. Edit 10-evdev.conf 
+        vim /usr/share/X11/xorg.conf.d/10-evdev.conf 
+      6.2. Add this lines:
+          Section "InputClass"
+                 Identifier      "calibration"
+                 MatchProduct    "Goodix Capacitive TouchScreen"
+                 Option  "Calibration"   "4 1200 800 -1"
+                 Option  "SwapAxes"      "1"
+          EndSection
+</pre>
+<dl><dt>Devices on boad</dt><dd>
+</dd></dl>
+<pre>
+
+# lsusb
+Bus 001 Device 002: ID 0bda:0179 Realtek Semiconductor Corp.
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+</pre>
+<dl><dt>Info about CPU "cat /proc/cpuinfo"
+</dt></dl>
+<pre>
+processor      &#160;: 0
+model name     &#160;: ARMv7 Processor rev 3 (v7l)
+BogoMIPS       &#160;: 48.00
+Features       &#160;: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm
+CPU implementer&#160;: 0x41
+CPU architecture: 7
+CPU variant    &#160;: 0x0
+CPU part       &#160;: 0xc07
+CPU revision   &#160;: 3
+
+processor      &#160;: 1
+model name     &#160;: ARMv7 Processor rev 3 (v7l)
+BogoMIPS       &#160;: 48.00
+Features       &#160;: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm
+CPU implementer&#160;: 0x41
+CPU architecture: 7
+CPU variant    &#160;: 0x0
+CPU part       &#160;: 0xc07
+CPU revision   &#160;: 3
+
+processor      &#160;: 2
+model name     &#160;: ARMv7 Processor rev 3 (v7l)
+BogoMIPS       &#160;: 48.00
+Features       &#160;: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm
+CPU implementer&#160;: 0x41
+CPU architecture: 7
+CPU variant    &#160;: 0x0
+CPU part       &#160;: 0xc07
+CPU revision   &#160;: 3
+
+processor      &#160;: 3
+model name     &#160;: ARMv7 Processor rev 3 (v7l)
+BogoMIPS       &#160;: 48.00
+Features       &#160;: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm
+CPU implementer&#160;: 0x41
+CPU architecture: 7
+CPU variant    &#160;: 0x0
+CPU part       &#160;: 0xc07
+CPU revision   &#160;: 3
+
+Hardware       &#160;: Allwinner sun6i (A31) Family
+Revision       &#160;: 0000
+Serial         &#160;: 16524251080XXXXX
+
+</pre>
+<h2> <span class="mw-headline" id="ADB"> ADB </span></h2>
+<p>This device does not have root access enabled by default. If USB debugging is enabled in settings on the tablet, run
+</p>
+<pre>echo -e '0x1f3a\n0x1002' &gt;&gt; .android/adb_usb.ini 
+sudo bash -c 'echo SUBSYSTEM==\"usb\", ATTR{idVendor}==\"1f3a\", ATTRS{idProduct}==\"1002\", MODE=\"0666\", \
+  GROUP=\"plugdev\", SYMLINK+=\"android%n\" &gt;&gt; /etc/udev/rules.d/51-android.rules'
+udevadm control --reload-rules
+</pre>
+<p>in order to make
+</p>
+<pre>adb devices
+adb shell
+..
+</pre>
+<p>work.
+</p>
+<h2> <span class="mw-headline" id="Recovery_mode"> Recovery mode </span></h2>
+<ol><li> Power off the device
+</li><li> Hold down the vol+ button
+</li><li> Power on the device
+</li><li> Release the vol+ button when recovery starts
+</li></ol>
+<h1> <span class="mw-headline" id="Device_disassembly_.28voids_warranty.29"> Device disassembly (voids warranty)</span></h1>
+<p>The back cover uses snap-ins, but sits very tight on the front frame. Where the volume and power buttons sit, the plastic is so thin that it's very likely to break, when trying to remove the back cover. To start opening, be sure to pick a spot about one <i>mm</i> below the display at a place where no buttons or connection holes are situated. Remember that you will loose warranty doing this with most vendors.
+</p>
+<h2> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h2>
+<p>Howto needed: Does the <a href="/index.php?title=Colorfly_e708&amp;action=edit&amp;redlink=1" class="new" title="Colorfly e708 (page does not exist)">N7 Pro serial port guide</a> to add a serial port work for this device too!?
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:IMG_1008.PNG" class="image"><img alt="IMG 1008.PNG" src="/images/thumb/e/ef/IMG_1008.PNG/67px-IMG_1008.PNG" width="67" height="120"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:20160312_234359702_iOS.jpg" class="image"><img alt="20160312 234359702 iOS.jpg" src="/images/thumb/0/0c/20160312_234359702_iOS.jpg/90px-20160312_234359702_iOS.jpg" width="90" height="120"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:20160311_155843735_iOS.jpg" class="image"><img alt="20160311 155843735 iOS.jpg" src="/images/thumb/f/fe/20160311_155843735_iOS.jpg/90px-20160311_155843735_iOS.jpg" width="90" height="120"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:40px auto;"><a href="/File:E708_stress_test.PNG" class="image"><img alt="E708 stress test.PNG" src="/images/thumb/7/75/E708_stress_test.PNG/120px-E708_stress_test.PNG" width="120" height="70"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<dl><dt>Unofficial</dt><dd>
+</dd></dl>
+<ul><li> Since there are no firmware files publicly available to this date from Intenso, I've tried a couple of firmware images from different vendors listed on <a rel="nofollow" class="external text" href="http://chinagadgetsreviews.blogspot.de">chinagadgetsreviews.blogspot.de</a> to repair a non-booting E708 that just showed (Intenso)-Logo on start. Most of the firmwares from other vendors show black screens, have wrong display resolutions or non-working sound and, unfortunately, non-working touchscreen input.
+</li></ul>
+<ul><li> <i>Caution:</i> If your QE708 is working fine, <b>do not</b> flash the below, but rather try to extract the stock rom firmware with sunxi-tools above and have someone with a broken one test your image.
+</li></ul>
+<p>..............................................................................
+<a rel="nofollow" class="external text" href="https://www.google.es/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwi53bWb5o3MAhXD0xoKHe2mDjYQFggfMAA&amp;url=http%3A%2F%2Fwww.slatedroid.com%2Ftopic%2F103865-a31s-colorfly-e708-q1-8gb-ota-android-442-sv402-update-new-e708-q1-sv402-cql-20140318%2F&amp;usg=AFQjCNFOdtsjMv2kG4H010f062eC4Ff6jw&amp;sig2=m5F7DYUiSZ5rWhpIrHMlNA&amp;bvm=bv.119408272,d.bGs">Discusion, firmware, etc</a>
+</p>
+<ul><li> <a rel="nofollow" class="external autonumber" href="http://tieba.baidu.com/p/2745727664">[1]</a> has some firmwares. They're stored on Baidu NetDisk. (The webpage and the netdisk are both in Chinese)
+</li></ul>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<p><span style="color:#ba0000">Add some nice to have links here. This includes related devices, and external links.</span>
+</p>
+<h2> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h2>
+<p><span style="color:#ba0000">Optional. Add non-sunxi images in this section.</span>
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Colorfly_e708q1&amp;oldid=17881">http://linux-sunxi.org/index.php?title=Colorfly_e708q1&amp;oldid=17881</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:NDH_TODO" title="Category:NDH TODO">NDH TODO</a></li><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A31s_Tablets" title="Category:A31s Tablets">A31s Tablets</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li><li><a href="/Category:Devices_with_Wifi" title="Category:Devices with Wifi">Devices with Wifi</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Colorfly+e708q1&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Colorfly+e708q1" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Colorfly_e708q1" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Colorfly_e708q1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Colorfly_e708q1">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Colorfly_e708q1&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Colorfly_e708q1&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Colorfly_e708q1" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Colorfly_e708q1" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Colorfly_e708q1&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Colorfly_e708q1&amp;oldid=17881" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 5 July 2016, at 15:06.</li>
+<li id="footer-info-viewcount">This page has been accessed 868 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

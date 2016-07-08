@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>AllwinnerUpstream - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"AllwinnerUpstream","wgTitle":"AllwinnerUpstream","wgCurRevisionId":15304,"wgArticleId":1626,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"AllwinnerUpstream","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/AllwinnerUpstream"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-AllwinnerUpstream skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">AllwinnerUpstream</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page keeps track of the work that AllwinnerTech engineers will be doing to assist in better upstream support for the <a href="/Allwinner_SoC_Family" title="Allwinner SoC Family">Allwinner SoC Family</a>.
+</p><p>Free and open-source software projects are continuously in development. When support for a hardware device is added to such a project, it can either be added to the main developing version (<b>upstream</b> or some cases called <b>mainline</b>) or it can be added to a specific (older) version. The benefit in adding support to the upstream/mainline is that automatically all newer versions will include support for the hardware. On the other hand, adding support to a specific (older) version has the disadvantage that software becomes obsolete, and the hardware is effectively not supported any more. This has been the case with hardware support in the Linux 3.4 kernel which has not been adapted to work with newer versions of the Linux kernel (currently, the latest version is 3.16).
+</p><p>Currently, this page covers the content of the thread <a rel="nofollow" class="external text" href="https://groups.google.com/d/topic/linux-sunxi/CadtXmN5pqU/discussion">Introductions and Allwinner documentation update</a> at the <a rel="nofollow" class="external text" href="https://groups.google.com/forum/#!forum/linux-sunxi">linux-sunxi Google Group</a>.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Small-sized_Linux_kernel_tasks"><span class="tocnumber">1</span> <span class="toctext">Small-sized Linux kernel tasks</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Medium-sized_Linux_kernel_tasks"><span class="tocnumber">2</span> <span class="toctext">Medium-sized Linux kernel tasks</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#u-boot_tasks"><span class="tocnumber">3</span> <span class="toctext">u-boot tasks</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Documentation_requests"><span class="tocnumber">4</span> <span class="toctext">Documentation requests</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Small-sized_Linux_kernel_tasks">Small-sized Linux kernel tasks</span></h1>
+<ol><li> GPADC
+</li></ol>
+<h1> <span class="mw-headline" id="Medium-sized_Linux_kernel_tasks">Medium-sized Linux kernel tasks</span></h1>
+<ol><li> Camera driver
+</li></ol>
+<h1> <span class="mw-headline" id="u-boot_tasks">u-boot tasks</span></h1>
+<p>Hans de Goede (hdegoede at redhat dot com) writes:
+</p>
+<pre>I think it is great that Allwinner wants to get more involved in
+upstream sunxi support.
+
+As one of the 2 custodians (maintainers) for the upstream u-boot
+support for sunxi devices, I would like to ask Allwinner to also
+get more involved in upstream u-boot support. Ideally Allwinner
+would switch to using upstream u-boot entirely, including using
+a standard u-boot SPL, rather then chainloading an older u-boot
+fork through boot0 and boot1.
+
+I can understand that completely switching to upstream u-boot
+will take time, and that you may need some additional features
+in upstream u-boot before you can switch. In the mean time it
+would be great if you could help us extend the existing sunxi
+support in upstream u-boot. Currently we support sun4i, sun5i
+and sun7i. We would love to also support sun6i and sun8i (and
+the A80).
+
+We already have some limited sun6i and sun8i support in the linux-sunxi
+u-boot-sunxi git repository. The biggest stumbling block keeping
+us from adding support for sun6i and sun8i is the lack of code
+to initialize the DRAM controller. It would be a big help for
+us if you could share the boot0 code for sun6i and sun8i with
+us, either under an open license, or with an explicit permission
+notice for copy and pasting parts of that code and releasing the
+result under a GPLv2+ license.
+
+If you've any questions about or suggestions for upstream
+sunxi u-boot support please send a mail to me and Ian Campbell
+(the other sunxi custodian, ijc at hellion dot org dot uk).
+</pre>
+<h1> <span class="mw-headline" id="Documentation_requests"> Documentation requests </span></h1>
+<ul><li> See also: <a href="/Documentation_Request" title="Documentation Request">Documentation Request</a>
+</li></ul>
+<p>Enrico (ebutera at gmail dot com) writes:
+</p>
+<pre>documentation about the A10/A20 tv decoder (tv in) would be great.
+I'm one of the maintainers of the meta-sunxi openembedded layer, you can contact me directly.
+</pre>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=AllwinnerUpstream&amp;oldid=15304">http://linux-sunxi.org/index.php?title=AllwinnerUpstream&amp;oldid=15304</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks catlinks-allhidden'></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=AllwinnerUpstream&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=AllwinnerUpstream" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/AllwinnerUpstream" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:AllwinnerUpstream" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/AllwinnerUpstream">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=AllwinnerUpstream&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=AllwinnerUpstream&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/AllwinnerUpstream" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/AllwinnerUpstream" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=AllwinnerUpstream&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=AllwinnerUpstream&amp;oldid=15304" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 23 October 2015, at 15:56.</li>
+<li id="footer-info-viewcount">This page has been accessed 1,737 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

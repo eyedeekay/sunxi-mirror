@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Memory Stick - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Memory_Stick","wgTitle":"Memory Stick","wgCurRevisionId":5319,"wgArticleId":740,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Memory_Stick","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Memory_Stick"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Memory_Stick skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Memory Stick</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><ol><li>ifndef __MS_H__
+</li><li>define __MS_H__
+</li></ol>
+<ol><li>include "sunii.h"
+</li></ol>
+<ol><li>define MS_REG_o_CMD 0x00
+</li><li>define MS_REG_o_DAT 0x04
+</li><li>define MS_REG_o_STA 0x08
+</li><li>define MS_REG_o_SYS 0x0c
+</li><li>define MS_REG_o_ECTL 0x10
+</li><li>define MS_REG_o_EINT 0x14
+</li><li>define MS_REG_o_ESTA 0x18
+</li></ol>
+<ol><li>define MS_REG_CMD __REG(MSHC_REGS_BASE + MS_REG_o_CMD)
+</li><li>define MS_REG_DAT __REG(MSHC_REGS_BASE + MS_REG_o_DAT)
+</li><li>define MS_REG_STA __REG(MSHC_REGS_BASE + MS_REG_o_STA)
+</li><li>define MS_REG_SYS __REG(MSHC_REGS_BASE + MS_REG_o_SYS)
+</li><li>define MS_REG_ECTL __REG(MSHC_REGS_BASE + MS_REG_o_ECTL)
+</li><li>define MS_REG_EINT __REG(MSHC_REGS_BASE + MS_REG_o_EINT)
+</li><li>define MS_REG_ESTA __REG(MSHC_REGS_BASE + MS_REG_o_ESTA)
+</li></ol>
+<ol><li>define VIO_DMA 1
+</li><li>define VIO_IRQ 0
+</li></ol>
+<ol><li>define MEMORY_STICK_1x (0)
+</li><li>define MEMORY_STICK_PRO (1)
+</li><li>define UNKNOWN_CARD (-1)
+</li></ol>
+<ol><li>define READ_ONLY 0x1
+</li><li>define READ_WRITE 0x0
+</li></ol>
+<ol><li>define FAT12 0x0
+</li><li>define FAT16 0x1
+</li><li>define FAT32 0x2
+</li></ol>
+<ol><li>define QUICK_FORMAT 0x0
+</li><li>define FULL_FORMAT 0x1
+</li></ol>
+<ol><li>define TPC_READ_REG 0x4
+</li><li>define TPC_WRITE_REG 0xb
+</li><li>define TPC_SET_RW_REG_ADRS 0x8
+</li><li>define TPC_GET_INT 0x7
+</li><li>define TPC_SET_CMD 0xe
+</li><li>define TPC_READ_PAGE_DATA 0x2
+</li><li>define TPC_WRITE_PAGE_DATA 0xd
+</li><li>define TPC_READ_LONG_DATA 0x2
+</li><li>define TPC_READ_SHORT_DATA 0x3
+</li><li>define TPC_WRITE_LONG_DATA 0xd
+</li><li>define TPC_WRITE_SHORT_DATA 0xc
+</li><li>define TPC_EX_SET_CMD 0x9
+</li></ol>
+<ol><li>define MS_BLOCK_READ 0xaa
+</li><li>define MS_BLOCK_WRITE 0x55
+</li><li>define MS_BLOCK_END 0x33
+</li><li>define MS_BLOCK_ERASE 0x99
+</li><li>define MS_FLASH_STOP 0xcc
+</li><li>define MS_SLEEP 0x5a
+</li><li>define MS_CLEAR_BUF 0xc3
+</li><li>define MS_RESET 0x3c
+</li></ol>
+<ol><li>define MSPRO_READ_DATA 0x20
+</li><li>define MSPRO_WRITE_DATA 0x21
+</li><li>define MSPRO_READ_ATRB 0x24
+</li><li>define MSPRO_STOP 0x25
+</li><li>define MSPRO_ERASE 0x26
+</li><li>define MSPRO_SET_IBD 0x46
+</li><li>define MSPRO_GET_IBD 0x47
+</li><li>define MSPRO_FORMAT 0x10
+</li><li>define MSPRO_SLEEP 0x11
+</li></ol>
+<ol><li>define REG_INT 0x01
+</li><li>define REG_STATUS 0x02
+</li><li>define REG_TYPE 0x04
+</li><li>define REG_CATEGORY 0x06
+</li><li>define REG_CLASS 0x06
+</li><li>define REG_SYSPAR 0x10
+</li></ol>
+<ol><li>define MSPRO_REG_DATACNT0 0x11
+</li><li>define MSPRO_REG_DATACNT1 0x12
+</li><li>define MSPRO_REG_DATAADR0 0x13
+</li><li>define MSPRO_REG_DATAADR1 0x14
+</li><li>define MSPRO_REG_DATAADR2 0x15
+</li><li>define MSPRO_REG_DATAADR3 0x16
+</li><li>define MSPRO_REG_ATPCPAR 0x17
+</li><li>define MSPRO_REG_CMDPAR 0x18
+</li></ol>
+<ol><li>define MS_REG_STATUS1 0x3
+</li><li>define MS_REG_BLOCKADR0 0x13
+</li><li>define MS_REG_BLOCKADR1 0x12
+</li><li>define MS_REG_BLOCKADR2 0x11
+</li><li>define MS_REG_CMDPAR 0x14
+</li><li>define MS_REG_PAGEADR 0x15
+</li><li>define MS_REG_OVERWFLAG 0x16
+</li><li>define MS_REG_MANAGEFLAG 0x17
+</li><li>define MS_REG_LOGADR0 0x18
+</li><li>define MS_REG_LOGADR1 0x19
+</li><li>define MS_REG_RESERVE0 0x1a
+</li><li>define MS_REG_RESERVE1 0x1b
+</li><li>define MS_REG_RESERVE2 0x1c
+</li><li>define MS_REG_RESERVE3 0x1d
+</li><li>define MS_REG_RESERVE4 0x1e
+</li></ol>
+<pre>typedef struct 
+{
+ __u8 fat_type;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="230c0c63135b13">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u32 whole_sector_number;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0f20204f3f773b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u32 sectors_per_cluster;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a58a8ae595dd9d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+} FILE_SYS_t;
+</pre>
+<pre>typedef struct 
+{
+ __s8 type;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="406f6f00703870">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 rw;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e4cbcba4d49cd5">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 interface_mode;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="6e41412e5e165c">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 system_status_reg;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="9db2b2ddade5ae">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 interface_type_reg;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="8da2a2cdbdf5b9">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 category_reg;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f4dbdbb4c48cc1">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 class_reg;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="240b0b64145c12">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ FILE_SYS_t filesys;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="38171778084000">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+} MS_CARD_INFO_t;
+</pre>
+<pre>typedef struct 
+{
+ __u8 pages_per_block;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="efc0c0afdf97df">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 boot_block[2];<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="af8080ef9fd79e">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 n_boot_block;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c9e6e689f9b1fa">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u16 table_block;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="6e41412e5e165a">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 n_disable_block;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0f20204f3f7739">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u16 disable_block[32];<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="47686807773f7f">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 nsegment;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="8da2a2cdbdf5b9b5">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 cur_segment;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="230c0c63135b171a">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u16 l2p[496];<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0827274838703c49">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u16 free[16];<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0a25254a3a723e384b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+} MS1X_GLOBAL_INFO_t;
+</pre>
+<ol><li>define ACCESS_BY_DMA 1
+</li><li>define ACCESS_BY_AHB 0
+</li></ol>
+<ol><li>define SERIAL_MODE 1
+</li><li>define PARALLEL_MODE 0
+</li></ol>
+<pre>typedef struct 
+{
+ __u8 access_mode;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="1f30305f2f672f">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 busy_cnt;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="d8f7f798e8a0e9">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+ __u8 edian;<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e4cbcba4d49cd6">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+} MSC_CARD_CONFIG_INFO_t;
+</pre>
+<ol><li>endif
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Memory_Stick&amp;oldid=5319">http://linux-sunxi.org/index.php?title=Memory_Stick&amp;oldid=5319</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks catlinks-allhidden'></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Memory+Stick&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Memory+Stick" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Memory_Stick" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Memory_Stick&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Memory_Stick">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Memory_Stick&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Memory_Stick&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Memory_Stick" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Memory_Stick" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Memory_Stick&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Memory_Stick&amp;oldid=5319" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 September 2013, at 19:46.</li>
+<li id="footer-info-viewcount">This page has been accessed 1,229 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

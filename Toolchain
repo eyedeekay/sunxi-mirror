@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Toolchain - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Toolchain","wgTitle":"Toolchain","wgCurRevisionId":16164,"wgArticleId":686,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Toolchain","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Toolchain"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Toolchain skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Toolchain</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The toolchain is a set of binaries, system libraries and tools which allow you to build (in our case, cross-compile) u-boot and the kernel for a target platform. This will, to some limited extent, need to match the target rootfs. A large and incompatible change has taken place recently, through the <a rel="nofollow" class="external text" href="http://wiki.debian.org/ArmHardFloatPort">Hard Float ABI</a>. Now, two different debian and ubuntu ports are binary incompatible with each other.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Part_of_distributions"><span class="tocnumber">1</span> <span class="toctext">Part of distributions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Ubuntu"><span class="tocnumber">1.1</span> <span class="toctext">Ubuntu</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#Recent_.28from_12.04_on.29"><span class="tocnumber">1.1.1</span> <span class="toctext">Recent (from 12.04 on)</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#Older"><span class="tocnumber">1.1.2</span> <span class="toctext">Older</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-5"><a href="#Debian"><span class="tocnumber">1.2</span> <span class="toctext">Debian</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Fedora"><span class="tocnumber">1.3</span> <span class="toctext">Fedora</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Gentoo"><span class="tocnumber">1.4</span> <span class="toctext">Gentoo</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#ARM_crosscompiler"><span class="tocnumber">1.4.1</span> <span class="toctext">ARM crosscompiler</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#ARM64_crosscompiler"><span class="tocnumber">1.4.2</span> <span class="toctext">ARM64 crosscompiler</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#OpenRISC_crosscompiler"><span class="tocnumber">1.4.3</span> <span class="toctext">OpenRISC crosscompiler</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Standalone"><span class="tocnumber">2</span> <span class="toctext">Standalone</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Linaro_toolchain"><span class="tocnumber">2.1</span> <span class="toctext">Linaro toolchain</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Download"><span class="tocnumber">2.1.1</span> <span class="toctext">Download</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Usage"><span class="tocnumber">2.1.2</span> <span class="toctext">Usage</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#no_hardfloat.3F"><span class="tocnumber">2.1.3</span> <span class="toctext">no hardfloat?</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="#Code_Sourcery"><span class="tocnumber">2.2</span> <span class="toctext">Code Sourcery</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#External_links"><span class="tocnumber">3</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Part_of_distributions"> Part of distributions </span></h1>
+<h2> <span class="mw-headline" id="Ubuntu"> Ubuntu </span></h2>
+<h3> <span class="mw-headline" id="Recent_.28from_12.04_on.29"> Recent (from 12.04 on) </span></h3>
+<p>A complete cross toolchain is available as a package, just run:
+</p>
+<pre>apt-get install gcc-arm-linux-gnueabihf</pre>
+<h3> <span class="mw-headline" id="Older"> Older </span></h3>
+<p>For older versions, you need to use an external repository.
+</p>
+<pre>add-apt-repository ppa:linaro-maintainers/toolchain
+apt-get update
+apt-get install gcc-arm-linux-gnueabihf</pre>
+<h2> <span class="mw-headline" id="Debian"> Debian </span></h2>
+<p>Details on Cross-development Toolchains for Debian are at the <a rel="nofollow" class="external text" href="https://wiki.debian.org/CrossToolchains">Debian Wiki</a>.
+<br/>
+<b>Note:</b> Debian now has cross-toolchains in the archive, superseding those at emdebian.org
+</p><p>Currently (December 2015) available for unstable and testing in the standard repositories.
+</p><p>Install Cross Compiler and build utilities:
+</p>
+<pre>dpkg --add-architecture armhf
+apt-get update
+apt-get install <b>g++-arm-linux-gnueabihf</b>
+</pre>
+<p>You might want additional tools for building a sunxi system that are not related to the cross-compiler:
+</p>
+<pre>apt-get install build-essential git debootstrap u-boot-tools device-tree-compiler
+</pre>
+<h2> <span class="mw-headline" id="Fedora"> Fedora </span></h2>
+<p>A complete cross toolchain is available as a package, just run:
+</p>
+<pre>yum install gcc-arm-linux-gnu</pre>
+<h2> <span class="mw-headline" id="Gentoo"> Gentoo </span></h2>
+<p>The <a rel="nofollow" class="external text" href="http://www.gentoo.org/proj/en/base/embedded/handbook/?part=1&amp;chap=2">crossdev tool</a><sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>
+is the standard way of dealing with crosscompilers in Gentoo. Command line options are used to specify any arbitrary mix of different versions of the kernel headers, glibc, binutils and gcc. You can also use the -S option instead (to pick whatever is considered to be stable at the moment), but in this case the crosscompiler will be also upgraded as part of the regular distribution updates, which might be a bit annoying.
+</p>
+<h4> <span class="mw-headline" id="ARM_crosscompiler"> ARM crosscompiler </span></h4>
+<p>Even though Gentoo normally uses <b>armv7a-hardfloat-linux-gnueabi</b> as the toolchain triplet on ARM, we can also use Debian alike <b>arm-linux-gnueabihf</b> variant in order to be able to use the compilation instructions from the linux-sunxi wiki as-is (without substituting the toolchain name).
+</p>
+<pre>
+emerge crossdev
+crossdev --kernel =3.18 --libc =2.20-r2 --binutils =2.24-r3 --gcc =4.8.5 \
+         --genv 'USE=&quot;-fortran -mudflap -nls -openmp multilib&quot; EXTRA_ECONF=&quot;--with-cpu=cortex-a8 --with-float=hard&quot;' -t arm-linux-gnueabihf
+</pre>
+<h4> <span class="mw-headline" id="ARM64_crosscompiler"> ARM64 crosscompiler </span></h4>
+<pre>
+emerge crossdev
+crossdev --kernel =3.18 --libc =2.21-r1 --binutils =9999 --gcc =4.9.3 \
+         --genv 'USE=&quot;-fortran -mudflap -nls -openmp multilib -sanitize&quot; EXTRA_ECONF=&quot;--enable-fix-cortex-a53-843419&quot;' -t aarch64-linux-gnu
+</pre>
+<p>Note: binutils =9999 (fetch sources from git) should be replaced with =2.26 as soon as binutils 2.26 is added to portage. Such new binutils version is necessary for having a Cortex-A53 erratum 843419 workaround.
+</p>
+<h4> <span class="mw-headline" id="OpenRISC_crosscompiler"> OpenRISC crosscompiler </span></h4>
+<p>If you have one of the Allwinner SoC variants with an additional <a href="/AR100" title="AR100">OpenRISC core</a> (for example <a href="/A31" title="A31">A31</a> and <a href="/H3" title="H3">H3</a> have it), then you might want to also build an OpenRISC crosscompiler too:
+</p>
+<pre>
+emerge crossdev
+mkdir -p /etc/portage/patches/cross-or1k-elf/gcc-5.2.0
+cd /etc/portage/patches/cross-or1k-elf/gcc-5.2.0
+wget https://gist.githubusercontent.com/ssvb/28e22f4086af26ec9cd0/raw/8d3d091177156a92497f31de3bfb3d7da9e52649/0001-OpenRISC-support-for-GCC-5.2.0.patch
+crossdev --binutils =2.25.1-r1 --gcc =5.2.0 --libc =2.2.0.20150423 \
+         --genv 'USE=&quot;cxx multilib -fortran -mudflap -nls -openmp -sanitize&quot;' \
+         -s4 -t or1k-elf
+</pre>
+<p>Please note that the upstream GCC does not support OpenRISC yet, so the OpenRISC code is still brewing in <a class="external free" href="https://github.com/openrisc/or1k-gcc.git">https://github.com/openrisc/or1k-gcc.git</a> and we can solve this problem by just providing a patch for GCC in the <i>/etc/portage/patches</i> directory.
+</p>
+<hr/>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">The Gentoo website has undergone a major overhaul as of April 2015. While a backup of the old content is still available, it seems to have left the <i>Gentoo Embedded Handbook</i> in a non-functional state. You can still find a copy <a rel="nofollow" class="external text" href="https://web.archive.org/web/20140811221945/http://www.gentoo.org/proj/en/base/embedded/handbook/?part=1&amp;chap=2">via archive.org</a>. The wiki article on <a rel="nofollow" class="external text" href="https://wiki.gentoo.org/wiki/Raspberry_Pi_Cross_building">Raspberry Pi Cross building</a> might also be helpful.</span>
+</li></ol>
+<h1> <span class="mw-headline" id="Standalone"> Standalone </span></h1>
+<p>These standalone toolchains are big tarballs which come with everything you need.
+</p>
+<h2> <span class="mw-headline" id="Linaro_toolchain"> Linaro toolchain </span></h2>
+<h3> <span class="mw-headline" id="Download"> Download </span></h3>
+<p>Linaro has been very good at changing the location and availability of just about everything, making it very hard to keep a wiki up to date which refers to it. So the below download locations might be stale already.
+</p><p>Currently, <a rel="nofollow" class="external text" href="http://www.linaro.org/downloads/#008">the main selection page is here</a>.
+</p><p>It lists the following toolchains:
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://releases.linaro.org/12.03/components/toolchain/gcc-linaro/4.5">gcc-linaro 4.5 (4.5-2012.03)</a>: <span style="color:#ba0000">Test me</span>
+</li><li> <a rel="nofollow" class="external text" href="http://releases.linaro.org/13.05/components/toolchain/gcc-linaro/4.6">gcc-linaro 4.6 (4.6-2013.05)</a>: <span style="color:#ba0000">Test me</span>
+</li><li> <a rel="nofollow" class="external text" href="http://releases.linaro.org/14.06/components/toolchain/gcc-linaro/4.7">gcc-linaro 4.7 (4.7-2014.06)</a>: <span style="color:#ba0000">Test me</span>
+</li><li> <a rel="nofollow" class="external text" href="http://releases.linaro.org/14.04/components/toolchain/gcc-linaro/4.8">gcc-linaro 4.8 (4.8-2014.04)</a>: <span style="color:#ba0000">Test me</span>
+</li><li> <a rel="nofollow" class="external text" href="http://releases.linaro.org/14.07/components/toolchain/gcc-linaro/4.9">gcc-linaro 4.9 (4.9-2014.07)</a>: <span style="color:#ba0000">Test me</span> (this link will go dead the quickest.)
+</li></ul>
+<p>When in doubt, try 4.7 first.
+</p><p><b>WARNING: Do not use the 4.8 gcc versions of the linaro toolchain to build legacy kernels (sunxi-3.4 etc.), those seem to have issues building the kernel. Use an earlier version instead.</b> (<span style="color:#ba0000">TODO: Verify that this is still true today</span>).
+</p>
+<h3> <span class="mw-headline" id="Usage"> Usage </span></h3>
+<p>Take a gcc-linaro-&lt;major&gt;.&lt;minor&gt;-&lt;year&gt;.&lt;month&gt;.tar.xz file and untar it. You will find a bin directory in there. Temporarily add it to the environment you are building from:
+</p>
+<pre>export PATH=&quot;$PATH&quot;:/home/user/folder/gcc-linaro-arm-linux-gnueabihf-*_linux/bin/</pre>
+<h3> <span class="mw-headline" id="no_hardfloat.3F"> no hardfloat? </span></h3>
+<p>Recent linaro toolchains are Hard Float (hf), this will be used throughout the wiki you see something like:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-</pre>
+<p>Replace arm-linux-gnueabihf- with arm-linux-gnueabi- if your are not using a hardfloat toolchain.
+</p>
+<h2> <span class="mw-headline" id="Code_Sourcery"> Code Sourcery </span></h2>
+<p>Another option is to install the Sourcery toolchain from Code Sourcery (now in Mentor Graphics). Download Code Sourcery G++ 2010 9-50
+<a rel="nofollow" class="external free" href="https://sourcery.mentor.com/sgpp/lite/arm/portal/release1600">https://sourcery.mentor.com/sgpp/lite/arm/portal/release1600</a> (official link, email registration required)
+</p><p>Direct link:
+<a rel="nofollow" class="external free" href="https://netst.org/pub/linux/ARM/CodeSourcery/arm-2010.09-50-arm-none-linux-gnueabi.bin">https://netst.org/pub/linux/ARM/CodeSourcery/arm-2010.09-50-arm-none-linux-gnueabi.bin</a> (unofficial link)
+</p><p><br/>
+</p>
+<pre>
+chmod +x arm-2010.09-50-arm-none-linux-gnueabi.bin
+./arm-2010.09-50-arm-none-linux-gnueabi.bin
+</pre>
+<p><br/>
+If you are using Ubuntu, you may need to switch to use bash shell (instead of dash shell)
+</p>
+<pre>
+sudo dpkg-reconfigure -plow dash      ( then choose [No], this changes from using dash shell to using bash shell )
+</pre>
+<p><br/>
+It will now install CodeSourcery with a GUI installer
+</p><p>Follow default settings and do Next , Next, Next, etc…
+</p><p>It should install in: ~/CodeSourcery/ ( for example: /home/penguin/CodeSourcery/ )
+</p><p>Make sure the CodeSourcery binaries are added to your path (if your username is penguin, then this should be correct):
+</p>
+<pre>
+echo &quot;export PATH=~/CodeSourcery/Sourcery_G++_Lite/bin:\${PATH}&quot; &gt;&gt; ~/.bashrc
+export PATH=~/CodeSourcery/Sourcery_G++_Lite/bin:$PATH   (or you can just spawn a new terminal window to update the path)
+echo $PATH  (make sure your path is updated)
+</pre>
+<h1> <span class="mw-headline" id="External_links"> External links </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.mentor.com/embedded-software/codesourcery">Homepage</a> (<small>mentor.com</small>)
+</li><li> <a rel="nofollow" class="external text" href="http://sourcery.mentor.com/public/gnu_toolchain/">Direct download</a> (<small>mentor.com</small>)
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Toolchain&amp;oldid=16164">http://linux-sunxi.org/index.php?title=Toolchain&amp;oldid=16164</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Toolchain&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Toolchain" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Toolchain" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Toolchain" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Toolchain">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Toolchain&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Toolchain&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Toolchain" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Toolchain" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Toolchain&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Toolchain&amp;oldid=16164" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 January 2016, at 03:28.</li>
+<li id="footer-info-viewcount">This page has been accessed 112,420 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

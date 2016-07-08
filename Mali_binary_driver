@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Mali binary driver - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mali_binary_driver","wgTitle":"Mali binary driver","wgCurRevisionId":17555,"wgArticleId":456,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Proprietary Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Mali_binary_driver","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Mali_binary_driver"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Mali_binary_driver skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Mali binary driver</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The sun4i and sun5i use a <a href="/Mali400" title="Mali400">Mali400</a>MP1 and sun7i uses Mali400MP2 (dual-core GPU). We have support available for several versions of the mali binary driver stack, even though our kernel tends to come with the R3P0 version. We support fbdev and X11 as windowing systems.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Mali_and_UMP_kernel_drivers"><span class="tocnumber">1</span> <span class="toctext">Mali and UMP kernel drivers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Modules"><span class="tocnumber">1.1</span> <span class="toctext">Modules</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Device_permission"><span class="tocnumber">1.2</span> <span class="toctext">Device permission</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Installing_the_UMP_.28Unified_Memory_Provider.29_userspace_library"><span class="tocnumber">2</span> <span class="toctext">Installing the UMP (Unified Memory Provider) userspace library</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#From_a_package"><span class="tocnumber">2.1</span> <span class="toctext">From a package</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#From_source"><span class="tocnumber">2.2</span> <span class="toctext">From source</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Prequisites"><span class="tocnumber">2.2.1</span> <span class="toctext">Prequisites</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Clone_the_repo"><span class="tocnumber">2.2.2</span> <span class="toctext">Clone the repo</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Build"><span class="tocnumber">2.2.3</span> <span class="toctext">Build</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Installing_the_Mali_userspace_driver"><span class="tocnumber">3</span> <span class="toctext">Installing the Mali userspace driver</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Prerequisites"><span class="tocnumber">3.1</span> <span class="toctext">Prerequisites</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#Building_Tools"><span class="tocnumber">3.1.1</span> <span class="toctext">Building Tools</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#X11_development_files_.28optional.29"><span class="tocnumber">3.1.2</span> <span class="toctext">X11 development files (optional)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Clone_the_repo_2"><span class="tocnumber">3.2</span> <span class="toctext">Clone the repo</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Configure"><span class="tocnumber">3.3</span> <span class="toctext">Configure</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Dependencies"><span class="tocnumber">3.4</span> <span class="toctext">Dependencies</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="#libdri2_.28r3p0_X11_only.29"><span class="tocnumber">3.4.1</span> <span class="toctext">libdri2 (r3p0 X11 only)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-18"><a href="#Install"><span class="tocnumber">3.5</span> <span class="toctext">Install</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#Setting_up_the_windowing_system"><span class="tocnumber">4</span> <span class="toctext">Setting up the windowing system</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#Framebuffer"><span class="tocnumber">4.1</span> <span class="toctext">Framebuffer</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Xserver"><span class="tocnumber">4.2</span> <span class="toctext">Xserver</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="#Verifying_the_EGL.2FGLES_driver_stack"><span class="tocnumber">5</span> <span class="toctext">Verifying the EGL/GLES driver stack</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Common_pitfalls"><span class="tocnumber">6</span> <span class="toctext">Common pitfalls</span></a>
+<ul>
+<li class="toclevel-2 tocsection-24"><a href="#Mesa_libraries_are_still_in_the_way"><span class="tocnumber">6.1</span> <span class="toctext">Mesa libraries are still in the way</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Mali_and_UMP_kernel_drivers"> Mali and UMP kernel drivers </span></h1>
+<p>First <a href="/Display" title="Display">get a working display driver</a>.
+</p>
+<h2> <span class="mw-headline" id="Modules"> Modules </span></h2>
+<p>The default config for the kernel should have the Mali kernel drivers as modules. You should be able to load it by simply running
+</p>
+<pre class="brush: bash">
+modprobe mali
+</pre>
+<p>A cleaner solution is to have the module autoloaded at boot, by adding the following to /etc/modules:
+</p>
+<pre class="brush: bash">
+mali
+</pre>
+<p>If you use <a href="/Xorg#fbturbo_driver" title="Xorg"> a properly set up Xserver</a>, then the necessary modules will be automatically loaded when X starts.
+</p>
+<h2> <span class="mw-headline" id="Device_permission"> Device permission </span></h2>
+<p>The default permissions of /dev/ump and /dev/mali make these unusable for normal users. Add a file to /etc/udev/rules.d/, perhaps called 50-mali.rules, with the following content:
+</p>
+<pre class="brush: bash">
+KERNEL==&quot;mali&quot;, MODE=&quot;0660&quot;, GROUP=&quot;video&quot;
+KERNEL==&quot;ump&quot;, MODE=&quot;0660&quot;, GROUP=&quot;video&quot;
+</pre>
+<p>This should give a user belonging to the group video the right permissions to use the mali successfully.
+</p>
+<h1> <span class="mw-headline" id="Installing_the_UMP_.28Unified_Memory_Provider.29_userspace_library"> Installing the UMP (Unified Memory Provider) userspace library </span></h1>
+<h2> <span class="mw-headline" id="From_a_package"> From a package </span></h2>
+<p>There are <a href="/Packages" title="Packages">some packages available</a> which fully install libUMP for you.
+</p>
+<h2> <span class="mw-headline" id="From_source"> From source </span></h2>
+<h3> <span class="mw-headline" id="Prequisites"> Prequisites </span></h3>
+<p>libUMP only depends on libc and the <b>ump</b> kernel module.
+</p><p><b>Debian/Ubuntu</b>
+</p>
+<pre class="brush: bash">
+apt-get install git build-essential autoconf libtool
+</pre>
+<p><b>Fedora</b>
+</p>
+<pre class="brush: bash">
+yum install gcc autoconf libtool git
+</pre>
+<h3> <span class="mw-headline" id="Clone_the_repo"> Clone the repo </span></h3>
+<pre class="brush: bash">
+git clone https://github.com/linux-sunxi/libump.git
+cd libump
+</pre>
+<h3> <span class="mw-headline" id="Build"> Build </span></h3>
+<p><b>Building on Debian/Ubuntu</b>
+</p><p>If you are on debian or ubuntu, you should build the package.
+</p>
+<pre class="brush: bash">
+apt-get install debhelper dh-autoreconf fakeroot pkg-config
+</pre>
+<p>Then build the packages, after descending into the git tree:
+</p>
+<pre class="brush: bash">
+dpkg-buildpackage -b
+</pre>
+<p>When that finishes, install the main package:
+</p>
+<pre class="brush: bash">
+dpkg -i ../libump_*.deb
+</pre>
+<p><b>Building on other distributions</b>
+</p>
+<pre class="brush: bash">
+autoreconf -i
+./configure --prefix=/usr
+make
+make install
+</pre>
+<h1> <span class="mw-headline" id="Installing_the_Mali_userspace_driver"> Installing the Mali userspace driver </span></h1>
+<h2> <span class="mw-headline" id="Prerequisites"> Prerequisites </span></h2>
+<h3> <span class="mw-headline" id="Building_Tools"> Building Tools </span></h3>
+<p>You will need to have the basic building tools installed:
+</p><p><b>Debian/Ubuntu</b>
+</p>
+<pre class="brush: bash">
+apt-get install git build-essential autoconf automake
+</pre>
+<p><b> Fedora </b>
+</p>
+<pre class="brush: bash">
+yum install gcc autoconf libtool git
+</pre>
+<h3> <span class="mw-headline" id="X11_development_files_.28optional.29"> X11 development files (optional) </span></h3>
+<p>If you wish to install the X11 version of the mali binaries, then you also need to install this:
+</p><p><b>Debian/Ubuntu</b>
+</p>
+<pre class="brush: bash">
+apt-get install xutils-dev
+</pre>
+<p><b>Fedora</b>
+</p>
+<pre class="brush: bash">
+yum install xorg-x11-server-devel
+</pre>
+<h2> <span class="mw-headline" id="Clone_the_repo_2"> Clone the repo </span></h2>
+<pre class="brush: bash">
+git clone --recursive https://github.com/linux-sunxi/sunxi-mali.git
+cd sunxi-mali
+</pre>
+<h2> <span class="mw-headline" id="Configure"> Configure </span></h2>
+<p>Before you follow the instructions in this section, make sure that you have loaded <a href="#Modules">the mali module</a>, so that the kernel driver version can be autodetected.
+</p><p>Now you can descend into sunxi-mali, and you can let it detect your environment:
+</p>
+<pre class="brush: bash">
+make config
+</pre>
+<p>It will state the detected environment, like so:
+</p>
+<pre class="brush: bash">
+rm -f config.mk
+make config.mk
+make[1]: Entering directory `/home/libv/sunxi/sunxi-mali'
+make -f Makefile.config
+ABI=&quot;armhf&quot; (Detected)
+VERSION=&quot;r3p0&quot; (Detected)
+EGL_TYPE=&quot;x11&quot; (Detected)
+make[2]: Entering directory `/home/libv/sunxi/sunxi-mali'
+echo &quot;MALI_VERSION&#160;?= r3p0&quot; &gt; config.mk
+echo &quot;MALI_LIBS_ABI&#160;?= armhf&quot; &gt;&gt; config.mk
+echo &quot;MALI_EGL_TYPE&#160;?= x11&quot; &gt;&gt; config.mk
+make[2]: Leaving directory `/home/libv/sunxi/sunxi-mali'
+make[1]: Leaving directory `/home/libv/sunxi/sunxi-mali'
+</pre>
+<p>In case it complains about missing libdri2.so.1, follow the instructions in the <a href="#libdri2_.28r3p0_X11_only.29">libdri2 (r3p0 X11 only)</a> section and try again.
+</p>
+<h2> <span class="mw-headline" id="Dependencies"> Dependencies </span></h2>
+<p>The sunxi-mali build system checks whether the selected library has all of its dependencies resolved. You might need to resolve these dependencies through your package manager.
+</p>
+<h3> <span class="mw-headline" id="libdri2_.28r3p0_X11_only.29"> libdri2 (r3p0 X11 only) </span></h3>
+<p>Some distributions have <b>libdri2</b> compiled into the X11 binary, instead of having it as a separate library and package. If that is the case, you need to compile libdri2 manually.
+</p><p>You may need to install the following dependencies on Debian. On Fedora, the package <b>xorg-x11-server-devel</b> should be enough.
+</p>
+<pre class="brush: bash">apt-get install libx11-dev libxext-dev libdrm-dev x11proto-dri2-dev libxfixes-dev</pre>
+<p>To build the library:
+</p>
+<pre class="brush: bash">git clone https://github.com/robclark/libdri2
+cd libdri2
+./autogen.sh
+./configure --prefix=/usr
+make
+make install
+ldconfig</pre>
+<h2> <span class="mw-headline" id="Install"> Install </span></h2>
+<p>By following will install the GLES/EGL binaries into /usr/lib/, and EGL/GLES headers to /usr/include/:
+</p>
+<pre class="brush: bash">make install</pre>
+<h1> <span class="mw-headline" id="Setting_up_the_windowing_system"> Setting up the windowing system </span></h1>
+<h2> <span class="mw-headline" id="Framebuffer"> Framebuffer </span></h2>
+<p>If you are using the framebuffer/fbdev version of the binaries, then your setup work is done.
+</p><p>You might want to change the fbdev device used by setting the <b>FRAMEBUFFER</b> environment variable.
+</p>
+<h2> <span class="mw-headline" id="Xserver"> Xserver </span></h2>
+<p>If you want a GLES capable Xserver, then you will need to install the fbturbo driver according to our <a href="/Xorg#fbturbo_driver" title="Xorg">Xorg page</a>.
+</p>
+<h1> <span class="mw-headline" id="Verifying_the_EGL.2FGLES_driver_stack"> Verifying the EGL/GLES driver stack </span></h1>
+<p>From the mali-sunxi repository, you can run:
+</p>
+<pre class="brush: bash">
+make test
+</pre>
+<p>In case it complains about "/usr/bin/ld: /tmp/ccD8ofcr.o: undefined reference to symbol 'XNextEvent'", you probably need to add the linker option "-lX11" to the Makefile and try again.
+</p><p>After it successfully builds, run:
+</p>
+<pre class="brush: bash">
+test/test
+</pre>
+<p>And you should be able to see a smoothed triangle, either written out to the top left corner of the framebuffer, or in an X window. The console will tell you which renderer is being used:
+</p>
+<pre>
+...
+GL Vendor: &quot;ARM&quot;
+GL Renderer: &quot;Mali-400 MP&quot;
+GL Version: &quot;OpenGL ES 2.0&quot;
+...
+</pre>
+<p>Double check with:
+</p>
+<pre class="brush: bash">
+es2_info
+</pre>
+<p>Success!
+</p>
+<h1> <span class="mw-headline" id="Common_pitfalls"> Common pitfalls </span></h1>
+<h2> <span class="mw-headline" id="Mesa_libraries_are_still_in_the_way"> Mesa libraries are still in the way </span></h2>
+<p>If you are seeing one of this, it means Mesa is still used instead of Mali:
+</p>
+<pre>
+libEGL warning: failed to create a pipe screen for Mali DRI2
+libEGL warning: DRI2: failed to open Mali DRI2 (search paths /usr/lib/arm-linux-gnueabihf/dri)
+</pre>
+<pre>
+libEGL warning: failed to create a pipe screen for lima
+libEGL warning: DRI2: failed to open lima (search paths /usr/lib/arm-linux-gnueabihf/dri:${ORIGIN}/dri:/usr/lib/dri)
+</pre>
+<p>Then the current best advice is to move the mesa-egl aside:
+</p>
+<pre class="brush: bash">
+mv /usr/lib/arm-linux-gnueabihf/mesa-egl/ /usr/lib/arm-linux-gnueabihf/.mesa-egl/
+</pre>
+<p>If not present, look for <i>libGLESv2.so</i>, <i>libEGL.so</i> and their symlink in <i>/usr/lib</i> (and subdir); then, make them point to <i>libMali.so</i>.
+</p>
+<pre class="brush: bash">
+ln -s /usr/lib/libMali.so /usr/lib/libGLESv2.so
+...
+</pre>
+<p>Awkward, but at least gets you something workable.
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/Display" title="Display"> Setting up a working display driver</a>
+</li><li> <a href="/Xorg" title="Xorg"> Setting up an accelerated driver for the Xserver</a>
+</li><li> <a href="/Video_Engine" title="Video Engine"> Hardware media acceleration (video decoding)</a>.
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Mali_binary_driver&amp;oldid=17555">http://linux-sunxi.org/index.php?title=Mali_binary_driver&amp;oldid=17555</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Proprietary_Software" title="Category:Proprietary Software">Proprietary Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mali+binary+driver&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mali+binary+driver" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Mali_binary_driver" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Mali_binary_driver&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Mali_binary_driver">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Mali_binary_driver&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Mali_binary_driver&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Mali_binary_driver" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Mali_binary_driver" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Mali_binary_driver&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Mali_binary_driver&amp;oldid=17555" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 8 June 2016, at 22:06.</li>
+<li id="footer-info-viewcount">This page has been accessed 128,507 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

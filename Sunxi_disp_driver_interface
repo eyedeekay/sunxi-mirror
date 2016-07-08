@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Sunxi disp driver interface - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Sunxi_disp_driver_interface","wgTitle":"Sunxi disp driver interface","wgCurRevisionId":11860,"wgArticleId":254,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Development"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Sunxi_disp_driver_interface","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Sunxi_disp_driver_interface"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Sunxi_disp_driver_interface skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Sunxi disp driver interface</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The allwinner provided sunxi disp driver has many severe issues and needs to be significantly redesigned. Since the allwinner engineers decided to directly use numbers for ioctls, instead of using the _IO macros, there is no way around redefining all of them to begin with. We will try to keep the current interface stable for as long as possible, and make the future break or breaks as abrupt and complete as possible. But:
+</p><p><b>The /dev/disp interface will break and will in the end vanish completely!</b>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#First.21"><span class="tocnumber">1</span> <span class="toctext">First!</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#The_goal"><span class="tocnumber">2</span> <span class="toctext">The goal</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#The_path"><span class="tocnumber">3</span> <span class="toctext">The path</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Current_users"><span class="tocnumber">4</span> <span class="toctext">Current users</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Allwinner_Android_support_code"><span class="tocnumber">4.1</span> <span class="toctext">Allwinner Android support code</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Stable_IOCTLs"><span class="tocnumber">5</span> <span class="toctext">Stable IOCTLs</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Color_format_mapping_table"><span class="tocnumber">6</span> <span class="toctext">Color format mapping table</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Deinterlacer"><span class="tocnumber">7</span> <span class="toctext">Deinterlacer</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="First.21"> First! </span></h2>
+<p>The disp ioctl header file has been cleaned up and some versioning has been added. Be sure to get the correct header file from the kernel source (LINK!).
+</p><p>In Documentation/sunxi/disp/ there is disp_version.c which gives a good example of how to easily support the new and mandatory versioning ioctl.
+</p>
+<h2> <span class="mw-headline" id="The_goal"> The goal </span></h2>
+<h2> <span class="mw-headline" id="The_path"> The path </span></h2>
+<h2> <span class="mw-headline" id="Current_users"> Current users </span></h2>
+<p>Below is a list of the current users of the disp interface, where the repository for this code is, and how the responsible author can notified of breakage.
+</p>
+<h3> <span class="mw-headline" id="Allwinner_Android_support_code"> Allwinner Android support code </span></h3>
+<h2> <span class="mw-headline" id="Stable_IOCTLs"> Stable IOCTLs </span></h2>
+<p>The following IOCTLs and their structures are known to be in active use as they were flagged to us by the programs listed in the previous section. We will try to do our utmost best to keep these IOCTLs stable. All other ioctls are a bit of a free-for-all, and will not be checked for.&lt;/ br&gt;
+There is a very good overview of all available ioctls and how to use them:
+</p>
+<ul><li> <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.4/Documentation/sunxi/disp/disp_ioctls.txt">Documentation/sunxi/disp/disp_ioctls.txt</a>
+</li><li> <a href="/Sunxi_disp_driver_interface/IOCTL" title="Sunxi disp driver interface/IOCTL">Sunxi disp driver interface/IOCTL</a>
+</li></ul>
+<p><br/>
+</p>
+<ul><li> DISP_CMD_EXECUTE_CMD_AND_STOP_CACHE
+</li><li> DISP_CMD_FB_RELEASE
+</li><li> DISP_CMD_FB_REQUEST
+</li><li> DISP_CMD_GET_OUTPUT_TYPE
+</li><li> DISP_CMD_HDMI_GET_HPD_STATUS
+</li><li> DISP_CMD_HDMI_GET_MODE
+</li><li> DISP_CMD_HDMI_OFF
+</li><li> DISP_CMD_HDMI_ON
+</li><li> DISP_CMD_HDMI_SET_MODE
+</li><li> DISP_CMD_HDMI_SUPPORT_MODE
+</li><li> DISP_CMD_LAYER_ALPHA_OFF
+</li><li> DISP_CMD_LAYER_ALPHA_ON
+</li><li> DISP_CMD_LAYER_BOTTOM
+</li><li> DISP_CMD_LAYER_CK_OFF
+</li><li> DISP_CMD_LAYER_CK_ON
+</li><li> DISP_CMD_LAYER_CLOSE
+</li><li> DISP_CMD_LAYER_GET_BLACK_EXTEN_LEVEL
+</li><li> DISP_CMD_LAYER_GET_CHROMA_SHARP_LEVEL
+</li><li> DISP_CMD_LAYER_GET_LUMA_SHARP_LEVEL
+</li><li> DISP_CMD_LAYER_GET_PARA
+</li><li> DISP_CMD_LAYER_GET_VPP_EN
+</li><li> DISP_CMD_LAYER_GET_WHITE_EXTEN_LEVEL
+</li><li> DISP_CMD_LAYER_OPEN
+</li><li> DISP_CMD_LAYER_RELEASE
+</li><li> DISP_CMD_LAYER_REQUEST
+</li><li> DISP_CMD_LAYER_SET_ALPHA_VALUE
+</li><li> DISP_CMD_LAYER_SET_BLACK_EXTEN_LEVEL
+</li><li> DISP_CMD_LAYER_SET_CHROMA_SHARP_LEVEL
+</li><li> DISP_CMD_LAYER_SET_LUMA_SHARP_LEVEL
+</li><li> DISP_CMD_LAYER_SET_PARA
+</li><li> DISP_CMD_LAYER_SET_PIPE
+</li><li> DISP_CMD_LAYER_SET_SCN_WINDOW
+</li><li> DISP_CMD_LAYER_SET_WHITE_EXTEN_LEVEL
+</li><li> DISP_CMD_LAYER_TOP
+</li><li> DISP_CMD_LAYER_VPP_OFF
+</li><li> DISP_CMD_LAYER_VPP_ON
+</li><li> DISP_CMD_LCD_OFF
+</li><li> DISP_CMD_LCD_ON
+</li><li> DISP_CMD_SCN_GET_HEIGHT
+</li><li> DISP_CMD_SCN_GET_WIDTH
+</li><li> DISP_CMD_SET_COLORKEY
+</li><li> DISP_CMD_START_CMD_CACHE
+</li><li> DISP_CMD_VIDEO_GET_FRAME_ID
+</li><li> DISP_CMD_VIDEO_SET_FB
+</li><li> DISP_CMD_VIDEO_START
+</li><li> DISP_CMD_VIDEO_STOP
+</li></ul>
+<h2> <span class="mw-headline" id="Color_format_mapping_table"> Color format mapping table </span></h2>
+<table class="wikitable">
+<tr>
+<th> __disp_pixel_fmt_t </th>
+<th> __disp_pixel_mod_t </th>
+<th> __disp_pixel_seq_t </th>
+<th> br_swap </th>
+<th> DirectFB </th>
+<th> Gstreamer </th>
+<th> KMS </th>
+<th> V4L2
+</th></tr>
+<tr>
+<td rowspan="3">DISP_FORMAT_YUV444 </td>
+<td rowspan="2"> DISP_MOD_INTERLEAVED </td>
+<td> DISP_SEQ_AYUV </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_VUYA </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_MOD_NON_MB_PLANAR </td>
+<td> </td>
+<td> </td>
+<td> DSPF_YUV444P </td>
+<td> GST_VIDEO_FORMAT_Y444 </td>
+<td> DRM_FORMAT_YUV444 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="7">DISP_FORMAT_YUV422 </td>
+<td rowspan="4"> DISP_MOD_INTERLEAVED </td>
+<td> DISP_SEQ_YUYV </td>
+<td> </td>
+<td> DSPF_YUY2 </td>
+<td> GST_VIDEO_FORMAT_YUY2 </td>
+<td> DRM_FORMAT_YUYV </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_UYVY </td>
+<td> </td>
+<td> DSPF_UYVY </td>
+<td> GST_VIDEO_FORMAT_UYVY </td>
+<td> DRM_FORMAT_UYVY </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_YVYU </td>
+<td> </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_YVYU </td>
+<td> DRM_FORMAT_YVYU </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_VYUY </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> DRM_FORMAT_VYUY </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2"> DISP_MOD_NON_MB_UV_COMBINED </td>
+<td> DISP_SEQ_UVUV </td>
+<td> </td>
+<td> DSPF_NV16 </td>
+<td> GST_VIDEO_FORMAT_NV16 </td>
+<td> DRM_FORMAT_NV16 </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_VUVU </td>
+<td> </td>
+<td> DSPF_YV16 </td>
+<td> n/a </td>
+<td> DRM_FORMAT_NV61 </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_MOD_NON_MB_PLANAR </td>
+<td> </td>
+<td> </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_Y42B </td>
+<td> DRM_FORMAT_YUV422 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="3">DISP_FORMAT_YUV420 </td>
+<td rowspan="2"> DISP_MOD_NON_MB_UV_COMBINED </td>
+<td> DISP_SEQ_UVUV </td>
+<td> </td>
+<td> DSPF_NV12 </td>
+<td> GST_VIDEO_FORMAT_NV12 </td>
+<td> DRM_FORMAT_NV12 </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_VUVU </td>
+<td> </td>
+<td> DSPF_NV21 </td>
+<td> GST_VIDEO_FORMAT_NV21 </td>
+<td> DRM_FORMAT_NV21 </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_MOD_NON_MB_PLANAR </td>
+<td> </td>
+<td> </td>
+<td> DSPF_I420 </td>
+<td> GST_VIDEO_FORMAT_I420 </td>
+<td> DRM_FORMAT_YUV420 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="3">DISP_FORMAT_YUV411 </td>
+<td rowspan="2"> DISP_MOD_NON_MB_UV_COMBINED </td>
+<td> DISP_SEQ_UVUV </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_VUVU </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_MOD_NON_MB_PLANAR </td>
+<td> </td>
+<td> </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_Y41B </td>
+<td> DRM_FORMAT_YUV411 </td>
+<td>
+</td></tr>
+<tr>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_ARGB8888 </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2">DISP_SEQ_ARGB </td>
+<td> true </td>
+<td> DSPF_ABGR </td>
+<td> GST_VIDEO_FORMAT_ABGR </td>
+<td> DRM_FORMAT_ABGR8888 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> DSPF_ARGB </td>
+<td> GST_VIDEO_FORMAT_ARGB </td>
+<td> DRM_FORMAT_ARGB8888 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_SEQ_BGRA </td>
+<td> true </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_RGBA </td>
+<td> DRM_FORMAT_RGBA8888 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_BGRA </td>
+<td> DRM_FORMAT_BGRA8888 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_ARGB888 </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2">DISP_SEQ_ARGB </td>
+<td> true </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_xBGR </td>
+<td> DRM_FORMAT_XBGR8888 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> DSPF_RGB32 </td>
+<td> GST_VIDEO_FORMAT_xRGB </td>
+<td> DRM_FORMAT_XRGB8888 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_SEQ_BGRA </td>
+<td> true </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_RGBx </td>
+<td> DRM_FORMAT_RGBX8888 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_BGRx </td>
+<td> DRM_FORMAT_BGRX8888 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="3">DISP_FORMAT_RGB888 </td>
+<td rowspan="2">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2"> </td>
+<td> true </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_BGR </td>
+<td> DRM_FORMAT_BGR888 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> DSPF_RGB24 </td>
+<td> GST_VIDEO_FORMAT_RGB </td>
+<td> DRM_FORMAT_RGB888 </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_MOD_PLANAR </td>
+<td> </td>
+<td> </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_GBR </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_FORMAT_CSIRGB </td>
+<td> DISP_MOD_PLANAR </td>
+<td> </td>
+<td> </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_GBR </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_RGB655 </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2">DISP_SEQ_P10 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_SEQ_P01 </td>
+<td> true </td>
+<td> DSPF_BGR555 </td>
+<td> GST_VIDEO_FORMAT_BGR15 </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> DSPF_RGB555 </td>
+<td> GST_VIDEO_FORMAT_RGB15 </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_RGB565 </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2">DISP_SEQ_P10 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_SEQ_P01 </td>
+<td> true </td>
+<td> n/a </td>
+<td> GST_VIDEO_FORMAT_BGR16 </td>
+<td> DRM_FORMAT_BGR565 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> DSPF_RGB16 </td>
+<td> GST_VIDEO_FORMAT_RGB16 </td>
+<td> DRM_FORMAT_RGB565 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_RGB556 </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2">DISP_SEQ_P10 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_SEQ_P01 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_ARGB1555 </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2">DISP_SEQ_P10 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_SEQ_P01 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> DRM_FORMAT_ABGR1555 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> DSPF_ARGB1555 </td>
+<td> n/a </td>
+<td> DRM_FORMAT_ARGB1555 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_RGBA5551 </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2">DISP_SEQ_P10 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_SEQ_P01 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> DRM_FORMAT_BGRA5551 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> DSPF_RGBA5551 </td>
+<td> n/a </td>
+<td> DRM_FORMAT_RGBA5551 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_ARGB4444 </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td rowspan="2">DISP_SEQ_P10 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_SEQ_P01 </td>
+<td> true </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> DRM_FORMAT_ABGR4444 </td>
+<td>
+</td></tr>
+<tr>
+<td> false </td>
+<td> DSPF_ARGB4444 </td>
+<td> n/a </td>
+<td> DRM_FORMAT_ARGB4444 </td>
+<td>
+</td></tr>
+<tr>
+<td>
+</td></tr>
+<tr>
+<td rowspan="2">DISP_FORMAT_8BPP </td>
+<td rowspan="2">DISP_MOD_INTERLEAVED </td>
+<td> DISP_SEQ_P3210 </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_P0123 </td>
+<td> </td>
+<td> DSPF_LUT8 </td>
+<td> GST_VIDEO_FORMAT_RGB8P </td>
+<td> DRM_FORMAT_C8 </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_4BPP </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td> DISP_SEQ_P76543210 </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_P67452301 </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_P10325476 </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_P01234567 </td>
+<td> </td>
+<td> DSPF_LUT4 </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_2BPP </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td> DISP_SEQ_2BPP_BIG_BIG </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_2BPP_BIG_LITTER </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_2BPP_LITTER_BIG </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_2BPP_LITTER_LITTER </td>
+<td> </td>
+<td> DSPF_LUT2 </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td rowspan="4">DISP_FORMAT_1BPP </td>
+<td rowspan="4">DISP_MOD_INTERLEAVED </td>
+<td> DISP_SEQ_1BPP_BIG_BIG </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_1BPP_BIG_LITTER </td>
+<td> </td>
+<td> n/a </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_1BPP_LITTER_BIG </td>
+<td> </td>
+<td> DSPF_A1_LSB </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td> DISP_SEQ_1BPP_LITTER_LITTER </td>
+<td> </td>
+<td> DSPF_A1 </td>
+<td> n/a </td>
+<td> n/a </td>
+<td>
+</td></tr>
+<tr>
+<td>
+</td></tr>
+<tr>
+<td> Missing </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> DSPF_A8 <br> DSPF_RGB332 <br> DSPF_ALUT44 <br> DSPF_AiRGB <br> DSPF_ARGB2554 <br> DSPF_RGBA4444 <br> DSPF_AYUV <br> DSPF_A4 <br> DSPF_ARGB1666 <br> DSPF_ARGB6666 <br> DSPF_RGB18 <br> DSPF_RGB444 <br> DSPF_ARGB8565 <br> DSPF_AVYU <br> DSPF_RGBAF88871 </td>
+<td> GST_VIDEO_FORMAT_ENCODED <br> GST_VIDEO_FORMAT_YV12 <br> GST_VIDEO_FORMAT_AYUV <br> GST_VIDEO_FORMAT_v210 <br> GST_VIDEO_FORMAT_v216 <br> GST_VIDEO_FORMAT_GRAY8 <br> GST_VIDEO_FORMAT_GRAY16_BE <br> GST_VIDEO_FORMAT_GRAY16_LE <br> GST_VIDEO_FORMAT_v308 <br> GST_VIDEO_FORMAT_UYVP <br> GST_VIDEO_FORMAT_A420 <br> GST_VIDEO_FORMAT_YUV9 <br> GST_VIDEO_FORMAT_YVU9 <br> GST_VIDEO_FORMAT_IYU1 <br> GST_VIDEO_FORMAT_ARGB64 <br> GST_VIDEO_FORMAT_AYUV64 <br> GST_VIDEO_FORMAT_r210 <br> GST_VIDEO_FORMAT_I420_10BE <br> GST_VIDEO_FORMAT_I420_10LE <br> GST_VIDEO_FORMAT_I422_10BE <br> GST_VIDEO_FORMAT_I422_10LE <br> GST_VIDEO_FORMAT_Y444_10BE <br> GST_VIDEO_FORMAT_Y444_10LE <br> GST_VIDEO_FORMAT_GBR_10BE <br> GST_VIDEO_FORMAT_GBR_10LE <br> GST_VIDEO_FORMAT_NV24 </td>
+<td> DRM_FORMAT_RGB332 <br> DRM_FORMAT_BGR233 <br> DRM_FORMAT_XRGB4444 <br> DRM_FORMAT_XBGR4444 <br> DRM_FORMAT_RGBX4444 <br> DRM_FORMAT_BGRX4444 <br> DRM_FORMAT_RGBA4444 <br> DRM_FORMAT_BGRA4444 <br> DRM_FORMAT_XRGB1555 <br> DRM_FORMAT_XBGR1555 <br> DRM_FORMAT_RGBX5551 <br> DRM_FORMAT_BGRX5551 <br> DRM_FORMAT_XRGB2101010 <br> DRM_FORMAT_XBGR2101010 <br> DRM_FORMAT_RGBX1010102 <br> DRM_FORMAT_BGRX1010102 <br> DRM_FORMAT_ARGB2101010 <br> DRM_FORMAT_ABGR2101010 <br> DRM_FORMAT_RGBA1010102 <br> DRM_FORMAT_BGRA1010102 <br> DRM_FORMAT_AYUV <br> DRM_FORMAT_NV24 <br> DRM_FORMAT_NV42 <br> DRM_FORMAT_NV12MT <br> DRM_FORMAT_YUV410 <br> DRM_FORMAT_YVU410 <br> DRM_FORMAT_YVU411 <br> DRM_FORMAT_YVU420 <br> DRM_FORMAT_YVU422 <br> DRM_FORMAT_YVU444 </td>
+<td>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Deinterlacer"> Deinterlacer </span></h2>
+<p>There is a deinterlacer implemented in Sunxi Display Driver. It seems to be controlled by the scaler's registers and is activated by the DISP_CMD_VIDEO iotcl's.
+<a href="/images/1/13/Sunxi_deint.pdf" class="internal" title="Sunxi deint.pdf">This scheme</a> gives an overview about how the necessary registers are set within sunxi display driver.
+</p><p><a class="external text" href="https://github.com/linux-sunxi/cedarx-libs/blob/master/libcedarv/linux-armhf/sample/render/render.c">Allwinner's example code</a> should give a few hints, how the ioctl workflow should work.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Sunxi_disp_driver_interface&amp;oldid=11860">http://linux-sunxi.org/index.php?title=Sunxi_disp_driver_interface&amp;oldid=11860</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Development" title="Category:Development">Development</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Sunxi+disp+driver+interface&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Sunxi+disp+driver+interface" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Sunxi_disp_driver_interface" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Sunxi_disp_driver_interface&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Sunxi_disp_driver_interface">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Sunxi_disp_driver_interface&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Sunxi_disp_driver_interface&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Sunxi_disp_driver_interface" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Sunxi_disp_driver_interface" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Sunxi_disp_driver_interface&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Sunxi_disp_driver_interface&amp;oldid=11860" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 3 November 2014, at 17:39.</li>
+<li id="footer-info-viewcount">This page has been accessed 13,586 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Kernel arguments - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Kernel_arguments","wgTitle":"Kernel arguments","wgCurRevisionId":13919,"wgArticleId":464,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Kernel_arguments","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Kernel_arguments"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Kernel_arguments skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Kernel arguments</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Kernel arguments can be specified in bootargs <a href="/U-boot" title="U-boot" class="mw-redirect">U-boot</a> environment variable or can be compiled into kernel.
+</p><p>The <a href="/U-boot" title="U-boot" class="mw-redirect">U-boot</a> variables can be compiled in as default environment, saved in the environment on media or specified in boot.scr
+</p><p>An example of kernel command line arguments:
+</p>
+<pre> console=ttyS0,115200 hdmi.audio=EDID:0 disp.screen0_output_mode=EDID:1280x1024p60 root=/dev/mmcblk0p1 rootwait panic=10
+</pre>
+<ul><li> <b>console</b>=ttyS0,115200 is for taking over the serial port after u-boot. These are the default settings u-boot uses. You can specify console=ttyS0,115200 console=tty0 for both serial and framebuffer console
+</li></ul>
+<ul><li> <b>earlyprintk</b>=serial,ttyS0,115200 enable earlyprintk on serial port. Pretty much useless on sunxi since some u-boot specific mechanism of printing to u-boot enabled serial port is used anyway and duplicates the earlyprintk functionality. Might come handy if you want to use another port, however.
+</li></ul>
+<ul><li> <b>initcall_debug</b> kernel prints which init function it enters and exists. Useful to determine which driver crashed the kernel in case some driver crashed the kernel before it even printed anything.
+</li></ul>
+<ul><li> <b>ddebug_query</b>='"file 8250_sunxi.c +p"' enable debug prints (pr_info and pr_debug) in 8250_sunxi.c if you have CONFIG_DYNAMIC_DEBUG enabled. Note the double quoting - you will be probably setting this from u-boot which strips one set of quotes. The ddebug documentation says to use double quotes.
+</li></ul>
+<ul><li> <b>consoleblank</b>=0 to disable screen saver of framebuffer.
+</li></ul>
+<ul><li> <b>hdmi.audio</b>=EDID:0 this should presumably turn on HDMI audio only when screen EDID says it supports audio. Omit EDID to just turn on - 1 or off - 0. Currently HDMI audio is enabled even on screen that definitly does not support it - YMMW.
+</li></ul>
+<ul><li> <b>disp</b>.screen0_output_mode=EDID:1280x1024p60 screen 0 is the first screen configured in script.bin. EDID instructs the kernel to try to read mode from the screen. Failing that you can pick a mode from a fixed mode list in the driver. Again, omit EDID to override mode manually. You can try to figure out supported modes from files like <a class="external free" href="https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.0/drivers/video/sunxi/disp/disp_clk.c">https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.0/drivers/video/sunxi/disp/disp_clk.c</a> cat /sys/class/graphics/fb0/modes might be of some help too.
+</li></ul>
+<ul><li> <b>root</b>=/dev/mmcblk0p1 - root on first mmc device first partition. Use /dev/nandc for nand third partition (new partitioning scheme uses /dev/nand3) Some images use label or UUID to identify the root filesystem. /dev/sda1 identifies first SCSI device first partition but as both internal SATA and USB mass storage use SCSI emulation this device name is not assigned deterministically. Use labels or UUIDs for SCSI devices. If you have a seperate boot partition that holds the kernel, boot.scr and script.bin, the root file system would usually be /dev/mmcblk0p2 (use root=/dev/mmcblk0p2).
+</li></ul>
+<ul><li> <b>rootwait</b> - Wait (indefinitely) for root device to show up. Useful for devices that are detected asynchronously (e.g. USB and MMC devices).
+</li></ul>
+<ul><li> <b>panic</b>=10 - the amount of time in seconds to wait before rebooting after kernel panic.
+</li></ul>
+<p>It is possible to significantly reduce the amount of reserved memory assigned to various video devices at boot time, resulting in more free system memory, which is especiallly helpful for 512MB devices:
+</p>
+<ul><li> <b>sunxi_ve_mem_reserve</b>=0 -- This eliminates the reserved memory for the video acceleration engine, saving 80MB. You can use this if you don't run accelerated video with programs such as <a href="/VLC" title="VLC">VLC</a> or <a href="/index.php?title=XBMC&amp;action=edit&amp;redlink=1" class="new" title="XBMC (page does not exist)">XBMC</a> or <a href="/Libvdpau-sunxi" title="Libvdpau-sunxi" class="mw-redirect">libvdpau-sunxi</a>. (This kernel parameter is ignored in recent 3.4 kernels, if CMA is enabled in kernel configuration. If CONFIG_CMA=y, ve_size is hardcoded to 80MB in sunxi_cedar kernel module.)
+</li></ul>
+<ul><li> <b>cma</b>=96M the amount of memory to reserve for contimuous allocation. Default is 16M so you have to raise it for the Cedar ve_size to fit.
+</li></ul>
+<ul><li> <b>sunxi_g2d_mem_reserve</b>=0 -- This eliminates the reserved memory for the 2D acceleration engine. You can use this if you don't have the G2D accelerated driver enabled in your xorg.conf. Even when G2D is enabled, it may not actually use any of this memory, so this setting may be safe (to be verified).
+</li></ul>
+<ul><li> <b>sunxi_no_mali_mem_reserve</b> -- This eliminates the reserved memory for the Mali400 3D GPU. If you do not have the Mali binary blob driver installed, it is safe to use this and save another 64MB.
+</li></ul>
+<ul><li> <b>sunxi_fb_mem_reserve</b>=16 -- This sets the amount of total reserved memory for the framebuffer to 16MB. The default is 32MB. Because of double buffering Mali may require more than 16MB of framebuffer, so generally only enable this if you don't have Mali installed. 16MB should be sufficient for the largest supported resolution (normally 1920x1080x32bpp).
+</li></ul>
+<p>See also <a href="/Optimizing_system_performance" title="Optimizing system performance">Optimizing system performance</a>.
+</p><p>Feel free to add other relevant arguments. This list is not exhaustive.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Kernel_arguments&amp;oldid=13919">http://linux-sunxi.org/index.php?title=Kernel_arguments&amp;oldid=13919</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Kernel+arguments&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Kernel+arguments" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Kernel_arguments" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Kernel_arguments&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Kernel_arguments">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Kernel_arguments&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Kernel_arguments&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Kernel_arguments" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Kernel_arguments" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Kernel_arguments&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Kernel_arguments&amp;oldid=13919" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 April 2015, at 09:51.</li>
+<li id="footer-info-viewcount">This page has been accessed 42,689 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Foxconn Super Pi - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Foxconn_Super_Pi","wgTitle":"Foxconn Super Pi","wgCurRevisionId":17344,"wgArticleId":2524,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["NDH TODO","Devices","A20 Boards","Devices with Ethernet port","Devices with HDMI port","Devices with LVDS port","Devices with SATA port"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Foxconn_Super_Pi","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Foxconn_Super_Pi"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Foxconn_Super_Pi skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Foxconn Super Pi</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Foxconn Super Pi</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Foxconn_SuperPI.JPG" class="image"><img alt="Foxconn SuperPI.JPG" src="/images/thumb/1/17/Foxconn_SuperPI.JPG/250px-Foxconn_SuperPI.JPG" width="250" height="169"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.foxconnchannel.com/">Foxconn</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+91.5 mm x 60 mm</td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+unknown</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.foxconnchannel.com/ProductList.aspx?id=en-us0000013&amp;type=Monitor&amp;Name=Super%20Pi">Super Pi Product Page(Currently broken)</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A20" title="A20">A20</a> @ 1 GHz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+1 GiB DDR3 @ 432 MHz</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+no (onboard) NAND available</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5 V @ 2 A (micro USB)</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (Type A - full), CVBS, LVDS</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5 mm headphone plug, HDMI, internal microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+10/100/1000 Mbps Ethernet (<a href="/Ethernet#Realtek_RTL8211E" title="Ethernet">Realtek RTL8211E</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+SD, SATA (with power connector: JST XH 2.5mm header, providing +5V)</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+2 x USB 2.0 Host, 1 x USB 2.0 OTG</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+IR receiver</td></tr>
+</table>
+<p><span style="color:#ba0000">This page needs to be properly filled according to the <a href="/New_Device_howto" title="New Device howto">New Device Howto</a> and the <a href="/New_Device_page" title="New Device page">New Device Page guide</a>.</span>
+</p><p>The Foxconn Super Pi is essentially a Foxconn redesigned <a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">Banana Pi</a>. The overall design shows clear relationship with the <a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">Banana Pi</a> but the PCB layout and onboard connector positions are mostly different.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Manual_build"><span class="tocnumber">2.2</span> <span class="toctext">Manual build</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Mainline_U-Boot"><span class="tocnumber">2.2.1</span> <span class="toctext">Mainline U-Boot</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Sunxi.2FLegacy_Kernel"><span class="tocnumber">2.2.2</span> <span class="toctext">Sunxi/Legacy Kernel</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Mainline_kernel"><span class="tocnumber">2.2.3</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Powering_the_board"><span class="tocnumber">3.2</span> <span class="toctext">Powering the board</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Adding_a_serial_port"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Locating_the_UART"><span class="tocnumber">4.1</span> <span class="toctext">Locating the UART</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Manufacturer_images"><span class="tocnumber">6</span> <span class="toctext">Manufacturer images</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>The board has "Super Pi REV:1.0" printed between the DSI connector and Ethernet port.
+</p><p>In android, under Settings-&gt;About Tablet, you will find:
+</p>
+<ul><li> Model Number: Super Pi
+</li><li> Build Number: abd_super1-eng 4.2.2 10SB 20141122
+</li><li> Firmware version: 2.1
+</li><li> Kernel Version: 3.4.39+ <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="30425f5f4470515c5953551d5455435b445f40">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> #3 Sat Nov 22 03:20:27 EST 2014
+</li></ul>
+<p><br/>
+</p>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p><i><span style="color:#ba0000">Patches awaiting inclusion in the sunxi repos.</span></i>
+</p>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<h4> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h4>
+<p>Use the <i><span style="color:#ba0000">MANUFACTURER_DEVICE</span></i> build target.
+</p>
+<h4> <span class="mw-headline" id="Sunxi.2FLegacy_Kernel"> Sunxi/Legacy Kernel </span></h4>
+<p>Use the <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/SOC/MANUFACTURER_DEVICE.fex"><i><span style="color:#ba0000">MANUFACTURER_DEVICE.fex</span></i></a> file.
+</p>
+<h4> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h4>
+<p>Use the <i><span style="color:#ba0000">MANUFACTURER_DEVICE</span></i> device-tree file, and follow the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">Mainline Kernel Howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The <i>UBOOT</i> button, located behind the Ethernet port, triggers <a href="/FEL" title="FEL"> FEL mode</a>.
+</p>
+<h2> <span class="mw-headline" id="Powering_the_board"> Powering the board </span></h2>
+<p>This board has severe UART backpower problem. While connected to another computer through a <a href="/UART#UART-USB_dongle" title="UART">UART-USB dongle</a>, the current leaked through RXD keeps the board in an slightly "working" state, preventing the board from properly powering up. To normally power cycle the device it is often needed to disconnect RXD temporarily.
+</p>
+<h1> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:Foxconn_SuperPI_UART.JPG" class="image"><img alt="" src="/images/thumb/f/f7/Foxconn_SuperPI_UART.JPG/240px-Foxconn_SuperPI_UART.JPG" width="240" height="180" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Foxconn_SuperPI_UART.JPG" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>Super Pi UART pads</div></div></div>
+<h2> <span class="mw-headline" id="Locating_the_UART"> Locating the UART </span></h2>
+<p>The UART pins are located in the upper right corner of the board (connector J11 and J12), and the relative positions among the pins are the same as the <a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">Banana Pi</a>. Just attach some leads according to our <a href="/UART" title="UART">UART Howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:34.5px auto;"><a href="/File:Foxconn_SuperPI.JPG" class="image"><img alt="Foxconn SuperPI.JPG" src="/images/thumb/1/17/Foxconn_SuperPI.JPG/120px-Foxconn_SuperPI.JPG" width="120" height="81"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30.5px auto;"><a href="/File:Foxconn_SuperPI_top.JPG" class="image"><img alt="Foxconn SuperPI top.JPG" src="/images/thumb/6/64/Foxconn_SuperPI_top.JPG/120px-Foxconn_SuperPI_top.JPG" width="120" height="89"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Foxconn_SuperPI_bot.JPG" class="image"><img alt="Foxconn SuperPI bot.JPG" src="/images/thumb/5/51/Foxconn_SuperPI_bot.JPG/120px-Foxconn_SuperPI_bot.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:38.5px auto;"><a href="/File:Foxconn_SuperPI_side1.JPG" class="image"><img alt="Foxconn SuperPI side1.JPG" src="/images/thumb/0/06/Foxconn_SuperPI_side1.JPG/120px-Foxconn_SuperPI_side1.JPG" width="120" height="73"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Foxconn_SuperPI_side2.JPG" class="image"><img alt="Foxconn SuperPI side2.JPG" src="/images/thumb/a/a9/Foxconn_SuperPI_side2.JPG/120px-Foxconn_SuperPI_side2.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:44px auto;"><a href="/File:Foxconn_SuperPI_side3.JPG" class="image"><img alt="Foxconn SuperPI side3.JPG" src="/images/thumb/f/fb/Foxconn_SuperPI_side3.JPG/120px-Foxconn_SuperPI_side3.JPG" width="120" height="62"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Foxconn_SuperPI_side4.JPG" class="image"><img alt="Foxconn SuperPI side4.JPG" src="/images/thumb/8/85/Foxconn_SuperPI_side4.JPG/120px-Foxconn_SuperPI_side4.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<p><br/>
+</p>
+<h1> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.foxconnchannel.com/driverdownload/OS/Super_PI_Android_OS_Image.rar">Manufacturer provided Android image</a>
+</li></ul>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<p><a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">LeMaker Banana Pi</a>
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Foxconn_Super_Pi&amp;oldid=17344">http://linux-sunxi.org/index.php?title=Foxconn_Super_Pi&amp;oldid=17344</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:NDH_TODO" title="Category:NDH TODO">NDH TODO</a></li><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A20_Boards" title="Category:A20 Boards">A20 Boards</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li><li><a href="/Category:Devices_with_LVDS_port" title="Category:Devices with LVDS port">Devices with LVDS port</a></li><li><a href="/Category:Devices_with_SATA_port" title="Category:Devices with SATA port">Devices with SATA port</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Foxconn+Super+Pi&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Foxconn+Super+Pi" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Foxconn_Super_Pi" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Foxconn_Super_Pi&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Foxconn_Super_Pi">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Foxconn_Super_Pi&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Foxconn_Super_Pi&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Foxconn_Super_Pi" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Foxconn_Super_Pi" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Foxconn_Super_Pi&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Foxconn_Super_Pi&amp;oldid=17344" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 27 May 2016, at 10:19.</li>
+<li id="footer-info-viewcount">This page has been accessed 2,426 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

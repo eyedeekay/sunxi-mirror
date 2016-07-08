@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>LinkSprite pcDuino3 Nano - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"LinkSprite_pcDuino3_Nano","wgTitle":"LinkSprite pcDuino3 Nano","wgCurRevisionId":15228,"wgArticleId":1962,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Devices","A20 Boards","Devices with Ethernet port","Devices with HDMI port","Devices with SATA port","Mainline Kernel","Mainline U-Boot","NDH TODO"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"LinkSprite_pcDuino3_Nano","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/LinkSprite_pcDuino3_Nano"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-LinkSprite_pcDuino3_Nano skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">LinkSprite pcDuino3 Nano</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">LinkSprite pcDuino3 Nano</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Linksprite_pcduino3_nano_general.JPG" class="image"><img alt="Linksprite pcduino3 nano general.JPG" src="/images/thumb/0/08/Linksprite_pcduino3_nano_general.JPG/250px-Linksprite_pcduino3_nano_general.JPG" width="250" height="166"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.linksprite.com">LinkSprite</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+96<i>mm</i> x 64<i>mm</i> x 20<i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+September 2014</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.linksprite.com/?page_id=815">Device Product Page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A20" title="A20">A20</a> @ 1Ghz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+1GiB DDR3 @ 408MHz (<a href="/DDR3#K4B4G1646Q-HYK0" title="DDR3">K4B4G1646Q-HYK0</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+4GB MLC NAND (H27UBG8T2BTR-BC)</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 2A (micro-usb)</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (Type A - full)</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm headphone plug, HDMI</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+10/100/1000Mbps Ethernet (<a href="/Ethernet#Realtek_RTL8211E" title="Ethernet">Realtek RTL8211E</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD, SATA</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+2 USB2.0 Host, 1 microUSB2.0 OTG</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+IR</td></tr>
+</table>
+<p>The LinkSprite pcDuino v3 Nano is an A20 development board with Arduino-compatible headers.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Manual_build"><span class="tocnumber">2.2</span> <span class="toctext">Manual build</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#U-Boot"><span class="tocnumber">2.2.1</span> <span class="toctext">U-Boot</span></a>
+<ul>
+<li class="toclevel-4 tocsection-6"><a href="#Sunxi.2FLegacy_U-Boot"><span class="tocnumber">2.2.1.1</span> <span class="toctext">Sunxi/Legacy U-Boot</span></a></li>
+<li class="toclevel-4 tocsection-7"><a href="#Upstream.2FMainline_U-Boot"><span class="tocnumber">2.2.1.2</span> <span class="toctext">Upstream/Mainline U-Boot</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-8"><a href="#Linux_Kernel"><span class="tocnumber">2.2.2</span> <span class="toctext">Linux Kernel</span></a>
+<ul>
+<li class="toclevel-4 tocsection-9"><a href="#Sunxi.2FLegacy_Kernel"><span class="tocnumber">2.2.2.1</span> <span class="toctext">Sunxi/Legacy Kernel</span></a></li>
+<li class="toclevel-4 tocsection-10"><a href="#Upstream.2FMainline_kernel"><span class="tocnumber">2.2.2.2</span> <span class="toctext">Upstream/Mainline kernel</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#SATA_power_connector"><span class="tocnumber">3.1</span> <span class="toctext">SATA power connector</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#FEL_mode"><span class="tocnumber">3.2</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Expansion_Ports"><span class="tocnumber">3.3</span> <span class="toctext">Expansion Ports</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Adding_a_serial_port"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Locating_the_UARTs"><span class="tocnumber">4.1</span> <span class="toctext">Locating the UARTs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Variants"><span class="tocnumber">6</span> <span class="toctext">Variants</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Also_known_as"><span class="tocnumber">7</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-21"><a href="#Manufacturer_images"><span class="tocnumber">8.1</span> <span class="toctext">Manufacturer images</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>A white, credit-card-sized PCB with an A20 chip. "PCDUINO_NANO" is marked on the board to the right of the A20.
+</p>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p>Fully supported by the upstream U-Boot and kernel, and the legacy kernel; it's <i>not</i> supported by the legacy U-Boot.
+</p>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<p>You can build things for yourself by following our <a href="/Manual_build_howto" title="Manual build howto"> Manual build howto</a> and by choosing from the configurations available below.
+</p>
+<h3> <span class="mw-headline" id="U-Boot"> U-Boot </span></h3>
+<h4> <span class="mw-headline" id="Sunxi.2FLegacy_U-Boot"> Sunxi/Legacy U-Boot </span></h4>
+<p>Not supported.
+</p>
+<h4> <span class="mw-headline" id="Upstream.2FMainline_U-Boot"> Upstream/Mainline U-Boot </span></h4>
+<p>Use the <i>Linksprite_pcDuino3_Nano</i> build target.
+</p>
+<h3> <span class="mw-headline" id="Linux_Kernel"> Linux Kernel </span></h3>
+<h4> <span class="mw-headline" id="Sunxi.2FLegacy_Kernel"> Sunxi/Legacy Kernel </span></h4>
+<p>Use the <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/a20/linksprite_pcduino3_nano.fex"><i>linksprite_pcduino3_nano.fex</i></a> file.
+</p>
+<h4> <span class="mw-headline" id="Upstream.2FMainline_kernel"> Upstream/Mainline kernel </span></h4>
+<p>Use the <i>sun7i-a20-pcduino3-nano.dtb</i> device-tree binary.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="SATA_power_connector"> SATA power connector </span></h2>
+<p>The pcDuino3 Nano's SATA power connector uses a JST XH 2.5mm header, and is compatible with the Cubieboard. It's not compatible with the Banana Pi/Pro/M1+ and Orange Pi, where 5V and GND are inverted.
+</p>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The "UBOOT" button triggers <a href="/FEL" title="FEL"> FEL mode</a>.
+</p>
+<h2> <span class="mw-headline" id="Expansion_Ports"> Expansion Ports </span></h2>
+<p>The pcDuino3 Nano provides Arduino-style 0.1" connectors.
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:PcDuino3_Nano_UART0_vs_Breakoutboard.JPG" class="image"><img alt="" src="/images/thumb/2/23/PcDuino3_Nano_UART0_vs_Breakoutboard.JPG/240px-PcDuino3_Nano_UART0_vs_Breakoutboard.JPG" width="240" height="180" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:PcDuino3_Nano_UART0_vs_Breakoutboard.JPG" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>An Arduino breadboard shield that interferes with the USB0 connector</div></div></div>
+<p>Not all Arduino shields will be compatible with this board, for several reasons:
+</p>
+<ul><li> The GPIOs operate at 3.3V rather than 5V.
+</li><li> The analogue input pins on a real Arduino can also be configured as GPIOs; here they can only be inputs.
+</li><li> The larger-than-standard PCB size and the position of the UART0 connector means some shields won't physically fit.
+</li></ul>
+<table class="wikitable">
+<tr>
+<th colspan="2"> J9
+</th></tr>
+<tr>
+<th colspan="2"> 1x8 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> <i>NC</i>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> <i>3V3_SYS</i>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> <i>RESET#</i>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> <i>3V3_SYS</i>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> <i>DC_5V</i>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> <i>DC_5V</i>
+</td></tr>
+</table>
+<table class="wikitable">
+<tr>
+<th colspan="2"> J12
+</th></tr>
+<tr>
+<th colspan="2"> 1x6 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> <i>LRADC0</i>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> <i>LRADC1</i>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> <i>XP_TP</i>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> <i>XN_TP</i>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> <i>YP_TP</i>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> <i>YN_TP</i>
+</td></tr>
+</table>
+<table class="wikitable">
+<tr>
+<th colspan="2"> J8
+</th></tr>
+<tr>
+<th colspan="2"> 1x10 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> <a href="/A20/PIO#PH10" title="A20/PIO">PH10</a> <small>(LCD1_D10/ERXD1/KP_IN2/MS_D2/EINT10/CSI1_D10)</small>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> <a href="/A20/PIO#PH05" title="A20/PIO">PH05</a> <small>(LCD1_D05/UART4_RX/EINT5/CSI1_D5)</small>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> <a href="/A20/PIO#PI10" title="A20/PIO">PI10</a> <small>(SPI0_CS0/UART5_TX)</small>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> <a href="/A20/PIO#PI12" title="A20/PIO">PI12</a> <small>(SPI0_MOSI/UART6_TX/CLK_OUT_A)</small>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> <a href="/A20/PIO#PI13" title="A20/PIO">PI13</a> <small>(SPI0_MISO/UART6_RX/CLK_OUT_B)</small>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> <a href="/A20/PIO#PI11" title="A20/PIO">PI11</a> <small>(SPI0_CLK/UART5_RX)</small>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> 0.1uF capacitor to GND
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> <a href="/A20/PIO#PB21" title="A20/PIO">PB21</a> <small>(TWI2_SDA)</small>
+</td></tr>
+<tr>
+<td> 10 </td>
+<td> <a href="/A20/PIO#PB20" title="A20/PIO">PB20</a> <small>(TWI2_SCK)</small>
+</td></tr>
+</table>
+<table class="wikitable">
+<tr>
+<th colspan="2"> J11
+</th></tr>
+<tr>
+<th colspan="2"> 1x8 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> <a href="/A20/PIO#PI19" title="A20/PIO">PI19</a> <small>(SPI1_MISO/UART2_RX)</small>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> <a href="/A20/PIO#PI18" title="A20/PIO">PI18</a> <small>(SPI1_MOSI/UART2_TX)</small>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> <a href="/A20/PIO#PH07" title="A20/PIO">PH07</a> <small>(LCD1_D07/UART5_RX/MS_CLK/EINT7/CSI1_D7)</small>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> <a href="/A20/PIO#PH06" title="A20/PIO">PH06</a> <small>(LCD1_D06/UART5_TX/MS_BS/EINT6/CSI1_D6)</small>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> <a href="/A20/PIO#PH08" title="A20/PIO">PH08</a> <small>(LCD1_D08/ERXD3/KP_IN0/MS_D1/EINT8/CSI1_D9)</small>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> <a href="/A20/PIO#PB02" title="A20/PIO">PB02</a> <small>(PWM0)</small>
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> <a href="/A20/PIO#PI03" title="A20/PIO">PI03</a> <small>(PWM1/TWI4_SDA)</small>
+</td></tr>
+<tr>
+<td> 10 </td>
+<td> <a href="/A20/PIO#PH09" title="A20/PIO">PH09</a> <small>(LCD1_D09/ERXD2/KP_IN1/MS_D0/EINT9/CSI1_D8)</small>
+</td></tr>
+</table>
+<h1> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:PcDuino3_Nano_serial.jpeg" class="image"><img alt="" src="/images/thumb/9/95/PcDuino3_Nano_serial.jpeg/240px-PcDuino3_Nano_serial.jpeg" width="240" height="171" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:PcDuino3_Nano_serial.jpeg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART header with a Prolific PL2303 USB serial cable attached</div></div></div>
+<h2> <span class="mw-headline" id="Locating_the_UARTs"> Locating the UARTs </span></h2>
+<p>The pcDuino3 Nano provides access to four (and a half) of the A20's UARTs. See the <a href="/UART" title="UART">UART howto</a> for more details.
+</p><p>The 3-pin header labelled "UART" sticking out from the side of the board is the A20's UART0.
+Pin 1 (with a square pad, closest to the IR receiver) is RX, pin 2 is ground, pin 3 is TX.
+</p><p>UART2, UART5 and UART6 (RX/TX), as well as UART4 (RX only) are available on the Arduino connectors. UART2 is in the standard place for an Arduino UART.
+</p><p>Note that the labelling in <a rel="nofollow" class="external text" href="http://learn.linksprite.com/wp-content/uploads/2014/10/pcDuino3-Nano_header-Model.jpg">LinkSprite's diagram</a> is a bit confusing -- UART2 is described from the A20's point of view but UART0 from the serial cable's point of view, i.e. RX and TX are reversed for UART0.
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:PcDuino3_Nano_top.jpeg" class="image"><img alt="PcDuino3 Nano top.jpeg" src="/images/thumb/b/b0/PcDuino3_Nano_top.jpeg/97px-PcDuino3_Nano_top.jpeg" width="97" height="120"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:PcDuino3_Nano_bottom.jpeg" class="image"><img alt="PcDuino3 Nano bottom.jpeg" src="/images/thumb/5/51/PcDuino3_Nano_bottom.jpeg/85px-PcDuino3_Nano_bottom.jpeg" width="85" height="120"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Variants"> Variants </span></h1>
+<p>The <a rel="nofollow" class="external text" href="http://www.linksprite.com/?page_id=1357">pcDuino3 Nano <b>Lite</b></a> is a version with no flash memory (NAND) and without IR receiver.
+</p>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<p>This device has not been rebadged.
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/LinkSprite_pcDuino" title="LinkSprite pcDuino">LinkSprite pcDuino</a>
+</li><li> <a href="/LinkSprite_pcDuino2" title="LinkSprite pcDuino2">LinkSprite pcDuino2</a>
+</li><li> <a href="/LinkSprite_pcDuino3" title="LinkSprite pcDuino3">LinkSprite pcDuino3</a>
+</li><li> <a rel="nofollow" class="external text" href="https://s3.amazonaws.com/pcduino/Hardware/v3/PCDUINO_NANO_SCHEMATICS.pdf">Schematic</a>
+</li><li> <a rel="nofollow" class="external text" href="http://learn.linksprite.com/wp-content/uploads/2014/10/pcDuino3-Nano_header-Model.jpg">Diagram of pcDuino v3 Nano connectors and header pinouts</a>
+</li><li> <a class="external text" href="https://github.com/pcduino/a20-kernel">LinkSprite's pcDuino kernel repository on GitHub</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.linksprite.com/?page_id=858">pcDuino3 Nano ubuntu and android images</a>
+</li><li> <a rel="nofollow" class="external text" href="http://pastebin.com/MrdbMRQ3">Armbian's working fex file for the pcDuino3 Nano derived from the one shipped with Linksprite's Linux images</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h2>
+<p>The <a rel="nofollow" class="external text" href="http://www.linksprite.com/?page_id=858">Ubuntu 14 image that LinkSprite provides</a> uses a modified linux-sunxi 3.4 kernel. Their patches and build scripts are available <a class="external text" href="https://github.com/pcduino/a20-kernel">on GitHub</a>.
+</p><p>The most important modification is in the GMAC driver, to set the GMAC_TX_DELAY parameter to 3. This adjusts the relative timing of the clock and data signals to the PHY in order to compensate for differing trace lengths on the PCB (<a rel="nofollow" class="external text" href="http://lists.denx.de/pipermail/u-boot/2014-September/190231.html">details</a>; the <a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">Banana Pi</a> has the same problem). Without this modification, the Ethernet port will work at 100Mbit but not at 1000Mbit. Upstream U-Boot now sets this parameter itself, so the kernel patch isn't needed any more (<a rel="nofollow" class="external text" href="http://lists.denx.de/pipermail/u-boot/2015-February/203483.html">patch</a>).
+</p><p>In the meantime <a rel="nofollow" class="external text" href="http://www.igorpecovnik.com/2015/07/13/pcduino3-nano-debian-sd-image/">Armbian</a> also supports the pcDuino3 Nano with Debian Wheezy, Jessie or Ubuntu Trusty and with both kernel 3.4.x and 4.1.x (including SoC temp fixes).
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=LinkSprite_pcDuino3_Nano&amp;oldid=15228">http://linux-sunxi.org/index.php?title=LinkSprite_pcDuino3_Nano&amp;oldid=15228</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A20_Boards" title="Category:A20 Boards">A20 Boards</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li><li><a href="/Category:Devices_with_SATA_port" title="Category:Devices with SATA port">Devices with SATA port</a></li><li><a href="/Category:Mainline_Kernel" title="Category:Mainline Kernel">Mainline Kernel</a></li><li><a href="/Category:Mainline_U-Boot" title="Category:Mainline U-Boot">Mainline U-Boot</a></li><li><a href="/Category:NDH_TODO" title="Category:NDH TODO">NDH TODO</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=LinkSprite+pcDuino3+Nano&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=LinkSprite+pcDuino3+Nano" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/LinkSprite_pcDuino3_Nano" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:LinkSprite_pcDuino3_Nano&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/LinkSprite_pcDuino3_Nano">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=LinkSprite_pcDuino3_Nano&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=LinkSprite_pcDuino3_Nano&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/LinkSprite_pcDuino3_Nano" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/LinkSprite_pcDuino3_Nano" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=LinkSprite_pcDuino3_Nano&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=LinkSprite_pcDuino3_Nano&amp;oldid=15228" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 20 October 2015, at 22:09.</li>
+<li id="footer-info-viewcount">This page has been accessed 10,315 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

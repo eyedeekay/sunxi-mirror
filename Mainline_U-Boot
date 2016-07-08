@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Mainline U-Boot - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mainline_U-Boot","wgTitle":"Mainline U-Boot","wgCurRevisionId":17608,"wgArticleId":1504,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Software","Development"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Mainline_U-Boot","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Mainline_U-Boot"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Mainline_U-Boot skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Mainline U-Boot</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Support for sunxi devices is increasingly available from <a rel="nofollow" class="external text" href="http://www.denx.de/wiki/U-Boot">upstream U-Boot</a>. This page describes that support. We have a separate page for the 'legacy' <a href="/U-Boot" title="U-Boot">sunxi branch of U-Boot</a>.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Status"><span class="tocnumber">1</span> <span class="toctext">Status</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#In_Progress"><span class="tocnumber">1.1</span> <span class="toctext">In Progress</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Next_Release"><span class="tocnumber">1.2</span> <span class="toctext">Next Release</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#v2016.05"><span class="tocnumber">1.3</span> <span class="toctext">v2016.05</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#v2016.03"><span class="tocnumber">1.4</span> <span class="toctext">v2016.03</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#v2016.01"><span class="tocnumber">1.5</span> <span class="toctext">v2016.01</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#v2015.10"><span class="tocnumber">1.6</span> <span class="toctext">v2015.10</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#v2015.07"><span class="tocnumber">1.7</span> <span class="toctext">v2015.07</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#v2015.04"><span class="tocnumber">1.8</span> <span class="toctext">v2015.04</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#v2015.01"><span class="tocnumber">1.9</span> <span class="toctext">v2015.01</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#v2014.10"><span class="tocnumber">1.10</span> <span class="toctext">v2014.10</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#v2014.07"><span class="tocnumber">1.11</span> <span class="toctext">v2014.07</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Supported_Devices"><span class="tocnumber">2</span> <span class="toctext">Supported Devices</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#USB_1.x.2C_USB_keyboards"><span class="tocnumber">2.1</span> <span class="toctext">USB 1.x, USB keyboards</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Compile_U-Boot"><span class="tocnumber">3</span> <span class="toctext">Compile U-Boot</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Get_a_toolchain"><span class="tocnumber">3.1</span> <span class="toctext">Get a toolchain</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Get_the_Device-tree_Compiler"><span class="tocnumber">3.2</span> <span class="toctext">Get the Device-tree Compiler</span></a>
+<ul>
+<li class="toclevel-3 tocsection-18"><a href="#For_Gentoo"><span class="tocnumber">3.2.1</span> <span class="toctext">For Gentoo</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="#For_openSUSE"><span class="tocnumber">3.2.2</span> <span class="toctext">For openSUSE</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#For_Debian.2FUbuntu"><span class="tocnumber">3.2.3</span> <span class="toctext">For Debian/Ubuntu</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-21"><a href="#Clone_the_repository"><span class="tocnumber">3.3</span> <span class="toctext">Clone the repository</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Determine_build_target"><span class="tocnumber">3.4</span> <span class="toctext">Determine build target</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Build"><span class="tocnumber">3.5</span> <span class="toctext">Build</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Boot"><span class="tocnumber">3.6</span> <span class="toctext">Boot</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Troubleshooting"><span class="tocnumber">3.7</span> <span class="toctext">Troubleshooting</span></a>
+<ul>
+<li class="toclevel-3 tocsection-26"><a href="#U-Boot_2015.07.2B_won.27t_start"><span class="tocnumber">3.7.1</span> <span class="toctext">U-Boot 2015.07+ won't start</span></a></li>
+<li class="toclevel-3 tocsection-27"><a href="#Legacy_kernel_won.27t_start"><span class="tocnumber">3.7.2</span> <span class="toctext">Legacy kernel won't start</span></a></li>
+<li class="toclevel-3 tocsection-28"><a href="#Unrecognized.2Funsupported_machine_ID"><span class="tocnumber">3.7.3</span> <span class="toctext">Unrecognized/unsupported machine ID</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-29"><a href="#Configure_U-Boot"><span class="tocnumber">4</span> <span class="toctext">Configure U-Boot</span></a></li>
+<li class="toclevel-1 tocsection-30"><a href="#Adding_a_new_device_to_upstream_U-Boot"><span class="tocnumber">5</span> <span class="toctext">Adding a new device to upstream U-Boot</span></a>
+<ul>
+<li class="toclevel-2 tocsection-31"><a href="#DRAM_Settings"><span class="tocnumber">5.1</span> <span class="toctext">DRAM Settings</span></a>
+<ul>
+<li class="toclevel-3 tocsection-32"><a href="#Failsafe_DRAM_settings.2C_based_on_standard_JEDEC_timings"><span class="tocnumber">5.1.1</span> <span class="toctext">Failsafe DRAM settings, based on standard JEDEC timings</span></a></li>
+<li class="toclevel-3 tocsection-33"><a href="#The_settings_from_the_Android_firmware"><span class="tocnumber">5.1.2</span> <span class="toctext">The settings from the Android firmware</span></a></li>
+<li class="toclevel-3 tocsection-34"><a href="#Performance_optimized_DRAM_settings"><span class="tocnumber">5.1.3</span> <span class="toctext">Performance optimized DRAM settings</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-35"><a href="#LCD_Settings"><span class="tocnumber">5.2</span> <span class="toctext">LCD Settings</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-36"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Status"> Status </span></h1>
+<p>The current U-Boot release (v2016.05) fully supports major functions (except NAND) on
+all the older Allwinner SoCs (A10/A10s/A13/A20/A23/A31/A31s) and has basic support for the more recent A33, A80, H3 and A64.
+</p><p>The next release will be v2016.07.
+</p><p>See also: <a rel="nofollow" class="external text" href="http://www.denx.de/wiki/U-Boot/ReleaseCycle">U-Boot Release Cycle and Release Schedule</a>.
+</p>
+<h2> <span class="mw-headline" id="In_Progress"> In Progress </span></h2>
+<ul><li> <a href="/A83T" title="A83T">A83T</a> USB support (WiP: Chen-Yu Tsai (wens)) <a rel="nofollow" class="external text" href="http://lists.denx.de/pipermail/u-boot/2016-March/250003.html">patch-rfc</a>
+</li><li> <a href="/A83T" title="A83T">A83T</a> PSCI support (WiP: Timothy Pearson) <a rel="nofollow" class="external text" href="https://patchwork.ozlabs.org/patch/622853/">patch-rfc</a>
+</li><li> <a href="/H3" title="H3">H3</a> HDMI Support (WiP: Jelle van der Waa (jelle) ) <a class="external text" href="https://github.com/jelly/u-boot/tree/h3_video_hdmi">git-repo</a>
+</li><li> <a href="/H3" title="H3">H3</a>/<a href="/A83T" title="A83T">A83T</a>/<a href="/A64" title="A64">A64</a> EMAC Ethernet support (WiP: Amit Tomar) <a rel="nofollow" class="external text" href="http://lists.denx.de/pipermail/u-boot/2016-May/254695.html">patch-rfc</a> (<a rel="nofollow" class="external text" href="http://lists.denx.de/pipermail/u-boot/2016-May/256329.html">Recently broken</a>)
+</li></ul>
+<h2> <span class="mw-headline" id="Next_Release"> Next Release </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot/u-boot-sunxi.git;a=shortlog;h=refs/heads/next">Development branch</a>
+</p>
+<ul><li> AXP809 PMIC support
+</li></ul>
+<h2> <span class="mw-headline" id="v2016.05"> v2016.05 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2016.05">v2016.05 Release branch</a>
+</p>
+<ul><li> <a href="/A23" title="A23">A23</a>
+<ul><li> Support new revisions
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A64" title="A64">A64</a>
+<ul><li> 64-bit ARMv8 port, basic support (MMC, UART, no USB, no Ethernet)
+</li><li> (basic) EFI support (allows booting EFI applications (like grub) or kernels)
+</li></ul>
+</li></ul>
+<ul><li> I2C support fix for families with separate reset control
+</li></ul>
+<ul><li> SID e-fuse support for A83T and H3
+</li></ul>
+<ul><li> Sync up dts files with Linux kernel
+</li><li> Update compatible strings for GPIO
+</li></ul>
+<ul><li> Boards
+<ul><li> colorfly e708 q1, Difrence DIT4350, Polaroid MID2809PXE4, <a href="/index.php?title=Cubietruck_Plus&amp;action=edit&amp;redlink=1" class="new" title="Cubietruck Plus (page does not exist)">Cubietruck Plus</a>, Itead Ibox, icnova-a20-swac, <a href="/Sinlinx_SinA31s" title="Sinlinx SinA31s">Sinlinx SinA31s</a>, yones toptech bs1078-v2, Dserve DSRV9703C, Orange Pi 2, <a href="/Pine64" title="Pine64">Pine64</a>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="v2016.03"> v2016.03 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2016.03">v2016.03 Release branch</a>
+</p>
+<ul><li> PRCM i2c support
+</li></ul>
+<ul><li> A83T
+<ul><li> LPDDR3 support
+</li></ul>
+</li></ul>
+<ul><li> H3
+<ul><li> USB host support
+</li><li> PSCI (security switches included)
+</li><li> sy8106a i2c-based regulator support
+</li></ul>
+</li></ul>
+<ul><li> AXP PMICs
+<ul><li> Power off support
+</li></ul>
+</li></ul>
+<ul><li> Boards
+<ul><li> Banana Pi M3 (SinoVoip BPi-M3)
+</li></ul>
+</li></ul>
+<p><a href="/File:Exclamation.png" class="image"><img alt="Exclamation.png" src="/images/c/c0/Exclamation.png" width="16" height="16"/></a> <span style="color:#ba0000">Known problems:</span> <br>
+</p>
+<ul><li> Commit <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=commit;h=c32a6fd07b1839e4a45729587ebc8e1c55601a4d">c32a6fd</a> breaks MII detection (and thus U-Boot networking) for sunxi GMAC.
+</li></ul>
+<p>You might observe the PHY not initializing (e.g. no LED activity), and the command <code>mii&#160;info</code> likely will list useless information on all available PHY slots (0x00-0x1F). Commit <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=commit;h=fc8991c61c393ce6a9d3dfc97cb56dbbd9e8cbba">fc8991c</a> fixes it again, but unfortunately that means U-Boot release <b>v2016.03 is affected</b>.
+</p>
+<h2> <span class="mw-headline" id="v2016.01"> v2016.01 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2016.01">v2016.01 Release branch</a>
+</p>
+<ul><li> sun8i-H3 support
+</li></ul>
+<ul><li> Boards
+<ul><li> Empire Electronix D709 tablet
+</li><li> A83T HomletV2 Board
+</li><li> <a href="/Lamobo_R1" title="Lamobo R1">Lamobo R1</a>
+</li><li> <a href="/Xunlong_Orange_Pi_Plus" title="Xunlong Orange Pi Plus">Xunlong Orange Pi Plus</a>
+</li><li> <a href="/Orange_Pi_PC" title="Orange Pi PC" class="mw-redirect">Xunlong Orange Pi PC</a>
+</li><li> C.H.I.P.
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="v2015.10"> v2015.10 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2015.10">v2015.10 Release branch</a>
+</p>
+<ul><li> Console/display output
+</li></ul>
+<dl><dd><ul><li> ANX9804 LCD-eDP bridge chip support
+</li><li> Composite video output support
+</li></ul>
+</dd></dl>
+<ul><li> NAND SPL driver
+</li></ul>
+<ul><li> Boards
+<ul><li> Olimex A20-SOM-EVB
+</li><li> A10s-Wobo-i5 (settop box)
+</li><li> Point of View pov protab2-ips9 tablet
+</li><li> Auxtek-T003 HDMI stick
+</li><li> A10 tablets based on the iNet-tek iNet-1 mainboard (e.g. Point of View Protab2 XXL, Cherry M1007)
+</li><li> A10 tablets based on the inet9f-rev03 mainboard (e.g. qware tb-g100 tablet)
+</li><li> A13 tablets based on on the inet98v_rev2 mainboard
+</li><li> A10 tablets based on the inet97fv2 mainboard
+</li><li> A23 tablets based on the gt90h-v4 mainboard
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="v2015.07"> v2015.07 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2015.07">v2015.07 Release branch</a>
+</p>
+<ul><li> Serial number support
+</li><li> Device model support
+<ul><li> Ethernet
+</li><li> GPIO
+</li></ul>
+</li><li> sun8i (A33) support (including SPL)
+</li><li> sun9i (A80) basic support
+<ul><li> UART
+</li><li> MMC
+</li></ul>
+</li><li> sun6i/sun8i
+<ul><li> PSCI CPU hotplugging
+</li></ul>
+</li><li> SPL
+<ul><li> <strike>NAND support</strike> reverted: <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=commit;h=da9971d1b3bdb554d4a4ac948119f8b2616bbcce">Revert commit</a>
+</li></ul>
+</li></ul>
+<ul><li> Boards:
+<ul><li> <a href="/Mixtile_LOFT-Q" title="Mixtile LOFT-Q">Mixtile LOFT-Q</a>
+</li><li> <a href="/Ainol_AW1" title="Ainol AW1">Ainol AW1</a>
+</li><li> <a href="/Yones_Toptech_BD1078" title="Yones Toptech BD1078">Yones Toptech BD1078</a>
+</li><li> <a href="/INet_3W" title="INet 3W">iNet 3W</a>
+</li><li> <a href="/INet_3F" title="INet 3F">iNet 3F</a>
+</li><li> <a href="/ET-Q8_A33" title="ET-Q8 A33">ET-Q8 A33</a>
+</li><li> <a href="/Ippo_q8h#v1.2" title="Ippo q8h"> Ippo q8h v1.2 A33 1024x600</a>
+</li><li> <a href="/index.php?title=Ga10h_v1.1&amp;action=edit&amp;redlink=1" class="new" title="Ga10h v1.1 (page does not exist)">ga10h v1.1</a>
+</li><li> <a href="/Merrii_A80_Optimus_Board" title="Merrii A80 Optimus Board">Merrii A80 Optimus Board</a>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="v2015.04"> v2015.04 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2015.04">v2015.04 Release branch</a>
+</p>
+<ul><li> sun7i (A20) <a href="/PSCI" title="PSCI">PSCI</a> CPU hotplug
+</li><li> sun8i (A23) SPL
+<ul><li> RSB
+</li><li> AXP223
+</li></ul>
+</li></ul>
+<ul><li> sun9i (A80) basic support
+<ul><li> Clocks
+</li><li> RSB
+</li></ul>
+</li></ul>
+<ul><li> Console/display output
+<ul><li> VGA via internal DAC
+</li><li> VGA via external DAC on LCD interface
+</li><li> LVDS
+</li><li> SSD2828 MIPI bridge
+</li><li> tl059wv5c0 LCD panel
+</li></ul>
+</li></ul>
+<ul><li> USB OTG
+</li></ul>
+<ul><li> Boards:
+<ul><li> <a href="/index.php?title=CSQ_CS908&amp;action=edit&amp;redlink=1" class="new" title="CSQ CS908 (page does not exist)">CSQ CS908</a>
+</li><li> <a href="/Merrii_Hummingbird_A31" title="Merrii Hummingbird A31">Merrii Hummingbird A31</a>
+</li><li> <a href="/Ippo_q8h#Q8H-V1.2" title="Ippo q8h"> Ippo q8h v1.2</a>
+</li><li> <a href="/MSI_Primo81" title="MSI Primo81">MSI Primo81</a>
+</li><li> <a href="/MSI_Primo73" title="MSI Primo73">MSI Primo73</a>
+</li><li> <a href="/LinkSprite_pcDuino" title="LinkSprite pcDuino">LinkSprite pcDuino</a>
+</li><li> <a href="/LinkSprite_pcDuino_V2" title="LinkSprite pcDuino V2" class="mw-redirect">LinkSprite pcDuino V2</a>
+</li><li> <a href="/LeMaker_Banana_Pro" title="LeMaker Banana Pro">LeMaker Banana Pro</a>
+</li><li> <a href="/Rikomagic_mk802" title="Rikomagic mk802">Rikomagic mk802</a>
+</li><li> <a href="/Rikomagic_mk802ii" title="Rikomagic mk802ii">Rikomagic mk802ii</a>
+</li><li> <a href="/Semitime_g2" title="Semitime g2">Semitime g2</a> (See also <a href="/Format_MK802" title="Format MK802">Format_MK802</a> with A10s)
+</li><li> <a href="/MarsBoard_A10" title="MarsBoard A10">MarsBoard A10</a>
+</li><li> <a href="/Gemei_G9" title="Gemei G9">Gemei G9</a>
+</li><li> <a href="/index.php?title=Chuwi_V7_CW0825&amp;action=edit&amp;redlink=1" class="new" title="Chuwi V7 CW0825 (page does not exist)">Chuwi V7 CW0825</a>
+</li><li> <a href="/Mele_M5" title="Mele M5">Mele M5</a>
+</li><li> <a href="/Hyundai_A7HD" title="Hyundai A7HD">Hyundai A7HD</a>
+</li><li> <a href="/LinkSprite_pcDuino3_Nano" title="LinkSprite pcDuino3 Nano">LinkSprite pcDuino3 Nano</a>
+</li><li> <a href="/TZX-Q8-713B7" title="TZX-Q8-713B7">TZX-Q8-713B7</a>
+</li><li> <a href="/Inet_86vs" title="Inet 86vs">Inet 86vs</a>
+</li><li> <a href="/Ampe_A76" title="Ampe A76">Ampe A76</a>
+</li><li> <a href="/Jesurun_Q5" title="Jesurun Q5">Jesurun Q5</a>
+</li><li> <a href="/MK808C" title="MK808C">MK808C</a>
+</li><li> <a href="/Mele_I7" title="Mele I7">Mele I7</a>
+</li><li> <a href="/Forfun_Q88DB" title="Forfun Q88DB">Forfun Q88DB</a>
+</li><li> <a href="/index.php?title=Wits_Pro_A20_DKT&amp;action=edit&amp;redlink=1" class="new" title="Wits Pro A20 DKT (page does not exist)">Wits Pro A20 DKT</a>
+</li><li> <a href="/Xunlong_Orange_Pi" title="Xunlong Orange Pi">Xunlong Orange Pi</a>
+</li><li> <a href="/Xunlong_Orange_Pi_Mini" title="Xunlong Orange Pi Mini">Xunlong Orange Pi Mini</a>
+</li><li> <a href="/Wexler_TAB_7200" title="Wexler TAB 7200">Wexler TAB 7200</a>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="v2015.01"> v2015.01 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2015.01">v2015.01 Release branch</a>
+</p>
+<ul><li> sun6i (A31) processor support
+<ul><li> P2WI
+</li><li> AXP221
+</li><li> SPL
+</li><li> GMAC
+</li></ul>
+</li><li> sun8i (A23) processor support (no SPL)
+</li><li> sun6i/sun8i reset support
+</li><li> Console/display output
+<ul><li> HDMI only
+</li><li> simplefb
+</li></ul>
+</li></ul>
+<ul><li> Boards:
+<ul><li> <a href="/Mele_M3" title="Mele M3">Mele M3</a>
+</li><li> <a href="/Olimex_A20-OLinuXino-Lime2" title="Olimex A20-OLinuXino-Lime2">Olimex A20-OLinuXino-Lime2</a>
+</li><li> WITS Colombus Board
+</li><li> <a href="/Mele_M9" title="Mele M9">Mele M9</a>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="v2014.10"> v2014.10 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2014.10">v2014.10 Release branch</a>
+</p>
+<ul><li> AHCI (SATA)
+</li><li> sun4i (AKA A10) and sun5i (AKA A10s and A13) processors
+</li><li> EMAC Ethernet
+</li><li> AXP152 and AXP209 power controllers
+</li><li> EHCI USB
+</li><li> SMP support for sun7i via <a href="/PSCI" title="PSCI">PSCI</a>.
+</li></ul>
+<ul><li> Boards:
+<ul><li> <a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">LeMaker Banana Pi</a>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="v2014.07"> v2014.07 </span></h2>
+<p><a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=shortlog;h=refs/tags/v2014.07">v2014.07 Release branch</a>
+</p>
+<ul><li> sun7i (AKA A20) processors
+</li><li> MMC
+</li><li> GMAC Ethernet
+</li><li> Boards:
+<ul><li> <a href="/Cubietech_Cubietruck" title="Cubietech Cubietruck">Cubietech Cubietruck</a>
+</li></ul>
+</li></ul>
+<h1> <span class="mw-headline" id="Supported_Devices"> Supported Devices </span></h1>
+<div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Ainol_AW1">Ainol AW1</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Allwinner_A83TDevBoard">Allwinner A83TDevBoard</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Ampe_A76">Ampe A76</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Auxtek_T004">Auxtek T004</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubieboard">Cubietech Cubieboard</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubieboard2">Cubietech Cubieboard2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubietruck">Cubietech Cubietruck</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubietruck_Plus">Cubietech Cubietruck Plus</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Forfun_Q88DB">Forfun Q88DB</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Gemei_G9">Gemei G9</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/INet_3F">INet 3F</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/INet_3W">INet 3W</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Inet_K970">Inet K970</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Jesurun_Q5">Jesurun Q5</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Lamobo_R1">Lamobo R1</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LeMaker_Banana_Pi">LeMaker Banana Pi</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LeMaker_Banana_Pro">LeMaker Banana Pro</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LinkSprite_pcDuino2">LinkSprite pcDuino2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LinkSprite_pcDuino3">LinkSprite pcDuino3</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LinkSprite_pcDuino3_Nano">LinkSprite pcDuino3 Nano</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/MarsBoard_A10">MarsBoard A10</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mele_A1000">Mele A1000</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mele_M3">Mele M3</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Merrii_Hummingbird_A31">Merrii Hummingbird A31</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/MSI_Primo73">MSI Primo73</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/MSI_Primo81">MSI Primo81</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A10-OLinuXino-Lime">Olimex A10-OLinuXino-Lime</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A10s-OLinuXino-Micro">Olimex A10s-OLinuXino-Micro</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A13-OLinuXino">Olimex A13-OLinuXino</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A13-OLinuXino-Micro">Olimex A13-OLinuXino-Micro</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A20-OLinuXino-Lime2">Olimex A20-OLinuXino-Lime2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A20-OLinuXino-Micro">Olimex A20-OLinuXino-Micro</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Pineriver_H24">Pineriver H24</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Rikomagic_mk802ii">Rikomagic mk802ii</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Semitime_Qt840a">Semitime Qt840a</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Sinlinx_SinA31s">Sinlinx SinA31s</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Sinlinx_SinA33">Sinlinx SinA33</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/TZX-Q8-713B7">TZX-Q8-713B7</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Wexler_TAB_7200">Wexler TAB 7200</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Yones_Toptech_BD1078">Yones Toptech BD1078</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Yones_Toptech_BS1078_V2">Yones Toptech BS1078 V2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+<p>Beware: some of the above might only be supported in the latest development version.
+</p>
+<h2> <span class="mw-headline" id="USB_1.x.2C_USB_keyboards"> USB 1.x, USB keyboards </span></h2>
+<p><b>U-Boot v2015.07 and later shouldn't have problems supporting mixed USB 1.x/2.0 devices.</b> OHCI and EHCI no longer conflict with each other (after the switch to device model).
+</p><p>Previous U-Boot versions (v2015.04 and older) have a problem supporting both USB 1.x (OHCI) and USB 2.0 (EHCI) at the same time - the latter includes the <i>SUNXI_EHCI</i> driver for Allwinner boards.
+</p>
+<dl><dd>Unfortunately, this also affects many <b>USB HID / keyboard</b> devices which would not be detected properly by U-Boot. The typical message in this case is "<i>cannot reset port N!?</i>", where <i>N</i> is whichever USB port those devices were attached to.
+</dd></dl>
+<p><a href="/File:Information.png" class="image"><img alt="Information.png" src="/images/5/54/Information.png" width="16" height="16"/></a> A possible workaround is to place an external USB 2.0 hub between your board and these USB devices.
+</p><p>See: <a rel="nofollow" class="external free" href="http://lists.denx.de/pipermail/u-boot/2015-January/200162.html">http://lists.denx.de/pipermail/u-boot/2015-January/200162.html</a>.
+</p>
+<h1> <span class="mw-headline" id="Compile_U-Boot"> Compile U-Boot </span></h1>
+<h2> <span class="mw-headline" id="Get_a_toolchain"> Get a toolchain </span></h2>
+<p>If you haven't done so before, get a suitable <a href="/Toolchain" title="Toolchain">toolchain</a> installed and added to your PATH.
+</p>
+<h2> <span class="mw-headline" id="Get_the_Device-tree_Compiler"> Get the Device-tree Compiler </span></h2>
+<p>This program is usually called <i>dtc</i>. You can retrieve a <a rel="nofollow" class="external text" href="http://devicetree.org/Device_Tree_Compiler">standalone version</a>, or install a distribution-provided package (see below for some examples).
+</p><p>If you are going to build a Linux kernel alongside U-Boot, it might also be worth to examine the kernel sources - as they come with <i>dtc</i> included under <code>${KERNEL_DIR}/scripts/dtc/</code>.
+</p><p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> Depending on your desired U-Boot version, a sufficiently up-to-date <i>dtc</i> may be required. (The build process will error on an outdated <i>dtc</i>, and request you to upgrade it.)
+</p>
+<h3> <span class="mw-headline" id="For_Gentoo"> For Gentoo </span></h3>
+<pre>emerge dtc</pre>
+<h3> <span class="mw-headline" id="For_openSUSE"> For openSUSE </span></h3>
+<pre>zypper install dtc</pre>
+<h3> <span class="mw-headline" id="For_Debian.2FUbuntu"> For Debian/Ubuntu </span></h3>
+<pre>apt-get install device-tree-compiler</pre>
+<h2> <span class="mw-headline" id="Clone_the_repository"> Clone the repository </span></h2>
+<p>You can clone the u-boot repository by running:
+</p>
+<pre>git clone git://git.denx.de/u-boot.git</pre>
+<p><br/>
+</p>
+<table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #EE8822; background-color: #FFEEDD">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_important.png" class="image"><img alt="MBOX icon important.png" src="/images/f/f0/MBOX_icon_important.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;">You should prefer using a stable release, unless you're testing recently added boards or experimental features that have not yet made into stable release:
+<pre> git checkout v2016.01 # or whatever is latest
+</pre>
+<p><br/>
+</p>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Determine_build_target"> Determine build target </span></h2>
+<p>Go to your u-boot tree and search in the directory <i>configs/</i> for your board, the file name looks like <i>&lt;board_name&gt;_defconfig</i>.
+</p><p>So, if your device is <a href="/Cubietech_Cubieboard2" title="Cubietech Cubieboard2">Cubieboard2</a> your build target is <i>Cubieboard2_defconfig</i>.
+</p>
+<h2> <span class="mw-headline" id="Build"> Build </span></h2>
+<p>When you have determined what &lt;board_name&gt; you want to build, configure:
+</p>
+<pre>make CROSS_COMPILE=arm-linux-gnueabihf- &lt;board_name&gt;_defconfig</pre>
+<p>There is also menuconfig to play with settings if you feel like it:
+</p>
+<pre>make CROSS_COMPILE=arm-linux-gnueabihf- menuconfig</pre>
+<p>Then just build it:
+</p>
+<pre>make CROSS_COMPILE=arm-linux-gnueabihf-</pre>
+<p>(When compiling natively, omit the <kbd>CROSS_COMPILE=…</kbd>)
+</p>
+<h2> <span class="mw-headline" id="Boot"> Boot </span></h2>
+<p>When the build has completed, there will be <i>u-boot-sunxi-with-spl.bin</i> available in your u-boot tree.
+</p><p>For getting these bits loaded onto the hardware, please refer to the respective howto:
+</p>
+<ul><li> <a href="/Bootable_SD_card#Bootloader" title="Bootable SD card"> SD Card</a>
+</li><li> Howto for the experimental NAND support - <a rel="nofollow" class="external free" href="http://lists.denx.de/pipermail/u-boot/2015-May/214959.html">http://lists.denx.de/pipermail/u-boot/2015-May/214959.html</a>
+</li><li> <a href="/Bootable_SPI_flash" title="Bootable SPI flash"> SPI NOR Flash</a>
+</li><li> <a href="/FEL/USBBoot" title="FEL/USBBoot"> USB OTG</a>
+</li></ul>
+<p>For booting from sd with mainline u-boot, the recommended way is:
+</p>
+<ul><li> create a file <i>boot.cmd</i> on the first partition (also check <a href="/Kernel_arguments" title="Kernel arguments">Kernel arguments</a> for extra 'bootargs' options):
+</li></ul>
+<table class="wikitable">
+<tr>
+<th> mainline kernel
+</th>
+<th> sunxi-3.4 kernel
+</th></tr>
+<tr>
+<td>
+<pre>setenv bootargs console=ttyS0,115200 root=/dev/mmcblk0p2 rootwait panic=10
+load mmc 0:1 0x43000000 ${fdtfile} || load mmc 0:1 0x43000000 boot/${fdtfile}
+load mmc 0:1 0x42000000 uImage || load mmc 0:1 0x42000000 boot/uImage
+bootm 0x42000000 - 0x43000000
+</pre>
+</td>
+<td>
+<pre>setenv bootm_boot_mode sec
+setenv bootargs console=ttyS0,115200 root=/dev/mmcblk0p2 rootwait panic=10
+load mmc 0:1 0x43000000 script.bin || load mmc 0:1 0x43000000 boot/script.bin
+load mmc 0:1 0x42000000 uImage || load mmc 0:1 0x42000000 boot/uImage
+bootm 0x42000000
+</pre>
+</td></tr></table>
+<dl><dd><a href="/File:Information.png" class="image"><img alt="Information.png" src="/images/5/54/Information.png" width="16" height="16"/></a> If you're wondering why setting <b>bootm_boot_mode</b> might be necessary for older kernels, have a look at the details of <a href="/PSCI" title="PSCI">PSCI</a>.
+</dd></dl>
+<dl><dd><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> Directly using a <b>zImage</b> is also supported by U-Boot for the sunxi platform. Substitute <i>zImage</i> in place of <i>uImage</i> in the commands above, and then use the <b>bootz</b> command instead of <i>bootm</i>.
+</dd></dl>
+<ul><li> convert <i>boot.cmd</i> to <i>boot.scr</i>:
+</li></ul>
+<pre> mkimage -C none -A arm -T script -d boot.cmd boot.scr
+</pre>
+<ul><li> install U-Boot
+</li></ul>
+<pre>dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8
+</pre>
+<ul><li> copy kernel files to the first partition
+<ul><li> For a 3.4 kernel you need <i>uImage</i> (linux kernel) and <i>script.bin</i> (binary representation of <a href="/Fex_Guide" title="Fex Guide">FEX</a>).
+</li><li> For a device tree based kernel ("mainline", 4.x) you need the kernel image (<i>uImage</i> or <i>zImage</i>) and the device-specific <i>.dtb</i> file (the one referenced in the <i>${fdtfile}</i> above) that is generated as part of your kernel compilation.
+</li></ul>
+</li></ul>
+<p>Look at <a href="/Manual_build_howto" title="Manual build howto">Manual build howto</a> for more details.
+</p>
+<h2> <span class="mw-headline" id="Troubleshooting"> Troubleshooting </span></h2>
+<h3> <span class="mw-headline" id="U-Boot_2015.07.2B_won.27t_start"> U-Boot 2015.07+ won't start </span></h3>
+<p>If you're using a recent (device model based) U-Boot, and the SPL just hangs after initializing the DRAM (<code>CPU: 912000000Hz, AXI/AHB/APB: 3/2/2</code> or something similar), chances are that your main U-Boot binary may be missing DTB information / a proper <a href="/Device_tree" title="Device tree" class="mw-redirect">device tree</a>. Depending on the (possibly outdated) instructions you followed: double-check that you're not incorrectly using <i>u-boot.bin</i> instead of <i>u-boot<b>-dtb</b>.bin</i>, or <i>u-boot.img</i> instead of <i>u-boot<b>-dtb</b>.img</i>.
+</p>
+<h3> <span class="mw-headline" id="Legacy_kernel_won.27t_start"> Legacy kernel won't start </span></h3>
+<ul><li> If your 3.4.x kernel refuses to boot / gets stuck right after <i>"Starting kernel ..."</i>: Double-check that <b>bootm_boot_mode</b> is set to "<b>sec</b>"! (see <a href="#Boot">above</a>)
+</li><li> If you don't have a serial console and only use VGA/HDMI/LCD, then it might be also the case of "Unrecognized/unsupported machine ID" (see <a href="#Unrecognized.2Funsupported_machine_ID">below</a>).
+</li></ul>
+<h3> <span class="mw-headline" id="Unrecognized.2Funsupported_machine_ID"> Unrecognized/unsupported machine ID </span></h3>
+<p>The sunxi-3.4 kernel may fail to boot with one of the following error messages on the serial console (but this message is not visible on a HDMI monitor or a LCD display!):
+</p>
+<pre>
+Error: unrecognized/unsupported machine ID (r1 = 0x10001008).
+Error: unrecognized/unsupported machine ID (r1 = 0x1000102a).
+Error: unrecognized/unsupported machine ID (r1 = 0x100010bb).
+</pre>
+<p>In this case either upgrade to a recent <i>stage/sunxi-3.4</i> kernel (<a class="external text" href="https://github.com/linux-sunxi/linux-sunxi/tree/stage/sunxi-3.4">github branch</a>) - or try to <b>"Enable workarounds for booting old kernels"</b> in U-Boot:
+</p>
+<dl><dd><code>make menuconfig</code> or <code>make CROSS_COMPILE=arm-linux-gnueabihf- menuconfig</code>, the option is located under "ARM architecture". (Make sure to rebuild your U-Boot after changing it.)
+</dd></dl>
+<p>If upgrading to <i>stage/sunxi-3.4</i> is not an option (i.e. using some old and very much diverged
+sunxi-3.4 fork is really necessary), then the following patches can be cherry-picked (=&#160;selectively merged <u>as a set</u>):
+</p>
+<pre>
+wget https://github.com/linux-sunxi/linux-sunxi/commit/5052b83aa44dc16d6662d8d9d936166c139ad8c5.patch
+wget https://github.com/linux-sunxi/linux-sunxi/commit/9a1cd034181af628d4145202289e1993c1687db6.patch
+wget https://github.com/linux-sunxi/linux-sunxi/commit/c4c4664ed1a2f35e54a33ae4e65f517721ff43b5.patch
+wget https://github.com/linux-sunxi/linux-sunxi/commit/ade08aa6e5249a9e75a97393e86c250b2bcb3ec8.patch
+wget https://github.com/linux-sunxi/linux-sunxi/commit/16b25a95327f45a995f6efcf3e9d83a414231af9.patch
+wget https://github.com/linux-sunxi/linux-sunxi/commit/dea62f21deb177053b84b15a519dff6c74d061d9.patch
+wget https://github.com/linux-sunxi/linux-sunxi/commit/d47d367036be38c5180632ec8a3ad169a4593a88.patch
+git am 5052b83aa44dc16d6662d8d9d936166c139ad8c5.patch
+git am 9a1cd034181af628d4145202289e1993c1687db6.patch
+git am c4c4664ed1a2f35e54a33ae4e65f517721ff43b5.patch
+git am ade08aa6e5249a9e75a97393e86c250b2bcb3ec8.patch
+git am 16b25a95327f45a995f6efcf3e9d83a414231af9.patch
+git am dea62f21deb177053b84b15a519dff6c74d061d9.patch
+git am d47d367036be38c5180632ec8a3ad169a4593a88.patch
+</pre>
+<p><a href="/File:Exclamation.png" class="image"><img alt="Exclamation.png" src="/images/c/c0/Exclamation.png" width="16" height="16"/></a> It is required to apply <b>all</b> of them, as they contain important stability/safety changes. The last patch in this series only takes care of the safety guard, which exists there specifically to block booting problematic kernels. Just removing the safety guard alone without applying all the bugfixes will lead to obscure runtime problems, please don't be tempted to do this.
+</p>
+<h1> <span class="mw-headline" id="Configure_U-Boot"> Configure U-Boot </span></h1>
+<p>Please refer to <a href="/U-Boot#Configure_U-Boot" title="U-Boot"> our configuring U-Boot howto.</a>
+</p>
+<h1> <span class="mw-headline" id="Adding_a_new_device_to_upstream_U-Boot"> Adding a new device to upstream U-Boot </span></h1>
+<p><a rel="nofollow" class="external free" href="http://lists.denx.de/pipermail/u-boot/2014-December/199351.html">http://lists.denx.de/pipermail/u-boot/2014-December/199351.html</a>
+</p>
+<h2> <span class="mw-headline" id="DRAM_Settings"> DRAM Settings </span></h2>
+<h3> <span class="mw-headline" id="Failsafe_DRAM_settings.2C_based_on_standard_JEDEC_timings"> Failsafe DRAM settings, based on standard JEDEC timings </span></h3>
+<p>Each device has DRAM settings configured in its defconfig file in the U-Boot "configs" directory (here is <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=blob;f=configs/Cubietruck_defconfig;h=b64f84f2b8d2d48bed3130aecd31d220013061f0;hb=HEAD">an example for the Cubietruck board</a>). The slow failsafe DRAM settings for an A10/A13/A20 device may look like:
+</p>
+<pre style="background-color: lightgreen;">
++S:CONFIG_DRAM_CLK=360
++S:CONFIG_DRAM_ZQ=123
++S:CONFIG_DRAM_EMR1=4
++S:CONFIG_DRAM_TIMINGS_DDR3_800E_1066G_1333J=y
+</pre>
+<h3> <span class="mw-headline" id="The_settings_from_the_Android_firmware"> The settings from the Android firmware </span></h3>
+<p>Somewhat better settings can be retrieved by the <a href="/Retrieving_device_information#Reading_memory_information_from_registers" title="Retrieving device information">meminfo tool</a> from the stock Android or GNU/Linux system, provided by the device manufacturer. It still makes sense to <a href="/Hardware_Reliability_Tests#DRAM" title="Hardware Reliability Tests">test the reliability</a> of the resulting DRAM configuration. Because some vendors are providing poor configuration for ZQ or EMR1, but nevertheless trying to optimistically set the DRAM clock speed too high.
+</p>
+<h3> <span class="mw-headline" id="Performance_optimized_DRAM_settings"> Performance optimized DRAM settings </span></h3>
+<p>Tuning DRAM setting for each individual board can provide much better performance than the failsafe defaults. This involves trial and error testing of different settings using a tool until an optimal combination is found. The <a href="/DRAM_Controller" title="DRAM Controller">DRAM Controller page</a> provides links to start researching this topic. This approach will be time consuming, so a satisfactory solution using one of the other approaches may be best to start with.
+</p>
+<h2> <span class="mw-headline" id="LCD_Settings"> LCD Settings </span></h2>
+<p>There is a <a href="/LCD" title="LCD">separate wiki page about configuring LCD</a> in U-Boot.
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">Mainline Kernel Howto</a>
+</li></ul>
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Mainline_U-Boot&amp;oldid=17608">http://linux-sunxi.org/index.php?title=Mainline_U-Boot&amp;oldid=17608</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Software" title="Category:Software">Software</a></li><li><a href="/Category:Development" title="Category:Development">Development</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mainline+U-Boot&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mainline+U-Boot" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Mainline_U-Boot" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Mainline_U-Boot" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Mainline_U-Boot">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Mainline_U-Boot&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Mainline_U-Boot&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Mainline_U-Boot" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Mainline_U-Boot" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Mainline_U-Boot&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Mainline_U-Boot&amp;oldid=17608" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 13 June 2016, at 05:48.</li>
+<li id="footer-info-viewcount">This page has been accessed 69,556 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.categoryTree","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

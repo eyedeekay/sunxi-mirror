@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>A64 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"A64","wgTitle":"A64","wgCurRevisionId":17892,"wgArticleId":2446,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["System on Chip"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"A64","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/A64"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-A64 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">A64</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">A64</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:A64_SoC.jpg" class="image"><img alt="A64 SoC.jpg" src="/images/5/5c/A64_SoC.jpg" width="250" height="248"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+Allwinner</td></tr><tr class=""><th scope="row" style="text-align:left;">Process</th><td class="" style="">
+40nm</td></tr><tr class=""><th scope="row" style="text-align:left;">CPU</th><td class="" style="">
+Quad-Core ARM Cortex-A53</td></tr><tr class=""><th scope="row" style="text-align:left;">Memory</th><td class="" style="">
+LPDDR2/ LPDDR3/ DDR3 / DDR3L</td></tr><tr class=""><th scope="row" style="text-align:left;">GPU</th><td class="" style="">
+<a href="/Mali400" title="Mali400">Mali400</a> MP2</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Connectivity</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+MIPI DSI <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c1f0f8f3f1b9f0f3f1f181f7f1a7b1b2">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, LVDS <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="99a8aaafafe1aeafa1d9afa9ffe9ea">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, RGB <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="72434b40420a43404242324442140201">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, HDMI v1.4 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="31055a710201574142">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+NAND, NOR, MMC</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+OTG, 1x Host</td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+?</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.allwinnertech.com/en/clq/processora/6053.html">Product Page</a></td></tr>
+</table>
+<p>Allwinner <strong class="selflink">A64</strong> (sun50i) SoC features a Quad-Core Cortex-A53 ARM CPU, and a <a href="/Mali400" title="Mali400">Mali400</a> MP2 GPU from ARM.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#A64_SoC_Features"><span class="tocnumber">2</span> <span class="toctext">A64 SoC Features</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Documentation"><span class="tocnumber">3</span> <span class="toctext">Documentation</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Register_guide"><span class="tocnumber">4</span> <span class="toctext">Register guide</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Software"><span class="tocnumber">5</span> <span class="toctext">Software</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Original_SDK"><span class="tocnumber">5.1</span> <span class="toctext">Original SDK</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Boot0"><span class="tocnumber">5.2</span> <span class="toctext">Boot0</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#U-boot"><span class="tocnumber">5.3</span> <span class="toctext">U-boot</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Allwinner"><span class="tocnumber">5.3.1</span> <span class="toctext">Allwinner</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Sunxi_Community"><span class="tocnumber">5.3.2</span> <span class="toctext">Sunxi Community</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Mainline_U-Boot"><span class="tocnumber">5.3.3</span> <span class="toctext">Mainline U-Boot</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Kernel_code"><span class="tocnumber">5.4</span> <span class="toctext">Kernel code</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Allwinner_2"><span class="tocnumber">5.4.1</span> <span class="toctext">Allwinner</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Sunxi_Community_2"><span class="tocnumber">5.4.2</span> <span class="toctext">Sunxi Community</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Devices"><span class="tocnumber">6</span> <span class="toctext">Devices</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Overview">Overview</span></h1>
+<p>The A64 is basically an <a href="/H3" title="H3">Allwinner H3</a> with the Cortex-A7 cores replaced with Cortex-A53 cores (<a href="/Arm64" title="Arm64">ARM64 architecture</a>). They share most of the memory map, clocks, interrupts and also uses the same IP blocks. Differences between the H3 and the A64 seem to be:
+</p>
+<ul><li> The H3 has three USB host controllers, whereas the A64 has only one. Both SoCs have an additional USB-OTG controller, which is assumed to be used as normal host controller as well.
+</li><li> The H3 DRAM controller supports up to 2GB of RAM, the A64 supports up to 3 GB. Despite being a 64-bit chip, this makes the SoC entirely 32-bit on the physical side.
+</li><li> The H3 supports 5 UARTs, the A64 has 6 of them.
+</li><li> The MMC controller has been updated to support faster transfer modes. The MMC clocks have changed on the way, now the MMC controller itself provides support for the output and sample phase.
+</li></ul>
+<h1> <span class="mw-headline" id="A64_SoC_Features">A64 SoC Features</span></h1>
+<ul><li> CPU
+<ul><li> <a rel="nofollow" class="external text" href="http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0500f/index.html">ARM Cortex-A53 Quad-Core (r0p4, revidr=0x80)</a> (scroll down for the PDF link)
+</li><li> 512KiB L2-Cache
+</li><li> 32KiB (Instruction) / 32KiB (Data) L1-Cache per core
+</li><li> SIMD NEON (including double-precision floating point), VFP4
+</li><li> Cryptography Extension (SHA and AES instructions)
+</li><li> Affected by one critical erratum (only in AArch64 state): <a rel="nofollow" class="external text" href="https://sourceware.org/bugzilla/show_bug.cgi?id=18348">843419</a>
+</li></ul>
+</li><li> GPU
+<ul><li> ARM Mali400 MP2
+</li><li> Featuring 1 vertex shader (GP) and 2 fragment shaders (PP).
+</li><li> Complies with OpenGL ES 2.0
+</li></ul>
+</li><li> Memory
+<ul><li> DDR2/DDR3/DDR3L/LPDDR2/LPDDR3 controller (up to 3GB of 667MHz(DDR-1333))
+</li><li> NAND Flash controller and 64-bit ECC
+</li></ul>
+</li><li> Video
+<ul><li> H.265 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="6b5f002b585b0d1b18">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="88b9b8b0b8f8c8b9bab8eef8fb">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> decoding
+</li><li> H.264 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="60515058501020061013">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> decoding
+</li><li> MPEG 1/2/4: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="6554555d5515255355031516">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> VC1 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="b485848c84c4f48784d2c4c7">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> VP8 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="bc8d8c848cccfc8a8cdacccf">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> AVS/AVS+ <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="083938303878483e386e787b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> JPEG/MJPEG <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="192829212969592a297f696a">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> H.264 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="bd8c8d858dedfd8b8ddbcdce">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> encoding
+</li></ul>
+</li><li> Display
+<ul><li> LVDS single link up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="deefede8e8a6e9e8e69ee8eeb8aead">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> RBG with DE/SYNC up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="98a9a1aaa8e0a9aaa8a8d8aea8fee8eb">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> MIPI DSI 4-lanes up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="87b6beb5b7ffb6b5b7b7c7b1b7e1f7f4">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> HDMI1.4 with HDCP1.2 up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="92a6f9d2a1a2f4e2e1">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li></ul>
+</li><li> Camera
+<ul><li> Supports parallel 8-bit YUV422 sensor
+</li><li> Support CCIR656 protocol for NTSC and PAL
+</li><li> Maximum still capture resolution 5M
+</li><li> Maximum video capture resolution up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="dfeeefe7efaf9fecefb9afac">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li></ul>
+</li><li> PMIC
+<ul><li> X-Powers <a href="/AXP803" title="AXP803">AXP803</a>, as seen used with A64 in Olimex Olinuxino A64 design
+</li></ul>
+</li></ul>
+<h1> <span class="mw-headline" id="Documentation"> Documentation </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://files.pine64.org/doc/datasheet/pine64/A64_Datasheet_V1.1.pdf">A64 Datasheet v1.1</a>
+</li><li> <a rel="nofollow" class="external text" href="http://files.pine64.org/doc/datasheet/pine64/Allwinner_A64_User_Manual_V1.0.pdf">A64 User Manual v1.0</a>
+</li></ul>
+<p>Some devices in the SoC are not described in the manual, but have descriptions in other SoC's manuals:
+</p>
+<ul><li> <a href="/RSB" title="RSB" class="mw-redirect">RSB</a>: MMIO address and IRQ mentioned in the A64 manual, IP description in the A83T manual.
+</li><li> PRCM: MMIO address mentioned in the A64 manual, IP description in the A83T manual.
+</li></ul>
+<p>Some remarks about the memory map.
+</p>
+<ul><li> <a href="/A64/Memory_map" title="A64/Memory map">A64/Memory map</a>
+</li></ul>
+<h1> <span class="mw-headline" id="Register_guide"> Register guide </span></h1>
+<h1> <span class="mw-headline" id="Software"> Software </span></h1>
+<h2> <span class="mw-headline" id="Original_SDK"> Original SDK </span></h2>
+<h2> <span class="mw-headline" id="Boot0"> Boot0 </span></h2>
+<h2> <span class="mw-headline" id="U-boot"> U-boot </span></h2>
+<h3> <span class="mw-headline" id="Allwinner"> Allwinner </span></h3>
+<h3> <span class="mw-headline" id="Sunxi_Community"> Sunxi Community </span></h3>
+<h3> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h3>
+<p>Basic support for the A64 SoC has been been merged into 2016.05-rc1. This covers UART, MMC and required GPIOs and clocks, but no Ethernet or USB yet. Also as there is no information on the DRAM controller so far, the SPL support is not enabled, so boot0 is required at the moment to get U-Boot loaded.
+</p><p>The U-Boot implementation is 64-bit (armv8), so an aarch64 cross compiler is needed to compile U-Boot.
+</p>
+<h2> <span class="mw-headline" id="Kernel_code"> Kernel code </span></h2>
+<h3> <span class="mw-headline" id="Allwinner_2"> Allwinner </span></h3>
+<h3> <span class="mw-headline" id="Sunxi_Community_2"> Sunxi Community </span></h3>
+<h1> <span class="mw-headline" id="Devices"> Devices </span></h1>
+<ul><li> <a href="/Pine64" title="Pine64">Pine64</a>
+</li><li> <a href="/Jide_Remix_Mini" title="Jide Remix Mini">Jide Remix Mini</a>
+</li><li> <a href="/index.php?title=Azpen_Hybrix&amp;action=edit&amp;redlink=1" class="new" title="Azpen Hybrix (page does not exist)">Azpen Hybrix</a>
+</li></ul>
+<p>Devices in development:
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="https://olimex.wordpress.com/2015/11/24/a64-olinuxino-oshw-linux-laptop-idea-becomes-more-real/">Olimex A64 Linux Laptop</a>
+</li><li> <a rel="nofollow" class="external text" href="https://olimex.wordpress.com/2016/07/05/a64-olinuxino-update-the-rev-b-design-will-be-possible-to-produce-in-industrial-grade-4085c-dual-voltage-emmc-3-31-8v/">Olimex A64 Olinuxino</a>
+</li></ul>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<h1> <span class="mw-headline" id="References">References</span></h1>
+<p><br/>
+</p>
+<h1> <span class="mw-headline" id="External_links"> External links </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.allwinnertech.com/en/clq/processora/6053.html">Product Page</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.cnx-software.com/2015/12/10/allwinner-a64-android-5-1-sdk-and-linux-source-code/#comment-517449">lichee_A64_A5.1_V1.0.tar.gz</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=A64&amp;oldid=17892">http://linux-sunxi.org/index.php?title=A64&amp;oldid=17892</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:System_on_Chip" title="Category:System on Chip">System on Chip</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=A64&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=A64" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/A64" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:A64" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/A64">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=A64&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=A64&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/A64" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/A64" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=A64&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=A64&amp;oldid=17892" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 7 July 2016, at 17:57.</li>
+<li id="footer-info-viewcount">This page has been accessed 9,378 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

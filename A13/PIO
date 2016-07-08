@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>A13/PIO - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"A13/PIO","wgTitle":"A13/PIO","wgCurRevisionId":14778,"wgArticleId":114,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"A13/PIO","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/A13/PIO"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-A13_PIO skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">A13/PIO</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"><span class="subpages">&lt; <a href="/A13" title="A13">A13</a></span></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#PB"><span class="tocnumber">1</span> <span class="toctext">PB</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#PC"><span class="tocnumber">2</span> <span class="toctext">PC</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#PD"><span class="tocnumber">3</span> <span class="toctext">PD</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#PE"><span class="tocnumber">4</span> <span class="toctext">PE</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#PF"><span class="tocnumber">5</span> <span class="toctext">PF</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#PG"><span class="tocnumber">6</span> <span class="toctext">PG</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="PB"> PB </span></h2>
+<table class="wikitable">
+<tr>
+<th> Port
+</th>
+<th> Pin
+</th>
+<th> Type
+</th>
+<th> MUX 2
+</th>
+<th> MUX 4
+</th>
+<th> MUX 6
+</th></tr>
+<tr>
+<td> <tt>PB0</tt>
+</td>
+<td> 101
+</td>
+<td> I/O
+</td>
+<td> <a href="/I%C2%B2C" title="I²C" class="mw-redirect">TWI0-SCK</a>
+</td></tr>
+<tr>
+<td> <tt>PB1</tt>
+</td>
+<td> 102
+</td>
+<td> I/O
+</td>
+<td> <a href="/I%C2%B2C" title="I²C" class="mw-redirect">TWI0-SDA</a>
+</td></tr>
+<tr>
+<td> <tt>PB2</tt>
+</td>
+<td> 103
+</td>
+<td> I/O
+</td>
+<td> PWM
+</td>
+<td> SPI2-MOSI
+</td>
+<td> EINT16
+</td></tr>
+<tr>
+<td> <tt>PB3</tt>
+</td>
+<td> 150
+</td>
+<td> I/O
+</td>
+<td> IR_TX
+</td>
+<td> SPI2_MISO
+</td>
+<td> EINT17
+</td></tr>
+<tr>
+<td> <tt>PB4</tt>
+</td>
+<td> 104
+</td>
+<td> I/O
+</td>
+<td> IR_RX
+</td>
+<td>
+</td>
+<td> EINT18
+</td></tr>
+<tr>
+<td> <tt>PB10</tt>
+</td>
+<td> 10
+</td>
+<td> I/O
+</td>
+<td> SPI2_CS1
+</td>
+<td>
+</td>
+<td> EINT24
+</td></tr>
+<tr>
+<td> <tt>PB15</tt>
+</td>
+<td> 105
+</td>
+<td> I/O
+</td>
+<td> <a href="/I%C2%B2C" title="I²C" class="mw-redirect">TWI1_SCK</a>
+</td></tr>
+<tr>
+<td> <tt>PB16</tt>
+</td>
+<td> 106
+</td>
+<td> I/O
+</td>
+<td> <a href="/I%C2%B2C" title="I²C" class="mw-redirect">TWI1_SDA</a>
+</td></tr>
+<tr>
+<td> <tt>PB17</tt>
+</td>
+<td> 161
+</td>
+<td> I/O
+</td>
+<td> <a href="/I%C2%B2C" title="I²C" class="mw-redirect">TWI2_SCK</a>
+</td></tr>
+<tr>
+<td> <tt>PB18</tt>
+</td>
+<td> 160
+</td>
+<td> I/O
+</td>
+<td> <a href="/I%C2%B2C" title="I²C" class="mw-redirect">TWI2_SDA</a>
+</td></tr></table>
+<h2> <span class="mw-headline" id="PC"> PC </span></h2>
+<table class="wikitable">
+<tr>
+<th> Port
+</th>
+<th> Pin
+</th>
+<th> Mux&#160;?
+</th>
+<th> Mux&#160;?
+</th></tr>
+<tr>
+<td> <tt>PC0</tt>
+</td>
+<td> 8
+</td>
+<td> NWE
+</td>
+<td> SPI0_MOSI
+</td></tr>
+<tr>
+<td> <tt>PC1</tt>
+</td>
+<td> 7
+</td>
+<td> NALE
+</td>
+<td> SPI0_MISO
+</td></tr>
+<tr>
+<td> <tt>PC2</tt>
+</td>
+<td> 6
+</td>
+<td> NCLE
+</td>
+<td> SPI0_CLK
+</td></tr>
+<tr>
+<td> <tt>PC3</tt>
+</td>
+<td> 3
+</td>
+<td> NCE1
+</td>
+<td> SPI0_CS0
+</td></tr>
+<tr>
+<td> <tt>PC4</tt>
+</td>
+<td> 2
+</td>
+<td> NCE0
+</td></tr>
+<tr>
+<td> <tt>PC5</tt>
+</td>
+<td> 1
+</td>
+<td> NRE
+</td></tr>
+<tr>
+<td> <tt>PC6</tt>
+</td>
+<td> 176
+</td>
+<td> NRB0
+</td>
+<td> SDC2_CMD
+</td></tr>
+<tr>
+<td> <tt>PC7</tt>
+</td>
+<td> 175
+</td>
+<td> NRB1
+</td>
+<td> SDC2_CLK
+</td></tr>
+<tr>
+<td> <tt>PC8</tt>
+</td>
+<td> 174
+</td>
+<td> NDQ0
+</td>
+<td> SDC2_D0
+</td></tr>
+<tr>
+<td> <tt>PC9</tt>
+</td>
+<td> 172
+</td>
+<td> NDQ1
+</td>
+<td> SDC2_D1
+</td></tr>
+<tr>
+<td> <tt>PC10</tt>
+</td>
+<td> 171
+</td>
+<td> NDQ2
+</td>
+<td> SDC2_D2
+</td></tr>
+<tr>
+<td> <tt>PC11</tt>
+</td>
+<td> 170
+</td>
+<td> NDQ3
+</td>
+<td> SDC2_D3
+</td></tr>
+<tr>
+<td> <tt>PC12</tt>
+</td>
+<td> 168
+</td>
+<td> NDQ4
+</td>
+<td> SDC2_D4
+</td></tr>
+<tr>
+<td> <tt>PC13</tt>
+</td>
+<td> 167
+</td>
+<td> NDQ5
+</td>
+<td> SDC2_D5
+</td></tr>
+<tr>
+<td> <tt>PC14</tt>
+</td>
+<td> 166
+</td>
+<td> NDQ6
+</td>
+<td> SDC2_D6
+</td></tr>
+<tr>
+<td> <tt>PC15</tt>
+</td>
+<td> 165
+</td>
+<td> NDC7
+</td>
+<td> SDC2_D7
+</td></tr>
+<tr>
+<td> <tt>PC19</tt>
+</td>
+<td> 162
+</td>
+<td> NDQS
+</td></tr></table>
+<h2> <span class="mw-headline" id="PD"> PD </span></h2>
+<table class="wikitable">
+<tr>
+<th> Port
+</th>
+<th> Pin
+</th>
+<th> Mux&#160;?
+</th>
+<th> Mux&#160;?
+</th></tr>
+<tr>
+<td> <tt>PD2</tt>
+</td>
+<td> 148
+</td>
+<td> LCD_D2
+</td></tr>
+<tr>
+<td> <tt>PD3</tt>
+</td>
+<td> 147
+</td>
+<td> LCD_D3
+</td></tr>
+<tr>
+<td> <tt>PD4</tt>
+</td>
+<td> 146
+</td>
+<td> LCD_D4
+</td></tr>
+<tr>
+<td> <tt>PD5</tt>
+</td>
+<td> 145
+</td>
+<td> LCD_D5
+</td></tr>
+<tr>
+<td> <tt>PD6</tt>
+</td>
+<td> 144
+</td>
+<td> LCD_D6
+</td></tr>
+<tr>
+<td> <tt>PD7</tt>
+</td>
+<td> 143
+</td>
+<td> LCD_D7
+</td></tr>
+<tr>
+<td> <tt>PD10</tt>
+</td>
+<td> 141
+</td>
+<td> LCD_D10
+</td></tr>
+<tr>
+<td> <tt>PD11</tt>
+</td>
+<td> 140
+</td>
+<td> LCD_D11
+</td></tr>
+<tr>
+<td> <tt>PD12</tt>
+</td>
+<td> 139
+</td>
+<td> LCD_D12
+</td></tr>
+<tr>
+<td> <tt>PD13</tt>
+</td>
+<td> 138
+</td>
+<td> LCD_D13
+</td></tr>
+<tr>
+<td> <tt>PD14</tt>
+</td>
+<td> 137
+</td>
+<td> LCD_D14
+</td></tr>
+<tr>
+<td> <tt>PD15</tt>
+</td>
+<td> 136
+</td>
+<td> LCD_D15
+</td></tr>
+<tr>
+<td> <tt>PD18</tt>
+</td>
+<td> 135
+</td>
+<td> LCD_D18
+</td></tr>
+<tr>
+<td> <tt>PD19</tt>
+</td>
+<td> 134
+</td>
+<td> LCD_D19
+</td></tr>
+<tr>
+<td> <tt>PD20</tt>
+</td>
+<td> 133
+</td>
+<td> LCD_D20
+</td></tr>
+<tr>
+<td> <tt>PD21</tt>
+</td>
+<td> 132
+</td>
+<td> LCD_D21
+</td></tr>
+<tr>
+<td> <tt>PD22</tt>
+</td>
+<td> 131
+</td>
+<td> LCD_D22
+</td></tr>
+<tr>
+<td> <tt>PD23</tt>
+</td>
+<td> 130
+</td>
+<td> LCD_D23
+</td></tr>
+<tr>
+<td> <tt>PD24</tt>
+</td>
+<td> 129
+</td>
+<td> LCD_CLK
+</td></tr>
+<tr>
+<td> <tt>PD25</tt>
+</td>
+<td> 128
+</td>
+<td> LCD_DE
+</td></tr>
+<tr>
+<td> <tt>PD26</tt>
+</td>
+<td> 127
+</td>
+<td> LCD_HSYNC
+</td></tr>
+<tr>
+<td> <tt>PD27</tt>
+</td>
+<td> 126
+</td>
+<td> LCD_VSYNC
+</td></tr></table>
+<h2> <span class="mw-headline" id="PE"> PE </span></h2>
+<table class="wikitable">
+<tr>
+<th> Port
+</th>
+<th> Pin
+</th>
+<th> Type
+</th>
+<th> MUX 3
+</th>
+<th> MUX 4
+</th>
+<th> MUX&#160;?
+</th></tr>
+<tr>
+<td> PE0
+</td>
+<td> 114
+</td>
+<td> Input
+</td>
+<td> CSI_PCLK
+</td>
+<td> SPI2_CS0
+</td>
+<td> EINT14
+</td></tr>
+<tr>
+<td> PE1
+</td>
+<td> 115
+</td>
+<td> Input
+</td>
+<td> CSI_MCLK
+</td>
+<td> SPI2_CLK
+</td>
+<td> EINT15
+</td></tr>
+<tr>
+<td> PE2
+</td>
+<td> 116
+</td>
+<td> Input
+</td>
+<td> CSI_HSYNC
+</td>
+<td> SPI2_MOSI
+</td></tr>
+<tr>
+<td> PE3
+</td>
+<td> 117
+</td>
+<td> I/O
+</td>
+<td> CSI_VSYNC
+</td>
+<td> SPI2_MISO
+</td></tr>
+<tr>
+<td> PE4
+</td>
+<td> 118
+</td>
+<td> I/O
+</td>
+<td> CSI_D0
+</td>
+<td> SDC2_D0
+</td></tr>
+<tr>
+<td> PE5
+</td>
+<td> 119
+</td>
+<td> I/O
+</td>
+<td> CSI_D1
+</td>
+<td> SDC2_D1
+</td></tr>
+<tr>
+<td> PE6
+</td>
+<td> 120
+</td>
+<td> I/O
+</td>
+<td> CSI_D2
+</td>
+<td> SDC2_D2
+</td></tr>
+<tr>
+<td> PE7
+</td>
+<td> 121
+</td>
+<td> I/O
+</td>
+<td> CSI_D3
+</td>
+<td> SDC2_D3
+</td></tr>
+<tr>
+<td> PE8
+</td>
+<td> 122
+</td>
+<td> I/O
+</td>
+<td> CSI_D4
+</td>
+<td> SDC2_CMD
+</td></tr>
+<tr>
+<td> PE9
+</td>
+<td> 123
+</td>
+<td> I/O
+</td>
+<td> CSI_D5
+</td>
+<td> SDC2_CLK
+</td></tr>
+<tr>
+<td> PE10
+</td>
+<td> 124
+</td>
+<td> I/O
+</td>
+<td> CSI_D6
+</td>
+<td> UART1_TX
+</td></tr>
+<tr>
+<td> PE11
+</td>
+<td> 125
+</td>
+<td> I/O
+</td>
+<td> CSI_D7
+</td>
+<td> UART1_RX
+</td></tr>
+</table>
+<h2> <span class="mw-headline" id="PF"> PF </span></h2>
+<table class="wikitable">
+<tr>
+<th colspan="9"> <span id="PF">Port Bank F</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Pin </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PF0"><tt><a href="#PF0">PF0<tt></a></span>
+</td>
+<td> 107
+</td>
+<td> I/O
+</td>
+<td> SD0_DATA1
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/JTAG" title="JTAG">JTAG_TMS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF1"><tt><a href="#PF1">PF1<tt></a></span>
+</td>
+<td> 108
+</td>
+<td> I/O
+</td>
+<td> SD0_DATA0
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/JTAG" title="JTAG">JTAG_TDI</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF2"><tt><a href="#PF2">PF2<tt></a></span>
+</td>
+<td> 110
+</td>
+<td> I/O
+</td>
+<td> SD0_CLK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> UART0_TX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF3"><tt><a href="#PF3">PF3<tt></a></span>
+</td>
+<td> 111
+</td>
+<td> I/O
+</td>
+<td> SD0_CMD
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/JTAG" title="JTAG">JTAG_TDO</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF4"><tt><a href="#PF4">PF4<tt></a></span>
+</td>
+<td> 112
+</td>
+<td> I/O
+</td>
+<td> SD0_DATA3
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> UART0_RX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF5"><tt><a href="#PF5">PF5<tt></a></span>
+</td>
+<td> 113
+</td>
+<td> I/O
+</td>
+<td> SD0_DATA2
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/JTAG" title="JTAG">JTAG_TCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr></table>
+<h2> <span class="mw-headline" id="PG"> PG </span></h2>
+<table class="wikitable">
+<tr>
+<th> Port
+</th>
+<th> Pin
+</th>
+<th> Type
+</th>
+<th> MUX 2
+</th>
+<th> MUX 3
+</th>
+<th> MUX 6
+</th></tr>
+<tr>
+<td> <tt>PG0</tt>
+</td>
+<td> 155
+</td>
+<td> Input
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> EINT0
+</td></tr>
+<tr>
+<td> <tt>PG1</tt>
+</td>
+<td> 154
+</td>
+<td> Input
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> EINT1
+</td></tr>
+<tr>
+<td> <tt>PG2</tt>
+</td>
+<td> 153
+</td>
+<td> Input
+</td>
+<td>
+</td>
+<td>
+</td>
+<td> EINT2
+</td></tr>
+<tr>
+<td> <tt>PG3</tt>
+</td>
+<td> 152
+</td>
+<td> I/O
+</td>
+<td> UART1_TX
+</td>
+<td>
+</td>
+<td> EINT3
+</td></tr>
+<tr>
+<td> <tt>PG4</tt>
+</td>
+<td> 151
+</td>
+<td> I/O
+</td>
+<td> UART1_RX
+</td>
+<td>
+</td>
+<td> EINT4
+</td></tr>
+<tr>
+<td> <tt>PG9</tt>
+</td>
+<td> 12
+</td>
+<td> I/O
+</td>
+<td> SPI1_CS0
+</td>
+<td> UART3_TX
+</td>
+<td> EINT9
+</td></tr>
+<tr>
+<td> <tt>PG10</tt>
+</td>
+<td> 13
+</td>
+<td> I/O
+</td>
+<td> SPI1_CLK
+</td>
+<td> UART3_RX
+</td>
+<td> EINT10
+</td></tr>
+<tr>
+<td> <tt>PG11</tt>
+</td>
+<td> 14
+</td>
+<td> I/O
+</td>
+<td> SPI1_MOSI
+</td>
+<td> UART3_CTS
+</td>
+<td> EINT11
+</td></tr>
+<tr>
+<td> <tt>PG12</tt>
+</td>
+<td> 15
+</td>
+<td> I/O
+</td>
+<td> SPI1_MISO
+</td>
+<td> UART3_RTS
+</td>
+<td> EINT12
+</td></tr></table>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=A13/PIO&amp;oldid=14778">http://linux-sunxi.org/index.php?title=A13/PIO&amp;oldid=14778</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks catlinks-allhidden'></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=A13%2FPIO&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=A13%2FPIO" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/A13/PIO" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:A13/PIO&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/A13/PIO">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=A13/PIO&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=A13/PIO&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/A13/PIO" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/A13/PIO" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=A13/PIO&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=A13/PIO&amp;oldid=14778" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 19 August 2015, at 11:17.</li>
+<li id="footer-info-viewcount">This page has been accessed 11,173 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

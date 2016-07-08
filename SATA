@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>SATA - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"SATA","wgTitle":"SATA","wgCurRevisionId":16828,"wgArticleId":166,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"SATA","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/SATA"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-SATA skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">SATA</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>An integrated <a class="external text" href="http://en.wikipedia.org/wiki/Serial_ATA">Serial ATA</a> interface is available on Allwinner <a href="/A10" title="A10">A10</a> and <a href="/A20" title="A20">A20</a> SoCs.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Specifications"><span class="tocnumber">1</span> <span class="toctext">Specifications</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Performance"><span class="tocnumber">2</span> <span class="toctext">Performance</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Port_multipliers"><span class="tocnumber">3</span> <span class="toctext">Port multipliers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#PMP_support_-_using_SATA_port_multipliers_with_sunxi_devices"><span class="tocnumber">3.1</span> <span class="toctext">PMP support - using SATA port multipliers with sunxi devices</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Caveats"><span class="tocnumber">3.2</span> <span class="toctext">Caveats</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Mechanical_quality"><span class="tocnumber">4</span> <span class="toctext">Mechanical quality</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Specifications"> Specifications </span></h2>
+<p>From <b>A10</b> EVB Manual<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>:
+</p>
+<ul><li> Supports SATA 1.5Gb/s, and SATA 3.0Gb/s
+</li><li> Compliant with SATA Spec. 2.6, and <a class="external text" href="http://en.wikipedia.org/wiki/Advanced_Host_Controller_Interface">AHCI</a> Revision 1.3 Specifications
+</li><li> Supports industry-standard AMBA High-Performance Bus (AHB) and it is fully compliant with the AMBA Specification, Revision 2.0.
+</li><li> Supports 32-bit Little Endian
+</li><li> OOB signaling detection and generation
+</li><li> SATA 1.5Gb/s and SATA 3.0Gb/s speed negotiation when Tx OON signaling is selected
+</li><li> Supports device hot-plugging
+</li><li> Support power management features including automatic Partial to Slumber transition
+</li><li> Internal DMA Engine for Command and Data Transactions
+</li><li> Supports hardware-assisted <a class="external text" href="http://en.wikipedia.org/wiki/Native_Command_Queuing">Native Command Queuing</a> (NCQ) for up to 32-entries
+</li><li> Support external SATA (eSATA)
+</li></ul>
+<p>The <b>A20</b> user manual<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> lists identical SATA/AHCI interface features.
+</p>
+<h2> <span class="mw-headline" id="Performance"> Performance </span></h2>
+<p><span style="color:#ba0000">This section is work in progress</span>
+</p><p><s>It has been tested to work up to 60MB/s.</s> <span style="color:#ba0000"><small>How, and with what SoC / device combination?</small></span>
+</p><p>SATA throughput is unbalanced for unknown reasons: With appropriate <a href="/Cpufreq" title="Cpufreq">cpufreq</a> settings it's possible to get sequential read speeds of +200 MB/s while write speeds retain at approx. 45 MB/s. This might be caused by buggy silicon or driver problems.
+</p><p>Unlike other platforms sequential SATA transfer rates on A10/A20 scale somewhat linearly with both <a href="/Cpufreq" title="Cpufreq">cpufreq settings</a> and DRAM clock. In case you use the wrong cpufreq settings it's impossible to achieve maximum SATA performance (eg. using the <i>ondemand</i> governor without <i><a href="/Cpufreq#Performance.2Ffunctionality_impacts" title="Cpufreq">io_is_busy</a></i> setting).
+</p><p>On the dual-core A20 setting both <i>CONFIG_SCHED_MC=y</i> and <i>CONFIG_SCHED_SMT=y</i> at kernel compile time seems to increase SATA throughput (sequential reads +10 MB/s).
+</p><p>Also worth a look are Linux' <a class="external text" href="http://en.wikipedia.org/wiki/I/O_scheduling">I/O schedulers</a>. If your SATA disk is available as <i>/dev/sda</i> you can query <i>/sys/block/sda/queue/scheduler</i> to get the list of available I/O schedulers (the active printed in brackets) and change the scheduler either globally by supplying <i>elevator=deadline</i> to <a href="/Kernel_arguments" title="Kernel arguments">bootargs</a> environment or on a per device basis using <i>echo deadline &gt;/sys/block/sdN/queue/scheduler</i> (deadline seems to be the most performant scheduler on A10/A20)
+</p>
+Since irqbalancing isn't working on sunxi/ARM one way to get better SATA throughput on A20 devices is to assign all AHCI/SATA IRQs to the second CPU core using <pre>echo 2 &gt;/proc/irq/$(awk -F&quot;:&quot; '/ahci/ {print $1}' &lt;/proc/interrupts)/smp_affinity</pre>
+<h2> <span class="mw-headline" id="Port_multipliers"> Port multipliers </span></h2>
+<p>A <a class="external text" href="http://en.wikipedia.org/wiki/Port_multiplier">port multiplier</a> allows to connect multiple SATA devices to a single SATA host port. Since <a href="/Category:Devices_with_SATA_port" title="Category:Devices with SATA port"> sunxi devices with SATA</a> are restricted to only one port, support for the port multiplier protocol (PMP) is a desirable feature. However, this requires suitable hardware (SATA controller) and software (AHCI driver).
+</p>
+<h3> <span class="mw-headline" id="PMP_support_-_using_SATA_port_multipliers_with_sunxi_devices"> PMP support - using SATA port multipliers with sunxi devices </span></h3>
+<ul><li> <a href="/A10" title="A10">A10</a> is frequently said not to support PMP due to hardware limitations and/or older SATA specification. But some documents (A10 EVB manual) indicate capabilities identical to the A20 (see above), and a <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2014-November/302582.html">patch submission</a> from Hans de Goede suggests he tested PMP with both A10- and A20-based devices.
+</li><li> The <a href="/A20" title="A20">A20</a>'s SATA controller is confirmed to support PMP from a variety of sources. It only supports the slower <a class="external text" href="https://en.wikipedia.org/wiki/Port_multiplier#Command-based_switching">Command-based switching</a> and not the faster <a class="external text" href="https://en.wikipedia.org/wiki/Port_multiplier#FIS-based_.28frame_information_structure.29_switching">FIS-based mode</a>.
+</li></ul>
+<p>Originally the <i>sunxi_ahci</i> driver derived from Allwinner sources deliberately disabled PMP by always indicating <code>AHCI_HFLAG_NO_PMP</code>. The reason probably was that while the A20 can do PMP, enabling it breaks compatibility with single drive (non-PMP) mode - so the two are mutually exclusive. (The patch mentioned above states this is due to an inability to issue a proper soft reset to a single drive after port multiplier mode gets enabled.)
+</p><p>A workaround is to compile the driver as a module, and use the <code>enable_pmp=1</code> option as desired at load time (<i>/etc/modprobe.d/ahci-sunxi.conf</i> in most distros).
+</p>
+<h3> <span class="mw-headline" id="Caveats"> Caveats </span></h3>
+<p>If you rely exclusively on a port multiplier to access multiple drives, you're introducing a <a class="external text" href="http://en.wikipedia.org/wiki/Single_point_of_failure">single point of failure</a> (SPoF). Using this technology in an attempt to increase reliability (e.g. by constructing a RAID array) therefore is questionable.
+</p><p>Cheap port multipliers like JMB321/JMB393 are prone to overheating under load and then start to corrupt data or stop working at all. This adds significantly to the SPoF problem since if you build a RAID on top of such a port multiplier setup, the likelihood that you lose your whole array when you would need it will increase dramatically - as running a rebuild (after replacing a failed disk) will put significant stress on the system. Combining cheapest/unreliable components to increase reliability might work in some cases, but definitely not with PM based RAID.
+</p>
+<h2> <span class="mw-headline" id="Mechanical_quality"> Mechanical quality </span></h2>
+<p>Always keep in mind that all SATA implementations on sunxi devices rely on <i>internal</i> SATA connectors. Unlike <a class="external text" href="http://en.wikipedia.org/wiki/Serial_ATA#eSATA">eSATA</a> these connectors are specified for only 50 matings and cheap cables/connectors die way earlier or start to corrupt data. SATA uses a relatively primitive checksum mechanism (ICRC – Interface <a class="external text" href="http://en.wikipedia.org/wiki/Cyclic_redundancy_check">Cyclic Redundancy Check</a>) to detect data corruption on the wire. The corresponding <a class="external text" href="http://en.wikipedia.org/wiki/S.M.A.R.T.#Known_ATA_S.M.A.R.T._attributes">S.M.A.R.T.</a> attribute is 199 (unfortunately disk series exist where this counter does not increase when CRC errors occur – the value remains 0). If you exchanged cables/disks or notice that SATA performance dropped dramatically (due to a huge amount of data retransmits) it's always a good idea to check this attribute using <i>smartctl</i> (contained in the <a rel="nofollow" class="external text" href="http://www.smartmontools.org">smartmontools</a> package). If the counter increases something's wrong with the interconnection disk to SoC.
+</p>
+<h2> <span class="mw-headline" id="See_also"> See also </span></h2>
+<ul><li> <a href="/Category:Devices_with_SATA_port" title="Category:Devices with SATA port">Devices with SATA port</a>
+</li><li> <a rel="nofollow" class="external text" href="http://thread.gmane.org/gmane.comp.hardware.netbook.arm.sunxi/9694/">Sata multiplier with A20</a> thread on linux-sunxi mailing list
+</li><li> <a rel="nofollow" class="external text" href="http://forum.lemaker.org/thread-9207-1-1.html">Support status of SATA port multipliers connected to A20</a> thread on LeMaker forum (recommended reading with some in-depth information)
+</li><li> <a href="/Sunxi_devices_as_NAS" title="Sunxi devices as NAS">Sunxi devices as NAS</a>
+</li></ul>
+<p>References:
+</p>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://dl.cubieforums.com/files/pdf/A10_development_board_user_manual--2011.9.23_English.pdf">http://dl.cubieforums.com/files/pdf/A10_development_board_user_manual--2011.9.23_English.pdf</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a class="external free" href="https://github.com/allwinner-zh/documents/tree/master/A20/">https://github.com/allwinner-zh/documents/tree/master/A20/</a></span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=SATA&amp;oldid=16828">http://linux-sunxi.org/index.php?title=SATA&amp;oldid=16828</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks catlinks-allhidden'></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=SATA&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=SATA" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/SATA" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:SATA" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/SATA">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=SATA&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=SATA&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/SATA" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/SATA" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=SATA&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=SATA&amp;oldid=16828" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 11 April 2016, at 19:40.</li>
+<li id="footer-info-viewcount">This page has been accessed 8,941 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

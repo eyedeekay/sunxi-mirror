@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Ethernet - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ethernet","wgTitle":"Ethernet","wgCurRevisionId":17290,"wgArticleId":123,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Ethernet","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Ethernet"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Ethernet skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Ethernet</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Configuration"><span class="tocnumber">1</span> <span class="toctext">Configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Setting_the_MAC_address"><span class="tocnumber">1.1</span> <span class="toctext">Setting the MAC address</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#Through_script.bin"><span class="tocnumber">1.1.1</span> <span class="toctext">Through script.bin</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#U-boot"><span class="tocnumber">1.1.2</span> <span class="toctext">U-boot</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Through_module_options"><span class="tocnumber">1.1.3</span> <span class="toctext">Through module options</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Through_ifconfig"><span class="tocnumber">1.1.4</span> <span class="toctext">Through ifconfig</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#debian_ifupdown"><span class="tocnumber">1.1.5</span> <span class="toctext">debian ifupdown</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Hardware"><span class="tocnumber">2</span> <span class="toctext">Hardware</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#EMAC"><span class="tocnumber">2.1</span> <span class="toctext">EMAC</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#Performance_issues"><span class="tocnumber">2.1.1</span> <span class="toctext">Performance issues</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Mainline_Kernel_driver"><span class="tocnumber">2.1.2</span> <span class="toctext">Mainline Kernel driver</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#GMAC"><span class="tocnumber">2.2</span> <span class="toctext">GMAC</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Mainline_Kernel_driver_2"><span class="tocnumber">2.2.1</span> <span class="toctext">Mainline Kernel driver</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Phyceivers"><span class="tocnumber">2.3</span> <span class="toctext">Phyceivers</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#Broadcom_BCM53125"><span class="tocnumber">2.3.1</span> <span class="toctext">Broadcom BCM53125</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#ICplus_IP101A"><span class="tocnumber">2.3.2</span> <span class="toctext">ICplus IP101A</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#ICplus_IP101GA"><span class="tocnumber">2.3.3</span> <span class="toctext">ICplus IP101GA</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Microchip_LAN8710A"><span class="tocnumber">2.3.4</span> <span class="toctext">Microchip LAN8710A</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="#Realtek_RTL8201CP"><span class="tocnumber">2.3.5</span> <span class="toctext">Realtek RTL8201CP</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#Realtek_RTL8211E"><span class="tocnumber">2.3.6</span> <span class="toctext">Realtek RTL8211E</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="#Realtek_RTL8211CL"><span class="tocnumber">2.3.7</span> <span class="toctext">Realtek RTL8211CL</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-22"><a href="#Sun8i_emac"><span class="tocnumber">2.4</span> <span class="toctext">Sun8i emac</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#Devices"><span class="tocnumber">3</span> <span class="toctext">Devices</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Configuration"> Configuration </span></h1>
+<h2> <span class="mw-headline" id="Setting_the_MAC_address"> Setting the MAC address </span></h2>
+<p>By default both EMAC and GMAC use random MAC addresses that change with each reboot, but this can be fixed.
+</p><p>The Bash script below will generate a unicast, locally administered, random MAC address. The first octet has bit 0 unset for unicast and bit 1 set for local administration so will be either <kbd>X2</kbd>, <kbd>X6</kbd>, <kbd>Xa</kbd> or <kbd>Xe</kbd>:
+</p>
+<pre><kbd>printf "%02x" $((RANDOM%256 &amp; 254 | 2));hexdump -n 5 -e '""5/1 ":%02x""\n"' /dev/urandom</kbd>
+</pre>
+<p>This MAC address can be loaded on each boot using one of the methods below to give a static MAC address.
+</p><p>For alternative sources of MAC addresses the FAQ <a rel="nofollow" class="external text" href="http://www.denx.de/wiki/view/DULG/WhereCanIGetAValidMACAddress">14.2.14. Where Can I Get a Valid MAC Address from?</a> at the U-Boot website may help.
+</p>
+<h3> <span class="mw-headline" id="Through_script.bin"> Through script.bin </span></h3>
+<p>the <a href="/Allwinner" title="Allwinner">Allwinner</a> way, adding the value to your <a href="/Script.bin" title="Script.bin">script.bin</a>
+</p>
+<pre class="brush: ini">[dynamic]
+MAC = &quot;XXXXXXXXXXXX&quot;
+</pre>
+<h3> <span class="mw-headline" id="U-boot"> U-boot </span></h3>
+<p>the <a href="/U-Boot#boot.scr" title="U-Boot">bootloader</a> to append <tt>mac_addr=XX:XX:XX:XX:XX:XX</tt>
+</p>
+<h3> <span class="mw-headline" id="Through_module_options"> Through module options </span></h3>
+<h3> <span class="mw-headline" id="Through_ifconfig"> Through ifconfig </span></h3>
+<pre class="brush: bash">ifconfig eth0 hw ether XX:XX:XX:XX:XX:XX</pre>
+<h3> <span class="mw-headline" id="debian_ifupdown"> debian ifupdown </span></h3>
+<h1> <span class="mw-headline" id="Hardware"> Hardware </span></h1>
+<h2> <span class="mw-headline" id="EMAC"> EMAC </span></h2>
+<p><a href="/Allwinner" title="Allwinner">Allwinner</a>'s <a href="/A10" title="A10">A10</a>, <a href="/A20" title="A20">A20</a> and <a href="/F20" title="F20">F20</a> <a href="/SoC" title="SoC" class="mw-redirect">SoCs</a> include a <a class="external text" href="http://en.wikipedia.org/wiki/Media_Access_Control">MAC</a> unit called <b>EMAC</b> but it's available on very few <a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">devices</a>, most notably the <a href="/Mele_A1000" title="Mele A1000">Mele A1000, A2000 and A100</a> HTPC and the <a href="/Cubieboard" title="Cubieboard" class="mw-redirect">Cubieboard</a>. Due to driver similarities it's believed to be based on <b>DM9000</b>.
+</p>
+<h3> <span class="mw-headline" id="Performance_issues"> Performance issues </span></h3>
+<p>It has been discovered that the EMAC device (or its current Linux kernel driver) have a number of performance issues: slow RX performance (only 40-60 Mbit, compared to 90+ Mbit TX), active TX affecting RX rate way too much.
+</p><p>It seems that in some cases performance degrades only if the A10 device has been warm-rebooted prior to that; and speeds restore to immensely better levels after a full power-off/power-on cycle.
+</p><p>See the following discussions for details:
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="https://groups.google.com/forum/#!topic/linux-sunxi/kPnNi0pz9Ho">Uploading affects Downloading. Ethernet performance issue?</a>
+</li><li> <a rel="nofollow" class="external text" href="https://groups.google.com/forum/#!topic/linux-sunxi/_rrSl3YI_b0">Something is still wrong with WEMAC</a>
+</li><li> <a rel="nofollow" class="external text" href="https://groups.google.com/forum/?fromgroups#!topic/cubieboard/5iPaAPZWfZc">Low ethernet speeds after reboot (a power cycle restores normal speeds)</a>
+</li><li> <a rel="nofollow" class="external text" href="https://groups.google.com/forum/?fromgroups#!topic/cubieboard/mS6zs_4Ov_I">Slow network (receive, cable)</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Mainline_Kernel_driver"> Mainline Kernel driver </span></h3>
+<p>The EMAC driver can be found under "Ethernet driver support", "Allwinner devices", "Allwinner A10 EMAC support". It was <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/drivers/net/ethernet/allwinner?id=492205050d77bcc4f85f6dc0da6b6fdbca1d6ff7">merged for kernel 3.11</a>.
+</p>
+<h2> <span class="mw-headline" id="GMAC"> GMAC </span></h2>
+<p><a href="/Allwinner" title="Allwinner">Allwinner</a>'s <a href="/A20" title="A20">A20</a>, <a href="/A31" title="A31">A31/A31s</a> and the <a href="/A80" title="A80">A80</a> contain a <a class="external text" href="http://en.wikipedia.org/wiki/Media_Access_Control">MAC</a> unit called <b>GMAC</b> ("Gigabit MAC").
+The controller supports MII and RGMII modes. On the <a href="/A20" title="A20">A20</a> it is pin compatible with the <a href="/Ethernet#EMAC" title="Ethernet"> EMAC</a> in MII mode. Also on A20 the manufacturer of the device in question can decide whether to use EMAC or GMAC.
+The controller is an early version of the Synopsys DWMAC (DesignWare MAC), with some hardware specific glue.
+</p><p>The SoC's GMAC is always combined with an external <a class="external text" href="https://en.wikipedia.org/wiki/PHY_(chip)">PHY</a>, in most cases a RTL8211E/CL (the <a href="/Lamobo_R1" title="Lamobo R1">Lamobo R1</a> uses the <a href="/Ethernet#Phyceivers" title="Ethernet">Broadcom BCM53125</a> switch IC instead). Important: In this special mode the RTL8211 chip is just used as PHY and only responsible for layer 1 operations, since everything else happens inside the SoC's GMAC (therefore no RealTek drivers are needed and some functionality differs, e.g. no <a class="external text" href="https://en.wikipedia.org/wiki/Wake-on-LAN">WoL</a> possible).
+</p><p><a href="/File:Information.png" class="image"><img alt="Information.png" src="/images/5/54/Information.png" width="16" height="16"/></a> For reliable Gigabit networking (1000Mbit operation), several sunxi devices require an important tweak that adjusts the relative timing of the clock and data signals to the PHY, in order to compensate for differing trace lengths on the PCB (<a rel="nofollow" class="external text" href="http://lists.denx.de/pipermail/u-boot/2014-September/190231.html">details</a>). Among others, this includes <a href="/Banana_Pi" title="Banana Pi" class="mw-redirect">Banana Pi</a>/<a href="/Banana_Pro" title="Banana Pro" class="mw-redirect">Pro</a>, <a href="/Cubietech_Cubietruck" title="Cubietech Cubietruck">Cubietruck</a>, <a href="/Lamobo_R1" title="Lamobo R1">Lamobo R1</a>, <a href="/LinkSprite_pcDuino3_Nano" title="LinkSprite pcDuino3 Nano">pcDuino3 Nano</a> and <a href="/Xunlong_Orange_Pi" title="Xunlong Orange Pi">Orange Pi</a>/<a href="/Xunlong_Orange_Pi_Mini" title="Xunlong Orange Pi Mini">Mini</a>. Recent <a href="/Mainline_U-Boot" title="Mainline U-Boot">mainline U-Boot</a> uses <i>CONFIG_GMAC_TX_DELAY</i> to initialize these devices accordingly. If a necessary GMAC TX delay isn't set, then GBit Ethernet operation might be unreliable or won't work at all. 10/100 Mbit/sec negotiation is unaffected, so misconfigured devices could actually work (faster) when connected to a Fast Ethernet port instead of a GBit Ethernet port.
+</p>
+<h3> <span class="mw-headline" id="Mainline_Kernel_driver_2"> Mainline Kernel driver </span></h3>
+<p>DWMAC is supported by the <i>stmmac</i> driver ("Ethernet driver support", "STMicroelectronics devices", "STMicroelectronics 10/100/1000 Ethernet driver", "STMMAC Platform bus support").
+Platform glue for sunxi was merged in 3.14. Device tree patches for supported A20 devices were merged in 3.15.
+</p>
+<h2> <span class="mw-headline" id="Phyceivers"> Phyceivers </span></h2>
+<h3> <span class="mw-headline" id="Broadcom_BCM53125"> Broadcom BCM53125 </span></h3>
+<p>The <a rel="nofollow" class="external text" href="https://www.broadcom.com/products/ethernet-communication-and-switching/switching/bcm53125">Broadcom BCM53125</a> is an integrated 7-port Gbit Ethernet switch IC that can be configured to act as a PHY on one port interconnecting the SoC with all wired Ethernet ports. It works with OpenWrt's b53-mdio driver, and the capability to route packets between different ports is based on VLANs and assigning them to virtual interfaces. At least the implementation on the <a href="/Lamobo_R1" title="Lamobo R1">Lamobo R1</a> suffers from less possible throughput compared to A20's GMAC working together with <a href="#Realtek_RTL8211E">RTL8211</a> as PHY.
+</p>
+<h3> <span class="mw-headline" id="ICplus_IP101A"> ICplus IP101A </span></h3>
+<p>The ICplus IP101A is a RMII 10/100 Ethernet PHY.
+</p>
+<h3> <span class="mw-headline" id="ICplus_IP101GA"> ICplus IP101GA </span></h3>
+<p>The ICplus IP101GA is a RMII 10/100 Ethernet PHY.
+</p>
+<h3> <span class="mw-headline" id="Microchip_LAN8710A"> Microchip LAN8710A </span></h3>
+<h3> <span class="mw-headline" id="Realtek_RTL8201CP"> Realtek RTL8201CP </span></h3>
+<p>The Realtek RTL8201CP is a MII mode 10/100 Ethernet PHY. It is very very common and supported by just about any kernel out there, either with the generic phy driver or the realtek one.
+</p><p><a href="/index.php?title=User:Oliver&amp;action=edit&amp;redlink=1" class="new" title="User:Oliver (page does not exist)">Oliver</a> broke his <a href="/Ethernet#Realtek_RTL8201CP" title="Ethernet">PHY</a> and ended up replacing it with another one. Here are some pictures.
+</p>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Tapeitup_01.JPG" class="image"><img alt="Tapeitup 01.JPG" src="/images/thumb/3/35/Tapeitup_01.JPG/120px-Tapeitup_01.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Tapeitup_02.JPG" class="image"><img alt="Tapeitup 02.JPG" src="/images/thumb/5/5a/Tapeitup_02.JPG/120px-Tapeitup_02.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Addfoil_01.JPG" class="image"><img alt="Addfoil 01.JPG" src="/images/thumb/b/bc/Addfoil_01.JPG/120px-Addfoil_01.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Addfoil_02.JPG" class="image"><img alt="Addfoil 02.JPG" src="/images/thumb/9/91/Addfoil_02.JPG/120px-Addfoil_02.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Suckit_01.JPG" class="image"><img alt="Suckit 01.JPG" src="/images/thumb/9/9c/Suckit_01.JPG/120px-Suckit_01.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Cleanit_01.JPG" class="image"><img alt="Cleanit 01.JPG" src="/images/thumb/8/85/Cleanit_01.JPG/120px-Cleanit_01.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Rtl_replaced.JPG" class="image"><img alt="Rtl replaced.JPG" src="/images/thumb/b/b2/Rtl_replaced.JPG/120px-Rtl_replaced.JPG" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h3> <span class="mw-headline" id="Realtek_RTL8211E"> Realtek RTL8211E </span></h3>
+<p>The Realtek RTL8211E is a RGMII 10/100/1000 Ethernet PHY, which is gigabit capable. It is commonly paired with GMAC for gigabit speeds. Generic PHY support is enough to make it work.
+</p>
+<h3> <span class="mw-headline" id="Realtek_RTL8211CL"> Realtek RTL8211CL </span></h3>
+<p>?
+</p>
+<h2> <span class="mw-headline" id="Sun8i_emac"> Sun8i emac </span></h2>
+<p><a href="/A83T" title="A83T">A83T</a>/<a href="/H3" title="H3">H3</a>/<a href="/A64" title="A64">A64</a> ethernet is/will be handled by <a href="/Sun8i_emac" title="Sun8i emac">Sun8i_emac</a>
+</p>
+<h1> <span class="mw-headline" id="Devices"> Devices </span></h1>
+<p>The following devices all come with an ethernet port.
+</p>
+<div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/10moons_LT390W">10moons LT390W</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Allwinner_A83TDevBoard">Allwinner A83TDevBoard</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Anichips_PhoenixA20">Anichips PhoenixA20</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Beelink_X2">Beelink X2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/CS918S">CS918S</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubieboard">Cubietech Cubieboard</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubieboard2">Cubietech Cubieboard2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubieboard4">Cubietech Cubieboard4</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubietruck">Cubietech Cubietruck</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Cubietech_Cubietruck_Plus">Cubietech Cubietruck Plus</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/CX-A99">CX-A99</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Eearl_H1026A">Eearl H1026A</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Foxconn_Super_Pi">Foxconn Super Pi</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/HYH-TBH3">HYH-TBH3</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/In-Circuit_ICnova_A20">In-Circuit ICnova A20</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Jesurun_Q5">Jesurun Q5</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Jide_Remix_Mini">Jide Remix Mini</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Lamobo_R1">Lamobo R1</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Langcent_h6s">Langcent h6s</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LeMaker_Banana_Pi">LeMaker Banana Pi</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LeMaker_Banana_Pro">LeMaker Banana Pro</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LinkSprite_pcDuino">LinkSprite pcDuino</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LinkSprite_pcDuino2">LinkSprite pcDuino2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LinkSprite_pcDuino3">LinkSprite pcDuino3</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/LinkSprite_pcDuino3_Nano">LinkSprite pcDuino3 Nano</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/MarsBoard_A10">MarsBoard A10</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/MarsBoard_A20">MarsBoard A20</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/MarsBoard_A20-SOM">MarsBoard A20-SOM</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mele_A1000">Mele A1000</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mele_A100Dual_Core">Mele A100Dual Core</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mele_I7">Mele I7</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mele_M3">Mele M3</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mele_M5">Mele M5</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mele_M6">Mele M6</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Merrii_A80_Optimus_Board">Merrii A80 Optimus Board</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Merrii_Hummingbird_A20">Merrii Hummingbird A20</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Merrii_Hummingbird_A31">Merrii Hummingbird A31</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Miniand_Hackberry">Miniand Hackberry</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Mixtile_LOFT-Q">Mixtile LOFT-Q</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A10-OLinuXino-Lime">Olimex A10-OLinuXino-Lime</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A10s-OLinuXino-Micro">Olimex A10s-OLinuXino-Micro</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A20-OLinuXino-Lime">Olimex A20-OLinuXino-Lime</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A20-OLinuXino-Lime2">Olimex A20-OLinuXino-Lime2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A20-OLinuXino-Micro">Olimex A20-OLinuXino-Micro</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Olimex_A20-SOM">Olimex A20-SOM</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Pcduino8_A80_Board">Pcduino8 A80 Board</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Semitime_Qt840a">Semitime Qt840a</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Sinlinx_SinA31s">Sinlinx SinA31s</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Sinovoip_Banana_Pi_M2">Sinovoip Banana Pi M2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Sinovoip_Banana_Pi_M2%2B">Sinovoip Banana Pi M2+</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Sinovoip_Banana_Pi_M3">Sinovoip Banana Pi M3</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Sunchip_SDK-758">Sunchip SDK-758</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/TXCZ_A20">TXCZ A20</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/VidOn_Box">VidOn Box</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi">Xunlong Orange Pi</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi_2">Xunlong Orange Pi 2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi_Mini">Xunlong Orange Pi Mini</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi_Mini_2">Xunlong Orange Pi Mini 2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi_One">Xunlong Orange Pi One</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi_PC">Xunlong Orange Pi PC</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi_Plus">Xunlong Orange Pi Plus</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi_Plus_2">Xunlong Orange Pi Plus 2</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Xunlong_Orange_Pi_Plus_2E">Xunlong Orange Pi Plus 2E</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/YBKJ_A20">YBKJ A20</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/YBKJ_A20_JN">YBKJ A20 JN</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Ethernet&amp;oldid=17290">http://linux-sunxi.org/index.php?title=Ethernet&amp;oldid=17290</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks catlinks-allhidden'></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Ethernet&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Ethernet" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Ethernet" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Ethernet&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Ethernet">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Ethernet&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Ethernet&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Ethernet" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Ethernet" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Ethernet&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Ethernet&amp;oldid=17290" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 May 2016, at 00:02.</li>
+<li id="footer-info-viewcount">This page has been accessed 43,425 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.categoryTree","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

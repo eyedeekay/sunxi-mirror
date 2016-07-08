@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>How to boot the A10 or A20 over the network - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"How_to_boot_the_A10_or_A20_over_the_network","wgTitle":"How to boot the A10 or A20 over the network","wgCurRevisionId":14699,"wgArticleId":412,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"How_to_boot_the_A10_or_A20_over_the_network","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/How_to_boot_the_A10_or_A20_over_the_network"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-How_to_boot_the_A10_or_A20_over_the_network skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">How to boot the A10 or A20 over the network</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Prerequisites"><span class="tocnumber">1</span> <span class="toctext">Prerequisites</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Settin_up_network_boot"><span class="tocnumber">2</span> <span class="toctext">Settin up network boot</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Network_configuration"><span class="tocnumber">3</span> <span class="toctext">Network configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Manual"><span class="tocnumber">3.1</span> <span class="toctext">Manual</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Automatic"><span class="tocnumber">3.2</span> <span class="toctext">Automatic</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#TFTP_booting"><span class="tocnumber">4</span> <span class="toctext">TFTP booting</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Booting_from_an_NFS_share"><span class="tocnumber">5</span> <span class="toctext">Booting from an NFS share</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Ubuntu_10.04"><span class="tocnumber">5.1</span> <span class="toctext">Ubuntu 10.04</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Web_resources"><span class="tocnumber">6</span> <span class="toctext">Web resources</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Prerequisites">Prerequisites</span></h2>
+<p>You'll need a Linux box, a microSD card, a card reader and a serial console adapter for this tutorial.
+</p>
+<ul><li> <a href="/U-Boot#Compilation" title="U-Boot">Build U-Boot</a>
+</li><li> Prepare an SD Card
+</li></ul>
+<dl><dd> For network booting it is enough to copy only the U-Boot to the SD card, so follow instructions in <a href="/Bootable_SD_card#Cleaning" title="Bootable SD card">Bootable_SD_card#Cleaning</a> and <a href="/Bootable_SD_card#Bootloader" title="Bootable SD card">Bootable SD card#Bootloader</a>.
+</dd></dl>
+<ul><li> Linux Kernel, you can use either legacy but featurefull sunxi-3.4, or mainline kernel which has basic support only.
+</li><li> Root file system, or rootfs.
+</li></ul>
+<h2> <span class="mw-headline" id="Settin_up_network_boot">Settin up network boot</span></h2>
+<p>SD Card is now ready to take for a spin. Put it into your board and connect your serial console and fire up a terminal on your host PC so you can interact with u-boot. Now power on the board. After booting you should see something like this:
+</p>
+<pre>   U-Boot SPL 2013.01-05621-gb7b6374 (Jan 18 2013 - 23:01:07)
+   Board: Cubieboard
+   DRAM: 1024MB
+   SUNXI SD/MMC: 0
+   <br/>
+   <br/>
+   U-Boot 2013.01-05621-gb7b6374 (Jan 18 2013 - 23:01:07) Allwinner Technology
+   <br/>
+   CPU:   SUNXI Family
+   Board: Cubieboard 
+   I2C:   ready
+   DRAM:  1 GiB
+   MMC:   SUNXI SD/MMC: 0
+   In:    serial
+   Out:   serial
+   Err:   serial
+   Net:   wemac
+   Hit any key to stop autoboot:  0
+   sun4i#
+</pre>
+<p>The autoboot is stopped because we don't have any partitions on the SD card yet so it'll not succeed booting.
+</p>
+<h2> <span class="mw-headline" id="Network_configuration">Network configuration</span></h2>
+<ul><li> Let's bring up the ethernet interface.
+</li></ul>
+<dl><dd><ul><li> We must set the ethaddr variable to the MAC address of the NIC on the board. For testing purposes you can use something dummy like this:
+</li></ul>
+</dd></dl>
+<pre>   sun4i# setenv ethaddr 12:34:56:78:99:aa
+</pre>
+<dl><dd> but please don't do this in production environment. Next you can choose between manual or automatic setup.
+</dd></dl>
+<h3> <span class="mw-headline" id="Manual">Manual</span></h3>
+<pre>sun4i# setenv netmask &lt;netmask&gt;
+sun4i# setenv dnsip &lt;dns&gt;
+sun4i# setenv gatewayip &lt;gateway&gt;
+sun4i# setenv ipaddr &lt;ip-address&gt;
+</pre>
+<h3> <span class="mw-headline" id="Automatic">Automatic</span></h3>
+<dl><dd> It is needed to also issue
+</dd></dl>
+<pre> sun4i# setenv autoload no
+</pre>
+<dl><dd> because by default once you execute the next 'dhcp' command and autoload is enabled it will automatically try to load an image from TFTP, named as the IP address in hex followed by .img, which is not what is wanted.
+</dd></dl>
+<pre>sun4i# dhcp
+</pre>
+<p>Now you're ready to try out TFTP or NFS. In either case you first need to set the IP of the server
+</p>
+<pre>sun4i# setenv serverip &lt;server-ip&gt;
+</pre>
+<p>Also it is recommended to save your environment to the MMC card, so later or if something goes wrong with booting, you will not need to retype any of the previous commands.
+</p>
+<pre>sun4i# saveenv
+</pre>
+<h2> <span class="mw-headline" id="TFTP_booting"> TFTP booting </span></h2>
+<p>Let's say you now have a TFTP server running on the IP address set above and serving files and have a kernel named 'uImage' and '&lt;your-board&gt;.dtb' (or 'script.bin') in the server file system.
+</p>
+<table class="wikitable">
+<tr>
+<th> mainline kernel
+</th>
+<th> sunxi-3.4 kernel
+</th></tr>
+<tr>
+<td>
+<pre> tftp 0x46000000 uImage
+ tftp 0x49000000 &lt;your-board&gt;.dtb
+ env set fdt_high ffffffff
+ bootm 0x46000000 - 0x49000000
+</pre>
+</td>
+<td>
+<pre> setenv bootm_boot_mode sec
+ tftp 0x42000000 uImage
+ tftp 0x43000000 script.bin
+ bootm 0x42000000
+</pre>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Booting_from_an_NFS_share"> Booting from an NFS share </span></h2>
+<dl><dd><ul><li> You have to compile a custom kernel because you have to enable root NFS support to work with NFS mounted root filesystems. Follow the build instructions described here: <a rel="nofollow" class="external free" href="http://linux-sunxi.org/Linux#Building">http://linux-sunxi.org/Linux#Building</a> but before executing the second build command modify .config file in the kernel's source directory to contain the following lines:
+</li></ul>
+</dd></dl>
+<pre>   CONFIG_IP_PNP=y
+   CONFIG_ROOT_NFS=y
+</pre>
+<dl><dd>You might get some question from the next build command but you just have to say yes when it asks for the values above. You'll find the built kernel at arch/boot/uImage if you did everything right.
+</dd></dl>
+<ul><li> Prepare NFS share
+</li></ul>
+<h3> <span class="mw-headline" id="Ubuntu_10.04"> Ubuntu 10.04 </span></h3>
+<dl><dd><ul><li> You have to install the required package
+</li></ul>
+</dd></dl>
+<pre>   apt-get install nfs-kernel-server 
+</pre>
+<dl><dd><ul><li> Create a share directory.
+</li></ul>
+</dd></dl>
+<pre>   mkdir -p /var/nfsexport/arch/
+</pre>
+<dl><dd><ul><li> Edit /etc/exports to include this directory. Put the following line to the end:
+</li></ul>
+</dd></dl>
+<pre>   /var/nfsexport *(rw,sync,no_root_squash,no_subtree_check)
+</pre>
+<dl><dd><ul><li> Finally restart the daemon
+</li></ul>
+</dd></dl>
+<pre>   /etc/init.d/nfs-kernel-server restart
+</pre>
+<ul><li> Copy required files
+</li></ul>
+<dl><dd><ul><li> Copy uImage from the first step to /var/nfsexport/arch/
+</li><li> We have to build a script.bin file for the kernel to work properly. Clone the <a class="external free" href="https://github.com/linux-sunxi/sunxi-boards">https://github.com/linux-sunxi/sunxi-boards</a> and <a class="external free" href="https://github.com/linux-sunxi/sunxi-tools">https://github.com/linux-sunxi/sunxi-tools</a> repository and compile sunxi tools (make). After that you have to convert your boards fex file with the fex2bin you've just built. In my case:
+</li></ul>
+</dd></dl>
+<pre>   ./sunxi-tools/fex2bin sunxi-boards/sys_config/a10/cubieboard.fex &gt; script.bin
+</pre>
+<dl><dd><ul><li> Copy script.bin next to the kernel
+</li><li> Download and extract Arch rootfs image. I'm using the MeleA100 image from the Arch ARM Linux site. Extract it to the NFS export folder:
+</li></ul>
+</dd></dl>
+<pre>  wget <a rel="nofollow" class="external free" href="http://archlinuxarm.org/os/ArchLinuxARM-sun4i-latest.tar.gz">http://archlinuxarm.org/os/ArchLinuxARM-sun4i-latest.tar.gz</a>
+  tar xzf ArchLinuxARM-sun4i-latest.tar.gz -C /var/nfsexport/arch/
+</pre>
+<ul><li> Configure U-Boot
+</li></ul>
+<dl><dd><ul><li> Boot into U-Boot with the serial console attached and halt autoboot by pressing a key, then
+</li></ul>
+</dd></dl>
+<pre>   sun4i# setenv nfsroot ${serverip}:/var/nfsexport/arch
+   sun4i# setenv bootcmd "nfs 0x43000000 ${nfsroot}/script.bin; nfs 0x48000000 ${nfsroot}/uImage; bootm 0x48000000"
+   sun4i# setenv bootargs "console=ttyS0,115200 root=/dev/nfs nfsroot=${nfsroot} ip=${ipaddr}:${serverip}:${gatewayip}:${netmask}:${hostname}:eth0"
+   saveenv
+</pre>
+<dl><dd><ul><li> Reset the board
+</li></ul>
+</dd></dl>
+<ul><li> Known bugs if using Arch Linux rootfs:
+</li></ul>
+<dl><dd><ul><li> Reboot is not working; network interface is stopped but Arch wants to write something to the NFS mount which can't be done after that.
+</li><li> No output on HDMI but you can interact with Arch through the serial console or by using an SSH client and connect to the IP you've specified in uboot.
+</li></ul>
+</dd></dl>
+<h2> <span class="mw-headline" id="Web_resources">Web resources</span></h2>
+<ul><li> This wiki page is quite useful for explaining the kernel booting with U-Boot: <a rel="nofollow" class="external free" href="http://processors.wiki.ti.com/index.php/Booting_Linux_kernel_using_U-Boot">http://processors.wiki.ti.com/index.php/Booting_Linux_kernel_using_U-Boot</a><br/>
+</li></ul>
+<ul><li> You can read more about mkimage's usage here: <a rel="nofollow" class="external free" href="http://www.linuxfordevices.com/c/a/Linux-For-Devices-Articles/Introduction-to-Das-UBoot-the-universal-open-source-bootloader/">http://www.linuxfordevices.com/c/a/Linux-For-Devices-Articles/Introduction-to-Das-UBoot-the-universal-open-source-bootloader/</a>
+</li></ul>
+<ul><li> You can follow this tutorial to get a TFTP server in Ubuntu: <a rel="nofollow" class="external free" href="http://www.davidsudjiman.info/2006/03/27/installing-and-setting-tftpd-in-ubuntu/">http://www.davidsudjiman.info/2006/03/27/installing-and-setting-tftpd-in-ubuntu/</a> It can be installed to VM and set Virtualbox to bridge the internal NIC adapter directly to my local network where the Cubieboard is also connected. This way you can have a straight VM to Cubieboard development environment.
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=How_to_boot_the_A10_or_A20_over_the_network&amp;oldid=14699">http://linux-sunxi.org/index.php?title=How_to_boot_the_A10_or_A20_over_the_network&amp;oldid=14699</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=How+to+boot+the+A10+or+A20+over+the+network&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=How+to+boot+the+A10+or+A20+over+the+network" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/How_to_boot_the_A10_or_A20_over_the_network" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:How_to_boot_the_A10_or_A20_over_the_network&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/How_to_boot_the_A10_or_A20_over_the_network">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=How_to_boot_the_A10_or_A20_over_the_network&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=How_to_boot_the_A10_or_A20_over_the_network&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/How_to_boot_the_A10_or_A20_over_the_network" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/How_to_boot_the_A10_or_A20_over_the_network" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=How_to_boot_the_A10_or_A20_over_the_network&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=How_to_boot_the_A10_or_A20_over_the_network&amp;oldid=14699" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 30 July 2015, at 21:02.</li>
+<li id="footer-info-viewcount">This page has been accessed 30,235 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Reduced Serial Bus - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Reduced_Serial_Bus","wgTitle":"Reduced Serial Bus","wgCurRevisionId":17531,"wgArticleId":1093,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Reduced_Serial_Bus","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Reduced_Serial_Bus"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Reduced_Serial_Bus skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Reduced Serial Bus</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The RSB<sup>TM</sup> is a push-pull two wire bus developed by Allwinner Technology. Its primary (only?) use is to connect an (Allwinner) SoC to an
+AXP-series power management controller (PMIC) from X-Powers.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Features"><span class="tocnumber">1</span> <span class="toctext">Features</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Documentation"><span class="tocnumber">2</span> <span class="toctext">Documentation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Registers"><span class="tocnumber">3</span> <span class="toctext">Registers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Register_list"><span class="tocnumber">3.1</span> <span class="toctext">Register list</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#CTRL"><span class="tocnumber">3.2</span> <span class="toctext">CTRL</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#CCR"><span class="tocnumber">3.3</span> <span class="toctext">CCR</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#INTE"><span class="tocnumber">3.4</span> <span class="toctext">INTE</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#STATUS"><span class="tocnumber">3.5</span> <span class="toctext">STATUS</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Transfer_error_codes"><span class="tocnumber">3.5.1</span> <span class="toctext">Transfer error codes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#LCR"><span class="tocnumber">3.6</span> <span class="toctext">LCR</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#PMCR"><span class="tocnumber">3.7</span> <span class="toctext">PMCR</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#CMD"><span class="tocnumber">3.8</span> <span class="toctext">CMD</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#SADDR"><span class="tocnumber">3.9</span> <span class="toctext">SADDR</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Hardware_Addresses"><span class="tocnumber">4</span> <span class="toctext">Hardware Addresses</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Example_transactions"><span class="tocnumber">5</span> <span class="toctext">Example transactions</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Features"> Features </span></h1>
+<ul><li> Related to the SMBus, which in turn is derived from I²C.
+</li><li> Connects to the SoC-internal AMBA Peripheral Bus (APB).
+</li><li> Supports speeds up to 20 MHz (in contrast to the 400 KHz of I²C).
+</li><li> Supports multiple devices, although most (all?) boards connect the pins to the only on-board PMIC.
+</li><li> Multiplexed with some I²C pins (allows driving slaves with I²C for compatibility).
+</li><li> Supports programmable output delay of CD signal.
+</li><li> Supports parity check for address and data transmission.
+</li><li> Included in <a href="/A23" title="A23">A23</a>, <a href="/A33" title="A33">A33</a>, <a href="/A80" title="A80">A80</a>, <a href="/A83T" title="A83T">A83T</a>, <a href="/H3" title="H3">H3</a>(?) and <a href="/A64" title="A64">A64</a> SoCs.
+</li></ul>
+<h1> <span class="mw-headline" id="Documentation"> Documentation </span></h1>
+<p>The RSB is briefly mentioned (along with MMIO address and IRQ number) in the A23, A33 and A64 manuals, but explained in more detail (including a register description) in the A80 and A83 manuals.
+</p>
+<h1> <span class="mw-headline" id="Registers"> Registers </span></h1>
+<p>This list was originally gained from Allwinner code, but was later extended with the help of the manuals.
+</p>
+<h2> <span class="mw-headline" id="Register_list"> Register list </span></h2>
+<table class="wikitable">
+<tr>
+<th> Offset </th>
+<th> Name </th>
+<th> Description
+</th></tr>
+<tr>
+<td> 0x00 </td>
+<td> CTRL </td>
+<td> Control
+</td></tr>
+<tr>
+<td> 0x04 </td>
+<td> CCR </td>
+<td> Clock control
+</td></tr>
+<tr>
+<td> 0x08 </td>
+<td> INTE </td>
+<td> Interrupt enable
+</td></tr>
+<tr>
+<td> 0x0C </td>
+<td> STAT </td>
+<td> Interrupt status (write 1 to clear)
+</td></tr>
+<tr>
+<td> 0x10 </td>
+<td> DADDR0 </td>
+<td> Register address within the slave
+</td></tr>
+<tr>
+<td> 0x14 </td>
+<td> DADDR1 </td>
+<td>
+</td></tr>
+<tr>
+<td> 0x18 </td>
+<td> DLEN </td>
+<td> (Not sure if this exists)
+</td></tr>
+<tr>
+<td> 0x1C </td>
+<td> DATA0 </td>
+<td> Up to four data bytes
+</td></tr>
+<tr>
+<td> 0x20 </td>
+<td> DATA1 </td>
+<td>
+</td></tr>
+<tr>
+<td> 0x24 </td>
+<td> LCR </td>
+<td> Line control register
+</td></tr>
+<tr>
+<td> 0x28 </td>
+<td> PMCR </td>
+<td> PMIC init register
+</td></tr>
+<tr>
+<td> 0x2C </td>
+<td> CMD </td>
+<td> Command for next transaction
+</td></tr>
+<tr>
+<td> 0x30 </td>
+<td> SADDR </td>
+<td> Slave address
+</td></tr></table>
+<p>The DLEN register seems to be hardwired to 0 in most recent implementations and is redundant with the CMD register. According to documentation it holds the transfer length (1, 2 or 4 Bytes) in the lower two bits and the read(=1)/write(=0) indicator in bit 4.
+</p>
+<h2> <span class="mw-headline" id="CTRL"> CTRL </span></h2>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Name </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default
+</th></tr>
+<tr>
+<td> 31-9 </td>
+<td> Reserved
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> USE_RSB </td>
+<td> Use RSB interface </td>
+<td> </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> START_TRANS </td>
+<td> Start transfer </td>
+<td> write 1 to start current transfer, resets to 0 when done </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> ABT_TRANS </td>
+<td> Abort transfer </td>
+<td> write 1 to abort current transfer, resets to 0 when done </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5-2 </td>
+<td> Reserverd
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> GLB_INTEN </td>
+<td> Enable interrupts </td>
+<td> 1: enable </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> SOFT_RESET </td>
+<td> Reset RSB controller, resets to 0 when done </td>
+<td> write 1 to reset </td>
+<td> RW </td>
+<td> 0
+</td></tr></table>
+<h2> <span class="mw-headline" id="CCR"> CCR </span></h2>
+<p>This register controls the RSB bus clock (SCK) speed.
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Name </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default
+</th></tr>
+<tr>
+<td> 31-9 </td>
+<td> Reserved
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> CD_ODLY </td>
+<td>&#160;?? </td>
+<td> cd_odly =&#160;!(div &gt;&gt; 1) </td>
+<td> RW </td>
+<td>
+</td></tr>
+<tr>
+<td> 7-0 </td>
+<td> DIV </td>
+<td> Clock divider </td>
+<td> SCK = SRC / 2 / (DIV + 1) </td>
+<td> RW </td>
+<td>
+</td></tr></table>
+<p>The reference clock is the 24 MHz oscillator, a common speed on most boards seems to be 3 MHz, so 0x103 is the value you most probably want to write into this register.
+</p>
+<h2> <span class="mw-headline" id="INTE"> INTE </span></h2>
+<p>This register masks/unmasks interrupt events.
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Name </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default
+</th></tr>
+<tr>
+<td> 31-3 </td>
+<td> Reserved
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> LBSY </td>
+<td> Load busy (transfer in progress) </td>
+<td> RW
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> TERR </td>
+<td> Transfer error encountered </td>
+<td> RW
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> TOVER </td>
+<td> Transfer over (completed) </td>
+<td> RW
+</td></tr></table>
+<h2> <span class="mw-headline" id="STATUS"> STATUS </span></h2>
+<p>This register shows interrupt and transfer status.
+Write 1 to the corresponding bit to clear each interrupt.
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Name </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default
+</th></tr>
+<tr>
+<td> 31-24 </td>
+<td> Reserved
+</td></tr>
+<tr>
+<td> 23-16 </td>
+<td> TRANS_ERR_ID </td>
+<td> Transfer error ID for transfer 0 </td>
+<td> RW
+</td></tr>
+<tr>
+<td> 15-8 </td>
+<td> TRANS_ERR_ID </td>
+<td> Transfer error ID for transfer 0 </td>
+<td> RW
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> LBSY </td>
+<td> Load busy (transfer in progress) </td>
+<td> RW
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> TERR </td>
+<td> Transfer error encountered </td>
+<td> RW
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> TOVER </td>
+<td> Transfer over (completed) </td>
+<td> RW
+</td></tr></table>
+<h3> <span class="mw-headline" id="Transfer_error_codes"> Transfer error codes </span></h3>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description
+</th></tr>
+<tr>
+<td> 15-9 </td>
+<td> Reserved
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> No ACK when setting run-time slave address
+</td></tr>
+<tr>
+<td> 7-4 </td>
+<td> Reserved
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> Error happened with the transmission of the 4th byte of data
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> Error happened with the transmission of the 3th byte of data
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> Error happened with the transmission of the 2th byte of data
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> Error happened with the transmission of the 1th byte of data
+</td></tr></table>
+<h2> <span class="mw-headline" id="LCR"> LCR </span></h2>
+<p>This register can seemingly be used to bit bang the bus.
+</p>
+<h2> <span class="mw-headline" id="PMCR"> PMCR </span></h2>
+<p>Educated guess: This register can be used to switch a PMIC from its reset-state configured I2C interface to RSB mode. This avoids configuring the pins to I2C and sending the switch sequence via standard I2C.
+</p>
+<h2> <span class="mw-headline" id="CMD"> CMD </span></h2>
+<p>List of command codes
+</p>
+<table class="wikitable">
+<tr>
+<th> Name </th>
+<th> Value </th>
+<th> Description
+</th></tr>
+<tr>
+<td> WR8 </td>
+<td> 0x4E </td>
+<td> Write byte
+</td></tr>
+<tr>
+<td> WR16 </td>
+<td> 0x59 </td>
+<td> Write half word
+</td></tr>
+<tr>
+<td> WR32 </td>
+<td> 0x63 </td>
+<td> Write word
+</td></tr>
+<tr>
+<td> RD8 </td>
+<td> 0x8B </td>
+<td> Read byte
+</td></tr>
+<tr>
+<td> RD16 </td>
+<td> 0x9C </td>
+<td> Read half word
+</td></tr>
+<tr>
+<td> RD32 </td>
+<td> 0xA6 </td>
+<td> Read word
+</td></tr>
+<tr>
+<td> SRTA </td>
+<td> 0xE8 </td>
+<td> Set run-time address
+</td></tr></table>
+<h2> <span class="mw-headline" id="SADDR"> SADDR </span></h2>
+<p>This register is used with the SRTA command to connect a hardware address to a runtime address.
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description
+</th></tr>
+<tr>
+<td> 23-16 </td>
+<td> Run-Time Slave Address
+</td></tr>
+<tr>
+<td> 15-0 </td>
+<td> Hardware Slave Address
+</td></tr>
+</table>
+<h1> <span class="mw-headline" id="Hardware_Addresses"> Hardware Addresses </span></h1>
+<p>RSB has hardware addresses and runtime addresses. Runtime addresses are configured at initialization time,
+and are used to talk to the slave devices. Hardware addresses are used to identify and configure runtime addresses.
+The configured runtime addresses are not queryable.
+</p><p>Allwinner sources use a static mapping of hardware and runtime addresses.
+</p>
+<table class="wikitable">
+<tr>
+<th> Hardware Address </th>
+<th> (Static) Runtime Address </th>
+<th> Known Devices
+</th></tr>
+<tr>
+<td> 0x3a3 </td>
+<td> 0x2d </td>
+<td> AXP223, AXP809, AXP81X
+</td></tr>
+<tr>
+<td> 0x745 </td>
+<td> 0x3a </td>
+<td> AXP806
+</td></tr>
+<tr>
+<td> 0x3a3 </td>
+<td> 0x2d </td>
+<td> <a href="/AXP803" title="AXP803">AXP803</a>
+</td></tr>
+<tr>
+<td> 0xe89 </td>
+<td> 0x4e </td>
+<td> AC100
+</td></tr></table>
+<p>In contrast to the AXP 803 manual, the hardware address for it seems to be 0x3a3 instead of the documented 0x1d1.
+</p>
+<h1> <span class="mw-headline" id="Example_transactions"> Example transactions </span></h1>
+<p>For setting up the RSB controller in the first place, you have to:
+</p>
+<ul><li> Configure the associated pins to connect to the RSB controller (Port Controller CPUs)
+</li><li> Configure the pins to be Pull-up level 2 drive strength (same Port Controller CPUs)
+</li><li> Un-gate the RSB clock (bit 3 in the APB0_CLK_GATING_REG (offset 0x28) in the R_PRCM block)
+</li><li> De-assert the RSB reset line (bit 3 in the APB0_SOFT_RST_REG (offset 0xB0) in the R_PRCM block)
+</li><li> Program the clock (CCR register) in the RSB block (1 cycle delay, 3 MHz)
+</li><li> Soft reset the RSB block (bit 0 in CTRL register)
+</li></ul>
+<p>After having setup the RSB block, a typical read transaction may look like:
+</p>
+<pre>writel(rt_addr &lt;&lt; 16, RSB_BASE + 0x30); /* set run-time address of slave */
+writel(0x8b, RSB_BASE + 0x2c);          /* "Read-one-byte" command into CMD register */
+writel(regnr, RSB_BASE + 0x10);         /* set register to be read */
+writel(0x80, RSB_BASE + 0x00);          /* start transaction */
+while (readl(RSB_BASE + 0x00) &amp; 0x80)   /* poll for completion */
+       &#160;;
+ret = readl(RSB_BASE + 0x0c);           /* read status register */
+if (ret == 0x01)                        /* transaction completed without errors */
+        return 0;
+return ret;
+</pre>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Reduced_Serial_Bus&amp;oldid=17531">http://linux-sunxi.org/index.php?title=Reduced_Serial_Bus&amp;oldid=17531</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Reduced+Serial+Bus&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Reduced+Serial+Bus" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Reduced_Serial_Bus" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Reduced_Serial_Bus&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Reduced_Serial_Bus">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Reduced_Serial_Bus&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Reduced_Serial_Bus&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Reduced_Serial_Bus" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Reduced_Serial_Bus" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Reduced_Serial_Bus&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Reduced_Serial_Bus&amp;oldid=17531" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 8 June 2016, at 01:34.</li>
+<li id="footer-info-viewcount">This page has been accessed 2,575 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

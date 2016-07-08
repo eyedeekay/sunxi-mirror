@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Xorg - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Xorg","wgTitle":"Xorg","wgCurRevisionId":17553,"wgArticleId":1064,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Xorg","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Xorg"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Xorg skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Xorg</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page contains an explanation of how to set up the X server for our hardware.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#fbdev_driver"><span class="tocnumber">1</span> <span class="toctext">fbdev driver</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#fbturbo_driver"><span class="tocnumber">2</span> <span class="toctext">fbturbo driver</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Manual_build"><span class="tocnumber">2.1</span> <span class="toctext">Manual build</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Prerequisites"><span class="tocnumber">2.1.1</span> <span class="toctext">Prerequisites</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Clone_the_repository"><span class="tocnumber">2.1.2</span> <span class="toctext">Clone the repository</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Build"><span class="tocnumber">2.1.3</span> <span class="toctext">Build</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Installation"><span class="tocnumber">2.1.4</span> <span class="toctext">Installation</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Configuration"><span class="tocnumber">2.1.5</span> <span class="toctext">Configuration</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="#Packages"><span class="tocnumber">2.2</span> <span class="toctext">Packages</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Verification"><span class="tocnumber">2.3</span> <span class="toctext">Verification</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Common_issues"><span class="tocnumber">2.4</span> <span class="toctext">Common issues</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#The_log_complains_about_being_compiled_without_libUMP"><span class="tocnumber">2.4.1</span> <span class="toctext">The log complains about being compiled without libUMP</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#The_screen_goes_off_and_will_not_restart_until_reset"><span class="tocnumber">2.4.2</span> <span class="toctext">The screen goes off and will not restart until reset</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="fbdev_driver"> fbdev driver </span></h1>
+<p>X tends to come preinstalled with the standard fbdev driver. This gives you a working environment, but it might be lagging a bit, and you get no hardware supported 2d or 3d acceleration.
+</p><p>No action needs to be taken for this driver to work though, you only need to have <a href="/Display" title="Display">a working display driver</a>.
+</p>
+<h1> <span class="mw-headline" id="fbturbo_driver"> fbturbo driver </span></h1>
+<p>fbturbo driver works on both mainline and legacy (sunxi-3.x) kernels, utilizing a combination of various acceleration options to make your desktop experience much more fluid:
+</p>
+<ul><li> NEON CPU instructions
+</li><li> sunxi G2D 2D acceleration (legacy only)
+</li><li> sunxi display engine for overlays and hardware cursor (legacy only)
+</li><li> Mali GPU acceleration for 3D/GL applications
+</li></ul>
+<p><br/>
+For Mali support see <a href="/Mali_binary_driver" title="Mali binary driver"> our Mali binary driver installation howto</a>).
+</p><p>This driver is a further development from the ARM provided mali xorg driver, which is available from <a class="external text" href="http://github.com/linux-sunxi/xf86-video-mali">our sunxi repositories</a>, but that driver only provides Mali support and no NEON or 2D acceleration, and doesn't use the sunxi display engine.
+</p>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<h3> <span class="mw-headline" id="Prerequisites"> Prerequisites </span></h3>
+<p>For debian or ubuntu you need the following development packages for building X drivers:
+</p>
+<pre class="brush: bash">
+apt-get install git build-essential xorg-dev xutils-dev x11proto-dri2-dev libltdl-dev libtool automake 
+</pre>
+<p>If you intend to use the Mali GPU, then you need to first <a href="/Mali_binary_driver" title="Mali binary driver"> install libUMP</a> as well.
+</p>
+<h3> <span class="mw-headline" id="Clone_the_repository"> Clone the repository </span></h3>
+<p>Now get the fbturbo xf86 driver (from the 0.4.0 release tag):
+</p>
+<pre class="brush: bash">
+git clone -b 0.4.0 https://github.com/ssvb/xf86-video-fbturbo.git
+cd xf86-video-fbturbo
+</pre>
+<h3> <span class="mw-headline" id="Build"> Build </span></h3>
+<pre class="brush: bash">
+autoreconf -vi
+./configure --prefix=/usr
+make
+</pre>
+<h3> <span class="mw-headline" id="Installation"> Installation </span></h3>
+<pre class="brush: bash">
+make install
+</pre>
+<h3> <span class="mw-headline" id="Configuration"> Configuration </span></h3>
+<p>Then copy over the default xorg.conf for the fbturbo driver (the preferred location for xorg.conf would be /etc/X11/ instead of /usr/share/X11/xorg.conf.d/):
+</p>
+<pre class="brush: bash">
+rm /usr/share/X11/xorg.conf.d/99-sunxifb.conf
+cp xorg.conf /etc/X11/xorg.conf
+</pre>
+<h2> <span class="mw-headline" id="Packages"> Packages </span></h2>
+<p>For some distributions, there are packages available. For more information, check our <a href="/Packages" title="Packages"> packages howto</a>.
+</p>
+<h2> <span class="mw-headline" id="Verification"> Verification </span></h2>
+<p>You should now be able to (re)start your xserver, have a quick look through /var/log/Xorg.0.log to verify that the correct driver has been loaded:
+</p>
+<pre>
+...
+(II) Module fbturbo: vendor=&quot;X.Org Foundation&quot;
+   compiled for 1.12.4, module version = 0.4.0
+   Module class: X.Org Video Driver
+   ABI class: X.Org Video Driver, version 12.1
+(II) FBTURBO: driver for framebuffer: fbturbo
+(--) using VT number 7
+...
+</pre>
+<h2> <span class="mw-headline" id="Common_issues"> Common issues </span></h2>
+<h3> <span class="mw-headline" id="The_log_complains_about_being_compiled_without_libUMP"> The log complains about being compiled without libUMP </span></h3>
+<p>If you have the following lines in your Xorg.0.log, then you need to install libUMP (or the libump-dev package), and then rebuild and install the fbturbo driver.
+</p>
+<pre>
+(II) FBTURBO(0): no 3D acceleration because the driver has been compiled without libUMP
+(II) FBTURBO(0): if this is wrong and needs to be fixed, please check ./configure log
+</pre>
+<h3> <span class="mw-headline" id="The_screen_goes_off_and_will_not_restart_until_reset"> The screen goes off and will not restart until reset </span></h3>
+<p>This seems to be linked (to be verified) to fbturbo (former name sunxifb). DPMS has 3 options&#160;: standby, suspend and off. The standby and suspend options work. But DPMS off put off the screen with the following error on console and in dmesg&#160;:
+</p>
+<pre> disp clks: lcd 146000000 pre_scale 1 hdmi 146000000 pll 219000000 2x 1</pre>
+<p>A workaround is to add in /usr/share/X11/xorg.conf.d/99-sunxifb.conf, in <code>Section "Device"</code>:
+</p>
+<pre> Option &quot;OffTime&quot; &quot;0&quot;</pre>
+<p>However, it you still have problems, you can disable DPMS completely in the X server by properly editing xorg.conf (located either in /etc/X11 or /usr/share/X11/xorg.conf.d) add adding a Screen and Monitor section that disables DPMS. The following xorg.conf works with xf86-video-fbturbo (the new name of xf86-video-sunxifb):
+</p>
+<pre>
+ Section &quot;Screen&quot;
+         Identifier      &quot;My Screen&quot;
+         Device          &quot;fbturbo device&quot;
+         Monitor         &quot;My Monitor&quot;
+ EndSection
+ 
+ Section &quot;Device&quot;
+         Identifier      &quot;fbturbo device&quot;
+         Driver          &quot;fbturbo&quot;
+         Option          &quot;fbdev&quot; &quot;/dev/fb0&quot;
+         Option          &quot;SwapbuffersWait&quot; &quot;true&quot;
+ EndSection
+ 
+ Section &quot;Monitor&quot;
+         Identifier      &quot;My Monitor&quot;
+         Option          &quot;DPMS&quot; &quot;false&quot;
+ EndSection
+</pre>
+<p>Another suggested option is to alter the other DPMS timers (OffTime is sometimes called BlankTime):
+</p>
+<pre>
+ Section &quot;ServerLayout&quot;
+    Identifier &quot;ServerLayout0&quot;
+    Option &quot;StandbyTime&quot; &quot;0&quot;
+    Option &quot;SuspendTime&quot; &quot;0&quot;
+ EndSection
+
+</pre>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/Display" title="Display">Display driver setup</a>
+</li><li> <a href="/Mali_binary_driver" title="Mali binary driver"> How to install the Mali binary 3D driver</a>
+</li><li> <a href="/Video_Engine" title="Video Engine"> Hardware Media acceleration</a>
+</li><li> <a href="/GraphicsPerformanceX11" title="GraphicsPerformanceX11">GraphicsPerformanceX11</a>
+</li><li> <a href="/Benchmarks" title="Benchmarks">Benchmarks</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Xorg&amp;oldid=17553">http://linux-sunxi.org/index.php?title=Xorg&amp;oldid=17553</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Xorg&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Xorg" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Xorg" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Xorg&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Xorg">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Xorg&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Xorg&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Xorg" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Xorg" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Xorg&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Xorg&amp;oldid=17553" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 8 June 2016, at 22:05.</li>
+<li id="footer-info-viewcount">This page has been accessed 42,825 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

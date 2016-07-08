@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Ioquake3 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ioquake3","wgTitle":"Ioquake3","wgCurRevisionId":2652,"wgArticleId":320,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Ioquake3","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Ioquake3"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Ioquake3 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Ioquake3</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Porting"><span class="tocnumber">1</span> <span class="toctext">Porting</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Building"><span class="tocnumber">2</span> <span class="toctext">Building</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Running"><span class="tocnumber">3</span> <span class="toctext">Running</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Benchmark_results"><span class="tocnumber">4</span> <span class="toctext">Benchmark results</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#TODO"><span class="tocnumber">5</span> <span class="toctext">TODO</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Links"><span class="tocnumber">6</span> <span class="toctext">Links</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Porting"> Porting </span></h2>
+<p>Mali-400 port was done by Luc libv Verhaegen. Purpose of this port is only testing the OpenGL ES libraries, no playable experience is available yet.
+</p>
+<h2> <span class="mw-headline" id="Building"> Building </span></h2>
+<p>Remove X11 Mali-400 libraries if you installed them, install framebuffer ones! (make framebuffer in mali-libs) Current ioquake3 uses only framebuffer output, nothing else.
+</p>
+<pre>
+git clone https://github.com/libv/ioquake3
+cd ioquake3
+git checkout remotes/origin/mali_fb
+nano Makefile.local # change DEFAULT_BASEDIR to directory where you have Quake 3 Arena game files
+make ARCH=arm
+cd build/release-linux-arm
+</pre>
+<h2> <span class="mw-headline" id="Running"> Running </span></h2>
+<p>Run
+</p>
+<pre>
+./ioquake3.arm
+</pre>
+<p>in your build/release-linux-arm directory
+</p><p>You should get something like this:
+</p>
+<pre>
+<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f5879a9a81b5999c9b94879ad894999c85">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:~/ioquake3-mali_fb/build/release-linux-arm# ./ioquake3.arm
+ioq3 1.36 linux-arm Dec  6 2012
+----- FS_Startup -----
+Current search path:
+/root/.q3a/baseq3
+/home/linaro/ioquake3//baseq3/twpak0.pk3 (116 files)
+/home/linaro/ioquake3//baseq3/pak8.pk3 (9 files)
+/home/linaro/ioquake3//baseq3/pak7.pk3 (4 files)
+/home/linaro/ioquake3//baseq3/pak6.pk3 (64 files)
+/home/linaro/ioquake3//baseq3/pak5.pk3 (7 files)
+/home/linaro/ioquake3//baseq3/pak4.pk3 (272 files)
+/home/linaro/ioquake3//baseq3/pak3.pk3 (4 files)
+/home/linaro/ioquake3//baseq3/pak2.pk3 (148 files)
+/home/linaro/ioquake3//baseq3/pak1.pk3 (26 files)
+/home/linaro/ioquake3//baseq3/pak0.pk3 (3510 files)
+/home/linaro/ioquake3//baseq3
+ 
+----------------------
+4160 files in pk3 files
+execing default.cfg
+execing q3config.cfg
+com_zoneMegs will be changed upon restarting.
+couldn't exec autoexec.cfg
+Hunk_Clear: reset the hunk ok
+----- Client Initialization -----
+Couldn't read q3history.
+----- Initializing Renderer ----
+-------------------------------
+QKEY found.
+----- Client Initialization Complete -----
+----- R_Init -----
+Initializing OpenGL subsystem
+FB dimensions 1920x1080
+Initializing OpenGL extensions
+...GL_EXT_texture_compression_s3tc not found
+...GL_S3_s3tc not found
+...using GL_ARB_multitexture
+...GL_EXT_compiled_vertex_array not found
+...GL_EXT_texture_filter_anisotropic not found
+------------------
+ 
+GL_VENDOR: ARM
+GL_RENDERER: Mali-400 MP
+GL_VERSION: OpenGL ES-CM 1.1
+GL_EXTENSIONS: 
+ GL_OES_byte_coordinates GL_OES_fixed_point
+ GL_OES_single_precision GL_OES_matrix_get
+ GL_OES_read_format GL_OES_compressed_paletted_texture
+ GL_OES_point_size_array GL_OES_point_sprite
+ GL_OES_texture_npot GL_OES_query_matrix
+ GL_OES_matrix_palette GL_OES_extended_matrix_palette
+ GL_OES_compressed_ETC1_RGB8_texture GL_OES_EGL_image
+ GL_OES_draw_texture GL_OES_depth_texture
+ GL_OES_packed_depth_stencil GL_EXT_texture_format_BGRA8888
+ GL_OES_framebuffer_object GL_OES_stencil8 
+ GL_OES_depth24 GL_ARM_rgba8 
+ GL_OES_EGL_image_external GL_OES_EGL_sync
+ GL_EXT_multisampled_render_to_texture
+ GL_OES_texture_cube_map GL_EXT_discard_framebuffer
+GL_MAX_TEXTURE_SIZE: 4096
+GL_MAX_TEXTURE_UNITS_ARB: 8
+ 
+PIXELFORMAT: color(0-bits) Z(0-bit) stencil(0-bits)
+MODE: 8, 1920 x 1080 fullscreen hz:N/A
+GAMMA: software w/ 0 overbright bits
+rendering primitives: single glDrawElements
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 0
+texture bits: 32
+multitexture: enabled
+compiled vertex arrays: enabled
+texenv add: enabled
+compressed textures: disabled
+HACK: using vertex lightmap approximation
+Initializing Shaders
+----- finished R_Init -----
+------ Initializing Sound ------
+SDL_Init( SDL_INIT_AUDIO )... OK
+SDL audio driver is &quot;alsa&quot;.
+SDL_AudioSpec:
+  Format:   AUDIO_S16LSB
+  Freq:     22050
+  Samples:  2048
+  Channels: 2
+Starting SDL audio callback...
+SDL audio initialized.
+----- Sound Info -----
+    1 stereo
+65536 samples
+   16 samplebits
+    1 submission_chunk
+22050 speed
+0x4241a008 dma buffer
+No background file.
+----------------------
+Sound initialization successful.
+--------------------------------
+Sound memory manager started
+Loading vm file vm/ui.qvm...
+Architecture doesn't have a bytecode compiler, using interpreter
+ui loaded in 2348480 bytes on the hunk
+38 arenas parsed
+32 bots parsed
+--- Common Initialization Complete ---
+IP: 127.0.0.1
+IP: 192.168.1.151
+IP6:&#160;::1
+IP6: fe80::986e:5cff:fef9:cae0%eth0
+Opening IP6 socket: [::]:27960
+Opening IP socket: 0.0.0.0:27960
+</pre>
+<p>Then enter this to run the demo benchmark:
+</p>
+<pre>
+timedemo 1
+demo four
+</pre>
+<p>ioquake3 is not wired with any input system (game will not recognize any keyboard or mouse input), this lines will go stright to Quake 3 console that will run under the renderer output.
+</p>
+<h2> <span class="mw-headline" id="Benchmark_results"> Benchmark results </span></h2>
+<table class="wikitable sortable">
+<tr>
+<th> Resolution </th>
+<th> Frame rate </th>
+<th> Misc.
+</th></tr>
+<tr>
+<td> 1920x1080 </td>
+<td> 4.5 fps </td>
+<td> 1260 frames 279.7 seconds 31.0/222.0/320.0/14.5 ms
+</td></tr>
+<tr>
+<td> 1280x720 </td>
+<td> 39.4 fps </td>
+<td> 1260 frames 32.0 seconds 10.0/25.4/80.0/8.2 ms
+</td></tr></table>
+<h2> <span class="mw-headline" id="TODO"> TODO </span></h2>
+<ul><li> Add input system (evdev?)
+</li><li> Add X11 support
+</li></ul>
+<h2> <span class="mw-headline" id="Links"> Links </span></h2>
+<ul><li> linux-sunxi.org: quake 3 arena timedemo - <a rel="nofollow" class="external free" href="http://www.youtube.com/watch?v=k4LbQGdwslA">http://www.youtube.com/watch?v=k4LbQGdwslA</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Ioquake3&amp;oldid=2652">http://linux-sunxi.org/index.php?title=Ioquake3&amp;oldid=2652</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Ioquake3&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Ioquake3" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Ioquake3" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Ioquake3&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Ioquake3">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Ioquake3&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Ioquake3&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Ioquake3" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Ioquake3" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Ioquake3&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Ioquake3&amp;oldid=2652" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 27 February 2013, at 21:30.</li>
+<li id="footer-info-viewcount">This page has been accessed 6,369 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

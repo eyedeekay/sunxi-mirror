@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Qt5 For Mali Binaries - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Qt5_For_Mali_Binaries","wgTitle":"Qt5 For Mali Binaries","wgCurRevisionId":13158,"wgArticleId":685,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Qt5_For_Mali_Binaries","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Qt5_For_Mali_Binaries"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Qt5_For_Mali_Binaries skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Qt5 For Mali Binaries</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page describes ways to build a Qt5 toolchain for Allwinner devices.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Qt_cross-compiler_toolchain"><span class="tocnumber">1</span> <span class="toctext">Qt cross-compiler toolchain</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Get_ARM_C_and_C.2B.2B_cross-compilers"><span class="tocnumber">1.1</span> <span class="toctext">Get ARM C and C++ cross-compilers</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Build_the_system_root"><span class="tocnumber">1.2</span> <span class="toctext">Build the system root</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Install_video_drivers"><span class="tocnumber">1.3</span> <span class="toctext">Install video drivers</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Install_development_packages"><span class="tocnumber">1.4</span> <span class="toctext">Install development packages</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Download_Qt"><span class="tocnumber">1.5</span> <span class="toctext">Download Qt</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Create_Qt_device_config"><span class="tocnumber">1.6</span> <span class="toctext">Create Qt device config</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Configure_Qt"><span class="tocnumber">1.7</span> <span class="toctext">Configure Qt</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Make_and_install"><span class="tocnumber">1.8</span> <span class="toctext">Make and install</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Test"><span class="tocnumber">1.9</span> <span class="toctext">Test</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Debian_Wheezy"><span class="tocnumber">1.10</span> <span class="toctext">Debian Wheezy</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Native_compilation"><span class="tocnumber">2</span> <span class="toctext">Native compilation</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Qt_cross-compiler_toolchain"> Qt cross-compiler toolchain </span></h1>
+<p>A cross-compiler toolchain is the most practical option for building Qt binaries. Native compiler performance on most Allwinner devices is relatively good but you can get better performance on a laptop. The configuration and build process of a cross-compiler toolchain is not too difficult. You may have a working Qt cross-compiler in a matter of minutes, provided you have a system root for your device on the host machine. The below solution should work for all Cortex-A8 devices with Mali-400 and can also apply to devices with other ARM processor cores after minor modifications. The instructions work for Debian Jessie. Note that old stable Sunxi kernels before 3.4.105 may be incompatible with Jessie because of systemd. In that case Debian Wheezy is an option, see <a href="/Qt5_For_Mali_Binaries#Debian_Wheezy" title="Qt5 For Mali Binaries">Qt5_For_Mali_Binaries#Debian_Wheezy</a> for appropriate adjustments.
+</p>
+<h2> <span class="mw-headline" id="Get_ARM_C_and_C.2B.2B_cross-compilers"> Get ARM C and C++ cross-compilers </span></h2>
+<p>Install a C++ cross-compiler on your host, for example, from the <a rel="nofollow" class="external text" href="http://www.emdebian.org/">Emdebian</a> repository:
+</p>
+<pre> sudo apt-get update
+ sudo apt-get install gcc-4.7-arm-linux-gnueabihf g++-4.7-arm-linux-gnueabihf
+</pre>
+<p>provided that your <code>/etc/apt/sources.list</code> has the following lines:
+</p>
+<pre> deb <a rel="nofollow" class="external free" href="http://www.emdebian.org/debian/">http://www.emdebian.org/debian/</a> testing main
+ deb <a rel="nofollow" class="external free" href="http://www.emdebian.org/debian/">http://www.emdebian.org/debian/</a> unstable main
+</pre>
+<p>Install appropriate alternatives by hand since these are not created automatically:
+</p>
+<pre> sudo update-alternatives --install /usr/bin/arm-linux-gnueabihf-gcc \
+   arm-linux-gnueabihf-gcc /usr/bin/arm-linux-gnueabihf-gcc-4.7 100
+ sudo update-alternatives --install /usr/bin/arm-linux-gnueabihf-g++ \
+   arm-linux-gnueabihf-g++ /usr/bin/arm-linux-gnueabihf-g++-4.7 100
+</pre>
+<h2> <span class="mw-headline" id="Build_the_system_root"> Build the system root </span></h2>
+<p>Set up a Debian Testing system on your host. See <a href="/Mainline_Debian_HowTo" title="Mainline Debian HowTo">Mainline_Debian_HowTo</a> for exact commands. SD-card setup can be skipped if installing on the local disk. I will assume <code>/var/sunxi-root</code> to be the system root:
+</p>
+<pre> export SUNXI_SYSROOT=/var/sunxi-root
+</pre>
+<h2> <span class="mw-headline" id="Install_video_drivers"> Install video drivers </span></h2>
+<p>Download <code>libump</code> sources and <code>libMali</code> binaries as described in <a href="/Mali_binary_driver" title="Mali binary driver">Mali_binary_driver</a> to your disk. Copy the downloaded trees to <code>$SUNXI_SYSROOT</code> and install these libraries from within chroot.
+</p>
+<h2> <span class="mw-headline" id="Install_development_packages"> Install development packages </span></h2>
+<p>Install XCB packages to <code>$SUNXI_SYSROOT</code> from chroot:
+</p>
+<pre>
+apt-get install libxcb1 libxcb1-dev libx11-xcb1 libx11-xcb-dev \
+  libxcb-keysyms1 libxcb-keysyms1-dev libxcb-image0 libxcb-image0-dev \
+  libxcb-shm0 libxcb-shm0-dev libxcb-icccm4 libxcb-icccm4-dev \
+  libxcb-sync0-dev libxcb-render-util0 libxcb-render-util0-dev \
+  libxcb-xfixes0-dev libxrender-dev libxcb-shape0-dev libxcb-randr0-dev \
+  libxcb-glx0-dev
+</pre>
+<p>Also install zlib library and headers:
+</p>
+<pre>
+apt-get install zlib1g-dev
+</pre>
+<p>Do not exit from the chroot prompt because you are going to use it below.
+</p>
+<h2> <span class="mw-headline" id="Download_Qt"> Download Qt </span></h2>
+<p>Download Qt to your host (not to <code>$SUNXI_SYSROOT</code>):
+</p>
+<pre> git clone <a rel="nofollow" class="external free" href="git://gitorious.org/qt/qt5.git">git://gitorious.org/qt/qt5.git</a> qt5
+ cd qt5
+ git checkout 5.4
+ perl init-repository --no-webkit
+</pre>
+<h2> <span class="mw-headline" id="Create_Qt_device_config"> Create Qt device config </span></h2>
+<pre> mkdir qtbase/mkspecs/devices/linux-sunxi-g++
+</pre>
+<pre> cat &lt;&lt;EOF &gt; qtbase/mkspecs/devices/linux-sunxi-g++/qplatformdefs.h
+ #include "../../linux-g++/qplatformdefs.h"
+ EOF
+</pre>
+<pre>cat &lt;&lt;EOF &gt; qtbase/mkspecs/devices/linux-sunxi-g++/qmake.conf
+#
+# Qt system configuration for Sunxi Cortex-A8 devices
+#
+# Mali library and include files should be found in the standard locations in
+# /usr in sysroot.
+#
+
+include(../common/linux_device_pre.conf)
+
+QT_QPA_DEFAULT_PLATFORM = xcb
+
+DISTRO_OPTS += deb-multi-arch
+DISTRO_OPTS += hard-float
+
+SYSROOT_INC = $$[QT_SYSROOT]/usr/include
+SYSROOT_LIB = $$[QT_SYSROOT]/usr/lib
+
+COMPILER_FLAGS = -marm -march=armv7-a -mtune=cortex-a8
+
+QMAKE_CFLAGS   += -I $${SYSROOT_INC} \
+                  -I $${SYSROOT_INC}/$${GCC_MACHINE_DUMP}
+
+QMAKE_CXXFLAGS += -I $${SYSROOT_INC} \
+                  -I $${SYSROOT_INC}/$${GCC_MACHINE_DUMP}
+
+QMAKE_CXXFLAGS_RELEASE += -O3
+
+QMAKE_LFLAGS   += -Wl,-rpath-link,$$[QT_SYSROOT]/usr/lib \
+                  -Wl,-rpath-link,$$[QT_SYSROOT]/lib
+
+QMAKE_LIBS += -lrt -lpthread -ldl
+
+# Mali EGL and GLES2 are in fact located in the same .so file.
+QMAKE_INCDIR_EGL        = $$[SYSROOT_INC]
+QMAKE_LIBDIR_EGL        = $$[SYSROOT_LIB]
+QMAKE_INCDIR_OPENGL_ES2 = $${QMAKE_INCDIR_EGL}
+QMAKE_LIBDIR_OPENGL_ES2 = $${QMAKE_LIBDIR_EGL}
+
+QMAKE_LIBS_EGL          = -lEGL
+QMAKE_LIBS_OPENGL_ES2   = -lGLESv2
+
+include(../common/linux_arm_device_post.conf)
+
+load(qt_config)
+EOF
+</pre>
+<h2> <span class="mw-headline" id="Configure_Qt"> Configure Qt </span></h2>
+<p>The below will configure Qt for installation into <code>/opt/qt/sunxi</code> on both the host and the target:
+</p>
+<pre>
+./configure -v -debug -opensource -confirm-license -no-use-gold-linker \
+  -nomake examples -nomake tests -nomake tools -no-cups -no-pch -no-linuxfb \
+  -skip qtquick1 -skip declarative -skip multimedia -opengl es2 -no-eglfs \
+  -system-xcb -system-zlib -sysroot $SUNXI_SYSROOT -device linux-sunxi-g++ \
+  -device-option CROSS_COMPILE=arm-linux-gnueabihf- -prefix /opt/qt/sunxi
+</pre>
+<p>If configuration is successfull, you will see stats like these:
+</p>
+<pre>
+Build options:
+  Configuration .......... accessibility accessibility-atspi-bridge audio-backend c++11 clock-gettime clock-monotonic compile_examples concurrent cross_compile dbus debug egl evdev eventfd freetype full-config getaddrinfo getifaddrs harfbuzz iconv inotify ipv6ifname large-config largefile medium-config minimal-config mremap nis opengl opengles2 pcre png posix_fallocate qpa qpa reduce_exports rpath shared small-config system-zlib xcb xcb-glx xcb-plugin xcb-render xcb-xlib xkbcommon-qt 
+  Build parts ............ libs
+  Mode ................... debug
+  Using C++11 ............ yes
+  Using gold linker....... no
+  Using PCH .............. no
+  Target compiler supports:
+    Neon ................. no
+
+Qt modules and options:
+  Qt D-Bus ............... yes (loading dbus-1 at runtime)
+  Qt Concurrent .......... yes
+  Qt GUI ................. yes
+  Qt Widgets ............. yes
+  Large File ............. yes
+  QML debugging .......... yes
+  Use system proxies ..... no
+
+Support enabled for:
+  Accessibility .......... yes
+  ALSA ................... no
+  CUPS ................... no
+  Evdev .................. yes
+  FontConfig ............. no
+  FreeType ............... yes (bundled copy)
+  Glib ................... no
+  GTK theme .............. no
+  HarfBuzz ............... yes (bundled copy)
+  Iconv .................. yes
+  ICU .................... no
+  Image formats: 
+    GIF .................. yes (plugin, using bundled copy)
+    JPEG ................. yes (plugin, using bundled copy)
+    PNG .................. yes (in QtGui, using bundled copy)
+  journald ............... no
+  mtdev .................. no
+  Networking: 
+    getaddrinfo .......... yes
+    getifaddrs ........... yes
+    IPv6 ifname .......... yes
+    OpenSSL .............. no
+  NIS .................... yes
+  OpenGL / OpenVG: 
+    EGL .................. yes
+    OpenGL ............... yes (OpenGL ES 2.0+)
+    OpenVG ............... no
+  PCRE ................... yes (bundled copy)
+  pkg-config ............. yes 
+  PulseAudio ............. no
+  QPA backends: 
+    DirectFB ............. no
+    EGLFS ................ no
+    KMS .................. no
+    LinuxFB .............. no
+    XCB .................. yes (system library)
+      EGL on X ........... no
+      GLX ................ yes
+      MIT-SHM ............ yes
+      Xcb-Xlib ........... yes
+      Xcursor ............ yes (loaded at runtime)
+      Xfixes ............. yes (loaded at runtime)
+      Xi ................. yes (loaded at runtime)
+      Xi2 ................ no
+      Xinerama ........... yes (loaded at runtime)
+      Xrandr ............. yes (loaded at runtime)
+      Xrender ............ no
+      XKB ................ no
+      XShape ............. yes
+      XSync .............. yes
+      XVideo ............. yes
+  Session management ..... yes
+  SQL drivers: 
+    DB2 .................. no
+    InterBase ............ no
+    MySQL ................ no
+    OCI .................. no
+    ODBC ................. no
+    PostgreSQL ........... no
+    SQLite 2 ............. no
+    SQLite ............... yes (plugin, using bundled copy)
+    TDS .................. no
+  udev ................... no
+  xkbcommon .............. yes (bundled copy, XKB config root: /usr/share/X11/xkb)
+  zlib ................... yes (system library)
+
+
+NOTE: Qt is using double for qreal on this system. This is binary incompatible against Qt 5.1.
+Configure with '-qreal float' to create a build that is binary compatible with 5.1.
+
+Qt is now configured for building. Just run 'make'.
+Once everything is built, you must run 'make install'.
+Qt will be installed into /opt/qt/sunxi
+
+Prior to reconfiguration, make sure you remove any leftovers from
+the previous build.
+</pre>
+<h2> <span class="mw-headline" id="Make_and_install"> Make and install </span></h2>
+<p>This will make and install the cross-compiler as well as the Qt environment for the Sunxi device:
+</p>
+<pre> make -j4
+ sudo make install
+</pre>
+<p>This installs the host cross-compiler into <code>/opt/qt/sunxi</code>
+and the target shared libraries and utilities to <code>$SUNXI_SYSROOT/opt/qt/sunxi</code>.
+You should then be able to copy the target Qt tree from <code>$SUNXI_SYSROOT</code> onto your
+Sunxi device root file system.
+</p><p>You may also want to add Qt binaries such as <code>qmake</code> to the path on the host:
+</p>
+<pre> export PATH=/opt/qt/sunxi/bin:$PATH
+</pre>
+<h2> <span class="mw-headline" id="Test"> Test </span></h2>
+<pre> cd qtbase/examples/qtestlib/tutorial1/
+ qmake
+ make
+</pre>
+<p>The above should produce a working ARM binary <code>./tutorial1</code>. Run it from chroot with the option <code>-platform offscreen</code>.
+</p>
+<h2> <span class="mw-headline" id="Debian_Wheezy"> Debian Wheezy </span></h2>
+<p>On Debian Wheezy system zlib doesn't seem to link correctly with Qt 5.4. Therefore don't install zlib1g-dev onto the target and configure Qt without the <code>-system-zlib</code> option. Also remove <code>-lrt</code> from the definition of <code>QMAKE_LIBS</code> in <code>qtbase/mkspecs/devices/linux-sunxi-g++/qmake.conf</code>. Debootstrap and chroot procedures are the same as for Jessie, only specify <b>wheezy</b> instead of <b>testing</b> during bootstrapping and apt initialisation.
+</p>
+<h1> <span class="mw-headline" id="Native_compilation"> Native compilation </span></h1>
+<p>Another way to get Qt on a Sunxi device is to compile Qt from source in-place.
+</p><p>Here are instructions to be executed on the device, assuming X11, UMP and Mali drivers (see <a href="/Mali_binary_driver" title="Mali binary driver">Mali_binary_driver</a>):
+</p>
+<pre>  wget <a rel="nofollow" class="external free" href="http://download.qt-project.org/official_releases/qt/5.1/5.1.0/single/qt-everywhere-opensource-src-5.1.0.tar.gz">http://download.qt-project.org/official_releases/qt/5.1/5.1.0/single/qt-everywhere-opensource-src-5.1.0.tar.gz</a>
+  tar -xzf qt-everywhere-opensource-src-5.1.0.tar.gz
+  cd qt-everywhere-opensource-src-5.1.0
+  ./configure -release -opensource -confirm-license -opengl es2 -no-eglfs -no-linuxfb -no-pch
+  make
+  make install
+</pre>
+<p>This will take hours to compile on Allwiner A10 device! You may want to run it overnight.
+</p><p>It may make sense to check the configure output before starting compilation. It may look like this (be sure that OpenGL ES 2.x is detected):
+</p>
+<pre>
+   Configure summary
+
+Build type:    linux-g++ (arm, CPU features: neon)
+Platform notes:
+
+            - Also available for Linux: linux-kcc linux-icc linux-cxx
+        
+Build options:
+  Configuration .......... accessibility accessibility-atspi-bridge alsa audio-backend c++11 clock-gettime clock-monotonic concurrent cups dbus egl evdev eventfd fontconfig full-config getaddrinfo getifaddrs glib gstreamer gtk2 gtkstyle iconv icu inotify ipv6ifname large-config largefile libudev medium-config minimal-config mremap neon nis opengl opengles2 openssl pcre png pulseaudio qpa qpa reduce_exports reduce_relocations release rpath shared small-config system-freetype system-jpeg system-png system-zlib v8 v8snapshot xcb xcb-glx xcb-render xcb-xlib xinput2 xkbcommon-qt xlib xrender 
+  Build parts ............ libs tools examples
+  Mode ................... release
+  Using C++11 ............ yes
+  Using PCH .............. no
+  Target compiler supports:
+    iWMMXt/Neon .......... no/yes
+
+Qt modules and options:
+  Qt D-Bus ............... yes (loading dbus-1 at runtime)
+  Qt Concurrent .......... yes
+  Qt GUI ................. yes
+  Qt Widgets ............. yes
+  JavaScriptCore JIT ..... yes (To be decided by JavaScriptCore)
+  QML debugging .......... yes
+  Use system proxies ..... no
+
+Support enabled for:
+  Accessibility .......... yes
+  ALSA ................... yes
+  CUPS ................... yes
+  FontConfig ............. yes
+  Iconv .................. yes
+  ICU .................... yes
+  Image formats: 
+    GIF .................. yes (plugin, using system library)
+    JPEG ................. yes (plugin, using system library)
+    PNG .................. yes (in QtGui, using system library)
+  Glib ................... yes
+  GStreamer .............. yes
+  GTK theme .............. yes
+  Large File ............. yes
+  libudev ................ yes
+  Networking: 
+    getaddrinfo .......... yes
+    getifaddrs ........... yes
+    IPv6 ifname .......... yes
+    OpenSSL .............. yes (loading libraries at run-time)
+  NIS .................... yes
+  OpenGL ................. yes (OpenGL ES 2.x)
+  OpenVG ................. no
+  PCRE ................... yes (bundled copy)
+  pkg-config ............. yes 
+  PulseAudio ............. yes
+  QPA backends: 
+    DirectFB ............. no
+    EGLFS ................ no
+    KMS .................. no
+    LinuxFB .............. no
+    XCB .................. yes (system library)
+      MIT-SHM ............ yes
+      Xcursor ............ yes (loaded at runtime)
+      Xfixes ............. yes (loaded at runtime)
+      Xi ................. no
+      Xi2 ................ yes
+      Xinerama ........... yes (loaded at runtime)
+      Xrandr ............. yes (loaded at runtime)
+      Xrender ............ yes
+      XKB ................ no
+      XShape ............. yes
+      XSync .............. yes
+      XVideo ............. yes
+  Session management ..... yes
+  SQL drivers: 
+    DB2 .................. no
+    InterBase ............ no
+    MySQL ................ no
+    OCI .................. no
+    ODBC ................. yes (plugin)
+    PostgreSQL ........... no
+    SQLite 2 ............. no
+    SQLite ............... yes (plugin, using bundled copy)
+    TDS .................. no
+  udev ................... yes
+  xkbcommon .............. yes (bundled copy)
+  zlib ................... yes (system library)
+
+NOTE: libxkbcommon 0.2.0 (or higher) not found on the system, will use 
+the bundled version from 3rd party directory.
+
+Qt is now configured for building. Just run 'gmake'.
+Once everything is built, you must run 'gmake install'.
+Qt will be installed into /usr/local/Qt-5.1.0
+
+Prior to reconfiguration, make sure you remove any leftovers from
+the previous build.
+</pre>
+<p>Now in order to test it, we can download and compile the Qt5 Cinematic Experience demo:
+</p>
+<pre>   wget <a rel="nofollow" class="external free" href="http://quitcoding.com/download/Qt5_CinematicExperience_rpi_1.0.tgz">http://quitcoding.com/download/Qt5_CinematicExperience_rpi_1.0.tgz</a>
+   tar -xzf Qt5_CinematicExperience_rpi_1.0.tgz
+   cd Qt5_CinematicExperience_rpi_1.0
+   export PATH=/usr/local/Qt-5.1.0/bin:$PATH
+   qmake
+   make
+   DISPLAY=:0 ./Qt5_CinematicExperience --fullscreen
+</pre>
+<p>There are also many other Qt5 demos.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Qt5_For_Mali_Binaries&amp;oldid=13158">http://linux-sunxi.org/index.php?title=Qt5_For_Mali_Binaries&amp;oldid=13158</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Qt5+For+Mali+Binaries&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Qt5+For+Mali+Binaries" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Qt5_For_Mali_Binaries" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Qt5_For_Mali_Binaries&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Qt5_For_Mali_Binaries">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Qt5_For_Mali_Binaries&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Qt5_For_Mali_Binaries&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Qt5_For_Mali_Binaries" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Qt5_For_Mali_Binaries" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Qt5_For_Mali_Binaries&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Qt5_For_Mali_Binaries&amp;oldid=13158" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 19 February 2015, at 17:31.</li>
+<li id="footer-info-viewcount">This page has been accessed 10,908 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

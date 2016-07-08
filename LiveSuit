@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>LiveSuit - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"LiveSuit","wgTitle":"LiveSuit","wgCurRevisionId":16285,"wgArticleId":215,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Proprietary Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"LiveSuit","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/LiveSuit"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-LiveSuit skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">LiveSuit</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>LiveSuit</b> is developed by <a href="/Allwinner" title="Allwinner">Allwinner</a> as an installation application for computer systems (Linux, Windows, Mac) to flash the <a href="/NAND" title="NAND">NAND</a> for Allwinner chips.
+</p><p>You could also look at the <a href="/Installing_to_NAND" title="Installing to NAND">Installing to NAND</a> tutorial to flash and manage NAND using opensource tools.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Linux"><span class="tocnumber">1</span> <span class="toctext">Linux</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Clone_the_repository"><span class="tocnumber">1.1</span> <span class="toctext">Clone the repository</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Build_and_install_the_kernel_module"><span class="tocnumber">1.2</span> <span class="toctext">Build and install the kernel module</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Debian.2FUbuntu"><span class="tocnumber">1.2.1</span> <span class="toctext">Debian/Ubuntu</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Fedora"><span class="tocnumber">1.2.2</span> <span class="toctext">Fedora</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Running_LiveSuit"><span class="tocnumber">1.3</span> <span class="toctext">Running LiveSuit</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Flashing_an_image"><span class="tocnumber">1.4</span> <span class="toctext">Flashing an image</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Common_pitfalls"><span class="tocnumber">1.5</span> <span class="toctext">Common pitfalls</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Too_many_devices_error"><span class="tocnumber">1.5.1</span> <span class="toctext">Too many devices error</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#.22Failed_to_flash_firmware:_Get_Device_Stage_Failed.21.22"><span class="tocnumber">1.5.2</span> <span class="toctext">"Failed to flash firmware: Get Device Stage Failed!"</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Windows"><span class="tocnumber">2</span> <span class="toctext">Windows</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Download"><span class="tocnumber">2.1</span> <span class="toctext">Download</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Flash"><span class="tocnumber">2.2</span> <span class="toctext">Flash</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#MacOS"><span class="tocnumber">3</span> <span class="toctext">MacOS</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Download_2"><span class="tocnumber">3.1</span> <span class="toctext">Download</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Installation_and_usage"><span class="tocnumber">3.2</span> <span class="toctext">Installation and usage</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#See_Also"><span class="tocnumber">4</span> <span class="toctext">See Also</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Troubleshooting"><span class="tocnumber">5</span> <span class="toctext">Troubleshooting</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Linux"> Linux </span></h1>
+<p>For linux, we have gathered everything you need <a class="external text" href="https://github.com/linux-sunxi/sunxi-livesuite">in one place</a>.
+</p>
+<h2> <span class="mw-headline" id="Clone_the_repository"> Clone the repository </span></h2>
+<pre>git clone https://github.com/linux-sunxi/sunxi-livesuite.git</pre>
+<h2> <span class="mw-headline" id="Build_and_install_the_kernel_module"> Build and install the kernel module </span></h2>
+<h3> <span class="mw-headline" id="Debian.2FUbuntu"> Debian/Ubuntu </span></h3>
+<p>Before you can build this module, you first need to install <i>dkms</i>
+</p>
+<pre>apt-get install dkms</pre>
+<p>Now descend into the <i>awusb</i> directory and run
+</p>
+<pre>make</pre>
+<p>Now install the module in your module tree, and load it:
+</p>
+<pre>cp awusb.ko /lib/modules/`uname -r`/kernel/
+depmod -a
+modprobe awusb</pre>
+<p>Add the following <i>50-awusb.rules</i> file to <i>/etc/udev/rules.d</i>, to be able to access the device as a normal user:
+</p>
+<pre>KERNEL==&quot;aw_efex[0-9]*&quot;, MODE=&quot;0666&quot;</pre>
+<p>Now reload udev rules to make the change active
+</p>
+<pre>udevadm control --reload-rules</pre>
+<h3> <span class="mw-headline" id="Fedora"> Fedora </span></h3>
+<p>Before you can build this module, you first could need to install <i>dkms</i> and <i>libusbx</i> (maybe you need also <i>nas-libs</i>)
+</p>
+<pre>yum install dkms libusbx nas-libs kernel-devel</pre>
+<p>Now descend into the <i>awusb</i> directory and run
+</p>
+<pre>make</pre>
+<p>Now, as root, install the module in your module tree, and load it:
+</p>
+<pre>cp awusb.ko /lib/modules/`uname -r`/extra/
+depmod -a
+modprobe awusb.ko</pre>
+<p>Add the following <i>50-awusb.rules</i> file to <i>/etc/udev/rules.d</i>, to be able to access the device as a normal user:
+</p>
+<pre>SUBSYSTEM!=&quot;usb_device&quot;,ACTION!=&quot;add&quot;,GOTO=&quot;objdev_rules_end&quot;
+#USBasp
+ATTRS{idVendor}==&quot;1f3a&quot;,ATTRS{idProduct}==&quot;efe8&quot;,GROUP=&quot;yuorgrupid&quot;,MODE=&quot;0666&quot;
+LABEL=&quot;objdev_rules_end&quot;</pre>
+<p>where "yuorgrupid" have to be substituted by the group id of your user.
+</p><p>Now reload udev rules to make the change active
+</p>
+<pre>udevadm control --reload-rules</pre>
+<h2> <span class="mw-headline" id="Running_LiveSuit"> Running LiveSuit </span></h2>
+<p>Just run the shell script directly:
+</p>
+<pre>./LiveSuit.sh</pre>
+<p>This will detect whether your system is x86 or x86-64 and will run the appropriate binaries.
+</p>
+<h2> <span class="mw-headline" id="Flashing_an_image"> Flashing an image </span></h2>
+<p><b>Warning</b>: If you attach your FEL enabled device before you start LiveSuit, then LiveSuit will not detect it. You need to first start the LiveSuit application.
+</p><p>First, properly power down the device by either pressing and holding the power button for about 10 seconds, or by cutting all power in case of development board.
+</p><p>Start <a href="#Running_LiveSuit">LiveSuit</a>, if you haven't already done so, and select an image for flashing.
+</p><p>Then, <a href="/FEL" title="FEL">put your device into FEL mode</a>, and attach the USB OTG cable.
+</p><p>LiveSuit should now detect your device and start flashing.
+</p>
+<h2> <span class="mw-headline" id="Common_pitfalls"> Common pitfalls </span></h2>
+<h3> <span class="mw-headline" id="Too_many_devices_error"> Too many devices error </span></h3>
+<p>If you try to flash a USB 2.0 Device (such as Cubietruck) from a recent Ubuntu on an USB 3.0 Port, Chances are your device is not flashed as it is recognized by both xhci_hcd and ehci_hcd kernel modules.
+Try deactivating xhci_hcd (it needs to be blacklisted if it is in the kernel, as on Ubuntu 14.04), or, easier if available, deactivate USB 3.0 in your BIOS.
+</p>
+<h3> <span class="mw-headline" id=".22Failed_to_flash_firmware:_Get_Device_Stage_Failed.21.22"> "Failed to flash firmware: Get Device Stage Failed!" </span></h3>
+<p>If you get a dialog window reading:
+</p>
+<pre>Failed to flash firmware: Get Device Stage Failed!</pre>
+<p>While the log in the terminal states:
+</p>
+<pre>Fex_Send error: Invalid argument
+Fex_transmit_receive Error: ./eFexCore.cpp, 318
+Fex_command Error ./eFexCore.cpp 409
+cmd_common_verify_dev 85
+GetCurrentStage Failed 142 ./DeviceMessage/ASuitDeviceMessage.cpp</pre>
+<p>Then you are most likely using an older version of the kernel module with a newer LiveSuit binary. <a href="#Build_and_install_the_kernel_module">Use the latest kernel driver</a>.
+</p><p>While if the log in the terminal states:
+</p>
+<pre>open: Permission denied
+PANIC&#160;: dev_manager_open_raw_dev()&#160;: can not open raw dev
+cmd_common_verify_dev 85
+PANIC&#160;: GetCurrentStage()&#160;: run verify dev cmd ,fail
+PANIC&#160;: dev_manager_close_raw_dev()&#160;: can not close raw dev
+GetCurrentStage Failed 142 ./DeviceMessage/ASuitDeviceMessage.cpp</pre>
+<p>likely you can overcome this issue unloading the <i>awusb</i> module
+</p>
+<pre>modprobe -r awusb.ko </pre>
+<p>and try again.
+</p>
+<h1> <span class="mw-headline" id="Windows"> Windows </span></h1>
+<p>Please note that this version of livesuit only seems to work on Windows 7.
+</p><p>It fails to run on windows XP, and shows the following error message in a dialog:
+</p>
+<pre>Wait for PnpFesIn timeout!</pre>
+<p>There are similar reports from Windows 8 users.
+</p>
+<h2> <span class="mw-headline" id="Download"> Download </span></h2>
+<ul><li> Windows version <a rel="nofollow" class="external text" href="http://goo.gl/PWUwv">LiveSuit</a>
+</li><li> Please note that PhoenixSuit is actually LiveSuit2.0
+</li></ul>
+<h2> <span class="mw-headline" id="Flash"> Flash </span></h2>
+<p>To flash A10 devices with LiveSuit, first you need to let the device go to <a href="/FEL" title="FEL">FEL</a> mode.
+</p><p>Execute LiveSuit.exe and click SelectImg button to select the <a href="/LiveSuit_images" title="LiveSuit images">LiveSuit images</a> you have. Connect your devices to PC with a USB cable. If Windows ask you to install driver, select the driver in the LiveSuit program UsbDriver folder.
+</p>
+<h1> <span class="mw-headline" id="MacOS"> MacOS </span></h1>
+<h2> <span class="mw-headline" id="Download_2"> Download </span></h2>
+<pre><a rel="nofollow" class="external free" href="http://dl.cubieboard.org/software/tools/livesuit/LiveSuit_ForMac.zip">http://dl.cubieboard.org/software/tools/livesuit/LiveSuit_ForMac.zip</a>
+</pre>
+<h2> <span class="mw-headline" id="Installation_and_usage"> Installation and usage </span></h2>
+<p>This zip archive contains a pdf explaining procedure (in English and Chinese) and another zip for the software itself.
+</p>
+<h1> <span class="mw-headline" id="See_Also"> See Also </span></h1>
+<ul><li> <a href="/LiveSuit_images" title="LiveSuit images">LiveSuit images</a>
+</li></ul>
+<h1> <span class="mw-headline" id="Troubleshooting"> Troubleshooting </span></h1>
+<p>- Linux distribution Linux does not supported issue:
+</p><p>LiveSuit is accessible two ways. One is above way by getting from sunxi repository. The other way is by downloading as a zip file.
+For the zip file, LiveSuit v3.0.6 or below, if you try to install under Linux Mint 17.1, when you run LiveSuit.run file, you get such error:
+</p>
+<pre>&quot;Linux distribution Linux does not supported!!!&quot;</pre>
+<p>This is because distribution name for Linux Mint starts with "Linux Mint....blablabla" in /etc/issue file.
+Simple edit that file ( sudo nano /etc/issue ), and add "Ubuntu" in the beginning of the line.
+</p><p>After that, I highly recommend to install in root mode, i.e "sudo ./LiveSuit.run"
+Tested with LinuxMint 17.1 xfce 64bit, and LiveSuitV3.0.6 works perfectly to write img files to board via USB-OTG connection.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=LiveSuit&amp;oldid=16285">http://linux-sunxi.org/index.php?title=LiveSuit&amp;oldid=16285</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Proprietary_Software" title="Category:Proprietary Software">Proprietary Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=LiveSuit&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=LiveSuit" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/LiveSuit" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:LiveSuit&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/LiveSuit">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=LiveSuit&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=LiveSuit&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/LiveSuit" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/LiveSuit" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=LiveSuit&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=LiveSuit&amp;oldid=16285" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 7 February 2016, at 13:40.</li>
+<li id="footer-info-viewcount">This page has been accessed 237,134 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Sunxi devices as NAS - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Sunxi_devices_as_NAS","wgTitle":"Sunxi devices as NAS","wgCurRevisionId":17159,"wgArticleId":2228,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software","Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Sunxi_devices_as_NAS","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Sunxi_devices_as_NAS"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Sunxi_devices_as_NAS skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Sunxi devices as NAS</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The following article tries to give some hints how to build a sufficient file server or NAS (<a class="external text" href="http://en.wikipedia.org/wiki/Network-attached_storage">Network-attached storage</a>) with sunxi devices. The focus is 'classic' <a class="external text" href="http://en.wikipedia.org/wiki/Local_area_network">LAN</a> based file sharing using protocols like NFS, SMB or AFP and not internet or cloud optimised stuff (FTP, SFTP, SeaFile, ownCloud and the like).
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Requirements_.2F_which_device_to_choose"><span class="tocnumber">1</span> <span class="toctext">Requirements / which device to choose</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Limitations"><span class="tocnumber">2</span> <span class="toctext">Limitations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Architectural_differences"><span class="tocnumber">2.1</span> <span class="toctext">Architectural differences</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Per_connection_limits"><span class="tocnumber">2.2</span> <span class="toctext">Per connection limits</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Network.2Fstorage_not_blocking_each_other"><span class="tocnumber">2.3</span> <span class="toctext">Network/storage not blocking each other</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Differentiation_to_other_devices"><span class="tocnumber">3</span> <span class="toctext">Differentiation to other devices</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#SATA_and_GBit_capable_ARM_alternatives"><span class="tocnumber">3.1</span> <span class="toctext">SATA and GBit capable ARM alternatives</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#What.27s_different_on_sunxi_compared_to_common_server_platforms_.28eg._x86.29"><span class="tocnumber">3.2</span> <span class="toctext">What's different on sunxi compared to common server platforms (eg. x86)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#When_to_choose_another_device.3F"><span class="tocnumber">3.3</span> <span class="toctext">When to choose another device?</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Things_to_consider_when_using_USB_connected_storage"><span class="tocnumber">4</span> <span class="toctext">Things to consider when using USB connected storage</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Influence_of_the_chosen_OS_image_on_NAS_performance"><span class="tocnumber">5</span> <span class="toctext">Influence of the chosen OS image on NAS performance</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Performance_tweaks"><span class="tocnumber">6</span> <span class="toctext">Performance tweaks</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Benchmarking_.2F_Identifying_bottlenecks"><span class="tocnumber">7</span> <span class="toctext">Benchmarking / Identifying bottlenecks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Use_the_right_tools"><span class="tocnumber">7.1</span> <span class="toctext">Use the right tools</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Identifying_bottlenecks"><span class="tocnumber">7.2</span> <span class="toctext">Identifying bottlenecks</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#New_opportunities_with_mainline_kernel"><span class="tocnumber">8</span> <span class="toctext">New opportunities with mainline kernel</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#UPS_mode"><span class="tocnumber">9</span> <span class="toctext">UPS mode</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Unresolved_issues"><span class="tocnumber">10</span> <span class="toctext">Unresolved issues</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#References"><span class="tocnumber">11</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Requirements_.2F_which_device_to_choose"> Requirements / which device to choose </span></h2>
+<p>Three things are important for a performant NAS:
+</p>
+<ol><li> I/O bandwidth (how fast can the server access storage/disks?)
+</li><li> Network bandwidth (how fast can clients access the server?)
+</li><li> CPU horsepower (is the server able to deliver all accessing clients at maximum speed?)
+</li></ol>
+<p>For normal NAS use cases the first 2 requirements are more important. Some Allwinner SoCs feature a <a href="/SATA" title="SATA">SATA</a> port in addition to their USB ports, some provide 10/100 Mbits/sec <a href="/Ethernet#EMAC" title="Ethernet">EMAC</a> Ethernet and some even Gbit Ethernet (<a href="/Ethernet#GMAC" title="Ethernet">GMAC</a>). Since the <a href="/A20" title="A20">A20</a> is the only SoC capable of both SATA and GMAC (see the <a href="/Allwinner_SoC_Family#Comparison_table" title="Allwinner SoC Family">comparison of different sunxi SoCs</a>) it's the most interesting choice for a NAS<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>. And while the <a href="/A80" title="A80">A80</a> would also be a great choice due to one USB 3.0 port Linux support for this SoC is still very limited.
+</p><p>Since not every A20 based sunxi device uses GMAC networking (or even Ethernet at all) the following devices are the best choices: <a href="/Olimex_A20-OLinuXino-Lime2" title="Olimex A20-OLinuXino-Lime2">A20-OLinuXino-Lime2</a>, <a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">Banana Pi</a>, <a href="/LeMaker_Banana_Pro" title="LeMaker Banana Pro">Banana Pro</a> or <a href="/LeMaker_Banana_Pi#Variants" title="LeMaker Banana Pi">Banana Pi M1+</a>, <a href="/Cubietech_Cubietruck" title="Cubietech Cubietruck">Cubietruck</a>, <a href="/Merrii_Hummingbird_A20" title="Merrii Hummingbird A20">Hummingbird A20</a>, <a href="/Lamobo_R1" title="Lamobo R1">Lamobo R1</a>, <a href="/Xunlong_Orange_Pi" title="Xunlong Orange Pi">Orange Pi</a>, <a href="/Xunlong_Orange_Pi_Mini" title="Xunlong Orange Pi Mini">Orange Pi Mini</a> or <a href="/LinkSprite_pcDuino3_Nano" title="LinkSprite pcDuino3 Nano">pcDuino3 Nano (Lite)</a>.
+</p><p><a href="/File:Exclamation.png" class="image"><img alt="Exclamation.png" src="/images/c/c0/Exclamation.png" width="16" height="16"/></a> <b>Beware</b>: Recently sunxi devices appear that are advertised as being "SATA capable", but simply use an USB-to-SATA bridge (BPi M3 even behind an internal USB hub), which has both massive performance and functionality implications. For example, <a href="/Banana_Pi_M3" title="Banana Pi M3" class="mw-redirect">Banana Pi M3</a>, <a href="/Cubietech_Cubietruck_Plus" title="Cubietech Cubietruck Plus">Cubietech Cubietruck Plus</a> and <a href="/Xunlong_Orange_Pi_Plus" title="Xunlong Orange Pi Plus">Orange Pi Plus</a> aren't listed here because their SoCs (<a href="/H3" title="H3">H3</a>/<a href="/A83T" title="A83T">A83T</a>/<a href="/index.php?title=H8&amp;action=edit&amp;redlink=1" class="new" title="H8 (page does not exist)">H8</a>) no longer support SATA directly, and the onboard USB-to-SATA bridge used on all three devices (GL830) is horribly slow.
+</p>
+<h2> <span class="mw-headline" id="Limitations"> Limitations </span></h2>
+<h3> <span class="mw-headline" id="Architectural_differences"> Architectural differences </span></h3>
+<p>Unlike dedicated server platforms with plenty of CPU horsepower and server features (eg. network adapters with <a class="external text" href="http://en.wikipedia.org/wiki/TCP_offload_engine">TCP offload engine</a>) CPU performance/behaviour on sunxi devices always directly affects network/NAS performance. A feature called <a href="/Cpufreq" title="Cpufreq">CPU frequency scaling</a> is responsible for adjusting CPU clock speeds according to needs. In case you use the wrong cpufreq settings it's impossible to achieve decent NAS performance (compare with <a href="/SATA#Performance" title="SATA">SATA performance influences</a>).
+</p>
+<h3> <span class="mw-headline" id="Per_connection_limits"> Per connection limits </span></h3>
+<ul><li>Wi-Fi: Don't trust in marketing numbers like <i>300 Mbps</i> since reality differs much and Wi-Fi uses a shared medium (the more devices use the same frequency bands the less bandwidth available)
+</li><li>Ethernet: different GMAC capable sunxi devices perform different for yet unknown reasons (see <a href="/Ethernet#GMAC_Performance_issues" title="Ethernet">comparison of devices</a>)
+</li><li>SD Card: limited to max. 16.x MB/s sequential speed on A10/A20, random I/O differs heavily and is only dependant on the SD card in use
+</li><li>SATA: max. 45/200 MB/s with some tweaking (see <a href="/SATA#Performance" title="SATA">SATA performance influences</a>)
+</li><li>USB: 3 independant USB ports each capable of max. 30-35 MB/s. When used concurrently total bandwidth is able to reach or even slightly exceed 100 MB/s
+</li></ul>
+<h3> <span class="mw-headline" id="Network.2Fstorage_not_blocking_each_other"> Network/storage not blocking each other </span></h3>
+<p>On A10/A20 devices Ethernet, SATA and the 3 USB ports are all connected directly to the SoC and do not have to share bandwidth between (but you will find some devices where this restriction applies to USB connected onboard Wi-Fi). This is a real advantage compared to many other ARM devices where 2 or more of these ports are behind a single USB connection. Compare with every model of Raspberry Pi for example: only one single connection exists between SoC and an internal USB hub with integrated Ethernet controller (<a rel="nofollow" class="external text" href="http://www.microchip.com/wwwproducts/Devices.aspx?product=LAN9512">LAN9512</a>/<a rel="nofollow" class="external text" href="http://www.microchip.com/wwwproducts/Devices.aspx?product=LAN9514">LAN9514</a>). All expansions ports share the bandwidth of this single USB 2.0 connection.
+</p>
+<h2> <span class="mw-headline" id="Differentiation_to_other_devices"> Differentiation to other devices </span></h2>
+<h3> <span class="mw-headline" id="SATA_and_GBit_capable_ARM_alternatives"> SATA and GBit capable ARM alternatives </span></h3>
+<p>There are 3 other affordable ARM SoC families available that also feature SATA, GBit Ethernet and even PCIe. Since these focus on different market segments they're way more expensive than Allwinner SoCs:
+</p>
+<ul><li>Marvell <a rel="nofollow" class="external text" href="http://www.marvell.com/embedded-processors/kirkwood/">Kirkwood</a>/<a rel="nofollow" class="external text" href="http://www.marvell.com/embedded-processors/">Armada</a> (used mainly in NAS boxes, recent models show excellent disk/network performance even when used concurrently, hardware accelerated crypto engine <i>CESA</i>)
+</li><li><a class="external text" href="http://en.wikipedia.org/wiki/I.MX#i.MX6x_series">i.MX6</a> (used mainly in industrial applications and also some SBC, SATA performance 90/100 MB/s write/read, <a rel="nofollow" class="external text" href="http://boundarydevices.com/i-mx6-ethernet/">Gbit Ethernet throughput limited to approx. 400 Mbits/sec</a>, hardware accelerated crypto engine <i>CAAM</i>)
+</li><li>Annapurna Labs' <a rel="nofollow" class="external text" href="http://www.annapurnalabs.com/annapurna-labs-an-amazon-company-announces-availability-of-home-network-and-storage-platform-on-chip-and-subsystem-solutions.html">Alpine SoCs</a> (used by several NAS vendors and internally at Amazon in their data centers)
+</li></ul>
+<p>In the meantime also 64-bit ARM SoCs are available that do not only have a single SATA port and GBit Ethernet but that are able to access a couple of disks, provide 10 GbE Ethernet, several PCIe 3.0 lanes and use ECC RAM (eg. <a rel="nofollow" class="external text" href="http://www.anandtech.com/show/8776/arm-challinging-intel-in-the-server-market-an-overview/5">AMD's A1100</a>). But they're in a different league regarding price, too.
+</p>
+<h3> <span class="mw-headline" id="What.27s_different_on_sunxi_compared_to_common_server_platforms_.28eg._x86.29"> What's different on sunxi compared to common server platforms (eg. x86) </span></h3>
+<ul><li>CPU clock speeds always directly influence I/O and network bandwidth
+</li><li>Due to the limited CPU power even light workloads might heavily decrease NAS performance
+</li><li>The RTL8211 mainly used with A20's GMAC works in a different mode than normal: only used as <a class="external text" href="http://en.wikipedia.org/wiki/PHY_(chip)">PHY</a> for the SoC's internal <a class="external text" href="http://en.wikipedia.org/wiki/Media_Access_Control">MAC</a> implementation and not combining MAC/PHY in a PCIe attached network adapter but --&gt; different drivers, different features (no <a class="external text" href="http://en.wikipedia.org/wiki/Wake-on-LAN">WoL</a> for example)
+</li><li>No ECC RAM available --&gt; high(er) risk of <a class="external text" href="http://en.wikipedia.org/wiki/Data_degradation">Bit rotting</a>
+</li></ul>
+<h3> <span class="mw-headline" id="When_to_choose_another_device.3F"> When to choose another device? </span></h3>
+<ul><li>Need for transparent filesystem encryption (Allwinner's crypto engine seems to be slow/buggy and the CPU cores aren't that fast)
+</li><li>Need for more than 1 SATA port (<a href="/SATA#Caveats" title="SATA">port multipliers are unrealiable</a>)
+</li><li>Need for <i>data integrity</i> (not possible without ECC RAM<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>)
+</li></ul>
+<p>To be fair: the last two issues apply to nearly all cheap NAS boxes also.
+</p>
+<h2> <span class="mw-headline" id="Things_to_consider_when_using_USB_connected_storage"> Things to consider when using USB connected storage </span></h2>
+<p>USB connected disks are slower than expected (480 Mbps) due to protocol overhead (compare with <a class="external text" href="http://en.wikipedia.org/wiki/8b/10b_encoding">8b/10b encoding</a>) and the inefficient <a class="external text" href="http://en.wikipedia.org/wiki/USB_mass_storage_device_class#Device_access">BOT mode</a>. If you're using mainline kernel, configured it accordingly and your USB device is <a class="external text" href="http://en.wikipedia.org/wiki/USB_Attached_SCSI">USB Attached SCSI</a> capable (an optional feature introduced with USB 3.0 that not only improves sequential transfer speeds but especially random I/O) only the first limitation applies.
+</p><p>When using BOT mode you won't be able to exceed 30 MB/s when accessing a disk connected to a single USB port (maybe 35 MB/s after extensive tuning). Using UASP it is possible to get close to 40 MB/s. Multiple disks on the same USB bus will not only have to share the available bandwidth but tend to partially block each other so overall bandwidth will be a bit lower when concurrent disk accesses happen.
+</p><p>When using USB attached disks it's important to use an enclosure/adapter that is capable of <a class="external text" href="http://en.wikipedia.org/wiki/SCSI_/_ATA_Translation">SCSI / ATA Translation</a> (otherwise you won't be able to monitor drive health since no <a class="external text" href="http://en.wikipedia.org/wiki/S.M.A.R.T.">S.M.A.R.T.</a> data can be accessed and no S.M.A.R.T. selftests can be triggered)
+</p>
+<h2> <span class="mw-headline" id="Influence_of_the_chosen_OS_image_on_NAS_performance"> Influence of the chosen OS image on NAS performance </span></h2>
+<p>Most of the manufacturer supplied OS images for your sunxi device didn't have NAS but instead desktop/GUI useage in mind. This might have some severe implications on achievable fileserver performance. In the following we'll have a look at an extreme example: from all A20 devices tested so far the Banana Pi is able to achieve the highest network throughput: 940/750 Mbits/sec RX/TX measured with iperf, therefore combined SATA/network performance is able to reach 44/72 MB/s (in client -&gt; server direction A20's slow SATA write performance is the bottleneck and responsible for just 44 MB/s and in server -&gt; client direction the slower TX Ethernet throughput limits)
+</p><p>When using a desktop oriented OS image from the manufacturer (featuring an old sunxi 3.4 kernel, ARMv6 libs/userland and some unfavourable settings) performance dropped drastically with distro defaults: just 650/400 Mbits/sec RX/TX with iperf and 27.5/44.5 MB/s combined SATA/network. That's a whopping ~38 percent less compared to the maximum achievable with mainline kernel and NAS optimised settings. For details refer to this <a rel="nofollow" class="external text" href="http://www.lemaker.org/forum.php?mod=viewthread&amp;tid=15543#lastpost">"Raspbian vs. Armbian" thread</a>.
+</p><p>This does not just apply to OS images for Banana Pi but to most GUI oriented OS images manufacturers provide. In case you experience bad server performance check <a href="#Performance_tweaks">possible performance tweaks</a> and if that does not help be prepared to build your own u-boot/kernel or switch to a headless distro that takes care of optimised server settings (eg. <a rel="nofollow" class="external text" href="http://armbian.com">Armbian</a>, a Debian based distro that supports all of the recommended A20 devices except of the Hummingbird).
+</p>
+<h2> <span class="mw-headline" id="Performance_tweaks"> Performance tweaks </span></h2>
+<ul><li>Check <a href="/Optimizing_system_performance" title="Optimizing system performance">general performance optimisation advises</a>, especially if your rootfs (/tmp and /var/log) is on a slow SD card
+</li><li>Adjust <a href="/Cpufreq#Performance.2Ffunctionality_impacts" title="Cpufreq">CPU frequency scaling settings</a> accordingly (eg. use <i>ondemand</i> always togehter with <i>io_is_busy</i>)
+</li><li>Run the device headless or set the framebuffer's resolution, depth and refresh rate to a minimum (<a href="/Optimizing_system_performance#Using_a_lower_resolution_graphics_mode" title="Optimizing system performance">increases memory bandwidth</a>)
+</li><li>Avoid memory reservations for GPUs since on all sunxi devices CPU and GPU cores have to share memory.
+</li><li>Assign eth0 IRQs to cpu1 since irqbalancing neither works on sunxi/ARM nor increases performance when used with network interrupts
+</li><li>check out different I/O schedulers (can be set and read out using <i>/sys/block/sda/queue/scheduler</i>). On sunxi <i>deadline</i> seems to be the most performant
+</li><li>Use Mainline kernel and mainline U-Boot
+</li><li>When using Mainline kernel consider using a modern filesystem like btrfs with transparent file compression<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup>
+</li><li>Choose a device with more available DRAM if you experience memory shortages (the <a href="/Cubietech_Cubietruck" title="Cubietech Cubietruck">Cubietruck</a> is available with 2GiB RAM)
+</li><li>Do some TCP/IP stack tuning to adjust parameters for GBit Ethernet (especially increasing buffer sizes and queue lenghts)
+</li><li>Adjust application settings accordingly (eg. using Samba search for tuning guides and edit the contents of smb.conf)
+</li></ul>
+<h2> <span class="mw-headline" id="Benchmarking_.2F_Identifying_bottlenecks"> Benchmarking / Identifying bottlenecks </span></h2>
+<p>Always test from bottom to top (local disk performance, network performance, combined network/disk performance). Always have an eye on CPU utilisation especially when you're using only a single/dual core SoC. Consider switching temporarely to the <i>performance</i> cpufreq governor to avoid random test results and false conclusions.
+</p>
+<h3> <span class="mw-headline" id="Use_the_right_tools"> Use the right tools </span></h3>
+<p>People experienced with SBCs normally use completely different – and mostly inappropriate – tools/methods to measure I/O and network performance compared to server professionals that do this for a living. Due to this you'll find many questionable benchmark results on the net regardings SBCs as servers. Always check the test methodology used.
+</p><p>Tools/methods that definitely lead to wrong results/assumptions:
+</p>
+<ul><li><i>dd</i> with small filesizes and without approriate flags (testing mainly buffers/caches and therefore RAM not disk)
+</li><li><i>time cp $src $dst</i> (same problem as with <i>dd</i> above)
+</li><li><i>hdparm -tT</i> (tampering disk throughput with memory bandwidth)
+</li><li>wget/curl downloads from somewhere (many random unrelated influences on both sides of the network connection <b>and</b> in between)
+</li><li>scp/SFTP (random results based on SSH ciphers negotiated between client and server<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup>)
+</li></ul>
+<p>Use <a rel="nofollow" class="external text" href="http://fsbench.filesystems.org">IOzone, bonnie++, IOmeter and the like</a> with large filesizes (at least twice as much as RAM available) and also test random I/O and not just only sequential transfers. Use network tools that don't tamper network throughput with other stuff like disk performance on one or both sides of the network connection (use <a rel="nofollow" class="external text" href="http://staff.science.uva.nl/j.blom/gigaport/tools/test_tools.html">iperf/netperf and the like</a>). When you're done testing individually always do a combined test using both synthetic benchmarks and real-world tasks (eg. copying a couple of small and afterwards a really large file between client and sunxi NAS. Always test both directions and keep in mind that copying many small files over the network is always slower than one big file, that in turn might be slower than a few large files transferred in a batch<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup>)
+</p>
+<h3> <span class="mw-headline" id="Identifying_bottlenecks"> Identifying bottlenecks </span></h3>
+<ul><li>iostat 5
+</li><li>htop
+</li><li>dstat -clnv --fs --vm --top-bio --top-cpu --top-io
+</li></ul>
+<p>Don't let you fool by platitudes. More CPU horsepower isn't always the key to more performance. Always check <i>%user</i>, <i>%nice</i> and <i>%system</i> individually when you experience performance problems. And keep in mind that <i>%iowait</i> is one key to understand when you're running in I/O bottlenecks<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup>
+</p>
+<h2> <span class="mw-headline" id="New_opportunities_with_mainline_kernel"> New opportunities with mainline kernel </span></h2>
+<p>If a sunxi SoC is already supported by mainline kernel then USB gets interesting to be used for NAS use cases as well. That's due to
+</p>
+<ul><li>the ability to benefit from <a href="/USB/UAS" title="USB/UAS">USB Attached SCSI</a> resulting in USB performance close to 40 MB/s (tested with A20 and H3)
+</li><li>the ability to use <a rel="nofollow" class="external text" href="https://btrfs.wiki.kernel.org/index.php/Main_Page">btrfs</a>, a modern mixture between filesystem and volume manager
+</li></ul>
+<p>You don't want to use btrfs with outdated kernel versions since nearly all the code lives inside the kernel and tons of bugs have been fixed in the meantime. And while btrfs is also the filesystem of choice when using SATA a few features make it especially useful when combined with USB:
+</p>
+<ul><li>"End-to-end data integrity" through checksumming. Even if you use USB-to-SATA bridges that do not support <a class="external text" href="https://en.wikipedia.org/wiki/SCSI_/_ATA_Translation">SAT</a> to be able to query the drive's health directly btrfs can detect data corruption (or correct it when using redundancy). When you do regular <a rel="nofollow" class="external text" href="http://marc.merlins.org/perso/btrfs/post_2014-03-19_Btrfs-Tips_-Btrfs-Scrub-and-Btrfs-Filesystem-Repair.html"><i>scrubbing</i></a> btrfs can act as an early warning system even if the disk can not be queried through S.M.A.R.T.
+</li><li>Transparent filesystem compression: Using appropriate algorithms like LZO/LZ4 the data written to disks needs less space and more importantly: throughput increases. If your data can be compressed by 15% and USB throughput is limited to 40 MB/s you end up with transfer rates of ~46 MB/s. The costs are a slight increase in CPU utilisation unless you choose the wrong compression algorithm: zlib with high compression settings will slow I/O down massively.
+</li><li>Flexible RAID modes: btrfs implements different levels of redundancy and can also stripe data across media to increase performance. You can even combine both modes (striping data while mirroring metadata to get a clue when data corruption occured) and some modes work differently than normal: btrfs' RAID-1 implementation when used with 3 or more disks for example doesn't store the same data on every disk but "2 copies of all the data on different devices" instead. This way you can use 3 disks of <i>different</i> size, combine them to a RAID-1, get full redundancy and end up with a total capacity of all the disks divided by two (<a rel="nofollow" class="external text" href="https://btrfs.wiki.kernel.org/index.php/FAQ#How_much_space_do_I_get_with_unequal_devices_in_RAID-1_mode.3F">not exactly</a>).
+</li><li>Unlimited number of <a rel="nofollow" class="external text" href="https://btrfs.wiki.kernel.org/index.php/FAQ#What_is_a_snapshot.3F">snapshots</a> and the ability to send snapshots incrementally to another disk/machine. Snapshots are available with LVM and other filesystems already but if you create too many a severe performance degradation occurs. With btrfs this limitation doesn't exist any more and you've the ability to send snapshots (that means: Only blocks that have been changed between the current and the last snapshot) incrementally to another disk or host with 'btrfs send/receive'.
+</li></ul>
+<p>You get a couple of other interesting features with btrfs also (copy on write, deduplication, quota support for subvolumes) but the few above are the most interesting ones for multi-core sunxi devices especially when equipped with a few independent storage buses (like the A20 for example: 1 x SATA + 3 x USB 2.0. Or the H3 with 4 x USB 2.0).
+</p><p>If you've an A20 board or an H3 board with all 4 USB ports directly exposed (no internal USB hub!) you might connect 4 disks of equal size, configure them as RAID-10 (a striped mirror of 2 disks) and end up with full redundancy and sequential transfer speeds of ~80 MB/s (to be confirmed whether the SoC's internal bandwidth can cope with that). In case you've 3 disks (1 TB, 2 TB and 3 TB) you can create a RAID-1 and end up with full redundancy and a useable capacity of 3 TB.
+</p><p>The combination of btrfs' checksumming, snapshots and 'btrfs send/receive' is also perfect to create <a rel="nofollow" class="external text" href="https://btrfs.wiki.kernel.org/index.php/Incremental_Backup">backups</a> without much efforts. Given you have 2 disks of equal size connected to an A20 device. Connect one to the SATA bus with no compression and share this to the outside and use the other on USB with maximum zlib compression for snapshots. You can then create hourly snapshots on the SATA disk, transfer them incrementally to the USB disk, delete them afterwards on the SATA disk but keep every hourly snapshot on the USB disk (given your data is compressible). In the evening a script would then send the last hourly snapshot incrementally to a second location (be it in a different fire area or somewhere else on the planet through VPN). The send/receive feature will always only transfer the differences without scanning the filesystems at source and destination again like rsync would've to do for example to achieve the same.
+</p><p>While btrfs also has its downsides (calculation of real disk useage if you make use of compression, deduplication and snapshots for example) it's a great opportunity when being able to use mainline kernel. UAS is responsible for a speed boost when you carefully choose the USB-to-SATA bridge (<a href="/USB/UAS#UASP_capable_chipsets_in_disk_enclosures" title="USB/UAS">should not only support UAS</a> but SAT too to be able to use S.M.A.R.T.) and combined with btrfs' compression feature it accelerates disk access even more. And being able to fight 'bit rotting' to some extent (impossible without ECC-RAM) based on btrfs' checksumming is always great.
+</p><p>Now only devices are missing. The few A20 boards mentioned on the top of the page are great but lack a bit CPU power when you want to make heavy use of filesystem compression. And up to now there exists no H3 based board that exposes all 4 USB ports without an internal hub and makes also use of GbE.
+</p>
+<h2> <span class="mw-headline" id="UPS_mode"> UPS mode </span></h2>
+<p>The <a href="/Olimex_A20-OLinuXino-Lime2" title="Olimex A20-OLinuXino-Lime2">A20-OLinuXino-Lime2</a> and the <a href="/Lamobo_R1" title="Lamobo R1">Lamobo R1</a> when used together with 2.5" SATA disks provide <i>Uninterruptible power supply</i> capabilities since on these two boards the 5V SATA power connector is fed through the AXP209 PMU and a DC-DC step-up converter. In case these boards are running on battery a connected disk will still be powered (applies also to all other LIME/LIME2/MICRO boards from Olimex). Unfortunately that's not the case with most other A20 boards since there the SATA power connector is directly connected to DC-IN therefore in case of a power outage the disk simply shuts off.
+</p>
+<h2> <span class="mw-headline" id="Unresolved_issues"> Unresolved issues </span></h2>
+<ul><li>Slow SATA write performance (if this problem could be solved A20 based devices would be able to easily outperform most cheap GBit capable NAS)
+</li><li>GMAC settings (where do the variations in RX direction origin from?)
+</li><li>slow Lamobo R1 performance (maybe due to b53 driver quirks?)
+</li></ul>
+<h1> <span class="mw-headline" id="References"> References </span></h1>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">Rumours spread by <a rel="nofollow" class="external text" href="https://olimex.wordpress.com/2015/07/09/allwinner-did-it-again-new-quad-core-powerful-chip-pin-to-pin-compatible-with-a10-and-a20/">Olimex</a> in July 2015 raise hope that Allwinner produces a pin to pin compatible quad core SoC with SATA and GBit Ethernet soon</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">The <a rel="nofollow" class="external text" href="http://www.cs.toronto.edu/~bianca/papers/sigmetrics09.pdf">most comprehensive study on this subject so far</a> sums it up: "For example, we observe DRAM error rates that are orders of magnitude higher than previously reported, with FIT rates (failures in time per billion device hours) of 25,000 to 70,000 per Mbit and more than 8% of DIMMs affected per year."</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://btrfs.wiki.kernel.org/index.php/Compression">Btrfs' Transparent file compression</a> trades CPU cycles for more I/O bandwidth which increases througput with uncompressed files. Using a fast algorithm like lzo/LZ4 might even help on slow devices to overcome slow disk access (USB in general, SATA writes)</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text">When a SSH/scp/SFTP connection is established client and server try to negotiate dynamically a SSH cipher both sides support. When a strong cipher has been chosen performance will decrease dramatically since on sunxi devices then the CPU becomes the bottleneck, eg. <a rel="nofollow" class="external text" href="http://blog.famzah.net/2010/06/11/openssh-ciphers-performance-benchmark/">AES128/256 will take twice as long as arcfour</a></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text">File managers like Windows' Explorer use some tricks to gain extra throughput therefore synthetic benchmarks might tell a different story (see this <a rel="nofollow" class="external text" href="http://www.helios.de/web/EN/support/TI/157.html">in-depth explanation</a>)</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text">For a basic understanding of the <i>%user</i>, <i>%nice</i>, <i>%system</i>, <i>%idle</i> and <i>%iowait</i> meanings you'll have to dig a bit into Linux performance monitoring (eg. using <a rel="nofollow" class="external text" href="http://www.thegeekstuff.com/2011/03/linux-performance-monitoring-intro/">this overview</a>)</span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Sunxi_devices_as_NAS&amp;oldid=17159">http://linux-sunxi.org/index.php?title=Sunxi_devices_as_NAS&amp;oldid=17159</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Sunxi+devices+as+NAS&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Sunxi+devices+as+NAS" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Sunxi_devices_as_NAS" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Sunxi_devices_as_NAS" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Sunxi_devices_as_NAS">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Sunxi_devices_as_NAS&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Sunxi_devices_as_NAS&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Sunxi_devices_as_NAS" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Sunxi_devices_as_NAS" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Sunxi_devices_as_NAS&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Sunxi_devices_as_NAS&amp;oldid=17159" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 12 May 2016, at 14:49.</li>
+<li id="footer-info-viewcount">This page has been accessed 10,830 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

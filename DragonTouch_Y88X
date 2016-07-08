@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>DragonTouch Y88X - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"DragonTouch_Y88X","wgTitle":"DragonTouch Y88X","wgCurRevisionId":17339,"wgArticleId":2202,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["NDH TODO","Devices","A33 Tablets","Devices with Wifi"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"DragonTouch_Y88X","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/DragonTouch_Y88X"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-DragonTouch_Y88X skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">DragonTouch Y88X</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">DragonTouch Y88X</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Device_front.jpg" class="image"><img alt="Device front.jpg" src="/images/d/d8/Device_front.jpg" width="250" height="188"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.tabletexpress.com/">TabletExpress</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+188<i>mm</i> x 121<i>mm</i> x 11<i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+<span style="color:#ba0000">Month year</span></td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.tabletexpress.com/dragon-touch-y88x.html">Dragon Touch Y88X</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A33" title="A33">A33</a> @ <span style="color:#ba0000">X</span>Ghz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+512MiB DDR3 @ <span style="color:#ba0000">xxx</span>MHz</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+8GB</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 3A, 3700mAh 3.7V Li-Ion battery</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">LCD</th><td class="" style="">
+1024x600</td></tr><tr class=""><th scope="row" style="text-align:left;">Touchscreen</th><td class="" style="">
+X-finger capacitive/resistive (<a href="/Touchscreen#Device" title="Touchscreen">Manufacturer device</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+no video export</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm headphone plug, internal speaker, internal microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+WiFi 802.11 b/g/n (<a href="/Wifi#Manufacturer" title="Wifi">Manufacturer device</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+no external ports</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+1x USB2.0 Host (microusb port)</td></tr><tr class=""><th scope="row" style="text-align:left;">Camera</th><td class="" style="">
+??.?MP (????x????) front,&#160;??.?MP (????x????) rear</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+Accelerometer</td></tr>
+</table>
+<p><span style="color:#ba0000">This page needs to be properly filled according to the <a href="/New_Device_howto" title="New Device howto">New Device Howto</a> and the <a href="/New_Device_page" title="New Device page">New Device Page guide</a>.</span>
+</p><p>The Dragon Touch is a widely available low cost tablet.
+</p><p>This is the second model in the Dragon Touch tablet line. The previous model is the <a href="/index.php?title=Dragon_Touch_Y88&amp;action=edit&amp;redlink=1" class="new" title="Dragon Touch Y88 (page does not exist)">Dragon Touch Y88</a> and it was succeeded by the <a href="/index.php?title=Dragon_Touch_Y88X_Plus&amp;action=edit&amp;redlink=1" class="new" title="Dragon Touch Y88X Plus (page does not exist)">Dragon Touch Y88X Plus</a>.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#HW-Pack"><span class="tocnumber">2.3</span> <span class="toctext">HW-Pack</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#BSP"><span class="tocnumber">2.4</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Manual_build"><span class="tocnumber">2.5</span> <span class="toctext">Manual build</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Mainline_U-Boot"><span class="tocnumber">2.6</span> <span class="toctext">Mainline U-Boot</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Mainline_kernel"><span class="tocnumber">2.7</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Device_specific_topic"><span class="tocnumber">3.2</span> <span class="toctext">Device specific topic</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#..."><span class="tocnumber">3.3</span> <span class="toctext">...</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Adding_a_serial_port_.28voids_warranty.29"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port (<b>voids warranty</b>)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Device_disassembly"><span class="tocnumber">4.1</span> <span class="toctext">Device disassembly</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Locating_the_UART"><span class="tocnumber">4.2</span> <span class="toctext">Locating the UART</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Also_known_as"><span class="tocnumber">6</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#Manufacturer_images"><span class="tocnumber">7.1</span> <span class="toctext">Manufacturer images</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>On the back of the device, the following is printed:
+</p>
+<pre>Dragon Touch
+Y88X</pre>
+<p>The PCB has the following silkscreened on it:
+</p>
+<pre>LIA-BB-V6.66
+1970-01-01</pre>
+<p>In android, under Settings-&gt;About Tablet, you will find:
+</p>
+<ul><li> Model Number: <i>Dragon Touch-Y88X</i>
+</li><li> Build Number: <i>astar_chiphd-eng 4.4.2 KVT49L 20150128 test-keys</i>
+</li></ul>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p><span style="color:#ba0000">Give a brief overview of the current status of support under sunxi here. If there is mainline support for either U-Boot or kernel, mention this too, but add the extra sections below.</span>
+</p>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<p><span style="color:#ba0000">Add MANUFACTURER DEVICE specific sunxi ROM images here. E.g. a livesuit image or some other linux image which uses linux-sunxi code. Do not put non-sunxi images here, they should live under <a href="#See_also">See also</a>. If no sunxi based images are available, this section can be left blank.</span>
+</p>
+<h2> <span class="mw-headline" id="HW-Pack"> HW-Pack </span></h2>
+<p><span style="color:#ba0000">Add MANUFACTURER DEVICE HW-pack specifics here. This section can be left blank.</span>
+</p>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<p><span style="color:#ba0000">Add MANUFACTURER DEVICE BSP specifics here. This section can be left blank.</span>
+</p>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<ul><li> For building U-Boot, use the <i><span style="color:#ba0000">MANUFACTURER_DEVICE</span></i> target.
+</li><li> The .fex file can be found in sunxi-boards as <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/SOC/MANUFACTURER_DEVICE.fex"><span style="color:#ba0000">MANUFACTURER_DEVICE.fex</span></a>
+</li></ul>
+<p>Everything else is the same as the <a href="/Manual_build_howto" title="Manual build howto">manual build howto</a>.
+</p>
+<h2> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h2>
+<p><span style="color:#ba0000">If there is mainline U-Boot support, add this section.</span>
+</p><p>For <a href="/Mainline_U-Boot#Compile_U-Boot" title="Mainline U-Boot"> building mainline U-Boot</a>, use the <i><span style="color:#ba0000">MANUFACTURER_DEVICE</span></i> target.
+</p>
+<span style="color:#ba0000">Don't forget to add <pre>[[Category:Mainline_U-Boot]]</pre> at the bottom of the page.</span>
+<h2> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h2>
+<p><span style="color:#ba0000">If there is mainline kernel support, add this section.</span>
+</p><p>Use the <i><span style="color:#ba0000">FAMILY-CHIP-DEVICE.dtb</span></i> device-tree file for the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p>
+<span style="color:#ba0000">Don't forget to add <pre>[[Category:Mainline_Kernel]]</pre> at the bottom of the page.</span>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<p><span style="color:#ba0000">Add MANUFACTURER DEVICE specific tips, tricks, Caveats and nice to have changes here.</span>
+</p>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The <span style="color:#ba0000">something</span> button triggers <a href="/FEL" title="FEL"> FEL mode</a>.
+</p>
+<h2> <span class="mw-headline" id="Device_specific_topic"> <span style="color:#ba0000">Device specific topic</span> </span></h2>
+<p><span style="color:#ba0000">If there are no further device specific topics to add, remove these sections.</span>
+</p>
+<h2> <span class="mw-headline" id="..."> <span style="color:#ba0000">...</span> </span></h2>
+<h1> <span class="mw-headline" id="Adding_a_serial_port_.28voids_warranty.29"> Adding a serial port (<b>voids warranty</b>) </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:Device_uart.jpg" class="image"><img alt="" src="/images/0/0b/Device_uart.jpg" width="240" height="180" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Device_uart.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div><span style="color:#ba0000">DEVICE</span> UART pads</div></div></div>
+<p><span style="color:#ba0000">This section explains how to attach a serial port to the device. Make sure it refers to our <a href="/UART" title="UART">UART howto</a>. For a development board, you can just mention how to find the header with the pins and include a picture, and you can remove the warranty voiding warning.</span>
+</p>
+<h2> <span class="mw-headline" id="Device_disassembly"> Device disassembly </span></h2>
+<p><span style="color:#ba0000">If necessary, provide a short description of how to open the device. Perhaps explain how the pins can be most easily popped. If pins do need to be popped, mention the <a href="/Plastic_tool" title="Plastic tool">Plastic tool howto</a>.</span>
+</p>
+<h2> <span class="mw-headline" id="Locating_the_UART"> Locating the UART </span></h2>
+<p><span style="color:#ba0000">Describe how to find the RX,TX,GND signals here, and mention the <a href="/UART" title="UART">UART howto</a>.</span>
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<p><span style="color:#ba0000">Take some pictures of your device, <a href="/Special:Upload" title="Special:Upload"> upload them</a>, and add them here. DO NOT UPLOAD PICTURES WHICH YOU PLUCKED OFF THE INTERNET.</span>
+</p>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Device_front.jpg" class="image"><img alt="Device front.jpg" src="/images/thumb/d/d8/Device_front.jpg/120px-Device_front.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Device_back.jpg" class="image"><img alt="Device back.jpg" src="/images/thumb/e/ee/Device_back.jpg/120px-Device_back.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Device_buttons_1.jpg" class="image"><img alt="Device buttons 1.jpg" src="/images/thumb/9/9e/Device_buttons_1.jpg/120px-Device_buttons_1.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Device_buttons_2.jpg" class="image"><img alt="Device buttons 2.jpg" src="/images/thumb/3/39/Device_buttons_2.jpg/120px-Device_buttons_2.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Device_board_front.jpg" class="image"><img alt="Device board front.jpg" src="/images/thumb/2/20/Device_board_front.jpg/120px-Device_board_front.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Device_board_back.jpg" class="image"><img alt="Device board back.jpg" src="/images/thumb/a/a8/Device_board_back.jpg/120px-Device_board_back.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<p><span style="color:#ba0000">List rebadged devices here.</span>
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<p><span style="color:#ba0000">Add some nice to have links here. This includes related devices, and external links.</span>
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.tabletexpress.com/support/index/download/900">Manufacturer firmware links</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h2>
+<p><span style="color:#ba0000">Optional. Add non-sunxi images in this section.</span>
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=DragonTouch_Y88X&amp;oldid=17339">http://linux-sunxi.org/index.php?title=DragonTouch_Y88X&amp;oldid=17339</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:NDH_TODO" title="Category:NDH TODO">NDH TODO</a></li><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A33_Tablets" title="Category:A33 Tablets">A33 Tablets</a></li><li><a href="/Category:Devices_with_Wifi" title="Category:Devices with Wifi">Devices with Wifi</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=DragonTouch+Y88X&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=DragonTouch+Y88X" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/DragonTouch_Y88X" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:DragonTouch_Y88X&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/DragonTouch_Y88X">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=DragonTouch_Y88X&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=DragonTouch_Y88X&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/DragonTouch_Y88X" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/DragonTouch_Y88X" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=DragonTouch_Y88X&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=DragonTouch_Y88X&amp;oldid=17339" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 27 May 2016, at 10:10.</li>
+<li id="footer-info-viewcount">This page has been accessed 1,469 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>LiveSuit images - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"LiveSuit_images","wgTitle":"LiveSuit images","wgCurRevisionId":17094,"wgArticleId":55,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Proprietary Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"LiveSuit_images","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/LiveSuit_images"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-LiveSuit_images skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">LiveSuit images</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Software"><span class="tocnumber">2</span> <span class="toctext">Software</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Allwinner_pack_tools_.28mix_of_Linux_.26_Windows_tools.29"><span class="tocnumber">2.1</span> <span class="toctext">Allwinner pack tools (mix of Linux &amp; Windows tools)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#bin"><span class="tocnumber">2.1.1</span> <span class="toctext">bin</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Pack"><span class="tocnumber">2.1.2</span> <span class="toctext">Pack</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Tools"><span class="tocnumber">2.1.3</span> <span class="toctext">Tools</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#How_to_pack_a_LiveSuit_image_.28A20_example.29"><span class="tocnumber">2.2</span> <span class="toctext">How to pack a LiveSuit image (A20 example)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#sunxi-BSP"><span class="tocnumber">2.2.1</span> <span class="toctext">sunxi-BSP</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Allwinner_Android_SDK"><span class="tocnumber">2.2.2</span> <span class="toctext">Allwinner Android SDK</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#Linux"><span class="tocnumber">2.3</span> <span class="toctext">Linux</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#RedScorpio_tools"><span class="tocnumber">2.3.1</span> <span class="toctext">RedScorpio tools</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#awutils"><span class="tocnumber">2.3.2</span> <span class="toctext">awutils</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="#Windows"><span class="tocnumber">2.4</span> <span class="toctext">Windows</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#RedScorpio_tools_2"><span class="tocnumber">2.4.1</span> <span class="toctext">RedScorpio tools</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#esxgx"><span class="tocnumber">2.4.2</span> <span class="toctext">esxgx</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Overview"> Overview</span></h1>
+<p>All sunxi devices use <a href="/LiveSuit" title="LiveSuit">LiveSuit</a> as a default flasher and updater for retail customer and <a href="/PhoenixCard" title="PhoenixCard">PhoenixCard</a> or PhoenixUSB for flashing when devices are manufactured. <a href="/LiveSuit" title="LiveSuit">LiveSuit</a>/Phoenix protocol and data are closed-source standard used by many companies and devices. To decrypt/unpack firmware you need unpacker and 3 keys. These keys are same across all sunxi devices and can be different on other brands (SoChip, Rockchip and others). Keys are usually shipped with firmware as .key file.
+</p>
+<h1> <span class="mw-headline" id="Software"> Software </span></h1>
+<h2> <span class="mw-headline" id="Allwinner_pack_tools_.28mix_of_Linux_.26_Windows_tools.29"> Allwinner pack tools (mix of Linux &amp; Windows tools) </span></h2>
+<dl><dd> To pack a LiveSuit image under linux, you need to pack tool from <a class="external free" href="https://github.com/matson-hall/allwinner-pack-tools">https://github.com/matson-hall/allwinner-pack-tools</a>
+</dd><dd> Note: you need to check out the cubieboard branch (master branch does not have anything there), so do:
+</dd></dl>
+<pre>git clone <a class="external free" href="https://github.com/matson-hall/allwinner-pack-tools.git">https://github.com/matson-hall/allwinner-pack-tools.git</a> -b cubieboard
+</pre>
+<p>This pack tools, contain 3 folders, most are to be used on x86 Linux or Windows platform.
+</p>
+<h3> <span class="mw-headline" id="bin"> bin </span></h3>
+<ul><li> build.sh (linux bash script): script for building root, uboot, linux kernel and <i>pack</i> them.
+</li><li> mkbootimg (x86 linux binary): Generate a boot image after a kernel file, a ramdisk image, eventually à second bootloader image and some other informations.
+</li></ul>
+<h3> <span class="mw-headline" id="Pack"> Pack </span></h3>
+<ul><li> chips folder: contains some configs fex, eGon (boot0.bin &amp; boot1.bin for NAND, sdcard and spinor), eFex (some fex and axf), wboot (some scripts and assets for bootfs)
+</li><li> pack (linux bash script): The pack tools for linux firmware
+</li><li> pctools folder: contains Windows and Linux tools. (eDragonEx, gen_check_code. mod_update, fsbuild200).
+</li></ul>
+<h3> <span class="mw-headline" id="Tools"> Tools </span></h3>
+<p>The subfolder Documentations contain a simplified chinese manual of the tools.
+</p><p>After the README.txt, tools subdir content&#160;:
+</p>
+<ul><li> <i>Livesuit</i>: Flashing tool
+</li><li> <i>LogGen</i>: Android logo generation tool
+</li><li> <i>PhoenixCard</i>: mass production tool (?)
+</li><li> <i>PlatformTools</i>: adb tools.
+</li><li> <i>USBDriver</i>: adb/mtp driver
+</li><li> <i>FastbootWin32</i>: Fastboot tool
+</li><li> <i>AndroidModify_xx</i>: firmware modification tool (for Android 4.0.x)
+</li><li> <i>OEMDataPacket_xx</i>: Write files in user data area.
+</li><li> <i>HerculesV100</i>: PC part of the Fastboot tool
+</li></ul>
+<h2> <span class="mw-headline" id="How_to_pack_a_LiveSuit_image_.28A20_example.29"> How to pack a LiveSuit image (A20 example) </span></h2>
+<dl><dd> This section is WiP and not yet complete!
+</dd><dd> There are several ways to build a functional LiveSuit image which are presented in the following sections.
+</dd></dl>
+<h3> <span class="mw-headline" id="sunxi-BSP"> sunxi-BSP </span></h3>
+<dl><dd> Even though it contains sys_config.fex files for several A20 boards, sunxi-BSP set of tools is not able to produce functional LiveSuit image for A20 since the proprietary Allwinner binary tools are too old. One example is that update_mbr tool is not able to produce partitions with the "new" softw411 magic, needed by A20's NAND driver.
+</dd></dl>
+<h3> <span class="mw-headline" id="Allwinner_Android_SDK"> Allwinner Android SDK </span></h3>
+<dl><dd> Tools found in Android SDK for A20 provided by Allwinner are generally able to produce valid LiveSuit images for A20. However, the pack scripts seem to be broken on several places and need some moderate modifications to properly work. It is also worth to note that there are several Android SDKs for A20, all featuring slightly different set of binary tools and build/pack scripts.
+</dd></dl>
+<dl><dd> In order to build a functional image, download the following Android SDK and unpack it:
+</dd><dd> <a class="external free" href="http://dl.linux-sunxi.org/SDK/A20/A20_SDK_20130319.tar.gz">http://dl.linux-sunxi.org/SDK/A20/A20_SDK_20130319.tar.gz</a>
+</dd></dl>
+<dl><dd> You will need only the <i>boot/</i> and <i>tools/</i> folders, since u-boot and linux 3.3 are long ago deprecated and buildroot scripts are too old to be of any real use. This is where the first obstacle is - there are duplicated pack scripts and tool sets - under tools/pack and under boot/pack. We will only use the ones from /boot/pack. The boot/pack contains the following:
+</dd></dl>
+<ul><li> chips: This is where all the configuration files for boards/chips/download are
+</li><li> pctools: Set of Allwinner binary tools for building a LiveSuit image
+</li><li> pack: Script used for packing the image (broken on several places)
+</li></ul>
+<h2> <span class="mw-headline" id="Linux"> Linux </span></h2>
+<h3> <span class="mw-headline" id="RedScorpio_tools"> RedScorpio tools </span></h3>
+<dl><dd> Only closedsource binary version is available at the moment.
+</dd><dd> <b>Note</b>: this unpacker/packer works with PhoenixSuit images too.
+</dd><dd> Download: <a rel="nofollow" class="external free" href="http://forum.xda-developers.com/showpost.php?p=28329544&amp;postcount=1">http://forum.xda-developers.com/showpost.php?p=28329544&amp;postcount=1</a> (package includes both windows and linux versions)
+</dd></dl>
+<h3> <span class="mw-headline" id="awutils"> <a href="/Awutils" title="Awutils">awutils</a> </span></h3>
+<dl><dd> Open source toolset
+</dd><dd> <a class="external free" href="https://github.com/Ithamar/awutils">https://github.com/Ithamar/awutils</a>
+</dd></dl>
+<h2> <span class="mw-headline" id="Windows"> Windows </span></h2>
+<h3> <span class="mw-headline" id="RedScorpio_tools_2"> RedScorpio tools </span></h3>
+<dl><dd> <b>Possiple virus warning! File: imgrepacker.exe</b>
+</dd><dd> RedScorpio tools are two utilities: imagerepacker, which unpacks, decrypts and packs back firmwares and imgdecoder for SoChip images, that have slightly different layout.
+</dd><dd> Download: <a rel="nofollow" class="external free" href="http://forum.xda-developers.com/showpost.php?p=28329544&amp;postcount=1">http://forum.xda-developers.com/showpost.php?p=28329544&amp;postcount=1</a> (package includes both windows and linux versions)
+</dd><dd> <b>Note</b>: this unpacker/packer works with PhoenixSuit images too.
+</dd><dd> usage is:
+</dd><dd> unpack image and decrypt:
+</dd></dl>
+<pre>
+imgrepacker.exe image.img
+</pre>
+<dl><dd> repack image:
+</dd></dl>
+<pre>
+imgrepacker.exe image.img.dump
+</pre>
+<dl><dd> Here is standard output from imgrepacker.exe unpacking official <a href="/A710" title="A710">LY-F1</a> firmware:
+</dd></dl>
+<pre>
+==========================[ START ]==========================
+       
+        --- Firmware unpacking ---
+       
+        File &quot;F1中性20120529.0.6.5-a721_v4.2.img&quot;     was read
+       
+        BasePath.txt saved
+       
+        - image.cfg creating -
+        image.cfg created
+       
+        - Files extracting -
+        &quot;out/sys_config.fex&quot;            extracted
+        &quot;out/sys_config1.fex&quot;           extracted
+        &quot;out/split_xxxx.fex&quot;            extracted
+        &quot;out/bootloader.fex&quot;            extracted
+                bootloader.fex.iso              created
+        &quot;out/env.fex&quot;           extracted
+                env.fex.iso             created
+        &quot;out/boot.fex&quot;          extracted
+                boot.fex.iso            created
+        &quot;out/system.fex&quot;                extracted
+                system.fex.iso          created
+        &quot;out/recovery.fex&quot;              extracted
+                recovery.fex.iso                created
+        &quot;out/oem.fex&quot;           extracted
+                oem.fex.iso             created
+        &quot;out/diskfs.fex&quot;                extracted
+                diskfs.fex.iso          created
+        &quot;out/vbootloader.fex&quot;           extracted
+        &quot;out/venv.fex&quot;          extracted
+        &quot;out/vboot.fex&quot;         extracted
+        &quot;out/vsystem.fex&quot;               extracted
+        &quot;out/vrecovery.fex&quot;             extracted
+        &quot;out/voem.fex&quot;          extracted
+        &quot;out/boot0.bin&quot;         decrypted
+        &quot;out/boot1.bin&quot;         decrypted
+        &quot;eFex//usb//tools.fex&quot;          extracted
+        &quot;eFex//usb//fes_1-1.fex&quot;                extracted
+        &quot;eFex//usb//fes_1-2.fex&quot;                extracted
+        &quot;eFex//usb//fes_2.fex&quot;          extracted
+        &quot;eFex//usb//fes.fex&quot;            extracted
+        &quot;eFex//usb//HW_scan.axf&quot;                decrypted
+        &quot;eFex//usb//update_boot0.axf&quot;           decrypted
+        &quot;eFex//usb//update_boot1.axf&quot;           decrypted
+        &quot;eFex//usb//fet_restore.axf&quot;            decrypted
+        &quot;eFex//usb//magic_cr_start.fex&quot;         extracted
+        &quot;eFex//usb//magic_cr_end.fex&quot;           extracted
+        &quot;eFex//usb//magic_de_start.fex&quot;         extracted
+        &quot;eFex//usb//magic_de_end.fex&quot;           extracted
+        &quot;eFex//usb//fed_nand.axf&quot;               decrypted
+        &quot;eFex//card//cardtool.fex&quot;              extracted
+        &quot;eFex//card//cardscript.fex&quot;            extracted
+        &quot;out/card_boot0.fex&quot;            extracted
+        &quot;out/card_boot1.fex&quot;            extracted
+        &quot;out/mbr.fex&quot;           extracted
+        &quot;out/dlinfo.fex&quot;                extracted
+        &quot;eFex//usb//card_update_boot0.axf&quot;              decrypted
+        &quot;eFex//usb//card_update_boot1.axf&quot;              decrypted
+        &quot;eFex//usb//fed_card.axf&quot;               decrypted
+        &quot;eFex//usb//card_HW_scan.axf&quot;           decrypted
+       
+        - Filelist.txt creating -
+        Filelist.txt created
+       
+        ==========================[ STOP  ]==========================
+</pre>
+<dl><dd> How you can see, unpacker creates .fex files for partitions, sys_config and eFex, which is hardware flasher (you can see eFex ASCII logo if you connect UART to UART0 port).
+</dd><dd> List of extracted data is in Filelist.txt, this file will be read if you want to repack image back to firmware after modifying.
+</dd></dl>
+<h3> <span class="mw-headline" id="esxgx"> esxgx </span></h3>
+<dl><dd> <b>Virus warning! (Gen:Trojan:RP.oqWbau67ogl) File: unimg.exe</b>
+</dd><dd> Also known as unimg.exe. Unpacker/Packer from esxgx <a rel="nofollow" class="external free" href="http://forum.xda-developers.com/member.php?u=4494128">http://forum.xda-developers.com/member.php?u=4494128</a>, shipped with AllWinner image package, SztupY A10 android kitchen <a rel="nofollow" class="external free" href="http://forum.xda-developers.com/showthread.php?t=1490886">http://forum.xda-developers.com/showthread.php?t=1490886</a> and other kitchens. Default used by XDA sunxi guys.
+</dd><dd> This is closed-source flasher without any documentation, this flasher creates weird file names like 12345678_1234567890script.fex and can crash on every wrong move, but you can use it if you just want to repack android for sunxi tablet.
+</dd></dl>
+<dl><dd> The following text describes the result from unpacking an Android ICS image.
+</dd><dd> It is interpreted with the help from this thread:
+</dd><dd> <a rel="nofollow" class="external free" href="http://www.slatedroid.com/topic/28942-50-to-the-first-person-to-figure-this-out/">http://www.slatedroid.com/topic/28942-50-to-the-first-person-to-figure-this-out/</a>
+</dd></dl>
+<pre>
+
+The Vxxxxxxxx files are for verification purposes. Note that filenames contain spaces the notation is like: &quot;&lt;Type&gt;     &lt;Name&gt;&quot;
+
+
+COMMON   	SYS_CONFIG000000						
+COMMON   	SYS_CONFIG100000
+
+Text file used as a command bunch for LiveSuit. It tells the app how to flash, what to flash and where, and it configures the device too (screen size, ram info, cpu info, etc).
+SYS_CONFIG1 is the old one.
+
+
+COMMON   	SPLIT_0000000000 
+
+Same content as magic.bin from the bootloader (nanda)
+
+
+RFSFAT16 	BOOTLOADER_00000.fex
+
+FAT16 image containing the u-boot binary. Use MagicISO (or any other ISO managing app) to open.
+In Linux do:
+sudo mount -o loop -t vfat RFSFAT16_BOOTLOADER_00000.fex bootloader
+ 
+
+RFSFAT16 	ENVIROMENT_00000
+
+u-boot's boot parameters, DO NOT MODIFY
+
+
+RFSFAT16 	BOOT_00000000000
+
+Standard Android boot image (boot.img) (2K header,gzipped kernel, initrd gzipped cpio archive, optional second stage loader is not present)
+More to read here:
+http://forum.xda-developers.com/showthread.php?t=443994
+
+
+RFSFAT16	SYSTEM_000000000.fex
+
+Standard Android sparse ext4 image with the /system file structure.(system.img)
+Use simg2img to make it into an ext4 image that can be loop mounted!
+
+
+RFSFAT16 	RECOVERY_0000000
+
+Sparse ext4 containing a standard Android recovery image.
+Use simg2img to make it into an ext4 image that can be loop mounted!
+
+
+RFSFAT16 	DISKFS_000000000
+
+ext4 image containing the the initram (init.rc, default.prop, initlogo, etc), it is empty in this example.
+
+
+
+BOOT     	BOOT0_0000000000 
+BOOT     	BOOT1_0000000000
+
+These are bootloaders to be put in nand. Boot0 is the SPL - Second Program Loader (sun4i-spl.bin when uboot is built from source)
+Boot1 is the U-boot!
+
+
+PXTOOLS  	xxxxxxxxxxxxxxxx
+This is a win32 DLL!!! - seems maybe a plugin for Livesuit
+
+FES      		FES_1-1000000000 
+FES      		FES_1-2000000000
+FES      		FES_200000000000 
+FES      		FES_000000000000
+Note: test that FES is actually FEL mode boot0/boot1/u-boot
+FET      		HW_SCAN_00000000 
+FET      		UPDATE_BOOT0_000 
+FET     		UPDATE_BOOT1_000 
+FET     		FET_RESTORE_0000 
+FET      		MAGIC_CRC_START_ 
+FET      		MAGIC_CRC_EN_000 
+FET      		MAGIC_DE_START_0
+FET      		MAGIC_DE_END_000 
+FED     		FED_NAND_0000000 
+FET      		CARD_UPDATE_BOT0 
+FET      		CARD_UPDATE_BOT1
+FED      		CARD_FED_0000000 
+FET      		CARD_HW_SCAN_000 
+
+
+These are tools are NAND flashing utilities, checksums, hardware scanner, and other tools used during flashing.
+
+
+12345678 	1234567890cardtl 
+12345678 	1234567890script 
+12345678 	1234567890boot_0 
+12345678 	1234567890boot_1
+2345678 	1234567890___mbr 
+12345678 	1234567890dlinfo 
+
+These are bootloaders, config files, and tools for SDMMC flashing, if there's a device with SDMMC internal instead of NAND, these are used!
+
+</pre>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=LiveSuit_images&amp;oldid=17094">http://linux-sunxi.org/index.php?title=LiveSuit_images&amp;oldid=17094</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Proprietary_Software" title="Category:Proprietary Software">Proprietary Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=LiveSuit+images&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=LiveSuit+images" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/LiveSuit_images" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:LiveSuit_images" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/LiveSuit_images">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=LiveSuit_images&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=LiveSuit_images&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/LiveSuit_images" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/LiveSuit_images" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=LiveSuit_images&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=LiveSuit_images&amp;oldid=17094" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 1 May 2016, at 10:49.</li>
+<li id="footer-info-viewcount">This page has been accessed 96,073 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

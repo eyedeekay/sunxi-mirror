@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Olimex A20-OLinuXino-Micro - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Olimex_A20-OLinuXino-Micro","wgTitle":"Olimex A20-OLinuXino-Micro","wgCurRevisionId":14454,"wgArticleId":605,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Devices","A20 Boards","OSHW","Community Devices","Olimex","Devices with SATA port","Devices with HDMI port","Devices with Ethernet port","Mainline Kernel","Mainline U-Boot"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Olimex_A20-OLinuXino-Micro","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Olimex_A20-OLinuXino-Micro"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Olimex_A20-OLinuXino-Micro skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Olimex A20-OLinuXino-Micro</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Olimex A20-OLinuXino-Micro</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:A20-OLinuXino.jpeg" class="image"><img alt="A20-OLinuXino.jpeg" src="/images/thumb/0/08/A20-OLinuXino.jpeg/250px-A20-OLinuXino.jpeg" width="250" height="173"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="https://www.olimex.com/">Olimex</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+142<i>mm</i> x 82<i>mm</i> x 20<i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+May 2013</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXino-MICRO/">Product page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A20" title="A20">A20</a> @ 1 Ghz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+1GiB DDR3 @ 384MHz</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+4GB (optional)</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 6-16V @ 3A</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (Type A)</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm headphone plug, 3.5mm microphone plug, HDMI</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+10/100Mbps ethernet (<a href="/Ethernet#Realtek_RTL8201CP" title="Ethernet">Realtek RTL8201CP</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD, SD, SATA</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+2 USB2.0 Host, 1 USB2.0 OTG</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+2KiB EEPROM</td></tr>
+</table>
+<p>A20-OLinuXino-Micro is fully <a href="/OSHW" title="OSHW" class="mw-redirect">OSHW</a> <a href="/A20" title="A20">A20</a> based development board from our friends at <a href="/Olimex" title="Olimex" class="mw-redirect">Olimex</a>.
+</p><p>This board was <a rel="nofollow" class="external text" href="http://olimex.wordpress.com/2013/05/24/a20-olinuxino-dualcore-cortex-a7-prototypes-work-fine/">originally designed</a> with the pin-compatible <a href="/A10" title="A10">A10</a> in mind. While this design never shipped, Olimex can produce <a href="/A10" title="A10">A10</a> versions of this board if you so desire.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#HW-Pack"><span class="tocnumber">2.3</span> <span class="toctext">HW-Pack</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#BSP"><span class="tocnumber">2.4</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Manual_build"><span class="tocnumber">2.5</span> <span class="toctext">Manual build</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Mainline_kernel"><span class="tocnumber">2.6</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#LCD_Modules"><span class="tocnumber">3.2</span> <span class="toctext">LCD Modules</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Expansion_Ports"><span class="tocnumber">3.3</span> <span class="toctext">Expansion Ports</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Adding_a_serial_port"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Pictures"><span class="tocnumber">4.1</span> <span class="toctext">Pictures</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Also_known_as"><span class="tocnumber">5</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>The board helpfully reads "A20-OLINUXINO-MICRO".
+</p>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p>Supported.
+</p>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<h2> <span class="mw-headline" id="HW-Pack"> HW-Pack </span></h2>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<ul><li> For building u-boot, use the <i>A20-OLinuXino-Micro</i> target.
+</li><li> The .fex file can be found in sunxi-boards as <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/a20/a20-olinuxino_micro.fex">a20-olinuxino_micro.fex</a>
+</li></ul>
+<p>Everything else is the same as the <a href="/Manual_build_howto" title="Manual build howto">manual build howto</a>.
+</p>
+<h2> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h2>
+<p>Use the sun7i-a20-olinuxino-micro.dts device-tree file for the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The recovery button triggers <a href="/FEL" title="FEL"> FEL mode</a>.
+</p>
+<h2> <span class="mw-headline" id="LCD_Modules"> LCD Modules </span></h2>
+<p>See the <a href="/Olimex_extensions#LCD_modules" title="Olimex extensions"> Olimex LCD Modules</a> page for more information on how to attach and set up Olimex LCD panels on this hardware.
+</p>
+<h2> <span class="mw-headline" id="Expansion_Ports"> Expansion Ports </span></h2>
+<p>This board has multiple expansion ports:
+</p>
+<ul><li> <tt>GPIO-1 / LCD_CON</tt> - compatible with 4.3", 7.0", 10.1" LCD modules from Olimex, can also be used for general GPIO support.
+</li><li> <tt>GPIO-2</tt>, <tt>GPIO-3</tt>, <tt>GPIO-4</tt> - general GPIO support
+</li><li> <tt>UEXT1</tt> and <tt>UEXT2</tt>
+</li></ul>
+<h1> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:Olinuxino_A20_uart_uart.jpg" class="image"><img alt="" src="/images/thumb/1/1e/Olinuxino_A20_uart_uart.jpg/240px-Olinuxino_A20_uart_uart.jpg" width="240" height="177" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Olinuxino_A20_uart_uart.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART0 pins</div></div></div>
+<p>There is a clearly marked UART on the top of the device. All you have to do is connect some wires according to our <a href="/UART" title="UART">UART howto</a>.
+</p><p><a href="/File:Exclamation-red.png" class="image"><img alt="Exclamation-red.png" src="/images/2/29/Exclamation-red.png" width="16" height="16"/></a> <b>Warning: Do no connect the <i>3.3V</i> pin. This could damage your board.</b>
+</p>
+<h2> <span class="mw-headline" id="Pictures"> Pictures </span></h2>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:43px auto;"><a href="/File:A20_olinuxino_micro-board_front.jpg" class="image"><img alt="A20 olinuxino micro-board front.jpg" src="/images/thumb/a/a4/A20_olinuxino_micro-board_front.jpg/120px-A20_olinuxino_micro-board_front.jpg" width="120" height="64"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:41.5px auto;"><a href="/File:A20_olinuxino_micro-board_back.jpg" class="image"><img alt="A20 olinuxino micro-board back.jpg" src="/images/thumb/2/2b/A20_olinuxino_micro-board_back.jpg/120px-A20_olinuxino_micro-board_back.jpg" width="120" height="67"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:43px auto;"><a href="/File:A20-OLinuXino-FRONT.jpg" class="image"><img alt="A20-OLinuXino-FRONT.jpg" src="/images/thumb/6/6e/A20-OLinuXino-FRONT.jpg/120px-A20-OLinuXino-FRONT.jpg" width="120" height="64"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:31.5px auto;"><a href="/File:A20-OLinuXino-BACK.jpg" class="image"><img alt="A20-OLinuXino-BACK.jpg" src="/images/thumb/a/a6/A20-OLinuXino-BACK.jpg/120px-A20-OLinuXino-BACK.jpg" width="120" height="87"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<p>There are of course no rebadgers for this device, but you might sometimes see it referred to as the A20-Olinuxino.
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/Olimex" title="Olimex" class="mw-redirect">Our local Olimex page</a> showing all other Olimex products.
+</li><li> <a rel="nofollow" class="external text" href="http://olimex.wordpress.com/2013/05/24/a20-olinuxino-dualcore-cortex-a7-prototypes-work-fine/">Original announcement on Olimex's blog.</a>
+</li><li> <a class="external text" href="https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A20-PDFs">Schematics and various docs</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Olimex_A20-OLinuXino-Micro&amp;oldid=14454">http://linux-sunxi.org/index.php?title=Olimex_A20-OLinuXino-Micro&amp;oldid=14454</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A20_Boards" title="Category:A20 Boards">A20 Boards</a></li><li><a href="/Category:OSHW" title="Category:OSHW">OSHW</a></li><li><a href="/Category:Community_Devices" title="Category:Community Devices">Community Devices</a></li><li><a href="/Category:Olimex" title="Category:Olimex">Olimex</a></li><li><a href="/Category:Devices_with_SATA_port" title="Category:Devices with SATA port">Devices with SATA port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Mainline_Kernel" title="Category:Mainline Kernel">Mainline Kernel</a></li><li><a href="/Category:Mainline_U-Boot" title="Category:Mainline U-Boot">Mainline U-Boot</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Olimex+A20-OLinuXino-Micro&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Olimex+A20-OLinuXino-Micro" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Olimex_A20-OLinuXino-Micro" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Olimex_A20-OLinuXino-Micro&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Olimex_A20-OLinuXino-Micro">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Olimex_A20-OLinuXino-Micro&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Olimex_A20-OLinuXino-Micro&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Olimex_A20-OLinuXino-Micro" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Olimex_A20-OLinuXino-Micro" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Olimex_A20-OLinuXino-Micro&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Olimex_A20-OLinuXino-Micro&amp;oldid=14454" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 27 June 2015, at 22:10.</li>
+<li id="footer-info-viewcount">This page has been accessed 27,318 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

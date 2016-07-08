@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Ippo q8h - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Ippo_q8h","wgTitle":"Ippo q8h","wgCurRevisionId":17031,"wgArticleId":831,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Devices","A23 Tablets","Format Q8 A23","Mainline Kernel"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Ippo_q8h","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Ippo_q8h"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Ippo_q8h skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Ippo q8h</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Ippo q8h</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Ippo_q8h_front.jpg" class="image"><img alt="Ippo q8h front.jpg" src="/images/thumb/f/f6/Ippo_q8h_front.jpg/250px-Ippo_q8h_front.jpg" width="250" height="161"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.gdippo.com/">Ippo</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+181<i>mm</i> x 121<i>mm</i> x 10.5<i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+November 2013</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://manufacturer/device">Missing Product Page </a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A23" title="A23">A23</a> @ 1.5Ghz <span style="color:#ba0000">(verify me!)</span></td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+512MiB DDR3 @ 480MHz</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+4GB</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 2A, 1000mAh 3.7V Li-Ion battery</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">LCD</th><td class="" style="">
+800x480 (7" 16:9)</td></tr><tr class=""><th scope="row" style="text-align:left;">Touchscreen</th><td class="" style="">
+5-finger capacitive (<a href="/Touchscreen#GSL1680" title="Touchscreen">Silead GSL1680</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm headphone plug, internal speaker, internal microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+WiFi 802.11 b/g/n (<a href="/Wifi#Realtek" title="Wifi">Realtek RTL8188ETV</a> / <a href="/Wifi#Espressif" title="Wifi">Espressif ESP8089</a> / <a href="/Wifi#RDA" title="Wifi">RDA RDA5990p</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+1 USB2.0 OTG</td></tr><tr class=""><th scope="row" style="text-align:left;">Camera</th><td class="" style="">
+0.3MP (640x480) front-facing</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+Accelerometer (<a href="/Accelerometer#DMARD10" title="Accelerometer">Domintech DMARD10</a>), Bluetooth (when combined with RDA5990 module).</td></tr>
+</table>
+<p>This cheap (40EUR) tablet is an <a href="/A23" title="A23">A23</a> based update of the hugely popular <a href="/Q88" title="Q88">Q88</a>, which was based on the A13. It is currently often sold as an A13 device, even though the A23 is a serious step up from the measly A13.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Q8H-V2"><span class="tocnumber">1.1</span> <span class="toctext">Q8H-V2</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Q8H-V5"><span class="tocnumber">1.2</span> <span class="toctext">Q8H-V5</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Q8H-V1.0"><span class="tocnumber">1.3</span> <span class="toctext">Q8H-V1.0</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Q8H-V1.2"><span class="tocnumber">1.4</span> <span class="toctext">Q8H-V1.2</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Q8H-V1.5"><span class="tocnumber">1.5</span> <span class="toctext">Q8H-V1.5</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Working:"><span class="tocnumber">1.5.1</span> <span class="toctext">Working:</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Not_working:"><span class="tocnumber">1.5.2</span> <span class="toctext">Not working:</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Android_modules"><span class="tocnumber">1.5.3</span> <span class="toctext">Android modules</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#HW-Pack"><span class="tocnumber">2.3</span> <span class="toctext">HW-Pack</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#BSP"><span class="tocnumber">2.4</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Manual_build_specifics"><span class="tocnumber">2.5</span> <span class="toctext">Manual build specifics</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Mainline_kernel"><span class="tocnumber">2.6</span> <span class="toctext">Mainline kernel</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="#Q8H-V1.2_2"><span class="tocnumber">2.6.1</span> <span class="toctext">Q8H-V1.2</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Q8H-V5_2"><span class="tocnumber">2.6.2</span> <span class="toctext">Q8H-V5</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Android_ADB_access"><span class="tocnumber">3.2</span> <span class="toctext">Android ADB access</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Wifi"><span class="tocnumber">3.3</span> <span class="toctext">Wifi</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#Adding_a_serial_port_.28voids_warranty.29"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port (<b>voids warranty</b>)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-24"><a href="#Device_disassembly"><span class="tocnumber">4.1</span> <span class="toctext">Device disassembly</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Locating_the_UART"><span class="tocnumber">4.2</span> <span class="toctext">Locating the UART</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-26"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-27"><a href="#Also_known_as"><span class="tocnumber">6</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-28"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>The Q8H has multiple revisions, with minor variations to passive component placement.
+</p>
+<h2> <span class="mw-headline" id="Q8H-V2"> Q8H-V2 </span></h2>
+<p>The markings on the board read:
+</p>
+<pre>Q8H-V2
+2013-11-19</pre>
+<p>In android, under Settings-&gt;About Tablet, you will find:
+</p>
+<ul><li> Model Number: Q8H
+</li><li> Build Number: polaris a70H-eng 4.2.2 JDQ39 20131127 test-keys
+</li></ul>
+<p>These android ids matches the android image used on the <a href="/Eken_A70h" title="Eken A70h">Eken A70h</a>, which has a different case design.
+</p><p>This version comes with a <a href="/Wifi#Realtek" title="Wifi">Realtek RTL8188ETV wifi</a> usb module.
+</p>
+<h2> <span class="mw-headline" id="Q8H-V5"> Q8H-V5 </span></h2>
+<p>The markings on the board read:
+</p>
+<pre>Q8H-V5
+2013-12-26</pre>
+<p>In android, under Settings-&gt;About Tablet, you will find:
+</p>
+<ul><li> Model Number: Q8H
+</li><li> Build Number: polaris-eng 4.2.2 8089 20140103-8089
+</li></ul>
+<p>This version comes with an <a href="/Wifi#Espressif" title="Wifi">Espressif ESP8089 wifi</a> usb module.
+</p>
+<h2> <span class="mw-headline" id="Q8H-V1.0"> Q8H-V1.0 </span></h2>
+<p>The markings on the board read:
+</p>
+<pre>Q8H-V1.0
+2014 03 15</pre>
+<p>In android, under Settings-&gt;About Tablet, you will find:
+</p>
+<ul><li> Model Number: Q8H
+</li><li> Build Number: polaris-eng 4.2.2 JDQ39 20140326 test-keys
+</li></ul>
+<p>This version comes with an <a href="/Wifi#RDA" title="Wifi">RDA RDA5990P</a> shared wifi/bluetooth/fm radio.
+</p>
+<h2> <span class="mw-headline" id="Q8H-V1.2"> Q8H-V1.2 </span></h2>
+<p>The markings on the board read:
+</p>
+<pre>Q8H-V1.2
+2014 08 02</pre>
+<p>In android, under Settings-&gt;About Tablet, you will find:
+</p>
+<ul><li> Model Number: Q8H
+</li><li> Build Number: polaris_p1-eng 4.4.2 KVT 20140627 test-keys
+</li></ul>
+<p>This version comes with an <a href="/Wifi#RDA" title="Wifi">RDA RDA5990P</a> shared wifi/bluetooth/fm radio.
+</p>
+<h2> <span class="mw-headline" id="Q8H-V1.5"> Q8H-V1.5 </span></h2>
+<p>The markings on the board read:
+</p>
+<pre>Q8H-V1.5 
+2015 0129</pre>
+<p>Q8H-V1.5 2015 0129 sports a:<br/>
+CPU: A33<br/>
+Ram: 512 mb<br/>
+Touchscren: GSL1680<br/>
+WIFI: RTL8703AS<br/>
+NAND: 4GB<br/>
+Screen 1024x768 (?)<br/>
+USB: 1 otg ( no additional pads found to support a second one )<br/><br/>
+</p>
+<h5> <span class="mw-headline" id="Working:"> Working: </span></h5>
+<p><br/>
+Display - you need to modify the lcd specifics in FEX (they can be extracted from uboot) - make sure you install the simple framebuffer driver<br/>
+Kernel - linux-sunxi next (4.6-rcX)<br/>
+DTB: tried some - sun8i-a33-q8-tablet.dtb works ok<br/>
+SDcard: OTG<br/>
+Brightness:
+</p>
+<dl><dd>Make sure the GPIOS are exposed in the FEX file (should be by default)
+<dl><dd>echo 244 &gt; /sys/class/gpio/export
+</dd><dd>echo "out" &gt; /sys/class/gpio244/direction
+</dd><dd>Dim backlight: echo "1" &gt; /sys/class/gpio244/value
+</dd><dd>Full backlight: echo "0" &gt; /sys/class/gpio244/value
+</dd></dl>
+</dd></dl>
+<p>Video on/off:
+</p>
+<dl><dd>Make sure the GPIOS are exposed in the FEX file (should be by default)
+<dl><dd>echo 230 &gt; /sys/class/gpio/export
+</dd><dd>echo "out" &gt; /sys/class/gpio230/direction
+</dd><dd>Dim backlight: echo "1" &gt; /sys/class/gpio230/value
+</dd><dd>Full backlight: echo "0" &gt; /sys/class/gpio230/value
+</dd></dl>
+</dd></dl>
+<pre>
+import struct
+import os
+
+inputDevice = &quot;/dev/input/event1&quot;
+inputEventFormat = 'iihhi'
+inputEventSize = 16
+file = open(inputDevice, &quot;rb&quot;)
+event = file.read(inputEventSize)
+lcdStatus = 1;
+
+os.system(&quot;echo 224 &gt; /sys/class/gpio/export&quot;);
+os.system('echo &quot;out&quot; &gt; /sys/class/gpio/gpio224/direction');
+os.system('echo 0 &gt; /sys/class/gpio/gpio224/value');
+os.system(&quot;echo 230 &gt; /sys/class/gpio/export&quot;);
+os.system('echo &quot;out&quot; &gt; /sys/class/gpio/gpio230/direction');
+os.system('echo 1 &gt; /sys/class/gpio/gpio230/value');
+
+
+while event:
+  (time1, time2, type, code, value) = struct.unpack(inputEventFormat, event)
+
+  print &quot;code&#160;%d, value&#160;%d&quot;&#160;%(code, value)
+
+  if value == 1:
+    if lcdStatus == 0:
+     os.system('echo 1 &gt; /sys/class/gpio/gpio230/value');
+     lcdStatus = 1
+    else:
+     os.system('echo 0 &gt; /sys/class/gpio/gpio230/value');
+     lcdStatus = 0
+
+  event = file.read(inputEventSize)
+file.close()
+</pre>
+<p>Ubuntu - 15.10 Wily<br/>
+Instalation method - SDcard - debootstrap<br/>
+USB ethernet used AX88772b - OTG<br/>
+<br/>
+</p>
+<h5> <span class="mw-headline" id="Not_working:"> Not working: </span></h5>
+<p><br/>
+wifi (chip is RTL8703AS but the driver is rtl8723bs, managed to modify the dtb now the device shows in /sys/bus/sdio but can't load the driver [mmc0:0001:1 failed with error -16]), <br/>
+bluetooth, <br/>
+audio, <br/>
+rotation, <br/>
+touchscreen, <br/>
+hardware keys (there is a screen saver [black screen] in place in the framebuffer, power on button can "wake" up the device) although power button shuts down the device after 5 seconds or so.<br/>
+<br/><br/>
+Problems encountered:<br/>
+</p>
+<ol><li> kernel 4.6-rcX and Ubuntu 14 (trusty) does not boot
+</li><li> USB has a weird behaviour
+<ol><li> I had a 2.0 hub plugged in and in that the USB ethernet, and my keyboard G11 has an internal hub, I seems that the hubs can't work together in linux (tested in windows and all looks ok) I had no enthernet connection till I removed my keyboard (power was ok since I tested it charging my phone, a wifi adapter, a sdcard reader, and the AX88772b and network was just fine).
+</li></ol>
+</li><li> Tried compiling the latest AX88772b driver I got a siocsifflags: No room left on device when up-ing the interface via ifconfig
+</li></ol>
+<p><br/><br/>
+In android, under Settings-&gt;About Tablet, you will find:
+</p>
+<ul><li> Model Number: Q8H
+</li><li> Build Number: astar_y3-eng 4.4.2 KVT49L 20141120 test-keys
+</li></ul>
+<h5> <span class="mw-headline" id="Android_modules"> Android modules </span></h5>
+<pre>
+Module name			Size		Status/used bu
+-------------------------------------------------------------------------------
+8723bs_vq0 			1836110		0 - Live 0x00000000
+gslX680 			305751		0 - Live 0x00000000 (F)
+mxc622x 			4341		0 - Live 0x00000000
+sunxi_schw 			12559		0 - Live 0x00000000 (O)
+cdc_ether 			5099		0 - Live 0x00000000
+rtl8150 			9023		0 - Live 0x00000000
+mcs7830 			6292		0 - Live 0x00000000
+qf9700 				7805		0 - Live 0x00000000
+asix 				17150		0 - Live 0x00000000
+usbnet 				17700 		4 cdc_ether,mcs7830,qf9700,asix, Live 0x00000000
+sunxi_keyboard 			3021 		0 - Live 0x00000000
+sw_device 			13668 		0 - Live 0x00000000
+vfe_v4l2 			446344 		0 - Live 0x00000000
+gc2035 				13729 		0 - Live 0x00000000
+gc0312 				9954 		1 - Live 0x00000000
+gc0328 				11571 		0 - Live 0x00000000
+gc0308 				10958 		0 - Live 0x00000000
+vfe_subdev 			4523 		5 vfe_v4l2,gc2035,gc0312,gc0328,gc0308, Live 0x00000000
+vfe_os 				4099 		2 vfe_v4l2,vfe_subdev, Live 0x00000000
+cci 				21594 		4 gc2035,gc0312,gc0328,gc0308, Live 0x00000000
+videobuf_dma_contig 		5535 		1 vfe_v4l2, Live 0x00000000
+videobuf_core 			16520 		2 vfe_v4l2,videobuf_dma_contig, Live 0x00000000
+leds_sunxi 			1351 		0 - Live 0x00000000
+mali 				209866 		15 - Live 0x00000000 (O)
+lcd 				49673 		0 - Live 0x00000000
+disp 				993096 		8 mali,lcd, Live 0x00000000
+nand 				287437 		10 - Live 0x00000000 (O)
+</pre>
+<p>This version comes with an <a href="/Wifi#Realtek" title="Wifi">Realtek RTL????</a> wifi chip.
+Note that some Q8H-V1.5 boards also ship with an <a href="/A33" title="A33">A33</a> soc.
+</p>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p>Like all things A23, this hardware is not supported. It is however a prime target for development. For more information, check <a href="/A23" title="A23"> the Allwinner A23 SoC page</a>.
+</p>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<h2> <span class="mw-headline" id="HW-Pack"> HW-Pack </span></h2>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<h2> <span class="mw-headline" id="Manual_build_specifics"> Manual build specifics </span></h2>
+<ul><li> For building u-boot, use the "Ippo_q8h" target.
+</li><li> The .fex file can be found in sunxi-boards as <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/a23/ippo_q8h_v5.fex">ippo_q8h_v5.fex</a>
+</li></ul>
+<p>Everything else is the same as the <a href="/Manual_build_howto" title="Manual build howto">manual build howto</a>.
+</p>
+<h2> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h2>
+<h3> <span class="mw-headline" id="Q8H-V1.2_2"> Q8H-V1.2 </span></h3>
+<p>Use the <i>sun8i-a23-ippo-q8h-v1.2.dts</i> device-tree file for the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p>
+<h3> <span class="mw-headline" id="Q8H-V5_2"> Q8H-V5 </span></h3>
+<p>Use the <i>sun8i-a23-ippo-q8h-v5.dts</i> device-tree file for the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The Volume + button triggers <a href="/FEL" title="FEL"> FEL mode</a>.
+</p>
+<h2> <span class="mw-headline" id="Android_ADB_access">Android ADB access</span></h2>
+<p>Standard ADB does not work out of the box. You need to add the vendor id <b>0x1F3A</b> to <a href="/ADB#No_devices_found" title="ADB">the adb usb config file</a>.
+</p>
+<h2> <span class="mw-headline" id="Wifi"> Wifi </span></h2>
+<p>While some use the well known <a href="/Wifi#Realtek" title="Wifi">Realtek Wifi chips</a>, this tablet is also known to come with an <a href="/Wifi#Espressif" title="Wifi">Espressif ESP8089</a> or an <a href="/Wifi#RDA" title="Wifi">RDA RDA5990P</a>. The latter two have no support in <a href="/Linux_Kernel" title="Linux Kernel">our standard kernel</a>, but source code is available from other kernel tree releases. Please check our <a href="/Wifi" title="Wifi">Wifi page</a> for more details.
+</p>
+<h1> <span class="mw-headline" id="Adding_a_serial_port_.28voids_warranty.29"> Adding a serial port (<b>voids warranty</b>) </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:Ippo_q8h_uart.jpg" class="image"><img alt="" src="/images/thumb/b/b4/Ippo_q8h_uart.jpg/240px-Ippo_q8h_uart.jpg" width="240" height="240" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Ippo_q8h_uart.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART pads</div></div></div>
+<h2> <span class="mw-headline" id="Device_disassembly"> Device disassembly </span></h2>
+<p>As is the case with the <a href="/Q8" title="Q8">Q8</a>, it is absolutely trivial to open this device.
+</p><p>The edge of the back cover needs to be pushed to the outside to release the clips. So put the device on its back and insert your <a href="/Plastic_tool" title="Plastic tool">plastic tool</a> in the outer edge. Push the outer casing away from the display, and you should soon hear the clips release.
+</p>
+<h2> <span class="mw-headline" id="Locating_the_UART"> Locating the UART </span></h2>
+<p>An obvious serial port is available on the mainboard, to the right of the SoC, between the 2 oscillators. The 2 pads are separately enclosed in white circles. The pad nearer to the SoC is TX, the other is RX.
+</p><p>These pads correspond to PL2/3, which is the R_UART in the SoC. This UART is not listed in the datasheets, however you can find information about it in the A23 SDK sources.
+</p><p>The serial port is not enabled in the stock Android image. Edit the FEX file and set s_uart_used = 1 in the s_uart0 section. The port is then used by the OpenRISC core to dump debug messages. Whether this port can be used by the primary system with Allwinner's kernel is still unknown. From a hardware perspective, they can share the port, provided adequate locking is done.
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:36.5px auto;"><a href="/File:Ippo_q8h_front.jpg" class="image"><img alt="Ippo q8h front.jpg" src="/images/thumb/f/f6/Ippo_q8h_front.jpg/120px-Ippo_q8h_front.jpg" width="120" height="77"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:36.5px auto;"><a href="/File:Ippo_q8h_back.jpg" class="image"><img alt="Ippo q8h back.jpg" src="/images/thumb/4/41/Ippo_q8h_back.jpg/120px-Ippo_q8h_back.jpg" width="120" height="77"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:58px auto;"><a href="/File:Ippo_q8h_buttons_1.jpg" class="image"><img alt="Ippo q8h buttons 1.jpg" src="/images/thumb/7/76/Ippo_q8h_buttons_1.jpg/120px-Ippo_q8h_buttons_1.jpg" width="120" height="34"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:63px auto;"><a href="/File:Ippo_q8h_buttons_2.jpg" class="image"><img alt="Ippo q8h buttons 2.jpg" src="/images/thumb/d/d5/Ippo_q8h_buttons_2.jpg/120px-Ippo_q8h_buttons_2.jpg" width="120" height="24"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:34.5px auto;"><a href="/File:Ippo_q8h_innards.jpg" class="image"><img alt="Ippo q8h innards.jpg" src="/images/thumb/3/3f/Ippo_q8h_innards.jpg/120px-Ippo_q8h_innards.jpg" width="120" height="81"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:29.5px auto;"><a href="/File:Ippo_q8h_board_front.jpg" class="image"><img alt="" src="/images/thumb/4/4b/Ippo_q8h_board_front.jpg/120px-Ippo_q8h_board_front.jpg" width="120" height="91"/></a></div></div>
+<div class="gallerytext">
+<p><a href="#Q8H-V2">Q8H V2</a> board front
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Ippo_q8h_v5_top.jpg" class="image"><img alt="" src="/images/thumb/3/3a/Ippo_q8h_v5_top.jpg/120px-Ippo_q8h_v5_top.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+<p><a href="#Q8H-V5">Q8H V5</a> board front
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Ippo_q8h_v5_bottom.jpg" class="image"><img alt="" src="/images/thumb/5/50/Ippo_q8h_v5_bottom.jpg/120px-Ippo_q8h_v5_bottom.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+<p><a href="#Q8H-V5">Q8H V5</a> board back
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:18.5px auto;"><a href="/File:Q8h_v1.0_board_front.JPG" class="image"><img alt="" src="/images/thumb/1/14/Q8h_v1.0_board_front.JPG/120px-Q8h_v1.0_board_front.JPG" width="120" height="113"/></a></div></div>
+<div class="gallerytext">
+<p><a href="#Q8H-V1.0">Q8H V1.0</a> board front
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:29.5px auto;"><a href="/File:Q8h_v1.2_front.jpg" class="image"><img alt="" src="/images/thumb/7/7c/Q8h_v1.2_front.jpg/120px-Q8h_v1.2_front.jpg" width="120" height="91"/></a></div></div>
+<div class="gallerytext">
+<p><a href="#Q8H-V1.2">Q8H V1.2</a> board front
+</p>
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<p>This hardware is sold under many guises, very often as <i>Q88Pro</i>. If it is claimed to be an A13 tablet but with a 4.2.2 android, then chances are that it is an A23 one instead.
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/Q88" title="Q88"> Ippo Q88</a>
+</li><li> <a href="/Eken_A70h" title="Eken A70h">Eken A70h</a>
+</li><li> <a href="/Inet_86dz_d701c" title="Inet 86dz d701c">Inet 86dz d701c</a>, another cheap A23 tablet.
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Ippo_q8h&amp;oldid=17031">http://linux-sunxi.org/index.php?title=Ippo_q8h&amp;oldid=17031</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A23_Tablets" title="Category:A23 Tablets">A23 Tablets</a></li><li><a href="/Category:Format_Q8_A23" title="Category:Format Q8 A23">Format Q8 A23</a></li><li><a href="/Category:Mainline_Kernel" title="Category:Mainline Kernel">Mainline Kernel</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Ippo+q8h&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Ippo+q8h" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Ippo_q8h" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Ippo_q8h&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Ippo_q8h">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Ippo_q8h&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Ippo_q8h&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Ippo_q8h" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Ippo_q8h" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Ippo_q8h&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Ippo_q8h&amp;oldid=17031" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 April 2016, at 10:53.</li>
+<li id="footer-info-viewcount">This page has been accessed 41,439 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

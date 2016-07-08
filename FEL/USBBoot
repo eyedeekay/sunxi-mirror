@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>FEL/USBBoot - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"FEL/USBBoot","wgTitle":"FEL/USBBoot","wgCurRevisionId":17155,"wgArticleId":219,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"FEL/USBBoot","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/FEL/USBBoot"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-FEL_USBBoot skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">FEL/USBBoot</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"><span class="subpages">&lt; <a href="/FEL" title="FEL">FEL</a></span></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>On <a href="/FEL/USBBoot#SoC_support_status" title="FEL/USBBoot">supported Allwinner SoCs</a> it is possible to boot over USB OTG. This requires only minimal changes compared to the build steps in <a href="/Manual_build_howto" title="Manual build howto"> the manual build howto</a>, and these changes are explained on this wiki page.
+</p><p>By booting over USB OTG, it is possible to forgo the SD-Card entirely, and it is especially useful for devices where no <a href="/UART" title="UART">UART</a> can be found, or where the UART is multiplexed with the SD-Card. You can then use <a href="/MicroSD_Breakout" title="MicroSD Breakout"> a micro-SD breakout adapter</a> to access the serial port.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Install_the_tools"><span class="tocnumber">1</span> <span class="toctext">Install the tools</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Switch_your_device_into_FEL_mode"><span class="tocnumber">2</span> <span class="toctext">Switch your device into FEL mode</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Boot_the_system_over_USB"><span class="tocnumber">3</span> <span class="toctext">Boot the system over USB</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Mainline_U-Boot_.28v2015.04_and_newer_versions.29"><span class="tocnumber">3.1</span> <span class="toctext">Mainline U-Boot (v2015.04 and newer versions)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Getting_the_mainline_U-Boot_sources"><span class="tocnumber">3.1.1</span> <span class="toctext">Getting the mainline U-Boot sources</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Booting_U-Boot_over_USB"><span class="tocnumber">3.1.2</span> <span class="toctext">Booting U-Boot over USB</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Booting_the_whole_system_over_USB_.28U-Boot_.2B_kernel_.2B_initramfs.29"><span class="tocnumber">3.1.3</span> <span class="toctext">Booting the whole system over USB (U-Boot + kernel + initramfs)</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Early_kernel_development_for_new_SoCs"><span class="tocnumber">3.1.4</span> <span class="toctext">Early kernel development for new SoCs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="#Legacy_mainline_U-Boot_.28v2015.04_and_older_versions.29"><span class="tocnumber">3.2</span> <span class="toctext">Legacy mainline U-Boot (v2015.04 and older versions)</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Legacy_u-boot-sunxi"><span class="tocnumber">3.3</span> <span class="toctext">Legacy u-boot-sunxi</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#Preparing_U-Boot"><span class="tocnumber">3.3.1</span> <span class="toctext">Preparing U-Boot</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Manual_loading"><span class="tocnumber">3.3.2</span> <span class="toctext">Manual loading</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#usb-boot_script"><span class="tocnumber">3.3.3</span> <span class="toctext">usb-boot script</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Adding_support_for_new_SoC_variants"><span class="tocnumber">4</span> <span class="toctext">Adding support for new SoC variants</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#SoC_support_status"><span class="tocnumber">4.1</span> <span class="toctext">SoC support status</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#General_description_of_the_.22sunxi-fel_uboot.22_command_implementation"><span class="tocnumber">4.2</span> <span class="toctext">General description of the "sunxi-fel uboot" command implementation</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#The_SoC-specific_mandatory_thing"><span class="tocnumber">4.3</span> <span class="toctext">The SoC-specific mandatory thing</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#The_SoC-specific_bonus_features"><span class="tocnumber">4.4</span> <span class="toctext">The SoC-specific bonus features</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Testing"><span class="tocnumber">4.5</span> <span class="toctext">Testing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Potential_future_improvements"><span class="tocnumber">5</span> <span class="toctext">Potential future improvements</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Known_issues"><span class="tocnumber">6</span> <span class="toctext">Known issues</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Install_the_tools"> Install the tools </span></h1>
+<p>There is a utility in <a href="/Sunxi-tools" title="Sunxi-tools"> the sunxi-tools repository</a> called 'sunxi-fel'. This utility is used for booting the system over USB and it needs to be installed first.
+</p><p>The command line syntax of the <code>sunxi-fel</code> utility:
+</p>
+<pre>
+Usage: sunxi-fel [options] command arguments... [command...]
+        -v, --verbose                   Verbose logging
+        -p, --progress                  &quot;write&quot; transfers show a progress bar
+        -d, --dev bus:devnum            Use specific USB bus and device number
+
+        spl file                        Load and execute U-Boot SPL
+                If file additionally contains a main U-Boot binary
+                (u-boot-sunxi-with-spl.bin), this command also transfers that
+                to memory (default address from image), but won't execute it.
+
+        uboot file-with-spl             like &quot;spl&quot;, but actually starts U-Boot
+                U-Boot execution will take place when the fel utility exits.
+                This allows combining &quot;uboot&quot; with further &quot;write&quot; commands
+                (to transfer other files needed for the boot).
+
+        hex[dump] address length        Dumps memory region in hex
+        dump address length             Binary memory dump
+        exe[cute] address               Call function address
+        read address length file        Write memory contents into file
+        write address file              Store file contents into memory
+        write-with-progress addr file   &quot;write&quot; with progress bar
+        write-with-gauge addr file      Output progress for &quot;dialog --gauge&quot;
+        write-with-xgauge addr file     Extended gauge output (updates prompt)
+        multi[write] # addr file ...    &quot;write-with-progress&quot; multiple files,
+                                        sharing a common progress status
+        multi[write]-with-gauge ...     like their &quot;write-with-*&quot; counterpart,
+        multi[write]-with-xgauge ...      but following the 'multi' syntax:
+                                          &lt;#&gt; addr file [addr file [...]]
+        echo-gauge &quot;some text&quot;          Update prompt/caption for gauge output
+        ver[sion]                       Show BROM version
+        clear address length            Clear memory
+        fill address length value       Fill memory
+</pre>
+<p><a href="/File:Exclamation.png" class="image"><img alt="Exclamation.png" src="/images/c/c0/Exclamation.png" width="16" height="16"/></a> <i>Warning:</i> some Linux distributions are already providing packaging for sunxi-tools. However they are also removing certain tools and renaming executables at their discretion. If you encounter troubles with the sunxi-tools package from your distro, then getting sunxi-tools directly from the <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools">github repository</a> is always an option.
+</p>
+<h1> <span class="mw-headline" id="Switch_your_device_into_FEL_mode"> Switch your device into FEL mode </span></h1>
+<p>Before the 'sunxi-fel' tool can actually talk to your device, the device needs to be connected to your PC using a "USB A to USB mini/micro B" cable.
+</p><p>And then the device needs to be switched into FEL mode. Please refer to the <a href="/FEL" title="FEL"> FEL howto</a> for information on how to boot to FEL mode. Device pages should mention the button which triggers FEL mode as well.
+</p><p>If you run:
+</p>
+<pre> sunxi-fel version </pre>
+<p>and it returns something like:
+</p>
+<pre> AWUSBFEX soc=00162500(A13) 00000001 ver=0001 44 08 scratchpad=00007e00 00000000 00000000 </pre>
+<p>Then you have successfully switched the device into FEL mode and it is ready to accept commands or load the system over USB.
+</p>
+<h1> <span class="mw-headline" id="Boot_the_system_over_USB"> Boot the system over USB </span></h1>
+<h2> <span class="mw-headline" id="Mainline_U-Boot_.28v2015.04_and_newer_versions.29"> Mainline U-Boot (v2015.04 and newer versions) </span></h2>
+<h3> <span class="mw-headline" id="Getting_the_mainline_U-Boot_sources"> Getting the mainline U-Boot sources </span></h3>
+<p>To obtain the U-Boot sources, clone the current U-Boot master branch:
+</p>
+<pre>
+git clone git://git.denx.de/u-boot.git
+cd u-boot
+</pre>
+<p>Or alternatively the 'next' branch from the sunxi custodian tree:
+</p>
+<pre>
+git clone -b next git://git.denx.de/u-boot-sunxi.git
+cd u-boot-sunxi
+</pre>
+<p>Both of these branches are bleeding edge and may contain bugs from time to time. If you encounter troubles, try a tarball with the latest formal U-Boot release before giving up.
+</p>
+<h3> <span class="mw-headline" id="Booting_U-Boot_over_USB"> Booting U-Boot over USB </span></h3>
+<p>Then just do a regular u-boot build:
+</p>
+<pre>
+make CROSS_COMPILE=arm-linux-gnueabihf- Cubietruck_defconfig
+make CROSS_COMPILE=arm-linux-gnueabihf- -j$(nproc)
+</pre>
+<p>And boot it over USB (the 'sunxi-fel uboot' command requires an up to date version of sunxi-tools):
+</p>
+<pre>
+sunxi-fel uboot u-boot-sunxi-with-spl.bin
+</pre>
+<p>This boots U-Boot over USB. And after U-Boot takes control, it starts scanning various default locations for the boot.scr file in order to boot the rest of the system.
+</p>
+<h3> <span class="mw-headline" id="Booting_the_whole_system_over_USB_.28U-Boot_.2B_kernel_.2B_initramfs.29"> Booting the whole system over USB (U-Boot + kernel + initramfs) </span></h3>
+<p>This needs to be used with <b>U-Boot v2015.10</b> or newer (which can automatically find the 'boot.scr' file in RAM after it had been uploaded there by 'sunxi-fel').
+</p><p>Assuming that you have a kernel image, a correct dtb blob for your hardware, a boot script and an initrd image, booting all of this can be done with just a single 'sunxi-fel' invocation:
+</p>
+<pre>
+sunxi-fel -v uboot u-boot-sunxi-with-spl.bin \
+             write 0x42000000 uImage \
+             write 0x43000000 sun7i-a20-cubietruck.dtb \
+             write 0x43100000 boot.scr \
+             write 0x43300000 rootfs.cpio.lzma.uboot
+</pre>
+<p>If you wonder about all the magic addresses used in the command line above, the right values can be found in the <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/configs/sunxi-common.h;h=6cfd7e148900">U-Boot sources</a> (kernel_addr_r=0x42000000, fdt_addr_r=0x43000000, scriptaddr=0x43100000, ramdisk_addr_r=0x43300000).
+</p>
+<h3> <span class="mw-headline" id="Early_kernel_development_for_new_SoCs"> Early kernel development for new SoCs </span></h3>
+<p>Because FEL boot is supported by the BROM code, it is readily available out of the box. The 'sunxi-fel' tool only needs to be patched to add the SRAM layout information, but this is <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools/commit/65bcc0501382db606ab5a5b5eb39f6f1c06b2df8">usually very simple</a> and also extensively documented on this wiki page. A relatively challenging task is the U-Boot support, because it needs the DRAM initialization code for the SPL. But assuming that the U-Boot bootloader is already available, FEL boot can be used for kernel development even when there is no Ethernet or MMC support in the kernel yet. For the sake of convenience, it is best to write <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools/blob/master/bin/fel-sdboot.sunxi">fel-sdboot.sunxi</a> to the SD card (substitute /dev/sdX with the appropriate block device of your card reader):
+</p>
+<pre>
+wget https://github.com/linux-sunxi/sunxi-tools/raw/master/bin/fel-sdboot.sunxi
+dd if=fel-sdboot.sunxi of=/dev/sdX bs=1024 seek=8
+</pre>
+<p>Then just use the instructions from the previous section <a href="/FEL/USBBoot#Booting_the_whole_system_over_USB_.28U-Boot_.2B_kernel_.2B_initramfs.29" title="FEL/USBBoot">about U-Boot + kernel + initramfs</a>. And after the MMC support is implemented in the kernel, it becomes possible to move the rootfs to the SD card and get rid of the initrd image. But FEL USB boot is still useful until either Ethernet or USB becomes good enough for booting over network.
+</p>
+<h2> <span class="mw-headline" id="Legacy_mainline_U-Boot_.28v2015.04_and_older_versions.29"> Legacy mainline U-Boot (v2015.04 and older versions) </span></h2>
+<div class="mw-collapsible mw-collapsed">
+<p><span style="color:red"><b>Is here for historical reference only (click on the 'Expand' link to see it):</b></span>
+</p>
+<div class="mw-collapsible-content">
+<p>The U-Boot had to be configured using "*_<b>felconfig</b>" option before compiling (instead of "*_defconfig", as that builds a SPL only suitable for MMC boot). For example, in the case of a Cubietruck board, that would be:
+</p>
+<pre>
+make CROSS_COMPILE=arm-linux-gnueabihf- Cubietruck_felconfig
+make CROSS_COMPILE=arm-linux-gnueabihf- -j$(nproc)
+</pre>
+<p>Then just use the 'sunxi-fel' tool to upload various pieces to certain magic addresses (the magic CONFIG_SPL_TEXT_BASE=0x2000 and CONFIG_SYS_TEXT_BASE=0x4a000000 values can be found in the <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/configs/sunxi-common.h;h=6cfd7e148900">U-Boot sources</a>). And execute them in a certain order:
+</p>
+<pre>
+echo == upload the SPL to SRAM and execute it ==
+sunxi-fel write 0x2000 spl/u-boot-spl.bin
+sunxi-fel exe   0x2000
+
+sleep 1 # wait for DRAM initialization to complete
+
+echo == upload the main u-boot binary to DRAM ==
+sunxi-fel write 0x4a000000 u-boot.bin
+
+echo == execute the main u-boot binary ==
+sunxi-fel exe   0x4a000000
+</pre>
+<p>This boots U-Boot over USB. And after U-Boot takes control, it starts scanning various default locations for the boot.scr file in order to boot the rest of the system.
+</p>
+</div>
+</div>
+<h2> <span class="mw-headline" id="Legacy_u-boot-sunxi"> Legacy u-boot-sunxi </span></h2>
+<div class="mw-collapsible mw-collapsed">
+<p><span style="color:red"><b>Is here for historical reference only (click on the 'Expand' link to see it):</b></span>
+</p>
+<div class="mw-collapsible-content">
+<h3> <span class="mw-headline" id="Preparing_U-Boot"> Preparing U-Boot </span></h3>
+<p>U-boot needs to be built specifically for booting over USB. This is called FEL mode, and enabling this disables the full SD card (for u-boot, script.bin and the kernel might re-enable it later on).
+</p><p>Just follow the <a href="/U-Boot#Compile_U-Boot" title="U-Boot"> guide to compile u-boot</a>, but <a href="/U-Boot#Determine_build_target" title="U-Boot"> select a target</a> whose name has <b>_FEL</b>.
+</p>
+<h3> <span class="mw-headline" id="Manual_loading"> Manual loading </span></h3>
+<p>While the script from the next section is perhaps better, you can now choose to load u-boot manually:
+</p>
+<pre>
+  sunxi-fel write 0x2000 ../u-boot/spl/u-boot-spl.bin
+  sunxi-fel exe 0x2000
+  sleep 1 # Wait for DRAM initialization to complete
+  sunxi-fel write 0x4a000000 ../u-boot/u-boot.bin
+  sunxi-fel exe 0x4a000000
+</pre>
+<h3> <span class="mw-headline" id="usb-boot_script"> usb-boot script </span></h3>
+<p>There was a script in the older releases of <a href="/Sunxi-tools" title="Sunxi-tools">Sunxi-tools</a> called <a href="/Sunxi-tools#usb-boot" title="Sunxi-tools"> usb-boot</a>. You can download this script from github using the tag for an old version 1.2:
+</p>
+<pre>
+wget https://raw.githubusercontent.com/linux-sunxi/sunxi-tools/v1.2/usb-boot
+chmod +x usb-boot
+</pre>
+<p>And then use it as follows:
+</p>
+<pre>Usage: ./usb-boot u-boot-spl.bin u-boot.bin [boot.scr] [kernel script.bin [initramfs]]</pre>
+<p>u-boot-spl.bin and u-boot.bin are the <a href="/U-Boot" title="U-Boot">u-boot binaries</a> which are <a href="/FEL/USBBoot#Preparing_U-Boot" title="FEL/USBBoot"> FEL enabled</a>.
+</p><p><a href="/Manual_build_howto#boot.cmd" title="Manual build howto"> boot.scr</a> is the u-boot script. If you do not specify a file ending with .scr the default is used.
+</p><p>uImage is your <a href="/Linux_Kernel#Compilation" title="Linux Kernel"> compiled kernel image</a>.
+</p><p><a href="/Manual_build_howto#Building_script.bin" title="Manual build howto"> script.bin</a> is your hw configuration converted to binary from .fex.
+</p><p>initramfs is an optional initramfs/initrd image in u-boot mkimage format.
+</p>
+</div>
+</div>
+<h1> <span class="mw-headline" id="Adding_support_for_new_SoC_variants"> Adding support for new SoC variants </span></h1>
+<p>If everything is already working fine for you, then you can stop reading here&#160;:-) But sometimes you may get messages like <b>"SPL: Unsupported SoC type"</b> or <b>"Warning: no 'soc_sram_info' data for your SoC"</b> when trying to use the instructions from the previous sections. In this case, doing some work to add support for your SoC may be required. It is also a good idea to first check the <a href="/FEL/USBBoot#SoC_support_status" title="FEL/USBBoot">SoC support status</a> table below.
+</p>
+<h2> <span class="mw-headline" id="SoC_support_status"> SoC support status </span></h2>
+<table class="wikitable">
+<tr>
+<th> SoC name
+</th>
+<th> SoC support status in sunxi-tools <sup id="cite_ref-uboot_1-0" class="reference"><a href="#cite_note-uboot-1">[1]</a></sup>
+</th>
+<th> SoC support status in U-Boot
+</th>
+<th> "sunxi-fel write" speed <sup id="cite_ref-speed_2-0" class="reference"><a href="#cite_note-speed-2">[2]</a></sup>
+</th>
+<th> USB DFU speed
+</th>
+<th> MMU setup
+</th>
+<th> Stack pointers <sup id="cite_ref-stack_3-0" class="reference"><a href="#cite_note-stack-3">[3]</a></sup>
+</th>
+<th> Notes
+</th></tr>
+<tr>
+<td> Allwinner <a href="/A10" title="A10">A10</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> ~600 KB/s </td>
+<td> ~3.2 MB/s </td>
+<td> Enabled by BROM, ttbr0=0x20000 </td>
+<td> sp_irq=0x02000, sp=0x05DF8 </td>
+<td>
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A13" title="A13">A13</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> ~600 KB/s </td>
+<td> </td>
+<td> Enabled by BROM, ttbr0=0x08000 </td>
+<td> sp_irq=0x02000, sp=0x05DF8 </td>
+<td>
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A20" title="A20">A20</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> ~960 KB/s </td>
+<td> ~3.7 MB/s</td>
+<td> Enabled by BROM, ttbr0=0x20000 </td>
+<td> sp_irq=0x02000, sp=0x05E08 </td>
+<td>
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A23" title="A23">A23</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> </td>
+<td> </td>
+<td> Enabled by BROM, ttbr0=0x08000 </td>
+<td> </td>
+<td>
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A31s" title="A31s" class="mw-redirect">A31s</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> ~510 KB/s </td>
+<td> </td>
+<td> Enabled by BROM, ttbr0=0x20000 </td>
+<td> sp_irq=0x02000, sp=0x05E08 </td>
+<td>
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A33" title="A33">A33</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> ~191 KB/s </td>
+<td> </td>
+<td> Not enabled by BROM </td>
+<td> </td>
+<td>
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A64" title="A64">A64</a> </td>
+<td> Supported in a <a class="external text" href="https://github.com/ssvb/sunxi-tools/commits/20160123-allwinner-a64-support">wip branch</a> </td>
+<td> Supported in a <a class="external text" href="https://github.com/ssvb/u-boot-sunxi/commits/20160126-wip-a64-experimental">wip branch</a> </td>
+<td> ~510 KB/s </td>
+<td> </td>
+<td> Not needed <sup id="cite_ref-goodspeed_4-0" class="reference"><a href="#cite_note-goodspeed-4">[4]</a></sup> </td>
+<td> sp_irq=0x12000, sp=0x15E08 </td>
+<td> SPL needs to be loaded at 0x10000 (instead of 0x0)
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A80" title="A80">A80</a> </td>
+<td> Supported </td>
+<td> Not supported </td>
+<td> ~775 KB/s (boot0) </td>
+<td> </td>
+<td> Not enabled by BROM </td>
+<td> sp_irq=0x12000, sp=0x15AD0 </td>
+<td> SPL needs to be loaded at 0x10000 (instead of 0x0)
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A83T" title="A83T">A83T</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> ~510 KB/s (~191 KB/s if MMU not enabled) </td>
+<td> </td>
+<td> Enabled by sunxi-fel, ttbr0=0x44000 </td>
+<td> sp_irq=0x00002000, sp=0x00005E08 </td>
+<td>
+</td></tr>
+<tr>
+<td> Allwinner <a href="/H3" title="H3">H3</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> ~960 KB/s </td>
+<td> </td>
+<td> Enabled by sunxi-fel, ttbr0=0x44000 </td>
+<td> sp_irq=0x00002000, sp=0x00005E08 </td>
+<td>
+</td></tr>
+<tr>
+<td> Allwinner <a href="/R8" title="R8">R8</a> </td>
+<td> Supported </td>
+<td> Supported </td>
+<td> ~500 KB/s </td>
+<td> </td>
+<td> Enabled by BROM, ttbr0=0x08000 </td>
+<td> sp_irq=0x02000, sp=0x05DF8 </td>
+<td> basically like A13,<br>handled by same <i>soc_id</i>
+</td></tr></table>
+<ol class="references"><li id="cite_note-uboot-1"><span class="mw-cite-backlink"><a href="#cite_ref-uboot_1-0">↑</a></span> <span class="reference-text">
+Basic FEL commands like "read", "write" and "exe" are already supported in a generic way on every SoC. This table column only shows support status for advanced commands like "spl" and "uboot".</span>
+</li>
+<li id="cite_note-speed-2"><span class="mw-cite-backlink"><a href="#cite_ref-speed_2-0">↑</a></span> <span class="reference-text">
+The transfer speed can be measured by running the following commands:
+<pre>
+# Execute only the SPL part of the U-Boot image in order to initialize DRAM
+sunxi-fel spl u-boot-sunxi-with-spl.bin
+
+# Upload a file to DRAM ('-p' enables a progress display, which includes transfer speed)
+sunxi-fel -p write 0x42000000 uImage
+</pre>
+<p>You can use any file instead of "uImage". Larger file size means better speed measurement accuracy, so pick something that has size of at least several megabytes. Please note that the devices, which have MMU disabled, are currently expected to show slow transfer speeds (this can be probably improved later).</span>
+</p>
+</li>
+<li id="cite_note-stack-3"><span class="mw-cite-backlink"><a href="#cite_ref-stack_3-0">↑</a></span> <span class="reference-text">
+There are two stacks in FEL mode:
+<ul><li> 'sp_irq' is the value of the IRQ stack pointer register. The IRQ stack is typically empty, which means that the 'sp_irq' is pointing to both top and bottom of this stack (unless the processor is currently handling an IRQ).
+</li><li> 'sp' is the value of the normal stack pointer register, also available to your code when it is executed via "sunxi-fel exe" command. This stack typically contains quite a bit of data between 'sp' and 0x7000 (which was written there by the FEL code from BROM).
+</li></ul>
+When uploading data via "sunxi-fel write" command, be sure not to overwrite these stacks (don't touch the data in SRAM below 'sp_irq' and above 'sp').</span>
+</li>
+<li id="cite_note-goodspeed-4"><span class="mw-cite-backlink"><a href="#cite_ref-goodspeed_4-0">↑</a></span> <span class="reference-text">The BROM in A64 is not <a class="external text" href="https://github.com/ssvb/sunxi-tools/commit/b4116008efe28016ca85de83a7e1d453a1d7e745">troublesome</a> anymore and "sunxi-fel hexdump 0x1c14200 16" works fine for retrieving SID. This indicates somewhat better implementation and the MMU speed boosting workaround is not needed.</span>
+</li></ol>
+<h2> <span class="mw-headline" id="General_description_of_the_.22sunxi-fel_uboot.22_command_implementation"> General description of the "sunxi-fel uboot" command implementation </span></h2>
+<p>Allwinner is treating booting over USB in a special way, and this behaviour is unfortunately hardcoded in the <a href="/BROM" title="BROM">BROM</a>. The main differences between booting from MMC/NAND and booting from USB are:
+</p>
+<ul><li> For booting from the SD card or NAND, the BROM code is searching for a special eGON signature on a bootable media and loading up to 32K (in fact a bit less than that) of the initial code to the address 0x0 in SRAM (that's typically the SRAM section A1) and then executes it. This initial code (known as "SPL" in U-Boot or "boot0" in the Allwinner's bootloader) configures the DRAM to get access to more storage space, then loads the main part of the bootloader and the rest of the system there.
+</li><li> For booting via FEL, the Allwinner's idea is that we are supposed to upload only something like up to ~15K of code at the address 0x2000 in SRAM and execute it.
+</li></ul>
+<p>This is at least inconsistent and definitely not good for us. U-Boot used to require a special size-optimized variant of the SPL specifically for booting via FEL, which also had the base address changed from 0x0 to 0x2000 as an additional inconvenience. Having a special variant of the SPL means an extra configuration to maintain. And the code size limitation is also a nasty problem because a certain set of features has to be disabled. But the "spl" and "uboot" commands, which are implemented by the "sunxi-fel" tool, can work-around this limitation by smuggling just the ordinary MMC or NAND variant of the U-Boot SPL into SRAM. More technical details are provided below.
+</p><p>The reason why we have ~15K code size limitation when booting via FEL is illustrated on the picture below. When we are booting the device in FEL mode, a special code is activated in the BROM and starts communicating over USB using FEL protocol. The USB driver code from the BROM allocates two stacks at rather inconvenient locations inside of the first 32K of SRAM. The IRQ handler stack is set at the address 0x2000 and grows down. And the ordinary application stack is set at the address 0x7000 and also grows down. These stacks make the SRAM space fragmented, and the largest usable contiguous ~15K area is sandwiched between these two stacks. Overwriting either of these stacks via the "sunxi-fel write" crashes the device and it just stops responding to further FEL commands. So uploading a normal U-Boot SPL (which typically has size slightly larger than 20K) to the address 0x0 via "sunxi-fel write" command with the intention to execute it via "sunxi-fel exe" command does not work as expected.
+</p><p><a href="/File:FEL_uboot_memory_map.jpg" class="image"><img alt="FEL uboot memory map.jpg" src="/images/5/59/FEL_uboot_memory_map.jpg" width="1024" height="732"/></a>
+</p><p>So, how do we solve this problem? Allwinner devices typically have more than 32K of SRAM (the smallest total amount of SRAM among all devices is 48K in Allwinner A13). And we can use extra SRAM locations as a backup storage for the FEL stacks (shown as "backup area 1" and "backup area 2" on the picture above). We also upload a special <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools/blob/1627b13718bae612a2cb14bb03de5bfd578280be/fel-to-spl-thunk.S">thunk code</a>, which is responsible for swapping the content of the FEL stacks with the content of these backup areas before jumping to the address 0x0. Now in order to execute a full-fledged SPL from U-Boot, we only need to split the SPL into chunks and upload it to SRAM, writing the parts which are supposed to overlap the FEL stacks to the backup areas. Executing the thunk code saves the FEL stacks to the backup areas, reassembles the SPL together and passes control to the SPL.
+</p><p>Why do we need to backup the original FEL stacks? The reason is that just uploading and executing the SPL alone is not enough to boot the system. The SPL code is very small and its primary task is to setup clocks and initialize the DRAM. After the DRAM is initialized, all the storage space problems are resolved and we want to load the main U-Boot code to the device. And for this we still need the BROM FEL code alive and getting control back, so that it can still talk with the 'sunxi-fel' tool over USB and execute FEL commands. Hence the SPL returns control back to the thunk code. The thunk code swaps FEL stacks with backup areas again and finally passes control back to the FEL code in the BROM, which is able to happily resume its work because it has all the original data back in its stacks.
+</p>
+<h2> <span class="mw-headline" id="The_SoC-specific_mandatory_thing"> The SoC-specific mandatory thing </span></h2>
+<p>The previous section describes how the "sunxi-fel spl" and "sunxi-fel uboot" commands work. But not everything is perfect. One inconvenient thing is that the SRAM address space layout (and the location of the backup areas) may be different for different SoC variants. Hence we need to provide the <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools/blob/01f9972842085f6dea59c64fca39f0107678af4a/fel.c#L325">SRAM layout description information</a> for each SoC in the source code of the 'sunxi-fel' program. The comments in the source code should provide reasonable explanations. And here is an example of such SRAM layout information for A31:
+</p>
+<pre>
+/*
+ * A31 is very similar to A10/A13/A20, except that it has no SRAM at 0x8000.
+ * So we use the SRAM section at 0x44000 instead. This is the memory, which
+ * is normally shared with the OpenRISC core (should we do an extra check to
+ * ensure that this core is powered off and can't interfere?).
+ */
+sram_swap_buffers a31_sram_swap_buffers[] = {
+	{ .buf1 = 0x01800, .buf2 = 0x44000, .size = 0x800 },
+	{ .buf1 = 0x05C00, .buf2 = 0x44800, .size = 0x8000 - 0x5C00 },
+	{ 0 }  /* End of the table */
+};
+
+soc_sram_info soc_sram_info_table[] = {
+	{
+		.soc_id       = 0x1633, /* Allwinner A31 */
+		.thunk_addr   = 0x46E00, .thunk_size = 0x200,
+		.swap_buffers = a31_sram_swap_buffers,
+	},
+	{ 0 } /* End of the table */
+};
+</pre>
+<p>Basically, the first backup area for A31 is set at 0x44000 and covers the IRQ stack (0x1800-0x2000). The second backup area is set at 0x44800 and covers the normal FEL stack plus also some extra area above it (0x5C00-0x8000). The thunk code is placed at 0x46E00.
+</p>
+<h2> <span class="mw-headline" id="The_SoC-specific_bonus_features"> The SoC-specific bonus features </span></h2>
+<ul><li> While this is not strictly required, we can <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools/commit/e4b3da2b17ee9d7c5cab9b80e708b3a309fc4c96">tweak the cacheability attributes of the memory sections by modifying the MMU translation table</a>. This improves the performance of the "sunxi-fel write" command and helps to significantly reduce the time needed to upload large chunks of data to DRAM.
+</li></ul>
+<ul><li> The Cortex-A8 based SoC variants need <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools/commit/f6a1382b4a2337f34ff5c52b83c3666c2f57247d">a tweak for the AUXCR L2EN bit</a>. Without this, the L2 cache ends up disabled in Linux after booting over FEL.
+</li></ul>
+<h2> <span class="mw-headline" id="Testing"> Testing </span></h2>
+<p>After adding the support for a new SoC variant to the 'sunxi-fel' tool, it makes sense to actually test whether it works. In the case if U-Boot already has support for this particular SoC variant, the testing is simple and can be done by just running <b>"sunxi-fel uboot u-boot-sunxi-with-spl.bin"</b> command and confirming that U-Boot starts properly on the device.
+</p><p>In the case if U-Boot still does not have full support for this particular SoC variant yet, testing still can be done using the Allwinner's boot0 bootloader. If you have some boot0-based bootable SD card image (let's call it 'sdcard-image.bin'), then you can:
+</p>
+<ul><li> write this image to an SD card
+</li><li> extract the boot0 part from this image via running <b>"dd if=sdcard-image.bin of=boot0.bin bs=1024 skip=8 count=32"</b>
+</li><li> switch the device into FEL mode
+</li><li> insert the SD card
+</li><li> run <b>"sunxi-fel spl boot0.bin"</b>
+</li></ul>
+<p>If the system boots normally, in the same way as just doing a normal boot from the SD card, then the 'sunxi-fel' tool is working fine. Please note that you may get error messages from the 'sunxi-fel' tool while doing this. This is normal and expected (boot0 does not return control back to the FEL code in BROM but instead does its usual booting of the system from the SD card).
+</p><p><br/>
+</p>
+<h1> <span class="mw-headline" id="Potential_future_improvements"> Potential future improvements </span></h1>
+<p>There is quite a lot of room for improvement:
+</p>
+<ul><li> Allow the 'sunxi-fel spl' command to also use raw SD card images in addition to just recognizing 'u-boot-sunxi-with-spl.bin' format.
+</li><li> Store the magic addresses (CONFIG_SYS_TEXT_BASE, kernel_addr_r, fdt_addr_r, scriptaddr, ramdisk_addr_r) in the <a href="/EGON" title="EGON">EGON</a> header extension in order to avoid the need of passing them to the 'sunxi-fel' tool as command line parameters.
+</li><li> Single U-Boot binary for both the regular UART serial console and the UART over the <a href="/MicroSD_Breakout" title="MicroSD Breakout">MicroSD Breakout</a> configurations. The configuration option can be provided to the 'sunxi-fel' tool in a command line argument and handed over to to U-Boot in the eGON header extension.
+</li></ul>
+<p>The exact eGON header extension format needs to be formalized. We should also check whether it can provide backwards/forward compatibility with the Allwinner's BOOT0 bootloader.
+</p>
+<h1> <span class="mw-headline" id="Known_issues"> Known issues </span></h1>
+<p>Please report problems to <a class="external free" href="https://github.com/linux-sunxi/sunxi-tools/issues">https://github.com/linux-sunxi/sunxi-tools/issues</a>
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/FEL" title="FEL">FEL</a>
+</li><li> <a href="/Miniroot" title="Miniroot">miniroot</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=FEL/USBBoot&amp;oldid=17155">http://linux-sunxi.org/index.php?title=FEL/USBBoot&amp;oldid=17155</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=FEL%2FUSBBoot&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=FEL%2FUSBBoot" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/FEL/USBBoot" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:FEL/USBBoot&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/FEL/USBBoot">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=FEL/USBBoot&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=FEL/USBBoot&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/FEL/USBBoot" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/FEL/USBBoot" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=FEL/USBBoot&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=FEL/USBBoot&amp;oldid=17155" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 11 May 2016, at 10:28.</li>
+<li id="footer-info-viewcount">This page has been accessed 57,312 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Cubietruck/AP6210 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Cubietruck/AP6210","wgTitle":"Cubietruck/AP6210","wgCurRevisionId":15696,"wgArticleId":1321,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software","Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Cubietruck/AP6210","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Cubietruck/AP6210"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Cubietruck_AP6210 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Cubietruck/AP6210</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"><span class="subpages">&lt; <a href="/Cubietruck" title="Cubietruck">Cubietruck</a></span></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#AMPAK_AP6210_Wifi_and_Bluetooth_driver_for_Linux-Sunxi"><span class="tocnumber">1</span> <span class="toctext">AMPAK AP6210 Wifi and Bluetooth driver for Linux-Sunxi</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Integrate_the_driver_into_sunxi-3.4"><span class="tocnumber">1.1</span> <span class="toctext">Integrate the driver into sunxi-3.4</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Compile_the_kernel"><span class="tocnumber">1.2</span> <span class="toctext">Compile the kernel</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Enabling_the_module"><span class="tocnumber">1.3</span> <span class="toctext">Enabling the module</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Bugs_and_caveats"><span class="tocnumber">1.4</span> <span class="toctext">Bugs and caveats</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#External_links"><span class="tocnumber">2</span> <span class="toctext">External links</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">3</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="AMPAK_AP6210_Wifi_and_Bluetooth_driver_for_Linux-Sunxi"> AMPAK AP6210 Wifi and Bluetooth driver for Linux-Sunxi </span></h1>
+<p>Linux-Sunxi's latest 3.4 kernel does not include a build-in driver for the Wifi and Bluetooth module found on the CubieTruck. The way the module is implemented in the CubieTruck make it incompatible with the BCMDHD driver included with the kernel. To make things worst, the day CubieTech implemented their own version of the BCMDHD driver made it incompatible with the latest kernel.
+</p><p>This driver solve theses problems, all the modifications to the linux kernel and BCMDHD driver have been merge into a single module which can be loaded at runtime or linked with the kernel.
+</p>
+<h2> <span class="mw-headline" id="Integrate_the_driver_into_sunxi-3.4"> Integrate the driver into sunxi-3.4 </span></h2>
+<p>The driver is avalable in the form of two patches - the first one (ap6210_module.patch) is the actual driver, the second patch (ap6210_defconfig.patch) disables the BCMDHD driver and configures the AP6210 driver instead; you can re-enable it if you also use a USB Wifi module that needs the BCMDHD driver. Here's how to get the official sunxi-3.4 source and integrate the patch:
+</p>
+<pre>git clone <a class="external free" href="https://github.com/linux-sunxi/linux-sunxi.git">https://github.com/linux-sunxi/linux-sunxi.git</a>
+cd linux-sunxi
+wget <a rel="nofollow" class="external free" href="https://raw.githubusercontent.com/armStrapTools/ap6210/master/ap6210_module.patch">https://raw.githubusercontent.com/armStrapTools/ap6210/master/ap6210_module.patch</a>
+wget <a rel="nofollow" class="external free" href="https://raw.githubusercontent.com/armStrapTools/ap6210/master/ap6210_defconfig.patch">https://raw.githubusercontent.com/armStrapTools/ap6210/master/ap6210_defconfig.patch</a>
+patch -p1 &lt; ap6210_module.patch
+patch -p1 &lt; ap6210_defconfig.patch
+</pre>
+<p>A pre-patched version of the linux-sunxi code is also avalable on my git repository, but since it is where I develop the driver and other things, it may not always be useable:
+</p>
+<pre><a class="external free" href="https://github.com/armStrapTools/linux-sunxi-ap6210.git">https://github.com/armStrapTools/linux-sunxi-ap6210.git</a>
+</pre>
+<h2> <span class="mw-headline" id="Compile_the_kernel"> Compile the kernel </span></h2>
+<p>Once the kernel has been patch, you can follow the regular kernel building instructions to compile your new kernel, see the <a href="/Linux_Kernel" title="Linux Kernel"> Linux Kernel howto</a><sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> for a complete guide on how to build a kernel.
+</p>
+<h2> <span class="mw-headline" id="Enabling_the_module"> Enabling the module </span></h2>
+<p>To enable the module add the <b>ap6210</b> module to <b>/etc/modules</b>. You can also enable ap mode by adding <b>op_mode=2</b> to the module line.
+</p>
+<h2> <span class="mw-headline" id="Bugs_and_caveats"> Bugs and caveats </span></h2>
+<p>Presently, the module cannot be reloaded once it has been unloaded (rmmod), since the rfkill interface was not developped to be a module, but integrated into the architecture specific part of the kernel. This is not a problem for normal usage since the module can be turn on/off with <b>iwconfig</b> like any other wifi module.
+</p><p>GPIO 2 is hardcoded as the host wake irq, the board configuration should initialize this, to do so, the following must be present in your compiled Fex file.
+</p>
+<pre>[gpio_para]
+gpio_used = 1
+gpio_num = 2
+gpio_pin_1 = port:PH20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt;
+gpio_pin_2 = port:PH10&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<h1> <span class="mw-headline" id="External_links"> External links </span></h1>
+<ul><li> <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi">Official linux-sunxi git repository</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>
+</li><li> <a class="external text" href="https://github.com/armStrapTools/linux-sunxi-ap6210">Unofficial linux-sunxi git repository with the driver already integrated</a><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup>
+</li><li> <a class="external text" href="https://github.com/armStrapTools/ap6210">AP6210 driver git repository</a><sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup>
+</li></ul>
+<h1> <span class="mw-headline" id="References"> References </span></h1>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://linux-sunxi.org/index.php?title=Linux_Kernel">http://linux-sunxi.org/index.php?title=Linux_Kernel</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a class="external free" href="https://github.com/linux-sunxi/linux-sunxi">https://github.com/linux-sunxi/linux-sunxi</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><a class="external free" href="https://github.com/armStrapTools/linux-sunxi-ap6210">https://github.com/armStrapTools/linux-sunxi-ap6210</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text"><a class="external free" href="https://github.com/armStrapTools/ap6210">https://github.com/armStrapTools/ap6210</a></span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Cubietruck/AP6210&amp;oldid=15696">http://linux-sunxi.org/index.php?title=Cubietruck/AP6210&amp;oldid=15696</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Cubietruck%2FAP6210&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Cubietruck%2FAP6210" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Cubietruck/AP6210" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Cubietruck/AP6210" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Cubietruck/AP6210">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Cubietruck/AP6210&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Cubietruck/AP6210&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Cubietruck/AP6210" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Cubietruck/AP6210" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Cubietruck/AP6210&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Cubietruck/AP6210&amp;oldid=15696" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 9 December 2015, at 04:39.</li>
+<li id="footer-info-viewcount">This page has been accessed 17,027 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

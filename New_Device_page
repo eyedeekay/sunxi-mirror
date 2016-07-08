@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>New Device page - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"New_Device_page","wgTitle":"New Device page","wgCurRevisionId":17294,"wgArticleId":782,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"New_Device_page","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/New_Device_page"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-New_Device_page skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">New Device page</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page contains a guide for creating a new device page, or for improving existing pages.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Goals"><span class="tocnumber">1</span> <span class="toctext">Goals</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Legal"><span class="tocnumber">2</span> <span class="toctext">Legal</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Featured_Community_or_Open_Source_hardware"><span class="tocnumber">3</span> <span class="toctext">Featured Community or Open Source hardware</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Page_naming"><span class="tocnumber">4</span> <span class="toctext">Page naming</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Starting_point"><span class="tocnumber">5</span> <span class="toctext">Starting point</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Guidelines_for_different_fields"><span class="tocnumber">6</span> <span class="toctext">Guidelines for different fields</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Infobox"><span class="tocnumber">6.1</span> <span class="toctext">Infobox</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Identification"><span class="tocnumber">6.2</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Sunxi_support"><span class="tocnumber">6.3</span> <span class="toctext">Sunxi support</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">6.4</span> <span class="toctext">Tips, Tricks, Caveats</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Adding_a_serial_port"><span class="tocnumber">6.5</span> <span class="toctext">Adding a serial port</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Pictures"><span class="tocnumber">6.6</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Also_known_as"><span class="tocnumber">6.7</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#See_also"><span class="tocnumber">6.8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Categories"><span class="tocnumber">6.9</span> <span class="toctext">Categories</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Goals">Goals</span></h1>
+<p>The goal of a device page is not only to gather information about a device, but to clearly present the necessary information to the user. A page filled with marketing mumble, even when there is some valuable information in there, is just as useful as no page at all.
+</p><p>So please, try to keep structure and presentation tight, and provide the relevant information in the relevant sections. Further down, an example page, which can simply be copied, is provided, which should help you create a useful device page.
+</p>
+<h1> <span class="mw-headline" id="Legal">Legal</span></h1>
+<p>All contributions to linux-sunxi.org are considered to be released under the Creative Commons Attribution (see sunxi:Copyrights for details). If you do not want your writing to be edited mercilessly and redistributed at will, then do not submit it here.
+You are also promising us that you wrote this yourself, or copied it from a public domain or similar free resource. Do not submit copyrighted work without permission!
+</p><p>Under no circumstances should you include pictures or documents that were not created by yourself. Either you get the express permission of the owner of the material, or you should use a link.
+</p><p>Similarly, unless you get express permission to reproduce certain information verbatim, you should not copy external information or howtos. If you do, either get permission from the original author, or make sure that it is a complete rewrite/rephrasing of the original document.
+</p>
+<h1> <span class="mw-headline" id="Featured_Community_or_Open_Source_hardware">Featured Community or Open Source hardware</span></h1>
+<p>The sunxi project rewards those companies that are actively working with the sunxi community, not only by providing guidance and software development, but also by clearly showing what hardware is either Open Source, or hardware that was created in close cooperation with the sunxi community.
+</p><p>If you are a device manufacturer, then simply adding your board to our wiki does not mean that it is community hardware. Similarly, plainly adding an OSHW logo to your silkscreen does not make your hardware open source.
+</p>
+<h1> <span class="mw-headline" id="Page_naming">Page naming</span></h1>
+<p>Before you do anything else, try to determine whether your device is also available under other names (as described in our <a href="/New_Device_howto" title="New Device howto">New Device Howto</a>).
+</p><p>If the original manufacturer and device name can be retrieved (which only rarely is possible for cheap chinese devices), then that should be used. Failing that, try to name the page according to either the most popular name, or the name under which it was first marketed. If that fails, any unique markings on the device will work.
+</p><p>If your device is a plain rebadge job, then just add the name of your device to the "Similar Devices" section of an already existing page. If your device shares the motherboard, but has different hardware included, then create a new page, but frequently mention and crosslink to the existing device page.
+</p><p>As for page naming, put the manufacturer name at the front, followed by the device name. Use underscores instead of spaces.
+</p><p>If you cannot figure out what your tablet is named, temporarily place it under your user page until you do know exactly what it's called. E.g. at somewhere like <a href="/index.php?title=User:YOU/Unknown_Device&amp;action=edit&amp;redlink=1" class="new" title="User:YOU/Unknown Device (page does not exist)">User:YOU/Unknown_Device</a>
+</p>
+<h1> <span class="mw-headline" id="Starting_point">Starting point</span></h1>
+<p>To create your new page, open a new window or tab in your browser, type <i><a rel="nofollow" class="external free" href="http://linux-sunxi.org/">http://linux-sunxi.org/</a></i>, immediately followed by the <i>Manufacturer</i> of your device, then an underscore <i>_</i>, then the <i>Name</i> of your device, and go to that URL. The wiki will then offer you to create that page.
+</p><p>Open the <a href="/Device_Page_example" title="Device Page example">Device Page Example</a>, and copy the contents of the <i>View source</i> tab to your newly created device page. Then start fleshing out the different parts.
+</p><p>Begin by filling in the infobox, as most of this general information should be known to you already. The rest can be filled out as you go along with the <a href="/New_Device_howto" title="New Device howto">New Device howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Guidelines_for_different_fields">Guidelines for different fields</span></h1>
+<h2> <span class="mw-headline" id="Infobox">Infobox</span></h2>
+<p>All possible fields, and some examples of content, are included in the <a href="/Device_Page_example" title="Device Page example">Device Page Example</a>. Fields that do not apply for your device can be removed, and will subsequently not turn up in your infobox.
+</p>
+<h2> <span class="mw-headline" id="Identification"> Identification </span></h2>
+<p>Because many tablets are hard to identify going from the outside alone, this section should list how to identify a given device from within Android. This usually means going to <i>Settings</i> and under <i>About tablet" you will find 'Model Number</i> and <i>Build number</i>.
+</p><p>These values are set by software, so it is possible that physically completely equal devices have different values in these sections. It is fine to list multiple entries in this section.
+</p><p>If you are running Cyanogenmod, then your settings will not be useful. So please only provide the values for the stock image, or do not provide values at all.
+</p>
+<h2> <span class="mw-headline" id="Sunxi_support">Sunxi support</span></h2>
+<p>This is perhaps the most important section of any device page. Here the reader should be informed about the status of support of the device, and given concise information on how to set-up things on their device.
+</p><p>Try to refer to existing guides, and point out the device specific differences in your device page.
+</p><p>Please limit the explanations here to only the bare minimum. Add changes or suggestions, which are nice to have, but not absolutely necessary to the Tips, Tricks, Caveats section.
+</p>
+<h2> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h2>
+<p>This section should add more information on top of the basics which were described in the above section. It should be a grab bag of many things that are device specific but which might interest others, be it hardware or software.
+</p>
+<h2> <span class="mw-headline" id="Adding_a_serial_port">Adding a serial port</span></h2>
+<p>Here you should always provide a picture of the serial port pins or pads, and you should always reference our <a href="/UART" title="UART">UART howto</a>.
+</p>
+<h2> <span class="mw-headline" id="Pictures">Pictures</span></h2>
+<p>This section should provide all the pictures anyone could need for successful identification of the device. For tablets, make sure that you also have the back and the buttons/connectors, as all tablets pretty much look the same from the front. It also really pays to open up the device and provide interior and PCB pictures.
+</p><p>Note that if you are not the author of the pictures, that they are licensed that allows distribution. So <b>do not pluck pictures of the interweb</b>, take them yourself.
+</p>
+<h2> <span class="mw-headline" id="Also_known_as">Also known as</span></h2>
+<p>This section should list the manufacturers and names of rebadged devices. Spend a bit of time on google for this.
+</p>
+<h2> <span class="mw-headline" id="See_also"> See also </span></h2>
+<p>Here the following should be listed:
+</p>
+<ul><li> local links to related but not similar devices.
+</li><li> further information found on android forums.
+</li><li> manufacturer links.
+</li></ul>
+<p>Here is a list of links of known <a href="/Chinese_Companies" title="Chinese Companies"> Chinese tablet manufacturers</a>.
+</p>
+<h2> <span class="mw-headline" id="Categories">Categories</span></h2>
+<p>You need to always keep the <b>Devices</b> category.
+</p><p>Main categories make sure that the device is properly listed on the front page. Possible options for main categories are:
+</p>
+<pre>
+[[Category:A10 Boards]]
+[[Category:A10 HTPC]]
+[[Category:A10 Tablets]]
+[[Category:A13 Boards]]
+[[Category:A13 Tablets]]
+[[Category:A10s Boards]]
+[[Category:A10s HTPC]]
+[[Category:A20 Boards]]
+[[Category:A20 HTPC]]
+[[Category:A20 Tablets]]
+[[Category:A23 Tablets]]
+[[Category:A31 Boards]]
+[[Category:A31 Tablets]]
+</pre>
+<p>These categories add further information:
+</p>
+<pre>
+[[Category:Devices with Ethernet port]]
+[[Category:Devices with Wifi]]
+[[Category:Devices with SATA port]]
+[[Category:Devices with HDMI port‏‎]]
+[[Category:Devices with VGA port]]
+[[Category:Devices with LVDS port]]
+[[Category:Devices with SPDIF port]]
+</pre>
+<p>The <b>{{Remove_only_when_finished}}</b> template at the top of the page should be kept until the page is fully filled and all patches have been committed. This allows for easier tracking of which devices/pages need help still (by adding a <b>NDH_TODO</b> category to the page).
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=New_Device_page&amp;oldid=17294">http://linux-sunxi.org/index.php?title=New_Device_page&amp;oldid=17294</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=New+Device+page&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=New+Device+page" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/New_Device_page" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:New_Device_page&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/New_Device_page">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=New_Device_page&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=New_Device_page&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/New_Device_page" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/New_Device_page" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=New_Device_page&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=New_Device_page&amp;oldid=17294" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 May 2016, at 07:31.</li>
+<li id="footer-info-viewcount">This page has been accessed 18,111 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

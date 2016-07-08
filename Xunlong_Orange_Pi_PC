@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Xunlong Orange Pi PC - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Xunlong_Orange_Pi_PC","wgTitle":"Xunlong Orange Pi PC","wgCurRevisionId":17753,"wgArticleId":2397,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["NDH TODO","Devices","H3 Boards","Xunlong","Devices with Ethernet port","Devices with HDMI port"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Xunlong_Orange_Pi_PC","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Xunlong_Orange_Pi_PC"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Xunlong_Orange_Pi_PC skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Xunlong Orange Pi PC</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Xunlong Orange Pi PC</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Xunlong_Orange_Pi_PC_top.PNG" class="image"><img alt="Xunlong Orange Pi PC top.PNG" src="/images/thumb/f/ff/Xunlong_Orange_Pi_PC_top.PNG/250px-Xunlong_Orange_Pi_PC_top.PNG" width="250" height="162"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.orangepi.org/">OrangePi</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+85<i>mm</i> x 55<i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+August 2015</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepipc/">Orange Pi PC Product Page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/H3" title="H3">H3</a> @ 1.3 GHz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+1GiB DDR3L (<a href="/DDR3#K4B4G1646Q-HYK0" title="DDR3">K4B4G1646Q-HYK0</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 2A (4.0mm/1.7mm barrel plug - centre positive)<br>or via GPIO header pins</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (HDCP, CEC), CVBS</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5 mm Jack, HDMI, Microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+10/100 Ethernet</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD, 8GB eMMC on PC Plus</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+3 USB 2.0 Host, 1 USB 2.0 OTG</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+IR</td></tr>
+</table>
+<p><span style="color:#ba0000">This page needs to be properly filled according to the <a href="/New_Device_howto" title="New Device howto">New Device Howto</a> and the <a href="/New_Device_page" title="New Device page">New Device Page guide</a>.</span>
+</p><p>Orange Pi PC is <a href="/H3" title="H3">H3</a> based development board produced by <a href="/Xunlong" title="Xunlong" class="mw-redirect">Xunlong</a>.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Manual_build"><span class="tocnumber">2.2</span> <span class="toctext">Manual build</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#U-Boot"><span class="tocnumber">2.2.1</span> <span class="toctext">U-Boot</span></a>
+<ul>
+<li class="toclevel-4 tocsection-6"><a href="#Mainline_U-Boot"><span class="tocnumber">2.2.1.1</span> <span class="toctext">Mainline U-Boot</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-7"><a href="#Linux_Kernel"><span class="tocnumber">2.2.2</span> <span class="toctext">Linux Kernel</span></a>
+<ul>
+<li class="toclevel-4 tocsection-8"><a href="#Sunxi.2FLegacy_Kernel"><span class="tocnumber">2.2.2.1</span> <span class="toctext">Sunxi/Legacy Kernel</span></a></li>
+<li class="toclevel-4 tocsection-9"><a href="#Mainline_kernel"><span class="tocnumber">2.2.2.2</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#LEDs"><span class="tocnumber">3.2</span> <span class="toctext">LEDs</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#CPU_clock_speed_limit"><span class="tocnumber">3.3</span> <span class="toctext">CPU clock speed limit</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#DRAM_clock_speed_limit"><span class="tocnumber">3.4</span> <span class="toctext">DRAM clock speed limit</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#DRAM_clock_speed_limit_.28automated_statistical_analysis.29"><span class="tocnumber">3.5</span> <span class="toctext">DRAM clock speed limit (automated statistical analysis)</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#OpenRISC_core"><span class="tocnumber">3.6</span> <span class="toctext">OpenRISC core</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#USB"><span class="tocnumber">3.7</span> <span class="toctext">USB</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Camera_module"><span class="tocnumber">3.8</span> <span class="toctext">Camera module</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#1-Wire_support"><span class="tocnumber">3.9</span> <span class="toctext">1-Wire support</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Locating_the_UART"><span class="tocnumber">3.10</span> <span class="toctext">Locating the UART</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#Pictures"><span class="tocnumber">4</span> <span class="toctext">Pictures</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Orange_Pi_PC"><span class="tocnumber">4.1</span> <span class="toctext">Orange Pi PC</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Orange_Pi_PC_Plus"><span class="tocnumber">4.2</span> <span class="toctext">Orange Pi PC Plus</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-24"><a href="#Variants"><span class="tocnumber">5</span> <span class="toctext">Variants</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#Also_known_as"><span class="tocnumber">6</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-27"><a href="#Manufacturer_images"><span class="tocnumber">7.1</span> <span class="toctext">Manufacturer images</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-28"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>The <i>PC</i> PCB has the following silkscreened on it:
+</p>
+<pre>Orange Pi PC V1.2</pre>
+<p>The <i>PC Plus</i> PCB shows the following:
+</p>
+<pre>Orange Pi PC Plus V1.1</pre>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p>The H3 and Orange Pi PC support is progressing nicely. It is possible to find a usable mainline 4.x kernel (plus some patches) and a legacy 3.4 kernel in various work-in-progress git branches. See the <a href="/Orange_Pi_PC#Manual_build" title="Orange Pi PC" class="mw-redirect">Manual build</a> section for more details.
+</p>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<p>You can build things for yourself by following our <a href="/Manual_build_howto" title="Manual build howto"> Manual build howto</a> and by choosing from the configurations available below.
+</p>
+<h3> <span class="mw-headline" id="U-Boot"> U-Boot </span></h3>
+<h4> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h4>
+<p>Use the <i>orangepi_pc</i> build target (supported since v2016.01-rc2).
+</p><p>It can boot from the SD card or via <a href="/FEL/USBBoot" title="FEL/USBBoot">FEL</a>. Only the initial basic functionality is implemented and there are still no USB host and Ethernet drivers for H3 in U-Boot v2016.01 (it affects only u-boot functionality, device would work in linux as long kernel supports it).
+</p>
+<h3> <span class="mw-headline" id="Linux_Kernel"> Linux Kernel </span></h3>
+<h4> <span class="mw-headline" id="Sunxi.2FLegacy_Kernel"> Sunxi/Legacy Kernel </span></h4>
+<p>The <a class="external text" href="https://github.com/allwinner-zh/linux-3.4-sunxi">3.4 kernel from the official Allwinner's git repository</a> <a class="external text" href="https://github.com/allwinner-zh/linux-3.4-sunxi/issues/14">does not support H3 yet</a>. But it is possible to use one of the kernel forks, based on the <a rel="nofollow" class="external text" href="http://www.cnx-software.com/2015/05/12/orange-pi-plus-allwinner-h3-firmware-images-and-linux-sdk-released/">lichee H3 SDK tarball</a>:
+</p>
+<ul><li> Siarhei Siamashka's branch '20151207-embedded-lima-memtester-h3' at <a class="external free" href="https://github.com/ssvb/linux-sunxi/tree/20151207-embedded-lima-memtester-h3">https://github.com/ssvb/linux-sunxi/tree/20151207-embedded-lima-memtester-h3</a>
+</li></ul>
+<p>Configure this kernel using <b>sun8i_h3_defconfig</b>, the rest is explained in the <a href="/Linux_Kernel#Compilation" title="Linux Kernel">kernel compilation guide</a>.
+</p><p>Use the <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/h3/xunlong_orange_pi_pc.fex">xunlong_orange_pi_pc.fex</a> file for generating <a href="/Script.bin" title="Script.bin">script.bin</a>.
+</p><p>When booting the legacy 3.4 kernel with the mainline U-Boot, add the following line to boot.cmd:
+</p>
+<pre>  setenv machid 1029
+  setenv bootm_boot_mode sec
+</pre>
+<h4> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h4>
+<p>Initial H3 patches have been submitted to the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>, but have not landed yet. Currently you can find these patches in the arm-linux mailing list, or alternatively in one of the work-in-progress kernel forks:
+</p>
+<ul><li> Maxime Ripard's branch 'sunxi/for-next' at <a rel="nofollow" class="external free" href="https://git.kernel.org/cgit/linux/kernel/git/mripard/linux.git/log/?h=sunxi/for-next">https://git.kernel.org/cgit/linux/kernel/git/mripard/linux.git/log/?h=sunxi/for-next</a> (very basic H3 support, without USB)
+</li><li> Hans de Goede's branch 'sunxi-wip' at <a class="external free" href="https://github.com/jwrdegoede/linux-sunxi/tree/sunxi-wip">https://github.com/jwrdegoede/linux-sunxi/tree/sunxi-wip</a> (many work-in-progress patches, including H3 and USB support for it)
+</li><li> Siarhei Siamashka's branch '20151223-h3-mainline-smp-hack' at <a class="external free" href="https://github.com/ssvb/linux-sunxi/tree/20151223-h3-mainline-smp-hack">https://github.com/ssvb/linux-sunxi/tree/20151223-h3-mainline-smp-hack</a> (minimal set of H3 patches, with USB and SMP)
+</li><li> Chen-Yu Tsai's branch 'h3-emac' at <a class="external free" href="https://github.com/wens/linux/tree/h3-emac">https://github.com/wens/linux/tree/h3-emac</a> (working Ethernet and USB)
+</li></ul>
+<p>Use the <b>sun8i-h3-orangepi-pc.dtb</b> device-tree binary.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<ul><li> Heat issues when using common OS images for the OPi PC. Without a heatsink the Orange Pi PC overheats easily and will drop cores to thwart further temperature increase and unfortunately the heatsink provided by the manufacturer does little to help. The <a rel="nofollow" class="external text" href="http://www.cnx-software.com/2015/08/26/orange-pi-pc-allwinner-h3-board-is-now-available-for-15/">low cost $15 variant</a> does not have any heatsink included at all. This is the result of 'factory settings' overclocking/overvolting the H3 way too much. With adjusted dvfs entries and an upper limit of 1.2 GHz SoC temperature stays below 75°C without heatsink when running cpuburn-a7 on all 4 cores. Using a quality heatsink, some airflow and reasonable cpufreq settings the H3 <a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&amp;tid=743&amp;page=3">remains below 60°C even under full load at an ambient temperature of 22°C</a>.
+</li></ul>
+<ul><li> It is also possible to power the device via GPIO pin header: connect +5V to either pin 2 or 4 (both are connected to DCIN test point) and GND to pin 6.
+</li></ul>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>There is no dedicated FEL button. The Orange Pi <i>PC</i> will fail over to FEL mode if it doesn't detect a card present in the µSD slot. On the <i>PC Plus</i> it gets somewhat tricky to use FEL mode in case the eMMC is already populated with an OS (or at least a working boot loader). In this case it helps to grab the <i>fel-sdboot.sunxi</i> image from <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools/tree/master/bin/">sunxi-tools github repo</a> and write it to an SD card of any size as follows:
+</p>
+<pre>sudo dd if=fel-sdboot.sunxi of=/dev/sdX bs=1024 seek=8</pre>
+<p>Then boot afterwards with this SD card inserted and H3 will be in FEL mode afterwards.
+</p><p><b>Not tested yet</b>
+You can use "FAKE FEL BUTTON". See photo "H3_FAKE_BUTTON". According to the board's schematic UBOOT pin is connected to R124 (bottom leed, because top leed is connected to R38 which is connected to VCC). You can connect it to GND. The right R108 leed is the nearest GND pin (I've checked it). It is very close so it is not too hard. I draw it as yellow line. Enjoy!
+</p>
+<h2> <span class="mw-headline" id="LEDs"> LEDs </span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:152px;"><a href="/File:Xunlong_Orange_Pi_PC_LEDs.jpg" class="image"><img alt="" src="/images/thumb/9/96/Xunlong_Orange_Pi_PC_LEDs.jpg/150px-Xunlong_Orange_Pi_PC_LEDs.jpg" width="150" height="113" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Xunlong_Orange_Pi_PC_LEDs.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>Two LEDs</div></div></div>
+<p>The board has two LEDs:
+</p>
+<ul><li> A red LED, connected to the PA15 pin.
+</li><li> A green LED, connected to the PL10 pin.
+</li></ul>
+<p>When using kernel 3.4 with Xunlong's or loboris' settings then the LEDs can only be switched on/off. By changing the definition in the fex file (see <a rel="nofollow" class="external text" href="https://groups.google.com/forum/#!msg/linux-sunxi/20Ir4It3GsA/2KDRe_8IAQAJ">patch</a> or <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/h3/xunlong_orange_pi_pc.fex">fex with applied fix</a>) both LEDs can be used the usual way (using different triggers and so on)
+</p>
+<h2> <span class="mw-headline" id="CPU_clock_speed_limit"> CPU clock speed limit </span></h2>
+<p>The Allwinner H3 manual does not provide the CPU clock speed information. But the following is a common comment in the FEX files from various H3 SDK variants:
+</p>
+<pre>
+; dvfs voltage-frequency table configuration
+;
+; pmuic_type:0:none, 1:gpio, 2:i2c
+; pmu_gpio0: gpio config.
+; pmu_levelx: 0~9999: voltage(mV), 10000~90000:gpio0 state. voltage form high to low.
+;
+; extremity_freq(Hz): cpu extremity frequency when run benckmark or demo apk
+;                     <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="29181c1a1f64615369181c1919447f">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> with radiator, <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c0f1f2f9f68d88ba80f1f3f4f0ad96">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> without radiator
+; max_freq: cpu maximum frequency, based on Hz, can not be more than 1200MHz
+; min_freq: cpu minimum frequency, based on Hz, can not be less than 60MHz
+;
+; LV_count: count of LV_freq/LV_volt, must be &lt; 16
+;
+; LV1: core vdd is 1.50v if cpu frequency is (1296Mhz,  1536Mhz]
+; LV2: core vdd is 1.34v if cpu frequency is (1200Mhz,  1296Mhz]
+; LV3: core vdd is 1.32v if cpu frequency is (1008Mhz,  1200Mhz]
+; LV4: core vdd is 1.20v if cpu frequency is (816Mhz,   1008Mhz]
+; LV5: core vdd is 1.10v if cpu frequency is (648Mhz,    816Mhz]
+; LV6: core vdd is 1.04v if cpu frequency is (0Mhz,      648Mhz]
+; LV7: core vdd is 1.04v if cpu frequency is (0Mhz,      648Mhz]
+; LV8: core vdd is 1.04v if cpu frequency is (0Mhz,      648Mhz]
+</pre>
+<p>It means that this comment likely originates from Allwinner, rather than something added by Xunlong or any other H3 device manufacturer.
+</p><p>The Orange Pi PC board uses the <a href="/SY8106A" title="SY8106A">SY8106A</a> voltage regulator for providing the CPU core voltage (VDD_CPUX). The default CPU voltage is 1.2V after power-on (selected by the resistors on the PCB) and can be changed at runtime by software via I2C interface. According to the table above, this default voltage should be safe for using with the CPU clock frequencies up to 1008MHz. The H3 datasheet specifies 1.5V as the absolute maximum for the VDD_CPUX voltage and 1.4V as the recommended maximum.
+</p>
+<h2> <span class="mw-headline" id="DRAM_clock_speed_limit"> DRAM clock speed limit </span></h2>
+<p>DRAM is clocked at <b>672 MHz</b> by the hardware vendor. But the reliability still needs to be verified. One of the ways of doing reliability tests may be <a class="external free" href="https://github.com/ssvb/lima-memtester/releases/tag/20151207-orange-pi-pc-fel-test">https://github.com/ssvb/lima-memtester/releases/tag/20151207-orange-pi-pc-fel-test</a> (it checks the Orange Pi PC DRAM setup in the current mainline U-Boot v2016.01-rc2 + <a rel="nofollow" class="external text" href="https://www.mail-archive.com/linux-sunxi@googlegroups.com/msg14969.html">a bugfix</a>).
+</p>
+<table class="wikitable">
+<tr>
+<th> Hardware
+</th>
+<th> Diagnostic software
+</th>
+<th> lima-memtester passes (survives until the red LED)
+</th>
+<th> lima-memtester fails
+</th>
+<th> Notes
+</th></tr>
+<tr>
+<td> <a href="/User:Ssvb" title="User:Ssvb">User:Ssvb</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>No heatsink</b>. 696 MHz fails after running for just a few seconds, so not much confidence in 672 MHz either
+</td></tr>
+<tr>
+<td> <a href="/User:Tkaiser" title="User:Tkaiser">User:Tkaiser</a>'s 1st Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>Small heatsink</b>. 696 MHz fails after running for 2-3 minutes
+</td></tr>
+<tr>
+<td> Orange Pi PC v1.2 (<a href="/User:Plaes" title="User:Plaes">plaes</a>)</td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 648 MHz </td>
+<td> <b>672 MHz</b> </td>
+<td> <b>No heatsink</b>. Multiple reproducible failures.<br> SoC markings: <tt>F7004BA 68D3</tt>, Memory: Samsung <tt>K4B4G1646Q-HYK0</tt>
+</td></tr>
+<tr>
+<td> <a href="/User:Tkaiser" title="User:Tkaiser">User:Tkaiser</a>'s 2nd Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>No heatsink</b>. 696 MHz fails after running for ~10 minutes
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Peko&amp;action=edit&amp;redlink=1" class="new" title="User:Peko (page does not exist)">User:Peko</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 720 MHz </td>
+<td> 744 MHz </td>
+<td> <b>Heatsink</b>. 744 MHz fails after running for ~1-2 minutes
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Patapovich&amp;action=edit&amp;redlink=1" class="new" title="User:Patapovich (page does not exist)">User:Patapovich</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>No heatsink</b>. 672 MHz was running for ~16 hours without problems
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Runnerway&amp;action=edit&amp;redlink=1" class="new" title="User:Runnerway (page does not exist)">User:Runnerway</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>Small heatsink</b>.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Camh&amp;action=edit&amp;redlink=1" class="new" title="User:Camh (page does not exist)">User:Camh</a>'s Orange Pi PC 1 </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 744 MHz </td>
+<td> 768 MHz </td>
+<td> <b>Heatsink (35mmx25mm) covering SoC and RAM</b>. 768MHz failed &lt; 1 min.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Camh&amp;action=edit&amp;redlink=1" class="new" title="User:Camh (page does not exist)">User:Camh</a>'s Orange Pi PC 2 </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 696 MHz </td>
+<td> 720 MHz </td>
+<td> <b>Heatsink (35mmx25mm) covering SoC and RAM</b>. 720MHz failed after 5 mins.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Camh&amp;action=edit&amp;redlink=1" class="new" title="User:Camh (page does not exist)">User:Camh</a>'s Orange Pi PC 3 </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 696 MHz </td>
+<td> 720 MHz </td>
+<td> <b>Heatsink (35mmx25mm) covering SoC and RAM</b>. 720MHz failed after ~30 mins.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Camh&amp;action=edit&amp;redlink=1" class="new" title="User:Camh (page does not exist)">User:Camh</a>'s Orange Pi PC 4 </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>Heatsink (35mmx25mm) covering SoC and RAM</b>. 696MHz failed in &lt; 30s.
+</td></tr>
+<tr>
+<td> <a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepibbsen/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=847&amp;pid=8002">lymon's Orange Pi PC</a> </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> fails/hangs after approx. 10 minutes
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Michal&amp;action=edit&amp;redlink=1" class="new" title="User:Michal (page does not exist)">User:Michal</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 696 MHz </td>
+<td> 720 MHz </td>
+<td> <b>No heatsink</b>. At 720 MHz test failed in about 5 minutes.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Jvdwaa&amp;action=edit&amp;redlink=1" class="new" title="User:Jvdwaa (page does not exist)">User:Jvdwaa</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 720 MHz </td>
+<td> 744 MHz </td>
+<td> <b>No heatsink</b>.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Dusthillguy&amp;action=edit&amp;redlink=1" class="new" title="User:Dusthillguy (page does not exist)">User:dusthillguy</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>Only one 14mm*14mm*5mm heatsink, fitted on the H3 chip.</b> Stable at 672 for over 12 hours without a fan, the green led was still flashing when I powered the system off. Fails within 30 to 60 minutes at 696 without a fan. At 696 with a fan, it survives for a few hours, but even with the fan it does eventually fail (the LEDs go off).
+<p>By the way, the fan I used is 70mm, taken from an old intel heatsink, and powered by USB, so it rotates at a low speed. Just in case this is useful to know.
+</p>
+</td></tr>
+<tr>
+<td> <a href="/User:Kc" title="User:Kc">kc</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 648 MHz </td>
+<td> 672 MHz </td>
+<td> <b>No heatsink</b>. stable for ~35minutes of testing at 648 (to the red led), failing within 1-2 minutes at 672.
+<p>board label: 112169, SOC markings: F7008BA 68E3, ram markings: K4B4G1646Q-HYKO / EKG384K8C
+</p>
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Fjen&amp;action=edit&amp;redlink=1" class="new" title="User:Fjen (page does not exist)">User:fjen</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 720 MHz </td>
+<td> 744 MHz </td>
+<td> <b>14mm*14mm*8mm Heatsink on H3</b>. 744 MHz fails after 1 minute
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Dvl36&amp;action=edit&amp;redlink=1" class="new" title="User:Dvl36 (page does not exist)">User:dvl36</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 720 MHz </td>
+<td> 744 MHz </td>
+<td> <b>Heatsink (35x35x25mm) covering SoC and RAM</b>. 744 MHz fails after ~2 minutes.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Cosm&amp;action=edit&amp;redlink=1" class="new" title="User:Cosm (page does not exist)">User:cosm</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 648 MHz </td>
+<td> 672 MHz </td>
+<td> <b>22mm*22mm*10mm heatsink on the SoC only</b>. 672 MHz worked until the red LED lit, but failed after about two hours. 648 MHz was still working after 10 hours.
+</td></tr>
+<tr>
+<td> <a href="/User:Hp197" title="User:Hp197">User:hp197</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 696 MHz </td>
+<td> 720 MHz </td>
+<td> <b>Heatsink (13x14x6.5mm) covering only SoC (<a rel="nofollow" class="external text" href="http://www.ebay.com/itm/121799610035">Ebay Link</a>)</b>. 720Mhz Failed quick after start (at the bit flip test, 1st pass).
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Emsi88&amp;action=edit&amp;redlink=1" class="new" title="User:Emsi88 (page does not exist)">User:emsi88</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>With big heatsink </b>. 696 Mhz Failed afrer few minutes, 672 MHz worked stable for over 9 hours.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Lampra&amp;action=edit&amp;redlink=1" class="new" title="User:Lampra (page does not exist)">User:lampra</a>'s Orange Pi PC </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 648 MHz </td>
+<td> 672 MHz </td>
+<td> <b>No heatsink</b>. 672 Mhz Failed afrer few minutes.
+</td></tr>
+<tr>
+<td> <a href="/User:Tkaiser" title="User:Tkaiser">User:Tkaiser</a>'s Orange Pi PC <i>Plus</i> </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>Cheap heatsink</b>. 696 MHz fails after running for 90 seconds
+</td></tr></table>
+<p><span style="color:red"><b>We need still more test results in the table above in order to have more accurate statistics and finally pick a safe default DRAM clock speed for U-Boot. Preferably there should be at least 10 entries in the table (more is always better). And there are no "good" or "bad" test results. Even if your result looks very similar to the already reported results from the other people, please still add yours to the table! Because if people don't feel like reporting their "boring" results, then "interesting" outliers will unfortunately skew the statistics. Thanks!</b></span>
+</p>
+<h2> <span class="mw-headline" id="DRAM_clock_speed_limit_.28automated_statistical_analysis.29"> DRAM clock speed limit (automated statistical analysis) </span></h2>
+<p>Below is an intermediate analysis of the currently reported results, using the <a class="external text" href="https://github.com/ssvb/lima-memtester/blob/master/lima-memtester-genchart">lima-memtester-genchart</a> script (run the script using this page URL as the command line argument). Assuming that the <a class="external text" href="https://en.wikipedia.org/wiki/Normal_distribution">Gaussian distribution</a> is a good approximation, try to predict what percentage of boards is expected to pass the lima-memetser test at different DRAM clock frequencies. The <a href="/Lima-memtester#Results_analysis" title="Lima-memtester">lima-memtester</a> page provides more information.
+</p>
+Updating the analysis report:<pre>
+wget https://raw.githubusercontent.com/ssvb/lima-memtester/master/lima-memtester-genchart
+ruby lima-memtester-genchart https://linux-sunxi.org/Xunlong_Orange_Pi_PC
+# copy/paste the script output into the linux-sunxi wiki
+</pre>
+<table class="wikitable">
+<tr>
+<th rowspan="2"> DRAM clock speed
+</th>
+<th colspan="2"> Percentage of boards failing the lima-memtester test
+</th>
+<th rowspan="2"> Theoretical pessimistic upper bound of the failure percentage using Chebyshev's inequality for lower semivariance <sup id="cite_ref-chebyshev_1-0" class="reference"><a href="#cite_note-chebyshev-1">[1]</a></sup>
+</th>
+<th rowspan="2"> Histogram
+</th></tr>
+<tr>
+<th> Experimental results
+</th>
+<th> Theoretical prediction (assuming Gaussian distribution) <sup id="cite_ref-gaussian_2-0" class="reference"><a href="#cite_note-gaussian-2">[2]</a></sup>
+</th></tr>
+<tr>
+<td> 528 MHz </td>
+<td> 0.00&#160;% (0/23) </td>
+<td> 0.00&#160;% </td>
+<td> 1.03&#160;% </td>
+<td>
+</td></tr>
+<tr>
+<td> 552 MHz </td>
+<td> 0.00&#160;% (0/23) </td>
+<td> 0.00&#160;% </td>
+<td> 1.40&#160;% </td>
+<td>
+</td></tr>
+<tr>
+<td> 576 MHz </td>
+<td> 0.00&#160;% (0/23) </td>
+<td> 0.00&#160;% </td>
+<td> 2.02&#160;% </td>
+<td>
+</td></tr>
+<tr>
+<td> 600 MHz </td>
+<td> 0.00&#160;% (0/23) </td>
+<td> 0.02&#160;% </td>
+<td> 3.17&#160;% </td>
+<td>
+</td></tr>
+<tr style="color: orange;">
+<td> 624 MHz </td>
+<td> 0.00&#160;% (0/23) </td>
+<td> 0.40&#160;% </td>
+<td> 5.65&#160;% </td>
+<td>
+</td></tr>
+<tr style="color: orange;">
+<td> 648 MHz </td>
+<td> 0.00&#160;% (0/23) </td>
+<td> 3.91&#160;% </td>
+<td> 12.81&#160;% </td>
+<td>
+</td></tr>
+<tr style="color: red;">
+<td> 672 MHz </td>
+<td> 17.39&#160;% (4/23) </td>
+<td> 19.18&#160;% </td>
+<td> 52.38&#160;% </td>
+<td> ****
+</td></tr>
+<tr style="color: red;">
+<td> 696 MHz </td>
+<td> 60.87&#160;% (14/23) </td>
+<td> 50.77&#160;% </td>
+<td> 100.00&#160;% </td>
+<td> **********
+</td></tr>
+<tr style="color: red;">
+<td> 720 MHz </td>
+<td> 78.26&#160;% (18/23) </td>
+<td> 81.86&#160;% </td>
+<td> 100.00&#160;% </td>
+<td> ****
+</td></tr>
+<tr style="color: red;">
+<td> 744 MHz </td>
+<td> 95.65&#160;% (22/23) </td>
+<td> 96.41&#160;% </td>
+<td> 100.00&#160;% </td>
+<td> ****
+</td></tr>
+<tr style="color: red;">
+<td> 768 MHz </td>
+<td> 100.00&#160;% (23/23) </td>
+<td> 99.64&#160;% </td>
+<td> 100.00&#160;% </td>
+<td> *
+</td></tr></table>
+<ol class="references"><li id="cite_note-chebyshev-1"><span class="mw-cite-backlink"><a href="#cite_ref-chebyshev_1-0">↑</a></span> <span class="reference-text">
+If nothing is known about the distribution of samples, then at least
+<a class="external text" href="https://en.wikipedia.org/wiki/Chebyshev's_inequality">Chebyshev's inequality</a>
+can be used to get a rough idea about the probabilities of encountering reliability
+problems at different DRAM clock speeds. But this method is <u>very conservative</u>
+and substantially overestimates probabilities (being too generic has its price).</span>
+</li>
+<li id="cite_note-gaussian-2"><span class="mw-cite-backlink"><a href="#cite_ref-gaussian_2-0">↑</a></span> <span class="reference-text">
+We can assume that the <a class="external text" href="https://en.wikipedia.org/wiki/Normal_distribution">Gaussian distribution</a>
+is a good approximation for our experimental data, calculate theoretical probabilities and do an
+<a rel="nofollow" class="external text" href="http://www.biostathandbook.com/exactgof.html">exact test of goodness-of-fit</a>
+to see if the experimental data does not contradict with the theory.
+There is a nice <a rel="nofollow" class="external text" href="https://cran.r-project.org/web/packages/XNomial/vignettes/XNomial.html">XNomial</a>
+library for R, which can do the job:<pre>
+    P value  (LLR)  =  0.6305
+    P value (Prob)  =  0.6329
+    P value (Chisq) =  0.6777
+</pre>
+<p>If the <a class="external text" href="https://en.wikipedia.org/wiki/P-value">p-values</a> listed above happen to be too low
+(less than 0.05) and reject our <a class="external text" href="https://en.wikipedia.org/wiki/Null_hypothesis">null hypothesis</a>
+about having the Gaussian distribution, then Chebyshev's inequality estimates still can be used.</span>
+</p>
+</li></ol>
+<h2> <span class="mw-headline" id="OpenRISC_core"> OpenRISC core </span></h2>
+<p>Also named as <a href="/AR100" title="AR100">AR100</a>, CPUS and "arisc" in various Allwinner materials, which may cause a bit of confusion. According to the Orange Pi PC schematics, VDD_CPUS is connected to VDD_RTC. It means that the voltage powering the OpenRISC core is programmable via the hardware register VDD_RTC_REG (at 0x1F00190) and can be configured between 0.7V and 1.4V. The H3 datasheet says that 1.4V is the absolute maximum for VDD_CPUS and 1.1V-1.3V is the recommended range. The reset default for VDD_RTC voltage is 1.1V.
+</p><p>Below is a quick evaluation of the potential clock speed limit of the OpenRISC core on just a single board (<a href="/User:Ssvb" title="User:Ssvb">ssvb</a>'s) by running a naive recursive fibonacci function:
+</p>
+<table class="wikitable">
+<tr>
+<th rowspan="2"> VDD_RTC voltage
+</th>
+<th colspan="2"> OpenRISC core deadlocks at
+</th>
+<th colspan="2"> OpenRISC core does not obviously fail at
+</th>
+<th rowspan="2"> OpenRISC core is reliable at
+</th></tr>
+<tr>
+<th> Without I-Cache </th>
+<th> With I-Cache </th>
+<th> Without I-Cache </th>
+<th> With I-Cache
+</th></tr>
+<tr>
+<td> 1.1V </td>
+<td> 552 MHz </td>
+<td> 456 MHz </td>
+<td> 528 MHz </td>
+<td> 432 MHz </td>
+<td>&#160;?
+</td></tr>
+<tr>
+<td> 1.2V </td>
+<td> 624 MHz </td>
+<td> 504 MHz </td>
+<td> 600 MHz </td>
+<td> 480 MHz </td>
+<td>&#160;?
+</td></tr>
+<tr>
+<td> 1.3V </td>
+<td> 624 MHz </td>
+<td> 504 MHz </td>
+<td> 600 MHz </td>
+<td> 480 MHz </td>
+<td>&#160;?
+</td></tr>
+</table>
+<p>Without I-Cache, fetching each instruction from SRAM takes 3 cycles instead of just 1.
+</p><p>Please note that the intended use of the OpenRISC core in Allwinner devices is keeping a watch while the main Cortex-A7 CPU and the rest of the SoC peripherals are powered off in deep power save modes. In this usage scenario it is likely clocked at just the minimum possible clock frequency 32 KHz.
+</p>
+<h2> <span class="mw-headline" id="USB"> USB </span></h2>
+<p>It should be noted that unlike some of the more expensive Orange Pi models the 'PC' does not use an internal USB hub therefore the 4 available USB ports don't have to share bandwidth. First tests with kernel 4.4.0-rc4, a fast SSD and an enclosure capable of <a href="/USB/UAS" title="USB/UAS">USB Attached SCSI</a> show excellent sequential performance with mainline kernel: 39 MB/s write and 41.5 MB/s read (tests done with iozone using 4 GB test size and averaging the values of 4K/1M record size)
+</p>
+<h2> <span class="mw-headline" id="Camera_module"> Camera module </span></h2>
+<p>Xunlong sells also a cheap 2MP camera (an attempt to fix the driver's limited resolutions can be found <a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&amp;tid=443&amp;fromuid=29411">here</a>). Unlike Orange Pi Plus/2 that can directly connect to the camera module for the PC an 'expansion board' is needed (see gallery below). If you order from Xunlong simply say that you need the camera for Orange Pi PC and they ship camera together with the small board.
+</p>
+<h2> <span class="mw-headline" id="1-Wire_support"> 1-Wire support </span></h2>
+<p>After applying a <a class="external autonumber" href="https://github.com/igorpecovnik/lib/blob/master/patch/kernel/sun8i-default/02-0013-w1_h3.patch">[1]</a> to the lichee kernel sources 1-wire can be used with H3 based Orange Pi's. After loading the approriate modules (w1-sunxi, w1-gpio and w1-therm) connected 1-wire slave devices should appear below <i>/sys/bus/w1/devices/</i>. To let 1-wire work the GPIO pin to be used has to be defined in fex/script.bin. All OS images that applied the 1-wire patch (all from loboris after applying his latest fixes, Armbian or the community's OpenELEC build) use "gpio = 20" in the fex file. Attention: This is a logical mapping that correlates with physical GPIO pin 37 (see the gallery image below). Please keep this in mind when following 1-wire tutorials for Raspberry Pi where GPIO pin 7 is normally used. On H3 devices the pin to connect the data line to is on the other end of the GPIO header.
+</p>
+<h2> <span class="mw-headline" id="Locating_the_UART"> Locating the UART </span></h2>
+<p>The UART pins are located between HDMI and power jack of the board. They are marked as <i>TX</i>, <i>RX</i> and <i>GND</i> on the PCB. Just attach some leads according to our <a href="/UART" title="UART">UART Howto</a>.
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/File:Orange_Pi_PC_UART.PNG" class="image"><img alt="Orange Pi PC UART.PNG" src="/images/thumb/4/4f/Orange_Pi_PC_UART.PNG/180px-Orange_Pi_PC_UART.PNG" width="180" height="67" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Orange_Pi_PC_UART.PNG" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div></div></div></div>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<h2> <span class="mw-headline" id="Orange_Pi_PC"> Orange Pi PC </span></h2>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:25px auto;"><a href="/File:Xunlong_Orange_Pi_PC_front.PNG" class="image"><img alt="Xunlong Orange Pi PC front.PNG" src="/images/thumb/2/25/Xunlong_Orange_Pi_PC_front.PNG/120px-Xunlong_Orange_Pi_PC_front.PNG" width="120" height="100"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:23.5px auto;"><a href="/File:Xunlong_Orange_Pi_PC_back.PNG" class="image"><img alt="Xunlong Orange Pi PC back.PNG" src="/images/thumb/f/f6/Xunlong_Orange_Pi_PC_back.PNG/120px-Xunlong_Orange_Pi_PC_back.PNG" width="120" height="103"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:38px auto;"><a href="/File:Xunlong_Orange_Pi_PC_bottom.PNG" class="image"><img alt="Xunlong Orange Pi PC bottom.PNG" src="/images/thumb/d/da/Xunlong_Orange_Pi_PC_bottom.PNG/120px-Xunlong_Orange_Pi_PC_bottom.PNG" width="120" height="74"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:36px auto;"><a href="/File:Xunlong_Orange_Pi_PC_top.PNG" class="image"><img alt="Xunlong Orange Pi PC top.PNG" src="/images/thumb/f/ff/Xunlong_Orange_Pi_PC_top.PNG/120px-Xunlong_Orange_Pi_PC_top.PNG" width="120" height="78"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:49px auto;"><a href="/File:Xunlong_Orange_Pi_PC_left.PNG" class="image"><img alt="Xunlong Orange Pi PC left.PNG" src="/images/thumb/2/2c/Xunlong_Orange_Pi_PC_left.PNG/120px-Xunlong_Orange_Pi_PC_left.PNG" width="120" height="52"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:46px auto;"><a href="/File:Xunlong_Orange_Pi_PC_right.PNG" class="image"><img alt="Xunlong Orange Pi PC right.PNG" src="/images/thumb/7/70/Xunlong_Orange_Pi_PC_right.PNG/120px-Xunlong_Orange_Pi_PC_right.PNG" width="120" height="58"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Orange_Pi_PC_with_Cameraboard_and_Camera.jpg" class="image"><img alt="Orange Pi PC with Cameraboard and Camera.jpg" src="/images/thumb/d/dc/Orange_Pi_PC_with_Cameraboard_and_Camera.jpg/120px-Orange_Pi_PC_with_Cameraboard_and_Camera.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:Xunlong_OrangePi_expansion_header_pinout.png" class="image"><img alt="Xunlong OrangePi expansion header pinout.png" src="/images/thumb/4/46/Xunlong_OrangePi_expansion_header_pinout.png/90px-Xunlong_OrangePi_expansion_header_pinout.png" width="90" height="120"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:H3_UBOOT_FAKEBUTTON.jpg" class="image"><img alt="H3 UBOOT FAKEBUTTON.jpg" src="/images/thumb/2/24/H3_UBOOT_FAKEBUTTON.jpg/89px-H3_UBOOT_FAKEBUTTON.jpg" width="89" height="120"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h2> <span class="mw-headline" id="Orange_Pi_PC_Plus"> Orange Pi PC Plus </span></h2>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Orange_Pi_PC_Plus_top.jpg" class="image"><img alt="Orange Pi PC Plus top.jpg" src="/images/thumb/9/9c/Orange_Pi_PC_Plus_top.jpg/120px-Orange_Pi_PC_Plus_top.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Orange_Pi_PC_Plus_bottom.jpg" class="image"><img alt="Orange Pi PC Plus bottom.jpg" src="/images/thumb/7/7e/Orange_Pi_PC_Plus_bottom.jpg/120px-Orange_Pi_PC_Plus_bottom.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Variants"> Variants </span></h1>
+<ul><li> The <b>Orange Pi PC Plus</b> adds 8GB eMMC and Realtek RTL8189FTV SDIO-based WiFi directly on the board (as opposed to a soldered-on module). The physical dimensions and position of connectors are exactly the same as the <b>Orange Pi PC</b>. The same type of DRAM is used but tracing is different since one DRAM module moved to the bottom side of the PCB. Since a FEL button is missing on this board it's not that easy to verify DRAM reliability the usual way (through FEL boot) so we should stay with the failsafe value of 624 MHz DRAM clock. Regarding software support we can base on fex file and device tree for the <i>PC</i> and simply add the necessary WiFi chip mappings.
+</li></ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li><a rel="nofollow" class="external text" href="http://www.orangepi.org">Xunlong Orange Pi site</a>
+</li><li><a class="external text" href="https://github.com/orangepi-xunlong">Official Github Repository</a>.
+</li><li><a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepibbsen">Official Orange Pi Form</a>.
+</li><li><a href="/H3_Manual_build_howto" title="H3 Manual build howto">H3_Manual_build_howto</a>
+</li><li><a rel="nofollow" class="external text" href="https://drive.google.com/open?id=0BwQT0FP7IkTbRFJQamNwWTAzWms">Orange Pi PC Schematics 1.2</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h2>
+<p>A various amount of <a rel="nofollow" class="external text" href="http://www.orangepi.org/downloaded/download.html">prebuilt images</a> is provided via OrangePi's Website most of them not containing latest fixes.
+Many people are also running images generated by forum user <a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&amp;tid=342">loboris</a> (<a rel="nofollow" class="external text" href="http://filez.zoobab.com/allwinner/orangepi/mega/">mirror available). It should be noted that when using loboris' images it's always useful to execute his [http://filez.zoobab.com/allwinner/orangepi/mega/update_kernel.sh update_kernel.sh</a> to get latest kernel fixes and settings for the board in question (various script.bin variants for different Orange Pis and display settings). To adjust script.bin settings (overclocked/overvolted) to linux-sunxi defaults there's informations and a script available in <a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&amp;tid=785">this thread</a>.
+</p>
+<h1> <span class="mw-headline" id="References"> References </span></h1>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Xunlong_Orange_Pi_PC&amp;oldid=17753">http://linux-sunxi.org/index.php?title=Xunlong_Orange_Pi_PC&amp;oldid=17753</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:NDH_TODO" title="Category:NDH TODO">NDH TODO</a></li><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:H3_Boards" title="Category:H3 Boards">H3 Boards</a></li><li><a href="/Category:Xunlong" title="Category:Xunlong">Xunlong</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Xunlong+Orange+Pi+PC&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Xunlong+Orange+Pi+PC" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Xunlong_Orange_Pi_PC" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Xunlong_Orange_Pi_PC&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Xunlong_Orange_Pi_PC">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Xunlong_Orange_Pi_PC&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Xunlong_Orange_Pi_PC&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Xunlong_Orange_Pi_PC" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Xunlong_Orange_Pi_PC" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Xunlong_Orange_Pi_PC&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Xunlong_Orange_Pi_PC&amp;oldid=17753" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 23 June 2016, at 11:25.</li>
+<li id="footer-info-viewcount">This page has been accessed 41,622 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

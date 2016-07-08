@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Sinovoip Banana Pi M3 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Sinovoip_Banana_Pi_M3","wgTitle":"Sinovoip Banana Pi M3","wgCurRevisionId":17701,"wgArticleId":2444,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["NDH TODO","Devices","A83T Boards","Devices with Ethernet port","Devices with HDMI port"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Sinovoip_Banana_Pi_M3","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Sinovoip_Banana_Pi_M3"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Sinovoip_Banana_Pi_M3 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Sinovoip Banana Pi M3</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Despite its name the M3 is <b>incompatible to Banana Pi/M1/M1+/Pro/M2/M2+</b> due to a different SoC - requiring different boot loaders and drivers.<br>
+It's another attempt to cash-in on the Banana Pi's popularity with a SBC sharing only Brand-name, form factor and GPIO header.
+</p><p><br/>
+</p>
+<table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #2288EE; background-color: #DDEEFF">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_information.png" class="image"><img alt="MBOX icon information.png" src="/images/9/93/MBOX_icon_information.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;">Info to <a href="/User:Nora_Lee" title="User:Nora Lee">Nora Lee</a>: Please stop doing the marketing spam and join <i>#linux-sunxi</i> on freenode (<a href="/IRC" title="IRC">IRC</a>) to talk about why this edit was reversed the second time. If you keep changing info to untrue facts, your account will get blocked.
+</td></tr></table>
+<table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Sinovoip Banana Pi M3</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:BPi-M3-top-small.jpg" class="image"><img alt="BPi-M3-top-small.jpg" src="/images/5/51/BPi-M3-top-small.jpg" width="250" height="188"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.sinovoip.com.cn/">Sinovoip</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+92 <i>mm</i> x 60 <i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+Nov 2015</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.banana-pi.org/m3.html">M3 product page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A83T" title="A83T">A83T</a> @ 1.2-1.8Ghz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+2GiB LPDDR3 @ 672 MHz (SK hynix)</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+8GB eMMC 4.5 (Samsung KLM8G1GEAC-B001)</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 2A DC-IN via µUSB or barrel jack, solder pads for LiPo battery</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (Type A - full), MIPI/DSI</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm <a class="external text" href="http://en.wikipedia.org/wiki/Phone_connector_(audio)#TRRS_standards">TRRS/OMTP plug</a> (stereo+mic), HDMI, on-board microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+BT4.0/WiFi 802.11 b/g/n (<a href="/Wifi#Ampak" title="Wifi">Ampak AP6212</a>), 10/100/1000Mbps Ethernet (<a href="/Ethernet#Realtek_RTL8211E" title="Ethernet">Realtek RTL8211E</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD (max 64GB), eMMC, SATA 2.0 (via GL830 USB-to-SATA bridge, +5V power on JST XH 2.5mm connector)</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+1 µUSB 2.0 OTG and an internal <i>Terminus Technology Inc. 4-Port HUB</i> feeds 2x USB 2.0 Type-A ports and the SATA bridge</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+IrDA</td></tr>
+</table>
+<p><span style="color:#ba0000">This page needs to be properly filled according to the <a href="/New_Device_howto" title="New Device howto">New Device Howto</a> and the <a href="/New_Device_page" title="New Device page">New Device Page guide</a>.</span>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Manual_build"><span class="tocnumber">2.3</span> <span class="toctext">Manual build</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#U-Boot"><span class="tocnumber">2.3.1</span> <span class="toctext">U-Boot</span></a>
+<ul>
+<li class="toclevel-4 tocsection-7"><a href="#Sunxi.2FLegacy_U-Boot"><span class="tocnumber">2.3.1.1</span> <span class="toctext">Sunxi/Legacy U-Boot</span></a></li>
+<li class="toclevel-4 tocsection-8"><a href="#Mainline_U-Boot"><span class="tocnumber">2.3.1.2</span> <span class="toctext">Mainline U-Boot</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-9"><a href="#Linux_Kernel"><span class="tocnumber">2.3.2</span> <span class="toctext">Linux Kernel</span></a>
+<ul>
+<li class="toclevel-4 tocsection-10"><a href="#Sunxi.2FLegacy_Kernel"><span class="tocnumber">2.3.2.1</span> <span class="toctext">Sunxi/Legacy Kernel</span></a></li>
+<li class="toclevel-4 tocsection-11"><a href="#Mainline_kernel"><span class="tocnumber">2.3.2.2</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#LEDs"><span class="tocnumber">3.1</span> <span class="toctext">LEDs</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#SATA"><span class="tocnumber">3.2</span> <span class="toctext">SATA</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#FEL_mode"><span class="tocnumber">3.3</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Thermal_behaviour"><span class="tocnumber">3.4</span> <span class="toctext">Thermal behaviour</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#USB_2.0_Hosts"><span class="tocnumber">3.5</span> <span class="toctext">USB 2.0 Hosts</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Powering_the_board_.2F_exchanged_DC-IN_connector"><span class="tocnumber">3.6</span> <span class="toctext">Powering the board / exchanged DC-IN connector</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Sudden_shut_offs_.2F_maximum_consumption_.2F_cooling_vs._consumption"><span class="tocnumber">3.7</span> <span class="toctext">Sudden shut offs / maximum consumption / cooling vs. consumption</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Booting_from_different_device"><span class="tocnumber">3.8</span> <span class="toctext">Booting from different device</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Display_caveats"><span class="tocnumber">3.9</span> <span class="toctext">Display caveats</span></a>
+<ul>
+<li class="toclevel-3 tocsection-22"><a href="#HDMI_to_DVI_converters"><span class="tocnumber">3.9.1</span> <span class="toctext">HDMI to DVI converters</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="#LCD_displays"><span class="tocnumber">3.9.2</span> <span class="toctext">LCD displays</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-24"><a href="#Wi-Fi"><span class="tocnumber">3.10</span> <span class="toctext">Wi-Fi</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#Adding_a_serial_port"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-27"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>It's an SBC with blue PCB silkscreened "BPI-M3" in white where you can easily recognise A83T/AXP813 on the PCB's top side.
+</p>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<p>Unsupported.
+</p>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p>All OS images the manufacturer provides are based on Allwinner's 3.4.39 kernel. <a href="/Mainlining_Effort" title="Mainlining Effort" class="mw-redirect">Mainlining efforts</a> for the M3's A83T SoC just started so things won't improve that soon.
+</p>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://www.banana-pi.org/download.html">Official download page with M3 section containing various Linux images based on kernel 3.4.39</a>
+</li><li><a rel="nofollow" class="external text" href="http://forum.banana-pi.org/t/banana-pi-bpi-m3-android-5-1-1-image-update/754">Android 5.1.1 image provided by SinoVoip</a>
+</li></ul>
+<p>All the OS images are based on u-boot 2011.09 and kernel 3.4.39 using an initrd and do not provide script.bin/uEnv.txt support.
+</p><p>3 Months after releasing the first OS images the situation still hasn't improved. SinoVoip fixed some stuff in their Github repo but still doesn't provide a way to apply these updates to existing OS images. As the result of a quick try to let Armbian support the M3 (nope) here is an archive <a rel="nofollow" class="external text" href="http://kaiser-edv.de/tmp/2m8dxM/">BPI-M3-3.4.42_uEnv_Script_bin.zip</a> (md5sum 360a32fe9d470296abebc4af0825acc9) containing boot-resource.fex, boot.img, env.fex, u-boot.fex and 3.4.42-BPI-M3-Kernel.tar. It can be used to <i>cure</i> all available OS images for Banana Pi M3 (and for other A83T/H8 devices also I would suspect). It contains all BSP fixes for the M3 up to Feb 2016 and also a higher kernel version. To use it unpack the archive, choose an OS image $image as target and then do
+</p>
+<pre>dd if=u-boot.fex of=$image bs=1k seek=19096
+dd if=boot-resource.fex of=$image bs=1k seek=36864
+dd if=env.fex of=$image bs=1k seek=69632
+dd if=boot.img of=$image bs=1k seek=86016</pre>
+<p>Mount afterwards the 2nd partition of the image and unpack 3.4.42-BPI-M3-Kernel.tar below /lib/modules. You should then be able to create uEnv.txt and script.bin on the 1st partition (a <a rel="nofollow" class="external text" href="http://forum.banana-pi.org/t/bpi-m3-how-to-use-fatload-uenv-txt-script-bin-kernel-uimage/1245">weird howto available in the official Banana Pi forum</a>)
+</p>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<p>No support in the community maintained sunxi-3.4 kernel is planned. Allwinner's kernel sources for the A83T can be found now <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp/tree/master/linux-sunxi">here</a>.
+</p>
+<h3> <span class="mw-headline" id="U-Boot"> U-Boot </span></h3>
+<h4> <span class="mw-headline" id="Sunxi.2FLegacy_U-Boot"> Sunxi/Legacy U-Boot </span></h4>
+<p>The manufacturer uses an <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp/tree/master/u-boot-sunxi">u-boot.2011-something version</a> without support for script.bin
+</p>
+<h4> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h4>
+<p>Use the <i>Sinovoip_BPI_M3_defconfig</i> build target.
+</p>
+<h3> <span class="mw-headline" id="Linux_Kernel"> Linux Kernel </span></h3>
+<h4> <span class="mw-headline" id="Sunxi.2FLegacy_Kernel"> Sunxi/Legacy Kernel </span></h4>
+<p>Since the M3's bsp uses an aging u-boot from 2011 no script.bin support exists therefore you've to adjust display settings in the fex file. Some can be found in <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp/tree/master/sunxi-pack/chips/sun8iw6p1/configs">SinoVoip's M3 repo</a>.
+</p>
+<h4> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h4>
+<p>Use the <i><span style="color:#ba0000">FAMILY-CHIP-DEVICE.dtb</span></i> device-tree binary.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="LEDs"> LEDs </span></h2>
+<p>The BPi-M3 features 3 LEDs located between IR receiver and microphone: A <i>red</i> one indicating power that can't be turned off and a <i>green</i> and <i>blue</i> one accessible through sysfs after latest fixes are applied to <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp/commit/cea6b960789c5564fc81c8043e82be3e2f32dd93">kernel sources</a> and <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp/commit/962ffb299156a0bda369386762ccb53aec8a1d3b">hardware initialisation</a>.
+</p><p>Both <i>green</i> and <i>blue</i> LED can then be controlled through sysfs and appear below <i>/sys/class/leds/</i>. To show the available triggers do a <code>cat /sys/class/leds/green_led/trigger</code> and set this to <i>none</i> if the default <i>heartbeat</i> blinking annoys you. Since the <i>timer</i> trigger also exists <a rel="nofollow" class="external text" href="http://destroyedlolo.info/Developpement/BananaLEDd/">BananaLEDd</a> should be useable to show disk activity and average load (to be confirmed) since BananaLEDd supports LEDs accessible through sysfs starting with version 1.2
+</p>
+<h2> <span class="mw-headline" id="SATA"> SATA </span></h2>
+<p>Be aware that the A83T SoC used on the M3 isn't SATA capable and therefore the SATA port is provided by an USB-to-SATA-bridge. This means you can neither expect <a href="/Sunxi_devices_as_NAS#Per_connection_limits" title="Sunxi devices as NAS">SATA performance</a> nor full SATA functionality. While the used GL830 bridge supports <a class="external text" href="https://en.wikipedia.org/wiki/S.M.A.R.T.">S.M.A.R.T.</a> attributes it does not support S.M.A.R.T. status notification (overall health indicator of the disk – instead of <i>PASSED</i> or <i>FAILED</i> you will only get <i>SMART Status not supported: Incomplete response, ATA output registers missing</i>). Fortunately the GL830 seems to have no 2TB limitation.
+</p><p>Expected <i>SATA</i> performance is even worse compared to <a href="/Xunlong_Orange_Pi_Plus" title="Xunlong Orange Pi Plus">Orange Pi Plus</a> that relies on the same old GL830 chip since on the M3 all externally available USB host ports and the SATA bridge are connected through the internal hub to one single USB port and therefore have to share bandwidth. First tests don't look that promising: tests done with a fast SSD/ext4 at two different clockspeeds: 13/23 MB/s @ 480 MHz vs 15/30 MB/s @1800 MHz write/read. Using an external Micron JMS567 that is known to <a href="/USB/UAS#Testing_3_different_external_enclosures" title="USB/UAS">get close to 40 MB/s</a> sequential transfer speeds @ 1800 MHz exceeded 35/34 MB/s write/read with same SSD/ext4. It seems the GL830 wasn't the best choice to provide a SATA port on the M3.
+</p>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The u-boot button triggers <a href="/FEL" title="FEL"> FEL mode</a>.
+</p>
+<h2> <span class="mw-headline" id="Thermal_behaviour"> Thermal behaviour </span></h2>
+<p>Allwinner's kernel for H3 and A83T seem to implement identical thermal throttling strategies depending on <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp/blob/daaa78441b0d8b8d186dbef188dddc7b597d1d9c/sunxi-pack/chips/sun8iw6p1/configs/BPI_M3_1080P/sys_config.fex#L483-L513">fex settings</a> that can be read out through sysfs: <i>/sys/devices/virtual/thermal/thermal_zone0/trip_point*</i>. If these values are set in incremented order first throttling will occur and only if this still doesn't help CPU cores will dropped. By <i>tuning</i> these settings you might get the opposite of what's intended: a slower system due to less available CPU cores.
+</p><p>With Allwinner's kernel there's also something like fan control implemented. Below <i>/sys/devices/virtual/thermal/cooling_device0/</i> you can read out <i>cur_state</i> that will be adjusted depending on <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp/blob/daaa78441b0d8b8d186dbef188dddc7b597d1d9c/sunxi-pack/chips/sun8iw6p1/configs/BPI_M3_1080P/sys_config.fex#L514-L527">fex settings</a> between 0 and <i>max_state</i>.
+</p><p>Without a heatsink you won't exceed 1.2GHz when running CPU intensive tasks, when choosing a good one and enough airflow you might get up to 1.6 GHz and everything above needs an annoying fan. The good news: This is still no overvolting/overclocking since it's just about better heat dissipation to avoid throttling. The bad news: You need to solder a sane way to provide more than 5V/2A to the board -- <a href="#Sudden_shut_offs_.2F_maximum_consumption_.2F_cooling_vs._consumption">see below</a>.
+</p>
+<h2> <span class="mw-headline" id="USB_2.0_Hosts"> USB 2.0 Hosts </span></h2>
+<p>In opposite to CubieBoard5, the M3s hardware design does not make use of all USB connections offered by the SoC (A83T).<br>
+The HSIC port is connected to the Terminus Technology Inc. 4-Port USB hub. On this hub is attached
+the USB-to-SATA bridge and the 2x available USB Type-A ports. Therefore these 3 connectors have to share the bandwidth
+of a single USB2.0 connection.<br>
+1x OTG MicroUSB<br>
+It seems that the hub's fourth port is routed to solder pads located between onboard microphone and GPIO header.
+</p>
+<h2> <span class="mw-headline" id="Powering_the_board_.2F_exchanged_DC-IN_connector"> Powering the board / exchanged DC-IN connector </span></h2>
+<p>The pre-production samples of this board had the usual 4.0/1.7mm barrel jack for DC-IN BPi M2/M2+ also use. This has been replaced by a Micro USB jack on the first production batch in Dec 2015 leading to the usual sorts of problems banana-pi.org forums are full of (see also next paragraph for some reasons). Starting in May 2016 Micro USB has been replaced by the 4.0/1.7mm barrel jack again so powering is possible more reliable now. The Micro USB receptacle on the longer board side is USB OTG, also connected to the board's PMIC and while looking like an alternative way to power the board that's not recommended unless you love underpowering situations, reboot loops and the like.
+</p><p>In case you're unlucky enough to own an M3 from the first production batch have a look at the gallery below where to measure / fix undervoltage/undercurrent problems you'll run into sooner or later.
+</p>
+<h2> <span class="mw-headline" id="Sudden_shut_offs_.2F_maximum_consumption_.2F_cooling_vs._consumption"> Sudden shut offs / maximum consumption / cooling vs. consumption </span></h2>
+<p>In case you experience shut offs when connecting peripherals or operating the device under high load have a look at the gallery below where to measure and where to solder a fix. This is especially recommended when you want to make use of the promised performance (octacore @ 2.0GHz according to the manufacturer). If you use the device without heatsink consumption through CPU cores will seldom being able to exceed 4W-5W since thermal throttling will decrease clockspeeds automagically and dynamic voltage frequency scaling (dvfs) will then also reduce Vcore.
+</p><p>With an applied small heatsink and outside of an enclosure under constant full load the A83T will jump between 1008 MHz and 1200 MHz due to thermal throttling. At the latter cpufreq Vcore will be already set to 920mV while being set to 840mV at 1008 MHz:
+</p><p><a href="/File:BPi-M3_full_load_small_heatsink.png" class="image"><img alt="BPi-M3 full load small heatsink.png" src="/images/5/5d/BPi-M3_full_load_small_heatsink.png" width="917" height="310"/></a>
+</p><p>Under these conditions CPU activity is responsible for the board consuming between 5.5W-6W. If you improve heat dissipation by using a large heatsink or even a fan you will let thermal throttling jump in later with drastical consequences.
+</p><p>Due to the <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp/blob/85c5a948f6ec8738cfaca5ec4ae9ca600c2f481c/sunxi-pack/chips/sun8iw6p1/configs/BPI_M3_1080P/sys_config.fex#L1754-L1771">dvfs settings Vcore will be increased to 1000mV or even 1080mV when reaching 1800 MHz</a>. And then CPU activity alone is responsible for a whopping 8W consumption. And while this might work in a test environment with just a serial console attached it can't work in a normal environment with a connected display, a few USB peripherals and a connected disk needing another 4-5W exceeding 12W easily. Micro USB is rated 5V/1.8A max: 9W or maybe 10W under best conditions (most likely due to crappy USB cables the board's PMU will diagnose undervoltage way earlier and shuts down).
+</p><p>In case you improve heat dissipation be prepared for shut-offs unless you solder a sane DC-IN solution and use 5V/3A at least (won't help with micro USB due to the tiny contacts)
+</p>
+<h2> <span class="mw-headline" id="Booting_from_different_device"> Booting from different device </span></h2>
+<p>Using the BSP and the OS images SinoVoip provides it's only possible to boot from <i>/dev/mmcblk0p2</i> (compare with /proc/cmdline). To change that you've to grab the BSP and adjust <i>sunxi-pack/chips/sun8iw6p1/configs/*/env.cfg</i> to be able to boot using NFS or USB (please remember: the M3 has no SATA any more, just an ultra-slow onboard USB-to-SATA bridge). If you try to adjust <i>root=</i> to point to any USB location always keep in mind that device nodes might not be persistent across reboots therefore always use the partition UUID instead. In case you want to boot from a partition that's currently mounted as /dev/sda1 do a <i>gdisk -l /dev/sda1</i> and use the UUID it prints, eg.: <i>root=PARTUUID=1A40C346-C1F0-4613-B3AB-1FA3C6B6F343</i>. Don't use the output of <i>blkid</i>, these aren't the partition UUIDs!
+</p><p>Please always keep in mind that booting from a connected <i>SATA disk</i> behind the GL830 is the worst idea ever since every BPi M3 ships with 8GB onboard eMMC which is more than twice as fast as any disk behind the slow GL830 bridge.
+</p>
+<h2> <span class="mw-headline" id="Display_caveats"> Display caveats </span></h2>
+<h3> <span class="mw-headline" id="HDMI_to_DVI_converters"> HDMI to DVI converters </span></h3>
+<p>When trying to use HDMI to DVI converters with Allwinner's 3.4.39 kernel a small fix has to be applied. The contents of sysconfig.fex have to be adjusted (and the whole <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-M3-bsp">BSP</a> has to be rebuilt since there's no support for script.bin) so that the following has been added to the <i>[hdmi_para]</i> section:
+</p>
+<pre>hdcp_enable = 0
+hdmi_cts_compatibility = 1</pre>
+<h3> <span class="mw-headline" id="LCD_displays"> LCD displays </span></h3>
+<p>Since the A83T/R58/H8 has only support for MIPI/DSI to drive LCD displays none of the available LVDS/RGB LCDs sold for older incompatible Banana Pi variants can be used. SinoVoip sold a 7" TS LCD panel since summer 2015 with just 800x480 pixels that's also incompatible to the Banana Pi M3 since it's also using LVDS/RGB as interface. In the meantime SinoVoip provides a new variant of this 7" LCD with a controller board featuring both MIPI/DSI for the M3 and LVDS/RGB for M1/M1+/M2. Of course they re-used the same article in their aliexpress shop so be prepared that reviews/ratings found there are for the older variant and not the current one.
+</p>
+<h2> <span class="mw-headline" id="Wi-Fi"> Wi-Fi </span></h2>
+<p>In case WiFi isn't working (reliably) with an external antenna that's an intentional <i>feature</i> of this board. Don't try to fix it in software unless you desoldered a small resistor on the PCB (that's not a bad joke but an <a rel="nofollow" class="external text" href="http://forum.banana-pi.org/t/how-to-use-bpi-m3-wifi-extebd-antenna-slot/1283">official suggestion</a> obviously not taking into account that different PCB revisions exist)
+</p>
+<h1> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:BPi-M3-UART.jpg" class="image"><img alt="" src="/images/thumb/1/1b/BPi-M3-UART.jpg/240px-BPi-M3-UART.jpg" width="240" height="180" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:BPi-M3-UART.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART pins</div></div></div>
+<p>The UART header is between u-boot button and the Ethernet port. Just attach some leads according to our <a href="/UART" title="UART">UART howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:BPi-M3-front.jpg" class="image"><img alt="BPi-M3-front.jpg" src="/images/thumb/3/34/BPi-M3-front.jpg/120px-BPi-M3-front.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:BPi-M3-back.jpg" class="image"><img alt="BPi-M3-back.jpg" src="/images/thumb/8/8a/BPi-M3-back.jpg/120px-BPi-M3-back.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:BPi-M3-left.jpg" class="image"><img alt="BPi-M3-left.jpg" src="/images/thumb/7/75/BPi-M3-left.jpg/120px-BPi-M3-left.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:BPi-M3-right.jpg" class="image"><img alt="BPi-M3-right.jpg" src="/images/thumb/9/9b/BPi-M3-right.jpg/120px-BPi-M3-right.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:BPi-M3-top.jpg" class="image"><img alt="BPi-M3-top.jpg" src="/images/thumb/2/22/BPi-M3-top.jpg/120px-BPi-M3-top.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:BPi-M3-bottom.jpg" class="image"><img alt="BPi-M3-bottom.jpg" src="/images/thumb/c/ca/BPi-M3-bottom.jpg/120px-BPi-M3-bottom.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:BPi-M3_Fix_crappy_DC-IN.jpg" class="image"><img alt="BPi-M3 Fix crappy DC-IN.jpg" src="/images/thumb/8/8d/BPi-M3_Fix_crappy_DC-IN.jpg/120px-BPi-M3_Fix_crappy_DC-IN.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:BPi-M3_fixed_DC-IN.jpg" class="image"><img alt="BPi-M3 fixed DC-IN.jpg" src="/images/thumb/8/8a/BPi-M3_fixed_DC-IN.jpg/120px-BPi-M3_fixed_DC-IN.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li><a rel="nofollow" class="external text" href="https://drive.google.com/folderview?id=0B4PAo2nW2KfnfjNVdkxhVktnTUJEdXhlZXZrN2YtVW1LSXJlNW1MZUpDQllzVVFTYmFjUFE&amp;usp=sharing&amp;tid=0B4PAo2nW2Kfndjh6SW9MS2xKSWs#list">a so called 'User Manual' and some hardware docs</a>
+</li><li><a rel="nofollow" class="external text" href="https://drive.google.com/folderview?id=0B4PAo2nW2KfnflVqbjJGTFlFTTd1b1o1OUxDNk5ackVDM0RNUjBpZ0FQU19SbDk1MngzZWM&amp;usp=sharing&amp;tid=0B4PAo2nW2Kfndjh6SW9MS2xKSWs#list">BPI-M3 V1_2 schematic diagram 20151014(RELEASE)</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Sinovoip_Banana_Pi_M3&amp;oldid=17701">http://linux-sunxi.org/index.php?title=Sinovoip_Banana_Pi_M3&amp;oldid=17701</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:NDH_TODO" title="Category:NDH TODO">NDH TODO</a></li><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A83T_Boards" title="Category:A83T Boards">A83T Boards</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Sinovoip+Banana+Pi+M3&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Sinovoip+Banana+Pi+M3" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Sinovoip_Banana_Pi_M3" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Sinovoip_Banana_Pi_M3&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Sinovoip_Banana_Pi_M3">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Sinovoip_Banana_Pi_M3&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Sinovoip_Banana_Pi_M3&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Sinovoip_Banana_Pi_M3" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Sinovoip_Banana_Pi_M3" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Sinovoip_Banana_Pi_M3&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Sinovoip_Banana_Pi_M3&amp;oldid=17701" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 18 June 2016, at 16:34.</li>
+<li id="footer-info-viewcount">This page has been accessed 20,345 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,2348 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>H3/PIO - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"H3/PIO","wgTitle":"H3/PIO","wgCurRevisionId":16456,"wgArticleId":2287,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"H3/PIO","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/H3/PIO"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-H3_PIO skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">H3/PIO</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"><span class="subpages">&lt; <a href="/H3" title="H3">H3</a></span></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><h2> <span class="mw-headline" id="Programmable_I.2FO_Pins_.28WIP.29"> Programmable I/O Pins (WIP) </span></h2>
+<table class="wikitable">
+<tr>
+<th colspan="9"> <span id="PA">Port Bank A</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PA00"><tt><a href="#PA00">PA00<tt></a></span>
+</td>
+<td> D11
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART2_TX</a>
+</td>
+<td> JTAG_MS
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA01"><tt><a href="#PA01">PA01<tt></a></span>
+</td>
+<td> D5
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART2_RX</a>
+</td>
+<td> JTAG_CK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA02"><tt><a href="#PA02">PA02<tt></a></span>
+</td>
+<td> D6
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART2_RTS</a>
+</td>
+<td> JTAG_DO
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA03"><tt><a href="#PA03">PA03<tt></a></span>
+</td>
+<td> E13
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART2_CTS</a>
+</td>
+<td> JTAG_DI
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA04"><tt><a href="#PA04">PA04<tt></a></span>
+</td>
+<td> F5
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART0_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT4</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA05"><tt><a href="#PA05">PA05<tt></a></span>
+</td>
+<td> H6
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART0_RX</a>
+</td>
+<td> PWM0
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT5</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA06"><tt><a href="#PA06">PA06<tt></a></span>
+</td>
+<td> E14
+</td>
+<td> I/O
+</td>
+<td> SIM_PWREN
+</td>
+<td> PWM1
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT6</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA07"><tt><a href="#PA07">PA07<tt></a></span>
+</td>
+<td> D8
+</td>
+<td> I/O
+</td>
+<td> SIM_CLK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT7</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA08"><tt><a href="#PA08">PA08<tt></a></span>
+</td>
+<td> F13
+</td>
+<td> I/O
+</td>
+<td> SIM_DATA
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT8</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA09"><tt><a href="#PA09">PA09<tt></a></span>
+</td>
+<td> D13
+</td>
+<td> I/O
+</td>
+<td> SIM_RST
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT9</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA10"><tt><a href="#PA10">PA10<tt></a></span>
+</td>
+<td> E11
+</td>
+<td> I/O
+</td>
+<td> SIM_DET
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT10</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA11"><tt><a href="#PA11">PA11<tt></a></span>
+</td>
+<td> F11
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=TWI_TWI0_SCK&amp;action=edit&amp;redlink=1" class="new" title="TWI TWI0 SCK (page does not exist)">TWI TWI0_SCK</a>
+</td>
+<td> DI_TX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT11</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA12"><tt><a href="#PA12">PA12<tt></a></span>
+</td>
+<td> C13
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=TWI_TWI0_SDA&amp;action=edit&amp;redlink=1" class="new" title="TWI TWI0 SDA (page does not exist)">TWI TWI0_SDA</a>
+</td>
+<td> DI_RX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT12</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA13"><tt><a href="#PA13">PA13<tt></a></span>
+</td>
+<td> E15
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=A10/SPI&amp;action=edit&amp;redlink=1" class="new" title="A10/SPI (page does not exist)">SPI1_CS</a>
+</td>
+<td> <a href="/UART" title="UART">UART3_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT13</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA14"><tt><a href="#PA14">PA14<tt></a></span>
+</td>
+<td> G12
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=A10/SPI&amp;action=edit&amp;redlink=1" class="new" title="A10/SPI (page does not exist)">SPI1_CLK</a>
+</td>
+<td> <a href="/UART" title="UART">UART3_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT14</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA15"><tt><a href="#PA15">PA15<tt></a></span>
+</td>
+<td> F14
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=A10/SPI&amp;action=edit&amp;redlink=1" class="new" title="A10/SPI (page does not exist)">SPI1_MOSI</a>
+</td>
+<td> <a href="/UART" title="UART">UART3_RTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT15</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA16"><tt><a href="#PA16">PA16<tt></a></span>
+</td>
+<td> D15
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=A10/SPI&amp;action=edit&amp;redlink=1" class="new" title="A10/SPI (page does not exist)">SPI1_MISO</a>
+</td>
+<td> <a href="/UART" title="UART">UART3_CTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT16</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA17"><tt><a href="#PA17">PA17<tt></a></span>
+</td>
+<td> C14
+</td>
+<td> I/O
+</td>
+<td> <a href="/SPDIF" title="SPDIF">OWA_OUT</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT17</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA18"><tt><a href="#PA18">PA18<tt></a></span>
+</td>
+<td> B13
+</td>
+<td> I/O
+</td>
+<td> PCM0_SYNC
+</td>
+<td> <a href="/index.php?title=TWI_TWI1_SCK&amp;action=edit&amp;redlink=1" class="new" title="TWI TWI1 SCK (page does not exist)">TWI TWI1_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT18</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA19"><tt><a href="#PA19">PA19<tt></a></span>
+</td>
+<td> B14
+</td>
+<td> I/O
+</td>
+<td> PCM0_CLK
+</td>
+<td> <a href="/index.php?title=TWI_TWI1_SDA&amp;action=edit&amp;redlink=1" class="new" title="TWI TWI1 SDA (page does not exist)">TWI TWI1_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT19</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA20"><tt><a href="#PA20">PA20<tt></a></span>
+</td>
+<td> A13
+</td>
+<td> I/O
+</td>
+<td> PCM0_DOUT
+</td>
+<td> SIM_VPPEN
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT20</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA21"><tt><a href="#PA21">PA21<tt></a></span>
+</td>
+<td> A14
+</td>
+<td> I/O
+</td>
+<td> PCM0_DIN
+</td>
+<td> SIM_VPPPP
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PA&amp;action=edit&amp;redlink=1" class="new" title="PA (page does not exist)">PA_EINT21</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PC">Port Bank C</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PC00"><tt><a href="#PC00">PC00<tt></a></span>
+</td>
+<td> C15
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NAND_WE#</a>
+</td>
+<td> SPI0_MOSI
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC01"><tt><a href="#PC01">PC01<tt></a></span>
+</td>
+<td> C16
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NALE</a>
+</td>
+<td> <a href="/index.php?title=A10/SPI&amp;action=edit&amp;redlink=1" class="new" title="A10/SPI (page does not exist)">SPI0_MISO</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC02"><tt><a href="#PC02">PC02<tt></a></span>
+</td>
+<td> B16
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NCLE</a>
+</td>
+<td> <a href="/index.php?title=A10/SPI&amp;action=edit&amp;redlink=1" class="new" title="A10/SPI (page does not exist)">SPI0_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC03"><tt><a href="#PC03">PC03<tt></a></span>
+</td>
+<td> B15
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NCE1</a>
+</td>
+<td> <a href="/index.php?title=A10/SPI&amp;action=edit&amp;redlink=1" class="new" title="A10/SPI (page does not exist)">SPI0_CS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC04"><tt><a href="#PC04">PC04<tt></a></span>
+</td>
+<td> F16
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NCE0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC05"><tt><a href="#PC05">PC05<tt></a></span>
+</td>
+<td> A17
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NRE#</a>
+</td>
+<td> SDC2_CLK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC06"><tt><a href="#PC06">PC06<tt></a></span>
+</td>
+<td> E16
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NRB0</a>
+</td>
+<td> SDC2_CMD
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC07"><tt><a href="#PC07">PC07<tt></a></span>
+</td>
+<td> A16
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NRB1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC08"><tt><a href="#PC08">PC08<tt></a></span>
+</td>
+<td> B18
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQ0</a>
+</td>
+<td> SDC2_D0
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC09"><tt><a href="#PC09">PC09<tt></a></span>
+</td>
+<td> C17
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQ1</a>
+</td>
+<td> SDC2_D1
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC10"><tt><a href="#PC10">PC10<tt></a></span>
+</td>
+<td> D17
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQ2</a>
+</td>
+<td> SDC2_D2
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC11"><tt><a href="#PC11">PC11<tt></a></span>
+</td>
+<td> C18
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQ3</a>
+</td>
+<td> SDC2_D3
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC12"><tt><a href="#PC12">PC12<tt></a></span>
+</td>
+<td> B17
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQ4</a>
+</td>
+<td> SDC2_D4
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC13"><tt><a href="#PC13">PC13<tt></a></span>
+</td>
+<td> B19
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQ5</a>
+</td>
+<td> SDC2_D5
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC14"><tt><a href="#PC14">PC14<tt></a></span>
+</td>
+<td> F17
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQ6</a>
+</td>
+<td> SDC2_D6
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC15"><tt><a href="#PC15">PC15<tt></a></span>
+</td>
+<td> C19
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQ7</a>
+</td>
+<td> SDC2_D7
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC16"><tt><a href="#PC16">PC16<tt></a></span>
+</td>
+<td> H16
+</td>
+<td> I/O
+</td>
+<td> <a href="/NFC" title="NFC" class="mw-redirect">NDQS</a>
+</td>
+<td> SDC2_RST
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PD">Port Bank D</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PD00"><tt><a href="#PD00">PD00<tt></a></span>
+</td>
+<td> C21
+</td>
+<td> I/O
+</td>
+<td> RGMII_RXD3/MII_RXD3/RMII_NULL
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD01"><tt><a href="#PD01">PD01<tt></a></span>
+</td>
+<td> H17
+</td>
+<td> I/O
+</td>
+<td> RGMII_RXD2/MII_RXD2/RMII_NULL
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD02"><tt><a href="#PD02">PD02<tt></a></span>
+</td>
+<td> B20
+</td>
+<td> I/O
+</td>
+<td> RGMII_RXD1/MII_RXD1/RMII_RXD1
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD03"><tt><a href="#PD03">PD03<tt></a></span>
+</td>
+<td> H18
+</td>
+<td> I/O
+</td>
+<td> RGMII_RXD0/MII_RXD0/RMII_RXD0
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD04"><tt><a href="#PD04">PD04<tt></a></span>
+</td>
+<td> A20
+</td>
+<td> I/O
+</td>
+<td> RGMII_RXCK/MII_RXCK/RMII_NULL
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD05"><tt><a href="#PD05">PD05<tt></a></span>
+</td>
+<td> F19
+</td>
+<td> I/O
+</td>
+<td> RGMII_RXCTL/MII_RXDV/RMII_CRS_DV
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD06"><tt><a href="#PD06">PD06<tt></a></span>
+</td>
+<td> B21
+</td>
+<td> I/O
+</td>
+<td> RGMII_NULL/MII_RXERR/RMII_RXER
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD07"><tt><a href="#PD07">PD07<tt></a></span>
+</td>
+<td> E18
+</td>
+<td> I/O
+</td>
+<td> RGMII_TXD3/MII_TXD3/RMII_NULL
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD08"><tt><a href="#PD08">PD08<tt></a></span>
+</td>
+<td> E20
+</td>
+<td> I/O
+</td>
+<td> RGMII_TXD2/MII_TXD2/RMII_NULL
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD09"><tt><a href="#PD09">PD09<tt></a></span>
+</td>
+<td> F21
+</td>
+<td> I/O
+</td>
+<td> RGMII_TXD1/MII_TXD1/RMII_TXD1
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD10"><tt><a href="#PD10">PD10<tt></a></span>
+</td>
+<td> H19
+</td>
+<td> I/O
+</td>
+<td> RGMII_TXD0/MII_TXD0/RMII_TXD0
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD11"><tt><a href="#PD11">PD11<tt></a></span>
+</td>
+<td> F20
+</td>
+<td> I/O
+</td>
+<td> RGMII_NULL/MII_CRS/RMII_NULL
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD12"><tt><a href="#PD12">PD12<tt></a></span>
+</td>
+<td> E19
+</td>
+<td> I/O
+</td>
+<td> RGMII_TXCK/MII_TXCK/RMII_TXCK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD13"><tt><a href="#PD13">PD13<tt></a></span>
+</td>
+<td> K17
+</td>
+<td> I/O
+</td>
+<td> RGMII_TXCTL/MII_TXEN/RMII_TXEN
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD14"><tt><a href="#PD14">PD14<tt></a></span>
+</td>
+<td> L17
+</td>
+<td> I/O
+</td>
+<td> RGMII_NULL/MII_TXERR/RMII_NULL
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD15"><tt><a href="#PD15">PD15<tt></a></span>
+</td>
+<td> K18
+</td>
+<td> I/O
+</td>
+<td> RGMII_CLKIN/MII_COL/RMII_NULL
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD16"><tt><a href="#PD16">PD16<tt></a></span>
+</td>
+<td> L18
+</td>
+<td> I/O
+</td>
+<td> MDC
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD17"><tt><a href="#PD17">PD17<tt></a></span>
+</td>
+<td> L19
+</td>
+<td> I/O
+</td>
+<td> MDIO
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PE">Port Bank E</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PE00"><tt><a href="#PE00">PE00<tt></a></span>
+</td>
+<td> B10
+</td>
+<td> I/O
+</td>
+<td> CSI_PCLK
+</td>
+<td> TS_CLK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE01"><tt><a href="#PE01">PE01<tt></a></span>
+</td>
+<td> A10
+</td>
+<td> I/O
+</td>
+<td> CSI_MCLK
+</td>
+<td> TS_ERR
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE02"><tt><a href="#PE02">PE02<tt></a></span>
+</td>
+<td> B11
+</td>
+<td> I/O
+</td>
+<td> CSI_HSYNC
+</td>
+<td> TS_SYNC
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE03"><tt><a href="#PE03">PE03<tt></a></span>
+</td>
+<td> C10
+</td>
+<td> I/O
+</td>
+<td> CSI_VSYNC
+</td>
+<td> TS_DVLD
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE04"><tt><a href="#PE04">PE04<tt></a></span>
+</td>
+<td> C9
+</td>
+<td> I/O
+</td>
+<td> CSI_D0
+</td>
+<td> TS_D0
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE05"><tt><a href="#PE05">PE05<tt></a></span>
+</td>
+<td> E10
+</td>
+<td> I/O
+</td>
+<td> CSI_D1
+</td>
+<td> TS_D1
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE06"><tt><a href="#PE06">PE06<tt></a></span>
+</td>
+<td> D10
+</td>
+<td> I/O
+</td>
+<td> CSI_D2
+</td>
+<td> TS_D2
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE07"><tt><a href="#PE07">PE07<tt></a></span>
+</td>
+<td> C8
+</td>
+<td> I/O
+</td>
+<td> CSI_D3
+</td>
+<td> TS_D3
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE08"><tt><a href="#PE08">PE08<tt></a></span>
+</td>
+<td> C11
+</td>
+<td> I/O
+</td>
+<td> CSI_D4
+</td>
+<td> TS_D4
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE09"><tt><a href="#PE09">PE09<tt></a></span>
+</td>
+<td> C12
+</td>
+<td> I/O
+</td>
+<td> CSI_D5
+</td>
+<td> TS_D5
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE10"><tt><a href="#PE10">PE10<tt></a></span>
+</td>
+<td> E8
+</td>
+<td> I/O
+</td>
+<td> CSI_D6
+</td>
+<td> TS_D6
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE11"><tt><a href="#PE11">PE11<tt></a></span>
+</td>
+<td> A11
+</td>
+<td> I/O
+</td>
+<td> CSI_D7
+</td>
+<td> TS_D7
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE12"><tt><a href="#PE12">PE12<tt></a></span>
+</td>
+<td> B12
+</td>
+<td> I/O
+</td>
+<td> CSI_SCK
+</td>
+<td> TWI2_SCK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE13"><tt><a href="#PE13">PE13<tt></a></span>
+</td>
+<td> C7
+</td>
+<td> I/O
+</td>
+<td> CSI_SDA
+</td>
+<td> TWI2_SDA
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE14"><tt><a href="#PE14">PE14<tt></a></span>
+</td>
+<td> C6
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE15"><tt><a href="#PE15">PE15<tt></a></span>
+</td>
+<td> C5
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PF">Port Bank F</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PF00"><tt><a href="#PF00">PF00<tt></a></span>
+</td>
+<td> D19
+</td>
+<td> I/O
+</td>
+<td> SDC0_D1
+</td>
+<td> JTAG_MS
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF01"><tt><a href="#PF01">PF01<tt></a></span>
+</td>
+<td> A19
+</td>
+<td> I/O
+</td>
+<td> SDC0_D0
+</td>
+<td> JTAG_DI
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF02"><tt><a href="#PF02">PF02<tt></a></span>
+</td>
+<td> D20
+</td>
+<td> I/O
+</td>
+<td> SDC0_CLK
+</td>
+<td> UART0_TX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF03"><tt><a href="#PF03">PF03<tt></a></span>
+</td>
+<td> F18
+</td>
+<td> I/O
+</td>
+<td> SDC0_CMD
+</td>
+<td> JTAG_DO
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF04"><tt><a href="#PF04">PF04<tt></a></span>
+</td>
+<td> E21
+</td>
+<td> I/O
+</td>
+<td> SDC0_D3
+</td>
+<td> UART0_RX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF05"><tt><a href="#PF05">PF05<tt></a></span>
+</td>
+<td> C20
+</td>
+<td> I/O
+</td>
+<td> SDC0_D2
+</td>
+<td> JTAG_CK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF06"><tt><a href="#PF06">PF06<tt></a></span>
+</td>
+<td> G18
+</td>
+<td> I/O
+</td>
+<td> SDC0_DET
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PG">Port Bank G</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PG00"><tt><a href="#PG00">PG00<tt></a></span>
+</td>
+<td> J3
+</td>
+<td> I/O
+</td>
+<td> SDC1_CLK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT0
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG01"><tt><a href="#PG01">PG01<tt></a></span>
+</td>
+<td> L2
+</td>
+<td> I/O
+</td>
+<td> SDC1_CMD
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT1
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG02"><tt><a href="#PG02">PG02<tt></a></span>
+</td>
+<td> H4
+</td>
+<td> I/O
+</td>
+<td> SDC1_D0
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT2
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG03"><tt><a href="#PG03">PG03<tt></a></span>
+</td>
+<td> F3
+</td>
+<td> I/O
+</td>
+<td> SDC1_D1
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT3
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG04"><tt><a href="#PG04">PG04<tt></a></span>
+</td>
+<td> C2
+</td>
+<td> I/O
+</td>
+<td> SDC1_D2
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT4
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG05"><tt><a href="#PG05">PG05<tt></a></span>
+</td>
+<td> C1
+</td>
+<td> I/O
+</td>
+<td> SDC1_D3
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT5
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG06"><tt><a href="#PG06">PG06<tt></a></span>
+</td>
+<td> G4
+</td>
+<td> I/O
+</td>
+<td> UART1_TX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT6
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG07"><tt><a href="#PG07">PG07<tt></a></span>
+</td>
+<td> D3
+</td>
+<td> I/O
+</td>
+<td> UART1_RX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT7
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG08"><tt><a href="#PG08">PG08<tt></a></span>
+</td>
+<td> C3
+</td>
+<td> I/O
+</td>
+<td> UART1_RTS
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT8
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG09"><tt><a href="#PG09">PG09<tt></a></span>
+</td>
+<td> E3
+</td>
+<td> I/O
+</td>
+<td> UART1_CTS
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT9
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG10"><tt><a href="#PG10">PG10<tt></a></span>
+</td>
+<td> M3
+</td>
+<td> I/O
+</td>
+<td> PCM1_SYNC
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT10
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG11"><tt><a href="#PG11">PG11<tt></a></span>
+</td>
+<td> D2
+</td>
+<td> I/O
+</td>
+<td> PCM1_CLK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT11
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG12"><tt><a href="#PG12">PG12<tt></a></span>
+</td>
+<td> D1
+</td>
+<td> I/O
+</td>
+<td> PCM1_DOUT
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT12
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG13"><tt><a href="#PG13">PG13<tt></a></span>
+</td>
+<td> B1
+</td>
+<td> I/O
+</td>
+<td> PCM1_DIN
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> PG_EINT13
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PL">Port Bank L</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PL00"><tt><a href="#PL00">PL00<tt></a></span>
+</td>
+<td> N1
+</td>
+<td> I/O
+</td>
+<td> S_TWI_SCK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT0
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL01"><tt><a href="#PL01">PL01<tt></a></span>
+</td>
+<td> M1
+</td>
+<td> I/O
+</td>
+<td> S_TWI_SDA
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT1
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL02"><tt><a href="#PL02">PL02<tt></a></span>
+</td>
+<td> P2
+</td>
+<td> I/O
+</td>
+<td> S_UART_TX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT2
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL03"><tt><a href="#PL03">PL03<tt></a></span>
+</td>
+<td> R1
+</td>
+<td> I/O
+</td>
+<td> S_UART_RX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT3
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL04"><tt><a href="#PL04">PL04<tt></a></span>
+</td>
+<td> N2
+</td>
+<td> I/O
+</td>
+<td> S_JTAG_MS
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT4
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL05"><tt><a href="#PL05">PL05<tt></a></span>
+</td>
+<td> R2
+</td>
+<td> I/O
+</td>
+<td> S_JTAG_CK
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT5
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL06"><tt><a href="#PL06">PL06<tt></a></span>
+</td>
+<td> T4
+</td>
+<td> I/O
+</td>
+<td> S_JTAG_DO
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT6
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL07"><tt><a href="#PL07">PL07<tt></a></span>
+</td>
+<td> T3
+</td>
+<td> I/O
+</td>
+<td> S_JTAG_DI
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT7
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL08"><tt><a href="#PL08">PL08<tt></a></span>
+</td>
+<td> T2
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT8
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL09"><tt><a href="#PL09">PL09<tt></a></span>
+</td>
+<td> M6
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT9
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL10"><tt><a href="#PL10">PL10<tt></a></span>
+</td>
+<td> V2
+</td>
+<td> I/O
+</td>
+<td> S_PWM
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT10
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL11"><tt><a href="#PL11">PL11<tt></a></span>
+</td>
+<td> U2
+</td>
+<td> I/O
+</td>
+<td> S_CIR_RX
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> S_PL_EINT12
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr></table>
+<h2> <span class="mw-headline" id="See_also"> See also </span></h2>
+<ul><li> <a href="/H3" title="H3">H3</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=H3/PIO&amp;oldid=16456">http://linux-sunxi.org/index.php?title=H3/PIO&amp;oldid=16456</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=H3%2FPIO&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=H3%2FPIO" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/H3/PIO" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:H3/PIO&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/H3/PIO">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=H3/PIO&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=H3/PIO&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/H3/PIO" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/H3/PIO" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=H3/PIO&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=H3/PIO&amp;oldid=16456" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 22 February 2016, at 03:52.</li>
+<li id="footer-info-viewcount">This page has been accessed 1,986 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

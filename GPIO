@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>GPIO - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"GPIO","wgTitle":"GPIO","wgCurRevisionId":17098,"wgArticleId":211,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"GPIO","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/GPIO"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-GPIO skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">GPIO</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>General Purpose Input/Output</b> (<b>GPIO</b>) is a generic pin on a integrated circuit chip whose behavior (including whether it is an input or output pin) can be controlled / programmed by the user at run time.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Accessing_the_GPIO_pins_through_sysfs_with_mainline_kernel"><span class="tocnumber">2</span> <span class="toctext">Accessing the GPIO pins through sysfs with mainline kernel</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Accessing_the_GPIO_pins_through_sysfs_on_sunxi-3.4"><span class="tocnumber">3</span> <span class="toctext">Accessing the GPIO pins through sysfs on sunxi-3.4</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Example:_Controlling_GPIO_on_Olimex.27s_A13-OLinuXino_.28sunxi-3.4.29"><span class="tocnumber">3.1</span> <span class="toctext">Example: Controlling GPIO on Olimex's A13-OLinuXino (sunxi-3.4)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#What_do_you_need:"><span class="tocnumber">3.1.1</span> <span class="toctext">What do you need:</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#The_Process"><span class="tocnumber">3.1.2</span> <span class="toctext">The Process</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#C.2FC.2B.2B_program"><span class="tocnumber">3.1.3</span> <span class="toctext">C/C++ program</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Other_stuff"><span class="tocnumber">3.1.4</span> <span class="toctext">Other stuff</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#External_Links"><span class="tocnumber">6</span> <span class="toctext">External Links</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Overview">Overview</span></h1>
+<p>GPIO pins have no special purpose defined, and usually go unused by default. The idea is that sometimes the system integrator building a full system that uses the chip might find it useful to have a handful of additional digital control lines, and having these available from the chip can save the hassle of having to arrange additional circuitry to provide them.
+</p><p>A GPIO port is a group of GPIO pins (typically 8 GPIO pins) arranged in a group, and treated as a single port.
+</p>
+<h1> <span class="mw-headline" id="Accessing_the_GPIO_pins_through_sysfs_with_mainline_kernel"> Accessing the GPIO pins through sysfs with mainline kernel </span></h1>
+<p>The GPIO pins can be accessed from user space using sysfs. To enabled this you need the following kernel option enabled: CONFIG_GPIO_SYSFS
+</p>
+<pre>Device Drivers  ---&gt; GPIO Support  ---&gt; /sys/class/gpio/... (sysfs interface)
+</pre>
+<p>To access a GPIO pin you first need to <i>export</i> it with
+</p>
+<pre>echo XX &gt; /sys/class/gpio/export
+</pre>
+<p>with <i>XX</i> being the number of the desired pin. To obtain the correct number you have to calculate it from the pin name (like PH18)<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>:
+</p>
+<pre>(position of letter in alphabet - 1) * 32 + pin number
+</pre>
+<p>E.g for PH18 this would be ( 8 - 1) * 32 + 18 = 224 + 18 = 242 (since 'h' is the 8th letter).
+</p><p>After you have successfully exported the pin you can access it through <b>/sys/class/gpio/gpio*NUMBER*</b> (in case of PH18 it's <i>/sys/class/gpio/gpio242</i>).
+</p><p>With /sys/class/gpio/gpio*NUMBER*/direction you can set the pin to <b>out</b> or <b>in</b> using
+</p>
+<pre>echo "out" &gt; /sys/class/gpio/gpio*NUMBER*/direction
+</pre>
+<p>and you can read/write the value with <b>/sys/class/gpio/gpio*NUMBER*/value</b>.
+</p><p>When you are done unexport the pin with
+</p>
+<pre>echo XX &gt; /sys/class/gpio/unexport
+</pre>
+<h1> <span class="mw-headline" id="Accessing_the_GPIO_pins_through_sysfs_on_sunxi-3.4"> Accessing the GPIO pins through sysfs on sunxi-3.4 </span></h1>
+<p>This is subject to changing without notice&#160;:(
+Anyway I found this to hold true on 3.4.103:
+</p><p>First you need to make sure that script.bin has some pins designated for gpio or when you load the appropriate module it will complain that no gpio pins are configured in script.bin.
+</p>
+<pre> [gpio_para]
+ gpio_used= 1
+ gpio_num=12
+ gpio_pin_1= port:PE00
+ gpio_pin_2= port:PE01
+ gpio_pin_3= port:PE02
+ gpio_pin_4= port:PE03
+ gpio_pin_5= port:PE04
+ gpio_pin_6= port:PE05
+ gpio_pin_7= port:PE06
+ gpio_pin_8= port:PE07
+ gpio_pin_9= port:PE08
+ gpio_pin_10= port:PE09
+ gpio_pin_11= port:PE10
+ gpio_pin_12= port:PE11
+</pre>
+<p>Reading the FEX tutorial in the section concerning the <a rel="nofollow" class="external text" href="http://linux-sunxi.org/Fex_Guide#Port_Definitions">Port Definitions</a> would allow you to set pull up/down on the input ports.
+</p><p>Next you need to load the appropriate module:
+</p>
+<pre>  modprobe gpio-sunxi
+</pre>
+<p>Now export the pins
+</p>
+<pre> for A in 1 2 3 4 5 6 7 8 9 10 11 12; do echo "$A" &gt; /sys/class/gpio/export&#160;; done
+</pre>
+<p>This should make some links appear in sys/class/gpio/:
+</p>
+<pre> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="6f1d00001b2f070a0e0b030a1c1c5d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:/sys/class/gpio# ls -l
+ total 0
+ --w------- 1 root root 4096 Jan 10 00:12 export
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio10_pe9 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio10_pe9/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio11_pe10 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio11_pe10/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio12_pe11 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio12_pe11/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:11 gpio1_pe0 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio1_pe0/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio2_pe1 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio2_pe1/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio3_pe2 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio3_pe2/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio4_pe3 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio4_pe3/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio5_pe4 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio5_pe4/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio6_pe5 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio6_pe5/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio7_pe6 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio7_pe6/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio8_pe7 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio8_pe7/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:12 gpio9_pe8 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpio9_pe8/
+ lrwxrwxrwx 1 root root    0 Jan 10 00:10 gpiochip1 -&gt; ../../devices/platform/gpio-sunxi/gpio/gpiochip1/
+ --w------- 1 root root 4096 Jan 10 00:09 unexport
+ <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f2809d9d86b29a9793969e978181c0">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:/sys/class/gpio#
+</pre>
+<p>Set the desired direction
+</p>
+<pre> echo out &gt; /sys/class/gpio/gpio12_pe11/direction
+</pre>
+<p>You may now output something
+</p>
+<pre> echo 1 &gt; /sys/class/gpio/gpio12_pe11/value
+</pre>
+<p>Reading the kernel documentation on sysfs gpio can be a good reading and will give you ideas on how to use the other features available.
+<a rel="nofollow" class="external text" href="https://www.kernel.org/doc/Documentation/gpio/sysfs.txt">Documentation/gpio/sysfs.txt</a>
+</p>
+<h2> <span class="mw-headline" id="Example:_Controlling_GPIO_on_Olimex.27s_A13-OLinuXino_.28sunxi-3.4.29"> Example: Controlling GPIO on Olimex's A13-OLinuXino (sunxi-3.4) </span></h2>
+<h3> <span class="mw-headline" id="What_do_you_need:"> What do you need: </span></h3>
+<ul><li> <a href="/Linux_Kernel" title="Linux Kernel">Kernel</a> with <tt>CONFIG_GPIO_SUNXI=y</tt> If you set the option to m you should take care of loading the module. There was previously SUN4I_GPIO_UGLY option which is now deprecated.
+</li><li> <tt>bin2fex</tt> and <tt>fex2bin</tt> tools from <a href="/Sunxi-tools" title="Sunxi-tools">sunxi-tools</a>.
+</li></ul>
+<h3> <span class="mw-headline" id="The_Process"> The Process </span></h3>
+<ol>
+<li>Open a console and connect to your A13.</li>
+<li>Make a directory in /media: mkdir /media/nanda</li>
+<li>Mount the nanda there: mount /dev/nanda /media/nanda</li>
+<li>Copy the file /media/nanda/script.bin to your PC. This file configures the A13.</li>
+<li>Now we need to make it a text file so we use the bin2fex. On a linux machine go into the directory where you compiled the sunxi-tools and from there type this: ./bin2fex /path/to/script.bin &gt; script.fex This will create a text file named script.fex in your current directory.</li>
+<li>Now we need to edit it with a text editor and define the pins that are going to be used for GPIO. Look for a section named "[gpio_para]" if there is no such section (probably there will not be) go to the bottom of the file and add it like this:</li>
+<pre class="brush: ini">
+[gpio_para]
+gpio_used = 1
+gpio_num = 1
+gpio_pin_1 = port:PE11&lt;1&gt;
+</pre>
+<dl><dt> gpio_used
+</dt><dd>Do you want to use any GPIO at all? 1=yes 0=no
+</dd><dt> gpio_num
+</dt><dd>The number of total gpio ports you want / pins your using?
+</dd><dt> gpio_pin_$Num = PXN&lt;Z&gt;
+</dt><dd>Where $Num is the GPIO pin number. starting from 1.
+</dd><dd>PXN is the name of the pin you want to use
+</dd><dd>Z is pin a output or a input? 0 for <b>in</b>put or 1 for <b>out</b>put.
+</dd></dl>
+<p>In this example I used pin PE11 which is pin number 12 on the GPIO-2.
+The PXN names can be found here: <a rel="nofollow" class="external free" href="http://linux-sunxi.org/A13-OLinuXino#Expansion_ports">http://linux-sunxi.org/A13-OLinuXino#Expansion_ports</a>.
+TO CHECK: when I used PE11 this pin is part of the [csi0_para] so I went to [csi0_para] and made csi_used = 0 Not sure if this is needed, but I think it is.
+</p>
+<li>Now we need to make the modified fex file back to bin format so again from the directory where you compiled the sunxi-tools: ./fex2bin script.fex &gt; script.bin</li>
+<li>Now put back the script.bin on the board and overwrite the old script.bin in /media/nanda</li>
+<li>Unmount the /media/nanda: umount /media/nanda</li>
+<li>Reboot the A13</li>
+<li>Log back in and now if you did everything correct in /sys/devices/virtual/misc/sun4i-gpio/pin you will see "pe11"</li>
+<li>If you solder a LED and a resistor to the right pin and ground (for example pin 2) <a rel="nofollow" class="external free" href="http://linux-sunxi.org/images/e/e7/A13-olinuxino-brd.png">http://linux-sunxi.org/images/e/e7/A13-olinuxino-brd.png</a> and type: "echo 1 &gt; /sys/devices/virtual/misc/sun4i-gpio/pin/pe11" the LED will light and "echo 0 &gt; /sys/devices/virtual/misc/sun4i-gpio/pin/pe11" will turn it off.</li>
+</ol>
+<h3> <span class="mw-headline" id="C.2FC.2B.2B_program"> C/C++ program </span></h3>
+<p>Lib gpio_lib.h<br/>
+compiler eclipse c/c++<br/>
+steps:<br/>
+1)<br/>
+</p>
+<pre>       #define PNXX   SUNXI_GPN(XX)
+</pre>
+<p>2)<br/>
+</p>
+<pre>       if(SETUP_OK!=sunxi_gpio_init()){
+       printf("Failed to initialize GPIO\n");
+       return -1;
+   }
+</pre>
+<p>3)<br/>
+</p>
+<pre>       if(SETUP_OK!=sunxi_gpio_set_cfgpin(PNXX,DIRECTION)){
+       printf("Failed to config GPIO pin\n");
+       return -1;
+   }
+</pre>
+<p>PNXX: ex.PD01<br/>
+DIRECTION: OUTPUT,INPUT<br/>
+4)<br/>
+</p>
+<pre>        if(sunxi_gpio_output(PNXX,LEVEL)){
+        printf("Failed to set GPIO pin value\n");
+        return -1;
+       }
+</pre>
+<p>LEVEL: HIGH,LOW<br/>
+</p><p>5)<br/>
+</p>
+<pre>        sunxi_gpio_cleanup();
+</pre>
+<h3> <span class="mw-headline" id="Other_stuff">Other stuff</span></h3>
+<p>Olimex wrote another article on the subject at <a rel="nofollow" class="external free" href="http://olimex.wordpress.com/2012/10/23/a13-olinuxino-playing-with-gpios/">http://olimex.wordpress.com/2012/10/23/a13-olinuxino-playing-with-gpios/</a>
+</p>
+<h1> <span class="mw-headline" id="See_also">See also</span></h1>
+<ul><li> <a href="/JTAG" title="JTAG">JTAG</a>
+</li><li> <a href="/MicroSD_Breakout" title="MicroSD Breakout">MicroSD Breakout</a>
+</li><li> <a href="/A10/PIO" title="A10/PIO">A10/PIO</a>
+</li><li> <a href="/A13/PIO" title="A13/PIO">A13/PIO</a>
+</li><li> <a href="/A20/PIO" title="A20/PIO">A20/PIO</a>
+</li><li> <a href="/H3/PIO" title="H3/PIO">H3/PIO</a>
+</li></ul>
+<h1> <span class="mw-headline" id="References">References</span></h1>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a class="external free" href="https://github.com/torvalds/linux/blob/master/drivers/pinctrl/sunxi/pinctrl-sunxi.h#L19">https://github.com/torvalds/linux/blob/master/drivers/pinctrl/sunxi/pinctrl-sunxi.h#L19</a></span>
+</li></ol>
+<h1> <span class="mw-headline" id="External_Links">External Links</span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.spinics.net/lists/alsa-devel/msg03646.html">ALSA Development List</a>
+</li><li> <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/linusw/linux-gpio.git/tree/Documentation/gpio/gpio.txt">Linux Kernel Doc on GPIO</a>
+</li><li> <a rel="nofollow" class="external text" href="http://linuxtv.org/wiki/index.php/GPIO_pins">LinuxTV GPIO Pins Info</a>
+</li><li> <a rel="nofollow" class="external text" href="http://en.bir-robotic.ir/?p=178">GPIO Tutorial</a>
+</li><li> <a rel="nofollow" class="external text" href="http://falsinsoft.blogspot.de/2012/11/access-gpio-from-linux-user-space.html">Access GPIO from Linux user space</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=GPIO&amp;oldid=17098">http://linux-sunxi.org/index.php?title=GPIO&amp;oldid=17098</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=GPIO&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=GPIO" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/GPIO" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:GPIO&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/GPIO">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=GPIO&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=GPIO&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/GPIO" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/GPIO" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=GPIO&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=GPIO&amp;oldid=17098" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 2 May 2016, at 22:43.</li>
+<li id="footer-info-viewcount">This page has been accessed 68,349 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

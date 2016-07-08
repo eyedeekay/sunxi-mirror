@@ -1,0 +1,3699 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>A80/PIO - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"A80/PIO","wgTitle":"A80/PIO","wgCurRevisionId":16494,"wgArticleId":2633,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"A80/PIO","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/A80/PIO"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-A80_PIO skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">A80/PIO</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"><span class="subpages">&lt; <a href="/A80" title="A80">A80</a></span></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><h2> <span class="mw-headline" id="Programmable_I.2FO_Pins"> Programmable I/O Pins </span></h2>
+<table class="wikitable">
+<tr>
+<th colspan="9"> <span id="PA">Port Bank A</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PA00"><tt><a href="#PA00">PA00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ERXD3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART1_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA01"><tt><a href="#PA01">PA01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ERXD2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART1_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA02"><tt><a href="#PA02">PA02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ERXD1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART1_RTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA03"><tt><a href="#PA03">PA03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ERXD0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART1_CTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA04"><tt><a href="#PA04">PA04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ERXCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART1_DTR</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT4</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA05"><tt><a href="#PA05">PA05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ERXDV</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART1_DSR</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT5</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA06"><tt><a href="#PA06">PA06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ERXERR</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART1_DCD</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT6</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA07"><tt><a href="#PA07">PA07<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ETXD3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART1_RING</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT7</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA08"><tt><a href="#PA08">PA08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ETXD2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=ECLK&amp;action=edit&amp;redlink=1" class="new" title="ECLK (page does not exist)">ECLK_IN0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT8</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA09"><tt><a href="#PA09">PA09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ETXD1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=ECLK&amp;action=edit&amp;redlink=1" class="new" title="ECLK (page does not exist)">ECLK_IN1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT9</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA10"><tt><a href="#PA10">PA10<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ETXD0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=CLKA_OUT&amp;action=edit&amp;redlink=1" class="new" title="CLKA OUT (page does not exist)">CLKA_OUT</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT10</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA11"><tt><a href="#PA11">PA11<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ECRS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=CLKB_OUT&amp;action=edit&amp;redlink=1" class="new" title="CLKB OUT (page does not exist)">CLKB_OUT</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT11</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA12"><tt><a href="#PA12">PA12<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ETXCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PWM&amp;action=edit&amp;redlink=1" class="new" title="PWM (page does not exist)">PWM3_P</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT12</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA13"><tt><a href="#PA13">PA13<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ETXEN</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PWM&amp;action=edit&amp;redlink=1" class="new" title="PWM (page does not exist)">PWM3_N</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT13</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA14"><tt><a href="#PA14">PA14<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ETXERR</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI1_CSO</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT14</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA15"><tt><a href="#PA15">PA15<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">ECOL</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI1_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT15</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA16"><tt><a href="#PA16">PA16<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">EMDC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI1_MOSI</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT16</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PA17"><tt><a href="#PA17">PA17<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=EMAC&amp;action=edit&amp;redlink=1" class="new" title="EMAC (page does not exist)">EMDIO</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI1_MISO</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PA_EINT17</a>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PB">Port Bank B</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PB00"><tt><a href="#PB00">PB00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB01"><tt><a href="#PB01">PB01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB02"><tt><a href="#PB02">PB02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB03"><tt><a href="#PB03">PB03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB04"><tt><a href="#PB04">PB04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB05"><tt><a href="#PB05">PB05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART3_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PB_EINT5</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB06"><tt><a href="#PB06">PB06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART3_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PB_EINT6</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB07"><tt><a href="#PB07">PB07<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB08"><tt><a href="#PB08">PB08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB09"><tt><a href="#PB09">PB09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB10"><tt><a href="#PB10">PB10<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB11"><tt><a href="#PB11">PB11<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB12"><tt><a href="#PB12">PB12<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB13"><tt><a href="#PB13">PB13<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB14"><tt><a href="#PB14">PB14<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=MCSI&amp;action=edit&amp;redlink=1" class="new" title="MCSI (page does not exist)">MCSI_MCLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PB_EINT14</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB15"><tt><a href="#PB15">PB15<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=MCSI&amp;action=edit&amp;redlink=1" class="new" title="MCSI (page does not exist)">MCSI_SCK</a>
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI4_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PB_EINT15</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB16"><tt><a href="#PB16">PB16<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=MCSI&amp;action=edit&amp;redlink=1" class="new" title="MCSI (page does not exist)">MCSI_SDA</a>
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI4_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PB_EINT16</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PB17"><tt><a href="#PB17">PB17<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PC">Port Bank C</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PC00"><tt><a href="#PC00">PC00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_WE</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI0_MOSI</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC01"><tt><a href="#PC01">PC01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_ALE</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI0_MISO</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC02"><tt><a href="#PC02">PC02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_CLE</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI0_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC03"><tt><a href="#PC03">PC03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_CE1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC04"><tt><a href="#PC04">PC04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_CE0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC05"><tt><a href="#PC05">PC05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_RE</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC06"><tt><a href="#PC06">PC06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_RB0</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_CMD</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC07"><tt><a href="#PC07">PC07<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_RB1</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC08"><tt><a href="#PC08">PC08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQ0</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_D0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC09"><tt><a href="#PC09">PC09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQ1</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_D1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC10"><tt><a href="#PC10">PC10<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQ2</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_D2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC11"><tt><a href="#PC11">PC11<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQ3</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_D3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC12"><tt><a href="#PC12">PC12<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQ4</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_D4</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC13"><tt><a href="#PC13">PC13<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQ5</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_D5</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC14"><tt><a href="#PC14">PC14<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQ6</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_D6</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC15"><tt><a href="#PC15">PC15<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQ7</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_D7</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC16"><tt><a href="#PC16">PC16<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQS</a>
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC2_RST</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC17"><tt><a href="#PC17">PC17<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_CE2</a>
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_RE_B</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC18"><tt><a href="#PC18">PC18<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_CE3</a>
+</td>
+<td> <a href="/NAND" title="NAND">NAND0_DQS_B</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PC19"><tt><a href="#PC19">PC19<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI0_CS0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PD">Port Bank D</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PD00"><tt><a href="#PD00">PD00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D0</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VP0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD01"><tt><a href="#PD01">PD01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D1</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VN0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD02"><tt><a href="#PD02">PD02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D2</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VP1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD03"><tt><a href="#PD03">PD03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D3</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VN1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD04"><tt><a href="#PD04">PD04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D4</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VP2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD05"><tt><a href="#PD05">PD05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D5</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VN2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD06"><tt><a href="#PD06">PD06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D6</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VPC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD07"><tt><a href="#PD07">PD07<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D7</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VNC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD08"><tt><a href="#PD08">PD08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D8</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VP3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD09"><tt><a href="#PD09">PD09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D9</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS0_VN3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD10"><tt><a href="#PD10">PD10<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D10</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VP0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD11"><tt><a href="#PD11">PD11<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D11</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VN0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD12"><tt><a href="#PD12">PD12<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D12</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VP1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD13"><tt><a href="#PD13">PD13<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D13</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VN1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD14"><tt><a href="#PD14">PD14<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D14</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VP2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD15"><tt><a href="#PD15">PD15<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D15</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VN2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD16"><tt><a href="#PD16">PD16<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D16</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VPC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD17"><tt><a href="#PD17">PD17<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D17</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VNC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD18"><tt><a href="#PD18">PD18<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D18</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VP3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD19"><tt><a href="#PD19">PD19<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D19</a>
+</td>
+<td> <a href="/index.php?title=LVDS&amp;action=edit&amp;redlink=1" class="new" title="LVDS (page does not exist)">LVDS1_VN3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD20"><tt><a href="#PD20">PD20<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D20</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD21"><tt><a href="#PD21">PD21<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D21</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD22"><tt><a href="#PD22">PD22<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D22</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD23"><tt><a href="#PD23">PD23<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_D23</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD24"><tt><a href="#PD24">PD24<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD25"><tt><a href="#PD25">PD25<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_DE</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD26"><tt><a href="#PD26">PD26<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_HSYNC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PD27"><tt><a href="#PD27">PD27<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/LCD" title="LCD">LCD_VSYNC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PE">Port Bank E</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PE00"><tt><a href="#PE00">PE00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_PCLK</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE01"><tt><a href="#PE01">PE01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_MCLK</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_ERR</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE02"><tt><a href="#PE02">PE02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_HSYNC</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_SYNC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE03"><tt><a href="#PE03">PE03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_VSYNC</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_DVLD</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE04"><tt><a href="#PE04">PE04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D0</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI2_CSO</a>
+</td>
+<td> <a href="/UART" title="UART">UART5_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT4</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE05"><tt><a href="#PE05">PE05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D1</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI2_CLK</a>
+</td>
+<td> <a href="/UART" title="UART">UART5_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT5</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE06"><tt><a href="#PE06">PE06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D2</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI2_MOSI</a>
+</td>
+<td> <a href="/UART" title="UART">UART5_RTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT6</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE07"><tt><a href="#PE07">PE07<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D3</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI2_MISO</a>
+</td>
+<td> <a href="/UART" title="UART">UART5_CTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT7</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE08"><tt><a href="#PE08">PE08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D4</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_D0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT8</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE09"><tt><a href="#PE09">PE09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D5</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_D1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT9</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE10"><tt><a href="#PE10">PE10<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D6</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_D2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT10</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE11"><tt><a href="#PE11">PE11<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D7</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_D3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT11</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE12"><tt><a href="#PE12">PE12<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D8</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_D4</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT12</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE13"><tt><a href="#PE13">PE13<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D9</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_D5</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT13</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE14"><tt><a href="#PE14">PE14<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D10</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_D6</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT14</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE15"><tt><a href="#PE15">PE15<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_D11</a>
+</td>
+<td> <a href="/index.php?title=TS&amp;action=edit&amp;redlink=1" class="new" title="TS (page does not exist)">TS_D7</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT15</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE16"><tt><a href="#PE16">PE16<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_SCK</a>
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI4_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT16</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PE17"><tt><a href="#PE17">PE17<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/CSI" title="CSI">CSI_SDA</a>
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI4_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PE_EINT17</a>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PF">Port Bank F</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PF00"><tt><a href="#PF00">PF00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC0_D1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF01"><tt><a href="#PF01">PF01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC0_D0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF02"><tt><a href="#PF02">PF02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC0_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART0_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF03"><tt><a href="#PF03">PF03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC0_CMD</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF04"><tt><a href="#PF04">PF04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC0_D3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">UART0_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PF05"><tt><a href="#PF05">PF05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC0_D2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PG">Port Bank G</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PG00"><tt><a href="#PG00">PG00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC1_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG01"><tt><a href="#PG01">PG01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC1_CMD</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG02"><tt><a href="#PG02">PG02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC1_D0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG03"><tt><a href="#PG03">PG03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC1_D1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG04"><tt><a href="#PG04">PG04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC1_D2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT4</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG05"><tt><a href="#PG05">PG05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SDC&amp;action=edit&amp;redlink=1" class="new" title="SDC (page does not exist)">SDC1_D3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT5</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG06"><tt><a href="#PG06">PG06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART2_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT6</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG07"><tt><a href="#PG07">PG07<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART2_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT7</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG08"><tt><a href="#PG08">PG08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART2_RTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT8</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG09"><tt><a href="#PG09">PG09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART2_CTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT9</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG10"><tt><a href="#PG10">PG10<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI3_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT10</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG11"><tt><a href="#PG11">PG11<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI3_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT11</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG12"><tt><a href="#PG12">PG12<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART4_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT12</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG13"><tt><a href="#PG13">PG13<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART4_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT13</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG14"><tt><a href="#PG14">PG14<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART4_RTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT14</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PG15"><tt><a href="#PG15">PG15<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART4_CTS</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PG_EINT15</a>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PH">Port Bank H</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PH00"><tt><a href="#PH00">PH00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI0_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH01"><tt><a href="#PH01">PH01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI0_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH02"><tt><a href="#PH02">PH02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI1_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH03"><tt><a href="#PH03">PH03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI1_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH04"><tt><a href="#PH04">PH04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI2_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH05"><tt><a href="#PH05">PH05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">TWI2_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH06"><tt><a href="#PH06">PH06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=PWM&amp;action=edit&amp;redlink=1" class="new" title="PWM (page does not exist)">PWM0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH08"><tt><a href="#PH08">PH08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PWM&amp;action=edit&amp;redlink=1" class="new" title="PWM (page does not exist)">PWM1_P</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT8</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH09"><tt><a href="#PH09">PH09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PWM&amp;action=edit&amp;redlink=1" class="new" title="PWM (page does not exist)">PWM1_N</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT9</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH10"><tt><a href="#PH10">PH10<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PWM&amp;action=edit&amp;redlink=1" class="new" title="PWM (page does not exist)">PWM2_P</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT10</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH11"><tt><a href="#PH11">PH11<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PWM&amp;action=edit&amp;redlink=1" class="new" title="PWM (page does not exist)">PWM2_N</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT11</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH12"><tt><a href="#PH12">PH12<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART0_TX</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI3_CS2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT12</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH13"><tt><a href="#PH13">PH13<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/UART" title="UART">UART0_RX</a>
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI3_CS3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT13</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH14"><tt><a href="#PH14">PH14<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI3_CLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT14</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH15"><tt><a href="#PH15">PH15<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI3_MOSI</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT15</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH16"><tt><a href="#PH16">PH16<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI3_MISO</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT16</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH17"><tt><a href="#PH17">PH17<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI3_CS0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT17</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH18"><tt><a href="#PH18">PH18<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI3_CS1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">PH_EINT18</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH19"><tt><a href="#PH19">PH19<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=HSCL&amp;action=edit&amp;redlink=1" class="new" title="HSCL (page does not exist)">HSCL</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH20"><tt><a href="#PH20">PH20<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=HSDA&amp;action=edit&amp;redlink=1" class="new" title="HSDA (page does not exist)">HSDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PH21"><tt><a href="#PH21">PH21<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=HCEC&amp;action=edit&amp;redlink=1" class="new" title="HCEC (page does not exist)">HCEC</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PL">Port Bank L</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PL00"><tt><a href="#PL00">PL00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/UART" title="UART">S_UART_TX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL01"><tt><a href="#PL01">PL01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=UART_S_UART_RX&amp;action=edit&amp;redlink=1" class="new" title="UART S UART RX (page does not exist)">UART_S_UART_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL02"><tt><a href="#PL02">PL02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL03"><tt><a href="#PL03">PL03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL04"><tt><a href="#PL04">PL04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT4</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL05"><tt><a href="#PL05">PL05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT5</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL06"><tt><a href="#PL06">PL06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=CIR&amp;action=edit&amp;redlink=1" class="new" title="CIR (page does not exist)">S_CIR_RX</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT6</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL07"><tt><a href="#PL07">PL07<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=1WIRE&amp;action=edit&amp;redlink=1" class="new" title="1WIRE (page does not exist)">1WIRE</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT7</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL08"><tt><a href="#PL08">PL08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PS2&amp;action=edit&amp;redlink=1" class="new" title="PS2 (page does not exist)">S_PS2_SCK1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT8</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PL09"><tt><a href="#PL09">PL09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=PS2&amp;action=edit&amp;redlink=1" class="new" title="PS2 (page does not exist)">S_PS2_SDA1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PL_EINT9</a>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PM">Port Bank M</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PM00"><tt><a href="#PM00">PM00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PM_EINT0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM01"><tt><a href="#PM01">PM01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PM_EINT1</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM02"><tt><a href="#PM02">PM02<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PM_EINT2</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM03"><tt><a href="#PM03">PM03<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PM_EINT3</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM04"><tt><a href="#PM04">PM04<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S1_LRCKR</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PM_EINT4</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM05"><tt><a href="#PM05">PM05<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM06"><tt><a href="#PM06">PM06<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM07"><tt><a href="#PM07">PM07<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM08"><tt><a href="#PM08">PM08<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">S_TWI1_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PM_EINT8</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM09"><tt><a href="#PM09">PM09<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">S_TWI1_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PM_EINT9</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM10"><tt><a href="#PM10">PM10<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S_MCLK</a>
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S1_MCLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM11"><tt><a href="#PM11">PM11<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S_BCLK</a>
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S1_BCLK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM12"><tt><a href="#PM12">PM12<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S_LRCK</a>
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S1_LRCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM13"><tt><a href="#PM13">PM13<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S_DIN</a>
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S1_DIN</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM14"><tt><a href="#PM14">PM14<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S_DOUT</a>
+</td>
+<td> <a href="/index.php?title=I2S&amp;action=edit&amp;redlink=1" class="new" title="I2S (page does not exist)">S_I2S1_DOUT0</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PM15"><tt><a href="#PM15">PM15<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td> <a href="/index.php?title=EINT&amp;action=edit&amp;redlink=1" class="new" title="EINT (page does not exist)">S_PM_EINT15</a>
+</td>
+<td align="center"> <i>reserved</i>
+<p><br/>
+</p>
+</td></tr>
+<tr>
+<th colspan="9"> <span id="PN">Port Bank N</span>
+</th></tr>
+<tr>
+<th> Port </th>
+<th> Ball </th>
+<th> Type </th>
+<th> MUX 2 </th>
+<th> MUX 3 </th>
+<th> MUX 4 </th>
+<th> MUX 5 </th>
+<th> MUX 6 </th>
+<th> MUX 7
+</th></tr>
+<tr>
+<td> <span id="PN00"><tt><a href="#PN00">PN00<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">S_TWI0_SCK</a>
+</td>
+<td> <a href="/RSB" title="RSB" class="mw-redirect">S_RSB_SCK</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr>
+<tr>
+<td> <span id="PN01"><tt><a href="#PN01">PN01<tt></a></span>
+</td>
+<td> -
+</td>
+<td> I/O
+</td>
+<td> <a href="/TWI" title="TWI" class="mw-redirect">S_TWI0_SDA</a>
+</td>
+<td> <a href="/RSB" title="RSB" class="mw-redirect">S_RSB_SDA</a>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td>
+<td align="center"> <i>reserved</i>
+</td></tr></table>
+<h2> <span class="mw-headline" id="See_also"> See also </span></h2>
+<ul><li> <a href="/A20/PIO" title="A20/PIO">A20/PIO</a>
+</li><li> <a href="/A10/PIO" title="A10/PIO">A10/PIO</a>
+</li><li> <a href="/A13/PIO" title="A13/PIO">A13/PIO</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=A80/PIO&amp;oldid=16494">http://linux-sunxi.org/index.php?title=A80/PIO&amp;oldid=16494</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=A80%2FPIO&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=A80%2FPIO" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/A80/PIO" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:A80/PIO&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/A80/PIO">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=A80/PIO&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=A80/PIO&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/A80/PIO" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/A80/PIO" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=A80/PIO&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=A80/PIO&amp;oldid=16494" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 February 2016, at 14:55.</li>
+<li id="footer-info-viewcount">This page has been accessed 408 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

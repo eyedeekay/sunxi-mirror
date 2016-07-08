@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Bootable SD card - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Bootable_SD_card","wgTitle":"Bootable SD card","wgCurRevisionId":16362,"wgArticleId":172,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software","Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Bootable_SD_card","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Bootable_SD_card"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Bootable_SD_card skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Bootable SD card</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#SD_Card_Layout"><span class="tocnumber">2</span> <span class="toctext">SD Card Layout</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Identify_the_card"><span class="tocnumber">3</span> <span class="toctext">Identify the card</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Cleaning"><span class="tocnumber">4</span> <span class="toctext">Cleaning</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Bootloader"><span class="tocnumber">5</span> <span class="toctext">Bootloader</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Partitioning"><span class="tocnumber">6</span> <span class="toctext">Partitioning</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#With_separate_boot_partition"><span class="tocnumber">6.1</span> <span class="toctext">With separate boot partition</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#Boot_Partition"><span class="tocnumber">6.1.1</span> <span class="toctext">Boot Partition</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="#Single_partition"><span class="tocnumber">6.2</span> <span class="toctext">Single partition</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#Boot_Partition_2"><span class="tocnumber">6.2.1</span> <span class="toctext">Boot Partition</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#GPT_.28experimental.29"><span class="tocnumber">6.3</span> <span class="toctext">GPT (experimental)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Boot_Script"><span class="tocnumber">7</span> <span class="toctext">Boot Script</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Rootfs"><span class="tocnumber">8</span> <span class="toctext">Rootfs</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Using_rootfs_tarball"><span class="tocnumber">8.1</span> <span class="toctext">Using rootfs tarball</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#Linaro_rootfs"><span class="tocnumber">8.1.1</span> <span class="toctext">Linaro rootfs</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Rootfs_from_LinuxContainers"><span class="tocnumber">8.1.2</span> <span class="toctext">Rootfs from LinuxContainers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-17"><a href="#Using_debootstrap_-_Debian.2FUbuntu_based_distributions"><span class="tocnumber">8.2</span> <span class="toctext">Using debootstrap - Debian/Ubuntu based distributions</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Kernel_modules"><span class="tocnumber">8.3</span> <span class="toctext">Kernel modules</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#Troubleshooting"><span class="tocnumber">9</span> <span class="toctext">Troubleshooting</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#See_also"><span class="tocnumber">10</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-21"><a href="#U-Boot"><span class="tocnumber">10.1</span> <span class="toctext">U-Boot</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#External"><span class="tocnumber">10.2</span> <span class="toctext">External</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#References"><span class="tocnumber">10.3</span> <span class="toctext">References</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Introduction"> Introduction </span></h2>
+<p>This page describes how to create a bootable SD card. Depending on how the SD card is connected, the location to write data to can be different.
+Throughout this document <kbd>${card}</kbd> refers to the SD card and <kbd>${p}</kbd> to the partition if any.
+If the SD card is connected via a USB adapter, linux will know it for example as <kbd>/dev/sdb</kbd> (with <kbd>/dev/sda</kbd> being a boot drive). Please notice that this device can be different based on numerous factors, so when not sure, check the last few lines of dmesg after plugging in the device (<code>dmesg&#160;|&#160;tail</code>).
+If connected via a SD slot on a device, linux will know it as <kbd>/dev/mmcblk0</kbd> (or <kbd>mmcblk1</kbd>, <kbd>mmcblk2</kbd> depending on which mmc slot is used).
+</p><p>Data is either stored raw on the SD card or in a partition. If <kbd>${p}</kbd> is used then the appropiate partition should be used. Also this differs for USB adapters or mmc controllers. When using an USB adapter, <kbd>${p}</kbd> will be 1, 2, 3 etc so the resulting device is <kbd>/dev/sdb1</kbd>. Using an mmc controller, this would be p1, p2, p3 etc so the resulting device is <kbd>/dev/mmcblk0p1</kbd>.
+</p><p>To summarize: <kbd>${card}</kbd> and <kbd>${card}${p}1</kbd> mean <kbd>/dev/sdb</kbd> and <kbd>/dev/sdb1</kbd> on a USB connected SD card, and <kbd>/dev/mmcblk0</kbd>, <kbd>/dev/mmcblk0p1</kbd> on an mmc controller connected device.
+</p><p><a href="/File:Exclamation.png" class="image"><img alt="Exclamation.png" src="/images/c/c0/Exclamation.png" width="16" height="16"/></a> If the SD card is connected in another way, the device nodes can change to be even different, take this into account.
+</p>
+<h2> <span class="mw-headline" id="SD_Card_Layout"> SD Card Layout </span></h2>
+<p>"start" is a 1k-block number here. (Multiply it by two to get the corresponding sector number - assuming 512 byte sectors).
+</p>
+<table class="wikitable">
+<tr>
+<th> start
+</th>
+<th> size
+</th>
+<th> usage
+</th></tr>
+<tr>
+<td> 0 </td>
+<td> 8KB </td>
+<td> Unused, available for partition table etc.
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> 24KB </td>
+<td> Initial SPL loader
+</td></tr>
+<tr>
+<td> 32 </td>
+<td> 512KB </td>
+<td> U-Boot
+</td></tr>
+<tr>
+<td> 544 </td>
+<td> 128KB </td>
+<td> environment
+</td></tr>
+<tr>
+<td> 672 </td>
+<td> 352KB </td>
+<td> reserved
+</td></tr>
+<tr>
+<td> 1024 </td>
+<td> - </td>
+<td> Free for partitions
+</td></tr></table>
+<h2> <span class="mw-headline" id="Identify_the_card"> Identify the card </span></h2>
+<p>First identify the device of the card and export it as <tt>${card}</tt>. The commands
+<br/><code>cat /proc/partitions</code>
+<br/>or
+<br/><code>blkid -c /dev/null</code>
+<br/>can help with finding available/correct partition names.
+</p>
+<ul><li> If the SD card is connected via USB and is sdX (replace X for a correct letter)
+</li></ul>
+<pre class="brush: bash">
+export card=/dev/sdX
+export p=&quot;&quot;
+</pre>
+<ul><li> If the SD card is connected via mmc and is mmcblk0
+</li></ul>
+<pre class="brush: bash">
+export card=/dev/mmcblk0
+export p=p
+</pre>
+<h2> <span class="mw-headline" id="Cleaning"> Cleaning </span></h2>
+<p>To be on safe side erase the first part of your SD Card (also clears the partition table).
+</p>
+<pre class="brush: bash">dd if=/dev/zero of=${card} bs=1M count=1</pre>
+<p>If you wish to keep the partition table, run:
+</p>
+<pre class="brush: bash">dd if=/dev/zero of=${card} bs=1k count=1023 seek=1</pre>
+<h2> <span class="mw-headline" id="Bootloader"> Bootloader </span></h2>
+<p>You will need to write the <i>u-boot-sunxi-with-spl.bin</i> to the sd-card. If you don't have this file yet, refer to the "compilation" section of <a href="/Mainline_U-Boot#Compile_U-Boot" title="Mainline U-Boot">mainline</a> or <a href="/U-Boot#Compile_U-Boot" title="U-Boot">legacy</a> U-Boot.
+</p>
+<pre class="brush: shell">
+dd if=u-boot-sunxi-with-spl.bin of=${card} bs=1024 seek=8
+</pre>
+<p>To update the bootloader from the u-boot prompt itself:
+</p>
+<pre class="brush: shell">
+mw.b 0x48000000 0x00 0x100000                 # Zero buffer
+tftp 0x48000000 u-boot-sunxi-with-spl.bin     # Or use load to read from MMC or SCSI etc
+mmc erase 0x10 0x400                          # Erase the MMC region containing u-boot, do not reset at this point!
+mmc write 0x48000000 0x10 0x400               # Write updated u-boot
+</pre>
+<p>If using u-boot v2013.07 or earlier then the offsets, and therefore procedure, are slightly different:
+</p><p><i>Note: if bootloader was generated by Buildroot (tested on 2015.02), this is the case.</i>
+</p>
+<pre class="brush: shell">
+dd if=spl/sunxi-spl.bin of=${card} bs=1024 seek=8
+dd if=u-boot.bin of=${card} bs=1024 seek=32
+</pre>
+<h2> <span class="mw-headline" id="Partitioning"> Partitioning </span></h2>
+<p>With recent <a href="/U-Boot" title="U-Boot">U-Boot</a> it's fine to use ext2/ext3 as boot partition, and other filesystems in the root partition too.
+</p>
+<h3> <span class="mw-headline" id="With_separate_boot_partition"> With separate boot partition </span></h3>
+<p>Partition the card with a 16MB boot partition starting at 1MB, and the rest as root partition
+</p>
+<pre class="brush: bash">
+sfdisk -R ${card}
+cat &lt;&lt;EOT | sfdisk --in-order -L -uM ${card}
+1,16,c
+,,L
+EOT
+</pre>
+<p>sfdisk v2.26 and newer does not provide the -R flag, blockdev can be used instead.
+sfdisk also deprecated the use of -u recently as all sizes are now in sectors.
+-L flag is also deprecated and ignored so we skip it.
+--in-order is gone and is the default.
+</p><p>Partitioning the card with this in mind:
+</p>
+<pre class="brush: bash">
+blockdev --rereadpt ${card}
+cat &lt;&lt;EOT | sfdisk ${card}
+1M,16M,c
+,,L
+EOT
+</pre>
+<p>You should now be able to create the actual filesystems:
+</p>
+<pre class="brush: bash">
+mkfs.vfat ${card}${p}1
+mkfs.ext4 ${card}${p}2
+</pre>
+<pre class="brush: bash">
+cardroot=${card}${p}2
+</pre>
+<h4> <span class="mw-headline" id="Boot_Partition"> Boot Partition </span></h4>
+<pre class="brush: shell">
+mount ${card}${p}1 /mnt/
+cp linux-sunxi/arch/arm/boot/uImage /mnt/
+cp sunxi-boards/sys_config/a10/script.bin /mnt/
+umount /mnt/
+</pre>
+<h3> <span class="mw-headline" id="Single_partition"> Single partition </span></h3>
+<p>(experimental)
+</p>
+<pre class="brush: bash">
+sfdisk -R ${card}
+cat &lt;&lt;EOT | sfdisk -L --in-order -uM ${card}
+1,,L
+EOT
+</pre>
+<pre class="brush: bash">
+mkfs.ext4 ${card}${p}1
+</pre>
+<pre class="brush: bash">
+cardroot=${card}${p}1
+</pre>
+<h4> <span class="mw-headline" id="Boot_Partition_2"> Boot Partition </span></h4>
+<pre class="brush: shell">
+mount ${card}${p}1 /mnt/
+mkdir /mnt/boot
+cp linux-sunxi/arch/arm/boot/uImage /mnt/boot
+cp sunxi-boards/sys_config/a10/script.bin /mnt/boot
+umount /mnt/
+</pre>
+<h3> <span class="mw-headline" id="GPT_.28experimental.29"> GPT (experimental) </span></h3>
+<p>There is 8kb space for partition data. MBR uses only the first sector and allows for 4 partitions. If you are concerned about the 4 partition limitation you can try different partitioning scheme. While GPT standard mandates that GPT should have at least 128 entries gdisk can resize a GPT partition to 56 entries which fit into the 7kb that follow the protective MBR header and GPT header. Linux understands such GPT but some tools refuse it since it does not adhere to the standard. YMMV<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>
+</p>
+<h2> <span class="mw-headline" id="Boot_Script"> Boot Script </span></h2>
+<p><a href="/Manual_build_howto#boot.cmd" title="Manual build howto">Manual_build_howto#boot.cmd</a>
+</p>
+<h2> <span class="mw-headline" id="Rootfs"> Rootfs </span></h2>
+<p>This depends on what distribution you want to install. Which partition layout you use does not matter much, since the root device is passed to the kernel as argument. You might need tweaks to <kbd>/etc/fstab</kbd> or other files if your layout does not match what the rootfs expects. As of this writing most available images use two partitions with separate <kbd>/boot</kbd>.
+</p>
+<h3> <span class="mw-headline" id="Using_rootfs_tarball"> Using rootfs tarball </span></h3>
+<pre class="brush: shell">
+mount ${card}${p}2 /mnt/
+tar -C /mnt/ -xjpf my-chosen-rootfs.tar.bz2
+umount /mnt
+</pre>
+<h4> <span class="mw-headline" id="Linaro_rootfs"> Linaro rootfs </span></h4>
+<p>Linaro offers a set of <a rel="nofollow" class="external text" href="https://wiki.linaro.org/Platform/DevPlatform/Rootfs">different root filesystems</a>. A retention policy of 30 days applies to Linaro rootfs on snapshot servers. New snapshots can be generated on request. Latest snapshots can be made from sources such as <a rel="nofollow" class="external text" href="https://git.linaro.org/gitweb?p=ci/ubuntu-build-service.git">Ubuntu Build Service</a>
+</p><p>In any case, you can get <a rel="nofollow" class="external text" href="http://snapshots.linaro.org/ubuntu/images/">the actual rootfs tarballs here</a>. ALIP is a minimal LXDE based desktop environment which might me useful to most allwinner users.
+</p><p>Note that recent (2015, and maybe even earlier) versions of ALIP/Linaro/Ubuntu and any other rootfs that makes use of <i>systemd</i> (and possibly also <i>upstart</i>) can only be used with a kernel compiled with <kbd>CONFIG_FHANDLE=y</kbd><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>. In the default configuration of the Sunxi-3.4 kernel this option is <u>not</u> set (It says "<i># CONFIG_FHANDLE is not set</i>" in <kbd>.config</kbd>). So you must take care of this yourself during kernel configuration (<i>"General Setup", "Open by fhandle syscalls"</i>).
+</p><p>Otherwise your kernel will boot, rootfs will mount and after that nothing will happen: no login prompt will appear on any console. If you must use a kernel without <kbd>CONFIG_FHANDLE</kbd>, try using a Debian rootfs with <i>sysvinit</i>.
+</p>
+<h4> <span class="mw-headline" id="Rootfs_from_LinuxContainers"> Rootfs from LinuxContainers </span></h4>
+<p>LinuxContainers projects has various downloadable <a rel="nofollow" class="external text" href="https://images.linuxcontainers.org/images/">rootfs images</a>.
+</p>
+<h3> <span class="mw-headline" id="Using_debootstrap_-_Debian.2FUbuntu_based_distributions"> Using debootstrap - Debian/Ubuntu based distributions </span></h3>
+<p><tt>debootstrap</tt> is an alternative to rootfs tarball as described in the previous section
+</p>
+<pre># feel free to change distro to <b>raring</b>/saucy/.. as appropriate for later Ubuntu version or <b>wheezy</b> for Debian
+distro=<b>precise</b>
+mount ${card}${p}2 /mnt/
+# you can add --variant=buildd to install a compiler in your chroot at debootstrap time but using apt is probably faster
+debootstrap --arch=armhf --foreign $distro /mnt/
+cp /usr/bin/qemu-arm-static /mnt/usr/bin/
+chroot /mnt /usr/bin/qemu-arm-static /bin/sh -i
+/debootstrap/debootstrap --second-stage
+</pre>
+<p><br/>
+</p>
+<pre># for <b>Ubuntu</b>
+cat &lt;&lt;EOT &gt; etc/apt/<b>sources.list</b>
+deb <a rel="nofollow" class="external free" href="http://ports.ubuntu.com/">http://ports.ubuntu.com/</a> $distro main universe
+deb-src <a rel="nofollow" class="external free" href="http://ports.ubuntu.com/">http://ports.ubuntu.com/</a> $distro main universe
+deb <a rel="nofollow" class="external free" href="http://ports.ubuntu.com/">http://ports.ubuntu.com/</a> $distro-security main universe
+deb-src <a rel="nofollow" class="external free" href="http://ports.ubuntu.com/">http://ports.ubuntu.com/</a> $distro-security main universe
+deb <a rel="nofollow" class="external free" href="http://ports.ubuntu.com/">http://ports.ubuntu.com/</a> $distro-updates main universe
+deb-src <a rel="nofollow" class="external free" href="http://ports.ubuntu.com/">http://ports.ubuntu.com/</a> $distro-updates main universe
+EOT
+</pre>
+<pre># for <b>Debian</b>
+cat &lt;&lt;EOT &gt; etc/apt/<b>sources.list</b>
+deb <a rel="nofollow" class="external free" href="http://http.debian.net/debian">http://http.debian.net/debian</a> $distro main contrib non-free
+deb-src <a rel="nofollow" class="external free" href="http://http.debian.net/debian">http://http.debian.net/debian</a> $distro main contrib non-free
+deb <a rel="nofollow" class="external free" href="http://http.debian.net/debian">http://http.debian.net/debian</a> $distro-updates main contrib non-free
+deb-src <a rel="nofollow" class="external free" href="http://http.debian.net/debian">http://http.debian.net/debian</a> $distro-updates main contrib non-free
+deb <a rel="nofollow" class="external free" href="http://security.debian.org/debian-security">http://security.debian.org/debian-security</a> $distro/updates main contrib non-free
+deb-src <a rel="nofollow" class="external free" href="http://security.debian.org/debian-security">http://security.debian.org/debian-security</a> $distro/updates main contrib non-free
+EOT
+</pre>
+<pre>cat &lt;&lt;EOT &gt;&gt; etc/<b>fstab</b>
+none	/tmp	tmpfs	defaults,noatime,mode=1777 0 0
+# if you have a separate boot partition
+${card}${p}1	/boot	vfat defaults 0 0 
+EOT
+exit
+cp /etc/<b>resolv.conf</b> /mnt/etc
+chroot /mnt
+export LANG=C
+apt-get update
+# set up '<i>apt</i>
+cat &lt;&lt;END &gt; /etc/apt/apt.conf.d/71-no-recommends
+APT::Install-Recommends "0";
+APT::Install-Suggests "0";
+END
+# set up <b>locales</b> (Debian) - dpkg scripts tend to complain otherwise
+apt-get install locales
+dpkg-reconfigure locales
+# Choose en_US.UTF-8 for both prompts, or whatever you want.
+export LANG=en_US.UTF-8
+# <b>install</b> your favourite <b>packages</b> here
+apt-get install nvi&#160;; apt-get remove nano 
+# set <b>root password</b> - otherwise you won't be able to log in
+passwd
+exit
+# cleanup
+rm /mnt/usr/bin/qemu-arm-static /mnt/etc/<b>resolv.conf</b>
+# ensure hostname has not carried over from your build host
+echo something &gt; /mnt/etc/<b>hostname</b>
+# enable <b>serial</b> console (Debian/sysvinit way)
+echo T0:2345:respawn:/sbin/getty -L ttyS0 115200 vt100 &gt;&gt; etc/inittab
+# enable serial console (Ubuntu/upstart way - TBD)
+umount /mnt
+</pre>
+<h3> <span class="mw-headline" id="Kernel_modules"> Kernel modules </span></h3>
+<p>When you have copied rootfs to your card you might want to <a href="/Manual_build_howto#Setting_up_the_rootfs" title="Manual build howto">copy the kernel modules</a> as well.
+</p>
+<h1> <span class="mw-headline" id="Troubleshooting">Troubleshooting</span></h1>
+<ul><li> <b>check partitioning</b> - if you did the partitioning yourself read back the layout with <kbd>sfdisk</kbd> in sectors. <kbd>sfdisk</kbd> and <kbd>gparted</kbd> sometimes apply weird rounding when using megabytes.
+</li></ul>
+<pre>
+sfdisk -uS -d /dev/sdd
+# partition table of /dev/sdd
+unit: sectors
+
+/dev/sdd1&#160;: start=     2048, size= 16150528, Id=83
+/dev/sdd2&#160;: start=        0, size=        0, Id= 0
+/dev/sdd3&#160;: start=        0, size=        0, Id= 0
+/dev/sdd4&#160;: start=        0, size=        0, Id= 0
+</pre>
+<ul><li> <b>re-check that you have written the image correctly</b> Check image checksum if provided. Re-read writing instructions carefully. Try another writing method if available - dd / phoenixsuit / win32-diskimage. Especially writing on Windows tends to cause trouble. If your board is new you can try an image for similar board with the same CPU. Use <a href="/UART" title="UART">console cable</a> if you have one to check the boot messages.
+</li></ul>
+<ul><li> <b>power off the board completely before booting</b> If you are using a console cable the board may not power off completely. There is a possiblility that self-powered USB peripherials or USB hubs may cause sililar issue. The red power light would get dimmer when the board is off but does not turn off completely. In this case the mmc controller may not get reset properly and the board boots from nand. Power off the board, disconnect all peripherials, and disconnect the serial console cable. Try booting again. You can re-connect your peripherials before booting. This issue does not seem to happen when the kernel powers down the mmc controller properly but is common when the kernel crashes.
+</li></ul>
+<ul><li> <b>check for bad micro-SD card contact</b> This is common issue on boards that use micro-SD socket. Try removing and re-inserting the card, cleaning the contacs on the card and dusting off the SD card socket. Some people report that inserting the card together with a piece of paper improves contact and allows booting cards which are too loose in the socket.
+</li></ul>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<h2> <span class="mw-headline" id="U-Boot"> U-Boot </span></h2>
+<ul><li> <a href="/U-Boot" title="U-Boot">U-Boot</a>
+</li></ul>
+<h2> <span class="mw-headline" id="External"> External </span></h2>
+<ul><li> <a class="external text" href="https://github.com/linux-sunxi/u-boot-sunxi/wiki">Additional info on sunxi's flavor of U-Boot</a>
+</li></ul>
+<h2> <span class="mw-headline" id="References"> References </span></h2>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="https://en.wiktionary.org/wiki/YMMV">https://en.wiktionary.org/wiki/YMMV</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://unix.stackexchange.com/questions/169935/no-login-prompt-on-serial-console">http://unix.stackexchange.com/questions/169935/no-login-prompt-on-serial-console</a></span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Bootable_SD_card&amp;oldid=16362">http://linux-sunxi.org/index.php?title=Bootable_SD_card&amp;oldid=16362</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Bootable+SD+card&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Bootable+SD+card" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Bootable_SD_card" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Bootable_SD_card" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Bootable_SD_card">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Bootable_SD_card&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Bootable_SD_card&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Bootable_SD_card" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Bootable_SD_card" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Bootable_SD_card&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Bootable_SD_card&amp;oldid=16362" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 13 February 2016, at 13:59.</li>
+<li id="footer-info-viewcount">This page has been accessed 174,681 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

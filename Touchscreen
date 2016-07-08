@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Touchscreen - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Touchscreen","wgTitle":"Touchscreen","wgCurRevisionId":17102,"wgArticleId":1314,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Touchscreen","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Touchscreen"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Touchscreen skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Touchscreen</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page collects all the information about the various touch screen controllers in use on sunxi hardware.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#General_information"><span class="tocnumber">1</span> <span class="toctext">General information</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Hardware"><span class="tocnumber">1.1</span> <span class="toctext">Hardware</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Startup_Procedure"><span class="tocnumber">1.2</span> <span class="toctext">Startup Procedure</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Touchscreen_profiles"><span class="tocnumber">1.3</span> <span class="toctext">Touchscreen profiles</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Touchscreen_modes"><span class="tocnumber">1.4</span> <span class="toctext">Touchscreen modes</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Hardware_Configuration_and_Fex"><span class="tocnumber">1.5</span> <span class="toctext">Hardware Configuration and Fex</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Step_1"><span class="tocnumber">1.5.1</span> <span class="toctext">Step 1</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Step_2"><span class="tocnumber">1.5.2</span> <span class="toctext">Step 2</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Step_3"><span class="tocnumber">1.5.3</span> <span class="toctext">Step 3</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#Software_Calibration"><span class="tocnumber">1.6</span> <span class="toctext">Software Calibration</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Manufacturers"><span class="tocnumber">2</span> <span class="toctext">Manufacturers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#ChipOne"><span class="tocnumber">2.1</span> <span class="toctext">ChipOne</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Elan"><span class="tocnumber">2.2</span> <span class="toctext">Elan</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#EKT3632"><span class="tocnumber">2.2.1</span> <span class="toctext">EKT3632</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-15"><a href="#Focaltech"><span class="tocnumber">2.3</span> <span class="toctext">Focaltech</span></a>
+<ul>
+<li class="toclevel-3 tocsection-16"><a href="#FT5301"><span class="tocnumber">2.3.1</span> <span class="toctext">FT5301</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#FT5302"><span class="tocnumber">2.3.2</span> <span class="toctext">FT5302</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#FT5402DQT"><span class="tocnumber">2.3.3</span> <span class="toctext">FT5402DQT</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="#FT5x06"><span class="tocnumber">2.3.4</span> <span class="toctext">FT5x06</span></a>
+<ul>
+<li class="toclevel-4 tocsection-20"><a href="#sunxi-3.4"><span class="tocnumber">2.3.4.1</span> <span class="toctext">sunxi-3.4</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-21"><a href="#Goodix"><span class="tocnumber">2.4</span> <span class="toctext">Goodix</span></a>
+<ul>
+<li class="toclevel-3 tocsection-22"><a href="#GT801"><span class="tocnumber">2.4.1</span> <span class="toctext">GT801</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="#GT801_2.2B1"><span class="tocnumber">2.4.2</span> <span class="toctext">GT801 2+1</span></a></li>
+<li class="toclevel-3 tocsection-24"><a href="#GT811"><span class="tocnumber">2.4.3</span> <span class="toctext">GT811</span></a></li>
+<li class="toclevel-3 tocsection-25"><a href="#GT818"><span class="tocnumber">2.4.4</span> <span class="toctext">GT818</span></a></li>
+<li class="toclevel-3 tocsection-26"><a href="#GT828"><span class="tocnumber">2.4.5</span> <span class="toctext">GT828</span></a></li>
+<li class="toclevel-3 tocsection-27"><a href="#GT9xx"><span class="tocnumber">2.4.6</span> <span class="toctext">GT9xx</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-28"><a href="#Ilitek"><span class="tocnumber">2.5</span> <span class="toctext">Ilitek</span></a>
+<ul>
+<li class="toclevel-3 tocsection-29"><a href="#aimvf"><span class="tocnumber">2.5.1</span> <span class="toctext">aimvf</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-30"><a href="#Silead"><span class="tocnumber">2.6</span> <span class="toctext">Silead</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#Solomon_Systech_Limited"><span class="tocnumber">2.7</span> <span class="toctext">Solomon Systech Limited</span></a>
+<ul>
+<li class="toclevel-3 tocsection-32"><a href="#SSD2533"><span class="tocnumber">2.7.1</span> <span class="toctext">SSD2533</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-33"><a href="#ZEITEC_Semiconductor"><span class="tocnumber">2.8</span> <span class="toctext">ZEITEC Semiconductor</span></a>
+<ul>
+<li class="toclevel-3 tocsection-34"><a href="#zet6221"><span class="tocnumber">2.8.1</span> <span class="toctext">zet6221</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-35"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="General_information"> General information </span></h1>
+<p>In general touchscreens are configured by the ctp_para in the fex file. There's also support for resistive touch panels by setting rtp_para in the fex. An example for built in RTP (resistive touch panel) built in controller can be found in the <a href="/Fex_Guide#.5Brtp_para.5D" title="Fex Guide">Fex Guide</a>.
+</p><p>An example (for ft5x) would be:
+</p>
+<pre>
+[ctp_para]
+ctp_used = 1 #enable or disable the touchscreen
+ctp_name = &quot;ft5x_ts&quot; #model of the touchscreen
+ctp_twi_id = 2 #I2C Interface
+ctp_twi_addr = 0x70 #I2C Address
+ctp_screen_max_x = 800 #X Settings
+ctp_screen_max_y = 480 #Y Settings
+ctp_revert_x_flag = 0 #Set this and ctp_revert_y_flag to 1 to flip x and y axis
+ctp_revert_y_flag = 0
+ctp_exchange_x_y_flag = 0 
+ctp_int_port = port:PH21&lt;6&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt; #INT port settings
+ctp_wakeup = port:PB13&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt; #Wakeup port settings
+ctp_io_port = port:PH21&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt; #IO Port Settings
+rst_port = port:PH20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt; #RST port settings
+</pre>
+<p>Example for built in RTP:
+</p>
+<pre>
+[rtp_para]
+rtp_used = 0
+rtp_screen_size = 7
+rtp_regidity_level = 7
+rtp_press_threshold_enable = 0
+rtp_press_threshold = 0x1f40
+rtp_sensitive_level = 0xf
+rtp_exchange_x_y_flag = 0
+</pre>
+<h2> <span class="mw-headline" id="Hardware"> Hardware </span></h2>
+<p>In general a capacitive touchscreen hardware consists of 6 Pins:
+</p>
+<ul><li>RST - Reset Pin (Input), Used by the CPU to reset the touchscreen.
+</li><li>SDA - I2C SDA (IO)
+</li><li>SCL - I2C SDL (Input)
+</li><li>INT - Interrupt Pin (Output, can be input during startup), used by the Touchscreen to indicate to the CPU that there are new events
+</li><li>VCC - Power Supply
+</li><li>GND - GND
+</li></ul>
+<p>Some touchscreen have wakeup pins to allow the touchscreen to go to sleep mode to save battery.
+</p><p>Mainly the I2C pins are connected to any i2c port on the CPU and is used to communicate with the touchscreen.
+</p><p>In the other way a resistive touchscreen has 4 wires. Details can be found in the user manuals for Allwinner chips, in the section TP (touch panel). The interesting thing is that sun4i, sun6i and sun7i have essentially the same RTP controllers so the sun4i_ts driver can work for all of them. Testing was done on an A20 platform and gave exceptionally good results.
+</p>
+<h2> <span class="mw-headline" id="Startup_Procedure"> Startup Procedure </span></h2>
+<p>Usually any touchscreen has a startup procedure during which resets are sent to the touchscreen by the cpu to indicate this procedure. During the reset/startup procedure usually the touchscreen profile data is sent to the touchscreen. Also in some cases the I2C address is set by this rest procedure (for instance, GT911).
+</p><p>The interrupt Pin can be part of the startup procedure for handshakes or indications. In some cases the interrupt pin is also used as input to read additional data from the cpu during reset.
+</p>
+<h2> <span class="mw-headline" id="Touchscreen_profiles"> Touchscreen profiles </span></h2>
+<p>Some touchscreen (for instance, GT911) require a so call Touchscreen Profile/Configuration. This configuration is sent during or right after the reset procedure of the touchscreen and is usually written to the controller memory (in some cases selectable persistent in eeprom). The Profile/Config defines the parameters of the touchscreen (such as physical size, active area(s). also it can include touchscreen button areas, touchscreen mode and more.
+</p><p><b>THIS CONFIGURATION MUST BE PROVIDED BY THE TOUCHSCREEN PRODUCER!</b>
+</p><p>Example:
+</p>
+<pre>
+#define CTP_CFG_GROUP1 {\
+0x00,0x58,0x02,0x00,0x04,0x05,0x30,0x08,0x03,0x9F,0x14,\
+0x0F,0x8C,0x64,0x03,0x05,0x00,0x00,0x00,0x00,0x00,0x00,\
+0x00,0x18,0x1A,0x1E,0x14,0x8C,0x28,0x0C,0x18,0x14,0xD1,\
+0x0B,0x00,0x00,0x01,0x9C,0x02,0x35,0x00,0x00,0x00,0x00,\
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x14,0x64,0x94,0x85,\
+0x02,0x08,0x00,0x00,0xCD,0x07,0x16,0xBF,0x09,0x19,0xFC,\
+0x0C,0x1B,0xE7,0x0D,0x22,0x77,0x0E,0x2D,0x00,0x00,0x00,\
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,\
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,\
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,\
+0x00,0x00,0x02,0x04,0x06,0x08,0x0A,0x0C,0x0E,0x10,0x12,\
+0x14,0x16,0x18,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,\
+0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0x00,\
+0x02,0x04,0x06,0x08,0x0A,0x0C,0x0F,0x10,0x12,0x13,0x14,\
+0x16,0x18,0x1C,0x1D,0x1E,0x1F,0x20,0x21,0xFF,0xFF,0xFF,\
+0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,\
+0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0x7C,0x01\
+}
+</pre>
+<h2> <span class="mw-headline" id="Touchscreen_modes"> Touchscreen modes </span></h2>
+<p>There is 2 modes a touchscreen can work in:
+</p>
+<ul><li>Polling Mode
+</li><li>Interrupt Mode
+</li></ul>
+<p>This mode is usually defined by the Touchscreen profile/config or the startup/reset procedure.
+</p><p>The preferred mode a capacitive touchscreen should work in is always interrupt mode. In Interrupt mode every time an event on the touchscreen occurs the INT pin triggers and notifies the CPU. the cpu then read the new event from the touchscreen.
+</p><p>In Polling mode the cpu periodically requests the touchscreen data from the touchscreen. This means that there will be a lot of communication on the i2c port since this has to happen once every few ms.
+</p><p>As stated above whenever possible use interrupt mode!
+</p>
+<h2> <span class="mw-headline" id="Hardware_Configuration_and_Fex"> Hardware Configuration and Fex </span></h2>
+<p>It is very important to configure the FEX file correctly for your touchscreen.
+</p>
+<h3> <span class="mw-headline" id="Step_1"> Step 1 </span></h3>
+<p>In your hardware schematics identify the I2C pins of your touchscreen and see which I2C it is connected to and set the <i>ctp_twi_id</i> to the id of i2c port.
+Now you need to find our your i2c address of your touchscreen. this is something you can get out of the chip datasheet or your touchscreen manufacture.
+</p><p>Remember that the address of the touchscreen might be changed when sending the profile/config or via the reset procedure.
+</p>
+<h3> <span class="mw-headline" id="Step_2"> Step 2 </span></h3>
+<p>In your schematics find out which GPIO Pin the INT Pin is connected to.
+</p><p>Define:
+</p>
+<pre>ctp_int_port = port:&lt;text&gt;PH21&lt;/text&gt;&lt;6&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;</pre>
+<p>please also note the <i>&lt;6&gt;</i> part in the line above. Verify that the Interrupt setting of your Int pin is Function number 6 of the mux setting or modify the <i>&lt;X&gt;</i> according.
+</p><p>Note that on some touchscreens (ft5x) it is required to define another port called the IO port on the same port as the interrupt port:
+</p>
+<pre>ctp_io_port = port: PH21&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;</pre>
+<p>This setting will define the same port with mux setting 0 as output to allow the driver to switch to IO mode.
+</p>
+<h3> <span class="mw-headline" id="Step_3"> Step 3 </span></h3>
+<p>In your schematics find out which GPIO Pin the RST Pin is connected to.
+</p>
+<pre>rst_port = port:PH20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt; #RST port settings</pre>
+<p>Note that &lt;1&gt; sets the port as an output.
+</p><p>It might be required to define additional pins for your touchscreen
+</p>
+<h2> <span class="mw-headline" id="Software_Calibration"> Software Calibration </span></h2>
+<p>Calibration of a touchscreen device can be done with the <a rel="nofollow" class="external text" href="http://www.freedesktop.org/wiki/Software/xinput_calibrator/">xinput_calibrator</a>. The xinput_calibrator is very simple tool which enables you to go through standard calibration procedure (press a few points on the screen) and then produces a snippet for xorg.conf.
+</p><p>There can be problems with produced configuration so it's good to test and see what's actually happening. Try to move your finger over the screen and see if there's some sings of miscalibration. Produced config actually scales values from touchscreen controller to map to the screen so it may happen that one axis works ok and another doesn't. Anyways, xinput_calibrator can give you good hint for start and you can tweak it further manually. Detailed list of options can be found in the <a rel="nofollow" class="external text" href="http://www.x.org/releases/X11R7.6/doc/man/man4/evdev.4.xhtml">evdev manual page</a>.
+</p>
+<h1> <span class="mw-headline" id="Manufacturers"> Manufacturers </span></h1>
+<h2> <span class="mw-headline" id="ChipOne"> ChipOne </span></h2>
+<ul><li> Mainline kernel driver: <b>icn8138</b>
+</li><li> WIP drivers:
+<ul><li> <b>icn85xx</b> - <a rel="nofollow" class="external text" href="https://gitlab.com/SergK/icn85xx">WIP branch</a> (<a rel="nofollow" class="external text" href="https://groups.google.com/forum/#!topic/linux-sunxi/vIROVNOR-fY">announcement</a>)
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Elan"> Elan </span></h2>
+<p><a rel="nofollow" class="external text" href="http://www.emc.com.tw/eng/index.asp">Elan Microelectronics Corporation</a>
+</p>
+<h3> <span class="mw-headline" id="EKT3632"> EKT3632 </span></h3>
+<h2> <span class="mw-headline" id="Focaltech"> Focaltech </span></h2>
+<p><a rel="nofollow" class="external text" href="http://www.focaltech-systems.com/En/index.aspx">Link</a>
+</p><p>Support is available for <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.4/drivers/input/touchscreen/ft5x_ts.c">sunxi-3.4</a>.
+</p>
+<h3> <span class="mw-headline" id="FT5301"> FT5301 </span></h3>
+<p>Supported in sunxi-3.4
+</p>
+<h3> <span class="mw-headline" id="FT5302"> FT5302 </span></h3>
+<p>???
+</p>
+<h3> <span class="mw-headline" id="FT5402DQT"> FT5402DQT </span></h3>
+<p>Supported in sunxi-3.4
+</p>
+<h3> <span class="mw-headline" id="FT5x06"> FT5x06 </span></h3>
+<p><b>Supported</b> in mainline kernel.
+</p>
+<ul><li> FT5206GE1
+</li><li> FT5306DE4
+</li><li> FT5406EE8
+</li></ul>
+<h4> <span class="mw-headline" id="sunxi-3.4"> sunxi-3.4 </span></h4>
+<p>Supported, but the driver does not load on <a href="/A20" title="A20">A20</a> without the following patch. See this <a rel="nofollow" class="external text" href="https://groups.google.com/forum/#!topic/linux-sunxi/3rOkL-MiA1g">conversation</a> for more information.
+</p>
+<pre>diff --git a/drivers/input/touchscreen/ft5x_ts.c b/drivers/input/touchscreen/ft5x_ts.c
+index 5d8dc97..3d88694 100644
+--- a/drivers/input/touchscreen/ft5x_ts.c
++++ b/drivers/input/touchscreen/ft5x_ts.c
+@@ -1762,7 +1762,7 @@ ft5x_ts_probe(struct i2c_client *client, const struct i2c_device_id *id)
+                pr_info(&quot;%s:ctp_ops.set_irq_mode err.\n&quot;, __func__);
+                goto exit_set_irq_mode;
+        }
+-       err = request_irq(SW_INT_IRQNO_PIO, ft5x_ts_interrupt, IRQF_TRIGGER_FALLING | IRQF_SHARED, &quot;ft5x_ts&quot;, ft5x_ts);
++       err = request_irq(SW_INT_IRQNO_PIO, ft5x_ts_interrupt, IRQF_SHARED, &quot;ft5x_ts&quot;, ft5x_ts);
+
+        if (err &lt; 0) {
+                dev_err(&amp;client-&gt;dev, &quot;ft5x_ts_probe: request irq failed\n&quot;);</pre>
+</pre>
+<p>This driver does not support transformations (e.g. x-revert), but generates events complying to the <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.4/Documentation/input/multi-touch-protocol.txt">multi touch protocol</a>.
+</p>
+<h2> <span class="mw-headline" id="Goodix"> Goodix </span></h2>
+<p><a rel="nofollow" class="external text" href="http://www.goodix.com/">Manufacturer's website</a>
+</p><p><a rel="nofollow" class="external text" href="https://drive.google.com/folderview?id=0BxCVOQS3ZymGfmJyY2RKbE5XbVlKNlktVTlwV0lxNEdxd2dzeWZER094cmJPVnMxN1F0Yzg&amp;usp=sharing">Datasheets</a> for various GT9xx devices.
+</p><p>Driver for most of the <b>Goodix 9xx</b> chips (see below) is available in mainline. It is quite possible that all the 9xx-series chips are supported by this driver because they seem to have a common register layout. Goodix 8xx is currently unsupported by mainline.
+</p><p>For older chips there are various driver sources targeting older kernel versions (linux-3.3 or linux-3.4) scattered around in different vendor-provided source trees or SDKs.
+</p>
+<h3> <span class="mw-headline" id="GT801"> GT801 </span></h3>
+<p>No mainline support.
+Driver available in sunxi-3.4
+</p>
+<h3> <span class="mw-headline" id="GT801_2.2B1"> GT801 2+1 </span></h3>
+<p>No mainline support. <a rel="nofollow" class="external text" href="http://thread.gmane.org/gmane.linux.kernel.input/42478/">RFC patch</a> that needs to be adapted to work alongside gt9xx chips.
+</p><p>Driver available in sunxi-3.4
+</p>
+<h3> <span class="mw-headline" id="GT811"> GT811 </span></h3>
+<p>No mainline support.
+Driver available in sunxi-3.4
+</p>
+<h3> <span class="mw-headline" id="GT818"> GT818 </span></h3>
+<p>No mainline support.
+Driver available in sunxi-3.4
+</p>
+<h3> <span class="mw-headline" id="GT828"> GT828 </span></h3>
+<p>No mainline support.
+No driver in sunxi-3.4, <a class="external text" href="https://github.com/reinforce/sunxi-patches/blob/master/3.4/0003-touchscreen-Add-gt82x.patch">WIP patch</a>
+</p>
+<h3> <span class="mw-headline" id="GT9xx"> GT9xx </span></h3>
+<p>Support for various Goodix GT9xx chips is available since Linux-4.1 via common <b><tt><a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/input/touchscreen/goodix.c">goodix</a></tt></b> driver:
+</p>
+<ul><li> gt911
+</li><li> gt9110
+</li><li> gt912
+</li><li> gt927
+</li><li> gt9271
+</li><li> gt928
+</li><li> gt967
+</li></ul>
+<p>For <tt>sunxi-3.4</tt>, there's <a class="external text" href="https://github.com/reinforce/gt9xx">WIP driver</a>.
+</p>
+<h2> <span class="mw-headline" id="Ilitek"> Ilitek </span></h2>
+<h3> <span class="mw-headline" id="aimvf"> aimvf </span></h3>
+<h2> <span class="mw-headline" id="Silead"> Silead </span></h2>
+<p><a class="external text" href="https://github.com/jwrdegoede/gslX68X">WiP driver</a> for mainline supporting: gsl1680, gsl1688, gsl3670, gsl3675, gsl3692 and mssl1680 variants.
+</p><p>Please note that you still need <a class="external text" href="https://github.com/onitake/gsl-firmware">firmware supporting your device</a>.
+</p><p>Datasheet for GSL3680: <a class="external free" href="http://dl.linux-sunxi.org/touchscreen/GSL3680_touch-screen-controller-ic-DataSheet_Chinese_RevA1.2.pdf">http://dl.linux-sunxi.org/touchscreen/GSL3680_touch-screen-controller-ic-DataSheet_Chinese_RevA1.2.pdf</a>
+</p><p>See also:
+</p>
+<ul><li> <a href="/GSL1680" title="GSL1680">GSL1680</a> - capacitive, multitactile touchscreen controller
+</li></ul>
+<h2> <span class="mw-headline" id="Solomon_Systech_Limited"> Solomon Systech Limited </span></h2>
+<p>This <a rel="nofollow" class="external text" href="http://www.solomon-systech.com/">Hong Kong based company</a> creates various LCD/OLED driver and touchscreen chips.
+</p>
+<h3> <span class="mw-headline" id="SSD2533">  SSD2533 </span></h3>
+<h2> <span class="mw-headline" id="ZEITEC_Semiconductor"> ZEITEC Semiconductor </span></h2>
+<h3> <span class="mw-headline" id="zet6221"> zet6221 </span></h3>
+<ul><li> Datasheet: <a rel="nofollow" class="external free" href="http://linux-sunxi.org/images/2/22/ZP-HW-PS-0003_ZET6221_Product_Spec_v1_2.pdf">http://linux-sunxi.org/images/2/22/ZP-HW-PS-0003_ZET6221_Product_Spec_v1_2.pdf</a>
+</li><li> Driver: <a class="external free" href="https://github.com/wingrime/zet6221-ts-drv">https://github.com/wingrime/zet6221-ts-drv</a>
+</li></ul>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+
+ 
+
+ 
+
+ 
+</div>				 
+								 
+				<div class="printfooter">
+				Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Touchscreen&amp;oldid=17102">http://linux-sunxi.org/index.php?title=Touchscreen&amp;oldid=17102</a>"				</div>
+				 
+												 
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>				 
+												<div class="visualClear"></div>
+				 
+								 
+			</div>
+			 
+		</div>
+		 
+		 
+		<div id="mw-head" class="noprint">
+			
+ 
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+		<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+		<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Touchscreen&amp;type=signup">Create account</a></li>
+		<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Touchscreen" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+ 
+			<div id="left-navigation">
+				
+ 
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li id="ca-nstab-main" class="selected"><span><a href="/Touchscreen" title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Touchscreen&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+ 
+
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+ 
+			</div>
+			<div id="right-navigation">
+				
+ 
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/Touchscreen">Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=Touchscreen&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Touchscreen&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+ 
+
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+ 
+
+ 
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/>			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/>			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/>					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+ 
+			</div>
+		</div>
+		 
+		 
+			<div id="mw-panel" class="noprint">
+				 
+					<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+				 
+				
+ 
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+			<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+<div class="portal" id='p-tb'>
+	<h5>Tools</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Touchscreen" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Touchscreen" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-print"><a href="/index.php?title=Touchscreen&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Touchscreen&amp;oldid=17102" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+ 
+
+ 
+
+ 
+			</div>
+		 
+		 
+		<div id="footer">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 4 May 2016, at 06:30.</li>
+											<li id="footer-info-viewcount">This page has been accessed 21,445 times.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+											<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		 
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+	</body>
+</html>

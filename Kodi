@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Kodi - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Kodi","wgTitle":"Kodi","wgCurRevisionId":16257,"wgArticleId":2555,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software","Cedrus"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Kodi","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Kodi"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Kodi skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Kodi</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b><a rel="nofollow" class="external text" href="http://www.kodi.tv">Kodi</a></b> (formerly <i>XBMC</i>) is a popular free and open source (GPL) software media center for playing videos, music, pictures, games and more.<br/>
+</p><p>This article contains some background you need to know, when you are planning to get Kodi running on your Allwinner SoC.<br/>
+<b>It's important to be aware of the history of XBMC on sunxi devices and the history of CedarX code in general, as well as the position of Allwinner, Team-Kodi and the linux-sunxi community.</b>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Linux-sunxi_community"><span class="tocnumber">2</span> <span class="toctext">Linux-sunxi community</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Technical_overview"><span class="tocnumber">3</span> <span class="toctext">Technical overview</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Video_engine_kernel_driver"><span class="tocnumber">3.1</span> <span class="toctext">Video engine kernel driver</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Sunxi_display_driver"><span class="tocnumber">3.2</span> <span class="toctext">Sunxi display driver</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Mali_.283D.29_kernel_driver_.2B_userspace_library"><span class="tocnumber">3.3</span> <span class="toctext">Mali (3D) kernel driver + userspace library</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Support_for_sunxi_in_Kodi"><span class="tocnumber">3.4</span> <span class="toctext">Support for sunxi in Kodi</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Kodi_via_libvdpau-sunxi"><span class="tocnumber">4</span> <span class="toctext">Kodi via libvdpau-sunxi</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Alternativ_media_players"><span class="tocnumber">5</span> <span class="toctext">Alternativ media players</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Conclusion"><span class="tocnumber">6</span> <span class="toctext">Conclusion</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="History">History</span></h1>
+<p>In history (since 2012), there have been a bunch of solutions (e.g. empat0, gimli) to get Kodi running on Allwinner SoCs using the closed sourced libraries from Allwinner (provided via the initial makers of cubieboard) for hardware accelerated video decoding. One problem of these implementation is, that these closed source libs have bugs in their linux version. Using the android version via libhybris solves this bug. The GPL issue still remaines.<br/>
+</p><p><b>Team-Kodi</b>, the official development team of Kodi, negotiated support due to lack of resources and - the more important reason - the fact, that Allwinner was <a href="/GPL_Violations" title="GPL Violations">violating the GPL</a> with these binaries. It is prooved, that they are still <a href="/GPL_Violations" title="GPL Violations">violating the GPL</a> with the binaries they shipped at the beginning, because they never released the source for them. Team-Kodi does currently not recommend that any end-user buy Allwinner A1x or A2x based hardware for the specific purpose of only running Kodi. There are a few threads in the kodi forum that one can read to get the whole story regarding Allwinner and their support to Team-Kodi. Team-Kodi in fact did not get effective Allwinner support in the end.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup><br/>
+</p><p>Due to massive pressure of the <b>linux-sunxi community</b> (in fact that have only been a few designated developers), Allwinner tried to solve the CedarX GPL violation issue with releasing a rewrite of their CedarX code, summarized as their "media-codec". This new media-codec provides the source for direct register access of the video decoding engine within the SoC. Codecs are now included via plugins. The basic decoder and MPEG2, MJPEG, MPEG4 and H246 codecs implementation are available as GPL'ed source, while the encoder and the other codecs are includeable only via a closed source library still. It's not prooved, that these closed source library is GPL compliant.<br/>
+</p><p>In the meantime, many parts of the video decoding engine have been reverse engineered by a few developers of the linux-sunxi community, so that the hardware can be accessed via real open source code, independent of any code which was released by Allwinner. The working name of this community based piece of software is <a href="/Cedrus" title="Cedrus">Cedrus</a>.
+The sad thing about the media-codec release of Allwinner is the fact, that it does not provide any other funtionality with it's open source part, that was not known already due to the <a href="/CedarX/Reverse_Engineering" title="CedarX/Reverse Engineering">reverse engineering effort</a>.<br/>
+</p>
+<h1> <span class="mw-headline" id="Linux-sunxi_community">Linux-sunxi community</span></h1>
+<p>While all these efforts have been done by the linux-sunxi community, there has been nearly <b>NO</b> support from Allwinner since now, helping the community to do a open source driver for their video engine, which is <a href="/VE_Planning" title="VE Planning">able to be merged into the mainline kernel</a> in the end. Even though it was possible to figure out the <a href="/VE_Register_guide" title="VE Register guide">register's usage</a> of the video engine and to build a <a href="/Cedrus#Installing_sunxi-vdpau_library" title="Cedrus">vdpau backend</a> which demonstrates the usage of the sunxi video decoding/encoding engine. With this <a href="/Cedrus#Installing_sunxi-vdpau_library" title="Cedrus">libvdpau-sunxi backend</a> it's possible to support hardware accelerated video decoding on common media players which support VDPAU. Even though linux-sunxi community does get no help from Allwinner in these task (and nearly zero in all the others btw.), a small group of developers has started to think about a v4l2 kernel driver. Main goal for the community is to support the sunxi video decoding/encoding engine within the mainline kernel.<br/>
+</p>
+<h1> <span class="mw-headline" id="Technical_overview">Technical overview</span></h1>
+<p>To run Kodi on sunxi devices without GPL violating code and the official linux kernel, we basically need a few things:
+</p>
+<h3> <span class="mw-headline" id="Video_engine_kernel_driver">Video engine kernel driver</span></h3>
+<p>The existing kernel module is not mainlineable, so there has work been started to create a <a href="/VE_Planning" title="VE Planning">kernel driver based on a v4l2 mem2mem device</a>. (not finished)<br/>
+</p>
+<div style="color:#ba0000; border: 2px dashed #bf4f4f; padding: 0.75em;"><b>Important:</b> Many people are interested in quick and dirty solutions to get things to work. They do not care about GPL violance, binary usage, Allwinner ignorating the community ... So this ends up in self-baked vendor adjusted solutions which base on GPL violating binaries or the 'dubious' Allwinner media-codec. This can mainly be recognized in the "kodi-sunxi" dedicated forum threads of the different vendors (OrangePi, BananaPi - naming two examples). It's obvious, that motivation for such a driver is still very low, when neither the 'USER' nor the 'VENDORS' are interested in a free open source driver and go on preferring Allwinner code. Allwinner, the company that does not support the linux-sunxi community, which is responsible for their whole mainlining task.</div>
+<h3> <span class="mw-headline" id="Sunxi_display_driver">Sunxi display driver</span></h3>
+<p>Work for the other important part (display driver), which is needed for (open source) Kodi on sunxi devices and <a href="/Mainlining_Effort" title="Mainlining Effort" class="mw-redirect">mainline kernel</a>, has been started, too. (not finished)
+</p>
+<h3> <span class="mw-headline" id="Mali_.283D.29_kernel_driver_.2B_userspace_library">Mali (3D) kernel driver + userspace library</span></h3>
+<p>It's possible to use the provided <a href="/Mali_binary_driver" title="Mali binary driver">mali userspace libraries</a> together with the out-of-tree third party kernel driver.
+<br/>
+</p>
+<h3> <span class="mw-headline" id="Support_for_sunxi_in_Kodi">Support for sunxi in Kodi</span></h3>
+<p>As soon as there are kernel drivers for display and the video engine, which are useable with the mainline kernel (in-kernel or out-of-tree), Kodi integration can be started. Everybody, especially Team-Kodi developers, is very welcome to support the linux-sunxi community with this task.
+</p>
+<h1> <span class="mw-headline" id="Kodi_via_libvdpau-sunxi">Kodi via libvdpau-sunxi</span></h1>
+<p>The main goals will take some time. Fortunately <a class="external text" href="https://github.com/mosterta">github user mosterta</a> has announced a <a class="external text" href="https://github.com/mosterta/xbmc">kodi fork</a>, which already uses open source community code. Video decoding is done hardware accelerated via an adapted libvdpau-sunxi version, which makes OpenGL/ES integration (via Mali) and zero-copy possible. It's recommended to support this version in the meanwhile, until the work required to allow a more future-proof integration is completed. In order to get that fork of kodi working, you have to patch a lot. See the <a rel="nofollow" class="external text" href="http://forum.kodi.tv/showthread.php?tid=254202">Kodi forum thread</a> for building instructions.
+</p>
+<h1> <span class="mw-headline" id="Alternativ_media_players">Alternativ media players</span></h1>
+<p>Alternativ media players (such as mpv or mplayer) or <a rel="nofollow" class="external text" href="http://tvdr.de/index.htm">VDR</a> are supported via <a class="external text" href="https://github.com/linux-sunxi/libvdpau-sunxi">libvdpau-sunxi</a>. They do not depend on mali, but still require the legacy sunxi-3.4 kernel due to lack of display and video engine support in the mainline kernel. They work pretty stable, though libvdpau-sunxi is just proof-of-concept code.
+</p>
+<h1> <span class="mw-headline" id="Conclusion">Conclusion</span></h1>
+<p>It's obvious again, that the main goal must be to bring this media related drivers into the mainline kernel. It's the only solution, if one seriously wants to run media apps, especially Kodi, on a sunxi device. But this all will not happen, if interest in open source drivers seems to be that small, as it seems to be at the moment.
+</p>
+<h1> <span class="mw-headline" id="References">References</span></h1>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://forum.kodi.tv/showthread.php?tid=126995">http://forum.kodi.tv/showthread.php?tid=126995</a> Allwinner A10&#160;: Is XBMC ported to MALI-400MP&#160;?</span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Kodi&amp;oldid=16257">http://linux-sunxi.org/index.php?title=Kodi&amp;oldid=16257</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li><li><a href="/index.php?title=Category:Cedrus&amp;action=edit&amp;redlink=1" class="new" title="Category:Cedrus (page does not exist)">Cedrus</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Kodi&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Kodi" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Kodi" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Kodi&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Kodi">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Kodi&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Kodi&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Kodi" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Kodi" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Kodi&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Kodi&amp;oldid=16257" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 1 February 2016, at 20:55.</li>
+<li id="footer-info-viewcount">This page has been accessed 5,569 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

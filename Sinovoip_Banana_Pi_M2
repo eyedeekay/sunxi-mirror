@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Sinovoip Banana Pi M2 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Sinovoip_Banana_Pi_M2","wgTitle":"Sinovoip Banana Pi M2","wgCurRevisionId":17625,"wgArticleId":2225,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Devices","A31 Boards","Devices with Ethernet port","Devices with HDMI port"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Sinovoip_Banana_Pi_M2","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Sinovoip_Banana_Pi_M2"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Sinovoip_Banana_Pi_M2 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Sinovoip Banana Pi M2</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Despite its name the M2 is incompatible to Banana Pi/M1/M1+/Pro due to a different SoC - requiring different boot loaders and drivers.</b>
+</p>
+<table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Sinovoip Banana Pi M2</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Banana_Pi_M2_top_small.jpg" class="image"><img alt="Banana Pi M2 top small.jpg" src="/images/e/ea/Banana_Pi_M2_top_small.jpg" width="250" height="188"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.sinovoip.com.cn/">Sinovoip</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+92 <i>mm</i> x 60 <i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+May 2015</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.bananapi.com/index.php/component/content/article?layout=edit&amp;id=73">Device Product Page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A31" title="A31">A31s</a> @ 1Ghz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+1GiB DDR3 @ 432MHz</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+-</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 2A (4.0mm/1.7mm barrel plug - centre positive)</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (Type A - full), LVDS/RGB</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm <a class="external text" href="http://en.wikipedia.org/wiki/Phone_connector_(audio)#TRRS_standards">TRRS/OMTP plug</a> (stereo+mic), HDMI, on-board microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+WiFi 802.11 b/g/n (<a href="/Wifi#Ampak" title="Wifi">Ampak AP6181</a>), 10/100/1000Mbps Ethernet (<a href="/Ethernet#Realtek_RTL8211E" title="Ethernet">Realtek RTL8211E</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD, no SATA</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+4 USB2.0 Host (using an internal <i>Terminus Technology Inc. 4-Port HUB</i>), 1 USB2.0 OTG (µ-USB)</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+IrDA</td></tr>
+</table>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#HW-Pack"><span class="tocnumber">2.3</span> <span class="toctext">HW-Pack</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#BSP"><span class="tocnumber">2.4</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Manual_build"><span class="tocnumber">2.5</span> <span class="toctext">Manual build</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Mainline_U-Boot"><span class="tocnumber">2.6</span> <span class="toctext">Mainline U-Boot</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Mainline_kernel"><span class="tocnumber">2.7</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Powering_the_board"><span class="tocnumber">3.1</span> <span class="toctext">Powering the board</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Power_on_button"><span class="tocnumber">3.2</span> <span class="toctext">Power on button</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Expansion_Ports"><span class="tocnumber">3.3</span> <span class="toctext">Expansion Ports</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Adding_a_serial_port"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Also_known_as"><span class="tocnumber">6</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Variants"><span class="tocnumber">7</span> <span class="toctext">Variants</span></a>
+<ul>
+<li class="toclevel-2 tocsection-18"><a href="#BPi-M2.2B"><span class="tocnumber">7.1</span> <span class="toctext">BPi-M2+</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#Manufacturer_images"><span class="tocnumber">8.1</span> <span class="toctext">Manufacturer images</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>The board reads "BPI-M2" next to a large "BPI" logo and has the same dimensions and mounting hole positions as other Banana models (to which the M2 is incompatible due to different SoC/GPU). DRAM and A31s SoC are on the upper PCB side therefore differentiation is easy by looking at the SoC's 'A31s' labelling and the four USB ports.
+</p>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p>The Banana Pi M2 is only partially supported.
+</p><p>The manufacturer provides some Android images that can only be burned using PhoenixCard on Windows and some Linux images that are broken more or less. The Linux images based on older Allwinner 3.3.0 kernel are broken regarding Gbit Ethernet initialisation, the ones that are based on release candidates of kernel 4.0.0 lack correct hardware initialisation in the device tree files so Wi-Fi isn't working.
+</p><p>Sinovoip <a class="external text" href="https://github.com/BPI-SINOVOIP/">cloned some github ressources</a> where all the relevant stuff for the M2 (fex/dts files) is still missing at the time of this writing. Several months later they provide cloned linux kernel and U-Boot repos and hide the only two files of interest in there: dts and defconfig files -- see below.
+</p>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<h2> <span class="mw-headline" id="HW-Pack"> HW-Pack </span></h2>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<p>No support in the community maintained sunxi-3.4 kernel is planned. In the meantime the manufacturer provides an Android SDK (Allwinner kernel 3.3, U-Boot 2011.09-rc1) on <a rel="nofollow" class="external text" href="http://pan.baidu.com/share/link?shareid=1715289951&amp;uk=503403236#path=%252F%25E6%25BA%2590%25E7%25A0%2581">baidu.com</a>.
+</p><p>Please skip to the next Mainline U-Boot/Mainline kernel sections.
+</p>
+<h2> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h2>
+<p>To be done. When ready use the <i><a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-Mainline-uboot/blob/master/configs/Bananapi_M2_defconfig">BananaPi_M2</a></i> target.
+</p>
+<h2> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h2>
+<p>Don't use SinoVoip's broken <i><a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-Mainline-kernel/blob/master/arch/arm/boot/dts/sun6i-a31s-bananapi-m2.dts">sun6i-a31s-bananapi-m2.dtb</a></i> device-tree file but the kernel source's <i>sun6i-a31s-sinovoip-bpi-m2.dtb</i> to be used with <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="Powering_the_board"> Powering the board </span></h2>
+<p>It's recommended to use the 4/1.7mm jack to power the board to avoid voltage drops often seen with Micro USB. When providing power using the USB OTG port the 2 USB ports next to Ethernet won't work. Any PSU advertised for Cubieboards or Orange Pis should work.
+</p>
+<h2> <span class="mw-headline" id="Power_on_button"> Power on button </span></h2>
+<p>Handle with care since it might break easily (3 times touched and already bent and almost broken)
+</p>
+<h2> <span class="mw-headline" id="Expansion_Ports"> Expansion Ports </span></h2>
+<p>The Banana Pi M2 exposes a 3 pin UART header, a 40 pin header with 2.54&#160;mm pitch connectors that that mimics the Raspberry Pi A+/B+/2 models
+</p>
+<h1> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:Banana_Pi_M2_UART.jpg" class="image"><img alt="" src="/images/thumb/4/45/Banana_Pi_M2_UART.jpg/240px-Banana_Pi_M2_UART.jpg" width="240" height="180" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Banana_Pi_M2_UART.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART pins</div></div></div>
+<p>The UART header is next to the status LEDs and the Ethernet port. Just attach some leads according to our <a href="/UART" title="UART">UART howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Banana_Pi_M2_top.jpg" class="image"><img alt="Banana Pi M2 top.jpg" src="/images/thumb/9/93/Banana_Pi_M2_top.jpg/120px-Banana_Pi_M2_top.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Banana_Pi_M2_bottom.jpg" class="image"><img alt="Banana Pi M2 bottom.jpg" src="/images/thumb/d/da/Banana_Pi_M2_bottom.jpg/120px-Banana_Pi_M2_bottom.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Banana_Pi_M2_front.jpg" class="image"><img alt="Banana Pi M2 front.jpg" src="/images/thumb/d/d5/Banana_Pi_M2_front.jpg/120px-Banana_Pi_M2_front.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Banana_Pi_M2_back.jpg" class="image"><img alt="Banana Pi M2 back.jpg" src="/images/thumb/e/e0/Banana_Pi_M2_back.jpg/120px-Banana_Pi_M2_back.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Banana_Pi_M2_left.jpg" class="image"><img alt="Banana Pi M2 left.jpg" src="/images/thumb/8/85/Banana_Pi_M2_left.jpg/120px-Banana_Pi_M2_left.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:Banana_Pi_M2_right.jpg" class="image"><img alt="Banana Pi M2 right.jpg" src="/images/thumb/9/98/Banana_Pi_M2_right.jpg/120px-Banana_Pi_M2_right.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:27.5px auto;"><a href="/File:Banana_Pi_M2_UART_Power_connected.jpg" class="image"><img alt="Banana Pi M2 UART Power connected.jpg" src="/images/thumb/8/82/Banana_Pi_M2_UART_Power_connected.jpg/120px-Banana_Pi_M2_UART_Power_connected.jpg" width="120" height="95"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:35px auto;"><a href="/File:Banana_Pi_M2_broken_power-button.jpg" class="image"><img alt="Banana Pi M2 broken power-button.jpg" src="/images/thumb/0/05/Banana_Pi_M2_broken_power-button.jpg/120px-Banana_Pi_M2_broken_power-button.jpg" width="120" height="80"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<h1> <span class="mw-headline" id="Variants"> Variants </span></h1>
+<h2> <span class="mw-headline" id="BPi-M2.2B"> BPi-M2+ </span></h2>
+<p>Apparently SinoVoip now (March 2016) also offers a <a href="/Sinovoip_Banana_Pi_M2%2B" title="Sinovoip Banana Pi M2+">Banana Pi M2+</a>. This board is based on a different SoC (<a href="/H3" title="H3">Allwinner H3</a>), and uses a form factor of 65mm&#160;x&#160;65mm - so expect it to be <b>incompatible</b> with the M2 in most aspects.
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://forum.banana-pi.org/c/bpi-m2">Manufacturer's forum</a>
+</li><li> <a class="external text" href="https://github.com/BPI-SINOVOIP">Github repository</a>
+</li><li> <a rel="nofollow" class="external text" href="https://drive.google.com/folderview?id=0B4PAo2nW2Kfnfkd0QmxaU3F2bHBWdkFiS09vT3VoZkVyNW93OXFjM0dHRVdGazhRWmFzZDQ&amp;usp=sharing">PCB Dimensions</a>
+</li><li> <a rel="nofollow" class="external text" href="http://pastebin.com/MCA9PkXq">fex used for SinoVoip's kernel 3.3 based images</a>
+</li><li> <a rel="nofollow" class="external text" href="https://drive.google.com/folderview?id=0B4PAo2nW2KfnflVqbjJGTFlFTTd1b1o1OUxDNk5ackVDM0RNUjBpZ0FQU19SbDk1MngzZWM&amp;usp=sharing&amp;tid=0B4PAo2nW2Kfndjh6SW9MS2xKSWs">Schematics V1.0</a> (obvisouly for a different PCB revision, eg. RTL8188EUS/USB Wi-Fi and not AP6181/SDIO as in reality)
+</li><li> <a class="external text" href="https://github.com/BPI-SINOVOIP/BPI-Schematics/tree/master/M2">Current Schematics</a>
+</li><li> <a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">LeMaker Banana Pi</a>
+</li><li> <a href="/LeMaker_Banana_Pro" title="LeMaker Banana Pro">LeMaker Banana Pro</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h2>
+<ul><li> Various <a rel="nofollow" class="external text" href="http://www.bananapi.com/index.php/download?layout=edit&amp;id=75">prebuilt images</a> are provided via the bananapi.com website, the ones based on Linux all broken one way or the other.
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Sinovoip_Banana_Pi_M2&amp;oldid=17625">http://linux-sunxi.org/index.php?title=Sinovoip_Banana_Pi_M2&amp;oldid=17625</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A31_Boards" title="Category:A31 Boards">A31 Boards</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Sinovoip+Banana+Pi+M2&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Sinovoip+Banana+Pi+M2" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Sinovoip_Banana_Pi_M2" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Sinovoip_Banana_Pi_M2" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Sinovoip_Banana_Pi_M2">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Sinovoip_Banana_Pi_M2&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Sinovoip_Banana_Pi_M2&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Sinovoip_Banana_Pi_M2" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Sinovoip_Banana_Pi_M2" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Sinovoip_Banana_Pi_M2&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Sinovoip_Banana_Pi_M2&amp;oldid=17625" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 14 June 2016, at 13:22.</li>
+<li id="footer-info-viewcount">This page has been accessed 9,469 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

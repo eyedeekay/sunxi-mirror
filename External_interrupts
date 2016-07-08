@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>External interrupts - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"External_interrupts","wgTitle":"External interrupts","wgCurRevisionId":17865,"wgArticleId":2017,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"External_interrupts","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/External_interrupts"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-External_interrupts skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">External interrupts</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This is not meant to be comprehensive guide about the external interrupts (EINT0..EINT31), just some notes in getting them to work with the 3.19 stock kernel.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Pin_support"><span class="tocnumber">1</span> <span class="toctext">Pin support</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#The_Setup"><span class="tocnumber">2</span> <span class="toctext">The Setup</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Device_Tree_Entries"><span class="tocnumber">3</span> <span class="toctext">Device Tree Entries</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#A_Simple_Platform_Driver"><span class="tocnumber">4</span> <span class="toctext">A Simple Platform Driver</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Using_the_right_clock"><span class="tocnumber">5</span> <span class="toctext">Using the right clock</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#External_Links"><span class="tocnumber">6</span> <span class="toctext">External Links</span></a></li>
+</ul>
+</td></tr></table>
+<h3> <span class="mw-headline" id="Pin_support"> Pin support </span></h3>
+<p>Not all pins are available for handling of edges and interrupts. For example, on <a href="/Cubieboard" title="Cubieboard" class="mw-redirect">Cubieboard</a> with the 3.4.x kernel there are only 6 pins: ph14, ph15, pi11, pi13, pi10, pi12. And it can't be changed via settings in fex file .
+</p>
+<h3> <span class="mw-headline" id="The_Setup"> The Setup </span></h3>
+<p>I have three interrupt inputs that were used on the linux-sunxi-3.4.102 kernel that needed to be ported onto the recent 3.19 kernel. As you may know, the 3.4.102 uses the FEX files, and direct bit-banging to get things configured. The 3.19 kernel uses the device tree (dts) files to describe the hardware. Yes, you can still bang hardware, but I was having issues with interrupt lockup with the 3.4.102 kernel.
+</p>
+<h3> <span class="mw-headline" id="Device_Tree_Entries"> Device Tree Entries </span></h3>
+<p>As my system, the <a rel="nofollow" class="external text" href="https://aw-som.com/product_info.php?products_id=32">AW-SOM A20 DIMM</a>, is similar to the cubieboard2, I started with that file and copied it to a new name (cd arch/arm/boot/dts&#160;; cp sun7i-a20-cubieboard2.dts sun7i-a20-prismlx.dts). My board uses EINT16, EINT18 and EINT20 for external interrupts. So, here are the additions made to the dts file:
+</p><p><code>
+</p>
+<pre> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="dfafb6b1bcabadb39fefeebcedefe7efef">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
+        ...
+        ...
+        init_pins_cubieboard2: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e28b8c8b96bd928b8c91a2d2">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
+           allwinner,pins = "PH20";
+           allwinner,function = "irq";
+           allwinner,drive = &lt;0&gt;;
+           allwinner,pull = &lt;1&gt;;
+        };
+        uart_pins_cubieboard2: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="087d697a7c577861667b4838">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
+           allwinner,pins = "PH18";
+           allwinner,function = "irq";
+           allwinner,drive = &lt;0&gt;;
+           allwinner,pull = &lt;1&gt;;
+        };
+        aic_pins_cubieboard2: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="3958505a664950574a7909">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
+           allwinner,pins = "PH16";
+           allwinner,function = "irq";
+           allwinner,drive = &lt;0&gt;;
+           allwinner,pull = &lt;1&gt;;
+        };
+ };
+ 
+  rebooter {
+     compatible = "prismlx-rebooter";
+     pinctrl-names = "default";
+     pinctrl-0 = &lt;&amp;init_pins_cubieboard2&gt;;
+     interrupts-extended = &lt;&amp;pio 20 0&gt;;
+     interrupt-names = "restart";
+  };
+ 
+  senseb {
+     compatible = "prismlx-senseb";
+     pinctrl-names = "default";
+     pinctrl-0 = &lt;&amp;uart_pins_cubieboard2&gt;;
+     interrupts-extended = &lt;&amp;pio 18 0&gt;;
+     interrupt-names = "uarts";
+  };
+ 
+  sensea {
+     compatible = "prismlx-sensea";
+     pinctrl-names = "default";
+     pinctrl-0 = &lt;&amp;aic_pins_cubieboard2&gt;;
+     interrupts-extended = &lt;&amp;pio 16 0&gt;;
+     interrupt-names = "alarm-monitor";
+  };
+</pre>
+<p></code>
+The above describes my board configuration for the interrupts. Each interrupt input pin is listed in the pinctrl list and is linked to the platform driver code via the <b>compatible</b> entry. Thus, if your platform driver simply asks for 'platform_get_irq(pdev, 0)', the irq returned would be that which matched the driver .compatible of_device_id with that of the device tree. It appears that you could use platform_get_irq_byname() to get several interrupts into a single platform driver?
+</p><p><strike>Note, the entry for interrupts-extended in the rebooter description has <b>&lt;&amp;pio 20 0&gt;</b>? The <b>20</b> is the external interrupt number (EINT20) and the <b>0</b> is irrelevant, this value has no affect on the interrupt line sensing. The PIO_INT_CFG register trigger value is set by the IRQF_&lt;flag&gt; when you use request_irq() in your driver (e.g. IRQF_TRIGGER_HIGH sets a value of 0x02 in the PIO_INT_CFGx register for that external pin).</strike>
+<i>This doesn't seem to be correct anymore since the new 4.x kernel</i> <a href="/User:Hp197" title="User:Hp197">hp197</a> (<a href="/index.php?title=User_talk:Hp197&amp;action=edit&amp;redlink=1" class="new" title="User talk:Hp197 (page does not exist)">talk</a>)
+</p>
+<h3> <span class="mw-headline" id="A_Simple_Platform_Driver"> A Simple Platform Driver </span></h3>
+<p>This is a simple driver which requests the 'rebooter' IRQ (EINT20).
+<code>
+</p>
+<pre>#include &lt;linux/interrupt.h&gt;
+#include &lt;linux/of.h&gt;
+#include &lt;linux/of_platform.h&gt;
+#include &lt;linux/of_gpio.h&gt;
+#include &lt;linux/sched.h&gt;
+
+#include &lt;linux/fs.h&gt;
+#include &lt;linux/cdev.h&gt;
+
+static int	irq = -1;
+
+/* respond to the INIT button pressed. */
+
+
+static irqreturn_t irqHandlerInit (int irq, void *dev_id)
+{
+	printk (KERN_NOTICE "EINT20 interrupt fired\n");
+	return IRQ_HANDLED;
+}
+
+static int __init rebooter_probe(struct platform_device *pdev)
+{
+	irq = platform_get_irq_byname (pdev, "restart");
+	if (request_irq(irq, &amp;irqHandlerInit, IRQF_TRIGGER_FALLING, "rebooter_irq", NULL)) {
+		printk(KERN_ERR "rebooter-irq: cannot register IRQ&#160;%d\n", irq);
+		return -EIO;
+	}
+	return 0;
+}
+
+static int rebooter_remove(struct platform_device *pdev)
+{
+	free_irq (irq, NULL);
+	return 0;
+}
+
+#if defined(CONFIG_OF)
+static const struct of_device_id rebooter_dt_ids[] = {
+	{ .compatible = "prismlx-rebooter" },
+	{ /* sentinel */ }
+};
+MODULE_DEVICE_TABLE(of, rebooter_dt_ids);
+#endif
+
+static struct platform_driver rebooter_driver = {
+	.remove		= rebooter_remove,
+	.driver		= {
+		.name	= "prismlx-rebooter",
+		.of_match_table	= of_match_ptr(rebooter_dt_ids),
+	},
+};
+
+module_platform_driver_probe(rebooter_driver, rebooter_probe);
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Tom Walsh");
+MODULE_DESCRIPTION("PrismLX Init Switch Monitor");
+</pre>
+<p></code>
+What you should note is the IRQF_TRIGGER_FALLING of request_irq. It is in the call to request_irq() that the active level / edge of the interrupt request (input pin) is specified.
+</p><p><br/>
+Doing an ismod of the driver should give you something like this in /proc/interrupts:
+<code>
+</p>
+<pre><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="50223f3f2410202239233d1c08">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:~# cat /proc/interrupts 
+          CPU0       CPU1       
+17:          0          0       GIC  29  arch_timer
+18:      32144      16029       GIC  30  arch_timer
+21:          0          0       GIC  54  sun4i_timer0
+22:          0          0       GIC 113  sun5i_timer0
+26:       6549          0       GIC  64  sunxi-mmc
+27:          0          0       GIC  71  ehci_hcd:usb1
+28:          0          0       GIC  96  ohci_hcd:usb3
+29:          0          0       GIC  88  1c18000.sata
+30:          2          0       GIC  72  ehci_hcd:usb2
+31:        110          0       GIC  97  ohci_hcd:usb4
+34:          0          0       GIC  56  1c20d00.rtc
+40:        102          0       GIC  33  serial
+41:         96          0       GIC  39  mv64xxx_i2c
+42:          0          0       GIC  40  mv64xxx_i2c
+43:        349          0       GIC 117  eth0
+68:          0          0         -  20  rebooter_irq
+80:          0          0  interrupt-controller   0  axp20x_irq_chip
+IPI0:        0          0  CPU wakeup interrupts
+IPI1:        0          0  Timer broadcast interrupts
+IPI2:       1548       1619  Rescheduling interrupts
+IPI3:        0          0  Function call interrupts
+IPI4:        2          6  Single function call interrupts
+IPI5:        0          0  CPU stop interrupts
+IPI6:        0          0  IRQ work interrupts
+IPI7:        0          0  completion interrupts
+Err:         0
+</pre>
+<p></code>
+Of course, if you tap on the EINT20 pin with a wire to GROUND, you should see the 'rebooter_irq' count change.
+</p>
+<h3> <span class="mw-headline" id="Using_the_right_clock"> Using the right clock </span></h3>
+<p>On the 3.19 kernel, the PIO interrupt sampling clock is set to the default value of 32KHz. This is probably "good enough" if you were to only have some push buttons tied to those external interrupts, but, not good enought if you hang a serial UART on one of those interrupt lines. The sampling rate of 32KHz would have you missing some of the interrupts as data comes in, so, you better have a pretty deep fifo in that UART...
+</p><p>This patch made by Maxime Ripard will allow you to change the PIO Interrupt Debounce clock from 32KHz to 24MHz (tested on kernel 4.1rc1, Hans' branch sunxi-wip):
+</p><p><code>
+</p>
+<pre>diff --git a/drivers/pinctrl/sunxi/pinctrl-sunxi.c b/drivers/pinctrl/sunxi/pinctrl-sunxi.c
+index f09573e13203..a02e0a457b11 100644
+--- a/drivers/pinctrl/sunxi/pinctrl-sunxi.c
++++ b/drivers/pinctrl/sunxi/pinctrl-sunxi.c
+@@ -1005,6 +1005,9 @@ int sunxi_pinctrl_init(struct platform_device *pdev,
+ 		writel(0xffffffff,
+ 			pctl-&gt;membase + sunxi_irq_status_reg_from_bank(i));
+ 
++		/* Set Interrupt clock to 24MHz */
++		writel(1, pctl-&gt;membase + sunxi_irq_debounce_reg_from_bank(i));
++
+ 		irq_set_chained_handler_and_data(pctl-&gt;irq[i],
+ 						 sunxi_pinctrl_irq_handler,
+ 						 pctl);
+diff --git a/drivers/pinctrl/sunxi/pinctrl-sunxi.h b/drivers/pinctrl/sunxi/pinctrl-sunxi.h
+index e248e81a0f9e..502a5c678380 100644
+--- a/drivers/pinctrl/sunxi/pinctrl-sunxi.h
++++ b/drivers/pinctrl/sunxi/pinctrl-sunxi.h
+@@ -68,6 +68,7 @@
+ #define IRQ_STATUS_IRQ_PER_REG		32
+ #define IRQ_STATUS_IRQ_BITS		1
+ #define IRQ_STATUS_IRQ_MASK		((1 &lt;&lt; IRQ_STATUS_IRQ_BITS) - 1)
++#define IRQ_DEBOUNCE_REG	0x218
+ 
+ #define IRQ_MEM_SIZE		0x20
+ 
+@@ -283,6 +284,11 @@ static inline u32 sunxi_irq_status_offset(u16 irq)
+ 	return irq_num * IRQ_STATUS_IRQ_BITS;
+ }
+ 
++static inline u32 sunxi_irq_debounce_reg_from_bank(u8 bank)
++{
++	return IRQ_DEBOUNCE_REG + bank * IRQ_MEM_SIZE;
++}
++
+ int sunxi_pinctrl_init(struct platform_device *pdev,
+ 		       const struct sunxi_pinctrl_desc *desc);
+</pre>
+<p></code>
+</p><p><br/>
+</p>
+<h1> <span class="mw-headline" id="External_Links">External Links</span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.cubieforums.com/index.php?topic=253.30">Simple tutorial by patwood</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=External_interrupts&amp;oldid=17865">http://linux-sunxi.org/index.php?title=External_interrupts&amp;oldid=17865</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=External+interrupts&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=External+interrupts" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/External_interrupts" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:External_interrupts&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/External_interrupts">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=External_interrupts&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=External_interrupts&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/External_interrupts" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/External_interrupts" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=External_interrupts&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=External_interrupts&amp;oldid=17865" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 2 July 2016, at 13:54.</li>
+<li id="footer-info-viewcount">This page has been accessed 5,023 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

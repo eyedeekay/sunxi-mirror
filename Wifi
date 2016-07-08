@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Wifi - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Wifi","wgTitle":"Wifi","wgCurRevisionId":17529,"wgArticleId":248,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wifi","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Wifi"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Wifi skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Wifi</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Software_Configuration"><span class="tocnumber">1</span> <span class="toctext">Software Configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Debian.2Fubuntu_with_NetworkManager"><span class="tocnumber">1.1</span> <span class="toctext">Debian/ubuntu with NetworkManager</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Debian.2Fubuntu_without_NetworkManager"><span class="tocnumber">1.2</span> <span class="toctext">Debian/ubuntu without NetworkManager</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Setup_with_wpa_supplicant_and_without_network_manager"><span class="tocnumber">1.2.1</span> <span class="toctext">Setup with wpa_supplicant and without network manager</span></a>
+<ul>
+<li class="toclevel-4 tocsection-5"><a href="#Disabling_networkmanager._Fully."><span class="tocnumber">1.2.1.1</span> <span class="toctext">Disabling networkmanager. Fully.</span></a></li>
+<li class="toclevel-4 tocsection-6"><a href="#Simple_and_dumb_WPA_setup"><span class="tocnumber">1.2.1.2</span> <span class="toctext">Simple and dumb WPA setup</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Driver_specific_information"><span class="tocnumber">2</span> <span class="toctext">Driver specific information</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Ampak"><span class="tocnumber">2.1</span> <span class="toctext">Ampak</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Ampak_Devices"><span class="tocnumber">2.1.1</span> <span class="toctext">Ampak Devices</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#Broadcom"><span class="tocnumber">2.2</span> <span class="toctext">Broadcom</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#Broadcom_Devices"><span class="tocnumber">2.2.1</span> <span class="toctext">Broadcom Devices</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Espressif"><span class="tocnumber">2.3</span> <span class="toctext">Espressif</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Espressif_Devices"><span class="tocnumber">2.3.1</span> <span class="toctext">Espressif Devices</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#esp8089"><span class="tocnumber">2.3.2</span> <span class="toctext">esp8089</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-15"><a href="#iNet"><span class="tocnumber">2.4</span> <span class="toctext">iNet</span></a>
+<ul>
+<li class="toclevel-3 tocsection-16"><a href="#iNet_Devices"><span class="tocnumber">2.4.1</span> <span class="toctext">iNet Devices</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-17"><a href="#RDA"><span class="tocnumber">2.5</span> <span class="toctext">RDA</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Realtek"><span class="tocnumber">2.6</span> <span class="toctext">Realtek</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="#sunxi-3.4:_Driver_refuses_to_load"><span class="tocnumber">2.6.1</span> <span class="toctext">sunxi-3.4: Driver refuses to load</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#8188eu"><span class="tocnumber">2.6.2</span> <span class="toctext">8188eu</span></a>
+<ul>
+<li class="toclevel-4 tocsection-21"><a href="#sunxi-3.4"><span class="tocnumber">2.6.2.1</span> <span class="toctext">sunxi-3.4</span></a></li>
+<li class="toclevel-4 tocsection-22"><a href="#Mainline_Kernel"><span class="tocnumber">2.6.2.2</span> <span class="toctext">Mainline Kernel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-23"><a href="#8192cu"><span class="tocnumber">2.6.3</span> <span class="toctext">8192cu</span></a></li>
+<li class="toclevel-3 tocsection-24"><a href="#8723au"><span class="tocnumber">2.6.4</span> <span class="toctext">8723au</span></a></li>
+<li class="toclevel-3 tocsection-25"><a href="#8723bs"><span class="tocnumber">2.6.5</span> <span class="toctext">8723bs</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Software_Configuration"> Software Configuration </span></h1>
+<h2> <span class="mw-headline" id="Debian.2Fubuntu_with_NetworkManager"> Debian/ubuntu with NetworkManager</span></h2>
+<p>NetworkManager uses its own wpa_supplicant configuration. That is the reason why manually editing /etc/network/interfaces to use wpa_supplicant does not work together with NetworkManager.
+</p><p>You have to disable all interfaces in /etc/network/interfaces e.g. by commenting out each line by inserting "#" as a first character.
+</p><p>You even have to <b>disable Ethernet section</b> to use wifi in network manager. Here is an example
+</p>
+<pre>   # interfaces(5) file used by ifup(8) and ifdown(8)
+   auto lo
+   iface lo inet loopback
+   
+   #allow-hotplug eth0
+   #iface eth0 inet dhcp
+   
+   #auto eth0
+   #iface eth0 inet static
+   #address 192.168.101.50
+   #netmask 255.255.255.0
+   #gateway 192.168.101.1
+   #broadcast 192.168.101.255
+   
+   #auto wlan0
+   #iface wlan0 inet dhcp
+   #    wpa-ssid YOUR-NETWORK-NAME
+   #    wpa-key-mgmt WPA-PSK
+   #    wpa-group TKIP CCMP
+   #    wpa-psk YOUR-NETWORK-KEY
+</pre>
+<p><br/>
+At your desktop there should emerge a network icon from NetworkManager in the task bar. You can edit the network setting with the gui dialogs.
+</p>
+<h2> <span class="mw-headline" id="Debian.2Fubuntu_without_NetworkManager"> Debian/ubuntu without NetworkManager</span></h2>
+<h3> <span class="mw-headline" id="Setup_with_wpa_supplicant_and_without_network_manager"> Setup with wpa_supplicant and without network manager </span></h3>
+<p>There are many tutorials out there on how to do this. Here is <a rel="nofollow" class="external text" href="http://prupert.wordpress.com/2010/06/25/how-to-configure-wireless-wifi-networking-in-ubuntu-via-the-command-line-cli/">a good one</a>.
+</p>
+<h4> <span class="mw-headline" id="Disabling_networkmanager._Fully."> Disabling networkmanager. Fully. </span></h4>
+<p>Even with the common trick of putting the following in /etc/NetworkManager/NetworkManager.conf
+</p>
+<pre>
+[ifupdown]
+managed=true
+</pre>
+<p>the despotic NetworkManager still will be messing up your careful setup from /etc/network/interfaces, and you might, once again, be left without wifi upon the next reboot.
+</p><p>To stop NetworkManager from running altogether, you can run the following (as root):
+</p>
+<pre>
+echo &quot;manual&quot; &gt; /etc/init/network-manager.override
+</pre>
+<p>Now, at least on ubuntu, your wifi driver, wpa_supplicant and ifupdown will not be smacked about anymore.
+</p>
+<h4> <span class="mw-headline" id="Simple_and_dumb_WPA_setup"> Simple and dumb WPA setup </span></h4>
+<p>Install the following packages, if they are not installed already:
+</p>
+<pre>apt-get install wireless-tools wpasupplicant
+</pre>
+<p>Edit /etc/network/interfaces and add the following:
+</p>
+<pre>auto wlan0
+iface wlan0 inet dhcp
+    wpa-ssid YourSSID
+    wpa-psk YourWPASharedKey
+</pre>
+<p>This is the most basic, but static, setup possible for wifi. If you need anything more, you need to read up on wpa_supplicant, or run through one of the tutorials referenced above.
+</p>
+<h1> <span class="mw-headline" id="Driver_specific_information">Driver specific information</span></h1>
+<h2> <span class="mw-headline" id="Ampak"> Ampak </span></h2>
+<p>Ampak combines broadcom wifi and bluetooth chips in single modules.
+</p>
+<h3> <span class="mw-headline" id="Ampak_Devices"> Ampak Devices </span></h3>
+<table border="1">
+<tr>
+<th scope="col"> Device </th>
+<th> Type </th>
+<th> usb/sdio id </th>
+<th> module </th>
+<th> sunxi-3.4 kernel </th>
+<th> mainline kernel
+</th></tr>
+<tr>
+<td> AP6181 </td>
+<td> SDIO/UART </td>
+<td> 02d0:a962 </td>
+<td> See right </td>
+<td> bcmdhd </td>
+<td> brcmfmac
+</td></tr>
+<tr>
+<td> AP6210 </td>
+<td> SDIO/UART </td>
+<td> 02d0:a962 </td>
+<td> See right </td>
+<td> bcmdhd </td>
+<td> brcmfmac
+</td></tr>
+<tr>
+<td> AP6212 </td>
+<td> SDIO/UART </td>
+<td> 02d0:a9a6 </td>
+<td> See right </td>
+<td> </td>
+<td> brcmfmac
+</td></tr>
+<tr>
+<td> AP6330 </td>
+<td> SDIO/UART </td>
+<td> 02d0:4330 </td>
+<td> See right </td>
+<td> </td>
+<td> brcmfmac
+</td></tr></table>
+<h2> <span class="mw-headline" id="Broadcom"> Broadcom </span></h2>
+<h3> <span class="mw-headline" id="Broadcom_Devices"> Broadcom Devices </span></h3>
+<table border="1">
+<tr>
+<th scope="col"> Device </th>
+<th> Type </th>
+<th> usb id </th>
+<th> module </th>
+<th> sunxi-3.4 kernel </th>
+<th> mainline kernel
+</th></tr>
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Espressif"> Espressif </span></h2>
+<p><a rel="nofollow" class="external text" href="http://www.espressif.com">Espressif</a> is a fairly young Chinese company.
+</p>
+<h3> <span class="mw-headline" id="Espressif_Devices"> Espressif Devices </span></h3>
+<table border="1">
+<tr>
+<th scope="col"> Device </th>
+<th> Type </th>
+<th> sdio id </th>
+<th> module </th>
+<th> sunxi-3.4 kernel </th>
+<th> mainline kernel
+</th></tr>
+<tr>
+<td> ESP8089 </td>
+<td> SDIO </td>
+<td> 6666:1111 </td>
+<td> </td>
+<td> </td>
+<td> out-of-tree driver exists
+</td></tr></table>
+<h3> <span class="mw-headline" id="esp8089"> esp8089 </span></h3>
+<p>ESP8089 driver is available from <a class="external text" href="https://github.com/linux-rockchip/linux-rockchip">linux-rockchip repository</a> under <tt>drivers/net/esp8089</tt>. Please note that there are different versions of this driver in various branches.
+</p><p><a class="external autonumber" href="https://github.com/Icenowy/esp8089">[1]</a> is a standalone driver verified to be usable on an <a href="/Aoson_M751s" title="Aoson M751s">Aoson M751s</a> device and a mainline 4.6 kernel.
+</p>
+<h2> <span class="mw-headline" id="iNet"> iNet </span></h2>
+<h3> <span class="mw-headline" id="iNet_Devices"> iNet Devices </span></h3>
+<table border="1">
+<tr>
+<th scope="col"> Device </th>
+<th> Type </th>
+<th> usb id </th>
+<th> module </th>
+<th> sunxi-3.4 kernel </th>
+<th> mainline kernel
+</th></tr>
+<tr>
+<td> iNet i10 </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>
+</td></tr></table>
+<h2> <span class="mw-headline" id="RDA"> RDA </span></h2>
+<p><a rel="nofollow" class="external text" href="http://www.rdamicro.com/">RDA Microelectronics</a> is a relatively unknown and new chinese chipmaker.
+</p>
+<table border="1">
+<tr>
+<th scope="col"> Device </th>
+<th> Type </th>
+<th> usb id / sdio id </th>
+<th> module </th>
+<th> sunxi-3.4 kernel </th>
+<th> mainline kernel
+</th></tr>
+<tr>
+<td> RDA5990P </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>
+</td></tr>
+<tr>
+<td> RDA5991 </td>
+<td> SDIO </td>
+<td> 5449:0145 </td>
+<td> </td>
+<td> </td>
+<td>
+</td></tr></table>
+<p>The <a rel="nofollow" class="external text" href="http://www.rdamicro.com/products/Detail_273.aspx">RDA5990P</a> is a single chip solution which includes Wifi, Bluetooth and an FM radio. Some code for this wifi chip is available in <a class="external text" href="https://github.com/linuxium/3188-SRC-ORIG/tree/master/kernel/drivers/net/wireless/rda5990">a Rockchip RK3188 kernel tree</a>, but nobody has tested or ported this code yet.
+</p>
+<h2> <span class="mw-headline" id="Realtek"> Realtek </span></h2>
+<p>As of Mainline Kernel 4.4.0-rc1, there's a new MAC80211-based driver for all the Realtek 8xxx USB devices called <b>rtl8xxxu</b>. Please try this first as it seems to be lot more stable than "official" realtek drivers.!
+</p>
+<table border="1">
+<tr>
+<th scope="col"> Device </th>
+<th> Type </th>
+<th> usb/sdio id </th>
+<th> module </th>
+<th> sunxi-3.4 kernel </th>
+<th> mainline kernel
+</th></tr>
+<tr>
+<td> RTL8188CTV </td>
+<td> USB </td>
+<td> 0bda:8176 </td>
+<td> 8192cu </td>
+<td> supported </td>
+<td>
+</td></tr>
+<tr>
+<td> RTL8188CUS </td>
+<td> USB </td>
+<td> 0bda:8176 </td>
+<td> 8192cu </td>
+<td> supported </td>
+<td> supported (<tt><b>rtl8xxxu</b></tt> or <tt>rtl8192cu</tt>)
+</td></tr>
+<tr>
+<td> RTL8188ETV </td>
+<td> USB </td>
+<td> 0bda:0179 </td>
+<td> 8188eu </td>
+<td> supported </td>
+<td> supported (staging driver)
+</td></tr>
+<tr>
+<td> RTL8188EUS </td>
+<td> USB </td>
+<td> 0bda:8179 </td>
+<td> 8188eu </td>
+<td> supported </td>
+<td>
+</td></tr>
+<tr>
+<td> RTL8189ES </td>
+<td> SDIO </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>
+</td></tr>
+<tr>
+<td> RTL8189FTV </td>
+<td> SDIO </td>
+<td> 024c:f179 </td>
+<td> </td>
+<td> </td>
+<td>
+</td></tr>
+<tr>
+<td> RTL8192CU </td>
+<td> USB </td>
+<td> 0bda:018a </td>
+<td> 8192cu </td>
+<td> supported </td>
+<td> supported (<tt>rtl8192cu</tt>)
+</td></tr>
+<tr>
+<td> RTL8703AS </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>
+</td></tr>
+<tr>
+<td> RTL8723AU </td>
+<td> USB </td>
+<td> 0bda:0724 </td>
+<td> 8723au </td>
+<td> supported (<a href="#8723au">see below</a>) </td>
+<td> supported (<tt><b>rtl8xxxu</b></tt> or staging server)
+</td></tr>
+<tr>
+<td> RTL8723BS </td>
+<td> SDIO </td>
+<td> 024c:b723 </td>
+<td> 8723bs </td>
+<td> </td>
+<td> supported (<a href="#8723bs">see below</a>)
+</td></tr></table>
+<h3> <span class="mw-headline" id="sunxi-3.4:_Driver_refuses_to_load"> sunxi-3.4: Driver refuses to load </span></h3>
+<p>When using the <b>rt5370sta</b>, <b>8188eu</b>, <b>8189es</b> or <b>8192cu</b> drivers, which are all for USB based realtek devices, it might occur that the driver refuses to load:
+</p>
+<pre>
+ERR: script_parser_fetch usb_wifi_usbc_num failed
+modprobe: can't load module 8188eu (kernel/drivers/net/wireless/rtl8188eu/8188eu.ko): Cannot allocate memory 
+</pre>
+<p>This is because the usb_wifi_para section is missing from your script.bin:
+</p>
+<pre>
+[usb_wifi_para]
+usb_wifi_used = 1
+usb_wifi_usbc_num = 2
+</pre>
+<p>Where usb_wifi_usbc_num is the usbc to which your realtek usb wireless chip is attached.
+</p><p>Edit the .fex file and create the script .bin as explained in our <a href="/Manual_build_howto" title="Manual build howto"> Manual build howto</a>, and <a href="/New_Device_howto#Step_6:_Add_support_to_sunxi-boards" title="New Device howto"> send a patch to sunxi-boards in to our mailinglist.</a>
+</p>
+<h3> <span class="mw-headline" id="8188eu"> 8188eu </span></h3>
+<h4> <span class="mw-headline" id="sunxi-3.4"> sunxi-3.4 </span></h4>
+<p>The sunxi-3.4 branch currently has <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.4/drivers/net/wireless/rtl8188eu/include/rtw_version.h">v4.1.2_4787.20120803</a> available. There are newer versions available at <a class="external free" href="https://github.com/lwfinger/rtl8188eu/">https://github.com/lwfinger/rtl8188eu/</a> which are <a class="external text" href="https://github.com/lwfinger/rtl8188eu/blob/master/include/rtw_version.h">v4.1.4_6773.20130222</a> and <a class="external text" href="https://github.com/lwfinger/rtl8188eu/blob/v4.1.8_9499/include/rtw_version.h">v4.1.8_9499.20131104</a>. There's also a v4.1.8 file available at <a class="external free" href="https://github.com/LazyZhu/myblog/raw/gh-pages/file/RTL8188EUS_RTL8189ES_linux_v4.1.8_9499.20131104.zip">https://github.com/LazyZhu/myblog/raw/gh-pages/file/RTL8188EUS_RTL8189ES_linux_v4.1.8_9499.20131104.zip</a> which is likely the original from Realtek.
+</p><p>Here's how to compile the latest version from Realtek:
+</p><p>Extract the driver/rtl8188EUS_rtl8189ES_linux_v4.1.8_9499.20131104.tar.gz from the RTL8188EUS_RTL8189ES_linux_v4.1.8_9499.20131104.zip file and extract it. These instructions assume your <code>linux-sunxi</code> directory is in the same directory as your <code>rtl8188EUS_rtl8189ES_linux_v4.1.8_9499.20131104</code> directory. It's also assumed that you've configured the kernel to include the 8188eu driver that's part of linux-sunxi.
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C ../linux-sunxi/ M=`pwd` modules
+</pre>
+<p>copy the <code>8188eu.ko</code> file over to the device and then install it into your kernel with the following commands (on the device as root):
+</p>
+<pre>modprobe -r 8188eu
+rm -rf /lib/modules/`uname -r`/kernel/drivers/net/wireless/rtl8188eu
+install -p -m 644 8188eu.ko /lib/modules/`uname -r`/kernel/drivers/net/wireless/
+/sbin/depmod
+modprobe 8188eu
+</pre>
+<p>There are two changes you may want to make in <code>include/autoconf.h</code>:
+</p><p>1. The default is to output a LOT of logging and you can disable that by commenting out the following line:
+</p>
+<pre>#define CONFIG_DEBUG /* DBG_871X, etc... */
+</pre>
+<p>2. The default is to disable the activity LED on the wifi device which you may want to see to know that it's working. You can change that by un-commenting the following line:
+</p>
+<pre>//#define CONFIG_LED
+</pre>
+<h4> <span class="mw-headline" id="Mainline_Kernel"> Mainline Kernel </span></h4>
+<p>This driver requires firmware not available in the mainline kernel tree or standard realtek firmware packages.
+</p><p>The 8188eu driver is currently at Staging driver. You can enable via into Staging Driver configuration.
+</p><p>Please fetch <tt><a class="external text" href="https://github.com/lwfinger/rtl8188eu/raw/master/rtl8188eufw.bin">rtl8188eufw.bin</a></tt>
+and put it in <tt>/lib/firmware/rtlwifi/</tt>
+</p>
+<h3> <span class="mw-headline" id="8192cu"> 8192cu </span></h3>
+<p>Workaround for dropping connection because power save.
+</p>
+<pre>
+[ 1139.170000] rtl8192c_dm_RF_Saving(): RF_Normal
+[ 1139.170000] rtl8192c_set_FwPwrMode_cmd(): Mode = 1, SmartPS = 2
+[ 1139.850000] rtw_set_ps_mode(): Busy Traffic , Leave 802.11 power save..
+[ 1139.850000] rtl8192c_set_FwPwrMode_cmd(): Mode = 0, SmartPS = 0
+[ 1141.170000] rtl8192c_dm_RF_Saving(): RF_Save
+[ 1145.170000] rtw_set_ps_mode(): Enter 802.11 power save mode...
+</pre>
+<p>To fix the problem create a file /etc/modprobe.d/8192cu.conf with the following contents:
+</p>
+<pre>
+options 8192cu rtw_power_mgnt=0 rtw_enusbss=0
+</pre>
+<h3> <span class="mw-headline" id="8723au"> 8723au </span></h3>
+<p>This device has no driver included in the kernel, but you can install it separately. It also supports <a href="/Bluetooth#8723au" title="Bluetooth">Bluetooth 4.0</a> functionality by another driver.
+</p><p>For Wifi, check out the RTL8723AU driver from <a class="external free" href="https://github.com/lwfinger/rtl8723au.git">https://github.com/lwfinger/rtl8723au.git</a> and compile with the following command:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C ../linux-sunxi/ M=`pwd` modules
+</pre>
+<p><b>NOTE:</b> This command assumes that you checked out the rtl8723au repo into the same directory as the linux-sunxi repo (note the <code>../linux-sunxi/</code> points to where your local kernel repository is)
+</p><p>copy the <code>8723au.ko</code> file over to the device and then install it into your kernel with the following commands (on the device as root):
+</p>
+<pre>install -p -m 644 8723au.ko /lib/modules/`uname -r`/kernel/drivers/net/wireless/
+/sbin/depmod
+modprobe 8723au
+</pre>
+<p>You should now see a new wireless device if you run <code>iwconfig</code>.
+</p><p><b>NOTE</b> further, that this is an USB device attached to an internal USB-host. Make sure the host is activated in FEX.
+</p>
+<h3> <span class="mw-headline" id="8723bs"> 8723bs </span></h3>
+<p>An out of tree driver can be found <a class="external text" href="https://github.com/hadess/rtl8723bs">here</a>.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Wifi&amp;oldid=17529">http://linux-sunxi.org/index.php?title=Wifi&amp;oldid=17529</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Wifi&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Wifi" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Wifi" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Wifi&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Wifi">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Wifi&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Wifi&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Wifi" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Wifi" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Wifi&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Wifi&amp;oldid=17529" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 7 June 2016, at 10:28.</li>
+<li id="footer-info-viewcount">This page has been accessed 55,771 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

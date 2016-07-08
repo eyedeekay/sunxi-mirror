@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Accelerometer - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Accelerometer","wgTitle":"Accelerometer","wgCurRevisionId":17213,"wgArticleId":1969,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Accelerometer","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Accelerometer"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Accelerometer skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Accelerometer</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page is an attempt to collect all the information about the various accelerometers in use on Sunxi hardware.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Manufacturers"><span class="tocnumber">1</span> <span class="toctext">Manufacturers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Bosch"><span class="tocnumber">1.1</span> <span class="toctext">Bosch</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#BMA250"><span class="tocnumber">1.1.1</span> <span class="toctext">BMA250</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-4"><a href="#Domintech"><span class="tocnumber">1.2</span> <span class="toctext">Domintech</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#DMARD06"><span class="tocnumber">1.2.1</span> <span class="toctext">DMARD06</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#DMARD10"><span class="tocnumber">1.2.2</span> <span class="toctext">DMARD10</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#Freescale"><span class="tocnumber">1.3</span> <span class="toctext">Freescale</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#MMA7660"><span class="tocnumber">1.3.1</span> <span class="toctext">MMA7660</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#MMA8452"><span class="tocnumber">1.3.2</span> <span class="toctext">MMA8452</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#MMA8652"><span class="tocnumber">1.3.3</span> <span class="toctext">MMA8652</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#MMA8653"><span class="tocnumber">1.3.4</span> <span class="toctext">MMA8653</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Memsic"><span class="tocnumber">1.4</span> <span class="toctext">Memsic</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#MXC622X"><span class="tocnumber">1.4.1</span> <span class="toctext">MXC622X</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Sensortek"><span class="tocnumber">1.5</span> <span class="toctext">Sensortek</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#STK8312"><span class="tocnumber">1.5.1</span> <span class="toctext">STK8312</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="#STMicroelectronics"><span class="tocnumber">1.6</span> <span class="toctext">STMicroelectronics</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="#LIS3DH"><span class="tocnumber">1.6.1</span> <span class="toctext">LIS3DH</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Manufacturers"> Manufacturers </span></h1>
+<h2> <span class="mw-headline" id="Bosch"> Bosch </span></h2>
+<h3> <span class="mw-headline" id="BMA250"> BMA250 </span></h3>
+<p>Supported in mainline kernel (via bma180 driver).
+</p><p>Devicetree example (from <a href="/Gemei_G9" title="Gemei G9">Gemei G9</a>):
+</p>
+<pre>
+&amp;i2c1 {
+    /* ... */
+    <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e4868985d6d1d4a4d5dc">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
+        compatible = &quot;bosch,bma250&quot;;
+        reg = &lt;0x18&gt;;
+    };
+};
+</pre>
+<h2> <span class="mw-headline" id="Domintech"> Domintech </span></h2>
+<p>Domintech has [<a class="external text" href="https://github.com/domintech">Github page</a>] which contains repositories with Android drivers.
+</p>
+<h3> <span class="mw-headline" id="DMARD06"> DMARD06 </span></h3>
+<p>DMARD06 is a ±2g tri-axial digital accelerometer.
+</p><p>Driver for sunxi-3.4 can be found on our <a rel="nofollow" class="external text" href="https://groups.google.com/forum/#!msg/linux-sunxi/D0n8dyaVA34/WUDkSDZn_E4J">mailinglist</a>
+</p><p>There is no driver in mainline.
+</p>
+<h3> <span class="mw-headline" id="DMARD10"> DMARD10 </span></h3>
+<p>TODO
+</p>
+<h2> <span class="mw-headline" id="Freescale"> Freescale </span></h2>
+<h3> <span class="mw-headline" id="MMA7660"> MMA7660 </span></h3>
+<p>Datasheet: <a rel="nofollow" class="external free" href="http://cache.freescale.com/files/sensors/doc/data_sheet/MMA7660FC.pdf">http://cache.freescale.com/files/sensors/doc/data_sheet/MMA7660FC.pdf</a>
+</p>
+<h3> <span class="mw-headline" id="MMA8452"> MMA8452 </span></h3>
+<p>Driver in mainline kernel available.
+</p><p>Datasheet: <a rel="nofollow" class="external free" href="http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8452Q.pdf">http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8452Q.pdf</a>
+</p>
+<h3> <span class="mw-headline" id="MMA8652"> MMA8652 </span></h3>
+<p>Datasheet: <a rel="nofollow" class="external free" href="http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf">http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf</a>
+</p>
+<h3> <span class="mw-headline" id="MMA8653"> MMA8653 </span></h3>
+<p>Datasheet: <a rel="nofollow" class="external free" href="http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8653FC.pdf">http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8653FC.pdf</a>
+</p>
+<h2> <span class="mw-headline" id="Memsic"> Memsic </span></h2>
+<h3> <span class="mw-headline" id="MXC622X"> MXC622X </span></h3>
+<p>TODO
+</p><p>Driver can be found <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.4/drivers/gsensor/mxc622x.c">here</a>.
+</p>
+<h2> <span class="mw-headline" id="Sensortek"> Sensortek </span></h2>
+<h3> <span class="mw-headline" id="STK8312"> STK8312 </span></h3>
+<p>TODO
+</p>
+<h2> <span class="mw-headline" id="STMicroelectronics"> STMicroelectronics </span></h2>
+<h3> <span class="mw-headline" id="LIS3DH"> LIS3DH </span></h3>
+<p>Driver in mainline kernel available.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Accelerometer&amp;oldid=17213">http://linux-sunxi.org/index.php?title=Accelerometer&amp;oldid=17213</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Accelerometer&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Accelerometer" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Accelerometer" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Accelerometer&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Accelerometer">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Accelerometer&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Accelerometer&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Accelerometer" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Accelerometer" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Accelerometer&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Accelerometer&amp;oldid=17213" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 17 May 2016, at 21:42.</li>
+<li id="footer-info-viewcount">This page has been accessed 3,174 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

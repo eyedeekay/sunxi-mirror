@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Mainline Kernel Howto - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mainline_Kernel_Howto","wgTitle":"Mainline Kernel Howto","wgCurRevisionId":17697,"wgArticleId":602,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Mainline_Kernel_Howto","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Mainline_Kernel_Howto"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Mainline_Kernel_Howto skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Mainline Kernel Howto</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page describes how you can compile and use the Linux mainline kernel.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Current_status"><span class="tocnumber">1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Prerequisites"><span class="tocnumber">2</span> <span class="toctext">Prerequisites</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Kernel_source"><span class="tocnumber">3</span> <span class="toctext">Kernel source</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Stable_releases"><span class="tocnumber">3.1</span> <span class="toctext">Stable releases</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Patches_merged_in_the_next_stable_release"><span class="tocnumber">3.2</span> <span class="toctext">Patches merged in the next stable release</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Kernel_Configuration"><span class="tocnumber">4</span> <span class="toctext">Kernel Configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Enable_modules"><span class="tocnumber">4.1</span> <span class="toctext">Enable modules</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Early_printk"><span class="tocnumber">4.2</span> <span class="toctext">Early printk</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#simplefb"><span class="tocnumber">4.3</span> <span class="toctext">simplefb</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Adding_a_new_device"><span class="tocnumber">5</span> <span class="toctext">Adding a new device</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Kernel_Compilation"><span class="tocnumber">6</span> <span class="toctext">Kernel Compilation</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Boot"><span class="tocnumber">7</span> <span class="toctext">Boot</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#SD-Card_Boot_partition"><span class="tocnumber">7.1</span> <span class="toctext">SD-Card Boot partition</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#boot.cmd"><span class="tocnumber">7.1.1</span> <span class="toctext">boot.cmd</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-15"><a href="#eMMC_boot_partition"><span class="tocnumber">7.2</span> <span class="toctext">eMMC boot partition</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Network_boot_setup"><span class="tocnumber">7.3</span> <span class="toctext">Network boot setup</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Current_status"> Current status </span></h1>
+<p>Please refer to the <a href="/Linux_mainlining_effort" title="Linux mainlining effort">Linux mainlining effort</a> page for detailed status of mainlining effort, and supported boards and driver coverage. The upstream code does not support various drivers and lacks sound, display, 3D, 2D and media support.
+</p><p>NAND support is also not supported at the moment. This is work in progress, but the driver that will eventually get merged will be incompatible with Allwinner's. Indeed, both use different storage format.
+</p><p>If you simply want a more-or-less usable device for multimedia support, then use <a href="/Linux_Kernel" title="Linux Kernel">our own 3.4 branch</a>.
+</p>
+<h1> <span class="mw-headline" id="Prerequisites"> Prerequisites </span></h1>
+<p>You should not attempt anything on this page, unless you are first comfortable with our <a href="/Manual_build_howto" title="Manual build howto">Manual build howto</a> which uses <a href="/Linux_Kernel" title="Linux Kernel">our sunxi-3.4 kernel</a>. This <a href="/Manual_build_howto" title="Manual build howto">Manual build howto</a> will guide you through setting up a full working system, and once you have that, you can start thinking about replacing the kernel with the mainline kernel. Apart from a fully set up SD-Card, this howto will also get you a working <a href="/Toolchain" title="Toolchain">toolchain</a> and a recent <a href="/U-Boot" title="U-Boot">U-Boot</a>.
+</p><p>While the mainline kernel should work on any bootloader (with the major exception being the A20), you'll need a recent sunxi <a href="/U-boot" title="U-boot" class="mw-redirect">U-boot</a>, or even better a <a href="/Mainline_U-boot" title="Mainline U-boot" class="mw-redirect">Mainline_U-boot</a>. SMP, virtualization and simplefb are the features you will most likely miss.
+</p>
+<h1> <span class="mw-headline" id="Kernel_source"> Kernel source </span></h1>
+<h2> <span class="mw-headline" id="Stable_releases"> Stable releases </span></h2>
+<p>The stable releases are released by Linus Torvalds. Since Linux 3.8, the Allwinner support is added gradually. It is still quite sparse, but we are making good progress. This is probably what you should choose if you are looking for stability.
+</p>
+<pre>git clone <a rel="nofollow" class="external free" href="git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git">git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git</a> --depth=1
+</pre>
+<h2> <span class="mw-headline" id="Patches_merged_in_the_next_stable_release"> Patches merged in the next stable release </span></h2>
+<p>There is also a sunxi-next branch maintained with all the inclusions that have been accepted, merged and will be included in the next stable release. If you want to do some development, it's probably the best pick.
+</p>
+<pre>git clone <a class="external text" href="http://github.com/linux-sunxi/linux-sunxi/tree/sunxi-next">git://github.com/linux-sunxi/linux-sunxi.git</a> -b sunxi-next --depth=1
+</pre>
+<h1> <span class="mw-headline" id="Kernel_Configuration"> Kernel Configuration </span></h1>
+To get a working kernel, just use the following for configuration</pre>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- sunxi_defconfig</pre>
+<p>If you wish to alter configuration, run:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- menuconfig</pre>
+<h2> <span class="mw-headline" id="Enable_modules"> Enable modules </span></h2>
+<p>If you need certain drivers as modules, at the top level menu, enable:
+</p>
+<pre>[*] Enable loadable module support ---&gt;</pre>
+<p>Remember to <a href="#Kernel_Compilation">build modules</a> as well later on, next to <i>zImage</i> and <i>dtbs</i>. Then, also remember to install your modules into your rootfs.
+</p>
+<h2> <span class="mw-headline" id="Early_printk"> Early printk </span></h2>
+<p>If and only if your kernel does nothing, it pays to enable early printk support.
+</p><p>Go to:
+</p>
+<pre> Kernel hacking ---&gt;</pre>
+<p>Then enable:
+</p>
+<pre>[*] Kernel debugging</pre>
+<p>To actually get early printk, you need to also enable:
+</p>
+<pre>[*] Kernel low-level debugging functions (read help!)
+Kernel low-level debugging port (Kernel low-level debugging messages via sunXi UART0) ---&gt;
+[*] Early printk</pre>
+<p>On all supported SoCs, a good rule of thumb is that you will need <i>UART0</i>, unless you are on the A13 (<i>UART1</i>) or the A23 (<i>R_UART</i>).
+</p><p>The Kconfig options needed are CONFIG_DEBUG_KERNEL, CONFIG_DEBUG_LL, CONFIG_EARLY_PRINTK and one of the CONFIG_DEBUG_SUNXI options, depending on your board.
+</p>
+<h2> <span class="mw-headline" id="simplefb"> simplefb </span></h2>
+<p>While a KMS driver still is being worked on, a quick and easy way to get a display up on a HDMI monitor is to build (upcoming) U-Boot with sunxi cfb console support.
+</p><p>The kernel side support can be enabled through:
+</p>
+<pre> Device Drivers ---&gt;</pre>
+<p>And then:
+</p>
+<pre> Graphics support ---&gt;</pre>
+<p>Followed by:
+</p>
+<pre> Frame buffer Devices ---&gt;</pre>
+<p>Enabled frame buffer devices, and descend into that menu:
+</p>
+<pre>[*] Support for frame buffer devices ---&gt;</pre>
+<p>Then enable simplefb:
+</p>
+<pre>[*] Simple framebuffer support</pre>
+<p>Then return to Graphics support and select:
+</p>
+<pre>Console display driver support ---&gt;</pre>
+<p>And check:
+</p>
+<pre>[*] Framebuffer Console support</pre>
+<p>Don't forget to change your console in your boot.cmd/boot.scr to console=tty1 to enable the simple framebuffer driver.
+</p>
+<h1> <span class="mw-headline" id="Adding_a_new_device"> Adding a new device </span></h1>
+<p>Mainly, you have to write a <a href="/Device_Tree" title="Device Tree">device description</a>. Please <a href="/Sending_patches" title="Sending patches">send a patch</a> to help others finding good examples.
+</p>
+<h1> <span class="mw-headline" id="Kernel_Compilation"> Kernel Compilation </span></h1>
+<p>To build the kernel, run now:
+</p>
+<pre>ARCH=arm CROSS_COMPILE=&lt;toolchain-prefix&gt; make zImage dtbs</pre>
+<p>After the compilation ended, you should have generated both the zImage in <i>arch/arm/boot</i>, and a device tree blob (<i>.dtb</i>) in <i>arch/arm/boot/dts</i>.
+</p><p>This device tree blob (or simply dtb) gives to the kernel the description of the hardware it's currently running on. In its goal, it's pretty similar to the FEX scripts that Allwinner uses, yet far more generic. It allows to compile a single kernel image that will run on several platforms.
+</p><p>To identify the dtb file that you will use on your board, first look into <i>arch/arm/boot/dts</i>. You should see a whole bunch of them, most being irrelevant to us because targeting boards based on other ARM SoCs. All the sunxi dtb follow the pattern &lt;family&gt;-&lt;soc&gt;-&lt;board&gt;.dtb (for example sun5i-a13-olinuxino.dtb, refer to <a href="/Allwinner_SoC_Family" title="Allwinner SoC Family">Allwinner SoC Family</a> for an exhaustive list).
+</p><p>If you have configured certain drivers as modules, you need to build and install these as well:
+</p>
+<pre>ARCH=arm CROSS_COMPILE=&lt;toolchain-prefix&gt; INSTALL_MOD_PATH=&lt;any-path-you-like&gt; make modules modules_install</pre>
+<p>After the build succeeds, you can find the modules in the supplied <tt>INSTALL_MOD_PATH</tt> directory.
+</p>
+<h1> <span class="mw-headline" id="Boot"> Boot </span></h1>
+<h2> <span class="mw-headline" id="SD-Card_Boot_partition"> SD-Card Boot partition </span></h2>
+<p>Like with our <a href="/Manual_build_howto#Setting_up_the_boot_partition" title="Manual build howto"> Manual build howto</a>, you have to set up the boot partition. Instead of <i>script.bin</i>, you need to install your board-specific <b>.dtb</b> to the boot partition. (Above kernel compilation should generate this binary representation of the <a href="/Device_tree" title="Device tree" class="mw-redirect">device tree</a> automatically.)
+</p>
+<h3> <span class="mw-headline" id="boot.cmd"> boot.cmd </span></h3>
+<p>Like in the <a href="/Manual_build_howto#boot.cmd" title="Manual build howto"> Manual build howto</a>, create a boot.cmd with the following contents:
+</p>
+<pre>fatload mmc 0 0x46000000 zImage
+fatload mmc 0 0x49000000 &lt;board&gt;.dtb
+setenv bootargs console=ttyS0,115200 earlyprintk root=/dev/mmcblk0p&lt;partition&gt; rootwait panic=10 ${extra}
+bootz 0x46000000 - 0x49000000</pre>
+<p>Replace <i>fatload</i> with <i>ext2load</i> if needed. <a href="#Early_printk">earlyprintk</a> is optional; if your kernel boots up just fine, you might as well remove it.
+</p><p>If you are using an older U-Boot (you shouldn't - <span style="color:#ba0000">Which?</span>), you might require the following line, to keep the extracted kernel from overwriting the device tree configuration:
+</p>
+<pre>setenv fdt_high ffffffff</pre>
+<p>If you wish to use an initramfs, then the <i>bootz</i> command becomes:
+</p>
+<pre>bootz 0x46000000 0x&lt;initramfs-address&gt; 0x49000000</pre>
+<p>Now <a href="/Mainline_U-boot#Boot" title="Mainline U-boot" class="mw-redirect">generate boot.scr</a>. Don't forget to copy over your <i>zImage</i> and &lt;board&gt;.dtb files as well.
+</p>
+<h2> <span class="mw-headline" id="eMMC_boot_partition"> eMMC boot partition </span></h2>
+<p><a class="external text" href="http://en.wikipedia.org/wiki/MultiMediaCard#eMMC">eMMC</a> is very similar to the SD card case (see above). From a user's perspective, think of it as an "internal" memory card. Some devices are able to boot entirely from eMMC, forgoing the need for an external SD card.
+</p><p><a href="/File:Information.png" class="image"><img alt="Information.png" src="/images/5/54/Information.png" width="16" height="16"/></a> Keep a keen eye on the numbering of the <i>mmcblk</i> devices when switching the boot process between SD card and eMMC, e.g. during installation.
+</p>
+<dl><dd>The Linux kernel may change device numbers depending on which mmc devices are actually present.
+</dd><dd>For example: If your SD card corresponds to <i>mmc0</i>, and the eMMC is <i>mmc1</i>, you'll probably end up with the eMMC as <i>mmcblk<b>1</b></i> when a SD card is also present (with the latter being <i>mmcblk<b>0</b></i>). But it's likely that the eMMC becomes <i>mmcblk<b>0</b></i> as soon as no SD card (<i>mmc0</i>) is present. If in doubt, check the kernel messages and adjust your partition layout / boot options accordingly.
+</dd></dl>
+<h2> <span class="mw-headline" id="Network_boot_setup"> Network boot setup </span></h2>
+<p><span style="color:#ba0000">TODO.</span> Fold in <a href="/Possible_setups_for_hacking_on_mainline" title="Possible setups for hacking on mainline">Possible setups for hacking on mainline</a>.
+</p>
+<h1> <span class="mw-headline" id="See_also">See also</span></h1>
+<ul><li> <a href="/Manual_build_howto" title="Manual build howto">Manual build howto</a>
+</li><li> <a href="/Linux_mainlining_effort" title="Linux mainlining effort">Linux mainlining effort</a>
+</li><li> <a href="/Possible_setups_for_hacking_on_mainline" title="Possible setups for hacking on mainline">Possible setups for hacking on mainline</a>
+</li></ul>
+
+ 
+
+ 
+
+ 
+</div>				 
+								 
+				<div class="printfooter">
+				Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Mainline_Kernel_Howto&amp;oldid=17697">http://linux-sunxi.org/index.php?title=Mainline_Kernel_Howto&amp;oldid=17697</a>"				</div>
+				 
+												 
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>				 
+												<div class="visualClear"></div>
+				 
+								 
+			</div>
+			 
+		</div>
+		 
+		 
+		<div id="mw-head" class="noprint">
+			
+ 
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+		<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+		<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mainline+Kernel+Howto&amp;type=signup">Create account</a></li>
+		<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mainline+Kernel+Howto" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+ 
+			<div id="left-navigation">
+				
+ 
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li id="ca-nstab-main" class="selected"><span><a href="/Mainline_Kernel_Howto" title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Mainline_Kernel_Howto&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+ 
+
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+ 
+			</div>
+			<div id="right-navigation">
+				
+ 
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/Mainline_Kernel_Howto">Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=Mainline_Kernel_Howto&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Mainline_Kernel_Howto&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+ 
+
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+ 
+
+ 
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/>			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/>			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/>					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+ 
+			</div>
+		</div>
+		 
+		 
+			<div id="mw-panel" class="noprint">
+				 
+					<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+				 
+				
+ 
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+			<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+<div class="portal" id='p-tb'>
+	<h5>Tools</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Mainline_Kernel_Howto" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Mainline_Kernel_Howto" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-print"><a href="/index.php?title=Mainline_Kernel_Howto&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Mainline_Kernel_Howto&amp;oldid=17697" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+ 
+
+ 
+
+ 
+			</div>
+		 
+		 
+		<div id="footer">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 18 June 2016, at 12:31.</li>
+											<li id="footer-info-viewcount">This page has been accessed 78,210 times.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+											<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		 
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+	</body>
+</html>

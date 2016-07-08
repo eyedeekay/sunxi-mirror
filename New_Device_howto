@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>New Device howto - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"New_Device_howto","wgTitle":"New Device howto","wgCurRevisionId":16997,"wgArticleId":770,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Community"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"New_Device_howto","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/New_Device_howto"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-New_Device_howto skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">New Device howto</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page contains a clear guide for bringing up a previously unsupported and unknown device, and for getting support into the sunxi repositories.
+</p><p>If you have problem following this howto don't hesitate to ask on irc or mailing list. However, in order for anybody to help you it is necessary to have as much information as possible about your device at hand. That's what steps 1 and 2 in this howto are for.
+</p><p>If you are still not convinced <a href="#Frequently_Asked_Questions"> go here for a more in depth list of reasons explaining why you need to do this.</a>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Step_1:_Find_out_all_you_can"><span class="tocnumber">1</span> <span class="toctext">Step 1: Find out all you can</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Step_2:_Create_a_wiki_page"><span class="tocnumber">2</span> <span class="toctext">Step 2: Create a wiki page</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Step_3:_Retrieve_crucial_information_from_the_stock_OS"><span class="tocnumber">3</span> <span class="toctext">Step 3: Retrieve crucial information from the stock OS</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Step_4:_Get_a_serial_console"><span class="tocnumber">4</span> <span class="toctext">Step 4: Get a serial console</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Step_5:_Add_support_to_u-boot"><span class="tocnumber">5</span> <span class="toctext">Step 5: Add support to u-boot</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Step_6:_Add_support_to_sunxi-boards"><span class="tocnumber">6</span> <span class="toctext">Step 6: Add support to sunxi-boards</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Step_7:_run_through_a_full_manual_build"><span class="tocnumber">7</span> <span class="toctext">Step 7: run through a full manual build</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Frequently_Asked_Questions"><span class="tocnumber">8</span> <span class="toctext">Frequently Asked Questions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#.22Why_should_i_do_this.3F.22"><span class="tocnumber">8.1</span> <span class="toctext">"Why should i do this?"</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#.22This_text_is_long.2C_i_do_not_want_to_do_all_that.21.22"><span class="tocnumber">8.2</span> <span class="toctext">"This text is long, i do not want to do all that!"</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#.22I_don.27t_care_about_any_of_this.2C_make_my_device_work..22"><span class="tocnumber">8.3</span> <span class="toctext">"I don't care about any of this, make my device work."</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#.22Why_do_people_keep_on_telling_me_to_NDH_while_I_have_a_specific_question.21.22"><span class="tocnumber">8.4</span> <span class="toctext">"Why do people keep on telling me to NDH while I have a specific question!"</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Step_1:_Find_out_all_you_can">Step 1: Find out all you can</span></h1>
+<p>Before you rush into things, it really pays to find out all you can about your device. Bringing up a new board is not rocket science, but it is non-trivial and time consuming, so it pays to spend a few hours on google and on our wiki to find out what is publicly known about your device.
+</p><p>When googling, you will find that android forum posts are a treasure trove of badly dispersed information. This ranges from basic android usage information all the way to device disassembly and pictures of the mainboard. If you are really lucky, someone will have posted information on how to expose the UART (serial). Part of your task is making this horribly inaccessible information easily and neatly available, at least for those bits that are relevant for the sunxi project.
+</p><p>As for the sunxi website, it is a really good idea to investigate similar specced devices with the same SoC. It often happens that devices get rebranded. If you are really lucky, you might find that your hardware is already supported. If not, you will be able to find out what other names your device was branded under, and you can include that information on the wiki page which you will create in step 2. You might also find similar devices with similar mainboards, but with just different bits bolted on, in which case you still might find some valuable information (like how to wire up the UART).
+</p><p>It also pays to check out board <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=tree;f=configs">defconfig files in the U-Boot repository</a>, and see if your device is already listed there. Similarly, have a look through our <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/tree/master/sys_config">Boards repository</a> to see whether your device <a href="/Fex_Guide#FEX_Description" title="Fex Guide">fex</a> is listed there.
+</p>
+<h1> <span class="mw-headline" id="Step_2:_Create_a_wiki_page">Step 2: Create a wiki page</span></h1>
+<p>If you have determined that your device is unique, then go ahead and create a new page. If your device is similar to an already documented device, then still create a new page and crosslink the two under a "See also" section. If it is just a rebadged version of some other device, then add it to the "Also known as" section of an existing wiki page.
+</p><p>The process of and details for creating a new device page is described in our <a href="/New_Device_page" title="New Device page"> new device page howto</a>, an easy to hack template is provided.
+</p><p><b>You must do this now.</b> This wiki page allows you to document things as you go along, and this way you will not forgot any details, and people will ask for and refer to this page when you ask for any help. You also should make exterior device pictures now, before disassembling the device. Similarly, you need to get all the identification information from the stock OS before you replace it with something else.
+</p>
+<h1> <span class="mw-headline" id="Step_3:_Retrieve_crucial_information_from_the_stock_OS">Step 3: Retrieve crucial information from the stock OS</span></h1>
+<p>If you are not using a development board, then Android will be the stock OS. You will need to gather the identification strings from the stock OS for <a href="#Step_2:_Create_a_wiki_page"> the device page in the previous step</a>.
+</p><p>You will also need to use <a href="/Retrieving_device_information" title="Retrieving device information">our retrieving device information howto</a> to retrieve the bootinfo and .fex files. You will need them later on in <a href="#Step_5:_Add_support_to_u-boot">Step 5</a> and <a href="#Step_6:_Add_support_to_sunxi-boards">Step 6</a>.
+</p>
+<h1> <span class="mw-headline" id="Step_4:_Get_a_serial_console"> Step 4: Get a serial console </span></h1>
+<p>Like any ARMv7 system, you are pretty much lost when anything goes wrong, unless you have access to a serial console (UART). If you intend to bring up a new device, it will really pay off to spend the time and effort to try to gain access to the serial console. So while this step is optional, it is usually quite crucial.
+</p><p>You will need a 3.3V TTL UART to USB converter usually, or a level changer to standard RS232 to be able to successfully talk to the serial port on sunxi hardware.
+</p><p>Some devices directly expose their UART, so all you really need to do is hook things up. Mobile devices never export a UART directly, or do not provide easy access to the UART. Here you will need to disassemble your device, locate the UART pins (if there are any) on the motherboard, solder on some wires and route them to the outside. This is a lot more work, but not impossible.
+</p><p>All of the above is explained in detail in our <a href="/UART" title="UART">UART howto</a>
+</p>
+<h1> <span class="mw-headline" id="Step_5:_Add_support_to_u-boot">Step 5: Add support to u-boot</span></h1>
+<p>Please refer to <a href="/U-Boot#Adding_a_new_device_to_U-Boot" title="U-Boot"> the adding a new device to u-boot howto</a> with the information retrieved in <a href="#Step_3:_Retrieve_crucial_information_from_the_stock_OS"> Step 3</a>.
+</p><p><b>Note: no u-boot patches are accepted without <a href="#Step_2:_Create_a_wiki_page"> a complete device page</a> in place.</b>
+</p>
+<h1> <span class="mw-headline" id="Step_6:_Add_support_to_sunxi-boards">Step 6: Add support to sunxi-boards</span></h1>
+<p>Get the sunxi boards repository by running:
+</p>
+<pre>
+git clone git://github.com/linux-sunxi/sunxi-boards.git
+</pre>
+<p>Adding device support to the sunxi-boards repository is as simple as placing the <a href="#Step_3:_Retrieve_crucial_information_from_the_stock_OS"> acquired .fex file</a> in the right directory and git adding the file.
+</p><p>You can now commit your changes, and with:
+</p>
+<pre>
+git format-patch -M -C HEAD^
+</pre>
+<p>You will create a git mbox patch file which you can mail to <a href="/Mailing_list" title="Mailing list"> our mailinglist</a>. If you have <a href="/Mailing_list#Configuring_git_for_send-email" title="Mailing list"> set up git correctly</a>, you can just run:
+</p>
+<pre>
+git send-email 0001-*.patch
+</pre>
+<p><b>Note: no sunxi-boards patches are accepted without <a href="#Step_2:_Create_a_wiki_page"> a complete device page</a> in place.</b>
+</p>
+<h1> <span class="mw-headline" id="Step_7:_run_through_a_full_manual_build">Step 7: run through a full manual build</span></h1>
+<p>Please work through our <a href="/Manual_build_howto" title="Manual build howto"> Manual build howto</a> to verify your handiwork.
+</p><p>You will be left with a fully working linux system on what was previously an android only device. Congratulations!
+</p>
+<h1> <span class="mw-headline" id="Frequently_Asked_Questions"> Frequently Asked Questions </span></h1>
+<h2> <span class="mw-headline" id=".22Why_should_i_do_this.3F.22"> "Why should i do this?" </span></h2>
+<p>This is a concise guide for bringing up your hardware, and for documenting your hardware in one swoop. It is not rocket-science and some basic linux skills will suffice. All you need to do is meticulously follow the text here.
+</p>
+<h2> <span class="mw-headline" id=".22This_text_is_long.2C_i_do_not_want_to_do_all_that.21.22">"This text is long, i do not want to do all that!"</span></h2>
+<p>In the process of working through this guide, you will also document your device and provide 2 patches to sunxi repositories. You are not doing this to help others, you are primarily doing this to help yourself, and only as a consequence helping others. Afterwards, you will be able to fall back to the information that you so handily gathered here instead of having lost this information for all time. And others who come by might help to improve the support for your specific device.
+</p><p>Finally, think of all the code and information that linux-sunxi so handily gathers for you. Working through this howto is the least thing you can do to give something back.
+</p>
+<h2> <span class="mw-headline" id=".22I_don.27t_care_about_any_of_this.2C_make_my_device_work..22">"I don't care about any of this, make my device work."</span></h2>
+<p>Linux-sunxi is a community, and it is mostly peoples spare time that is sunk into it. Only very few people here work for hardware manufacturers. So no-one here has an obligation to help you.
+</p><p>By not working through this guide, you effectively tell the people behind sunxi that they should waste their time on helping you, and only you, and that you will then plan to run off without giving even a tiny bit of time back. Why would anyone then spend their time helping you?
+</p>
+<h2> <span class="mw-headline" id=".22Why_do_people_keep_on_telling_me_to_NDH_while_I_have_a_specific_question.21.22">"Why do people keep on telling me to NDH while I have a specific question!"</span></h2>
+<p>This document explains how to gather a lot of important information on your device, and packages it up in a nice wiki page. When you ask a specific question on IRC or the mailinglist, people tend to first look up your hardware on the wiki and look at the details of your hardware which could relate to your issue. From the information gathered on these device pages, many issues have been immediately spotted and solved already. If the issue cannot be spotted quickly, people will have had a quick overview of the hardware, and thus can make more educated guesses of what the possible causes of the issue could be, and they can then provide better directives to help identify and fix the issue.
+</p><p>But if you expect people to work blind and waste their time trying to help you, do keep on refusing to work through this document. Just don't expect anyone to help you.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=New_Device_howto&amp;oldid=16997">http://linux-sunxi.org/index.php?title=New_Device_howto&amp;oldid=16997</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Community" title="Category:Community">Community</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=New+Device+howto&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=New+Device+howto" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/New_Device_howto" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:New_Device_howto&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/New_Device_howto">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=New_Device_howto&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=New_Device_howto&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/New_Device_howto" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/New_Device_howto" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=New_Device_howto&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=New_Device_howto&amp;oldid=16997" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 21 April 2016, at 20:42.</li>
+<li id="footer-info-viewcount">This page has been accessed 32,162 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

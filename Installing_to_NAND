@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Installing to NAND - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Installing_to_NAND","wgTitle":"Installing to NAND","wgCurRevisionId":14016,"wgArticleId":820,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Installing_to_NAND","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Installing_to_NAND"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Installing_to_NAND skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Installing to NAND</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page explains how to put a full sunxi system on the NAND flash of your device.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Prerequisite"><span class="tocnumber">1</span> <span class="toctext">Prerequisite</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Backup_NAND"><span class="tocnumber">2</span> <span class="toctext">Backup NAND</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#First_MB"><span class="tocnumber">2.1</span> <span class="toctext">First MB</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Boot_partition"><span class="tocnumber">2.2</span> <span class="toctext">Boot partition</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Full_backup"><span class="tocnumber">2.3</span> <span class="toctext">Full backup</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Accessing_the_full_backup"><span class="tocnumber">2.4</span> <span class="toctext">Accessing the full backup</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Partitioning"><span class="tocnumber">3</span> <span class="toctext">Partitioning</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#nand-part"><span class="tocnumber">3.1</span> <span class="toctext">nand-part</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Usage"><span class="tocnumber">3.2</span> <span class="toctext">Usage</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Example_table"><span class="tocnumber">3.3</span> <span class="toctext">Example table</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Detailed_usage_information"><span class="tocnumber">3.4</span> <span class="toctext">Detailed usage information</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Store_original_table"><span class="tocnumber">3.5</span> <span class="toctext">Store original table</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Verify_nanda_fs_size"><span class="tocnumber">3.6</span> <span class="toctext">Verify nanda fs size</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Create_the_new_partitioning"><span class="tocnumber">3.7</span> <span class="toctext">Create the new partitioning</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#U-Boot"><span class="tocnumber">4</span> <span class="toctext">U-Boot</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Get_a_toolchain"><span class="tocnumber">4.1</span> <span class="toctext">Get a toolchain</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Repository"><span class="tocnumber">4.2</span> <span class="toctext">Repository</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Determine_build_target"><span class="tocnumber">4.3</span> <span class="toctext">Determine build target</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Build"><span class="tocnumber">4.4</span> <span class="toctext">Build</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Installation"><span class="tocnumber">4.5</span> <span class="toctext">Installation</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Booting"><span class="tocnumber">4.6</span> <span class="toctext">Booting</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="#kernel"><span class="tocnumber">5</span> <span class="toctext">kernel</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Create_rootfs"><span class="tocnumber">6</span> <span class="toctext">Create rootfs</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#Sunxi_Logo"><span class="tocnumber">7</span> <span class="toctext">Sunxi Logo</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#Boot"><span class="tocnumber">8</span> <span class="toctext">Boot</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Prerequisite"> Prerequisite </span></h1>
+<p>Since the NAND is soldered to the board, it is impossible to access it from any other machine but your device itself (without some specialist equipment). You first will need to get proper access to your device, for instance, <a href="/Manual_build_howto" title="Manual build howto"> by first building an SD-card</a> and booting off of that. Note that "/dev/nand" is a linux-sunxi feature, and as such you will need to be running a linux-sunxi kernel to make use of it. Using other kernels (like the one on the stock Android image of your device) won't be of use.
+</p>
+<h1> <span class="mw-headline" id="Backup_NAND"> Backup NAND </span></h1>
+<h2> <span class="mw-headline" id="First_MB"> First MB </span></h2>
+<p>It is <b>absolutely vital</b> to have a copy of the data in the first megabyte of your NAND. This contains the boot0 bootloader. If anything goes wrong, you can use this to set up a working nand boot partition again.
+</p>
+<pre>dd if=/dev/nand of=nand.mbr.img bs=1M count=1</pre>
+<h2> <span class="mw-headline" id="Boot_partition"> Boot partition </span></h2>
+<p>It is <b>absolutely vital</b> to have a copy of the data in the boot partition. If anything goes wrong, you can use these files to set up a working nand boot partition again.
+</p><p>Mount nand somewhere nice, for instance a directory called <i>nanda.original</i> and then tar it up:
+</p>
+<pre>tar -zcvf nanda.original.tar.gz nanda.original</pre>
+<h2> <span class="mw-headline" id="Full_backup"> Full backup </span></h2>
+<p>While this is not as crucial as the first MB and the boot partition, it might be safer to also create an almost full copy of your nand.
+</p>
+<pre>dd if=/dev/nand of=/some/place/with/enough/space</pre>
+<p>If you do not have enough space on your SD-Card, then you need to get creative with SSHFS or NFS.
+</p>
+<h2> <span class="mw-headline" id="Accessing_the_full_backup"> Accessing the full backup </span></h2>
+<p>If you need access to the content of the full backup later on, you can use losetup.
+</p><p>The below example sets up a loop device for a nanda partition at 16MB:
+</p>
+<pre>losetup -fro 16777216 /some/file</pre>
+<h1> <span class="mw-headline" id="Partitioning"> Partitioning </span></h1>
+<p>Because we need to use the existing first boot layers, and because of our nand drivers, we need to take very special care of our nand, and we need a special tool to partition the nand.
+</p>
+<h2> <span class="mw-headline" id="nand-part"> nand-part </span></h2>
+<p>The special partitioning tool is called <a href="/Sunxi-tools#nand-part" title="Sunxi-tools"><i>nand-part</i></a> and it is part of <a href="/Sunxi-tools" title="Sunxi-tools">our sunxi-tools repository</a>. Build it with a cross-compiler, or on the target device itself.
+</p>
+<h2> <span class="mw-headline" id="Usage"> Usage </span></h2>
+<pre>
+usage: ./nand-part [-f a10|a20] nand-device
+       ./nand-part nand-device 'name2 len2 [usertype2]' ['name3 len3 [usertype3]'] ...
+       ./nand-part [-f a10|a20] nand-device start1 'name1 len1 [usertype1]' ['name2 len2 [usertype2]'] ...
+</pre>
+<p>The rudimentary user-interface of <i>nand-part</i> requires you to specify each partition in single quotes. The 'start' and 'len' values are provided in sectors, so 512bytes.
+</p><p>nand-part also is not smart enough to verify the size of your device. It will happily create partitions beyond the end of your device. The kernel correctly catches this and will provide the right sized devices, and the standard linux file-system creations tools will listen to what the kernel tells them.
+Nand-part only alters the partition table and not any filesystems, so you no information actually gets lost if you write a wrong partition table and later on restore the original.
+</p>
+<h2> <span class="mw-headline" id="Example_table"> Example table </span></h2>
+<p>Here is an example table from a hyundai A7HD with 8GB NAND, as provided by <i>nand-part</i>:
+</p>
+<pre>
+Using NAND /dev/nand, with 15958016 sectors (7792.0MB).
+
+...
+
+mbr: version 0x00000100, magic softw311
+9 partitions
+partition  1: class =         DISK, name =   bootloader, partition start =     2048, partition size =    32768 user_type=0
+partition  2: class =         DISK, name =          env, partition start =    34816, partition size =     4096 user_type=0
+partition  3: class =         DISK, name =         boot, partition start =    38912, partition size =    65536 user_type=0
+partition  4: class =         DISK, name =       system, partition start =   104448, partition size =   614400 user_type=2
+partition  5: class =         DISK, name =         data, partition start =   718848, partition size =  1048576 user_type=2
+partition  6: class =         DISK, name =         misc, partition start =  1767424, partition size =     2048 user_type=2
+partition  7: class =         DISK, name =     recovery, partition start =  1769472, partition size =    65536 user_type=2
+partition  8: class =         DISK, name =        cache, partition start =  1835008, partition size =   524288 user_type=2
+partition  9: class =         DISK, name =        UDISK, partition start =  2359296, partition size = 13598720 user_type=0
+</pre>
+<p>Note that all offsets and sizes for nand-part are provided in sectors, so they are 512bytes large. We can see the actual sizes by running:
+</p>
+<pre>
+sfdisk -s
+/dev/nand:   7979008
+/dev/nanda:     16384
+/dev/nandb:      2048
+/dev/nandc:     32768
+/dev/nandd:    307200
+/dev/nande:    524288
+/dev/nandf:      1024
+/dev/nandg:     32768
+/dev/nandh:    262144
+/dev/nandi:   6799360
+/dev/mmcblk0:   7830528
+total: 23787520 blocks
+</pre>
+<p>The <i>sfdisk</i> output, in this case, counts the sd-card in, and counts the nand twice, for the total block (1kB) count.
+</p><p>Note the position and size of the <i>bootloader</i> partition. The first MB is reserved for the MBR and the <i>boot0</i> stage of the bootloader. The <i>bootloader</i> partition contains a FAT16 fs. For many devices, the <i>bootloader</i> partition starts at 16MB, but for the hyundai it starts at 1MB.
+</p>
+<h2> <span class="mw-headline" id="Detailed_usage_information"> Detailed usage information </span></h2>
+<p>In the standard usage mode, the <i>boot</i> partition will not be touched.
+</p>
+<pre>./nand-part  /dev/nand 'root 7405568'</pre>
+<p>This will create a single partition called <i>root</i> which is 3616MB large, right after your <i>boot</i> partition. The awkward user interface of nand-part requires you to list all partitions in sequence. A new run of the above command will not add a second <i>root</i> partition after the freshly created one.
+</p><p>This will then create:
+</p>
+<pre>
+...
+mbr: version 0x00000100, magic softw311
+2 partitions
+partition  1: class =         DISK, name =   bootloader, partition start =    2048, partition size =    32768 user_type=0
+partition  2: class =         DISK, name =         root, partition start =   34816, partition size =  7405568 user_type=0
+</pre>
+<p>If you force the partitioning type, with the option '-f a10' or '-f a20', then everything has to be specified:
+</p>
+<pre>./nand-part -f a20 /dev/nand 32768 'boot 32768' 'root 7405568'</pre>
+<p>This will then create:
+</p>
+<pre>
+...
+mbr: version 0x00000200, magic softw411
+2 partitions
+partition  1: class =         DISK, name =         boot, partition start =    32768, partition size =    32768 user_type=0
+partition  2: class =         DISK, name =         root, partition start =    65536, partition size =  7405568 user_type=0
+</pre>
+<p>Note that you should never change partitioning versions like that if you wish to keep your system bootable. Also, some verions of Allwinner-boot will check that there is actually a partition called 'boot' and will not work otherwise.
+</p>
+<h2> <span class="mw-headline" id="Store_original_table"> Store original table </span></h2>
+<p>It is <b>important</b> that you keep a copy of the original output of nand-part around. You can use it later to restore your partition table if something goes wrong.
+</p>
+<pre>./nand-part &gt; nand-part.orig.txt</pre>
+<h2> <span class="mw-headline" id="Verify_nanda_fs_size"> Verify nanda fs size </span></h2>
+<p>At this point it is important to verify the size of the FAT16 filesystem of the boot partition. There <a href="/Inet_86vz#Installing_to_NAND" title="Inet 86vz"> have been cases where vendors have messed this up</a>, and we need to either retain or recreate this filesystem (the latter from <a href="#Boot_partition"> the back-up</a>). So mount <i>/dev/nanda</i> and check the size of the filesystem with some simple like df, and verify this against the output of <i>nand-part</i> or <i>sfdisk -s</i>
+</p><p>If you need to recreate the filesystem, run:
+</p>
+<pre>mkfs.msdos -F16 /dev/nanda</pre>
+<p>This will complain about unknown sector sizing, but this can be ignored.
+</p><p>Then you need to get the contents of <a href="#Boot_partition"> your backup tarball</a> copied back into your new /dev/nanda.
+</p>
+<h2> <span class="mw-headline" id="Create_the_new_partitioning"> Create the new partitioning </span></h2>
+<p>For the provided Hyundai A7HD example, the nanda fs is correct, so we substract the start and the size of 'Partition 1' off the size of the nand (in bash):
+</p>
+<pre>echo $[15958016 - 2048 - 32768]</pre>
+<p>Which returns 15923200. Then run the following:
+</p>
+<pre>./nand-part /dev/nand 2048 'boot 32768' 'root 15923200'</pre>
+<p>This creates the following table:
+</p>
+<pre>
+...
+
+mbr: version 0x00000100, magic softw311
+2 partitions
+partition  1: class =         DISK, name =         boot, partition start =    2048, partition size =    32768 user_type=0
+partition  2: class =         DISK, name =         root, partition start =   34816, partition size = 15923200 user_type=0
+</pre>
+<p>This renamed the 'bootloader' partition to 'boot' and kept its position and size. Then a single large partition was created to cover the rest of the NAND.
+</p><p>Note: if you cannot boot stock kernel, set last partition size to zero, it will be automaticly expanded.
+</p>
+<h1> <span class="mw-headline" id="U-Boot"> U-Boot </span></h1>
+<p>As stated several times before, we need a special allwinner version of u-boot to be able to boot from nand.
+</p>
+<h2> <span class="mw-headline" id="Get_a_toolchain"> Get a toolchain </span></h2>
+<p>Refer to the <a href="/U-Boot#Get_a_toolchain" title="U-Boot"> Toolchain step of the U-Boot compilation howto.</a>
+</p>
+<h2> <span class="mw-headline" id="Repository"> Repository </span></h2>
+<p>You just need to checkout out a specific branch from <a href="/U-Boot#Clone_the_repository" title="U-Boot"> the standard u-boot repository</a>.
+</p>
+<pre> git checkout lichee-dev</pre>
+<h2> <span class="mw-headline" id="Determine_build_target"> Determine build target </span></h2>
+<p>For this version of u-boot, there are very few board specific settings, and your system ram might be configured wrong because of it.
+</p>
+<pre>grep allwinner boards.cfg | awk '{print $1}'</pre>
+<h2> <span class="mw-headline" id="Build"> Build </span></h2>
+<p>Refer to the <a href="/U-Boot#Build" title="U-Boot"> Build step of the U-Boot compilation howto.</a>
+</p>
+<h2> <span class="mw-headline" id="Installation"> Installation </span></h2>
+<p>The resulting <i>u-boot.bin</i> binary needs to be copied to the <i>linux/</i> directory from the boot partition in <i>/dev/nanda</i>
+</p>
+<h2> <span class="mw-headline" id="Booting"> Booting </span></h2>
+<p>This version of u-boot currently has the configuration hardcoded. It will automatically boot <i>linux/uImage</i> in <i>/dev/nanda</i>, with a serial console, and with <i>/dev/nandb</i> as the root file system.
+</p>
+<h1> <span class="mw-headline" id="kernel"> kernel </span></h1>
+<p>The standard sunxi-3.4 kernel needs no special changes for booting off of nand. <a href="/Linux_Kernel#Compilation_Build_it_as_usual" title="Linux Kernel">Linux_Kernel#Compilation Build it as usual</a>, and then make sure you install the <i>uImage</i> in the <i>linux</i> directory from the boot partition in <i>/dev/nanda</i>.
+</p>
+<h1> <span class="mw-headline" id="Create_rootfs"> Create rootfs </span></h1>
+<p>You can now create your favourite filesytem on /dev/nandb, or for instance just run:
+</p>
+<pre>mkfs.ext4 /dev/nandb</pre>
+<p>After which you should be able to mount this partition and <a href="/Bootable_SD_card#Rootfs" title="Bootable SD card"> install a rootfs</a>.
+</p><p>Before booting into this, remember to copy your modules into the rootfs.
+</p>
+<h1> <span class="mw-headline" id="Sunxi_Logo"> Sunxi Logo </span></h1>
+<p>Now that you are running a proper sunxi installation on your device, you will probably dislike the Android logo shown for a few seconds during booting. A quick fix for this is to get <a class="external text" href="http://dl.linux-sunxi.org/users/libv/linux.bmp">this bitmap file</a>, and to overwrite the <i>linux.bmp</i> in the <i>linux/</i> directory from the boot partition in <i>/dev/nanda</i>
+</p><p>You can of course create your own, but it's not the best way to spend ones time for a result which is shown for just a few seconds.
+</p>
+<h1> <span class="mw-headline" id="Boot"> Boot </span></h1>
+<p>If all went well, your system should now just boot off of your new sunxi installation on NAND.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Installing_to_NAND&amp;oldid=14016">http://linux-sunxi.org/index.php?title=Installing_to_NAND&amp;oldid=14016</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Installing+to+NAND&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Installing+to+NAND" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Installing_to_NAND" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Installing_to_NAND" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Installing_to_NAND">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Installing_to_NAND&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Installing_to_NAND&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Installing_to_NAND" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Installing_to_NAND" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Installing_to_NAND&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Installing_to_NAND&amp;oldid=14016" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 20 May 2015, at 20:10.</li>
+<li id="footer-info-viewcount">This page has been accessed 48,247 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

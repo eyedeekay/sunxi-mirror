@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Intenso TAB744 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Intenso_TAB744","wgTitle":"Intenso TAB744","wgCurRevisionId":17074,"wgArticleId":2681,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["NDH TODO","Devices","A33 Tablets"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Intenso_TAB744","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Intenso_TAB744"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Intenso_TAB744 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Intenso TAB744</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Intenso TAB744</th></tr>
+<tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.intenso.de">intenso.de</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+191 x 90 x 122 mm</td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+September 2014</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.intenso.de/multimedia/produktblatt/1407749080_en.pdf">Official TAB744 Datasheet</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A33" title="A33">A33</a> Quad Core @ 1.3Ghz<br/>with Mali-400MP2</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+1024MiB DDR3</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+8GB</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V⎓2A<br/>3.7V Li-Po battery</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">LCD</th><td class="" style="">
+7" IPS edge-lit panel, 1024x600 px, 154x91 mm (KR070LF7T, 165x100 mm)</td></tr><tr class=""><th scope="row" style="text-align:left;">Touchscreen</th><td class="" style="">
+5-finger capacitive (<a href="/Touchscreen#FT5302" title="Touchscreen">Focaltech FT5<b>3</b>0<b>2</b></a>, <a rel="nofollow" class="external text" href="http://www.topfoison.com/uploads/_doc/20140807040839.pdf">datasheet</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+none</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm headphone plug, internal speaker, internal microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+WiFi 802.11 b/g/n (<a href="/Wifi#Realtek" title="Wifi">Realtek <span class="__cf_email__" data-cfemail="6e3c3a22565f56562b3b2e1b1d0c">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:0bda:8179</a>, <a rel="nofollow" class="external text" href="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxsdXZtZXN0dWZmfGd4OjcxYzgzNjE3ODlhMmI1ZWU">datasheet</a>)<br/><i>no bluetooth</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+1x USB2.0 OTG</td></tr><tr class=""><th scope="row" style="text-align:left;">Camera</th><td class="" style="">
+0.3MP front camera, 640x480 px (<a href="/CSI" title="CSI">Galaxycore GC0329</a>, <a rel="nofollow" class="external text" href="http://www.hrx-sz.com/updow/2013322111351566.pdf">datasheet</a>)<br/><i>no rear camera</i></td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+Accelerometer (<a href="/Accelerometer#Device" title="Accelerometer">Freescale MMA865x</a>, <a rel="nofollow" class="external autonumber" href="http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf">[1]</a> or <a rel="nofollow" class="external autonumber" href="http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8653FC.pdf">[2]</a>)</td></tr>
+</table>
+<p><span style="color:#ba0000">This page needs to be properly filled according to the <a href="/New_Device_howto" title="New Device howto">New Device Howto</a> and the <a href="/New_Device_page" title="New Device page">New Device Page guide</a>.</span>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">2</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Recovery_mode"><span class="tocnumber">2.1</span> <span class="toctext">Recovery mode</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#FEL_.28flash.2Fupgrade_mode.29"><span class="tocnumber">2.2</span> <span class="toctext">FEL (flash/upgrade mode)</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#ADB_.28remote_debug_mode.29"><span class="tocnumber">2.3</span> <span class="toctext">ADB (remote debug mode)</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Modify_firmware"><span class="tocnumber">2.4</span> <span class="toctext">Modify firmware</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Fixing_touchscreen_issues"><span class="tocnumber">2.4.1</span> <span class="toctext">Fixing touchscreen issues</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#Dump_firmware_from_NAND"><span class="tocnumber">2.5</span> <span class="toctext">Dump firmware from NAND</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Device_disassembly_.28voids_warranty.29"><span class="tocnumber">3</span> <span class="toctext">Device disassembly (voids warranty)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Adding_a_serial_port"><span class="tocnumber">3.1</span> <span class="toctext">Adding a serial port</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Pictures"><span class="tocnumber">4</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Also_known_as"><span class="tocnumber">5</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Manufacturer_images"><span class="tocnumber">6.1</span> <span class="toctext">Manufacturer images</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<table>
+<tr>
+<td>On the back of the device, the following is printed:
+<dl><dt>(Intenso)
+</dt><dt>7" TABLET PC
+</dt></dl>
+<p>TAB744
+<br/>5.0V ⎓ 2.0 A <span style="margin-left:2em">Wi-Fi</span>
+<br/>Intenso GmbH
+</p>
+</td>
+<td style="vertical-align:top;border-left:1px solid gray;padding-left:16px;">Inside the device, below the capacitive touch panel (ctp) connector, imprinted on the PCB, it reads:
+<dl><dt>M7100AVD V1.1 20140607
+</dt></dl>
+</td></tr></table>
+<p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> There are firmwares for the M7100AVD board labeled <i>wifi+bt</i>, but to best knowledge the TAB744 has never been sold with bluetooth support. Pre- or successors pcb names are M7100ALD, M7300AVD, but they have different specs.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="Recovery_mode"> Recovery mode </span></h2>
+<ol><li> Power off the device
+</li><li> Hold down the vol+ button
+</li><li> Power on the device
+</li><li> Release the vol+ button when recovery starts
+</li></ol>
+<p>If it does not work, retry the same, but with vol- button.
+</p>
+<h2> <span class="mw-headline" id="FEL_.28flash.2Fupgrade_mode.29"> FEL (flash/upgrade mode) </span></h2>
+<p>See <a href="/LiveSuit" title="LiveSuit">LiveSuit</a> and <a href="/Sunxi-tools" title="Sunxi-tools">Sunxi-tools</a> for tools to flash, download or upgrade firmware on TAB744.
+</p>
+<ul><li> switch the device off (press power button longer than 10 s)
+</li><li> enter FEL mode by holding Vol+ button while connecting USB cable to PC
+</li><li> then repeatedly press power button while still holding Vol+ button
+</li></ul>
+<p>If you are using LiveSuit, you need to start and select firmware first, before connecting the device. To troubleshoot the process you can check if you've entered flash mode using e.g. <i>lsusb</i>:
+</p>
+<dl><dt>FEL mode check
+</dt></dl>
+<pre>
+# lsusb
+Bus 003 Device 018: ID 1f3a:efe8 Onda (unverified) V972 tablet in flashing mode
+</pre>
+<p>If you get <code>ID 1f3a:1000 Onda (unverified)</code> instead, then tablet is <b>not</b> in flashing mode;
+the kernel will then attach scsi generic driver with output in 'dmesg' like this:
+</p>
+<pre>
+# [12514.909226] scsi host27: usb-storage 3-1:1.0
+# [12515.909172] scsi 27:0:0:0: Direct-Access              TAB744           0100 PQ: 0 ANSI: 2
+# [12515.909332] scsi 27:0:0:1: Direct-Access              TAB744           0100 PQ: 0 ANSI: 2
+# [12515.909796] sd 27:0:0:0: Attached scsi generic sg6 type 0
+# [12515.914209] sd 27:0:0:1: Attached scsi generic sg7 type 0
+# [12515.914385] sd 27:0:0:1: [sdg] Attached SCSI removable disk
+# [12515.917020] sd 27:0:0:0: [sdf] Attached SCSI removable disk
+</pre>
+<dl><dt>FEL version example
+</dt></dl>
+<pre>
+$ ./sunxi-fel version
+AWUSBFEX soc=00001667(A33) 00000001 ver=0001 44 08 scratchpad=00007e00 00000000 00000000
+</pre>
+<h2> <span class="mw-headline" id="ADB_.28remote_debug_mode.29"> ADB (remote debug mode) </span></h2>
+<p>This device does not have root access enabled by default. If USB debugging is enabled in settings on the tablet, run
+</p>
+<pre>echo -e '0x1f3a\n0x1002' &gt;&gt; .android/adb_usb.ini 
+sudo bash -c 'echo SUBSYSTEM==\"usb\", ATTR{idVendor}==\"1f3a\", ATTRS{idProduct}==\"1002\", MODE=\"0666\", \
+  GROUP=\"plugdev\", SYMLINK+=\"android%n\" &gt;&gt; /etc/udev/rules.d/51-android.rules'
+udevadm control --reload-rules
+</pre>
+<p>for android debug bridge to work:
+</p>
+<pre>adb devices
+adb shell
+..
+</pre>
+<dl><dt>change build.prop
+</dt></dl>
+<p>You can change build.prop after having flashed the firmware.
+</p>
+<pre>adb shell
+remount -o remount,rw /system
+busybox vi /system/build.prop # use&#160;:wq to write and quit
+sync
+remount -o remount,ro /system
+</pre>
+<h2> <span class="mw-headline" id="Modify_firmware"> Modify firmware </span></h2>
+<p>You can unpack, modify and repack firmware images before flashing them.
+<br/>This way build.prop may also be changed before flashing the firmware.
+<br/><a href="/Intenso_TAB744/prep.sh" title="Intenso TAB744/prep.sh">/prep.sh</a> automates the steps explained and outlined below all-in-one.
+</p>
+<dl><dt>system.fex <span id="system.fex"></span>
+</dt></dl>
+<p>The steps to modify files within system partition are roughly:
+</p>
+<pre>imgrepacker kk.img
+cd kk.img.dump
+  simg2img system.fex system.bin
+  mkdir sys
+  sudo mount -o loop system.bin sys
+    sudo vim sys/build.prop # or other files
+    # copy/rm files within sys as necessary
+  sudo umount sys
+  <b>ext2simg</b> system.bin system.fex
+  FileAddSum system.fex Vsystem.fex
+cd ..
+imgrepacker kk.img.dump
+</pre>
+<dl><dt>boot.fex <span id="boot.fex"></span>
+</dt></dl>
+<p>To modify boot.fex that contains kernel zImage and cpio ramdisk:
+</p>
+<pre># <small>for *bootimg, *ramdisk tools see e.g. <a rel="nofollow" class="external text" href="http://forum.xda-developers.com/showthread.php?t=2319018">xda-developers.com</a></small>
+imgrepacker kk.img
+cd kk.img.dump
+  <b>umkbootimg</b> boot.fex
+  <b>unpack_ramdisk</b> initramfs.cpio.gz
+  #edit files in ramdisk/, see e.g. sun8i.rc files for modules loaded during init
+  <b>repack_ramdisk</b> ramdisk/
+  <b>mkbootimg</b> --kernel zImage --ramdisk new-ramdisk.cpio.gz --base 0x40000000 -o boot.fex
+  rm -rf zImage *.cpio.gz ramdisk/
+  FileAddSum boot.fex Vboot.fex
+cd ..
+imgrepacker kk.img.dump
+</pre>
+<dl><dt>sys_config.fex <span id="sys_config.fex"></span>
+</dt></dl>
+<p>You can read up on the device gpio settings using <a href="/Intenso_TAB744/sys_config.fex" title="Intenso TAB744/sys config.fex"> a sys_config.fex extract</a> from the stock rom.
+</p><p>This file contains an ascii-pendant to <code>script.bin</code> (a.k.a. <code>config.fex</code> or <code>sys_config.bin</code>). It can be thought of as an alternative to a <a href="http://en.wikipedia.org/wiki/Device_tree" class="extiw" title="wikipedia:Device tree">device tree</a> specification used in the mainline linux kernel and newer versions of u-boot. If you want to change it, keep in mind to update its binary representation and files that incorporate it afterwards:
+</p>
+<pre># <small>clone <a class="external text" href="https://github.com/loboris/OrangePI-Kernel/tree/master/pctools/linux/mod_update">pctools/linux/mod_update</a> (<a class="external text" href="http://dl.linux-sunxi.org/SDK/A80/A80_SDK_20140728_stripped/lichee/tools/pack/pctools/linux/mod_update/">alternative</a>), <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools">sunxi-tools</a> for tools</small>
+imgrepacker kk.img
+cd kk.img.dump
+  f=sys_config.fex  b=${f/.fex/.bin}
+  ../mod_update/script $f  # fex2bin $f $b
+  ../mod_update/update_boot0 boot0_sdcard.fex $b SDMMC_CARD
+  ../mod_update/update_boot0 boot0_nand.fex $b NAND
+  ../mod_update/update_fes1 fes1.fex $b
+  ../mod_update/update_uboot u-boot.fex $b  # troublesome, see note below
+  mv $b config.fex
+cd ..
+imgrepacker kk.img.dump
+</pre>
+<p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> If you get memory corruption trying to run <i><code>update_uboot</code></i> you need to <a rel="nofollow" class="external text" href="http://linux-sunxi.org/index.php?title=SDK_build_howto&amp;oldid=16913#Fixing_update_uboot">build a patched update_uboot</a>.
+<br/>
+</p>
+<dl><dt>u-boot.fex <span id="u-boot.fex"></span>
+</dt></dl>
+<p>A problematic firmware, e.g. black screen, <i>may</i> be fixed by simply overwriting it with <i>u-boot.fex</i> from another, working firmware. There is no <i>Vu-boot.fex</i> checksum in the firmware file, so you can simply replace it. <i>u-boot.fex</i> contains a copy of <code>script.bin</code> at its end. Extracting it may aid in debugging.
+</p><p>To reverse extract the <i>script.bin</i> in u-boot.fex and convert it to a human readable <i>sys_config.fex</i> use
+</p>
+<pre>dd if=u-boot.fex bs=1c skip=$(od -A n --skip-bytes=24 --read-bytes=4 -i u-boot.fex | tr -d ' ') \
+| od -A n -x --endian=big -w65536 | xxd -r -p | ../sunxi-tools/bin2fex - u-boot_sys_config.fex
+</pre>
+<p>You can then verify if the <i>u-boot.fex</i> included version of <i>script.bin</i> actually matches <i>sys_config.fex</i> shipped with the firmware.
+</p>
+<pre>diff -u u-boot_sys_config.fex \
+  &lt;(../sunxi-tools/fex2bin sys_config.fex /dev/stdout | ../sunxi-tools/bin2fex - /dev/stdout)
+</pre>
+<p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> To update <i>u-boot.fex</i> always use <i><code>update_uboot</code></i>. There are some settings within the pure u-boot.bin that are updated in addition to appending the <i>script.bin</i> file.
+</p>
+<dl><dt>Vdiskfs.fex <span id="Vdiskfs.fex"></span>
+</dt></dl>
+<p>The presence of this file in a firmware sometimes prevents flashing it with <a href="/LiveSuit" title="LiveSuit">LiveSuit</a>. This can be fixed by
+</p>
+<pre># <small>clone <a class="external text" href="https://github.com/loboris/OrangePI-Kernel/tree/master/pctools/linux/mod_update">pctools/linux/mod_update</a> (<a class="external text" href="http://dl.linux-sunxi.org/SDK/A80/A80_SDK_20140728_stripped/lichee/tools/pack/pctools/linux/mod_update/">alternative</a>), <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools">sunxi-tools</a> for tools</small>
+imgrepacker kk.img
+cd kk.img.dump
+  rm Vdiskfs.fex
+  for f in image.cfg _img.files/Filelist.txt
+  do sed -i -e '/Vdiskfs.fex/d' $f
+  done
+  
+  f=sys_partition.fex  b=${f/.fex/.bin}
+  sed -i -e '/diskfs.fex/,$ s/;\(verify *= *0\)/\1/' $f
+  unix2dos $f 
+  ../mod_update/script $f  # fex2bin $f $b
+  ../mod_update/update_mbr $b 4
+  
+  # eventually overwrite u-boot.fex with known-to-work copy, see <a href="#u-boot.fex">#u-boot.fex</a>
+  #cp ../u-boot.fex u-boot.fex
+cd ..
+imgrepacker kk.img.dump
+
+mv kk.img     kk-mod_$(date +%Y%m%dT%H%M).img
+mv kk.img.bak kk.img
+rm -rf kk.img.dump
+</pre>
+<h3> <span class="mw-headline" id="Fixing_touchscreen_issues"> Fixing touchscreen issues<span id="touchscreen_issues"></span> </span></h3>
+<p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> To try out unofficial or foreign firmware, remove
+</p>
+<ul><li> <code>ft5x_ts.ko</code> and <code>s_wmt_ts_ft5x0x.ko</code>, etc. from <a href="#system.fex">#system.fex</a>
+</li><li> upgrade entries such as <code>wmt.io.ts.upg=..</code>, <code>ctp_upgrade_used=1</code>, <code>ctp_firm=1</code>, etc. from <a href="#sys_config.fex">#sys_config.fex</a>
+</li></ul>
+<p><i>before</i> flashing. Some of these modules <i>may</i> write improper data to the EEPROM of <u>FT5302 in TAB744</u> during bootup.
+</p><p>There are <a href="/A710#Touchscreen" title="A710">reports of misflashed FT5306</a>, another chip of the same FT5x0x family. Judging from various ft5x0x sources found so far, a routine to flash ft5x<u>02</u> exists just as well, but is not selected for execution in the driver code. This is easy for vendors to change, so inspect foreign firmware thoroughly. Hints:
+<small>
+</p>
+<ul><li> Try e.g. a hexeditor on the modules to gain a basic understanding of their capabilities, search for <i>upg</i>, <i>fw_upgrade</i>, etc.
+</li><li> Eeprom firmware may either reside directly within the kernel module or in a separate file.
+</li><li> Check <code>/etc/firmware</code>, <code>/lib/firmware</code>, <code>/vendor/firmware</code> or <code>/vendor/modules</code> to eventually find a binary.
+</li></ul>
+<ul><li> Re-add the modules to the image of the tablet rom firmware only after other aspects of it have been tested ok.
+</li><li> Experiment with the upgrade entries last, if at all. These <i>might</i> be an option to recover broken eeprom.
+</li></ul>
+<p></small>
+</p>
+<dl><dt>ft5x_ts.ko
+</dt></dl>
+<p><a class="external text" href="https://github.com/pcduino/modules/blob/master/touch/ft5x">pcduino/modules ft5x.c</a> (and <a class="external text" href="http://dl.linux-sunxi.org/SDK/A80/A80_SDK_20140728_stripped/lichee/linux-3.4/drivers/input/touchscreen/ft5x/">A80_SDK ft5x.c</a>) employs <i>sunxi style</i> ctp_* settings. Both have <a class="external text" href="https://github.com/pcduino/modules/blob/master/touch/ft5x/ft5x.c#L747">fw_upgrade support for ft5x02</a> and apparently <a class="external text" href="https://github.com/pcduino/modules/blob/master/touch/ft5x/ft5x.c#L570">do not make use of it</a>. This is not necessarily a bad thing, since foreign tablet firmware cannot employ these driver revisions to update eeprom either.
+</p>
+<ul><li> <a href="#See_also">M7100AVD rom (2014-06-17)</a> contains <i><code>ft5x_ts.ko</code></i> with a <i><code>ft5x02_ctpm_fw_upgrade</code></i> function entry, so it might be based on above or similar sources.
+</li><li> INM7102AVD stock rom (2014-09-17) contains two versions <i><code>ft5x_ts.ko</code></i> (482719 bytes) and <i><code>ft5xold_ts.ko</code></i> (368414 bytes) of which the older is used to drive ctp. To search the sources for the working module <a href="/Intenso_TAB744/ft5xold_ts_strings" title="Intenso TAB744/ft5xold ts strings">some strings of this binary</a> will help. For reference find a <a href="/Intenso_TAB744/ft5xold_ts_base64" title="Intenso TAB744/ft5xold ts base64">base64 encoded version of this module</a> which is known to work with FT5302 on TAB744.
+</li><li> <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.4/drivers/input/touchscreen/ft5x_ts.c">sunxi-3.4 ft5x_ts driver</a> does not seem to support ft5302 as of 2016-04-20.
+</li></ul>
+<dl><dt>s_wmt_ts_ft5x0x.ko
+</dt></dl>
+<p>According to <a class="external text" href="https://github.com/androportal/apc-rock-II-kernel/blob/master/drivers/input/touchscreen/ft5x0x/Makefile">this Makefile</a> and <a class="external text" href="https://github.com/androportal/apc-rock-II-kernel/blob/master/drivers/input/touchscreen/ft5x0x/ft5x0x.c#L728">this line in ft5x0x.c</a> this module is capable of flash-upgrading the eeprom.
+</p><p>Examples for firmware names to feed search engines with can be found <a rel="nofollow" class="external text" href="http://www.iviewus.com/download/firmware/706NB/FirmwareInstall/config/modules.xml">here</a>, excerpt:
+<small>
+</p>
+<pre>...
+FT5302_ERF102C
+  setenv wmt.io.touchft5x  1:FT5302_erf102c:9:480:800:4
+  setenv wmt.io.tskey  3:93:96:52:56:0:3:1:856:859
+  setprop ro.wmt.touchpannel 1
+  setprop ro.wmt.tpdrv s_wmt_ts_ft5406
+...
+CTP7_8227_FT5206
+  setenv wmt.io.ts.upg <b>IT_ZC_GBXM_7025_V11_20120608_app</b>
+  setenv wmt.io.touch 1:ft5206:480:800:1:1:0:4
+  setprop ro.wmt.tpdrv s_wmt_ts_ft5x0x
+  setprop ro.wmt.touchpannel 1
+</pre>
+<p></small>
+For TAB744 tablet however, we ideally need a FT5302_ERH212C or similar entry.
+</p><p><code>wmt</code> stands for Wondermedia Technologies. If a wmt firmware is introduced to the TAB744, or if you can <b><code>insmod s_wmt_ft5x0x.ko</code></b> on a non-wmt firmware, then <i>wmt style</i> settings should be configured also:
+</p>
+<dl><dt>setenv entries -&gt; <a href="#sys_config.fex">sys_config.fex</a> (wmt driver only)
+</dt></dl>
+<p>Most likely we do not need to set <code><a class="external text" href="https://github.com/androportal/apc-rock-II-kernel/blob/master/drivers/input/touchscreen/ft5x0x/ft5x0x.c#L736">wmt.io.tskey</a></code>. As we learn from the driver sources this is for panel touch keys which the TAB744 does not have.
+</p><p>However, <code><a class="external text" href="https://github.com/androportal/apc-rock-II-kernel/blob/master/drivers/input/touchscreen/ft5x0x/ft5x0x.c#L677">wmt.io.touch</a></code> is needed. Its value is a colon separated list (<i>sunxi style</i> ctp_* settings have one key for each of these instead):
+</p>
+<pre>&lt;enable/disable&gt;:&lt;controller name&gt;:&lt;irq gpio&gt;:&lt;panel resolution x&gt;:&lt;panel resolution y&gt;:&lt;reset gpio&gt;
+:&lt;swap coord (exchange_x_y)&gt;:&lt;xch (revert_x)&gt;:&lt;ych (revert_y)&gt;:&lt;nt (5 or 10 finger tpoints <a class="external autonumber" href="https://github.com/androportal/apc-rock-II-kernel/blob/master/drivers/input/touchscreen/ft5x0x/ft5x0x.c#L162">[3]</a>)&gt;:&lt;addr&gt;
+</pre>
+<p>Example entries for <i>sys_config.fex</i> (<u>untested</u>):
+</p>
+<pre>;GPIO PB05 =&gt; GPIO  29 ((2-1)*24 + 5)  (found in <a href="#See_also">M7100AVD firmwares</a> as ctp irq pin)
+;GPIO PH01 =&gt; GPIO 169 ((8-1)*24 + 1)  (   ..                       as ctp wakeup pin)
+    wmt.io.touch=1:ft5302:29:600:1024:169:0:0:0:5:0x38  (needs nt initialized, ft5302 is 5-finger)
+wmt.io.touchft5x=1:ft5302:29:600:1024:169:0:0:0:5:0x38  (in case driver variant parses touchft5x instead)
+</pre>
+<dl><dt>setprop entries -&gt; <a href="#system.fex">build.prop, default.prop</a> (wmt driver only)
+</dt></dl>
+<p>Add the following lines to <code>build.prop</code> and eventually <code>default.prop</code> in the ramdisk when fitting foreign firmware. If the entries for FT5302_ERF102C above are not an error, first line might also take <i>s_wmt_ts_ft5406</i>:
+</p>
+<pre>ro.wmt.tpdrv=s_wmt_ts_ft5x0x
+ro.wmt.touchpannel=1
+</pre>
+<dl><dt>touchpanel calibration -&gt; <a href="#system.fex">tp.idc, ft5x0x_ts.idc</a>
+</dt></dl>
+<p>Calibration issues in android are fixable by adjusting files <code>/usr/idc/tp.idc</code> or <code>/usr/idc/ft5x0x_ts.idc</code> (<a class="external text" href="https://github.com/fredvj/device_odys_space/blob/master/prebuilt/ft5x0x_ts.idc">example1</a>, <a class="external text" href="https://github.com/Kahlo007/cm_device_lenovo_kai/blob/master/ft5x0x_ts.idc">example2</a>).
+</p>
+<dl><dt>touchpanel service manuals
+</dt></dl>
+<p>Although written in chinese language, <a rel="nofollow" class="external text" href="http://www.haoyuelectronics.com/service/A10-A20/A20-Docs/A20%c6%bd%cc%a8CTP%c4%a3%bf%e9%bf%aa%b7%a2%cb%b5%c3%f7%ce%c4%b5%b5V2.0_20130628.pdf">A20 CTP v2.0 service manual</a> (<small><a rel="nofollow" class="external text" href="https://web.archive.org/web/http://www.haoyuelectronics.com/service/A10-A20/A20-Docs/">dir link</a></small>) may aid in debugging ctp related problems. In particular see pages 28, 29 and forth, they speak about <code>rmmod/insmod ft5x_ts.ko</code> and putting it in debug mode as well as using <code>getevent</code> to see lowlevel touch events from the ctp controller. There are also references to the driver source code and setting up sys_config.fex.
+</p>
+<h2> <span class="mw-headline" id="Dump_firmware_from_NAND"> Dump firmware from NAND </span></h2>
+<p>Using <a href="/FEL" title="FEL">FEL</a> or <a href="/FES" title="FES">FES</a> modes, you can dump the NAND to PC for backup and reference purposes. There is a convenience tool called <a class="external text" href="https://github.com/lolet/FELix">FELix</a>. Its written in Ruby, supports a listing of available partitions in nand by name and many more.
+</p><p>First make sure, LiveSuit is not running. Open up a shell, attach the tablet in <a href="#FEL_.28flash.2Fupgrade_mode.29">FEL mode</a>, double check the device id 01f3a:efe8 with <code>lsusb</code>.
+</p><p>If <code>fes1.fex</code> is not found in the top level directory inside firmware images, the extractor employed by FELix will fail. For this reason <a href="/FES#Boot_2.0" title="FES">FES#Boot_2.0</a> method is used here instead with which you extract <i>fes1.fex</i> and <i>u-boot.fex</i> manually from <a href="#See_also">available A33 firmwares</a>.
+</p>
+<pre>./sunxi-fel write 0x2000 fes1.fex  # DDR-RAM in FEL mode was inaccessible without this,
+./sunxi-fel exe   0x2000           # need fes1.fex to explicitly <a href="/FEL/USBBoot#SoC_support_status" title="FEL/USBBoot">enable MMU on A33</a>
+  # following dumps need trimming at end if they are to be used as u-boot.fex and config.fex
+  ./sunxi-fel read 0x43000000 0x10000 tab_script.bin      # read script.bin copied from device NAND to RAM on boot
+  #./sunxi-fel read 0x49000000 0xb8000 tab_u-boot.bin      # reading u-boot.bin is possible from two addresses in RAM, but
+  #./sunxi-fel read 0x4a000000 0xb8000 tab_u-boot.bin      # may differ at read time from that stored in device flash (?)
+  #./sunxi-fel read 0x40000000 0x40000000 tab_ramdump.bin  # read full 1GB if above do not work (takes long @~500kb/s)
+./sunxi-fel write 0x4a000000 u-boot.fex
+./sunxi-fel fill  0x4a0000e0 1 0x10
+./sunxi-fel exe   0x4a000000       # should be in FES mode now
+</pre>
+<p>Now find the device id using <code>lsusb</code> and <u>unbind</u> the driver from the usb port.
+<br/><code>3-1:1.0</code> is an example and may vary. FELix uses libusb and drives the port itself.
+</p>
+<pre>echo 3-1:1.0 &gt; /sys/bus/usb/drivers/allwinner/unbind
+</pre>
+<pre># we've already entered FES using sunxi-fel above
+#ruby felix --tofes a33-firmware.img
+
+# enable read and write access to the nand flash
+ruby felix --nand on
+
+# get a partition list
+ruby felix --mbr-dump
+
+# get first 16MB of nand and extract sunxi_mbr.fex
+ruby felix -c fes --read tab_mbr.bin -a 0x0 -l $((0x8000*0x200))
+dd if=tab_mbr.bin of=tab_sunxi_mbr.fex count=$((0x80))
+
+# extract partitions <small><a href="/Installing_to_NAND#Backup_NAND" title="Installing to NAND">(more info on bootloader backup)</a></small>
+for part in bootloader env boot system data misc recovery cache metadata private
+do ruby felix -c fes --read tab_$part.bin -t none -i $part&#160;; sleep 2
+done
+
+# optionally extract user disk (last partition; should fill rest of nand flash mem)
+# the mbr-dump above shows the address needed, length is 8G in this case minus address * sector size
+ruby felix -c fes --read tab_UDISK.bin --address 0x4d0000 --length $((0x200000000 - 0x4d0000*0x200))
+</pre>
+<p>The extracted binaries can now be further processed using the tools introduced and outlined in <a href="#Modify_firmware">#Modify firmware</a> above to build a semi-official stock rom, flashable by LiveSuit and a number of other tools.
+</p><p>To not share any personal data, consider doing a factory reset of the tab beforehand or using an unused one. Since data partition(s) will not be part of the resulting firmware and /system is typically not writeable to by tab users, this might not be strictly necessary.
+</p><p>The steps above have been tested more than once and should work reliably. Info about how to easily extract u-boot.fex from a stock device is still a TODO:
+</p>
+<dl><dd><ul><li>INM7102AVD uses a different u-boot.bin than M7100AVD by size, but not by version string. Using the one from the later and <a href="#sys_config.fex">updating it</a> with the correct <a href="/Intenso_TAB744/sys_config.fex" title="Intenso TAB744/sys config.fex">/sys_config.fex</a> is known to work.
+</li><li>Using the RAM extracted u-boot.fex(s) advocated above is troublesome. LiveSuit will not get a reply from the device after pushing these to enter FES mode. However, this is not crucial, as same-versioned u-boot.fex from M7100AVD firmware works as a drop-in replacement.
+</li></ul>
+</dd></dl>
+<h1> <span class="mw-headline" id="Device_disassembly_.28voids_warranty.29"> Device disassembly (voids warranty)</span></h1>
+<p>The back cover uses snap-ins, but sits very tight on the front frame. Where the volume and power buttons sit, the plastic is so thin that it's very likely to break, when trying to remove the back cover. To start opening, be sure to pick a spot about one <i>mm</i> below the display at a place where no buttons or connection holes are situated. Remember that you will loose warranty doing this with most vendors.
+</p>
+<ul><li> the lcd connector opens by rotating in a hinge knee, <i>pull the black part up</i> (long side)
+</li><li> the touchscreen cable connector aside the FT5302 has a slider, you <i>push the black part horizontally</i>, ideally by getting a nail or some tool between the white and black part on both short sides, using levers synchronously
+</li></ul>
+<h2> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h2>
+<p>Howto needed: Does the <a href="/NeuTab_N7Pro#Adding_a_serial_port_.28voids_warranty.29" title="NeuTab N7Pro">N7 Pro serial port guide</a> to add a serial port work for this device too!?
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:M7100AVD_V1.1_20140607_TAB744_focaltech_FT5302_ctp_touchpanel.jpg" class="image"><img alt="" src="/images/thumb/a/a1/M7100AVD_V1.1_20140607_TAB744_focaltech_FT5302_ctp_touchpanel.jpg/90px-M7100AVD_V1.1_20140607_TAB744_focaltech_FT5302_ctp_touchpanel.jpg" width="90" height="120"/></a></div></div>
+<div class="gallerytext">
+<p>Focaltech FT5302 (FT5302FE4 ERH212C) ctp controller
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:M7100AVD_V1.1_20140607_TAB744_greatpower_3000mAh_3.7V_battery.jpg" class="image"><img alt="" src="/images/thumb/7/75/M7100AVD_V1.1_20140607_TAB744_greatpower_3000mAh_3.7V_battery.jpg/120px-M7100AVD_V1.1_20140607_TAB744_greatpower_3000mAh_3.7V_battery.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+<p>Greatpower 3000mAh 3.7V Li-Po battery
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a href="/File:M7100AVD_V1.1_20140607_TAB744_KR070LF7T_7inch_ips_lcd_connector.jpg" class="image"><img alt="" src="/images/thumb/5/53/M7100AVD_V1.1_20140607_TAB744_KR070LF7T_7inch_ips_lcd_connector.jpg/120px-M7100AVD_V1.1_20140607_TAB744_KR070LF7T_7inch_ips_lcd_connector.jpg" width="120" height="120"/></a></div></div>
+<div class="gallerytext">
+<p>KR070LF7T 7inch IPS LCD connector
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:39.5px auto;"><a href="/File:M7100AVD_V1.1_20140607_TAB744_realtek_RTL8188ETV.jpg" class="image"><img alt="" src="/images/thumb/1/14/M7100AVD_V1.1_20140607_TAB744_realtek_RTL8188ETV.jpg/120px-M7100AVD_V1.1_20140607_TAB744_realtek_RTL8188ETV.jpg" width="120" height="71"/></a></div></div>
+<div class="gallerytext">
+<p>Realtek RTL8188ETV wifi chip
+</p>
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<dl><dt>Unofficial</dt><dd>
+</dd></dl>
+<p>Since there are no firmware files publicly available to this date from Intenso, firmware images from different vendors need to be tried to repair a broken tab. When applied to a TAB744, most of these just show black screens, have wrong display resolutions, non-working sound and/or no <a href="/Touchscreen" title="Touchscreen">touchscreen</a> support. Some can be modified to work, your mileage may vary.
+</p>
+<hr/>
+<p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> If your TAB744 is working fine, <b>do not</b> flash the below, but rather try to <a href="#Dump_firmware_from_NAND">extract the stock rom</a> and make it available to users with broken tabs.
+</p><p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> The touchscreen controller is an <u>FT5302</u>, see <a href="#Pictures">#Pictures</a>. If foreign or custom tablet firmware erases or writes wrong data to its eeprom, touchscreen functionality <i>may</i> be semi-permanently lost, <u>even if</u> you were to flash and restore the stock rom tablet image, see <a href="#touchscreen_issues">#touchscreen issues</a>.
+</p>
+<hr/>
+<ul><li> The following options seem to be the last resort to unbrick a TAB744 until oem stock firmware file(s) are found or released on the net. Unless stated otherwise all firmwares contain Android 4.4.2 <i>Kitkat</i>.
+</li></ul>
+<dl><dd><ul><li> Though dating 2014, the <a rel="nofollow" class="external text" href="http://www.panduoduo.net/r/2822319">M7100AVD sun8iw5p1 m7100nobt</a> image should be tried first. It has a working recovery and the firmware name matches the label on the pcb board of the TAB744. Sound+Wifi+Display is working ok.
+</li></ul>
+</dd></dl>
+<dl><dd><ul><li> Another good working image is <a rel="nofollow" class="external text" href="http://www.mediafire.com/download/301ql9ucuuwgmr5/A33_U102_U1021C.201401013.rar">from an Unicus U1021C</a> (says <i>U1201C</i> in its sys_config.fex). It has brilliant screen support (as above), WiFi works and ADB is enabled by default. The sound is working, but there is no startup sound in the boot animation.
+</li></ul>
+</dd></dl>
+<dl><dd><ul><li> To flash the image <a rel="nofollow" class="external text" href="http://chinagadgetsreviews.blogspot.de/2015/04/download-android-kitkat-442-stock_62.html">from a Softwinner/Yonestoptech BA1078</a>, modify and <a href="#Vdiskfs.fex">remove Vdiskfs.fex</a> first. The screen support is as good as in U1021C, sound works, but WiFi does not (although 8188eu.ko is part of the image). The <i>Lollipop</i> images for BA1078 (<a rel="nofollow" class="external autonumber" href="http://chinagadgetsreviews.blogspot.de/2015/05/download-android-lollipop-50-stock_29.html">[4]</a>, <a rel="nofollow" class="external autonumber" href="http://chinagadgetsreviews.blogspot.de/2015/11/download-android-lollipop-511-stock_24.html">[5]</a>) work unmodified, although a verification error appears near the end of the flashing process. Same hardware issues as for <i>Kitkat</i> images apply.
+</li></ul>
+</dd></dl>
+<dl><dd><ul><li> Images <a rel="nofollow" class="external text" href="http://www.tabletexpress.com/support/index/download/900">originally for Y88X</a> may be used too. They need to have <a href="#Vdiskfs.fex">Vdiskfs.fex removed</a> in most cases and <a href="#u-boot.fex">u-boot.fex</a> needs to be fixed or overwritten, e.g. by the one from BA1078 image. <code>Y88X-XZ-XW-V5-AL-20150323</code> is a good start, since it advertises rtl8188eu support in the image's filename.
+</li></ul>
+</dd></dl>
+<ul><li> If <a href="/Touchscreen" title="Touchscreen">Touchscreen</a> input is broken, access the device using external mouse/keyboard on the usb port or work with <code>adb shell</code>. Correct an eventually wrong sensor orientation by setting/changing <code>ro.sf.rotation=0</code> and <code>ro.sf.hwrotation=0</code> in <code>system/build.prop</code>, see <a href="#Modify_firmware">#Modify firmware</a> or <a href="#ADB">#ADB</a>.
+</li></ul>
+<p>If you have links to original stock rom from Intenso please edit and add to this wiki page.
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<dl><dt>Android Firmware matching PCB imprint
+</dt></dl>
+<ul><li> <strike><a rel="nofollow" class="external text" href="http://www.panduoduo.net/r/15045556">M7100AVD-8188-sp2518-sp0838-v1.0-20140626.rar</a></strike> <small>link broken</small>
+</li><li> <a rel="nofollow" class="external text" href="http://www.panduoduo.net/r/2822319">M7100AVD_单WIFI_A33_SDK V1.0rc7_sun8iw5p1_android_m7100nobt---20140617.rar</a>
+</li><li> <a rel="nofollow" class="external text" href="http://pan.baidu.com/s/1qWnYXju">sun8iw5p1_android_astar-m7100nobt-charge-20140609.rar</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.panduoduo.net/r/2822329">M7100AVD_A33_单WIFI_sun8iw5p1_android_astar-m7100nobt--20140603.rar</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.panduoduo.net/r/2822336">M7100AVD（单WIFI)_A33_8188etv_sun8iw5p1_android_astar-y1nobt---20140521.rar</a>
+</li></ul>
+<dl><dt>Android Firmware sources
+</dt></dl>
+<ul><li> <a rel="nofollow" class="external text" href="http://pan.baidu.com/share/home?uk=1679008622#category/type=0">Download and service support for Yones Toptech</a>
+</li></ul>
+<ul><li> <a rel="nofollow" class="external text" href="http://chinagadgetsreviews.blogspot.de/search?q=A33+firmware">chinagadgetsreviews.blogspot.de/search?q=A33+firmware</a>
+</li><li> <a rel="nofollow" class="external text" href="http://mytabletguru.com/allwinner-a33-firmware-and-tool/">mytabletguru.com/allwinner-a33-firmware-and-tool - 2015/05/12</a>
+</li><li> <a rel="nofollow" class="external text" href="https://electroniaychinas.wordpress.com/2015/03/06/a33-tablet-fimrware/">electroniaychinas.wordpress.com/2015/03/06/a33-tablet-fimrware</a>
+</li><li> <a rel="nofollow" class="external text" href="https://electroniaychinas.wordpress.com/2014/10/07/firmware-tablet-dragon-touch-akaso/">electroniaychinas.wordpress.com/2014/10/07/firmware-tablet-dragon-touch-akaso</a>
+</li></ul>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.tabletexpress.com/support/index/download/900">Y88X firmwares</a> <small>None of Y88X images have display working when applied without modification to TAB744, but see <a href="#u-boot.fex">#u-boot.fex</a>.</small>
+</li><li> <a rel="nofollow" class="external text" href="http://www.wintouch.ae/download">Q75S firmwares</a> <small>do not work without modification</small>
+</li></ul>
+<dl><dt>Android Device Info sources
+</dt></dl>
+<ul><li> <a rel="nofollow" class="external text" href="http://yifangdigital.com/product/MID.aspx">Yifang Digital Technology Co., Ltd Tablet Info</a> <small>M7100AVD is not listed, but see <a rel="nofollow" class="external text" href="http://www.bossgoo.com/product-detail/7-inch-quad-core-tablet-pc-9419933.html">M7100AVD-7"</a></small>
+</li><li> <a rel="nofollow" class="external text" href="http://www.iunicus.net/products.asp">Unicus Co., Ltd Tablet Info</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h2>
+<p><span style="color:#ba0000">Optional. Add non-sunxi images in this section.</span>
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Intenso_TAB744&amp;oldid=17074">http://linux-sunxi.org/index.php?title=Intenso_TAB744&amp;oldid=17074</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:NDH_TODO" title="Category:NDH TODO">NDH TODO</a></li><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A33_Tablets" title="Category:A33 Tablets">A33 Tablets</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Intenso+TAB744&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Intenso+TAB744" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Intenso_TAB744" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Intenso_TAB744&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Intenso_TAB744">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Intenso_TAB744&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Intenso_TAB744&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Intenso_TAB744" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Intenso_TAB744" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Intenso_TAB744&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Intenso_TAB744&amp;oldid=17074" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 30 April 2016, at 08:34.</li>
+<li id="footer-info-viewcount">This page has been accessed 1,725 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

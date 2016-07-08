@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Audio Codec - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Audio_Codec","wgTitle":"Audio Codec","wgCurRevisionId":16372,"wgArticleId":415,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Audio_Codec","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Audio_Codec"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Audio_Codec skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Audio Codec</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Sound_.2F_Audio"><span class="tocnumber">1</span> <span class="toctext">Sound / Audio</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Configuring_the_analog_output_as_default"><span class="tocnumber">1.1</span> <span class="toctext">Configuring the analog output as default</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Testing_the_sound"><span class="tocnumber">1.2</span> <span class="toctext">Testing the sound</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Troubleshooting"><span class="tocnumber">1.3</span> <span class="toctext">Troubleshooting</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Technical_details"><span class="tocnumber">2</span> <span class="toctext">Technical details</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Sound_.2F_Audio"> Sound / Audio </span></h2>
+<p>The A10 supports two audio outputs and two audio inputs:
+</p>
+<ol><li> HDMI digital audio output (through HDMI port)
+</li><li> Analog stereo (jack) audio output
+</li><li> Analog Line-In (stereo) audio input
+</li><li> Microphone audio input
+</li></ol>
+<h3> <span class="mw-headline" id="Configuring_the_analog_output_as_default"> Configuring the analog output as default </span></h3>
+<p>By default, if you install a Linux image, the HDMI (digital) audio output is the first audio output device. Thus, if you try to play a sound file without specifying the output device, the sound will be send to the HDMI output.
+</p>
+<ul><li>But in last Cubian,by default, the Analog stereo (jack) audio output is the first audio output device.
+</li></ul>
+<p>In order to configure the ALSA sound subsystem to use the analog (jack) audio output, add the following file /etc/asound.conf
+</p>
+<pre>pcm.!default {
+  type hw
+  card 1
+  device 0
+}
+ctl.!default {
+  type hw
+  card 1
+}
+</pre>
+<h3> <span class="mw-headline" id="Testing_the_sound"> Testing the sound </span></h3>
+<p>You can test the sound output by running the command
+</p>
+<pre>speaker-test -twav -c2
+</pre>
+<p>You will hear a voice saying in turns <i>Left</i> and <i>Right</i>, and the sound for each word will come from each
+The default device will be selected. You can use the -D parameter to select the other sound output device.
+With <b>aplay -l</b> you can view the available audio output devices.
+</p>
+<h3> <span class="mw-headline" id="Troubleshooting"> Troubleshooting </span></h3>
+<p>Mainline kernel (4.5-rc3)/A20: if audio doesn't play remember to ENABLE both in alsamixer: "Power Amplifier DAC" and "Power Amplifier Mute".
+</p>
+<h2> <span class="mw-headline" id="Technical_details"> Technical details </span></h2>
+<p><b>Playback:</b> (internal 24 bits Digital to Analog Converter)
+</p>
+<ul><li> HPL Headphone Left channel output AO
+</li><li> HPR Headphone Right channel output AO
+</li><li> HPCOM Headphone amplifier output A
+</li><li> HPCOM_FB Headphone amplifier Feedback A
+</li></ul>
+<p><br/>
+<b>Recorder:</b> (internal 24 bits Analog to Digital Converter)
+</p>
+<ul><li> FMINL Audio ADC(24bit) Input for Left channel of FM radio AI
+</li><li> FMINR Audio ADC(24bit) Input for Right channel of FM radio AI
+</li><li> LINEINL Audio ADC(24bit) Input for Left channel of Line In AI
+</li><li> LINEINR Audio ADC(24bit) Input for Right channel of Line In AI
+</li><li> MICINL Audio ADC(24bit) Input for Left channel of Microphone AI
+</li><li> MICINR Audio ADC(24bit) Input for Right channel of Microphone AI
+</li></ul>
+<p>micin has an internal pre-amplifier.
+</p><p>Only one 2-channel input port can be used at the same time.
+</p><p>To select the intput port you have to set the mixer control called <b>ADC Input Mux</b>
+</p>
+<table class="wikitable">
+<tr>
+<td> <b>ADC Input Mux Value:</b> </td>
+<td> 0 </td>
+<td> 1 </td>
+<td> 2 </td>
+<td> 3 </td>
+<td> 4 </td>
+<td> 5 </td>
+<td> 6 </td>
+<td> 7
+</td></tr>
+<tr>
+<td> <b>Input Port</b> </td>
+<td> linein </td>
+<td> fmin </td>
+<td> mic1 </td>
+<td> mic2 </td>
+<td> mic1,mic2 </td>
+<td> mic1+mic2 </td>
+<td> output mixer </td>
+<td> linein,mic1
+</td></tr></table>
+<p>To change the ADC muxer you have to use the amixer tool from the "alsa-utils" package:
+</p><p><b>amixer -c &lt;"card"&gt; cset numid=&lt;"control#"&gt; &lt;"input_port"&gt;</b>
+</p><p><br/>
+where:
+</p><p>&lt;"card"&gt; is the card, 0 for the sunxi-codec and 1 for the hdmi audio output
+</p><p>&lt;"input_port"&gt; is the input port from the table
+</p><p>&lt;"control#"&gt; is the control # showed using: aximer contents
+</p><p><br/>
+To install the alsa-utils from debian based distros: "apt-get install alsa-utils". Inside the package you have the aplay and arecord tools to test it.
+</p><p><br/>
+</p><p>Command example to use the linein port:
+</p><p><b>amixer -c 0 cset numid=16 0</b>
+</p><p><br/>
+Use <b>"amixer contents"</b> to get the contents and controls of your Alsa driver:
+</p><p>numid=1,iface=MIXER,name='Master Playback Volume'
+</p>
+<pre>&#160;; type=INTEGER,access=rw------,values=1,min=0,max=63,step=0
+&#160;: values=51
+</pre>
+<p>numid=10,iface=MIXER,name='LineL Switch'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=on
+</pre>
+<p>numid=11,iface=MIXER,name='LineR Switch'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=on
+</pre>
+<p>numid=5,iface=MIXER,name='Line Volume'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=on
+</pre>
+<p>numid=15,iface=MIXER,name='Mic Input Mux'
+</p>
+<pre>&#160;; type=INTEGER,access=rw------,values=1,min=0,max=15,step=0
+&#160;: values=0
+</pre>
+<p>numid=6,iface=MIXER,name='MicL Volume'
+</p>
+<pre>&#160;; type=INTEGER,access=rw------,values=1,min=0,max=3,step=0
+&#160;: values=1
+</pre>
+<p>numid=7,iface=MIXER,name='MicR Volume'
+</p>
+<pre>&#160;; type=INTEGER,access=rw------,values=1,min=0,max=3,step=0
+&#160;: values=2
+</pre>
+<p>numid=16,iface=MIXER,name='ADC Input Mux'
+</p>
+<pre>&#160;; type=INTEGER,access=rw------,values=1,min=0,max=7,step=0
+&#160;: values=0
+</pre>
+<p>numid=3,iface=MIXER,name='Capture Volume'
+</p>
+<pre>&#160;; type=INTEGER,access=rw------,values=1,min=0,max=7,step=0
+&#160;: values=7
+</pre>
+<p>numid=2,iface=MIXER,name='Playback Switch'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=off
+</pre>
+<p>numid=4,iface=MIXER,name='Fm Volume'
+</p>
+<pre>&#160;; type=INTEGER,access=rw------,values=1,min=0,max=7,step=0
+&#160;: values=3
+</pre>
+<p>numid=8,iface=MIXER,name='FmL Switch'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=off
+</pre>
+<p>numid=9,iface=MIXER,name='FmR Switch'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=off
+</pre>
+<p>numid=12,iface=MIXER,name='Ldac Left Mixer'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=off
+</pre>
+<p>numid=14,iface=MIXER,name='Ldac Right Mixer'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=off
+</pre>
+<p>numid=13,iface=MIXER,name='Rdac Right Mixer'
+</p>
+<pre>&#160;; type=BOOLEAN,access=rw------,values=1
+&#160;: values=off
+</pre>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Audio_Codec&amp;oldid=16372">http://linux-sunxi.org/index.php?title=Audio_Codec&amp;oldid=16372</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Audio+Codec&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Audio+Codec" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Audio_Codec" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Audio_Codec&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Audio_Codec">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Audio_Codec&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Audio_Codec&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Audio_Codec" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Audio_Codec" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Audio_Codec&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Audio_Codec&amp;oldid=16372" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 15 February 2016, at 10:36.</li>
+<li id="footer-info-viewcount">This page has been accessed 28,446 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

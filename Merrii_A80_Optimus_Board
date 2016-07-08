@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Merrii A80 Optimus Board - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Merrii_A80_Optimus_Board","wgTitle":"Merrii A80 Optimus Board","wgCurRevisionId":12796,"wgArticleId":1668,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Devices","A80 Boards","Devices with Ethernet port","Devices with HDMI port","Mainline Kernel"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Merrii_A80_Optimus_Board","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Merrii_A80_Optimus_Board"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Merrii_A80_Optimus_Board skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Merrii A80 Optimus Board</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Merrii A80 Optimus Board</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:A80_Optimus_front.jpg" class="image"><img alt="A80 Optimus front.jpg" src="/images/thumb/6/6e/A80_Optimus_front.jpg/250px-A80_Optimus_front.jpg" width="250" height="188"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.merrii.com/">Merrii</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+135<i>mm</i> x 70<i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+August 2014</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.merrii.com/en/pla_d.asp?id=173">Device Product Page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A80" title="A80">A80</a> @ 1008Mhz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+2GiB DDR3 @ 672MHz (SK hynix H5TQ4G63AFR-PBC 4Gb * 4)</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+8GB eMMC (Samsung KLMAG2WEMB-B031)</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 3A, optional Li-Ion battery</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (Type A - full)</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm headphone plug</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+WiFi 802.11 b/g/n (<a href="/Wifi#Ampak" title="Wifi">Ampak AP6330</a>), 10/100/1000Mbps Ethernet (<a href="/Ethernet#Realtek_RTL8211E" title="Ethernet">Realtek RTL8211E</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+eMMC, µSD</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+2 USB2.0 Host, 1 USB3.0 OTG</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+IRDA, Bluetooth (Ampak AP6330)</td></tr>
+</table>
+<p>The A80 Optimus Board is a official development board for the Allwinner <a href="/A80" title="A80">A80</a> SoC, targeting both developers and consumers.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Sunxi_Kernel"><span class="tocnumber">2.1.1</span> <span class="toctext">Sunxi Kernel</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Sunxi_U-Boot"><span class="tocnumber">2.1.2</span> <span class="toctext">Sunxi U-Boot</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Mainline_kernel"><span class="tocnumber">2.1.3</span> <span class="toctext">Mainline kernel</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Mainline_u-boot"><span class="tocnumber">2.1.4</span> <span class="toctext">Mainline u-boot</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#HW-Pack"><span class="tocnumber">2.3</span> <span class="toctext">HW-Pack</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#BSP"><span class="tocnumber">2.4</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Manual_build"><span class="tocnumber">2.5</span> <span class="toctext">Manual build</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Mainline_kernel_2"><span class="tocnumber">2.6</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Expansion_Ports"><span class="tocnumber">4</span> <span class="toctext">Expansion Ports</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#GPIO_Connector"><span class="tocnumber">4.1</span> <span class="toctext">GPIO Connector</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Camera.2FMIPI_connector"><span class="tocnumber">4.2</span> <span class="toctext">Camera/MIPI connector</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#JTAG"><span class="tocnumber">5</span> <span class="toctext">JTAG</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Serial_console_port"><span class="tocnumber">6</span> <span class="toctext">Serial console port</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Pictures"><span class="tocnumber">7</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Manufacturer_images"><span class="tocnumber">8.1</span> <span class="toctext">Manufacturer images</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>The board has a clearly recognizable Allwinner logo, the name "Allwinner Tech", and "OPTIMUS BOARD", all uppercase, in the lower right hand corner.
+</p>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<h3> <span class="mw-headline" id="Sunxi_Kernel"> Sunxi Kernel </span></h3>
+<p>Like all <a href="/A80" title="A80">A80</a> based devices, there is no support in our sunxi kernel.
+</p>
+<h3> <span class="mw-headline" id="Sunxi_U-Boot"> Sunxi U-Boot </span></h3>
+<p>Like all <a href="/A80" title="A80">A80</a> based devices, there is no support in u-boot-sunxi.
+</p>
+<h3> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h3>
+<p>Mainline kernel support is queued up for 3.19.
+Currently only UARTs are supported.
+</p><p>Use the sun9i-a80-optimus.dtb device-tree file for the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p>
+<h3> <span class="mw-headline" id="Mainline_u-boot"> Mainline u-boot </span></h3>
+<p>Like all <a href="/A80" title="A80">A80</a> based devices, there is no support in mainline u-boot.
+</p>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<h2> <span class="mw-headline" id="HW-Pack"> HW-Pack </span></h2>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<p>Follow <a href="/SDK_build_howto" title="SDK build howto">SDK build howto</a> to build u-boot and the kernel from the SDK.
+</p>
+<h2> <span class="mw-headline" id="Mainline_kernel_2"> Mainline kernel </span></h2>
+<p>Initial support for the A80 based on the A80 Optimus board is being worked on.
+</p><p>Use the sun9i-a80-optimus.dtb device-tree file for the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>There is no FEL mode button on this board.
+</p><p>Instead you can enter fel mode from <a href="/U-Boot" title="U-Boot">U-Boot</a>. While U-Boot is starting, type CTRL+C to interrupt it. At the prompt type <i>efex</i> to enter fel mode.
+</p><p>If booting fails entirely then FEL mode can be entered by shorting pin 29-30 on the nand/emmc with a suitable metal object (tweezer or the like), by vendor official procedure.
+</p>
+<h1> <span class="mw-headline" id="Expansion_Ports"> Expansion Ports </span></h1>
+<p>The A80 Optimus board exposes a 2&#160;mm pitch connector for GPIO, and a Camera/MIPI connector [connector details needed].
+</p>
+<h2> <span class="mw-headline" id="GPIO_Connector"> GPIO Connector </span></h2>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="4"> 2x16 GPIO Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> GPIO-ADC0
+</td>
+<td> 2 </td>
+<td> GPIO-PL0-CPUS-TX
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> GPIO-ADC1
+</td>
+<td> 4 </td>
+<td> GPIO-PL1-CPUS-RX
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> <i>GND</i>
+</td>
+<td> 6 </td>
+<td> <i>GPIO-3V</i>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> GPIO-HSIC-STRB
+</td>
+<td> 8 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> <i>GND</i>
+</td>
+<td> 10 </td>
+<td> GPIO-PH6-PWM0
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> GPIO-HSIC-DATA
+</td>
+<td> 12 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 13 </td>
+<td> <i>GND</i>
+</td>
+<td> 14 </td>
+<td> GPIO-PH14-SPI3-CLK
+</td></tr>
+<tr>
+<td> 15 </td>
+<td> GPIO-PL7-1WIRE
+</td>
+<td> 16 </td>
+<td> GPIO-PH15-SPI3-MOSI
+</td></tr>
+<tr>
+<td> 17 </td>
+<td> GPIO-PM0
+</td>
+<td> 18 </td>
+<td> GPIO-PH16-SPI3-MISO
+</td></tr>
+<tr>
+<td> 19 </td>
+<td> GPIO-PM1
+</td>
+<td> 20 </td>
+<td> GPIO-PH17-SPI3-CS0
+</td></tr>
+<tr>
+<td> 21 </td>
+<td> GPIO-PM2
+</td>
+<td> 22 </td>
+<td> GPIO-PG10-TWI3-SCK
+</td></tr>
+<tr>
+<td> 23 </td>
+<td> GPIO-PM3
+</td>
+<td> 24 </td>
+<td> GPIO-PG11-TWI3-SDA
+</td></tr>
+<tr>
+<td> 25 </td>
+<td> GPIO-PM4
+</td>
+<td> 26 </td>
+<td> GPIO-PG12-UART4-TX
+</td></tr>
+<tr>
+<td> 27 </td>
+<td> GPIO-PM8
+</td>
+<td> 28 </td>
+<td> GPIO-PG13-UART4-RX
+</td></tr>
+<tr>
+<td> 29 </td>
+<td> GPIO-PM9
+</td>
+<td> 30 </td>
+<td> GPIO-PG14-UART4-RTS
+</td></tr>
+<tr>
+<td> 31 </td>
+<td> GPIO-PH2
+</td>
+<td> 32 </td>
+<td> GPIO-PG15-UART4-CTS
+</td></tr></table>
+<h2> <span class="mw-headline" id="Camera.2FMIPI_connector"> Camera/MIPI connector </span></h2>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="4"> 2x17 MIPI Camera Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> GND
+</td>
+<td> 2 </td>
+<td> AFVCC-CAM
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> MIPI-CSI2-CLKP
+</td>
+<td> 4 </td>
+<td> AFVCC-CAM
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> MIPI-CSI2-CLKN
+</td>
+<td> 6 </td>
+<td> DVDD-CAM
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> GND
+</td>
+<td> 8 </td>
+<td> VCC-IO-CAM
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> MIPI-CSI2-D2P
+</td>
+<td> 10 </td>
+<td> NC
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> MIPI-CSI2-D2N
+</td>
+<td> 12 </td>
+<td> MIPI-CSI2-MCLK
+</td></tr>
+<tr>
+<td> 13 </td>
+<td> GND
+</td>
+<td> 14 </td>
+<td> NC
+</td></tr>
+<tr>
+<td> 15 </td>
+<td> MIPI-CSI2-D0P
+</td>
+<td> 16 </td>
+<td> NC
+</td></tr>
+<tr>
+<td> 17 </td>
+<td> MIPI-CSI2-D0N
+</td>
+<td> 18 </td>
+<td> MIPI-CSI-SCK
+</td></tr>
+<tr>
+<td> 19 </td>
+<td> GND
+</td>
+<td> 20 </td>
+<td> MIPI-CSI-SDA
+</td></tr>
+<tr>
+<td> 21 </td>
+<td> MIPI-CSI2-D3P
+</td>
+<td> 22 </td>
+<td> MIPI-CSI-RESET
+</td></tr>
+<tr>
+<td> 23 </td>
+<td> MIPI-CSI2-D3N
+</td>
+<td> 24 </td>
+<td> MIPI-CSI-PWDN
+</td></tr>
+<tr>
+<td> 25 </td>
+<td> GND
+</td>
+<td> 26 </td>
+<td> NC
+</td></tr>
+<tr>
+<td> 27 </td>
+<td> MIPI-CSI2-D1P
+</td>
+<td> 28 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 29 </td>
+<td> MIPI-CSI2-D1N
+</td>
+<td> 30 </td>
+<td> NC
+</td></tr>
+<tr>
+<td> 31 </td>
+<td> GND
+</td>
+<td> 32 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 33 </td>
+<td> GND
+</td>
+<td> 34 </td>
+<td> GND
+</td></tr></table>
+<h1> <span class="mw-headline" id="JTAG"> JTAG </span></h1>
+<p>The board have a dedicated JTAG port with 2mm pinspacing.
+</p>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="4"> 2x7 JTAG Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> VCC-PH
+</td>
+<td> 2 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> NC
+</td>
+<td> 4 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> CPUB-TDI
+</td>
+<td> 6 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> CPUB-TMS
+</td>
+<td> 8 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> CPUB-TCK
+</td>
+<td> 10 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> CPUB-TDO
+</td>
+<td> 12 </td>
+<td> NC
+</td></tr>
+<tr>
+<td> 13 </td>
+<td> VCC-PH
+</td>
+<td> 14 </td>
+<td> GND
+</td></tr></table>
+<p><br/>
+</p>
+<h1> <span class="mw-headline" id="Serial_console_port"> Serial console port </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:A80_Optimus_uart.jpg" class="image"><img alt="" src="/images/thumb/9/93/A80_Optimus_uart.jpg/240px-A80_Optimus_uart.jpg" width="240" height="247" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:A80_Optimus_uart.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART header</div></div></div>
+<p>The UART header is next to the Ethernet port. The board comes with a custom USB UART cable that fits direclty into the header.
+</p>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="2"> 1x5 UART Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> GND
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> VCC-PH
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> GPIO-PH13-UART0-RX
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> GPIO-PH12-UART0-TX
+</td></tr></table>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:A80_Optimus_front.jpg" class="image"><img alt="A80 Optimus front.jpg" src="/images/thumb/6/6e/A80_Optimus_front.jpg/120px-A80_Optimus_front.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:A80_Optimus_back.jpg" class="image"><img alt="A80 Optimus back.jpg" src="/images/thumb/3/38/A80_Optimus_back.jpg/120px-A80_Optimus_back.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:35px auto;"><a href="/File:A80_optimus_board_front.JPG" class="image"><img alt="A80 optimus board front.JPG" src="/images/thumb/6/6a/A80_optimus_board_front.JPG/120px-A80_optimus_board_front.JPG" width="120" height="80"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:36.5px auto;"><a href="/File:A80_Optimus_Board_features.jpg" class="image"><img alt="A80 Optimus Board features.jpg" src="/images/thumb/a/a6/A80_Optimus_Board_features.jpg/120px-A80_Optimus_Board_features.jpg" width="120" height="77"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/Pcduino8_A80_Board" title="Pcduino8 A80 Board">Pcduino8 A80 Board</a>: this board has a very similar layout and is probably closely related.
+</li></ul>
+<h2> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h2>
+<p>Merrii provides firmware images for hardware owners, currently through their customer support.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Merrii_A80_Optimus_Board&amp;oldid=12796">http://linux-sunxi.org/index.php?title=Merrii_A80_Optimus_Board&amp;oldid=12796</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A80_Boards" title="Category:A80 Boards">A80 Boards</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li><li><a href="/Category:Mainline_Kernel" title="Category:Mainline Kernel">Mainline Kernel</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Merrii+A80+Optimus+Board&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Merrii+A80+Optimus+Board" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Merrii_A80_Optimus_Board" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Merrii_A80_Optimus_Board&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Merrii_A80_Optimus_Board">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Merrii_A80_Optimus_Board&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Merrii_A80_Optimus_Board&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Merrii_A80_Optimus_Board" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Merrii_A80_Optimus_Board" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Merrii_A80_Optimus_Board&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Merrii_A80_Optimus_Board&amp;oldid=12796" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 21 January 2015, at 11:41.</li>
+<li id="footer-info-viewcount">This page has been accessed 16,603 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

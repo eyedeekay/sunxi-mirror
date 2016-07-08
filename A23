@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>A23 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"A23","wgTitle":"A23","wgCurRevisionId":17526,"wgArticleId":829,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["System on Chip"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"A23","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/A23"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-A23 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">A23</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">A23</th></tr>
+<tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+Allwinner</td></tr><tr class=""><th scope="row" style="text-align:left;">Process</th><td class="" style="">
+40nm</td></tr><tr class=""><th scope="row" style="text-align:left;">CPU</th><td class="" style="">
+Dual-Core ARM Cortex-A7 @ 1.5GHz</td></tr><tr class=""><th scope="row" style="text-align:left;">Memory</th><td class="" style="">
+LPDDR3/DDR3</td></tr><tr class=""><th scope="row" style="text-align:left;">GPU</th><td class="" style="">
+<a href="/Mali400" title="Mali400">Mali400</a> MP2 @ 600MHz</td></tr><tr class=""><th scope="row" style="text-align:left;">VPU</th><td class="" style="">
+<a href="/Cedar_Engine" title="Cedar Engine" class="mw-redirect">Cedar Engine</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Connectivity</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+CPU/RGB LCD, LVDS, MIPI DSI</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+I2S, PCM, AC97</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+MMC, NAND</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+OTG, 2x Host</td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+November 2013</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.allwinnertech.com/en/product/A23.html">Product Page</a></td></tr>
+</table>
+<p>Allwinner <strong class="selflink">A23</strong> (sun8i) SoC features a Dual-Core Cortex-A7 ARM CPU, and a <a href="/Mali400" title="Mali400">Mali400</a> MP2 GPU from ARM. It is a lower power cut-down version of the <a href="/A20" title="A20">A20</a>.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#A23_SoC_Features"><span class="tocnumber">2</span> <span class="toctext">A23 SoC Features</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Documentation"><span class="tocnumber">3</span> <span class="toctext">Documentation</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Software"><span class="tocnumber">4</span> <span class="toctext">Software</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Original_SDK"><span class="tocnumber">4.1</span> <span class="toctext">Original SDK</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#SDK_Content"><span class="tocnumber">4.1.1</span> <span class="toctext">SDK Content</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#Boot0"><span class="tocnumber">4.2</span> <span class="toctext">Boot0</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#U-boot"><span class="tocnumber">4.3</span> <span class="toctext">U-boot</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Allwinner"><span class="tocnumber">4.3.1</span> <span class="toctext">Allwinner</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Sunxi_Community"><span class="tocnumber">4.3.2</span> <span class="toctext">Sunxi Community</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Mainline_U-Boot"><span class="tocnumber">4.3.3</span> <span class="toctext">Mainline U-Boot</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Kernel_code"><span class="tocnumber">4.4</span> <span class="toctext">Kernel code</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Allwinner_2"><span class="tocnumber">4.4.1</span> <span class="toctext">Allwinner</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Sunxi_Community_2"><span class="tocnumber">4.4.2</span> <span class="toctext">Sunxi Community</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-15"><a href="#GPL_violations"><span class="tocnumber">4.5</span> <span class="toctext">GPL violations</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Devices"><span class="tocnumber">5</span> <span class="toctext">Devices</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Overview">Overview</span></h1>
+<p>The A23 is not supported in the linux-sunxi 3.4 kernel and in u-boot-sunxi, but there is basic support in the <a href="/Linux_mainlining_effort" title="Linux mainlining effort">mainline Linux kernel</a> (since kernel 3.17/3.18) and in <a href="/Mainline_U-Boot#v2015.04" title="Mainline U-Boot">mainline u-boot</a> (since v2015.04).
+</p>
+<h1> <span class="mw-headline" id="A23_SoC_Features">A23 SoC Features</span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/File:Allwinner_A23.jpg" class="image"><img alt="" src="/images/thumb/b/b2/Allwinner_A23.jpg/180px-Allwinner_A23.jpg" width="180" height="176" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Allwinner_A23.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>A23 SoC on a IPPO Q8H</div></div></div>
+<ul><li> CPU
+<ul><li> ARM Cortex-A7 Dual-Core
+</li><li> 256KiB L2-Cache (shared between two cores)
+</li><li> 32KiB (Instruction) / 32KiB (Data) L1-Cache per core
+</li><li> SIMD NEON, VFP4
+</li><li> Virtualization
+</li><li> Large Physical Address Extensions (LPAE) 1TB
+</li></ul>
+</li><li> GPU
+<ul><li> ARM Mali400 MP2
+</li><li> Featuring 1 vertex shader (GP) and 2 fragment shaders (PP).
+</li><li> Complies with OpenGL ES 2.0
+</li></ul>
+</li><li> Memory
+<ul><li> DDR3/DDR3L controller
+</li><li> NAND Flash controller and 64-bit ECC
+</li></ul>
+</li><li> Video
+<ul><li> HD H.264 2160P video decoding
+</li><li> Full HD video decoding
+</li><li> BD Directory, BD ISO and BD m2ts video decoding
+</li><li> H.264 High Profile <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="380908000868780b085e484b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> encoding
+</li><li> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a4979c9094673395949c94e49794c2d4d7">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> 3D decoding
+</li><li> Complies with RTSP, HTTP,HLS,RTMP,MMS streaming media protocol
+</li></ul>
+</li><li> Display
+<ul><li> CPU/RGB/LVDS LCD interface 1920×1080 resolution
+</li><li> MIPI DSI interface up to 1280x800 resolution
+</li></ul>
+</li><li> Camera
+<ul><li> Integrated parallel 8-bit I/F YUV sensor
+</li><li> Integrated 24-bit parallel YUV 444 I/F
+</li><li> 5M/8M CMOS sensor support
+</li><li> Dual-sensor support
+</li></ul>
+</li><li> Audio
+<ul><li> Integrated HI-FI 100dB Audio Codec
+</li><li> Dual MIC noise cancellation
+</li></ul>
+</li><li> PMIC
+<ul><li> X-Powers AXP223, designed for the A23, connected via Allwinner's <a href="/Reduced_Serial_Bus" title="Reduced Serial Bus"> Reduced Serial Bus (RSB) </a>
+</li></ul>
+</li></ul>
+<h1> <span class="mw-headline" id="Documentation"> Documentation </span></h1>
+<ul><li> <a class="external text" href="http://dl.linux-sunxi.org/A23/A23%20User%20Manual%20V1.0%2020130830.pdf">A23 User Manual v1.0</a> <small>(PDF, 696 pages, 2013-08-30)</small>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/A23/A23%20Datasheet%20V1.0%2020130830.pdf">A23 Datasheet v1.0</a> <small>(PDF, 35 pages, 2013-08-30)</small>
+</li></ul>
+<p>Some other documents were found online:
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://wenku.baidu.com/view/21cbdf68a5e9856a57126046.html?re=view">A23 SDRAM support list</a>
+</li><li> <a rel="nofollow" class="external text" href="http://wenku.baidu.com/view/d9aabf6b58fb770bf68a5536.html?re=view">A23 NAND support list</a>
+</li><li> <a rel="nofollow" class="external text" href="http://wenku.baidu.com/view/797b0d1ff01dc281e53af0f4.html?re=view">A23 PCB design notes (Chinese)</a>
+</li><li> <a rel="nofollow" class="external text" href="http://wenku.baidu.com/view/dedb8bbd4693daef5ef73dba.html?re=view">A23 Tablet reference design schematics</a>
+</li></ul>
+<h1> <span class="mw-headline" id="Software"> Software </span></h1>
+<h2> <span class="mw-headline" id="Original_SDK"> Original SDK </span></h2>
+<ul><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/">SDK (4GB tarball)</a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/">SDK (unpacked)</a>
+</li></ul>
+<p>The SDK contains customized sources for U-boot, Linux, Android and buildroot.
+It also has a gnueabi cross compile toolchain.
+</p>
+<h3> <span class="mw-headline" id="SDK_Content"> SDK Content </span></h3>
+<ul><li> Linux Kernel: A23/lichee/linux-3.4
+</li><li> Buildroot: A23/lichee/buildroot
+</li><li> U-boot: A23/lichee/brandy/u-boot-2011.09
+</li><li> ARM gnueabi cross compile toolchain: A23/lichee/brandy/gcc-linaro/
+</li><li> Android: A23/android
+</li><li> Various Allwinner tools: A23/lichee/tools
+</li></ul>
+<p>Use the "pack" script under "A23/lichee/tools/pack" to build an image. (not tested)
+</p>
+<h2> <span class="mw-headline" id="Boot0"> Boot0 </span></h2>
+<p><a href="/BROM" title="BROM">Boot0</a> initializes the DRAM, basic clocks and loads U-boot from NAND or MMC.
+There is no boot1 on A23. Boot0 directly loads U-boot.
+</p><p>Allwinner has in the meantime published the source code for boot0 in their github repository.
+</p><p>Binaries of boot0 can be found in the SDK: <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/tools/pack/chips/sun8iw3p1/bin/">A23/lichee/tools/pack/chips/sun8iw3p1/bin</a>
+</p><p>fes1_sun8iw3p1.bin is for FEL mode.
+</p>
+<h2> <span class="mw-headline" id="U-boot"> U-boot </span></h2>
+<p>There are 3 U-boot sources available.
+</p>
+<h3> <span class="mw-headline" id="Allwinner"> Allwinner </span></h3>
+<p>Allwinner's SDK contains a customized U-boot, based on v2011.09. This works with either NAND or MMC.
+It contains drivers for LCD display, MMC, NAND, normal UARTs, USB OTG, RSB, PMIC, and the ability to update various images.
+</p>
+<h3> <span class="mw-headline" id="Sunxi_Community"> Sunxi Community </span></h3>
+<p><a href="/U-boot" title="U-boot" class="mw-redirect">u-boot-sunxi</a> has basic support for A23, which includes UART console (including R_UART) and MMC.
+Disclaimer: no one has actually booted a kernel with this yet.
+</p><p>Work still needed:
+</p>
+<ul><li> SPL (DRAM initialization code)
+</li><li> <a href="/Reduced_Serial_Bus" title="Reduced Serial Bus">Reduced_Serial_Bus</a> driver (to talk to AXP PMIC).
+</li></ul>
+<h3> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h3>
+<p><a href="/Mainline_U-Boot#v2015.04" title="Mainline U-Boot">mainline u-boot</a> has support for the A23 (incl. SPL and AXP223 PMIC support) since v2015.04.
+</p>
+<h2> <span class="mw-headline" id="Kernel_code"> Kernel code </span></h2>
+<h3> <span class="mw-headline" id="Allwinner_2"> Allwinner </span></h3>
+<p>There is a kernel tree currently available which contains a quick backport of the A23-v1.0 SDK, <a class="external text" href="https://github.com/libv/linux-sunxi/tree/a23sdk_frankenkernel">it is called "a23sdk_frankenkernel".</a>
+</p><p>This tree contains:
+</p>
+<ul><li> The Android 3.4.39 kernel
+</li><li> loads of nasty backports on top:
+<ul><li> direct commits from upstream or android trees
+</li><li> commits from upstream or android trees with changes to certain files removed
+</li></ul>
+</li><li> the remaining diff to the A23-v1.0 SDK packed on top:
+<ul><li> with fixed encodings (to UTF-8), where possible, as some allwinner side encoding mess-up has destroyed data
+</li><li> fixed file permissions
+</li><li> remaining changes which could not easily be tracked back to upstream or android tree commits
+</li></ul>
+</li></ul>
+<p>TODO:
+</p>
+<ul><li> remove useless/dead files:
+<ul><li> vexpress and realview ael.
+</li><li> changes to other architectures.
+</li><li> pointless scripts
+</li><li> other obviously useless files.
+</li></ul>
+</li><li> Separate out some drivers to their original versions so allwinner specific changes become visible:
+<ul><li> the 3 mali kernel driver versions
+</li><li> the many added wireless drivers
+</li></ul>
+</li><li> build and run testing.
+</li></ul>
+<h3> <span class="mw-headline" id="Sunxi_Community_2"> Sunxi Community </span></h3>
+<p>Patches for basic A23 support on mainline have been posted on the mailing list.
+You can also find them <a class="external text" href="https://github.com/wens/linux/tree/sunxi-a23">here</a>.
+</p>
+<h2> <span class="mw-headline" id="GPL_violations"> GPL violations </span></h2>
+<p>The <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/">v1.0 SDK</a> contains many binaries and is therefor violating the GPLv2 quite directly:
+</p>
+<ul><li> Kernel:
+<ul><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/kernel/drivers/devfreq/dramfreq/mdfs/mdfs.code">kernel/drivers/devfreq/dramfreq/mdfs/mdfs.code</a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/kernel/drivers/arisc/binary/arisc_sun8iw1p1.code">kernel/drivers/arisc/binary/arisc_sun8iw1p1.code</a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/kernel/drivers/arisc/binary/arisc_sun9iw1p1.code">kernel/drivers/arisc/binary/arisc_sun9iw1p1.code</a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/drivers/media/video/sunxi-vfe/lib/libisp"><tt>drivers/media/video/sunxi-vfe/lib/libisp</tt></a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/modules/nand/sun8iw1p1/libnand_sun8iw1p1"><tt>modules/nand/sun8iw1p1/libnand_sun8iw1p1</tt></a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/modules/nand/sun8iw3p1/libnand_sun8iw3p1"><tt>modules/nand/sun8iw3p1/libnand_sun8iw3p1</tt></a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/modules/nand/sun9iw1p1/libnand_sun9iw1p1"><tt>modules/nand/sun9iw1p1/libnand_sun9iw1p1</tt></a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/drivers/input/touchscreen/aw5x06/libAW5306"><tt>drivers/input/touchscreen/aw5x06/libAW5306</tt></a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/drivers/input/touchscreen/gslx680new/gsl_point_id_20130415"><tt>drivers/input/touchscreen/gslx680new/gsl_point_id_20130415</tt></a>
+</li></ul>
+</li><li> U-boot:
+<ul><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/brandy/u-boot-2011.09/nand_sunxi/sun8iw3/libnand-sun8iw3"><tt>nand_sunxi/sun8iw3/libnand-sun8iw3</tt></a>
+</li></ul>
+</li></ul>
+<p>We are still waiting on action from Allwinner to resolve this.
+</p>
+<h1> <span class="mw-headline" id="Devices"> Devices </span></h1>
+<div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A23_Tablets" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A23_Tablets">A23 Tablets</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/A20" title="A20">A20</a>
+</li></ul>
+<h1> <span class="mw-headline" id="References">References</span></h1>
+<p><br/>
+</p>
+<h1> <span class="mw-headline" id="External_links"> External links </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.allwinnertech.com/en/clq/processora/A23.html">Product Page</a>
+</li></ul>
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=A23&amp;oldid=17526">http://linux-sunxi.org/index.php?title=A23&amp;oldid=17526</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:System_on_Chip" title="Category:System on Chip">System on Chip</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=A23&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=A23" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/A23" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:A23&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/A23">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=A23&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=A23&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/A23" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/A23" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=A23&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=A23&amp;oldid=17526" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 6 June 2016, at 21:35.</li>
+<li id="footer-info-viewcount">This page has been accessed 68,908 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.categoryTree","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>MicroSD Breakout - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"MicroSD_Breakout","wgTitle":"MicroSD Breakout","wgCurRevisionId":12881,"wgArticleId":129,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware","Development"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"MicroSD_Breakout","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/MicroSD_Breakout"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-MicroSD_Breakout skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">MicroSD Breakout</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/File:JTAG_MicroSD_UART-front.jpeg" class="image"><img alt="" src="/images/thumb/0/05/JTAG_MicroSD_UART-front.jpeg/180px-JTAG_MicroSD_UART-front.jpeg" width="180" height="244" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:JTAG_MicroSD_UART-front.jpeg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>GND, GND, VDD, RX, TX</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/File:JTAG_MicroSD_UART-back.jpeg" class="image"><img alt="JTAG MicroSD UART-back.jpeg" src="/images/thumb/9/9d/JTAG_MicroSD_UART-back.jpeg/180px-JTAG_MicroSD_UART-back.jpeg" width="180" height="245" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:JTAG_MicroSD_UART-back.jpeg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div></div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/File:JTAG_MicroSD_UART-side.jpeg" class="image"><img alt="JTAG MicroSD UART-side.jpeg" src="/images/thumb/9/9e/JTAG_MicroSD_UART-side.jpeg/180px-JTAG_MicroSD_UART-side.jpeg" width="180" height="175" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:JTAG_MicroSD_UART-side.jpeg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div></div></div></div>
+<p>The cubieboard MicroSD breakout board provides JTAG and UART over the SD-Card connector. The UART connector is a 5 pin JST-XH.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Mapping"><span class="tocnumber">1</span> <span class="toctext">Mapping</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#U-Boot_output_to_sdcard_UART"><span class="tocnumber">2</span> <span class="toctext">U-Boot output to sdcard UART</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#u-boot-sunxi"><span class="tocnumber">2.1</span> <span class="toctext">u-boot-sunxi</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Mainline_U-Boot"><span class="tocnumber">2.2</span> <span class="toctext">Mainline U-Boot</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Linux_kernel_output_to_sdcard_UART"><span class="tocnumber">3</span> <span class="toctext">Linux kernel output to sdcard UART</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#sunxi-3.4_kernel"><span class="tocnumber">3.1</span> <span class="toctext">sunxi-3.4 kernel</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#mainline_kernel"><span class="tocnumber">3.2</span> <span class="toctext">mainline kernel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Breakout_boards"><span class="tocnumber">4</span> <span class="toctext">Breakout boards</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Buy"><span class="tocnumber">6</span> <span class="toctext">Buy</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Mapping"> Mapping </span></h2>
+<table class="wikitable">
+<tr>
+<th> Pin </th>
+<th> <a href="/index.php?title=MMC&amp;action=edit&amp;redlink=1" class="new" title="MMC (page does not exist)">MicroSD</a> </th>
+<th> <a href="/JTAG" title="JTAG">JTAG</a> Connection </th>
+<th> 14-pin ARM <a href="/JTAG" title="JTAG">JTAG</a> Header </th>
+<th> <a href="/UART" title="UART">UART</a> Connection </th>
+<th> 5-pin <a href="/UART" title="UART">UART</a> Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> Data2 </td>
+<td> TCK </td>
+<td> 9 </td>
+<td> <i>nc</i> </td>
+<td> <i>nc</i>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> CD/Data3 </td>
+<td> <i>nc</i> </td>
+<td> <i>nc</i> </td>
+<td> RX </td>
+<td> 2
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> Cmd </td>
+<td> TDO </td>
+<td> 11 </td>
+<td> <i>nc</i> </td>
+<td> <i>nc</i>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> VDD </td>
+<td> VTG </td>
+<td> 1,13 </td>
+<td> VDD </td>
+<td> 3
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> CLK </td>
+<td> <i>nc</i> </td>
+<td> <i>nc</i> </td>
+<td> TX </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> VSS </td>
+<td> GND </td>
+<td> 2,4,6,8,10,14 </td>
+<td> GND </td>
+<td> 4, 5
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> Data0 </td>
+<td> TDI </td>
+<td> 5 </td>
+<td> <i>nc</i> </td>
+<td> <i>nc</i>
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> Data1 </td>
+<td> TMS </td>
+<td> 7 </td>
+<td> <i>nc</i> </td>
+<td> <i>nc</i>
+</td></tr>
+<tr>
+<td> <i>nc</i> </td>
+<td> <i>nc</i> </td>
+<td> nTRST </td>
+<td> 3 </td>
+<td> <i>nc</i> </td>
+<td> <i>nc</i>
+</td></tr>
+<tr>
+<td> <i>nc</i> </td>
+<td> <i>nc</i> </td>
+<td> nRESET </td>
+<td> 12 </td>
+<td> <i>nc</i> </td>
+<td> <i>nc</i>
+</td></tr></table>
+<h2> <span class="mw-headline" id="U-Boot_output_to_sdcard_UART"> U-Boot output to sdcard UART </span></h2>
+<p>For booting, apply the <a href="/FEL/USBBoot" title="FEL/USBBoot">FEL/USBBoot</a> procedure.
+</p>
+<h3> <span class="mw-headline" id="u-boot-sunxi"> u-boot-sunxi </span></h3>
+<p>Add 'UART0_PORT_F' to the option of the *_FEL line of your board in <i>boards.cfg</i>.
+Make sure it also contains 'SPL_FEL' instead of 'SPL'.
+</p>
+<h3> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h3>
+<p>First, to setup u-boot for FEL mode, use <i>&lt;board&gt;_felconfig</i> instead
+of the usual <i>&lt;board&gt;_defconfig</i>.
+</p><p>Then, set in both
+</p>
+<ul><li> .config
+</li><li> spl/.conf
+</li></ul>
+<pre>
+CONFIG_UART0_PORT_F=y
+</pre>
+<p>Alternatively, you can set the variables via menuconfig,
+but again you have to do this twice:
+</p>
+<ul><li> make menuconfig
+</li><li> make spl/menuconfig
+</li></ul>
+<pre>
+ARM architecture  ---&gt;
+[*] SPL/FEL mode support
+[*]  UART0 on MicroSD breakout board
+</pre>
+<p>Compile as usual.
+</p>
+<h2> <span class="mw-headline" id="Linux_kernel_output_to_sdcard_UART"> Linux kernel output to sdcard UART </span></h2>
+<h3> <span class="mw-headline" id="sunxi-3.4_kernel"> sunxi-3.4 kernel </span></h3>
+<p>Some FEX modifications are needed. An example for A13:
+</p>
+<pre class="brush: ini">
+@@ -31,13 +31,13 @@ sdc_d2 = port:PF05&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+ twi_port = 0
+ twi_scl = port:PB00&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+ twi_sda = port:PB01&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+ 
+ [uart_para]
+-uart_debug_port = 1
+-uart_debug_tx = port:PG03&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+-uart_debug_rx = port:PG04&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
++uart_debug_port = 0
++uart_debug_tx = port:PF02&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
++uart_debug_rx = port:PF04&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+ 
+ [jtag_para]
+ jtag_enable = 0
+ jtag_ms = port:PF00&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+ jtag_ck = port:PF05&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+@@ -112,15 +112,15 @@ twi1_sda = port:PB16&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ twi2_used = 1
+ twi2_scl = port:PB17&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ twi2_sda = port:PB18&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ 
+ [uart_para0]
+-uart_used = 0
++uart_used = 1
+ uart_port = 0
+ uart_type = 2
+-uart_tx = port:PB19&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+-uart_rx = port:PB20&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
++uart_tx = port:PF02&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
++uart_rx = port:PF04&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+ 
+ [uart_para1]
+ uart_used = 1
+ uart_port = 1
+ uart_type = 2
+@@ -351,11 +351,11 @@ csi_power_en_b =
+ csi_stby_b =
+ csi_flash_b =
+ csi_af_en_b =
+ 
+ [mmc0_para]
+-sdc_used = 1
++sdc_used = 0
+ sdc_detmode = 1
+ bus_width = 4
+ sdc_d1 = port:PF00&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+ sdc_d0 = port:PF01&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+ sdc_clk = port:PF02&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id="mainline_kernel"> mainline kernel </span></h3>
+<p>It is necessary to delete the mmc0 entry from the dts file and also move uart0 pins from "PB22 and "PB23" to "PF2" and "PF4". This may look like adding something like this to the dts file (not the cleanest option):
+</p>
+<pre>
+		pio: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="4e3e27202d3a3c220e7e7f2d7c7e767e7e">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
+			uart0_pins_a: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="9aeffbe8eeaadaaa">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
+				allwinner,pins = &quot;PF2&quot;, &quot;PF4&quot;;
+				allwinner,function = &quot;uart0&quot;;
+				allwinner,drive = &lt;0&gt;;
+				allwinner,pull = &lt;0&gt;;
+			};
+		};
+</pre>
+<h2> <span class="mw-headline" id="Breakout_boards"> Breakout boards </span></h2>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.sparkfun.com/products/9419">microSD Sniffer</a> (@sparkfun.com) - header needs to be soldered.
+</li><li> <a rel="nofollow" class="external text" href="http://dx.com/p/sd-to-microsd-transflash-card-converter-module-27001">SD to MicroSD/TransFlash Card Converter Module</a> (<i>@dealextreme.com</i>) - has mini pins inside.
+</li></ul>
+<h2> <span class="mw-headline" id="See_also"> See also </span></h2>
+<ul><li> <a href="/JTAG" title="JTAG">JTAG</a>
+</li><li> <a href="/UART" title="UART">UART</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Buy"> Buy </span></h2>
+<p><a rel="nofollow" class="external text" href="http://store.r0ck.me/products/usd-breakout-board">Buy from Tom Cubie's site.</a>
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=MicroSD_Breakout&amp;oldid=12881">http://linux-sunxi.org/index.php?title=MicroSD_Breakout&amp;oldid=12881</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li><li><a href="/Category:Development" title="Category:Development">Development</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=MicroSD+Breakout&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=MicroSD+Breakout" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/MicroSD_Breakout" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:MicroSD_Breakout&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/MicroSD_Breakout">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=MicroSD_Breakout&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=MicroSD_Breakout&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/MicroSD_Breakout" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/MicroSD_Breakout" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=MicroSD_Breakout&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=MicroSD_Breakout&amp;oldid=12881" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 23 January 2015, at 23:16.</li>
+<li id="footer-info-viewcount">This page has been accessed 28,363 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

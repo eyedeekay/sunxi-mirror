@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Bootable SPI flash - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Bootable_SPI_flash","wgTitle":"Bootable SPI flash","wgCurRevisionId":17769,"wgArticleId":2715,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Bootable_SPI_flash","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Bootable_SPI_flash"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Bootable_SPI_flash skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Bootable SPI flash</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Information_for_devboard_designers"><span class="tocnumber">2</span> <span class="toctext">Information for devboard designers</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#The_BROM_implementation_details"><span class="tocnumber">3</span> <span class="toctext">The BROM implementation details</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Software_development_and_trying_something_here_and_now"><span class="tocnumber">4</span> <span class="toctext">Software development and trying something here and now</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#U-Boot_support"><span class="tocnumber">5</span> <span class="toctext">U-Boot support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#The_SPL"><span class="tocnumber">5.1</span> <span class="toctext">The SPL</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Current_status"><span class="tocnumber">5.1.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Future_improvements"><span class="tocnumber">5.1.2</span> <span class="toctext">Future improvements</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="#The_main_U-Boot_binary"><span class="tocnumber">5.2</span> <span class="toctext">The main U-Boot binary</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Reliability_considerations"><span class="tocnumber">6</span> <span class="toctext">Reliability considerations</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Security_considerations"><span class="tocnumber">7</span> <span class="toctext">Security considerations</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Upgrading_the_SPI_flash_firmware"><span class="tocnumber">8</span> <span class="toctext">Upgrading the SPI flash firmware</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Using_the_sunxi-fel_tool"><span class="tocnumber">8.1</span> <span class="toctext">Using the sunxi-fel tool</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Using_the_flashrom_tool_from_a_running_Linux_system_on_the_device"><span class="tocnumber">8.2</span> <span class="toctext">Using the flashrom tool from a running Linux system on the device</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Using_some_special_firmware_upgrade_interface"><span class="tocnumber">8.3</span> <span class="toctext">Using some special firmware upgrade interface</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#The_list_of_known_SPI_flash_chips"><span class="tocnumber">9</span> <span class="toctext">The list of known SPI flash chips</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#Winbond_25Q128FVSG"><span class="tocnumber">9.1</span> <span class="toctext">Winbond 25Q128FVSG</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#25Q128FV"><span class="tocnumber">9.2</span> <span class="toctext">25Q128FV</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">10</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Introduction"> Introduction </span></h2>
+<p>All currently known Allwinner SoCs can boot from SPI flash, which usually has the lowest <a href="/BROM" title="BROM">boot priority</a> and is probed only after all the other options fail (<a href="/Bootable_SD_card" title="Bootable SD card">SD card</a>, <a href="/NAND" title="NAND">NAND</a> and <a href="/EMMC" title="EMMC">eMMC</a>).
+</p>
+<h2> <span class="mw-headline" id="Information_for_devboard_designers"> Information for devboard designers </span></h2>
+<p>The SPI flash can be used to store a bootable firmware on the low cost development boards, which do not offer any other kind of non-removable storage (NAND or eMMC).
+</p><p>The minimum amount of the required storage would be <b>1 MiB (8 Mbit)</b> to fit a user friendly bootloader with some advanced features. The prices of suitable SPI NOR flash chips seem to be around 10-20 cents on AliExpress (or even as low as <a rel="nofollow" class="external text" href="http://www.aliexpress.com/item/W25Q16BVSSIG-W25Q16BVSIG-2MB-SOP8/32660083443.html">only 4 cents</a>?). This is non-negligible, but might be still worth it at least to avoid the frustrated <i>"I plugged the power but there is nothing on the monitor"</i> support requests from inexperienced users.
+</p><p>There is no point using SPI NOR flash chips larger than <b>16 MiB (128 Mbit)</b>. The primary use for this additional space would be a storage of some size reduced Linux kernel together with a small <a rel="nofollow" class="external text" href="https://buildroot.org/">Buildroot</a> generated compressed initrd image. And if no operating system is found on the SD card, then this built-in kernel+initrd can be booted instead. The whole point of having a kernel+initrd bundle in addition to just a bootloader is that developing the initrd is relatively easy, because it can be implemented using scripting languages and rely on existing GUI toolkits (Qt, FLTK, ...) or offer a text based user interface (via <a class="external text" href="https://en.wikipedia.org/wiki/Dialog_%28software%29">dialog</a> or something similar). As for the provided functionality, it can do some hardware diagnostic self-tests and even update itself over Internet. In order to have a realistic size estimate, we can look at the <a class="external text" href="https://github.com/ssvb/lima-memtester/releases/tag/20151207-orange-pi-pc-fel-test">kernel+intrd used for lima-memtester</a> and see that it's size is less than 7 MiB, which would fit even into a 8 MiB (64 Mbit) SPI NOR flash chip. So it's a tight fit with 8 MiB (64 Mbit) and a lot of headroom with 16 MiB (128 Mbit). And an additional factor to consider is that programming NOR flash is slow and maxes at around ~200 KiB/s, so having smaller firmware reduces the time needed for flashing.
+</p><p>U-Boot can run UEFI applications since the release v2016.05, such as Grub2 or anything else. This is very nice, because it may provide a middle ground solution in terms of the firmware size (not as easy to implement as the kernel+initrd, but at least better than native U-Boot application hacks). There are some UEFI ports of the scripting language interpreters already available, such as <a rel="nofollow" class="external text" href="https://firmwaresecurity.com/2015/05/28/lua-for-uefi">Python/Lua</a> and <a rel="nofollow" class="external text" href="https://firmwaresecurity.com/tag/mruby-on-efi-shell">Ruby</a> (<a href="/User:Ssvb" title="User:Ssvb">Ssvb</a>'s favorite). But it is still not quite clear what is the UEFI GUI toolkits story.
+</p><p>The SPI flash chip needs to be connected to SPI0 pins (port C), which are multiplexed with NAND. The table below lists the exact pins for different SoC variants and some additional notes:
+</p>
+<table class="wikitable">
+<tr>
+<th> SoC name
+</th>
+<th> SPI0 pins (MOSI,MISO,CLK,CS)
+</th>
+<th> Total number of SPI controllers
+</th>
+<th> Available SPI controllers if SPI flash is used
+</th>
+<th> Possible implications of using SPI flash
+</th>
+<th> Notes
+</th></tr>
+<tr>
+<td> Allwinner <a href="/A10" title="A10">A10</a> </td>
+<td> PC0,PC1,PC2,PC23 </td>
+<td> 4 </td>
+<td> 4 </td>
+<td> Nothing significant. </td>
+<td> SPI0 is also available on pins PI12,PI13,PI11,PI10 and can be used for other purposes even if a bootable SPI flash is hooked to PC0,PC1,PC2,PC23.
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A20" title="A20">A20</a> </td>
+<td> PC0,PC1,PC2,PC23 </td>
+<td> 4 </td>
+<td> 4 </td>
+<td> Nothing significant. </td>
+<td> SPI0 is also available on pins PI12,PI13,PI11,PI10 and can be used for other purposes even if a bootable SPI flash is hooked to PC0,PC1,PC2,PC23.
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A13" title="A13">A13</a> </td>
+<td> PC0,PC1,PC2,PC3 </td>
+<td> 3 </td>
+<td> 2 </td>
+<td> Only one NAND chip can be used. </td>
+<td> The SPI0_CS0 pin is multiplexed with NCE1 (the CS pin of the second NAND).
+</td></tr>
+<tr>
+<td> Allwinner <a href="/H3" title="H3">H3</a> </td>
+<td> PC0,PC1,PC2,PC3 </td>
+<td> 2 </td>
+<td> 1 </td>
+<td> Only one NAND chip can be used. The only remaining free SPI1 controller is multiplexed with UART3 on pins PA15,PA16,PA14,PA13. </td>
+<td> The SPI0_CS pin is multiplexed with NAND_CE1 (the CS pin of the second NAND).
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A64" title="A64">A64</a> </td>
+<td> PC0,PC1,PC2,PC3 </td>
+<td> 2 </td>
+<td> 1 </td>
+<td> Only one NAND chip can be used. The only remaining free SPI1 controller is multiplexed with LCD and CCIR (camera?) on pins PD2,PD3,PD1,PD0 and this may be a problem. </td>
+<td> The SPI0_CS pin is multiplexed with NAND_CE1 (the CS pin of the second NAND).
+</td></tr></table>
+<p>It looks like SPI is getting gradually phased out from the newer Allwinner SoCs. This may be a problem for providing the necessary SPI pins for the <a rel="nofollow" class="external text" href="http://elinux.org/RPi_Low-level_peripherals#General_Purpose_Input.2FOutput_.28GPIO.29">Raspberry Pi compatible expansion headers</a> or <a class="external text" href="https://en.wikipedia.org/wiki/UEXT">OLIMEX UEXT connectors</a>.
+</p>
+<h2> <span class="mw-headline" id="The_BROM_implementation_details"> The BROM implementation details </span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:162px;"><a href="/File:Pine64_board_booted_over_SPI.jpg" class="image"><img alt="" src="/images/thumb/8/84/Pine64_board_booted_over_SPI.jpg/160px-Pine64_board_booted_over_SPI.jpg" width="160" height="213" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Pine64_board_booted_over_SPI.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>A demo showcasing the SPI boot on Pine64</div></div></div>
+<p>The BROM sets up 6 MHz (OSC24M with divisor 4?) clock frequency for SPI0 and then issues a sequence of Read Data Bytes (03h) commands. Each of these commands is encoded in 4 bytes (1 byte for the command id and 3 bytes for the address). The first command reads 256 bytes from the address 0. If a valid eGON header is recognized, then a sequence of commands reading 2048 byte blocks is done next. The first 2048 byte block is read from the address 0, the second 2048 byte block is read from the address 2048 and this continues until the whole first stage bootloader is transferred.
+</p><p>As an experiment, it is possible to configure SPI on one board in the slave mode, connect jumper wires and emulate the SPI flash for the BROM in another board. But the timing constraints are too tight to do a perfect emulation. A perfect emulation would need to correctly handle the Read Data Bytes command, which means that after the last bit of the address is received, the first bit of data from that address needs to be served back in the next SPI cycle. With such a protocol, we can't benefit from any kind of receive and transmit buffering and make use of the hardware SPI controller. For the GPIO bit-banging implementation of the 6 MHz SPI, we have around ~170 cycles per SPI bit at the 1008 MHz CPU clock frequency. This time is comparable to the DRAM access latency, so we are in a big trouble if we get any L2 cache misses (though this can be mitigated by prefetching the right cache line after receiving just enough of the address bits). Moreover, the GPIO itself is relatively slow and it takes a huge amount of CPU cycles to read/write GPIO registers. So a simplistic approach is just to use the SPI controller hardware, ignore any received commands and stream the data according to the expected pattern. That would be 4 padding bytes, then 256 initial bytes of the firmware, then 4 bytes padding again and 2048 initial bytes of the firmware, etc. And this works, see the picture on the right side&#160;:-)
+</p><p>Such SPI flash emulation using another board probably does not make much practical sense because it is possible to just connect a real SPI flash chip to the SPI pins. This was only a method get some information about the BROM behaviour. A more complete SPI flash emulation might be an interesting exercise to be done using the upcoming <a rel="nofollow" class="external text" href="https://olimex.wordpress.com/2016/05/06/ice40hx1k-evb-open-source-hardware-fpga-board-designed-with-kicad-and-working-with-icestorm-foss-toolchain-first-prototypes-are-ready-and-run">iCE40HX1K-EVB open source hardware FPGA board from OLIMEX</a>.
+</p>
+<h2> <span class="mw-headline" id="Software_development_and_trying_something_here_and_now"> Software development and trying something here and now </span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:162px;"><a href="/File:Xunlong_Orange_Pi_PC_with_improvised_SPI_flash_shield.jpg" class="image"><img alt="" src="/images/thumb/e/e0/Xunlong_Orange_Pi_PC_with_improvised_SPI_flash_shield.jpg/160px-Xunlong_Orange_Pi_PC_with_improvised_SPI_flash_shield.jpg" width="160" height="213" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Xunlong_Orange_Pi_PC_with_improvised_SPI_flash_shield.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>W25Q SPI flash module connected to the board expansion header</div></div></div>
+<p>While there are no known boards with built-in SPI flash, it is still possible to arrange some test setup. The SPI0 pins are often available on the expansion headers. The picture on the right side shows how the SPI0_CS,SPI0_CLK,SPI0_MOSI,SPI0_MISO,3V3,GND pins on the <a href="/Xunlong_Orange_Pi_PC" title="Xunlong Orange Pi PC">Xunlong Orange Pi PC</a> expansion header are connected to the CS,CLK,DI,DO,VCC,GND pins on the <a rel="nofollow" class="external text" href="http://www.ebay.com/itm/W25Q-Windbond-Serial-Flash-Memory-Module-SPI-W25Q128B-BIOS-25Q64BVSIG-EEPROM-/181873964697">W25Q SPI flash module</a>. The wires are entangled and tied in a knot, with the SPI flash module being more or less fixated in place and sticking upwards. Not a very aesthetically pleasing sight, but it works fine for testing the software.
+</p><p>The availability of the SPI0 (port C) pins on the expansion headers is both a blessing and a curse for the existing development boards, such as <a href="/Xunlong_Orange_Pi_PC" title="Xunlong Orange Pi PC">Xunlong Orange Pi PC</a> and <a href="/Pine64" title="Pine64">Pine64</a>:
+</p>
+<ul><li> On one hand, we can connect an SPI flash module to these pins using jumper wires and use this for prototyping and debugging code. Also some vendor may start making and selling nice factory-made SPI flash shields for the Raspberry Pi compatible expansion header.
+</li><li> On the other hand, adding on-board SPI flash in the next revision of the same development board may be problematic because this can break compatibility with the existing shields and the software already developed for them. The device tree does not seem to be good enough (please correct this statement if it is wrong) and has no concept of describing standard GPIO expansion headers with full flexibility of transparently remapping pins in different board revisions. For example, replacing SPI0 pins with SPI1 pins on the 40pin Raspberry Pi compatible expansion header and describing this change only in one place in the board-specific DTS file (so that no changes are necessary in any shield-specific device tree overlays or in the userland software).
+</li></ul>
+<h2> <span class="mw-headline" id="U-Boot_support"> U-Boot support </span></h2>
+<table class="wikitable">
+<tr>
+<th> SoC name
+</th>
+<th> SoC support status in U-Boot
+</th></tr>
+<tr>
+<td> Allwinner <a href="/A10" title="A10">A10</a> </td>
+<td> Supported (in the sunxi-next branch). But still untested because SPI0 is not easily accessible on popular boards. The test has been done only using a SPI2 based modification.
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A20" title="A20">A20</a> </td>
+<td> Supported and tested (in the sunxi-next branch)
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A13" title="A13">A13</a> </td>
+<td> Supported and tested (in the sunxi-next branch)
+</td></tr>
+<tr>
+<td> Allwinner <a href="/A64" title="A64">A64</a> </td>
+<td> Supported and tested (in the sunxi-next branch)
+</td></tr>
+<tr>
+<td> Allwinner <a href="/H3" title="H3">H3</a> </td>
+<td> Supported and tested (in the sunxi-next branch)
+</td></tr></table>
+<h4> <span class="mw-headline" id="The_SPL"> The SPL </span></h4>
+<h5> <span class="mw-headline" id="Current_status"> Current status </span></h5>
+<p>The basic SPI boot support is now available in the U-Boot <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot/u-boot-sunxi.git;a=shortlog;h=refs/heads/next">'sunxi-next' branch</a> and is scheduled for the v2016.09 release. Note that booting from SPI flash is currently disabled by default and it is necessary to add one line to the board defconfig in order to use it:
+</p>
+<pre>   CONFIG_SPL_SPI_SUNXI=y
+</pre>
+<p>In principle, enabling SPI flash support by default on every sunxi board should have no negative consequences for any other use cases, because this code only gets activated when the SPL part has been booted from SPI (by looking at the byte at the <a rel="nofollow" class="external text" href="https://patchwork.ozlabs.org/patch/622173/">offset 0x28 in the SPL header</a>). The only potential concern is the code size, which gets increased by ~370 bytes.
+</p>
+<h5> <span class="mw-headline" id="Future_improvements"> Future improvements </span></h5>
+<p>Taking care of the <a class="external text" href="https://github.com/ARM-software/arm-trusted-firmware">ATF</a> and the <a href="/AR100" title="AR100">AR100</a> firmware may need some additional tricks on AArch64 (packing multiple blobs in a <a rel="nofollow" class="external text" href="http://git.denx.de/?p=u-boot.git;a=blob;f=doc/uImage.FIT/source_file_format.txt">FIT</a> container? or use something more lightweight?). Though this is not really SPI boot specific.
+</p><p>Running SPI at only 6 MHz might be not fast enough and adding something like ~0.5 second to the boot time (needed to transfer ~500KB of the main U-Boot binary). In order to improve boot time a little bit, probably the SPL header can be extended to include a special optional field for the maximum supported SPI clock speed and also the number of dummy cycles for the Read Data Bytes at Higher Speed (0Bh) command. This information can be added to the SPL header by the firmware flasher software (see the "Upgrading the SPI flash firmware" section).
+</p>
+<h4> <span class="mw-headline" id="The_main_U-Boot_binary"> The main U-Boot binary </span></h4>
+<p>The main U-Boot binary can get a more complete implementation for handling SPI flash, also with a full write support by making use of the driver model and the existing SPI framework. However please also see the "Security considerations" section below, because it might be unreasonable to allow accessing the SPI flash from U-Boot in the case if U-Boot runs in the non-secure mode on AArch64. Either way, the SPI flash support in the main U-Boot binary is very much optional.
+</p>
+<h2> <span class="mw-headline" id="Reliability_considerations"> Reliability considerations </span></h2>
+<p>The SPI NOR flash chips are typically rated for 100000 erase cycles and 20 years of data retention. Also they have much lower data density than NAND and are sold without bad blocks. Still it is an open question whether any bad blocks may appear over time on some fraction of devices (if anyone has any relevant references, please add them here).
+</p><p>As a way to mitigate the risks, it may be possible to write a small bootable stub into the first 4096 byte sector on the SPI flash. The smallest possible size reduces the chances of it being damaged, also it does not need to be updated nearly as frequently as U-Boot. Right after this stub, there can be two copies of the regular U-Boot SPL. The bootable stub can then do the checksum verification and pick a non-damaged SPL copy (if one of them goes bad). As an additional bonus, such stub can support 40 KiB size for the SPL, thus overcoming the BROM limitation. As for the main U-Boot binary, storing two copies would waste too much space. But having CRC32 protected data blocks and an extra parity block can make it more damage resistant.
+</p><p>A rather old, but <a rel="nofollow" class="external text" href="http://www.infradead.org/pipermail/linux-mtd/2005-October/014153.html">interesting post</a> in the linux-mtd mailing list explained how the NOR flash wears out. Presumably it takes time for the unreliable bit to flip from 0 to 1, so this has some implications on the verification stage after the firmware had been programmed (do we need an extra delay there?).
+</p>
+<h2> <span class="mw-headline" id="Security_considerations"> Security considerations </span></h2>
+<p>It's a good idea to prevent unauthorized update of the firmware code (search for "BIOS trojan" keywords on google for more information on this topic). A malicious software trying to gain even more control over the system after exploiting one of the <a class="external text" href="https://en.wikipedia.org/wiki/Privilege_escalation">privilege escalation</a> bugs in Linux could try a few tricks, listed in the table below.
+</p>
+<table class="wikitable">
+<tr>
+<th> A possible attack vector
+</th>
+<th> Risk mitigation
+</th></tr>
+<tr>
+<td> Program the SPI flash using the SPI0 controller. </td>
+<td> There are some secure/non-secure peripheral access configuration knobs in the newer SoC variants, which can be investigated. <span style="color:#ba0000">Still untested and needs to be confirmed.</span>
+</td></tr>
+<tr>
+<td> Program the SPI flash using simple GPIO bit-banging. </td>
+<td> There are some secure/non-secure peripheral access configuration knobs in the newer SoC variants, which can be investigated. If restricting non-secure access to a single SPI CS pin is not possible on the GPIO port C, then the HOLD pin or the WP pin could be connected to one of the pins on the port L and asserted by the firmware. The whole port L can be then configured as secure only. <span style="color:#ba0000">Still untested and needs to be confirmed.</span>
+</td></tr>
+<tr>
+<td> Write its own bootloader to some accessible higher priority bootable media (for example an SD card) and then program the SPI flash from it. </td>
+<td> Some SoCs have special pins to configure the default boot order (the UBOOT_SEL pins in <a href="/A31" title="A31">A31</a>). The other SoCs could probably use MMC1 instead of MMC0 for the SD card slot to ensure that the firmware always boots for the SPI flash. <span style="color:#ba0000">Still untested and needs to be confirmed.</span>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Upgrading_the_SPI_flash_firmware"> Upgrading the SPI flash firmware </span></h2>
+<p>Multiple methods could be potentially used:
+</p>
+<ul><li> For dealing with completely bricked non-bootable boards, the most simple solution would be probably to use the sunxi-fel tool with an added feature to backup and flash the firmware.
+</li><li> For additional users convenience, it would be nice to support upgrading the firmware from the running system too.
+</li></ul>
+<h3> <span class="mw-headline" id="Using_the_sunxi-fel_tool"> Using the sunxi-fel tool </span></h3>
+<p>The sunxi-fel tool can be run on an x86 desktop system to program the SPI flash over a Micro-USB cable and bring a non-bootable Allwinner device back to life <sup id="cite_ref-spi_flash_vailability_1-0" class="reference"><a href="#cite_note-spi_flash_vailability-1">[1]</a></sup>. Just upgrading or initially programming the SPI flash firmware on a perfectly working device is possible too. A preliminary experimental wip branch with SPI flash read/write support on Allwinner A10/A13/A20/A64/H3 is here: <a class="external free" href="https://github.com/ssvb/sunxi-tools/commits/spiflash-a20-test">https://github.com/ssvb/sunxi-tools/commits/spiflash-a20-test</a>
+</p><p>Getting the sources and compiling them:
+</p>
+<pre>   cd /tmp
+   git clone -b spiflash-a20-test <a class="external free" href="https://github.com/ssvb/sunxi-tools.git">https://github.com/ssvb/sunxi-tools.git</a>
+   cd sunxi-tools
+   make
+</pre>
+<p>Trying to check if there is a real SPI flash chip connected to SPI0 pins (after connecting some Allwinner device to your desktop PC via a Micro-USB cable and booting the device in <a href="/FEL" title="FEL">FEL</a> mode):
+</p>
+<pre>   ./sunxi-fel spiflash-info
+</pre>
+<p>Programming a compiled U-Boot image to the SPI flash:
+</p>
+<pre>   ./sunxi-fel -p spiflash-write 0 u-boot-sunxi-with-spl.bin
+</pre>
+<p>Checking if flash programming has been successful:
+</p>
+<pre>   ./sunxi-fel -p spiflash-read 0 `stat -c&#160;%s u-boot-sunxi-with-spl.bin` spi-flash-read-data.bin
+   cmp -b u-boot-sunxi-with-spl.bin spi-flash-read-data.bin
+</pre>
+<p>After this, the U-Boot bootloader should be successfully getting booted from the SPI flash after rebooting the device (assuming that no higher priority boot media is available).
+</p>
+<ol class="references"><li id="cite_note-spi_flash_vailability-1"><span class="mw-cite-backlink"><a href="#cite_ref-spi_flash_vailability_1-0">↑</a></span> <span class="reference-text">Assuming that the device has an SPI flash chip and boots from it in the first place, which is usually not the case except for probably <a href="/ViPER_MovieMate" title="ViPER MovieMate">ViPER MovieMate</a>.</span>
+</li></ol>
+<h3> <span class="mw-headline" id="Using_the_flashrom_tool_from_a_running_Linux_system_on_the_device"> Using the <a rel="nofollow" class="external text" href="https://www.flashrom.org">flashrom</a> tool from a running Linux system on the device </span></h3>
+<table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #EE8822; background-color: #FFEEDD">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_important.png" class="image"><img alt="MBOX icon important.png" src="/images/f/f0/MBOX_icon_important.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;">It is not clear whether doing firmware updates via flashrom or some other generic tool is a great idea. Not having the firmware write-protected against unauthorized modifications is one concern. Another concern is the fact that the firmware updater needs to be at least a little bit intelligent and try to prevent the user from doing obviously stupid acts (such as flashing an incompatible firmware intended for a different device model).
+</td></tr></table>
+<p>In order to be able to access the SPI flash from Linux, it is necessary to have some device tree nodes describing this hardware. There are two possible ways to do this:
+</p>
+<ul><li> Have the SPI0 bus described as a generic spidev node.
+</li><li> Have the exact SPI flash chip description in the device tree.
+</li></ul>
+<p>Both of these approaches are technically correct. But from the ideological point of view, the latter solution is <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2014-November/304243.html">required</a>. One more difficulty is that the SPI flash is multiplexed with NAND and this also needs to be addressed properly. Rather than editing DTS files all the time (especially if the SPI flash is hooked to the expansion header), this information can be added to the device tree on the fly by the U-Boot bootloader.
+</p><p>As for the sunxi SPI driver in the mainline kernel, it is currently in a rather bad shape and does not support sending/receiving SPI messages larger than the FIFO size. Since the FIFO size is only 64 bytes and programming the SPI flash is normally done as 256 byte pages, such limitation most likely renders the SPI driver unusable for this particular use case (to be confirmed). There is some ongoing work, trying to address the sunxi SPI driver problems in the mainline kernel:
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="http://lkml.iu.edu/hypermail/linux/kernel/1404.0/00647.html">http://lkml.iu.edu/hypermail/linux/kernel/1404.0/00647.html</a>
+</li><li> <a rel="nofollow" class="external free" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2014-June/263745.html">http://lists.infradead.org/pipermail/linux-arm-kernel/2014-June/263745.html</a>
+</li><li> <a rel="nofollow" class="external free" href="https://www.marc.info/?l=linux-arm-kernel&amp;m=146584014828666&amp;w=3">https://www.marc.info/?l=linux-arm-kernel&amp;m=146584014828666&amp;w=3</a>
+</li></ul>
+<p>None of these tasks is particularly challenging from the purely technical point of view, but kernel bureaucrats may turn this activity into a long lasting open source show...
+</p>
+<h3> <span class="mw-headline" id="Using_some_special_firmware_upgrade_interface"> Using some special firmware upgrade interface </span></h3>
+<p>The firmware may try to expose a simple interface for upgrading itself. It also may make use of a digital signature check and other safety measures. We need to find out if there are any standard interfaces of this kind already specified for AArch32/AArch64 hardware. The <a class="external free" href="https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/firmware-update.md">https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/firmware-update.md</a> page may be a good start.
+</p><p>Before using the firmware upgrade interface, the kernel should temporarily stop using SPI0 and/or NAND. And also preferably temporarily release the SPI0/NAND pins, so that the firmware can confirm this fact itself. The HOLD or WP pin can be used for enabling/disabling access to the SPI flash hardware. And this pin should be preferably accessible only from the firmware, but not from the kernel (of course this is only relevant if we do care about security).
+</p><p>Please note that even if the firmware upgrade fails (or is not implemented at all), it is always possible to use the sunxi-fel tool.
+</p>
+<h2> <span class="mw-headline" id="The_list_of_known_SPI_flash_chips"> The list of known SPI flash chips </span></h2>
+<p>The Read JEDEC ID (9Fh) command is supposed to be around since 2003. The Read SFDP command is relatively new and is documented in the JEDEC standard JESD216, published on 2011. The updated JESD216B standard from 2013 also describes how to use capacities larger than 128 Mbit in a generic way (such capacities exceed the legacy 24-bit addressing mode and can't be used with the old commands).
+</p>
+<h3> <span class="mw-headline" id="Winbond_25Q128FVSG"> Winbond 25Q128FVSG </span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:162px;"><a href="/File:SPI_Flash_Winbond_25Q128FVSG.jpg" class="image"><img alt="SPI Flash Winbond 25Q128FVSG.jpg" src="/images/thumb/5/5e/SPI_Flash_Winbond_25Q128FVSG.jpg/160px-SPI_Flash_Winbond_25Q128FVSG.jpg" width="160" height="142" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:SPI_Flash_Winbond_25Q128FVSG.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div></div></div></div>
+<p>This is a 128 Mbit chip. Supports the JEDEC ID (9Fh) command and returns the 0xEF4018 id. Also supports the Read SFDP (0x5A) command and returns:
+</p>
+<pre>
+00000000: 53 46 44 50 00 01 00 ff 00 00 01 09 80 00 00 ff  SFDP............
+00000010: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+00000020: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+00000030: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+00000040: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+00000050: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+00000060: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+00000070: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+00000080: e5 20 f1 ff ff ff ff 07 44 eb 08 6b 08 3b 42 bb  . ......D..k.;B.
+00000090: fe ff ff ff ff ff 00 00 ff ff 21 eb 0c 20 0f 52  ..........!.. .R
+000000a0: 10 d8 00 00 ff ff ff ff ff ff ff ff ff ff ff ff  ................
+000000b0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff  ................
+</pre>
+<p>It is conforming to the old JESD216 standard. This old standard can only specify write granularity as either 1 byte or 64 bytes, while we want to use full 256 bytes page size for better performance. So it makes sense to identify this chip using the JEDEC ID (9Fh) command and use the retrieved id for a table lookup.
+</p><p>Based on the information from the <a rel="nofollow" class="external text" href="http://www.winbond.com/resource-files/w25q128fv%20rev.l%2008242015.pdf">datasheet</a>, the Typical Page Program Time (256 bytes) is 0.7 ms and the Typical Block Erase Time (64 KiB) is 150 ms. Simple calculations show that the expected flashing speed would be
+</p>
+<pre>   1 / (0.7 ms / 256 bytes + 150 ms / 65536 bytes) = <b>~199 kB/s</b>.
+</pre>
+<p>Note that unlike the erasing/programming operation, reading speed is very fast for the NOR flash and is only limited by the SPI interface.
+</p>
+<h3> <span class="mw-headline" id="25Q128FV"> 25Q128FV </span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:162px;"><a href="/File:SPI_Flash_Noname_25Q128FV.jpg" class="image"><img alt="SPI Flash Noname 25Q128FV.jpg" src="/images/thumb/8/89/SPI_Flash_Noname_25Q128FV.jpg/160px-SPI_Flash_Noname_25Q128FV.jpg" width="160" height="150" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:SPI_Flash_Noname_25Q128FV.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div></div></div></div>
+<p>This is a noname 128 Mbit chip. Supports the JEDEC ID (9Fh) command and returns the 0xEF4018 id (the same as the Winbond 25Q128FVSG). Does not support the Read SFDP (0x5A) command, but other than this seems to be pretty much compatible.
+</p>
+<h2> <span class="mw-headline" id="See_also"> See also </span></h2>
+<ul><li> <a class="external text" href="https://en.wikipedia.org/wiki/Flash_memory#NOR_memories">Wikipedia on NOR flash</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.cypress.com/file/202606/download">Migrating from Winbond W25Q-FV, Micron N25Q-A, and Macronix M25L-F Devices to Cypress S25FL-L</a> (useful for checking the SPI commands compatibility overview)
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Bootable_SPI_flash&amp;oldid=17769">http://linux-sunxi.org/index.php?title=Bootable_SPI_flash&amp;oldid=17769</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Bootable+SPI+flash&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Bootable+SPI+flash" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Bootable_SPI_flash" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Bootable_SPI_flash&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Bootable_SPI_flash">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Bootable_SPI_flash&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Bootable_SPI_flash&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Bootable_SPI_flash" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Bootable_SPI_flash" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Bootable_SPI_flash&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Bootable_SPI_flash&amp;oldid=17769" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 26 June 2016, at 22:19.</li>
+<li id="footer-info-viewcount">This page has been accessed 1,802 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

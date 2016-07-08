@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Format Q8 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Format_Q8","wgTitle":"Format Q8","wgCurRevisionId":15170,"wgArticleId":1206,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tablet format"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Format_Q8","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Format_Q8"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Format_Q8 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Format Q8</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The 7" tablet format is a very popular case style which is/was used for the cheapest tablets from 2012 through 2014. The most distinctive feature is the front camera, which sides in the middle of the long side, and which protrudes slightly from the edge of the case. It was sold in many many different colours, from topaz blue to bright pink.
+</p><p>Like with most common tablet formats, the front is a fixed design, and the backside can be molded as requested. Some of these tablets even come with a second camera on the back.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Pictures"><span class="tocnumber">1</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Disassembly"><span class="tocnumber">2</span> <span class="toctext">Disassembly</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Known_Devices"><span class="tocnumber">3</span> <span class="toctext">Known Devices</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#A13_based"><span class="tocnumber">3.1</span> <span class="toctext">A13 based</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#A23_based"><span class="tocnumber">3.2</span> <span class="toctext">A23 based</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul><li> Black case (<a href="/Q8" title="Q8">Point Of View Mobii 703</a>)
+</li></ul>
+<ul class="gallery">
+<li class="gallerybox" style="width: 275px"><div style="width: 275px">
+<div class="thumb" style="width: 270px;"><div style="margin:15px auto;"><a href="/File:Point_of_view_mobii_703_front.jpg" class="image"><img alt="" src="/images/thumb/1/18/Point_of_view_mobii_703_front.jpg/171px-Point_of_view_mobii_703_front.jpg" width="171" height="120"/></a></div></div>
+<div class="gallerytext">
+<p>Front
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 275px"><div style="width: 275px">
+<div class="thumb" style="width: 270px;"><div style="margin:15px auto;"><a href="/File:Point_of_view_mobii_703_back.jpg" class="image"><img alt="" src="/images/thumb/8/8f/Point_of_view_mobii_703_back.jpg/181px-Point_of_view_mobii_703_back.jpg" width="181" height="120"/></a></div></div>
+<div class="gallerytext">
+<p>Back
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 275px"><div style="width: 275px">
+<div class="thumb" style="width: 270px;"><div style="margin:50px auto;"><a href="/File:Point_of_view_mobii_703_buttons_2.jpg" class="image"><img alt="" src="/images/thumb/f/fb/Point_of_view_mobii_703_buttons_2.jpg/240px-Point_of_view_mobii_703_buttons_2.jpg" width="240" height="50"/></a></div></div>
+<div class="gallerytext">
+<p>Top buttons
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 275px"><div style="width: 275px">
+<div class="thumb" style="width: 270px;"><div style="margin:50px auto;"><a href="/File:Point_of_view_mobii_703_buttons_1.jpg" class="image"><img alt="" src="/images/thumb/e/ef/Point_of_view_mobii_703_buttons_1.jpg/240px-Point_of_view_mobii_703_buttons_1.jpg" width="240" height="50"/></a></div></div>
+<div class="gallerytext">
+<p>Side buttons
+</p>
+</div>
+</div></li>
+</ul>
+<ul><li> White case (<a href="/Ippo_q8h" title="Ippo q8h">Ippo Q8H</a>)
+</li></ul>
+<ul class="gallery">
+<li class="gallerybox" style="width: 275px"><div style="width: 275px">
+<div class="thumb" style="width: 270px;"><div style="margin:15px auto;"><a href="/File:Ippo_q8h_front.jpg" class="image"><img alt="" src="/images/thumb/f/f6/Ippo_q8h_front.jpg/187px-Ippo_q8h_front.jpg" width="187" height="120"/></a></div></div>
+<div class="gallerytext">
+<p>Front
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 275px"><div style="width: 275px">
+<div class="thumb" style="width: 270px;"><div style="margin:15px auto;"><a href="/File:Ippo_q8h_back.jpg" class="image"><img alt="" src="/images/thumb/4/41/Ippo_q8h_back.jpg/187px-Ippo_q8h_back.jpg" width="187" height="120"/></a></div></div>
+<div class="gallerytext">
+<p>Back
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 275px"><div style="width: 275px">
+<div class="thumb" style="width: 270px;"><div style="margin:41px auto;"><a href="/File:Ippo_q8h_buttons_1.jpg" class="image"><img alt="" src="/images/thumb/7/76/Ippo_q8h_buttons_1.jpg/240px-Ippo_q8h_buttons_1.jpg" width="240" height="68"/></a></div></div>
+<div class="gallerytext">
+<p>Top buttons
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 275px"><div style="width: 275px">
+<div class="thumb" style="width: 270px;"><div style="margin:50.5px auto;"><a href="/File:Ippo_q8h_buttons_2.jpg" class="image"><img alt="" src="/images/thumb/d/d5/Ippo_q8h_buttons_2.jpg/240px-Ippo_q8h_buttons_2.jpg" width="240" height="49"/></a></div></div>
+<div class="gallerytext">
+<p>Side buttons
+</p>
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Disassembly"> Disassembly </span></h1>
+<p>Disassembly is very straightforward for Q8 style devices. The edge of the back cover needs to be pushed to the outside to release the clips. So put the device on its back and insert your <a href="/Plastic_tool" title="Plastic tool">plastic tool</a> in the outer edge. Start on the left or bottom edge(opposite corner to the buttons) and leave the upper-right corner for last. Push the outer casing away from the display, and you should soon hear the clips release. Be carefull not to tear off the microfone wires when separating the two sides of the tablet.
+</p>
+<h1> <span class="mw-headline" id="Known_Devices"> Known Devices </span></h1>
+<h2> <span class="mw-headline" id="A13_based"><a href="/A13" title="A13">A13</a> based</span></h2>
+<div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Along_A13Q8">Along A13Q8</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Forfun_Q88DB">Forfun Q88DB</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/HSG_H702">HSG H702</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Q8">Q8</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Q88">Q88</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Sencor_Element_7_V3">Sencor Element 7 V3</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/TZX-Q8-713B6">TZX-Q8-713B6</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/TZX-Q8-713B7">TZX-Q8-713B7</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/XW711">XW711</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+<h2> <span class="mw-headline" id="A23_based"><a href="/A23" title="A23">A23</a> based</span></h2>
+<div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs0 CategoryTreeLabelPage" href="/Ippo_q8h">Ippo q8h</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Format_Q8&amp;oldid=15170">http://linux-sunxi.org/index.php?title=Format_Q8&amp;oldid=15170</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tablet_format" title="Category:Tablet format">Tablet format</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Format+Q8&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Format+Q8" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Format_Q8" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Format_Q8&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Format_Q8">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Format_Q8&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Format_Q8&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Format_Q8" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Format_Q8" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Format_Q8&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Format_Q8&amp;oldid=15170" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 16 October 2015, at 04:43.</li>
+<li id="footer-info-viewcount">This page has been accessed 6,941 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.categoryTree","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

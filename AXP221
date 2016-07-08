@@ -1,0 +1,3194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>AXP221 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"AXP221","wgTitle":"AXP221","wgCurRevisionId":17226,"wgArticleId":1015,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["PMIC"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"AXP221","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/AXP221"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-AXP221 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">AXP221</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The <b>AXP221</b> is the PMIC (Power Management IC) used by <a href="/A31" title="A31">A31</a> <a href="/SoC" title="SoC" class="mw-redirect">SoCs</a> and developed by <a rel="nofollow" class="external text" href="http://www.x-powers.com">X-Powers</a>, a sister company of <a href="/Allwinner" title="Allwinner">Allwinner</a>.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview_.5B1.5D"><span class="tocnumber">1</span> <span class="toctext">Overview <sup>[1]</sup></span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Features_.5B1.5D"><span class="tocnumber">2</span> <span class="toctext">Features <sup>[1]</sup></span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Pinout_Diagram"><span class="tocnumber">3</span> <span class="toctext">Pinout Diagram</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Pinout_List"><span class="tocnumber">4</span> <span class="toctext">Pinout List</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Functional_Diagram"><span class="tocnumber">5</span> <span class="toctext">Functional Diagram</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Typical_Usage"><span class="tocnumber">6</span> <span class="toctext">Typical Usage</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Regulators"><span class="tocnumber">7</span> <span class="toctext">Regulators</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Interrupts"><span class="tocnumber">8</span> <span class="toctext">Interrupts</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Registers"><span class="tocnumber">9</span> <span class="toctext">Registers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Power_Control"><span class="tocnumber">9.1</span> <span class="toctext">Power Control</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#REG_00h:_Power_input_status"><span class="tocnumber">9.1.1</span> <span class="toctext">REG 00h: Power input status</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#REG_01h:_Power_operation_mode_and_charge_status"><span class="tocnumber">9.1.2</span> <span class="toctext">REG 01h: Power operation mode and charge status</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Reg_30h:_VBUS-IPSOUT_control"><span class="tocnumber">9.1.3</span> <span class="toctext">Reg 30h: VBUS-IPSOUT control</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#REG_31h:_Wake-up_control_and_VOFF_Shutdown_voltage_setting"><span class="tocnumber">9.1.4</span> <span class="toctext">REG 31h: Wake-up control and V<sub>OFF</sub> Shutdown voltage setting</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#REG_32h:_Shutdown_control.2C_battery_detection_and_CHGLED_pin_control"><span class="tocnumber">9.1.5</span> <span class="toctext">REG 32h: Shutdown control, battery detection and CHGLED pin control</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#REG_33h:_Charge_control_1"><span class="tocnumber">9.1.6</span> <span class="toctext">REG 33h: Charge control 1</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#REG_34h:_Charge_control_2"><span class="tocnumber">9.1.7</span> <span class="toctext">REG 34h: Charge control 2</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#REG_35h:_Charge_control_3"><span class="tocnumber">9.1.8</span> <span class="toctext">REG 35h: Charge control 3</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="#REG_36h:_PEK_button_parameters"><span class="tocnumber">9.1.9</span> <span class="toctext">REG 36h: PEK button parameters</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#REG_38h:_VLTF-charge_Battery_charging_low_temperature_threshold"><span class="tocnumber">9.1.10</span> <span class="toctext">REG 38h: V<sub>LTF-charge</sub> Battery charging low temperature threshold</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="#REG_39H:_VHTF-charge_Battery_charging_high_temperature_threshold"><span class="tocnumber">9.1.11</span> <span class="toctext">REG 39H: V<sub>HTF-charge</sub> Battery charging high temperature threshold</span></a></li>
+<li class="toclevel-3 tocsection-22"><a href="#REG_3Ch:_VLTF-charge_Battery_discharging_low_temperature_threshold"><span class="tocnumber">9.1.12</span> <span class="toctext">REG 3Ch: V<sub>LTF-charge</sub> Battery discharging low temperature threshold</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="#REG_3DH:_VHTF-charge_Battery_discharging_high_temperature_threshold"><span class="tocnumber">9.1.13</span> <span class="toctext">REG 3DH: V<sub>HTF-charge</sub> Battery discharging high temperature threshold</span></a></li>
+<li class="toclevel-3 tocsection-24"><a href="#REG_8Ah:_Timer_control"><span class="tocnumber">9.1.14</span> <span class="toctext">REG 8Ah: Timer control</span></a></li>
+<li class="toclevel-3 tocsection-25"><a href="#REG_8Ch:_PWREN_control_1"><span class="tocnumber">9.1.15</span> <span class="toctext">REG 8Ch: PWREN control 1</span></a></li>
+<li class="toclevel-3 tocsection-26"><a href="#REG_8Dh:_PWREN_control_2"><span class="tocnumber">9.1.16</span> <span class="toctext">REG 8Dh: PWREN control 2</span></a></li>
+<li class="toclevel-3 tocsection-27"><a href="#REG_8Fh:_Thermal_protection_and_misc._control"><span class="tocnumber">9.1.17</span> <span class="toctext">REG 8Fh: Thermal protection and misc. control</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-28"><a href="#Storage"><span class="tocnumber">9.2</span> <span class="toctext">Storage</span></a>
+<ul>
+<li class="toclevel-3 tocsection-29"><a href="#REG_04-0Fh:_Data_storage"><span class="tocnumber">9.2.1</span> <span class="toctext">REG 04-0Fh: Data storage</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-30"><a href="#Regulators_2"><span class="tocnumber">9.3</span> <span class="toctext">Regulators</span></a>
+<ul>
+<li class="toclevel-3 tocsection-31"><a href="#REG_10h:_Regulator_output_control"><span class="tocnumber">9.3.1</span> <span class="toctext">REG 10h: Regulator output control</span></a></li>
+<li class="toclevel-3 tocsection-32"><a href="#REG_12h:_Regulator_output_control"><span class="tocnumber">9.3.2</span> <span class="toctext">REG 12h: Regulator output control</span></a></li>
+<li class="toclevel-3 tocsection-33"><a href="#REG_13h:_Regulator_output_control"><span class="tocnumber">9.3.3</span> <span class="toctext">REG 13h: Regulator output control</span></a></li>
+<li class="toclevel-3 tocsection-34"><a href="#Reg_15h:_DLDO1_output_voltage"><span class="tocnumber">9.3.4</span> <span class="toctext">Reg 15h: DLDO1 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-35"><a href="#Reg_16h:_DLDO2_output_voltage"><span class="tocnumber">9.3.5</span> <span class="toctext">Reg 16h: DLDO2 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-36"><a href="#Reg_17h:_DLDO3_output_voltage"><span class="tocnumber">9.3.6</span> <span class="toctext">Reg 17h: DLDO3 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-37"><a href="#Reg_18h:_DLDO4_output_voltage"><span class="tocnumber">9.3.7</span> <span class="toctext">Reg 18h: DLDO4 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-38"><a href="#Reg_19h:_ELDO1_output_voltage"><span class="tocnumber">9.3.8</span> <span class="toctext">Reg 19h: ELDO1 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-39"><a href="#Reg_1Ah:_ELDO2_output_voltage"><span class="tocnumber">9.3.9</span> <span class="toctext">Reg 1Ah: ELDO2 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-40"><a href="#Reg_1Bh:_ELDO3_output_voltage"><span class="tocnumber">9.3.10</span> <span class="toctext">Reg 1Bh: ELDO3 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-41"><a href="#Reg_1Ch:_DC5LDO_output_voltage"><span class="tocnumber">9.3.11</span> <span class="toctext">Reg 1Ch: DC5LDO output voltage</span></a></li>
+<li class="toclevel-3 tocsection-42"><a href="#Reg_21h:_DC-DC1_output_voltage"><span class="tocnumber">9.3.12</span> <span class="toctext">Reg 21h: DC-DC1 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-43"><a href="#Reg_22h:_DC-DC2_output_voltage"><span class="tocnumber">9.3.13</span> <span class="toctext">Reg 22h: DC-DC2 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-44"><a href="#Reg_23h:_DC-DC3_output_voltage"><span class="tocnumber">9.3.14</span> <span class="toctext">Reg 23h: DC-DC3 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-45"><a href="#Reg_24h:_DC-DC4_output_voltage"><span class="tocnumber">9.3.15</span> <span class="toctext">Reg 24h: DC-DC4 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-46"><a href="#Reg_25h:_DC-DC5_output_voltage"><span class="tocnumber">9.3.16</span> <span class="toctext">Reg 25h: DC-DC5 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-47"><a href="#Reg_27h:_DC-DC_2.2F3_Voltage_Ramp_Control"><span class="tocnumber">9.3.17</span> <span class="toctext">Reg 27h: DC-DC 2/3 Voltage Ramp Control</span></a></li>
+<li class="toclevel-3 tocsection-48"><a href="#Reg_28h:_ALDO1_output_voltage"><span class="tocnumber">9.3.18</span> <span class="toctext">Reg 28h: ALDO1 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-49"><a href="#Reg_29h:_ALDO2_output_voltage"><span class="tocnumber">9.3.19</span> <span class="toctext">Reg 29h: ALDO2 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-50"><a href="#Reg_2Ah:_ALDO3_output_voltage"><span class="tocnumber">9.3.20</span> <span class="toctext">Reg 2Ah: ALDO3 output voltage</span></a></li>
+<li class="toclevel-3 tocsection-51"><a href="#Reg_37h:_DC-DC_operating_frequency"><span class="tocnumber">9.3.21</span> <span class="toctext">Reg 37h: DC-DC operating frequency</span></a></li>
+<li class="toclevel-3 tocsection-52"><a href="#REG_80h:_DC-DC_operation_mode"><span class="tocnumber">9.3.22</span> <span class="toctext">REG 80h: DC-DC operation mode</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-53"><a href="#Interrupts_2"><span class="tocnumber">9.4</span> <span class="toctext">Interrupts</span></a></li>
+<li class="toclevel-2 tocsection-54"><a href="#GPIO_controls"><span class="tocnumber">9.5</span> <span class="toctext">GPIO controls</span></a>
+<ul>
+<li class="toclevel-3 tocsection-55"><a href="#REG_90H:_GPIO0_function_control"><span class="tocnumber">9.5.1</span> <span class="toctext">REG 90H: GPIO0 function control</span></a></li>
+<li class="toclevel-3 tocsection-56"><a href="#REG_91h:_LDOIO0_voltage_control"><span class="tocnumber">9.5.2</span> <span class="toctext">REG 91h: LDO<sub>IO0</sub> voltage control</span></a></li>
+<li class="toclevel-3 tocsection-57"><a href="#REG_92H:_GPIO1_function_control"><span class="tocnumber">9.5.3</span> <span class="toctext">REG 92H: GPIO1 function control</span></a></li>
+<li class="toclevel-3 tocsection-58"><a href="#REG_93h:_LDOIO1_voltage_control"><span class="tocnumber">9.5.4</span> <span class="toctext">REG 93h: LDO<sub>IO1</sub> voltage control</span></a></li>
+<li class="toclevel-3 tocsection-59"><a href="#REG_94h:_GPIO_0.2F1_input"><span class="tocnumber">9.5.5</span> <span class="toctext">REG 94h: GPIO 0/1 input</span></a></li>
+<li class="toclevel-3 tocsection-60"><a href="#REG_95h:_GPIO_0.2F1_input_pull-down"><span class="tocnumber">9.5.6</span> <span class="toctext">REG 95h: GPIO 0/1 input pull-down</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-61"><a href="#ADC"><span class="tocnumber">9.6</span> <span class="toctext">ADC</span></a>
+<ul>
+<li class="toclevel-3 tocsection-62"><a href="#REG_82H:_ADC_Enable"><span class="tocnumber">9.6.1</span> <span class="toctext">REG 82H: ADC Enable</span></a></li>
+<li class="toclevel-3 tocsection-63"><a href="#REG_84h:_ADC_sampling_rate.2C_TS_pin_control"><span class="tocnumber">9.6.2</span> <span class="toctext">REG 84h: ADC sampling rate, TS pin control</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-64"><a href="#Fuel_Gauge"><span class="tocnumber">9.7</span> <span class="toctext">Fuel Gauge</span></a>
+<ul>
+<li class="toclevel-3 tocsection-65"><a href="#REG_B8h:_Fuel_Gauge_Control"><span class="tocnumber">9.7.1</span> <span class="toctext">REG B8h: Fuel Gauge Control</span></a></li>
+<li class="toclevel-3 tocsection-66"><a href="#REG_B9h:_Battery_Charge_Reading"><span class="tocnumber">9.7.2</span> <span class="toctext">REG B9h: Battery Charge Reading</span></a></li>
+<li class="toclevel-3 tocsection-67"><a href="#REG_E0h:_Battery_Capacity_Setting_1"><span class="tocnumber">9.7.3</span> <span class="toctext">REG E0h: Battery Capacity Setting 1</span></a></li>
+<li class="toclevel-3 tocsection-68"><a href="#REG_E1h:_Battery_Capacity_Setting_1"><span class="tocnumber">9.7.4</span> <span class="toctext">REG E1h: Battery Capacity Setting 1</span></a></li>
+<li class="toclevel-3 tocsection-69"><a href="#REG_E6h:_Battery_Low_Warning_Threshold_Setting_1"><span class="tocnumber">9.7.5</span> <span class="toctext">REG E6h: Battery Low Warning Threshold Setting 1</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-70"><a href="#Spec_Sheets"><span class="tocnumber">10</span> <span class="toctext">Spec Sheets</span></a></li>
+<li class="toclevel-1 tocsection-71"><a href="#References"><span class="tocnumber">11</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Overview_.5B1.5D"> Overview <sup id="cite_ref-x-powers_1-0" class="reference"><a href="#cite_note-x-powers-1">[1]</a></sup></span></h2>
+<p>AXP221 is a highly integrated PMIC targeted at single cell Li-battery (Li-ion or Li-polymer)
+applications that require multi-channel power conversion outputs. It provides an easy and
+flexible power management solution for multi-core processors to meet the increasingly complex
+and accurate requirements of power control.
+</p><p>AXP221 comes with an adaptive USB3.0-compatible Flash Charger that supports up to 94% efficiency
+and 2.2A charge current. It also provides 21 power output channels (including 5-CH DC-DC, with
+efficiency up to 95%). To ensure the security and stability of the power system, AXP221 provides
+multiple-channel 12-bit ADC for voltage/current/temperature monitoring and integrates protection
+circuits such as OVP, UVP, OTP, and OCP. Moreover, AXP221 integrates a unique E-Gauge™ system
+which simplifies battery power measurement.
+</p><p>Importantly, AXP221 also Featuress an IPS™ (Intelligent Power Select) circuit that transparently
+selects power path among USB, external adaptor, Li-battery, and system load, allowing the system
+to function normally when only running on external input power and not the battery.
+</p><p>AXP221 is available in 8mm x 8mm x 0.75mm 68-pin QFN package.
+</p>
+<h2> <span class="mw-headline" id="Features_.5B1.5D"> Features <sup id="cite_ref-x-powers_1-1" class="reference"><a href="#cite_note-x-powers-1">[1]</a></sup> </span></h2>
+<ul><li> IPS™
+</li></ul>
+<dl><dd><ul><li> Input voltage range: 2.9V~6.3V (AMR: -0.3V~11V)
+</li><li> Configurable IPS™ system
+</li><li> Adaptive USB/AC adaptor voltage/current limit (4.4V/900mA/500mA)
+</li></ul>
+</dd></dl>
+<ul><li> Buck DC-DC Converters (5-CH)
+</li></ul>
+<dl><dd><ul><li> DC-DC1: 1.6V~3.4V adjustable, 100mV/step, load current up to 1.4A
+</li><li> DC-DC2: 0.6V~1.54V adjustable, 20mV/step, load current up to 2.5A, supports VRC (Voltage Ramp Control)
+</li><li> DC-DC3: 0.6V-1.86V adjustable, 20mV/step, load current up to 2.5A
+</li><li> DC-DC4: 0.6V-1.54V adjustable, 20mV/step, load current up to 0.6A
+</li><li> DC-DC5: 1.0V-2.55V adjustable, 50mV/step, load current up to 2A
+</li></ul>
+</dd></dl>
+<ul><li> System Management
+</li></ul>
+<dl><dd><ul><li> Support soft reset and hard reset
+</li><li> Support soft shutdown and hard shutdown
+</li><li> Support external wakeup triggers
+</li><li> Support PWROK for system rest or shutdown indication
+</li><li> External power detection (insert/remove/drive strength deficiency)
+</li><li> All output voltage support software boot
+</li><li> Over/Under-voltage protection (OVP/UVP)
+</li><li> Over-current protection (OCP)
+</li><li> Over-temperature protection (OTP)
+</li></ul>
+</dd></dl>
+<ul><li> E-Gauge™ System
+</li></ul>
+<dl><dd><ul><li> Highly accurate gauge system with dual modes
+</li><li> Easy Mode: highly adaptive to different powers
+</li><li> Exact Mode: highly accurate data is provided for specific power
+</li><li> Provide rich power information, such as instantaneous power consumption (mA or mW), remaining power (% or mA), charge status (%), remaining power life, charge time, etc
+</li><li> Low power warning and low power protection
+</li><li> Provide die temperature
+</li></ul>
+</dd></dl>
+<ul><li> High Integration
+</li></ul>
+<dl><dd><ul><li> Highly accurate (0.5%) reference voltage
+</li><li> Integrates MOSFET
+</li></ul>
+</dd></dl>
+<ul><li> Flash Charger
+</li></ul>
+<dl><dd><ul><li> Integrated MOSFET charge current up to 2.2A
+</li><li> Battery temperature monitor
+</li><li> Fully supports USB charge
+</li><li> High charge accuracy, ±0.5% accuracy
+</li><li> Supports 4.1V/4.2V/4.22V/4.24V battery
+</li><li> Automatic charge control
+</li><li> Supports LED to indicate charge status
+</li><li> Automatic charge current adjustment based on system load
+</li></ul>
+</dd></dl>
+<ul><li> LDOs (14-CH)
+</li></ul>
+<dl><dd><ul><li> RTC_VCC: 30mA, always valid
+</li><li> ALDO1/2: low noise LDO, 0.7V~3.3V adjustable, 100mV/step, load current up to 300mA
+</li><li> ALDO3: low noise LDO, 0.7V~3.3V adjustable, 100mV/step, load current up to 200mA
+</li><li> LDOIO0/LDOIO1: low noise LDO, 0.7V~3.3V adjustable, 100mV/step, load current up to 100mA
+</li><li> DLDO1/ ELDO1: 0.7~3.3V adjustable, 100mV/step, load current up to 400mA
+</li><li> DLDO2/ DLDO3/ ELDO2/ ELDO3: 0.7~3.3V adjustable, 100mV/step, load current up to 200mA
+</li><li> DLDO4: 0.7V~3.3V adjustable, 100mV/step, load current up to 100mA
+</li><li> DC5LDO: 0.7V~1.4V adjustable, 100mV/step, load current up to 200mA
+</li></ul>
+</dd></dl>
+<ul><li> Switch (2-CH)
+</li></ul>
+<dl><dd><ul><li> DC1SW: internal resistance 100mOhm, power sourced from DCDC1
+</li><li> CHGLED:100mA sink strength, can be used to drive the motor and charging LED
+</li></ul>
+</dd></dl>
+<ul><li> Host Interface
+</li></ul>
+<dl><dd><ul><li> P2WI (Push-Pull Two Wire Interface) for host communication
+</li><li> Configurable interrupt management
+</li><li> Flexible pin function configuration: 2 GPIOs can be set as IO or LDO, etc
+</li><li> Integrated timer
+</li><li> 12 groups of registers for system shutdown data storage
+</li></ul>
+</dd></dl>
+<h2> <span class="mw-headline" id="Pinout_Diagram"> Pinout Diagram </span></h2>
+<p><a href="/File:AXP221_pin_diagram.png" class="image" title="basic"><img alt="basic" src="/images/f/f5/AXP221_pin_diagram.png" width="800" height="786"/></a>
+</p>
+<h2> <span class="mw-headline" id="Pinout_List"> Pinout List </span></h2>
+<table class="wikitable">
+<tr>
+<th> Number </th>
+<th> Pin Name </th>
+<th> Type </th>
+<th> Control Criteria </th>
+<th> Description
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> ELDOIN </td>
+<td> PI </td>
+<td> </td>
+<td> ELDO Input Source
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> ELDO2 </td>
+<td> O </td>
+<td> </td>
+<td> ELDO2 Output
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> ELDO3 </td>
+<td> O </td>
+<td> </td>
+<td> ELDO3 Output
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> DC5LDO </td>
+<td> O </td>
+<td> </td>
+<td> DC5LDO Output
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> DCDC5 </td>
+<td> I </td>
+<td> </td>
+<td> DC-DC5 Feedback
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> PGND5 </td>
+<td> G </td>
+<td> </td>
+<td> DC-DC5 NMOS ground
+</td></tr>
+<tr>
+<td> 7,8 </td>
+<td> LX5 </td>
+<td> IO </td>
+<td> </td>
+<td> DC-DC5 Inductor
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> VIN5 </td>
+<td> PI </td>
+<td> </td>
+<td> DC-DC5 Input Source
+</td></tr>
+<tr>
+<td> 10 </td>
+<td> DC5SET </td>
+<td> I </td>
+<td> </td>
+<td> Set DC-DC5 output voltage
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> N_VBUSEN </td>
+<td> IO </td>
+<td> Input </td>
+<td> VBUS-IPSOUT channel control
+<pre>Connected to GND: IPSOUT uses VBUS
+Connected to IPSOUT: IPSOUT does not use VBUS
+</pre>
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> N_VBUSEN </td>
+<td> IO </td>
+<td> Output </td>
+<td> VBUS-IPSOUT channel control
+<pre>GND: IPSOUT uses VBUS:
+High: IPSOUT does not use VBUS
+</pre>
+</td></tr>
+<tr>
+<td> 12 </td>
+<td> PWRON </td>
+<td> I </td>
+<td> </td>
+<td> Power On-Off key (PEK) input, Internal 100kΩ pull-up resistor to APS
+</td></tr>
+<tr>
+<td> 13 </td>
+<td> VIN1 </td>
+<td> PI </td>
+<td> </td>
+<td> DC-DC1 Input Source
+</td></tr>
+<tr>
+<td> 14 </td>
+<td> LX1 </td>
+<td> IO </td>
+<td> </td>
+<td> DC-DC1 Inductor
+</td></tr>
+<tr>
+<td> 15 </td>
+<td> PGND1 </td>
+<td> G </td>
+<td> </td>
+<td> DC-DC1 NMOS ground
+</td></tr>
+<tr>
+<td> 16 </td>
+<td> DLDO3 </td>
+<td> O </td>
+<td> </td>
+<td> DLDO3 Output
+</td></tr>
+<tr>
+<td> 17 </td>
+<td> DLDO2 </td>
+<td> O </td>
+<td> </td>
+<td> DLDO2 Output
+</td></tr>
+<tr>
+<td> 18 </td>
+<td> DLDOIN </td>
+<td> PI </td>
+<td> </td>
+<td> DLDO Input Source
+</td></tr>
+<tr>
+<td> 19 </td>
+<td> DLDO1 </td>
+<td> O </td>
+<td> </td>
+<td> DLDO1 Output
+</td></tr>
+<tr>
+<td> 20 </td>
+<td> DLDO4 </td>
+<td> O </td>
+<td> </td>
+<td> DLDO4 Output
+</td></tr>
+<tr>
+<td> 21 </td>
+<td> DCDC1 </td>
+<td> I </td>
+<td> </td>
+<td> DC-DC1 Feedback
+</td></tr>
+<tr>
+<td> 22 </td>
+<td> DC1SW </td>
+<td> O </td>
+<td> </td>
+<td> DC-DC1 Switch output
+</td></tr>
+<tr>
+<td> 23 </td>
+<td> VIN2 </td>
+<td> PI </td>
+<td> </td>
+<td> DC-DC2 Input Source
+</td></tr>
+<tr>
+<td> 24,25 </td>
+<td> LX2 </td>
+<td> IO </td>
+<td> </td>
+<td> DC-DC2 Inductor
+</td></tr>
+<tr>
+<td> 26,27 </td>
+<td> PGND2 </td>
+<td> G </td>
+<td> </td>
+<td> DC-DC2 NMOS ground
+</td></tr>
+<tr>
+<td> 28 </td>
+<td> DCDC2 </td>
+<td> I </td>
+<td> </td>
+<td> DC-DC2 Feedback
+</td></tr>
+<tr>
+<td> 29 </td>
+<td> IRQ/WAKEUP </td>
+<td> IO </td>
+<td> </td>
+<td> IRQ output or wakeup
+</td></tr>
+<tr>
+<td> 30 </td>
+<td> TS </td>
+<td> I </td>
+<td> </td>
+<td> Battery temperature sensor or external ADC input
+</td></tr>
+<tr>
+<td> 31 </td>
+<td> GPIO1 </td>
+<td> IO </td>
+<td> Reg 92h [2:0] </td>
+<td> GPIO1 / LDO<sub>IO0</sub> output
+</td></tr>
+<tr>
+<td> 32 </td>
+<td> ALDO1 </td>
+<td> O </td>
+<td> </td>
+<td> ALDO1 Output
+</td></tr>
+<tr>
+<td> 33 </td>
+<td> ALDOIN </td>
+<td> PI </td>
+<td> </td>
+<td> ALDO Input Source
+</td></tr>
+<tr>
+<td> 34 </td>
+<td> ALDO2 </td>
+<td> O </td>
+<td> </td>
+<td> ALDO2 Output
+</td></tr>
+<tr>
+<td> 35 </td>
+<td> VREF </td>
+<td> I </td>
+<td> </td>
+<td> Internal reference voltage
+</td></tr>
+<tr>
+<td> 36 </td>
+<td> ALDO3 </td>
+<td> O </td>
+<td> </td>
+<td> ALDO3 Output
+</td></tr>
+<tr>
+<td> 37 </td>
+<td> GPIO0 </td>
+<td> IO </td>
+<td> Reg 90h [2:0] </td>
+<td> GPIO0 / LDO<sub>IO0</sub> output
+</td></tr>
+<tr>
+<td> 38 </td>
+<td> DCDC3 </td>
+<td> I </td>
+<td> </td>
+<td> DC-DC3 Feedback
+</td></tr>
+<tr>
+<td> 39 </td>
+<td> VIN3 </td>
+<td> PI </td>
+<td> </td>
+<td> DC-DC3 Input Source
+</td></tr>
+<tr>
+<td> 40,41 </td>
+<td> LX3 </td>
+<td> IO </td>
+<td> </td>
+<td> DC-DC3 Inductor
+</td></tr>
+<tr>
+<td> 42 </td>
+<td> PGND3 </td>
+<td> G </td>
+<td> </td>
+<td> DC-DC3 NMOS ground
+</td></tr>
+<tr>
+<td> 43 </td>
+<td> PWROK </td>
+<td> O </td>
+<td> </td>
+<td> Power good indicator
+</td></tr>
+<tr>
+<td> 44 </td>
+<td> SCK </td>
+<td> I </td>
+<td> </td>
+<td> Serial interface clock pin. Normally pulled-up to 3.3V by 2.2k resistor
+</td></tr>
+<tr>
+<td> 45 </td>
+<td> SDA </td>
+<td> IO </td>
+<td> </td>
+<td> Serial interface data pin. Normally pulled-up to 3.3V by 2.2k resistor
+</td></tr>
+<tr>
+<td> 46 </td>
+<td> VCC_RTC </td>
+<td> O </td>
+<td> </td>
+<td> VCC_RTC output
+</td></tr>
+<tr>
+<td> 47 </td>
+<td> VINT </td>
+<td> PO </td>
+<td> </td>
+<td> Internal logic power, 1.8V
+</td></tr>
+<tr>
+<td> 48 </td>
+<td> VBUS </td>
+<td> PI </td>
+<td> </td>
+<td> VBUS input
+</td></tr>
+<tr>
+<td> 49 </td>
+<td> BATSENSE </td>
+<td> I </td>
+<td> </td>
+<td> PWM Charger current sense resistance positive input
+</td></tr>
+<tr>
+<td> 50 </td>
+<td> LOADSENSE </td>
+<td> I </td>
+<td> </td>
+<td> PWM Charger current sense resistance negative input
+</td></tr>
+<tr>
+<td> 51 </td>
+<td> N_BATDRV </td>
+<td> O </td>
+<td> </td>
+<td> BAT to PS external PMOS driver
+</td></tr>
+<tr>
+<td> 52 </td>
+<td> CHGLED </td>
+<td> O </td>
+<td> </td>
+<td> Charger status indicator
+</td></tr>
+<tr>
+<td> 53,54 </td>
+<td> IPSOUT </td>
+<td> PO </td>
+<td> </td>
+<td> System power source
+</td></tr>
+<tr>
+<td> 55,56 </td>
+<td> ACIN </td>
+<td> PI </td>
+<td> </td>
+<td> Power adapter input
+</td></tr>
+<tr>
+<td> 57 </td>
+<td> CHSENSEP </td>
+<td> I </td>
+<td> </td>
+<td> PWM Charger current limit sense resistance positive input
+</td></tr>
+<tr>
+<td> 58 </td>
+<td> CHSENSEN </td>
+<td> I </td>
+<td> </td>
+<td> PWM Charger current limit sense resistance negative input
+</td></tr>
+<tr>
+<td> 59 </td>
+<td> PGND_CHG </td>
+<td> G </td>
+<td> </td>
+<td> PWM Charger NMOS ground
+</td></tr>
+<tr>
+<td> 60,61 </td>
+<td> LX_CHG </td>
+<td> IO </td>
+<td> </td>
+<td> PWM Charger Inductor
+</td></tr>
+<tr>
+<td> 62,63 </td>
+<td> VIN_CHG </td>
+<td> PI </td>
+<td> </td>
+<td> PWM Charger Input Source
+</td></tr>
+<tr>
+<td> 64 </td>
+<td> VIN4 </td>
+<td> PI </td>
+<td> </td>
+<td> DC-DC4 Input Source
+</td></tr>
+<tr>
+<td> 65 </td>
+<td> LX4 </td>
+<td> IO </td>
+<td> </td>
+<td> DC-DC4 Inductor
+</td></tr>
+<tr>
+<td> 66 </td>
+<td> PGND4 </td>
+<td> G </td>
+<td> </td>
+<td> DC-DC4 NMOS ground
+</td></tr>
+<tr>
+<td> 67 </td>
+<td> DCDC4 </td>
+<td> I </td>
+<td> </td>
+<td> DC-DC4 Feedback
+</td></tr>
+<tr>
+<td> 68 </td>
+<td> ELDO1 </td>
+<td> O </td>
+<td> </td>
+<td> ELDO1 Output
+</td></tr>
+<tr>
+<td> 69 </td>
+<td> EP </td>
+<td> G </td>
+<td> </td>
+<td> Exposed Pad, need to connect to ground
+</td></tr></table>
+<h2> <span class="mw-headline" id="Functional_Diagram"> Functional Diagram </span></h2>
+<p><a href="/File:AXP221_functional_block_diagram.png" class="image" title="basic"><img alt="basic" src="/images/8/8c/AXP221_functional_block_diagram.png" width="744" height="1152"/></a>
+</p>
+<h2> <span class="mw-headline" id="Typical_Usage"> Typical Usage </span></h2>
+<p><a href="/File:AXP221_typical_usage.png" class="image"><img alt="AXP221 typical usage.png" src="/images/c/cf/AXP221_typical_usage.png" width="750" height="1182"/></a>
+</p>
+<h2> <span class="mw-headline" id="Regulators"> Regulators </span></h2>
+<p>The AXP221 features 5 DC-DC step-down (buck) converters, 14 linear regulators (5 of which are low-noise), and 2 switches.
+The DC-DC converters operate in automatic (PFM + PWM) or PWM mode, controllable via reg 80h, at a default frequency of 3 MHz.
+The frequency is controlled via reg 37h. It also supports spread spectrum.
+</p>
+<table class="wikitable sortable">
+<tr>
+<th> Output </th>
+<th> Type </th>
+<th> Voltage Range </th>
+<th> Default Voltage </th>
+<th> Enable steps </th>
+<th> Example Usage </th>
+<th> Maximum Output </th>
+<th> Note
+</th></tr>
+<tr>
+<td> DCDC1 </td>
+<td> Buck </td>
+<td> 1.6 - 3.4 V </td>
+<td> 3.3 V </td>
+<td> 1 </td>
+<td> 3.3V I/O </td>
+<td> 1400 mA
+</td></tr>
+<tr>
+<td> DCDC2 </td>
+<td> Buck </td>
+<td> 0.6 - 1.53 V </td>
+<td> 1.1 V </td>
+<td> 1 </td>
+<td> 1.1V CPU </td>
+<td> 2500 mA
+</td></tr>
+<tr>
+<td> DCDC3 </td>
+<td> Buck </td>
+<td> 0.6 - 1.86 V </td>
+<td> 1.1 V </td>
+<td> 1 </td>
+<td> 1.1V GPU </td>
+<td> 2500 mA
+</td></tr>
+<tr>
+<td> DCDC4 </td>
+<td> Buck </td>
+<td> 0.6 - 1.53 V </td>
+<td> 1.1 V </td>
+<td> 1 </td>
+<td> 1.1V Core </td>
+<td> 600 mA
+</td></tr>
+<tr>
+<td> DCDC5 </td>
+<td> Buck </td>
+<td> 1.0 - 2.55 V </td>
+<td> 1.5 V </td>
+<td> 1 </td>
+<td> 1.5V DDR3 </td>
+<td> 2000 mA </td>
+<td> DC5SET pin configurable default
+</td></tr>
+<tr>
+<td> RTC-LDO </td>
+<td> LDO </td>
+<td> Fixed </td>
+<td> 3.0 V </td>
+<td> 1 </td>
+<td> RTC </td>
+<td> 30 mA </td>
+<td> Always on
+</td></tr>
+<tr>
+<td> ALDO1 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 300 mA </td>
+<td> Low noise
+</td></tr>
+<tr>
+<td> ALDO2 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> 1.8 V </td>
+<td> 1 </td>
+<td> N/A </td>
+<td> 300 mA </td>
+<td> Low noise
+</td></tr>
+<tr>
+<td> ALDO3 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> 3.0 V </td>
+<td> 1 </td>
+<td> N/A </td>
+<td> 200 mA </td>
+<td> Low noise
+</td></tr>
+<tr>
+<td> LDO<sub>IO0</sub> </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 100 mA </td>
+<td> Low noise, output on GPIO0
+</td></tr>
+<tr>
+<td> LDO<sub>IO1</sub> </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 100 mA </td>
+<td> Low noise, output on GPIO1
+</td></tr>
+<tr>
+<td> DLDO1 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 400 mA
+</td></tr>
+<tr>
+<td> DLDO2 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 200 mA
+</td></tr>
+<tr>
+<td> DLDO3 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 200 mA
+</td></tr>
+<tr>
+<td> DLDO4 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 200 mA
+</td></tr>
+<tr>
+<td> ELDO1 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 400 mA
+</td></tr>
+<tr>
+<td> ELDO2 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 200 mA
+</td></tr>
+<tr>
+<td> ELDO3 </td>
+<td> LDO </td>
+<td> 0.7 - 3.3 V </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 200 mA
+</td></tr>
+<tr>
+<td> DC5LDO </td>
+<td> LDO </td>
+<td> 0.7 - 1.4 V </td>
+<td> 1.1 V </td>
+<td> 1 </td>
+<td> N/A </td>
+<td> 200 mA </td>
+<td> Powered from DCDC5
+</td></tr>
+<tr>
+<td> DC1SW </td>
+<td> Switch </td>
+<td> Fixed to DCDC1 </td>
+<td> Off </td>
+<td> Off </td>
+<td> N/A </td>
+<td> 400 mA </td>
+<td> Powered from DCDC1, equivalent resistance is 160 mΩ
+</td></tr></table>
+<h2> <span class="mw-headline" id="Interrupts"> Interrupts </span></h2>
+<p>This section corresponds to section 9.8 in the datasheet.
+</p><p>The AXP221 pulls the IRQ pin low to signal an interrupt to the host, and stores the interrupt status
+in the interrupt status registers (48h ~ 4Ch). Writing 1 to the corresponding bit clears the interrupt.
+When there are no interrupts, the IRQ pin is pulled up (by an external 51KΩ resistor).
+Each interrupt can be masked via the interrupt control registers (40h ~ 44h).
+</p>
+<table class="wikitable" align="center" style="text-align: center;">
+<tr>
+<th colspan="3" style="text-align: center;"> Register Address
+</th>
+<th colspan="3" style="text-align: center;">
+</th></tr>
+<tr>
+<th> Control </th>
+<th> Status </th>
+<th> Bit </th>
+<th> Interrupt # </th>
+<th> Description </th>
+<th> Notes
+</th></tr>
+<tr>
+<td> 40h </td>
+<td> 48h </td>
+<td> [7] </td>
+<td> IRQ 1 </td>
+<td> ACIN over voltage
+</td></tr>
+<tr>
+<td> 40h </td>
+<td> 48h </td>
+<td> [6] </td>
+<td> IRQ 2 </td>
+<td> ACIN connected
+</td></tr>
+<tr>
+<td> 40h </td>
+<td> 48h </td>
+<td> [5] </td>
+<td> IRQ 3 </td>
+<td> ACIN removed
+</td></tr>
+<tr>
+<td> 40h </td>
+<td> 48h </td>
+<td> [4] </td>
+<td> IRQ 4 </td>
+<td> VBUS over voltage
+</td></tr>
+<tr>
+<td> 40h </td>
+<td> 48h </td>
+<td> [3] </td>
+<td> IRQ 5 </td>
+<td> VBUS connected
+</td></tr>
+<tr>
+<td> 40h </td>
+<td> 48h </td>
+<td> [2] </td>
+<td> IRQ 6 </td>
+<td> VBUS removed
+</td></tr>
+<tr>
+<td> 40h </td>
+<td> 48h </td>
+<td> [1] </td>
+<td> IRQ 7 </td>
+<td> V<sub>VBUS</sub> &lt; V<sub>HOLD</sub> </td>
+<td> V<sub>HOLD</sub> defaults to 4.4V, controlled via reg 30h [3:5]
+</td></tr>
+<tr>
+<td> 40h </td>
+<td> 48h </td>
+<td> [0]
+</td></tr>
+<tr>
+<td> 41h </td>
+<td> 49h </td>
+<td> [7] </td>
+<td> IRQ 8 </td>
+<td> Battery connected
+</td></tr>
+<tr>
+<td> 41h </td>
+<td> 49h </td>
+<td> [6] </td>
+<td> IRQ 9 </td>
+<td> Battery removed
+</td></tr>
+<tr>
+<td> 41h </td>
+<td> 49h </td>
+<td> [5] </td>
+<td> IRQ 10 </td>
+<td> Battery discharging
+</td></tr>
+<tr>
+<td> 41h </td>
+<td> 49h </td>
+<td> [4] </td>
+<td> IRQ 11 </td>
+<td> Battery discharge stopped
+</td></tr>
+<tr>
+<td> 41h </td>
+<td> 49h </td>
+<td> [3] </td>
+<td> IRQ 12 </td>
+<td> Battery charging
+</td></tr>
+<tr>
+<td> 41h </td>
+<td> 49h </td>
+<td> [2] </td>
+<td> IRQ 13 </td>
+<td> Battery charge complete
+</td></tr>
+<tr>
+<td> 41h </td>
+<td> 49h </td>
+<td> [1] </td>
+<td> IRQ 14 </td>
+<td> Battery temperature too high </td>
+<td> see reg 39h (charge) and 3Dh (discharge)
+</td></tr>
+<tr>
+<td> 41h </td>
+<td> 49h </td>
+<td> [0] </td>
+<td> IRQ 15 </td>
+<td> Battery temperature too low </td>
+<td> see reg 38h (charge) and 3Ch (discharge)
+</td></tr>
+<tr>
+<td> 42h </td>
+<td> 4Ah </td>
+<td> [7] </td>
+<td> IRQ 16 </td>
+<td> IC overheat
+</td></tr>
+<tr>
+<td> 42h </td>
+<td> 4Ah </td>
+<td> [6] </td>
+<td> IRQ 17 </td>
+<td> Insufficient charging current </td>
+<td> The PMIC raises this interrupt when charging current is lower than 65% of the default
+</td></tr>
+<tr>
+<td> 42h </td>
+<td> 4Ah </td>
+<td> [5]
+</td></tr>
+<tr>
+<td> 42h </td>
+<td> 4Ah </td>
+<td> [4]
+</td></tr>
+<tr>
+<td> 42h </td>
+<td> 4Ah </td>
+<td> [3]
+</td></tr>
+<tr>
+<td> 42h </td>
+<td> 4Ah </td>
+<td> [2]
+</td></tr>
+<tr>
+<td> 42h </td>
+<td> 4Ah </td>
+<td> [1] </td>
+<td> IRQ 18 </td>
+<td> PEK short press </td>
+<td> See reg e6h
+</td></tr>
+<tr>
+<td> 42h </td>
+<td> 4Ah </td>
+<td> [0] </td>
+<td> IRQ 19 </td>
+<td> PEK long press </td>
+<td> See reg 36h
+</td></tr>
+<tr>
+<td> 43h </td>
+<td> 4Bh </td>
+<td> [7]
+</td></tr>
+<tr>
+<td> 43h </td>
+<td> 4Bh </td>
+<td> [6]
+</td></tr>
+<tr>
+<td> 43h </td>
+<td> 4Bh </td>
+<td> [5]
+</td></tr>
+<tr>
+<td> 43h </td>
+<td> 4Bh </td>
+<td> [4]
+</td></tr>
+<tr>
+<td> 43h </td>
+<td> 4Bh </td>
+<td> [3]
+</td></tr>
+<tr>
+<td> 43h </td>
+<td> 4Bh </td>
+<td> [2]
+</td></tr>
+<tr>
+<td> 43h </td>
+<td> 4Bh </td>
+<td> [1] </td>
+<td> IRQ 20 </td>
+<td> Battery low warning 1 </td>
+<td> warning, see reg E6h
+</td></tr>
+<tr>
+<td> 43h </td>
+<td> 4Bh </td>
+<td> [0] </td>
+<td> IRQ 21 </td>
+<td> Battery low warning 2 </td>
+<td> power off, see reg E6h
+</td></tr>
+<tr>
+<td> 44h </td>
+<td> 4Ch </td>
+<td> [7] </td>
+<td> IRQ 22 </td>
+<td> Timer expired </td>
+<td> See reg 8Ah
+</td></tr>
+<tr>
+<td> 44h </td>
+<td> 4Ch </td>
+<td> [6] </td>
+<td> IRQ 23 </td>
+<td> PEK rising edge
+</td></tr>
+<tr>
+<td> 44h </td>
+<td> 4Ch </td>
+<td> [5] </td>
+<td> IRQ 24 </td>
+<td> PEK falling edge
+</td></tr>
+<tr>
+<td> 44h </td>
+<td> 4Ch </td>
+<td> [4]
+</td></tr>
+<tr>
+<td> 44h </td>
+<td> 4Ch </td>
+<td> [3]
+</td></tr>
+<tr>
+<td> 44h </td>
+<td> 4Ch </td>
+<td> [2]
+</td></tr>
+<tr>
+<td> 44h </td>
+<td> 4Ch </td>
+<td> [1] </td>
+<td> IRQ 25 </td>
+<td> GPIO 1 edge trigger </td>
+<td> See reg 91h
+</td></tr>
+<tr>
+<td> 44h </td>
+<td> 4Ch </td>
+<td> [0] </td>
+<td> IRQ 26 </td>
+<td> GPIO 0 edge trigger </td>
+<td> See reg 90h
+</td></tr>
+</table>
+<h2> <span class="mw-headline" id="Registers"> Registers </span></h2>
+<h3> <span class="mw-headline" id="Power_Control"> Power Control </span></h3>
+<h4> <span class="mw-headline" id="REG_00h:_Power_input_status"> REG 00h: Power input status </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> ACIN presence
+<p>0: ACIN not present
+1: ACIN present
+</p>
+</td>
+<td> R
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> Indicates whether ACIN is usable </td>
+<td> R
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> VBUS presence
+<p>0: VBUS not present; 1: VBUS present
+</p>
+</td>
+<td> R
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> Indicates whether VBUS is usable </td>
+<td> R
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> Indicates whether VBUS was V<sub>HOLD</sub> before use </td>
+<td> R
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> Indicates the battery current direction
+<p>0: battery discharging; 1: battery charging
+</p>
+</td>
+<td> R
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> Indicates whether ACIN and VBUS input are shorted on the PCB </td>
+<td> R
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> Indicates starting power is ACIN or VBUS
+<p>0: Start power source is not ACIN / VBUS&#160;; 1: Starting power source ACIN / VBUS
+</p>
+</td>
+<td> R
+</td></tr>
+</table>
+<h4> <span class="mw-headline" id="REG_01h:_Power_operation_mode_and_charge_status"> REG 01h: Power operation mode and charge status </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Indicates whether AXP221 is overheating
+<p>0: normal; 1: overheating
+</p>
+</td>
+<td> R
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> Charging indicator
+<p>0: not charging or charging complete; 1: Charging
+</p>
+</td>
+<td> R
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> Battery existence
+<p>0: no battery connected to AXP209; 1: the battery has been connected to the AXP209
+</p>
+</td>
+<td>R
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> Reserved
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> Battery discharge indicator
+<p>0: Battery not discharging; 1: battery discharging
+</p>
+</td>
+<td> R
+</td></tr>
+<tr>
+<td> 2-0 </td>
+<td>Reserved
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_30h:_VBUS-IPSOUT_control"> Reg 30h: VBUS-IPSOUT control </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> VBUS-IPSOUT path control when VBUS available
+<p>0: N_VBUSEN ​​pin decide whether to enable this path
+1: VBUS-IPSOUT enabled regardless of N_VBUSEN ​​pin
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> VBUS V<sub>HOLD</sub> voltage limiting </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 5-3 </td>
+<td> V<sub>HOLD</sub> = [4.0 + (Bit5-3) * 0.1] V </td>
+<td> RW </td>
+<td> 100
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> DRIVEVBUS output status 0: low; 1: IPSOUT </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1-0 </td>
+<td> VBUS current limit control open time limit stream selection
+<p>00:900 mA; 01: 500 mA; 1x: not limit
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_31h:_Wake-up_control_and_VOFF_Shutdown_voltage_setting"> REG 31h: Wake-up control and V<sub>OFF</sub> Shutdown voltage setting </span></h4>
+<p>Default value: 03H
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> PWROK pulled down during wakeup </td>
+<td> 0: no; 1: yes</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> soft-reset </td>
+<td> write 1 to reset PMU; auto-cleared </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> soft-wakeup </td>
+<td> write 1 to restore outputs; auto-cleared </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> IRQs trigger wake-up </td>
+<td>
+<pre>0: IRQs trigger wake-up, IRQs masked after wake-up
+1: IRQs normal operation, will not trigger wake-up
+</pre>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> Enable wake-up during sleep mode; auto-cleared </td>
+<td>
+<pre>0: off
+1: on
+</pre>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 2-0 </td>
+<td> V<sub>OFF</sub> setting </td>
+<td> V<sub>OFF</sub> = [2.6 + (Bit2-0) * 0.1] V; Default: 2.9V </td>
+<td> RW </td>
+<td> 011
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_32h:_Shutdown_control.2C_battery_detection_and_CHGLED_pin_control"> REG 32h: Shutdown control, battery detection and CHGLED pin control </span></h4>
+<p>Default value: 43h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Shutdown; Writing 1 turns off AXP221, except RTC and charger </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> Enable battery monitoring </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 5-4 </td>
+<td> CHGLED pin function
+<p>00: Hi-Z
+01: 25% 1Hz blinking
+10: 25% 4Hz blinking
+11: output low
+</p>
+</td>
+<td> RW </td>
+<td> 00
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> CHGLED pin control
+<p>0: controlled by REG 32h [5:4]
+1: control by charging function
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> Output power off sequence
+<p>0: Turn off all outputs at the same time
+1: Reverse of power on sequence
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1-0 </td>
+<td> Delay of PWROK from last enabled output
+<p>00: 8 mS; 01: 16 mS; 10: 32 mS; 11: 64 mS
+</p>
+</td>
+<td> RW </td>
+<td> 10
+</td></tr>
+</table>
+<h4> <span class="mw-headline" id="REG_33h:_Charge_control_1"> REG 33h: Charge control 1 </span></h4>
+<p>Default value: C6H
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Enable charging function </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 6-5 </td>
+<td> Charging target voltage
+<p>00:4.1 V; 01:4.15 V; 10:4.2 V; 11:4.36 V
+</p>
+</td>
+<td> RW </td>
+<td> 10
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> End of charge current threshold
+<p>0: end of charge when charge current is less than 10% of the set value
+1: end of charge when charge current is less than 15% of the set value
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3-0 </td>
+<td> Charging current I<sub>charge</sub> = [300 + (Bit3-0) * 150] mA </td>
+<td> RW </td>
+<td> X
+</td></tr>
+</table>
+<h4> <span class="mw-headline" id="REG_34h:_Charge_control_2"> REG 34h: Charge control 2 </span></h4>
+<p>Default value: 45h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-6 </td>
+<td> Pre-charge timeout settings
+<p>00: 40 min; 01: 50min;
+10: 60min; 11: 70min
+</p>
+</td>
+<td> RW </td>
+<td> 01
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> Enable charge retention (trickle-charge) </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> CHGLED mode selection
+<p>0: Mode A
+1: Mode B
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> Should charging voltage change with current </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> Enable external circuit when charging (duplicate bit here?) </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1-0 </td>
+<td> constant current mode timeout settings
+<p>00: 6Hours; 01: 8Hours;
+10: 10Hours; 11: 12Hours
+</p>
+</td>
+<td> RW </td>
+<td> 01
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_35h:_Charge_control_3"> REG 35h: Charge control 3 </span></h4>
+<p>Default value: 0Eh
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-4 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 3-0 </td>
+<td> Charging circuit current limit = [300 + (Bit3-0) * 150] mA&#160;; Default: 2400 mA </td>
+<td> RW </td>
+<td> 1110
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_36h:_PEK_button_parameters"> REG 36h: PEK button parameters </span></h4>
+<p>Default value: 5Dh
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-6 </td>
+<td> Power on timing
+<p>00: 128mS; 01: 1S; 10: 2S; 11: 3S
+</p>
+</td>
+<td> RW </td>
+<td> 01
+</td></tr>
+<tr>
+<td> 5-4 </td>
+<td> Long press timing T = [ 1 + (bit 1-0) * 0.5 ] S; default: 1.5S </td>
+<td> RW </td>
+<td> 01
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> Automatic shutdown when pressed longer than T<sub>shutdown</sub> </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> Auto power on after automatic shutdown due to long press </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td>1-0 </td>
+<td> T<sub>shutdown</sub> = [ 4 + (bit 1-0) * 2 ] S; default: 6S </td>
+<td> RW </td>
+<td> 01
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_38h:_VLTF-charge_Battery_charging_low_temperature_threshold"> REG 38h: V<sub>LTF-charge</sub> Battery charging low temperature threshold </span></h4>
+<p>Default value: A5h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-0 </td>
+<td> Battery charging low temperature threshold </td>
+<td> V<sub>LTF-charge</sub> = (val &lt;&lt; 4) * 0.0008 V; 0 ~ 3.264V </td>
+<td> RW </td>
+<td> A5h (2.112V)
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_39H:_VHTF-charge_Battery_charging_high_temperature_threshold"> REG 39H: V<sub>HTF-charge</sub> Battery charging high temperature threshold </span></h4>
+<p>Default value: 1Fh
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-0 </td>
+<td> Battery charging low temperature threshold </td>
+<td> V<sub>LTF-charge</sub> = (val &lt;&lt; 4) * 0.0008 V; 0 ~ 3.264V </td>
+<td> RW </td>
+<td> 1Fh (0.397V)
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_3Ch:_VLTF-charge_Battery_discharging_low_temperature_threshold"> REG 3Ch: V<sub>LTF-charge</sub> Battery discharging low temperature threshold </span></h4>
+<p>Default value: FCh
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-0 </td>
+<td> Battery discharging low temperature threshold </td>
+<td> V<sub>LTF-charge</sub> = (val &lt;&lt; 4) * 0.0008 V; 0 ~ 3.264V </td>
+<td> RW </td>
+<td> FCh (3.226V)
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_3DH:_VHTF-charge_Battery_discharging_high_temperature_threshold"> REG 3DH: V<sub>HTF-charge</sub> Battery discharging high temperature threshold </span></h4>
+<p>Default value: 16h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-0 </td>
+<td> Battery charging low temperature threshold </td>
+<td> V<sub>LTF-charge</sub> = (val &lt;&lt; 4) * 0.0008 V; 0 ~ 3.264V </td>
+<td> RW </td>
+<td> 16h (0.282V)
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_8Ah:_Timer_control"> REG 8Ah: Timer control </span></h4>
+<p>Default value: 00h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Timer expired </td>
+<td> write 1 to clear </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6-0 </td>
+<td> Timer duration </td>
+<td> Bit(6-0) min.&#160;; write 0 to clear </td>
+<td> RW </td>
+<td> 0
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_8Ch:_PWREN_control_1"> REG 8Ch: PWREN control 1 </span></h4>
+<p>Default value: 00h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> PWREN controls DC-DC1 </td>
+<td rowspan="8"> 0: yes&#160;; 1: no </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> PWREN controls DC-DC2 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> PWREN controls DC-DC3 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> PWREN controls DC-DC4 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> PWREN controls DC-DC5 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> PWREN controls ALDO1 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> PWREN controls ALDO2 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> PWREN controls ALDO3 </td>
+<td> RW </td>
+<td> 0
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_8Dh:_PWREN_control_2"> REG 8Dh: PWREN control 2 </span></h4>
+<p>Default value: 00h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> PWREN controls DLDO1 </td>
+<td rowspan="8"> 0: yes&#160;; 1: no </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> PWREN controls DLDO2 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> PWREN controls DLDO3 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> PWREN controls DLDO4 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> PWREN controls ELDO1 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> PWREN controls ELDO2 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> PWREN controls ELDO3 </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> PWREN controls DC5LDO </td>
+<td> RW </td>
+<td> 0
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_8Fh:_Thermal_protection_and_misc._control"> REG 8Fh: Thermal protection and misc. control </span></h4>
+<p>Default value: 01h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> IRQ pin triggers power on or wake-up </td>
+<td> 0: no; 1: yes </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> ACIN / VBUS In-short function </td>
+<td> 0: auto; 1: controlled by REG 8Fh [5] </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> ACIN / VBUS In-short status </td>
+<td> 0: normal; 1: short </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> N_VBUSEN pin function </td>
+<td>
+<pre>0: output, as DRIVEBUS (control USB OTG VBUS regulator)
+1: input, as N_VBUSEN (sense USB OTG VBUS regulator enabled)
+</pre>
+</td>
+<td> RW </td>
+<td> x
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> AXP221 thermal protection power off </td>
+<td>
+<pre>0: ignore
+1: power off when overheating
+</pre>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1-0 </td>
+<td> reserved </td>
+<td> </td>
+<td> RW </td>
+<td> 01
+</td></tr></table>
+<h3> <span class="mw-headline" id="Storage"> Storage </span></h3>
+<h4> <span class="mw-headline" id="REG_04-0Fh:_Data_storage"> REG 04-0Fh: Data storage </span></h4>
+<p>As long as power exists, this data will be kept, not affected by system power off.
+</p>
+<h3> <span class="mw-headline" id="Regulators_2"> Regulators </span></h3>
+<h4> <span class="mw-headline" id="REG_10h:_Regulator_output_control"> REG 10h: Regulator output control </span></h4>
+<p>Default value: XXH
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> ALDO2 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> ALDO1 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> DC-DC5 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> DC-DC4 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> DC-DC3 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> DC-DC2 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> DC-DC1 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> DC5LDO on/off </td>
+<td> RW </td>
+<td> X
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_12h:_Regulator_output_control"> REG 12h: Regulator output control </span></h4>
+<p>Default value: XXH
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> DC1SW on/off </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> DLDO4 on/off </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> DLDO3 on/off </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> DLDO2 on/off </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> DLDO1 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> ELDO3 on/off </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> ELDO2 on/off </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> ELDO1 on/off </td>
+<td> RW </td>
+<td> X
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_13h:_Regulator_output_control"> REG 13h: Regulator output control </span></h4>
+<p>Default value: 01H
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> ALDO3 on/off </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6-0 </td>
+<td> Reserved </td>
+<td>
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_15h:_DLDO1_output_voltage"> Reg 15h: DLDO1 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_16h:_DLDO2_output_voltage"> Reg 16h: DLDO2 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_17h:_DLDO3_output_voltage"> Reg 17h: DLDO3 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_18h:_DLDO4_output_voltage"> Reg 18h: DLDO4 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_19h:_ELDO1_output_voltage"> Reg 19h: ELDO1 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_1Ah:_ELDO2_output_voltage"> Reg 1Ah: ELDO2 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_1Bh:_ELDO3_output_voltage"> Reg 1Bh: ELDO3 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_1Ch:_DC5LDO_output_voltage"> Reg 1Ch: DC5LDO output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-3 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 2-0 </td>
+<td> 0.7 - 1.4 V, 100 mV/step </td>
+<td> RW </td>
+<td> 100
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_21h:_DC-DC1_output_voltage"> Reg 21h: DC-DC1 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 1.6 - 3.4 V, 100 mV/step </td>
+<td> RW </td>
+<td> 10001
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_22h:_DC-DC2_output_voltage"> Reg 22h: DC-DC2 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-6 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 5-0 </td>
+<td> 0.6 - 1.54 V, 20 mV/step </td>
+<td> RW </td>
+<td> 011001
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_23h:_DC-DC3_output_voltage"> Reg 23h: DC-DC3 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-6 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 5-0 </td>
+<td> 0.6 - 1.86 V, 20 mV/step </td>
+<td> RW </td>
+<td> 011001
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_24h:_DC-DC4_output_voltage"> Reg 24h: DC-DC4 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-6 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 5-0 </td>
+<td> 0.6 - 1.54 V, 20 mV/step </td>
+<td> RW </td>
+<td> 011001
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_25h:_DC-DC5_output_voltage"> Reg 25h: DC-DC5 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 1.0 - 2.55 V, 50 mV/step </td>
+<td> RW </td>
+<td> 01010
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_27h:_DC-DC_2.2F3_Voltage_Ramp_Control"> Reg 27h: DC-DC 2/3 Voltage Ramp Control </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-4 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> DC-DC3 VRC enable </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> DC-DC2 VRC enable </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> DC-DC3 VRC rate
+<p>0: 20mV/15.625μs = 1.6mV/μs&#160;; 1: 20mV/31.250μs = 0.8mV/μs
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> DC-DC2 VRC rate
+<p>0: 20mV/15.625μs = 1.6mV/μs&#160;; 1: 20mV/31.250μs = 0.8mV/μs
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_28h:_ALDO1_output_voltage"> Reg 28h: ALDO1 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_29h:_ALDO2_output_voltage"> Reg 29h: ALDO2 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 01011
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_2Ah:_ALDO3_output_voltage"> Reg 2Ah: ALDO3 output voltage </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> 0.7 - 3.3 V, 100 mV/step </td>
+<td> RW </td>
+<td> 01011
+</td></tr></table>
+<h4> <span class="mw-headline" id="Reg_37h:_DC-DC_operating_frequency"> Reg 37h: DC-DC operating frequency </span></h4>
+<p>Default value: 08h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Enable spread spectrum for DC-DC and PWM charger </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> DC-DC and PWM charger spread spectrum bandwidth
+<p>0: 50 KHz; 1: 100KHz
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> Enable DC-DC 2/3 poly-phase function </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3-0 </td>
+<td> DC-DC switching frequency F = [1 + / - (Bit3-0) * 5%)] * 1.5MHz </td>
+<td> RW </td>
+<td> 1000
+</td></tr>
+</table>
+<h4> <span class="mw-headline" id="REG_80h:_DC-DC_operation_mode"> REG 80h: DC-DC operation mode </span></h4>
+<p>Default value: 80H
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Value </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> DC-DC5 operation mode
+</td>
+<td rowspan="5"> 0: PFM+PWM
+<p>1: PWM
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> DC-DC4 operation mode </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> DC-DC3 operation mode </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> DC-DC2 operation mode </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> DC-DC1 operation mode </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+</table>
+<h3> <span class="mw-headline" id="Interrupts_2"> Interrupts </span></h3>
+<p>See <a href="#Interrupts">Interrupts</a> section.
+</p>
+<h3> <span class="mw-headline" id="GPIO_controls"> GPIO controls </span></h3>
+<h4> <span class="mw-headline" id="REG_90H:_GPIO0_function_control"> REG 90H: GPIO0 function control </span></h4>
+<p>Default value: 07h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Enable GPIO0 rising edge IRQ/wakeup </td>
+<td> 1 to enable </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> Enable GPIO0 falling edge IRQ/wakeup </td>
+<td> 1 to enable </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5-3 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 2
+</td>
+<td rowspan="3"> GPIO0 pin function
+</td>
+<td rowspan="3">
+<pre>000: output low
+001: output high (3.3V)
+010: input
+011: LDO<sub>IO0</sub> off
+100: LDO<sub>IO0</sub> on
+1XX: floating
+</pre>
+</td>
+<td rowspan="3"> RW
+</td>
+<td rowspan="3"> 111
+</td></tr>
+<tr>
+<td> 1
+</td></tr>
+<tr>
+<td> 0
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_91h:_LDOIO0_voltage_control"> REG 91h: LDO<sub>IO0</sub> voltage control </span></h4>
+<p>Default value: 1Fh
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> LDO<sub>IO0</sub> output voltage </td>
+<td> V<sub>out</sub> = 0.7 + 0.1 * (Bit 4-0) V </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_92H:_GPIO1_function_control"> REG 92H: GPIO1 function control </span></h4>
+<p>Default value: 07h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Enable GPIO1 rising edge IRQ/wakeup </td>
+<td> 1 to enable </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> Enable GPIO1 falling edge IRQ/wakeup </td>
+<td> 1 to enable </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5-3 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 2
+</td>
+<td rowspan="3"> GPIO1 pin function
+</td>
+<td rowspan="3">
+<pre>000: output low
+001: output high (3.3V)
+010: input
+011: LDO<sub>IO1</sub> off
+100: LDO<sub>IO1</sub> on
+1XX: floating
+</pre>
+</td>
+<td rowspan="3"> RW
+</td>
+<td rowspan="3"> 111
+</td></tr>
+<tr>
+<td> 1
+</td></tr>
+<tr>
+<td> 0
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_93h:_LDOIO1_voltage_control"> REG 93h: LDO<sub>IO1</sub> voltage control </span></h4>
+<p>Default value: 1Fh
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-5 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 4-0 </td>
+<td> LDO<sub>IO1</sub> output voltage </td>
+<td> V<sub>out</sub> = 0.7 + 0.1 * (Bit 4-0) V </td>
+<td> RW </td>
+<td> 00000
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_94h:_GPIO_0.2F1_input"> REG 94h: GPIO 0/1 input </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W
+</th></tr>
+<tr>
+<td> 7-2 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> GPIO 1 input value </td>
+<td> 0: low; 1: high </td>
+<td> R
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> GPIO 0 input value </td>
+<td> 0: low; 1: high </td>
+<td> R
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_95h:_GPIO_0.2F1_input_pull-down"> REG 95h: GPIO 0/1 input pull-down </span></h4>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W
+</th></tr>
+<tr>
+<td> 7-2 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> GPIO 1 input pull-down </td>
+<td> 0: disable; 1: enable </td>
+<td> R
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> GPIO 0 input pull-down </td>
+<td> 0: disable; 1: enable </td>
+<td> R
+</td></tr></table>
+<h3> <span class="mw-headline" id="ADC"> ADC </span></h3>
+<p>First register is high 8 bits, second is lower 4 (lower 5 for battery current).
+</p>
+<table class="wikitable">
+<tr>
+<th> Channel </th>
+<th> Control Register </th>
+<th> Value Registers </th>
+<th> 000h </th>
+<th> Step </th>
+<th> FFFh
+</th></tr>
+<tr>
+<td> Internal Temperature </td>
+<td> 82h [5] </td>
+<td> 56h, 57h </td>
+<td> -267.7 C </td>
+<td> 0.1 C </td>
+<td> 165.8 C
+</td></tr>
+<tr>
+<td> TS Pin Voltage </td>
+<td> 82h [0] </td>
+<td> 58h, 59h </td>
+<td> 0 mV </td>
+<td> 0.8 mV </td>
+<td> 3.276 V
+</td></tr>
+<tr>
+<td> Battery Voltage </td>
+<td> 82h [7] </td>
+<td> 78h, 79h </td>
+<td> 0 mV </td>
+<td> 1.1 mV </td>
+<td> 4.5045 V
+</td></tr>
+<tr>
+<td> Battery Discharge Current </td>
+<td> 82h [6] </td>
+<td> 7Ah, 7Bh </td>
+<td> 0 mA </td>
+<td> 0.5 mA </td>
+<td> 4.095 A
+</td></tr>
+<tr>
+<td> Battery Charge Current </td>
+<td> 82h [6] </td>
+<td> 7Ch, 7Dh </td>
+<td> 0 mA </td>
+<td> 0.5 mA </td>
+<td> 4.095 A
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_82H:_ADC_Enable"> REG 82H: ADC Enable </span></h4>
+<p>Default value: E0h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Enable battery voltage ADC </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> Enable battery current ADC </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> Enable internal temperature ADC </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 4-1 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td>0
+</td>
+<td> Enable TS pin voltage ADC </td>
+<td> RW </td>
+<td> 1
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_84h:_ADC_sampling_rate.2C_TS_pin_control"> REG 84h: ADC sampling rate, TS pin control </span></h4>
+<p>Default value: 32h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-6 </td>
+<td> ADC sampling rate </td>
+<td> 100 * 2&lt;super&gt;(Bit 7-6)&lt;/super&gt; Hz </td>
+<td> RW </td>
+<td> 00
+</td></tr>
+<tr>
+<td> 5-4 </td>
+<td> TS pin output current </td>
+<td> I = 20 + 20 * (Bit 5-4) μA; Default: 80 μA </td>
+<td> RW </td>
+<td> 11
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> Reserved </td>
+<td>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> TS pin function selection </td>
+<td> 0: battery temperature monitoring function
+<p>1: independent external ADC input path
+</p>
+</td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 1-0 </td>
+<td> TS pin current output settings </td>
+<td>
+<p>00: Off
+01: On when charging
+10: On when ADC enabled
+11: Always on
+</p>
+</td>
+<td> RW </td>
+<td> 10
+</td></tr></table>
+<h3> <span class="mw-headline" id="Fuel_Gauge"> Fuel Gauge </span></h3>
+<h4> <span class="mw-headline" id="REG_B8h:_Fuel_Gauge_Control"> REG B8h: Fuel Gauge Control </span></h4>
+<p>Default value: C0h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Fuel Gauge enable </td>
+<td> 0: off; 1: on </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> Coulomb Counter enable </td>
+<td> 0: off; 1: on </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> Battery capacity calibration enable </td>
+<td> 0: off; 1: on </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> Battery capacity calibration status </td>
+<td> 0: no calibration; 1: calibration in progress </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 3-0 </td>
+<td> Reserved </td>
+<td>
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_B9h:_Battery_Charge_Reading"> REG B9h: Battery Charge Reading </span></h4>
+<p>Default value: 64h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Is battery charge correctly calculated </td>
+<td> 0: no; 1: yes </td>
+<td> RW </td>
+<td> 1
+</td></tr>
+<tr>
+<td> 6-0 </td>
+<td> Battery charge percentage </td>
+<td> 0~64h (0~100)&#160;% </td>
+<td> RW </td>
+<td> 64
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_E0h:_Battery_Capacity_Setting_1"> REG E0h: Battery Capacity Setting 1 </span></h4>
+<p>Default value: 64h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7 </td>
+<td> Is battery capacity set </td>
+<td> 0: no; 1: yes </td>
+<td> RW </td>
+<td> 0
+</td></tr>
+<tr>
+<td> 6-0 </td>
+<td> Battery capacity bit [14:8] </td>
+<td> </td>
+<td> RW </td>
+<td> 64
+</td></tr></table>
+<h4> <span class="mw-headline" id="REG_E1h:_Battery_Capacity_Setting_1"> REG E1h: Battery Capacity Setting 1 </span></h4>
+<p>Default value: 64h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-0 </td>
+<td> Battery capacity bit [7:0] </td>
+<td> </td>
+<td> RW </td>
+<td> 64
+</td></tr></table>
+<p>Battery capacity = value * 1.456mAh
+</p>
+<h4> <span class="mw-headline" id="REG_E6h:_Battery_Low_Warning_Threshold_Setting_1"> REG E6h: Battery Low Warning Threshold Setting 1 </span></h4>
+<p>Default value: A0h
+</p>
+<table class="wikitable">
+<tr>
+<th> Bit </th>
+<th> Description </th>
+<th> Values </th>
+<th> R/W </th>
+<th> Default Value
+</th></tr>
+<tr>
+<td> 7-4 </td>
+<td> Battery low warning threshold 1 (warning) </td>
+<td> Threshold = (value + 5)% </td>
+<td> RW </td>
+<td> 1010
+</td></tr>
+<tr>
+<td> 3-0 </td>
+<td> Battery low warning threshold 2 (power off) </td>
+<td> Threshold = value&#160;% </td>
+<td> RW </td>
+<td> 0000
+</td></tr></table>
+<h2> <span class="mw-headline" id="Spec_Sheets"> Spec Sheets </span></h2>
+<p><a class="external text" href="http://dl.linux-sunxi.org/AXP/AXP221%20Datasheet%20V1.2%2020130326%20.pdf">AXP221 Datasheet v1.2</a>
+<small>(PDF, 52 pages, 2013-03-26)</small>
+</p>
+<h2> <span class="mw-headline" id="References"> References </span></h2>
+<ol class="references"><li id="cite_note-x-powers-1"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-x-powers_1-0">1.0</a></sup> <sup><a href="#cite_ref-x-powers_1-1">1.1</a></sup></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.x-powers.com/en/product/axp221.html">X-Powers AXP221</a> Taken on 2014-03-15</span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=AXP221&amp;oldid=17226">http://linux-sunxi.org/index.php?title=AXP221&amp;oldid=17226</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:PMIC" title="Category:PMIC">PMIC</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=AXP221&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=AXP221" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/AXP221" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:AXP221&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/AXP221">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=AXP221&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=AXP221&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/AXP221" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/AXP221" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=AXP221&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=AXP221&amp;oldid=17226" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 18 May 2016, at 22:15.</li>
+<li id="footer-info-viewcount">This page has been accessed 9,212 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

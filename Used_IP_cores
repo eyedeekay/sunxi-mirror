@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Used IP cores - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Used_IP_cores","wgTitle":"Used IP cores","wgCurRevisionId":14536,"wgArticleId":609,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Used_IP_cores","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Used_IP_cores"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Used_IP_cores skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Used IP cores</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page defines a list of used IP cores of the current generation of Allwinner devices.
+</p>
+<table class="wikitable sortable">
+<tr>
+<th> Component name </th>
+<th> IP core vendor </th>
+<th> Driver available/usable? </th>
+<th> sun4i </th>
+<th> sun5i </th>
+<th> sun6i </th>
+<th> sun7i </th>
+<th> sun8i
+</th></tr>
+<tr>
+<td> <a href="/index.php?title=Cortex_A8&amp;action=edit&amp;redlink=1" class="new" title="Cortex A8 (page does not exist)">Cortex A8</a> </td>
+<td> ARM ltd. </td>
+<td> Mainline </td>
+<td> Y </td>
+<td> Y </td>
+<td> N </td>
+<td> N </td>
+<td> N
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=Cortex_A7&amp;action=edit&amp;redlink=1" class="new" title="Cortex A7 (page does not exist)">Cortex A7</a> </td>
+<td> ARM ltd. </td>
+<td> Mainline </td>
+<td> N </td>
+<td> N </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=GIC&amp;action=edit&amp;redlink=1" class="new" title="GIC (page does not exist)">GIC</a> </td>
+<td> ARM ltd. </td>
+<td> Mainline </td>
+<td> N </td>
+<td> N </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=DVFS&amp;action=edit&amp;redlink=1" class="new" title="DVFS (page does not exist)">DVFS</a> </td>
+<td> Most likely Allwinner </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=CCM&amp;action=edit&amp;redlink=1" class="new" title="CCM (page does not exist)">CCM</a> </td>
+<td> Most likely Allwinner </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=SRAM&amp;action=edit&amp;redlink=1" class="new" title="SRAM (page does not exist)">SRAM</a> Controller </td>
+<td> Most likely Allwinner </td>
+<td> Allwinner </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=DDR&amp;action=edit&amp;redlink=1" class="new" title="DDR (page does not exist)">DDR</a> </td>
+<td> Synopsys DesignWare </td>
+<td> Same as Rockchip rk2918 DMC </td>
+<td> Y </td>
+<td> Y </td>
+<td> N </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=DDR&amp;action=edit&amp;redlink=1" class="new" title="DDR (page does not exist)">DDR</a> </td>
+<td> Allwinner AW1633? </td>
+<td> Allwinner U-Boot </td>
+<td> N </td>
+<td> N </td>
+<td> Y </td>
+<td> N
+</td></tr>
+<tr>
+<td> <a href="/JTAG" title="JTAG">JTAG</a> </td>
+<td> ARM CoreSight? </td>
+<td> Limited by JTAG on/off in Fex system
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=PLL&amp;action=edit&amp;redlink=1" class="new" title="PLL (page does not exist)">PLL</a> </td>
+<td> Most likely Allwinner </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=IRQ&amp;action=edit&amp;redlink=1" class="new" title="IRQ (page does not exist)">IRQ</a> </td>
+<td> Unknown </td>
+<td> Allwinner </td>
+<td> Y </td>
+<td> Y </td>
+<td> N </td>
+<td> N
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=DMA&amp;action=edit&amp;redlink=1" class="new" title="DMA (page does not exist)">DMA</a> </td>
+<td> Unknown </td>
+<td> Allwinner </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=PWM&amp;action=edit&amp;redlink=1" class="new" title="PWM (page does not exist)">PWM</a> </td>
+<td> Most likely Allwinner </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=GPS&amp;action=edit&amp;redlink=1" class="new" title="GPS (page does not exist)">GPS</a> </td>
+<td> Highvision<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> </td>
+<td> No driver available. Only GPL-violating .ko were available, but untested </td>
+<td> Y </td>
+<td> N </td>
+<td> N </td>
+<td> N </td>
+<td> N
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=G2D&amp;action=edit&amp;redlink=1" class="new" title="G2D (page does not exist)">G2D</a> </td>
+<td> Unknown </td>
+<td> Allwinner implementation used. Might have connection to Exynos G2D.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=GPU&amp;action=edit&amp;redlink=1" class="new" title="GPU (page does not exist)">GPU</a> </td>
+<td> ARM Mali-400 MP1 </td>
+<td> ARM ltd </td>
+<td> Y </td>
+<td> Y </td>
+<td> N </td>
+<td> N
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=GPU&amp;action=edit&amp;redlink=1" class="new" title="GPU (page does not exist)">GPU</a> </td>
+<td> ARM Mali-400 MP2 </td>
+<td> ARM ltd </td>
+<td> N </td>
+<td> N </td>
+<td> N</td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=GPU&amp;action=edit&amp;redlink=1" class="new" title="GPU (page does not exist)">GPU</a> </td>
+<td> Imagination Technologies PowerVR SGX544 </td>
+<td>&#160;? </td>
+<td> N </td>
+<td> N </td>
+<td> Y </td>
+<td> N
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=IPU&amp;action=edit&amp;redlink=1" class="new" title="IPU (page does not exist)">IPU</a> </td>
+<td> Allwinner "DISP/LCD/HDMI" stack </td>
+<td> Allwinner </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/Video_Engine" title="Video Engine">Video Engine</a> </td>
+<td> Most likely a custom design by Chipsbank<sup id="cite_ref-chipsbank_2-0" class="reference"><a href="#cite_note-chipsbank-2">[2]</a></sup> </td>
+<td>Allwiner kernel driver + Blob </td>
+<td> Y </td>
+<td>Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/I2C" title="I2C" class="mw-redirect">I2C</a> </td>
+<td> Marvell MV64xxx </td>
+<td> Mainline </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=SPI&amp;action=edit&amp;redlink=1" class="new" title="SPI (page does not exist)">SPI</a> </td>
+<td> Unknown </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/UART" title="UART">UART</a> </td>
+<td> Synopsys DesignWare 8250 </td>
+<td> Mainline </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/USB" title="USB">USB</a> </td>
+<td> <del>MentorGraphics MUSB</del> Generic OHCI/EHCI with glue </td>
+<td> Allwinner </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=USB-OTG&amp;action=edit&amp;redlink=1" class="new" title="USB-OTG (page does not exist)">USB-OTG</a> </td>
+<td> MentorGraphics MSUSB<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> </td>
+<td> Allwinner (mainline musb)
+</td></tr>
+<tr>
+<td> <a href="/SATA" title="SATA">SATA</a> </td>
+<td> Synopsys DesignWare SATA but PHY part maybe AW</td>
+<td> Allwinner glue + mainline libata </td>
+<td> Y </td>
+<td> N </td>
+<td>&#160;? </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=SD/MMC&amp;action=edit&amp;redlink=1" class="new" title="SD/MMC (page does not exist)">SD/MMC</a> </td>
+<td> Unknown </td>
+<td> Allwinner </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/NAND" title="NAND">NAND</a> </td>
+<td> Unknown </td>
+<td> Allwinner. Most likely IP core is not done by Allwinner due to weird glue </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/Memory_Stick" title="Memory Stick">Memory Stick</a> </td>
+<td> Unknown </td>
+<td> No driver available
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=CE-ATA&amp;action=edit&amp;redlink=1" class="new" title="CE-ATA (page does not exist)">CE-ATA</a>, IDE, ATA </td>
+<td> Unknown </td>
+<td> No driver available
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=TouchScreen_controller&amp;action=edit&amp;redlink=1" class="new" title="TouchScreen controller (page does not exist)">TouchScreen controller</a> </td>
+<td> Unknown </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=SS&amp;action=edit&amp;redlink=1" class="new" title="SS (page does not exist)">SS</a> </td>
+<td> Unknown </td>
+<td> No driver available
+</td></tr>
+<tr>
+<td> <a href="/IR" title="IR">IR</a> </td>
+<td> Unknown </td>
+<td> Allwinner </td>
+<td> Y </td>
+<td>&#160;? </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=IIS&amp;action=edit&amp;redlink=1" class="new" title="IIS (page does not exist)">IIS</a> </td>
+<td> Unknown </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=AC97&amp;action=edit&amp;redlink=1" class="new" title="AC97 (page does not exist)">AC97</a> </td>
+<td> Unknown </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=Keypad&amp;action=edit&amp;redlink=1" class="new" title="Keypad (page does not exist)">Keypad</a> </td>
+<td> Unknown </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=LRADC&amp;action=edit&amp;redlink=1" class="new" title="LRADC (page does not exist)">LRADC</a> </td>
+<td> Unknown </td>
+<td> Allwinner </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/CSI" title="CSI">CSI</a> </td>
+<td> Unknown </td>
+<td> Allwinner. Might use something pre made by MIPI
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=TransportStream&amp;action=edit&amp;redlink=1" class="new" title="TransportStream (page does not exist)">TransportStream</a> </td>
+<td> Unknown </td>
+<td> Allwinner (3.4 only)
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=ACE&amp;action=edit&amp;redlink=1" class="new" title="ACE (page does not exist)">ACE</a> </td>
+<td> Most likely a custom design by Chipsbank<sup id="cite_ref-chipsbank_2-1" class="reference"><a href="#cite_note-chipsbank-2">[2]</a></sup> </td>
+<td> Allwinner
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=TV_Encoder&amp;action=edit&amp;redlink=1" class="new" title="TV Encoder (page does not exist)">TV Encoder</a> </td>
+<td> Unknown </td>
+<td> No driver available
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=GMAC&amp;action=edit&amp;redlink=1" class="new" title="GMAC (page does not exist)">GMAC</a> </td>
+<td> Synopsys DesignWare Ethernet MAC 10/100/1000 Universal </td>
+<td> Allwinner. Mainline (3.14, stmmac) </td>
+<td> N </td>
+<td> N </td>
+<td> Y? </td>
+<td> Y
+</td></tr>
+<tr>
+<td> <a href="/CAN" title="CAN">CAN</a> </td>
+<td> Unknown </td>
+<td>
+</td></tr></table>
+<h2> <span class="mw-headline" id="References"> References </span></h2>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.highvision.com.cn/">http://www.highvision.com.cn/</a></span>
+</li>
+<li id="cite_note-chipsbank-2"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-chipsbank_2-0">2.0</a></sup> <sup><a href="#cite_ref-chipsbank_2-1">2.1</a></sup></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.chipsbank.com/">http://www.chipsbank.com/</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.mentor.com/products/ip/usb/usb20otg/upload/usb-2-0-multipoint-hi-speed-otg-controller-1c66e6a0-a88d-d2f7-65ca-77caf24abed0">http://www.mentor.com/products/ip/usb/usb20otg/upload/usb-2-0-multipoint-hi-speed-otg-controller-1c66e6a0-a88d-d2f7-65ca-77caf24abed0</a></span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Used_IP_cores&amp;oldid=14536">http://linux-sunxi.org/index.php?title=Used_IP_cores&amp;oldid=14536</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Used+IP+cores&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Used+IP+cores" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Used_IP_cores" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Used_IP_cores&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Used_IP_cores">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Used_IP_cores&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Used_IP_cores&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Used_IP_cores" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Used_IP_cores" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Used_IP_cores&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Used_IP_cores&amp;oldid=14536" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 June 2015, at 22:26.</li>
+<li id="footer-info-viewcount">This page has been accessed 14,242 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

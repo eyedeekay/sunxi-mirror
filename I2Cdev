@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>I2Cdev - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"I2Cdev","wgTitle":"I2Cdev","wgCurRevisionId":7690,"wgArticleId":828,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"I2Cdev","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/I2Cdev"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-I2Cdev skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">I2Cdev</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The <b>I2C</b> bus (or <b>Inter-Integrated Circuit, referred to as I-squared-C, I-two-C, or IIC</b>) is a multimaster serial single-ended computer bus invented by Philips.<br/>
+For more information about I2C please refer to this link: <a class="external free" href="http://en.wikipedia.org/wiki/I2C">http://en.wikipedia.org/wiki/I2C</a><br/>
+<br/>
+The I2Cdev works only in master mode.<br/>
+There is a way of using the I2C kernel driver to work as a device in the userspace. It's called I2Cdev.<br/>
+<br/>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Configuring_your_kernel"><span class="tocnumber">1</span> <span class="toctext">Configuring your kernel</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#More_information"><span class="tocnumber">2</span> <span class="toctext">More information</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Configuring_your_FEX"><span class="tocnumber">3</span> <span class="toctext">Configuring your FEX</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Using_the_I2Cdev"><span class="tocnumber">4</span> <span class="toctext">Using the I2Cdev</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Using_the_I2Cdev_with_i2c-tools"><span class="tocnumber">4.1</span> <span class="toctext">Using the I2Cdev with i2c-tools</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Using_an_I2Cdev_C_example_library"><span class="tocnumber">4.2</span> <span class="toctext">Using an I2Cdev C example library</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Configuring_your_kernel">Configuring your kernel</span></h1>
+<p>For using it you will have to enable this options in your defconfig or manually in your kernel:<br/>
+<br/>
+CONFIG_I2C=y<br/>
+CONFIG_I2C_CHARDEV=y<br/>
+<br/>
+</p>
+<h1> <span class="mw-headline" id="More_information">More information</span></h1>
+<p>For more information about using I2Cdev in the userspace please refer to (Documentation/i2c/): <a rel="nofollow" class="external free" href="http://lxr.free-electrons.com/source/Documentation/i2c/">http://lxr.free-electrons.com/source/Documentation/i2c/</a><br/>
+<br/>
+You will find there:<br/>
+dev-interface (contains the documentantion about the i2cdev)<br/>
+<br/>
+</p>
+<h1> <span class="mw-headline" id="Configuring_your_FEX">Configuring your FEX</span></h1>
+<p>In the sunxi Fex and in the kernel drivers the I2C buses will be refered as TWI (Two-Wire-Interface that is a compatible designation to the I2C).
+It is important to configure your .fex file to be able to do so:<br/>
+(be aware that there could be othere ICs using I2C, for instance the AXP ICs genenrally used by the allwinner ICs.)
+<br/>
+</p>
+<pre class="brush: ini">
+[twi0_para]
+twi0_used = 1
+twi0_scl = port:PB00&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+twi0_sda = port:PB01&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+
+[twi1_para]
+twi1_used = 1
+twi1_scl = port:PB18&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+twi1_sda = port:PB19&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+
+[twi2_para]
+twi2_used = 1
+twi2_scl = port:PB20&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+twi2_sda = port:PB21&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<p>For more information about editing the fex file: <a rel="nofollow" class="external free" href="http://linux-sunxi.org/Fex_Guide">http://linux-sunxi.org/Fex_Guide</a><br/>
+</p>
+<h1> <span class="mw-headline" id="Using_the_I2Cdev">Using the I2Cdev</span></h1>
+<p>Once you will have this set you can boot your sunxi device and you will have in your dev in /dev/i2cX<br/>
+<br/>
+</p>
+<h2> <span class="mw-headline" id="Using_the_I2Cdev_with_i2c-tools">Using the I2Cdev with i2c-tools</span></h2>
+<p>There is a package called i2c-tools that have some nice debug/comunication apps for comunicating using I2Cdev.<br/>
+If you are using a Debian like filesystem you can install it using "apt-get install i2c-tools".<br/>
+i2c-tools has the following apps:<br/><br/>
+i2cdetect (used to detect slaves address in the bus)<br/>
+i2cdump (used get a range of values)<br/>
+i2cget (used to get a value)<br/>
+i2cset (used to set a value)<br/><br/>
+Please refer to each app -h option to see its usage.<br/>
+</p>
+<h2> <span class="mw-headline" id="Using_an_I2Cdev_C_example_library">Using an I2Cdev C example library</span></h2>
+<p>I've made a user friendlier library (C functions) to comunicate using I2Cdev:<br/>
+(Note, this library supose the read and write address to be 2 bytes)
+You may need to install the libi2c-dev package to make it work as it requires an adittionall .h. ("apt-get install libi2c-dev")
+</p>
+<pre class="brush: ini">
+/*
+A user-space program to get data from an I2C device.
+				Gustavo Zamboni
+*/
+#include &lt;errno.h&gt;
+#include &lt;string.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;unistd.h&gt;
+#include &lt;linux/i2c-dev.h&gt;
+#include &lt;sys/ioctl.h&gt;
+#include &lt;sys/types.h&gt;
+#include &lt;sys/stat.h&gt;
+#include &lt;fcntl.h&gt;
+
+char buf[10];
+extern int com_serial;
+extern int failcount;
+
+//////////
+// Init I2Cdevice
+//////////
+int i2c_init(char filename[40], int addr)
+	{
+    	int file;
+
+    	if ((file = open(filename,O_RDWR)) &lt; 0)
+		{
+        	printf(&quot;Failed to open the bus.&quot;);
+        	/* ERROR HANDLING; you can check errno to see what went wrong */
+		com_serial=0;
+        	exit(1);
+    		}
+
+    if (ioctl(file,I2C_SLAVE,addr) &lt; 0)
+		{
+        	printf(&quot;Failed to acquire bus access and/or talk to slave.\n&quot;);
+        	/* ERROR HANDLING; you can check errno to see what went wrong */
+		com_serial=0;
+        	exit(1);
+    		}
+	return file;
+	}
+
+
+//////////
+// Set pointer address
+//////////
+void i2c_set_pointer(int address,int value,int file)
+	{
+	/*
+	//printf(&quot;end: 0x%x%x\n&quot;, address,value);
+ 	if (i2c_smbus_write_byte_data(file, address, value)&lt;0)
+		{
+		fprintf(stderr, &quot;Warning - write failed\n&quot;);
+		} 
+	*/
+	char buf[10];
+	buf[0]=address;
+	buf[1]=value;
+
+ 	if (write(file, buf, 2)&#160;!= 2)
+		{
+		fprintf(stderr, &quot;Error setting pointer\n&quot;);
+		com_serial=0;
+		failcount++;
+		} 
+	else
+		{
+		//printf(&quot;w_0x%0*x\n&quot;, 2, buf[0]);
+		//printf(&quot;w_0x%0*x\n&quot;, 2, buf[1]);
+		com_serial=1;
+		failcount=0;
+  		}
+
+	}
+
+//////////
+// Read n bytes
+//////////
+
+char * i2c_read(int add1, int add2, int nbytes,int file)
+	{
+	int n;
+
+	i2c_set_pointer(add1,add2,file);
+
+ 	if (read(file, buf, nbytes)&#160;!= nbytes)
+		{
+		fprintf(stderr, &quot;Error reading&#160;%i bytes\n&quot;,nbytes);
+		com_serial=0;
+		failcount++;
+		} 
+	else
+		{
+		for (n=0;n&lt;nbytes;n++)
+			{
+			//printf(&quot;r_0x%0*x\n&quot;, 2, buf[n]);
+			}
+		com_serial=1;
+		failcount=0;
+		return buf;
+  		}
+	}
+
+//////////
+// Write n bytes
+//////////
+void i2c_write(int add1,int add2,int nbytes,char value[10],int file)
+	{
+	int n;
+	unsigned char buf[10];
+	buf[0] = add1;
+	buf[1] = add2;
+	if (nbytes&gt;=1) buf[2] = value[0];
+	if (nbytes&gt;=2) buf[3] = value[1];
+	if (nbytes&gt;=3) buf[4] = value[2];
+	if (nbytes&gt;=4) buf[5] = value[3];
+
+ 	if (write(file, buf, nbytes)&#160;!= nbytes)
+		{
+		fprintf(stderr, &quot;Error writing&#160;%i bytes\n&quot;,nbytes);
+		com_serial=0;
+		failcount++;
+		} 
+	else
+		{
+		for (n=0;n&lt;(nbytes+2);n++)
+			{
+			//printf(&quot;w_0x%0*x\n&quot;, 2, buf[n]);
+			}
+		com_serial=1;
+		failcount=0;
+  		}
+	}
+</pre>
+<p>Usage example:<br/>
+</p>
+<pre class="brush: ini">
+char *buffer;
+char buf[10];
+
+file=i2c_init(&quot;/dev/i2c-1&quot;,0x38); //dev,slavei2caddr
+
+buf[0] = 0x41;
+buf[1] = 0xFF;
+i2c_write(0xE6,0x0E,2,buf,file); //this will write value 0x41FF to the address 0xE60E
+
+buffer=(char *)i2c_read(0xE6,0x0E,4,file); //reading a 4 bytes value at the address 0xE60E
+
+close(file);
+</pre>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=I2Cdev&amp;oldid=7690">http://linux-sunxi.org/index.php?title=I2Cdev&amp;oldid=7690</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=I2Cdev&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=I2Cdev" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/I2Cdev" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:I2Cdev&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/I2Cdev">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=I2Cdev&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=I2Cdev&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/I2Cdev" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/I2Cdev" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=I2Cdev&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=I2Cdev&amp;oldid=7690" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 March 2014, at 02:14.</li>
+<li id="footer-info-viewcount">This page has been accessed 16,682 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

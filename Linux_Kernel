@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Linux Kernel - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Linux_Kernel","wgTitle":"Linux Kernel","wgCurRevisionId":16534,"wgArticleId":85,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Linux_Kernel","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Linux_Kernel"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Linux_Kernel skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Linux Kernel</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #EE8822; background-color: #FFEEDD">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_important.png" class="image"><img alt="MBOX icon important.png" src="/images/f/f0/MBOX_icon_important.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;">This page provides information about the legacy linux-sunxi kernels, which are based on the vendor code drops. It is only useful when accelerated 3D graphics and multimedia support is strictly necessary.
+<p><br/>
+But the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">Mainline Kernel</a> is already a much better choice for a headless server. And also the mainline kernel works fine even for a basic Linux desktop system running on top of a simple framebuffer, which may be good enough for the users who do not need fancy 3D graphics or video playback acceleration.
+</p>
+</td></tr></table>
+<p>This page describes how to get the sunxi specific linux kernel built for your device.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Repository"><span class="tocnumber">2</span> <span class="toctext">Repository</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Kernel_versions"><span class="tocnumber">3</span> <span class="toctext">Kernel versions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Active_branches"><span class="tocnumber">3.1</span> <span class="toctext">Active branches</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Stale.2F_archived_branches"><span class="tocnumber">3.2</span> <span class="toctext">Stale/ archived branches</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Compilation"><span class="tocnumber">4</span> <span class="toctext">Compilation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Get_a_toolchain"><span class="tocnumber">4.1</span> <span class="toctext">Get a toolchain</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Clone_the_repository"><span class="tocnumber">4.2</span> <span class="toctext">Clone the repository</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Set_default_config"><span class="tocnumber">4.3</span> <span class="toctext">Set default config</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#A10"><span class="tocnumber">4.3.1</span> <span class="toctext">A10</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#A13"><span class="tocnumber">4.3.2</span> <span class="toctext">A13</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#A10s"><span class="tocnumber">4.3.3</span> <span class="toctext">A10s</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#A20"><span class="tocnumber">4.3.4</span> <span class="toctext">A20</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Tweak_config"><span class="tocnumber">4.4</span> <span class="toctext">Tweak config</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Build"><span class="tocnumber">4.5</span> <span class="toctext">Build</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Install"><span class="tocnumber">4.6</span> <span class="toctext">Install</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#Upstream_code"><span class="tocnumber">5</span> <span class="toctext">Upstream code</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="History"> History </span></h1>
+<p>Public <a rel="nofollow" class="external text" href="http://kernel.org">Linux Kernel</a> support for the sunxi family (Allwinner <a href="/A10" title="A10">A10</a>, <a href="/A13" title="A13">A13</a>, ...) started with a source drop of <tt>2.6.36</tt> made by <a href="/index.php?title=Ainol&amp;action=edit&amp;redlink=1" class="new" title="Ainol (page does not exist)">Ainol</a>, followed by an official release of 2.6.36<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> sources by <a href="/Allwinner" title="Allwinner">Allwinner</a>. Developement jumped forward after a source release of 3.0.8 made by <a rel="nofollow" class="external text" href="http://qware.nl">Qware</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>
+</p><p>Initially living in <a class="external text" href="https://github.com/amery/">amery's github</a> now our <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi">community driven sunxi kernel</a> repo is located in the <a class="external text" href="https://github.com/linux-sunxi/">linux-sunxi's github</a>.
+</p>
+<h1> <span class="mw-headline" id="Repository"> Repository </span></h1>
+<p>The main sunxi kernel repository is available at <a class="external text" href="https://github.com/linux-sunxi/">our projects' github</a>.
+</p><p>You can clone the entire (huge) repository by installing the git package and running:
+</p>
+<pre>git clone https://github.com/linux-sunxi/linux-sunxi.git</pre>
+<p>but if you just want to build our kernel, then follow <a href="#Compilation"> the guide below</a>.
+</p>
+<h1> <span class="mw-headline" id="Kernel_versions"> Kernel versions </span></h1>
+<p>Parts of the sunxi SoC are already supported by <a href="/Linux_mainlining_effort" title="Linux mainlining effort">mainline kernel</a> 3.8 and onwards.
+</p><p>In case you need support for e.g. display, 3D, hardware accelerated video decoding and audio support (for A10/A20), you should can check out the <b>sunxi-3.4</b> or <b>stage/sunxi-3.4</b> branch as this will get the most out of your hardware quickly. But beware that this is already obsolete and unmaintained.
+</p>
+<h2> <span class="mw-headline" id="Active_branches"> Active branches </span></h2>
+<table class="wikitable">
+<tr>
+<th> Name </th>
+<th> State </th>
+<th> Description
+</th></tr>
+<tr>
+<td> <tt><a class="external text" href="http://github.com/linux-sunxi/linux-sunxi/tree/sunxi-3.4">sunxi-3.4</a></tt> </td>
+<td> <b>stable</b>
+</td>
+<td> sunxi support forward ported from <tt>sunxi-3.0</tt> and keeping <tt>reference-3.4</tt> as it's mainline reference. <b>[PREFERRED]</b>
+</td></tr>
+<tr>
+<td> <tt><a class="external text" href="http://github.com/linux-sunxi/linux-sunxi/tree/stage/sunxi-3.4">stage/sunxi-3.4</a></tt> </td>
+<td> <b>testing</b>
+</td>
+<td> fork of sunxi-3.4 with patches waiting to be accepted in stable sunxi-3.4
+</td></tr>
+<tr>
+<td> <tt><a class="external text" href="http://github.com/linux-sunxi/linux-sunxi/tree/sunxi-next">sunxi-next</a></tt> </td>
+<td> <b>next mainline</b>
+</td>
+<td> fork of mainline kernel including all patches, that are already accepted or merged for the next stable release
+</td></tr></table>
+<p>If unsure, use the <b>sunxi-3.4</b> branch.
+</p>
+<h2> <span class="mw-headline" id="Stale.2F_archived_branches"> Stale/ archived branches </span></h2>
+<table class="wikitable">
+<tr>
+<th> Name </th>
+<th> State </th>
+<th> Description
+</th></tr>
+<tr>
+<td> <tt>sunxi-3.0</tt> </td>
+<td> <b>stable</b>
+</td>
+<td> sunxi support initially based on <tt>lichee3-3.0.8</tt> and keeping <tt>reference-3.0</tt> as it's mainline reference.
+</td></tr>
+<tr>
+<td> <tt>experimental/sunxi-3.10</tt> </td>
+<td> <b>scheduled for removal. DO NOT USE.</b>
+</td>
+<td> sunxi support forward ported from <tt>sunxi-3.4</tt>, backporting from <tt>mainline</tt> and keeping <tt>reference-3.10</tt> as it's mainline reference.
+</td></tr>
+<tr>
+<td> <tt>experimental/sunxi-3.14</tt> </td>
+<td> <b>highly experimental</b>
+</td>
+<td> fix me
+</td></tr>
+<tr>
+<td> <tt>sunxi-2.6.36</tt> </td>
+<td> legacy
+</td>
+<td> sunxi support based on the official 2.6.36 release.
+</td></tr>
+<tr>
+<td> <tt>reference-3.0</tt> </td>
+<td> reference
+</td>
+<td> merge of <tt>mirror/android-3.0</tt> and the latest <tt>v3.0.x</tt> mainline stable tag. Used to see what of <tt>sunxi-3.0</tt> is <b>sunxi</b> specific.
+</td></tr>
+<tr>
+<td> <tt>reference-3.4</tt> </td>
+<td> reference
+</td>
+<td> merge of <tt>mirror/android-3.4</tt> and the latest <tt>v3.4.x</tt> mainline stable tag. Used to see what of <tt>sunxi-3.4</tt> is <b>sunxi</b> specific.
+</td></tr>
+<tr>
+<td> <tt>reference-3.10</tt> </td>
+<td> reference
+</td>
+<td> merge of <tt>mirror/android-3.10</tt> and the latest <tt>v3.10.x</tt> mainline stable tag. Used to see what of <tt>sunxi-3.10</tt> is <b>sunxi</b> specific.
+</td></tr>
+<tr>
+<td> <tt>mirror/allwinner-2.6.36</tt> </td>
+<td> mirror </td>
+<td> mirror of allwinner's official 2.6.36 tree (aka <a href="/index.php?title=Lichee&amp;action=edit&amp;redlink=1" class="new" title="Lichee (page does not exist)">lichee2</a>)
+</td></tr>
+<tr>
+<td> <tt>mirror/android-2.6.36</tt> </td>
+<td> mirror </td>
+<td> mirror of Android's kernel-common for Android 2.3 (<i>Gingerbread</i>)
+</td></tr>
+<tr>
+<td> <tt>mirror/android-3.0</tt> </td>
+<td> mirror </td>
+<td> mirror of Android's kernel-common for Android 4.0 (<i>Ice Cream Sandwich</i>), 4.1 (<i>Jelly Bean</i>)
+</td></tr>
+<tr>
+<td> <tt>mirror/android-3.4</tt> </td>
+<td> mirror </td>
+<td> mirror of Android's 3.4 kernel branch.
+</td></tr>
+<tr>
+<td> <tt>mirror/android-3.10</tt> </td>
+<td> mirror </td>
+<td> mirror of Android's 3.10 kernel branch.
+</td></tr>
+<tr>
+<td> <tt>mirror/master</tt> </td>
+<td> mirror </td>
+<td> mirror of Linus Torvalds' master.
+</td></tr>
+<tr>
+<td> <tt>lichee-3.0.8-sun4i</tt> </td>
+<td> compat </td>
+<td> based on <a href="/index.php?title=Qware&amp;action=edit&amp;redlink=1" class="new" title="Qware (page does not exist)">Qware</a>'s source release, kept only to let people drop-in new modules into a GPL-violating <a href="/index.php?title=Lichee&amp;action=edit&amp;redlink=1" class="new" title="Lichee (page does not exist)">lichee3</a>/<a href="/A10" title="A10">A10</a> based install.
+</td></tr>
+<tr>
+<td> <tt>wip/*</tt> </td>
+<td> WIP </td>
+<td> experimental and very likely to 1) be rebased, 2) be seriously broken
+</td></tr></table>
+<h1> <span class="mw-headline" id="Compilation"> Compilation </span></h1>
+<h2> <span class="mw-headline" id="Get_a_toolchain"> Get a toolchain </span></h2>
+<p>If you haven't done so before, get a suitable <a href="/Toolchain" title="Toolchain">toolchain</a> installed and added to your PATH.
+</p>
+<h2> <span class="mw-headline" id="Clone_the_repository"> Clone the repository </span></h2>
+<p>This command will clone the sunxi-3.4 branch:
+</p>
+<pre>git clone -b sunxi-3.4 https://github.com/linux-sunxi/linux-sunxi.git</pre>
+<p>If you just want a quick build and do not wish to download a big git repository, then run:
+</p>
+<pre>git clone -b sunxi-3.4 --depth 1 https://github.com/linux-sunxi/linux-sunxi.git</pre>
+<p>This will create a so-called shallow clone (still a 500MB download), which does not allow for much in the way of development or changes.
+</p>
+<h2> <span class="mw-headline" id="Set_default_config"> Set default config </span></h2>
+<table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #EE8822; background-color: #FFEEDD">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_important.png" class="image"><img alt="MBOX icon important.png" src="/images/f/f0/MBOX_icon_important.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;">This page provides information about the legacy linux-sunxi kernels, which are based on the vendor code drops. It is only useful when accelerated 3D graphics and multimedia support is strictly necessary.
+<p><br/>
+But the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">Mainline Kernel</a> is already a much better choice for a headless server. And also the mainline kernel works fine even for a basic Linux desktop system running on top of a simple framebuffer, which may be good enough for the users who do not need fancy 3D graphics or video playback acceleration.
+</p>
+</td></tr></table>
+<h3> <span class="mw-headline" id="A10"> A10 </span></h3>
+<p>For <a href="/A10" title="A10">A10</a> use:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- sun4i_defconfig</pre>
+<h3> <span class="mw-headline" id="A13"> A13 </span></h3>
+<p>For <a href="/A13" title="A13">A13</a> use:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- sun5i_defconfig</pre>
+<h3> <span class="mw-headline" id="A10s"> A10s </span></h3>
+<p>For <a href="/A10s" title="A10s">A10s</a> use:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- sun5i_defconfig</pre>
+<p>But to get a booting system, you need to set:
+</p>
+<pre>CONFIG_SW_DEBUG_UART=1</pre>
+<p>to:
+</p>
+<pre>CONFIG_SW_DEBUG_UART=0</pre>
+<p>in <kbd>.config</kbd>.
+</p><p>Through menuconfig, you need to dig through:
+</p>
+<pre>System Type ---&gt;</pre>
+<p>Then:
+</p>
+<pre>Allwinner's sunxi options  ---&gt;</pre>
+<p>And then set this to <i>0</i>:
+</p>
+<pre>(1) UART to use for low-level debug</pre>
+<h3> <span class="mw-headline" id="A20"> A20 </span></h3>
+<p>For <a href="/A20" title="A20">A20</a> use:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- sun7i_defconfig</pre>
+<h2> <span class="mw-headline" id="Tweak_config"> Tweak config </span></h2>
+<p>After you have set a default configuration, you can fine-tune your kernel configuration.
+</p><p>For this you will need ncurses development code installed. So for example, on a system that uses the apt package manager, run the following:
+</p>
+<pre>apt-get install libncurses5-dev</pre>
+<p>Now you can run menuconfig, and edit your configuration:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- menuconfig</pre>
+<p>Note that the sunxi kernel is based on an obsolete kernel version with vendor hacks thrown in to support the sunxi hardware. As a result some configurations that are possible to select will not build or work.
+</p><p>In particular some sunxi-specific drivers were not fixed to work both as built-in and as module and IPv6 only works as built-in.
+</p><p>If you plan on using a <a href="/Bootable_SD_card#Linaro_rootfs" title="Bootable SD card">rootfs</a> with <i>systemd</i> or <i>upstart</i> (e.g. Ubuntu) you should set CONFIG_FHANDLE=y in the kernel configuration. By default, .config reads "# CONFIG_FHANDLE is not set" The option can be found in General Setup, Open by fhandle syscalls.
+</p>
+<h2> <span class="mw-headline" id="Build"> Build </span></h2>
+<p>Make sure you have the package <i>u-boot-tools</i> installed, then:
+</p>
+<pre>make -j$(nproc) ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- uImage modules</pre>
+<p>As a final step, create the full module tree:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- INSTALL_MOD_PATH=output modules_install</pre>
+<p>The INSTALL_MOD_PATH option specifies the directory where the full module tree will be made available, in this example, it will be the output directory under the kernel build directory itself.
+</p>
+<h2> <span class="mw-headline" id="Install"> Install </span></h2>
+<p>Now you have the following sitting in your kernel tree:
+</p>
+<pre>    arch/arm/boot/uImage
+    output/lib/modules/3.4.XXX/
+</pre>
+<p>The <kbd>uImage</kbd> file (the kernel minus the modules) needs to be started by U-Boot, so it is usually copied to a boot partition where U-Boot will find it, load it in RAM and then transfer control to it (U-Boot can also pass parameters to the kernel). The modules subdirectory needs to be copied to <kbd>/lib/modules</kbd> on the target root file system.
+</p>
+<h1> <span class="mw-headline" id="Upstream_code"> Upstream code </span></h1>
+<p>Although it depends on the SoC, the status of <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto"> mainline kernel</a> is now almost suitable for normal use.
+</p>
+<h1> <span class="mw-headline" id="External_links"> External links </span></h1>
+<ul><li> <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi">Official linux-sunxi git repository</a>
+</li></ul>
+<p>Alternative 3.4 kernels are maintained and provided by
+</p>
+<ul><li> Daniel Andersen: <a class="external free" href="https://github.com/dan-and/linux-sunxi">https://github.com/dan-and/linux-sunxi</a> (also maintains an experimental U-Boot tree)
+</li><li> Igor Pečovnik: <a class="external free" href="https://github.com/igorpecovnik/linux-sunxi">https://github.com/igorpecovnik/linux-sunxi</a>, see also <a rel="nofollow" class="external free" href="http://www.igorpecovnik.com/">http://www.igorpecovnik.com/</a> (currently moving to <a rel="nofollow" class="external free" href="http://www.armbian.com/">http://www.armbian.com/</a>)
+</li></ul>
+<h1> <span class="mw-headline" id="References"> References </span></h1>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a class="external free" href="https://github.com/allwinner/linux-2.6.36/">https://github.com/allwinner/linux-2.6.36/</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://forum.xda-developers.com/showpost.php?p=25978796&amp;postcount=121">Qware (dutch redistributor of Ployer Momo tablets) released the Android 4.0.3 (AOSP + kernel) code</a></span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Linux_Kernel&amp;oldid=16534">http://linux-sunxi.org/index.php?title=Linux_Kernel&amp;oldid=16534</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Linux+Kernel&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Linux+Kernel" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Linux_Kernel" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Linux_Kernel&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Linux_Kernel">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Linux_Kernel&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Linux_Kernel&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Linux_Kernel" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Linux_Kernel" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Linux_Kernel&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Linux_Kernel&amp;oldid=16534" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 9 March 2016, at 15:00.</li>
+<li id="footer-info-viewcount">This page has been accessed 163,387 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

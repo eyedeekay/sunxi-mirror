@@ -1,0 +1,3510 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Fex Guide - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Fex_Guide","wgTitle":"Fex Guide","wgCurRevisionId":17172,"wgArticleId":101,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Fex_Guide","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Fex_Guide"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Fex_Guide skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Fex Guide</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#FEX_Description"><span class="tocnumber">1</span> <span class="toctext">FEX Description</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Port_Definitions"><span class="tocnumber">2</span> <span class="toctext">Port Definitions</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#application"><span class="tocnumber">3</span> <span class="toctext">application</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#.5Bproduct.5D"><span class="tocnumber">3.1</span> <span class="toctext">[product]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#system_configuration"><span class="tocnumber">4</span> <span class="toctext">system configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#.5Btarget.5D"><span class="tocnumber">4.1</span> <span class="toctext">[target]</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#.5Bcard_burn_para.5D"><span class="tocnumber">4.2</span> <span class="toctext">[card_burn_para]</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#.5Bcard_boot.5D"><span class="tocnumber">4.3</span> <span class="toctext">[card_boot]</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#.5Bcard_boot0_para.5D"><span class="tocnumber">4.4</span> <span class="toctext">[card_boot0_para]</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#.5Bcard_boot2_para.5D"><span class="tocnumber">4.5</span> <span class="toctext">[card_boot2_para]</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#.5Btwi_para.5D"><span class="tocnumber">4.6</span> <span class="toctext">[twi_para]</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#.5Buart_para.5D"><span class="tocnumber">4.7</span> <span class="toctext">[uart_para]</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#.5Bjtag_para.5D"><span class="tocnumber">4.8</span> <span class="toctext">[jtag_para]</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#.5Bsystem.5D"><span class="tocnumber">4.9</span> <span class="toctext">[system]</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#.5Bgpio_para.5D"><span class="tocnumber">4.10</span> <span class="toctext">[gpio_para]</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#.5Bgpio_init.5D"><span class="tocnumber">4.11</span> <span class="toctext">[gpio_init]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#SDRAM"><span class="tocnumber">5</span> <span class="toctext">SDRAM</span></a>
+<ul>
+<li class="toclevel-2 tocsection-18"><a href="#.5Bdram_para.5D"><span class="tocnumber">5.1</span> <span class="toctext">[dram_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#mali_configuration"><span class="tocnumber">6</span> <span class="toctext">mali configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#.5Bmali_para.5D"><span class="tocnumber">6.1</span> <span class="toctext">[mali_para]</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#.5Bg2d_para.5D"><span class="tocnumber">6.2</span> <span class="toctext">[g2d_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="#ethernet_MAC_configuration"><span class="tocnumber">7</span> <span class="toctext">ethernet MAC configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-23"><a href="#.5Bemac_para.5D"><span class="tocnumber">7.1</span> <span class="toctext">[emac_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-24"><a href="#i2c_configuration"><span class="tocnumber">8</span> <span class="toctext">i2c configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-25"><a href="#.5Btwi0_para.5D"><span class="tocnumber">8.1</span> <span class="toctext">[twi0_para]</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#.5Btwi0_para.5D_2"><span class="tocnumber">8.2</span> <span class="toctext">[twi0_para]</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#.5Btwi2_para.5D"><span class="tocnumber">8.3</span> <span class="toctext">[twi2_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-28"><a href="#uart_configuration"><span class="tocnumber">9</span> <span class="toctext">uart configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-29"><a href="#.5Buart_para0.5D"><span class="tocnumber">9.1</span> <span class="toctext">[uart_para0]</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#.5Buart_para1.5D"><span class="tocnumber">9.2</span> <span class="toctext">[uart_para1]</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#.5Buart_para2.5D"><span class="tocnumber">9.3</span> <span class="toctext">[uart_para2]</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#.5Buart_para3.5D"><span class="tocnumber">9.4</span> <span class="toctext">[uart_para3]</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#.5Buart_para4.5D"><span class="tocnumber">9.5</span> <span class="toctext">[uart_para4]</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#.5Buart_para5.5D"><span class="tocnumber">9.6</span> <span class="toctext">[uart_para5]</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#.5Buart_para6.5D"><span class="tocnumber">9.7</span> <span class="toctext">[uart_para6]</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#.5Buart_para7.5D"><span class="tocnumber">9.8</span> <span class="toctext">[uart_para7]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-37"><a href="#spi_configuration"><span class="tocnumber">10</span> <span class="toctext">spi configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-38"><a href="#.5Bspi0_para.5D"><span class="tocnumber">10.1</span> <span class="toctext">[spi0_para]</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#.5Bspi1_para.5D"><span class="tocnumber">10.2</span> <span class="toctext">[spi1_para]</span></a></li>
+<li class="toclevel-2 tocsection-40"><a href="#.5Bspi2_para.5D"><span class="tocnumber">10.3</span> <span class="toctext">[spi2_para]</span></a></li>
+<li class="toclevel-2 tocsection-41"><a href="#.5Bspi3_para.5D"><span class="tocnumber">10.4</span> <span class="toctext">[spi3_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-42"><a href="#external_spi_device_configuration"><span class="tocnumber">11</span> <span class="toctext">external spi device configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-43"><a href="#.5Bspi_devices.5D"><span class="tocnumber">11.1</span> <span class="toctext">[spi_devices]</span></a></li>
+<li class="toclevel-2 tocsection-44"><a href="#.5Bspi_board0.5D"><span class="tocnumber">11.2</span> <span class="toctext">[spi_board0]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-45"><a href="#resistive_touch_panel_configuration"><span class="tocnumber">12</span> <span class="toctext">resistive touch panel configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-46"><a href="#.5Brtp_para.5D"><span class="tocnumber">12.1</span> <span class="toctext">[rtp_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-47"><a href="#capacitive_touch_panel_configuration"><span class="tocnumber">13</span> <span class="toctext">capacitive touch panel configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-48"><a href="#.5Bctp_para.5D"><span class="tocnumber">13.1</span> <span class="toctext">[ctp_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-49"><a href="#touch_key_configuration"><span class="tocnumber">14</span> <span class="toctext">touch key configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-50"><a href="#.5Btkey_para.5D"><span class="tocnumber">14.1</span> <span class="toctext">[tkey_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-51"><a href="#tablet_key_configuration"><span class="tocnumber">15</span> <span class="toctext">tablet key configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-52"><a href="#.5Btabletkeys_para.5D"><span class="tocnumber">15.1</span> <span class="toctext">[tabletkeys_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-53"><a href="#motor_configuration"><span class="tocnumber">16</span> <span class="toctext">motor configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-54"><a href="#.5Bmotor_para.5D"><span class="tocnumber">16.1</span> <span class="toctext">[motor_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-55"><a href="#lock_configuration"><span class="tocnumber">17</span> <span class="toctext">lock configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-56"><a href="#.5Blocks_para.5D"><span class="tocnumber">17.1</span> <span class="toctext">[locks_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-57"><a href="#nand_flash_configuration"><span class="tocnumber">18</span> <span class="toctext">nand flash configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-58"><a href="#.5Bnand_para.5D"><span class="tocnumber">18.1</span> <span class="toctext">[nand_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-59"><a href="#disp_init_configuration"><span class="tocnumber">19</span> <span class="toctext">disp init configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-60"><a href="#.5Bdisp_init.5D"><span class="tocnumber">19.1</span> <span class="toctext">[disp_init]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-61"><a href="#lcd.5B0.2F1.5D_configuration"><span class="tocnumber">20</span> <span class="toctext">lcd[0/1] configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-62"><a href="#.5Blcd0_para.5D"><span class="tocnumber">20.1</span> <span class="toctext">[lcd0_para]</span></a></li>
+<li class="toclevel-2 tocsection-63"><a href="#.5Blcd1_para.5D"><span class="tocnumber">20.2</span> <span class="toctext">[lcd1_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-64"><a href="#tv_out_dac_configuration"><span class="tocnumber">21</span> <span class="toctext">tv out dac configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-65"><a href="#.5Btv_out_dac_para.5D"><span class="tocnumber">21.1</span> <span class="toctext">[tv_out_dac_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-66"><a href="#csi_gpio_configuration"><span class="tocnumber">22</span> <span class="toctext">csi gpio configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-67"><a href="#.5Bcsi0_para.5D"><span class="tocnumber">22.1</span> <span class="toctext">[csi0_para]</span></a></li>
+<li class="toclevel-2 tocsection-68"><a href="#.5Bcsi1_para.5D"><span class="tocnumber">22.2</span> <span class="toctext">[csi1_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-69"><a href="#tv_configuration"><span class="tocnumber">23</span> <span class="toctext">tv configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-70"><a href="#.5Btvout_para.5D"><span class="tocnumber">23.1</span> <span class="toctext">[tvout_para]</span></a></li>
+<li class="toclevel-2 tocsection-71"><a href="#.5Btvin_para.5D"><span class="tocnumber">23.2</span> <span class="toctext">[tvin_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-72"><a href="#sata_configuration"><span class="tocnumber">24</span> <span class="toctext">sata configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-73"><a href="#.5Bsata_para.5D"><span class="tocnumber">24.1</span> <span class="toctext">[sata_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-74"><a href="#sdmmc_configuration"><span class="tocnumber">25</span> <span class="toctext">sdmmc configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-75"><a href="#.5Bmmc0_para.5D"><span class="tocnumber">25.1</span> <span class="toctext">[mmc0_para]</span></a></li>
+<li class="toclevel-2 tocsection-76"><a href="#.5Bmmc1_para.5D"><span class="tocnumber">25.2</span> <span class="toctext">[mmc1_para]</span></a></li>
+<li class="toclevel-2 tocsection-77"><a href="#.5Bmmc2_para.5D"><span class="tocnumber">25.3</span> <span class="toctext">[mmc2_para]</span></a></li>
+<li class="toclevel-2 tocsection-78"><a href="#.5Bmmc3_para.5D"><span class="tocnumber">25.4</span> <span class="toctext">[mmc3_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-79"><a href="#memory_stick_configuration"><span class="tocnumber">26</span> <span class="toctext">memory stick configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-80"><a href="#.5Bms_para.5D"><span class="tocnumber">26.1</span> <span class="toctext">[ms_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-81"><a href="#sim_card_configuration"><span class="tocnumber">27</span> <span class="toctext">sim card configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-82"><a href="#.5Bsmc_para.5D"><span class="tocnumber">27.1</span> <span class="toctext">[smc_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-83"><a href="#ps2_configuration"><span class="tocnumber">28</span> <span class="toctext">ps2 configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-84"><a href="#.5Bps2_0_para.5D"><span class="tocnumber">28.1</span> <span class="toctext">[ps2_0_para]</span></a></li>
+<li class="toclevel-2 tocsection-85"><a href="#.5Bps2_1_para.5D"><span class="tocnumber">28.2</span> <span class="toctext">[ps2_1_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-86"><a href="#can_bus_configuration"><span class="tocnumber">29</span> <span class="toctext">can bus configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-87"><a href="#.5Bcan_para.5D"><span class="tocnumber">29.1</span> <span class="toctext">[can_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-88"><a href="#matrix_keyboard"><span class="tocnumber">30</span> <span class="toctext">matrix keyboard</span></a></li>
+<li class="toclevel-1 tocsection-89"><a href="#23.1_.5Bkeypad_para.5D"><span class="tocnumber">31</span> <span class="toctext">23.1 [keypad_para]</span></a></li>
+<li class="toclevel-1 tocsection-90"><a href="#USB_control_flags"><span class="tocnumber">32</span> <span class="toctext">USB control flags</span></a>
+<ul>
+<li class="toclevel-2 tocsection-91"><a href="#.5Busbc0.5D"><span class="tocnumber">32.1</span> <span class="toctext">[usbc0]</span></a></li>
+<li class="toclevel-2 tocsection-92"><a href="#.5Busbc1.5D"><span class="tocnumber">32.2</span> <span class="toctext">[usbc1]</span></a></li>
+<li class="toclevel-2 tocsection-93"><a href="#.5Busbc2.5D"><span class="tocnumber">32.3</span> <span class="toctext">[usbc2]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-94"><a href="#USB_Device"><span class="tocnumber">33</span> <span class="toctext">USB Device</span></a>
+<ul>
+<li class="toclevel-2 tocsection-95"><a href="#.5Busb_feature.5D"><span class="tocnumber">33.1</span> <span class="toctext">[usb_feature]</span></a></li>
+<li class="toclevel-2 tocsection-96"><a href="#.5Bmsc_feature.5D"><span class="tocnumber">33.2</span> <span class="toctext">[msc_feature]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-97"><a href="#G_Sensor_configuration"><span class="tocnumber">34</span> <span class="toctext">G Sensor configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-98"><a href="#.5Bgsensor_para.5D"><span class="tocnumber">34.1</span> <span class="toctext">[gsensor_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-99"><a href="#gps_gpio_configuration"><span class="tocnumber">35</span> <span class="toctext">gps gpio configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-100"><a href="#.5Bgps_para.5D"><span class="tocnumber">35.1</span> <span class="toctext">[gps_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-101"><a href="#sdio_wifi_configuration"><span class="tocnumber">36</span> <span class="toctext">sdio wifi configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-102"><a href="#.5Bsdio_wifi_para.5D"><span class="tocnumber">36.1</span> <span class="toctext">[sdio_wifi_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-103"><a href="#us_wifi_configuration"><span class="tocnumber">37</span> <span class="toctext">us wifi configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-104"><a href="#.5Busb_wifi_para.5D"><span class="tocnumber">37.1</span> <span class="toctext">[usb_wifi_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-105"><a href="#3G_configuration"><span class="tocnumber">38</span> <span class="toctext">3G configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-106"><a href="#.5B3g_para.5D"><span class="tocnumber">38.1</span> <span class="toctext">[3g_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-107"><a href="#gyroscope"><span class="tocnumber">39</span> <span class="toctext">gyroscope</span></a>
+<ul>
+<li class="toclevel-2 tocsection-108"><a href="#.5Bgy_para.5D"><span class="tocnumber">39.1</span> <span class="toctext">[gy_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-109"><a href="#light_sensor"><span class="tocnumber">40</span> <span class="toctext">light sensor</span></a>
+<ul>
+<li class="toclevel-2 tocsection-110"><a href="#.5Bls_para.5D"><span class="tocnumber">40.1</span> <span class="toctext">[ls_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-111"><a href="#compass"><span class="tocnumber">41</span> <span class="toctext">compass</span></a>
+<ul>
+<li class="toclevel-2 tocsection-112"><a href="#.5Bcompass_para.5D"><span class="tocnumber">41.1</span> <span class="toctext">[compass_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-113"><a href="#blue_tooth"><span class="tocnumber">42</span> <span class="toctext">blue tooth</span></a>
+<ul>
+<li class="toclevel-2 tocsection-114"><a href="#.5Bbt_para.5D"><span class="tocnumber">42.1</span> <span class="toctext">[bt_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-115"><a href="#i2s_configuration"><span class="tocnumber">43</span> <span class="toctext">i2s configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-116"><a href="#.5Bi2s_para.5D"><span class="tocnumber">43.1</span> <span class="toctext">[i2s_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-117"><a href="#spdif_configuration"><span class="tocnumber">44</span> <span class="toctext">spdif configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-118"><a href="#.5Bspdif_para.5D"><span class="tocnumber">44.1</span> <span class="toctext">[spdif_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-119"><a href="#audio_configuration"><span class="tocnumber">45</span> <span class="toctext">audio configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-120"><a href="#.5Baudio_para.5D"><span class="tocnumber">45.1</span> <span class="toctext">[audio_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-121"><a href="#infrared_remote_configuration"><span class="tocnumber">46</span> <span class="toctext">infrared remote configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-122"><a href="#.5Bir_para.5D"><span class="tocnumber">46.1</span> <span class="toctext">[ir_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-123"><a href="#pmu_configuration"><span class="tocnumber">47</span> <span class="toctext">pmu configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-124"><a href="#.5Bpmu_para.5D"><span class="tocnumber">47.1</span> <span class="toctext">[pmu_para]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-125"><a href="#recovery_key_configuration"><span class="tocnumber">48</span> <span class="toctext">recovery key configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-126"><a href="#.5Brecovery_key.5D"><span class="tocnumber">48.1</span> <span class="toctext">[recovery_key]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-127"><a href="#dvfs_voltage-frequency_table_configuration"><span class="tocnumber">49</span> <span class="toctext">dvfs voltage-frequency table configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-128"><a href="#.5Bdvfs_table.5D"><span class="tocnumber">49.1</span> <span class="toctext">[dvfs_table]</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-129"><a href="#led_configuration"><span class="tocnumber">50</span> <span class="toctext">led configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-130"><a href="#.5Bleds_para.5D"><span class="tocnumber">50.1</span> <span class="toctext">[leds_para]</span></a></li>
+<li class="toclevel-2 tocsection-131"><a href="#external_leds"><span class="tocnumber">50.2</span> <span class="toctext">external leds</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-132"><a href="#dynamic_configuration"><span class="tocnumber">51</span> <span class="toctext">dynamic configuration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-133"><a href="#.5Bdynamic.5D"><span class="tocnumber">51.1</span> <span class="toctext">[dynamic]</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="FEX_Description"> FEX Description </span></h2>
+<p>A FEX file defines various aspects of how the SoC works. It configures the GPIO pins and sets up DRAM, Display, etc parameters.
+</p><p>Each line consists of a <b>key</b> = <b>value</b> pair combination under a <b>[sectionheader]</b>. All three, <b>[sectionheader]</b>, <b>key</b> and <b>value</b> are case-sensitive. For comments a semi-colon (<b>;</b>) is used and everything following a semi-colon is ignored. The chip does not parse a textual version of a fex file, it gets cleaned and compiled by a fex-compiler. A reverse engineerd open source version exists in the <a href="/Sunxi-tools#fexc_and_wrappers" title="Sunxi-tools">sunxi-tools repository</a>. Also a de-compiler which takes a binary <i>script.bin</i> and creates a textual <i>script.fex</i>. Usually, <i>script.bin</i> can be found on the nanda boot partition on A10 devices.
+</p><p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> The <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline</a> Linux kernel makes no use of FEX / <a href="/Script.bin" title="Script.bin">script.bin</a>, and relies on the <a href="/Device_Tree" title="Device Tree">device tree</a> model instead (<i>.dtb</i> files).
+</p>
+<h2> <span class="mw-headline" id="Port_Definitions"> Port Definitions </span></h2>
+<p>Description of the GPIO configuration in the form:
+</p>
+<dl><dd>port:&lt;port&gt;&lt;mux feature&gt;&lt;pullup/down&gt;&lt;drive capability&gt;&lt;output level&gt;
+</dd></dl>
+<p>where:
+</p>
+<dl><dd><b>&lt;port&gt;</b> is the port to configure (ie. PH15)
+</dd></dl>
+<dl><dd><b>&lt;mux feature&gt;</b> is the function to configure the port for, mux 0 is as input, mux 1 as output and for 2-7 see <a href="/A10/PIO" title="A10/PIO">A10/PIO</a>, <a href="/A13/PIO" title="A13/PIO">A13/PIO</a>, or <a href="/A20/PIO" title="A20/PIO">A20/PIO</a> for details.
+</dd></dl>
+<dl><dd><b>&lt;pullup/down&gt;</b> is 0 = disabled; 1 = pullup enabled; 2 = pulldown enabled (only valid when port is an input)
+</dd></dl>
+<dl><dd><b>&lt;drive capability&gt;</b> defines the output drive in mA, values are 0-3 corresponding to 10mA, 20mA, 30mA and 40mA.
+</dd></dl>
+<dl><dd><b>&lt;output level&gt;</b> sets the initial output level for the port; 0 = low; 1 = high (only valid for outputs)
+</dd></dl>
+<p>The <b>&lt;pullup/down&gt;</b> &lt;drive capability&gt; and &lt;output level&gt; can be set to &lt;default&gt; which means don't change. Any trailing &lt;default&gt; options can be omitted.
+</p><p>This can also be used to specify various pins on the AXP PMIC. The syntax is "power:portN".
+</p>
+<table class="wikitable">
+<tr>
+<th> Port </th>
+<th> AXP20x </th>
+<th> AXP22x / AXP8xx </th>
+<th>
+</th></tr>
+<tr>
+<td> 0 </td>
+<td> GPIO0 </td>
+<td> GPIO0
+</td></tr>
+<tr>
+<td> 1 </td>
+<td> GPIO1 </td>
+<td> GPIO1
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> GPIO2 </td>
+<td> DC1SW
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> GPIO3 </td>
+<td> CHGLED
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> </td>
+<td> N_VBUSEN
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> </td>
+<td> WAKEUP (slave PMIC)
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> </td>
+<td> SWOUT (slave PMIC)
+</td></tr></table>
+<h2> <span class="mw-headline" id="application"> application </span></h2>
+<h3> <span class="mw-headline" id=".5Bproduct.5D"> [product] </span></h3>
+<p>Product version and description. It seems all fex files at this moment are at version 1.0 and use the default evaluation board name. It doesn't appear to be used internally, but requires further investigation.
+</p>
+<ul><li> <b>version</b>: string indicating fex file version.
+</li><li> <b>machine</b>: string indicating the board name. <i>"A10-EVB-V1.2"</i> appears to be a common one, seemingly to refer to the A10 Evaluation board v1.2.
+</li></ul>
+<pre class="brush: ini">
+[product]
+version = &quot;1.0&quot;
+machine = &quot;A10-EVB-V1.2&quot;
+</pre>
+<h2> <span class="mw-headline" id="system_configuration"> system configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Btarget.5D"> [target] </span></h3>
+<p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> blue module chip pin configuration, the black module internal control configuration
+</p><p>Configuration items to configure the meaning of
+</p>
+<ul><li> <b>boot_clock</b>: Initial boot frequency in MHz.
+</li><li> <b>dcdc2_vol</b>: Dcdc2 output voltage in mV.
+</li><li> <b>dcdc3_vol</b>: Dcdc3 output voltage in mV.
+</li><li> <b>ldo2_vol</b>: Ldo2 output voltage in mV.
+</li><li> <b>ldo3_vol</b>: Ldo3 output voltage in mV.
+</li><li> <b>ldo4_vol</b>: Ldo4 output voltage in mV.
+</li><li> <b>power_start</b>: 0 or 1.
+</li><li> <b>storage_type</b>: 0 = nand, 1 = SDCard, 2 = SPI-nor
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[target]
+boot_clock = 1008
+dcdc2_vol = 1400
+dcdc3_vol = 1250
+ldo2_vol = 3000
+ldo3_vol = 2800
+ldo4_vol = 2800
+pll4_freq = 960
+pll6_freq = 960
+power_start = 1
+storage_type = 0
+</pre>
+<h3> <span class="mw-headline" id=".5Bcard_burn_para.5D"> [card_burn_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[card_burn_para]
+card_no = 0
+card_line = 4
+card_mode = 0
+sdc_d1 = port:PF00&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d0 = port:PF01&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_clk = port:PF02&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_cmd = port:PF03&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d3 = port:PF04&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d2 = port:PF05&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bcard_boot.5D"> [card_boot] </span></h3>
+<ul><li> <b>logical_start</b>: logical starting address when booting from SD-Card.
+</li><li> <b>sprite_gpio0</b>:
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[Card_boot]
+logical_start = 40960
+sprite_gpio0 =
+</pre>
+<h3> <span class="mw-headline" id=".5Bcard_boot0_para.5D"> [card_boot0_para] </span></h3>
+<ul><li> <b>card_ctrl</b>: card controller to be used
+</li><li> <b>card_high_speed</b>: 0 for low speed, 1 for high-speed
+</li><li> <b>card_line</b>: Number of card data lines
+</li><li> <b>sdc_ cmd</b>: SD-Card command signals GPIO configuration
+</li><li> <b>sdc_ clk</b>: SD-Card clock signal GPIO configuration
+</li><li> <b>sdc_ d0</b>: SD-Card data 0 line signal GPIO configuration
+</li><li> <b>sdc_ d1</b>: SD-Card data 1 line signal GPIO configuration
+</li><li> <b>sdc_d2</b>: SD-Card data 2 line signal GPIO configuration
+</li><li> <b>sdc_d3</b>: SD-Card data 3 line signal GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[card_boot0_para]
+card_ctrl = 0
+card_high_speed = 1
+card_line = 4
+sdc_d1 = port:PF00&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d0 = port:PF01&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_clk = port:PF02&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_cmd = port:PF03&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d3 = port:PF04&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d2 = port:PF05&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bcard_boot2_para.5D"> [card_boot2_para] </span></h3>
+<ul><li> <b>card_ctrl</b>: card controller to be used
+</li><li> <b>card_high_speed</b>: 0 for low speed, 1 for high-speed
+</li><li> <b>card_line</b>: number of card data lines
+</li><li> <b>sdc_ cmd</b>: SD-Card command signals GPIO configuration
+</li><li> <b>sdc_ clk</b>: SD-Card clock signal GPIO configuration
+</li><li> <b>sdc_ d0</b>: SD-Card data 0 line signal GPIO configuration
+</li><li> <b>sdc_ d1</b>: SD-Card data 1 line signal GPIO configuration
+</li><li> <b>sdc_d2</b>: SD-Card data 2 line signal GPIO configuration
+</li><li> <b>sdc_d3</b>: SD-Card data 3 line signal GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[card_boot2_para]
+card_ctrl = 2
+card_high_speed = 1
+card_line = 4
+sdc_cmd = port:PC06&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_clk = port:PC07&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d0 = port:PC08&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d1 = port:PC09&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d2 = port:PC10&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d3 = port:PC11&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Btwi_para.5D"> [twi_para] </span></h3>
+<p>twi controller to enable during/for boot.
+</p>
+<ul><li> <b>twi_port</b>: twi controller to configure
+</li><li> <b>twi_scl</b>: twi Serial CLock line GPIO configuration
+</li><li> <b>twi_sda</b>: = twi Serial DAta line GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[twi_para]
+twi_port = 0
+twi_scl = port:PB00&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+twi_sda = port:PB01&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Buart_para.5D"> [uart_para] </span></h3>
+<p>Serial port to be enabled during/for boot.
+</p>
+<ul><li> <b>uart_debug_port</b>: serial controller number
+</li><li> <b>uart_debug_tx</b>: serial port TX line GPIO configuration
+</li><li> <b>uart_debug_rx</b>: serial port RX line GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[uart_para]
+uart_debug_port = 0
+uart_debug_tx = port:PB22&lt;2&gt;
+uart_debug_rx = port:PB23&lt;2&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bjtag_para.5D"> [jtag_para] </span></h3>
+<p>JTAG port to be enabled during/for boot.
+</p>
+<ul><li> <b>jtag_enable</b>: 0 to disable JTAG, 1 to enable JTAG
+</li><li> <b>jtag_ms</b>: JTAG Test Mode Select (TMS) GPIO configuration
+</li><li> <b>jtag_ck</b>: JTAG Test Clock (TCK) GPIO configuration
+</li><li> <b>jtag_do</b>: JTAG Test Data Output (TDO) GPIO configuration
+</li><li> <b>jtag_di</b>: JTAG Test Data Input (TDI) GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[jtag_para]
+jtag_enable = 1
+jtag_ms = port:PB14&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+jtag_ck = port:PB15&lt;3&gt;default&gt;&lt;default&gt;&lt;default&gt;
+jtag_do = port:PB16&lt;3&gt;default&gt;&lt;default&gt;&lt;default&gt;
+jtag_di = port:PB17&lt;3&gt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bsystem.5D"> [system] </span></h3>
+<ul><li> <b>recovery_key</b>: recovery key GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre>
+recovery_key = port:PH16&lt;0&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bgpio_para.5D"> [gpio_para] </span></h3>
+<ul><li> <b>gpio_used</b>: 0 to disable; 1 to enable
+</li><li> <b>gpio_num</b>: number mapped GPIO's
+</li><li> <b>gpio_pin_1</b>: first GPIO pin
+</li></ul>
+<p>Configuration example:
+</p>
+<pre>
+gpio_used = 0
+gpio_num = 4
+gpio_pin_1 = port:PH10&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+gpio_pin_2 = port:PH20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+gpio_pin_3 = port:PB03&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+gpio_pin_4 = port:PH22&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bgpio_init.5D"> [gpio_init] </span></h3>
+<ul><li> <b>pin_1</b>: Initial pin 1 GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre>
+pin_1 = port:PH10&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+pin_2 = port:PH20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<h2> <span class="mw-headline" id="SDRAM"> SDRAM </span></h2>
+<h3> <span class="mw-headline" id=".5Bdram_para.5D"> [dram_para] </span></h3>
+<p>SD-Ram is usually configured via livesuit when flashing. Livesuit probes the hardware or knows about the hardware and its configuration and configures the SoC accordingly. This luxury is not available from Linux and thus sdram parameters have to be set up by hand.
+</p>
+<ul><li> <b>dram_baseaddr</b>: DRAM physical start address, fixed at 0x40000000
+</li><li> <b>dram_clk</b>: DRAM clock frequency in MHz; it must be an integer multiple of 24, minimally 120, maximally 480 MHz
+</li><li> <b>dram_type</b>: DRAM type; Set to 2 for DDR2; 3 for DDR3
+</li><li> <b>dram_rank_num</b>: DRAM chip select; 1 is a chip select; 2 election for two tablets
+</li><li> <b>dram_chip_density</b>: monolithic DRAM capacity in Mbit
+</li><li> <b>dram_io_width</b>: monolithic DRAM bus width in bits
+</li><li> <b>dram_bus_width</b>: DRAM bus width in bits, such as two 16-bit DRAM banks make up a 32 bit bus width
+</li><li> <b>dram_cas</b>: DRAM CAS latency
+</li><li> <b>dram_zq</b>: DRAM controller internal parameters
+</li><li> <b>dram_odt_en</b>: ODT 0 to disable; 1 to enable
+</li><li> <b>dram_size</b>: DRAM total capacity in MB
+</li><li> <b>dram_tpr0</b>: DRAM controller internal parameter
+</li><li> <b>dram_tpr1</b>: DRAM controller internal parameter
+</li><li> <b>dram_tpr2</b>: DRAM controller internal parameter
+</li><li> <b>dram_tpr3</b>: DRAM controller internal parameter
+</li><li> <b>dram_tpr4</b>: DRAM controller internal parameter
+</li><li> <b>dram_tpr5</b>: DRAM controller internal parameter
+</li><li> <b>dram_emr1</b>: DRAM controller internal parameter
+</li><li> <b>dram_emr2</b>: DRAM controller internal parameter
+</li><li> <b>dram_emr3</b>: DRAM controller internal parameter
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[dram_para]
+dram_baseaddr = 0x40000000
+dram_clk = 360
+dram_type = 3
+dram_rank_num = 1
+dram_chip_density = 2048
+dram_io_width = 16
+dram_bus_width = 32
+dram_cas = 6
+dram_zq = 0x7b
+dram_odt_en = 0
+dram_size = 512
+dram_tpr0 = 0x30926692
+dram_tpr1 = 0x1090
+dram_tpr2 = 0x1a0c8
+dram_tpr3 = 0x0
+dram_tpr4 = 0x0
+dram_tpr5 = 0x0
+dram_emr1 = 0x0
+dram_emr2 = 0x0
+dram_emr3 = 0x0
+</pre>
+<h2> <span class="mw-headline" id="mali_configuration"> mali configuration </span></h2>
+<p><a href="/Mali400" title="Mali400">Mali</a> is the name of the GPU on the A10, A10s, A13, A20, A23, and A33 SoC's
+</p>
+<h3> <span class="mw-headline" id=".5Bmali_para.5D"> [mali_para] </span></h3>
+<ul><li> <b>mali_used</b>: 0 to disable; 1 to enable Mali module
+</li><li> <b>mali_clkdiv</b>: Mali clock divisor. Clock is obtained by devising PLL4 with <i>mali_clkdiv</i>
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[mali_para]
+mali_used = 1
+mali_clkdiv = 3
+</pre>
+<h3> <span class="mw-headline" id=".5Bg2d_para.5D"> [g2d_para] </span></h3>
+<p>G2D is the 2D graphic display engine on the Allwinner SoC
+</p>
+<ul><li> <b>g2d_used</b>: 0 to disable; 1 to enable the g2d module
+</li><li> <b>g2d_size</b>: memory size for g2d
+</li></ul>
+<pre class="brush: ini">
+g2d_used = 1
+g2d_size = 0x1000000
+</pre>
+<h2> <span class="mw-headline" id="ethernet_MAC_configuration"> ethernet MAC configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bemac_para.5D"> [emac_para] </span></h3>
+<p>Ethernet configuration for the integrated ethernet IP. It still requires an external PHY
+</p>
+<ul><li> <b>emac_used</b>: 0 to disable; 1 to enable the ethernet MAC
+</li><li> <b>emac_rxd0</b>: RX data line 0 GPIO configuration
+</li><li> <b>emac_rxd1</b>: RX data line 1 GPIO configuration
+</li><li> <b>emac_rxd2</b>: RX data line 2 GPIO configuration
+</li><li> <b>emac_rxd3</b>: RX data line 3 GPIO configuration
+</li><li> <b>emac_txd0</b>: TX data line 0 GPIO configuration
+</li><li> <b>emac_txd1</b>: TX data line 1 GPIO configuration
+</li><li> <b>emac_txd2</b>: TX data line 2 GPIO configuration
+</li><li> <b>emac_txd3</b>: TX data line 3 GPIO configuration
+</li><li> <b>emac_rxclk</b>: RX clock GPIO configuration
+</li><li> <b>emac_rxerr</b>: RX error GPIO configuration
+</li><li> <b>emac_rxdV</b>: RX enabled GPIO configuration
+</li><li> <b>emac_mdc</b>: MII clock GPIO configuration
+</li><li> <b>emac_mdio</b>: MII data I/O GPIO configuration
+</li><li> <b>emac_txen</b>: TX enabled GPIO configuration
+</li><li> <b>emac_txclk</b>: TX clock GPIO configuration
+</li><li> <b>emac_crs</b>: Carrier Status of GPIO configuration
+</li><li> <b>emac_col</b>: Collision Detection GPIO configuration
+</li><li> <b>emac_reset</b>: PHY reset signal GPIO configuration
+</li><li> <b>emac_power</b>:
+</li><li> <b>emac_link</b>:
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[Emac_para]
+emac_used = 1
+emac_rxd3 = port:PA00&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_rxd2 = port:PA01&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_rxd1 = port:PA02&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_rxd0 = port:PA03&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_txd3 = port:PA04&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_txd2 = port:PA05&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_txd1 = port:PA06&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_txd0 = port:PA07&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_rxclk = port:PA08&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_rxerr = port:PA09&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_rxdV = port:PA10&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_mdc = port:PA11&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_mdio = port:PA12&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_txen = port:PA13&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_txclk = port:PA14&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_crs = port:PA15&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_col = port:PA16&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+emac_reset = port:PA17&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="i2c_configuration"> i2c configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Btwi0_para.5D"> [twi0_para] </span></h3>
+<p>Two Wire Interface (i²c) configuration for TWI port 0
+</p>
+<ul><li> <b>twi0_used</b>: 0 to disable; 1 to enable
+</li><li> <b>twi0_scl</b>: TWI Serial CLock GPIO configuration
+</li><li> <b>twi0_sda</b>: TWI Serial Data GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[twi0_para]
+twi0_used = 1
+twi0_scl = port:PB00&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+twi0_sda = port:PB01&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Btwi0_para.5D_2"> [twi0_para] </span></h3>
+<p>Two Wire Interface (i²c) configuration for TWI port 1
+</p>
+<ul><li> <b>twi1_used</b>: 0 to disable; 1 to enable
+</li><li> <b>twi1_scl</b>: TWI Serial CLock GPIO configuration
+</li><li> <b>twi1_sda</b>: TWI Serial Data GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[tw1_para]
+twi1_used = 1
+twi1_scl = port:PB18&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+twi1_sda = port:PB19&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Btwi2_para.5D"> [twi2_para] </span></h3>
+<p>Two Wire Interface (i²c) configuration for TWI port 2
+</p>
+<ul><li> <b>twi2_used</b>: 0 to disable; 1 to enable
+</li><li> <b>twi2_scl</b>: TWI Serial CLock GPIO configuration
+</li><li> <b>twi2_sda</b>: TWI Serial Data GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[twi2_para]
+twi2_used = 1
+twi2_scl = port:PB20&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+twi2_sda = port:PB21&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="uart_configuration"> uart configuration </span></h2>
+<p>Any of the 8 UART ports can be configured to be either 2 (Only TX/RX) wires, 4 wires (TX, RX, RTS and CTS) or 8 (Full function) ports.
+</p>
+<ul><li> <b>uart_used</b>: 0 to disable; 1 to enable
+</li><li> <b>uart_port</b>: UART port number
+</li><li> <b>uart_type</b>: UART type, 2, 4 or 8 wires
+</li><li> <b>uart_tx</b>: UART TX data line GPIO configuration
+</li><li> <b>uart_rx</b>: UART RX data line GPIO configuration
+</li><li> <b>uart_rts</b>: UART Ready to Send line GPIO configuration, only for 4 and 8 wire modes
+</li><li> <b>uart_cts</b>: UART Clear to Send line GPIO configuration, only for 4 and 8 wire modes
+</li><li> <b>uart_dtr</b>: UART Data Terminal Ready GPIO configuration, only for 8 wire modes
+</li><li> <b>uart_dsr</b>: UART Data Set Ready GPIO configuration, only for 8 wire modes
+</li><li> <b>uart_dcd</b>: UART Data Carrier Detect GPIO configuration, only for 8 wire modes
+</li><li> <b>uart_ring</b>: UART Ring Indicator GPIO configuration, only for 8 wire modes
+</li></ul>
+<h3> <span class="mw-headline" id=".5Buart_para0.5D"> [uart_para0] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[uart_para0]
+uart_used = 1
+uart_port = 0
+uart_tx = port:PB22&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rx = port:PB23&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Buart_para1.5D"> [uart_para1] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[uart_para1]
+uart_used = 0
+uart_port = 1
+uart_type = 8
+uart_tx = port:PA10&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rx = port:PA11&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rts = port:PA12&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_cts = port:PA13&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_dtr = port:PA14&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_dsr = port:PA15&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_dcd = port:PA16&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_ring = port:PA17&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Buart_para2.5D"> [uart_para2] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[uart_para2]
+uart_used = 0
+uart_port = 2
+uart_type = 4
+uart_tx = port:PI18&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rx = port:PI19&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rts = port:PI16&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_cts = port:PI17&lt;3&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Buart_para3.5D"> [uart_para3] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[uart_para3]
+uart_used = 0
+uart_port = 3
+uart_type = 4
+uart_tx = port:PH00&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rx = port:PH01&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rts = port:PH02&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_cts = port:PH03&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Buart_para4.5D"> [uart_para4] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[Uart_para4]
+uart_used = 0
+uart_port = 4
+uart_type = 2
+uart_tx = port:PH04&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rx = port:PH05&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Buart_para5.5D"> [uart_para5] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[uart_para5]
+uart_used = 0
+uart_port = 5
+uart_type = 2
+uart_tx = port: PH06&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rx = port: PH07&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Buart_para6.5D"> [uart_para6] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[uart_para6]
+uart_used = 0
+uart_port = 6
+uart_type = 2
+uart_tx = port:PA12&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rx = port:PA13&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Buart_para7.5D"> [uart_para7] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[uart_para7]
+uart_used = 0
+uart_port = 7
+uart_type = 2
+uart_tx = port:PA14&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+uart_rx = port:PA15&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="spi_configuration"> spi configuration </span></h2>
+<ul><li> <b>spi_used</b>: 0 to disable; 1 to enable
+</li><li> <b>spi_cs_bitmap</b>: 1 use cs0, 2 use cs1, 3 use cs0 &amp; cs1
+</li><li> <b>spi_cs0</b>: Chip Select bit 0 GPIO configuration
+</li><li> <b>spi_cs1</b>: Chip Select bit 1 GPIO configuration
+</li><li> <b>spi_sclk</b>: clock GPIO configuration
+</li><li> <b>spi_mosi</b>: MOSI GPIO configuration
+</li><li> <b>spi_miso</b>: MISO GPIO configuration
+</li></ul>
+<p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> Not all spi chip select bits are required to be set
+</p>
+<h3> <span class="mw-headline" id=".5Bspi0_para.5D"> [spi0_para] </span></h3>
+<p>Configuration example 1:
+</p>
+<pre class="brush: ini">
+[spi0_para]
+spi_used = 0
+spi_cs_bitmap = 1
+spi_cs0 = port:PI10&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_sclk = port:PI11&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_mosi = port:PI12&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_miso = port:PI13&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_cs1 = port:PI14&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<p>Configuration example 2:
+</p>
+<pre class="brush: ini">
+[spi0_para]
+spi_used = 0
+spi_cs_bitmap = 1
+spi_mosi = port:PC00&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_miso = port:PC01&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_sclk = port:PC02&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_cs0 = port:PC23&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bspi1_para.5D"> [spi1_para] </span></h3>
+<p>Configuration example 1:
+</p>
+<pre class="brush: ini">
+[spi1_para]
+spi_used = 0
+spi_cs_bitmap = 1
+spi_cs0 = port:PA00&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_sclk = port:PA01&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_mosi = port:PA02&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_miso = port:PA03&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_cs1 = port:PA04&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<p>Configuration example 2:
+</p>
+<pre class="brush: ini">
+[spi1_para]
+spi_used = 0
+spi_cs_bitmap = 1
+spi_cs1 = port:PI15&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_cs0 = port:PI16&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_sclk = port:PI17&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_mosi = port:PI18&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_miso = port:PI19&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bspi2_para.5D"> [spi2_para] </span></h3>
+<p>Configuration example 1:
+</p>
+<pre class="brush: ini">
+[spi2_para]
+spi_used = 0
+spi_cs_bitmap = 1
+spi_cs1 = port:PB13&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_cs0 = port:PB14&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_sclk = port:PB15&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_mosi = port:PB16&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_miso = port:PB17&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<p>Configuration example 2:
+</p>
+<pre class="brush: ini">
+[spi2_para]
+spi_used = 0
+spi_cs_bitmap = 1
+spi_cs0 = port:PC19&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_sclk = port:PC20&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_mosi = port:PC21&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_miso = port:PC23&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bspi3_para.5D"> [spi3_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[spi3_para]
+spi_used = 0
+spi_cs_bitmap = 1
+spi_cs0 = port:PA05&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_sclk = port:PA06&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_mosi = port:PA07&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_miso = port:PA08&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_cs1 = port:PA09&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="external_spi_device_configuration"> external spi device configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bspi_devices.5D"> [spi_devices] </span></h3>
+<ul><li> <b>spi_dev_num</b>: number of external SPI devices connected to the SoC. For each external SPI device N, a board define <i>[spi_boardM]</i> with M = N - 1 needs to be created
+</li></ul>
+<h3> <span class="mw-headline" id=".5Bspi_board0.5D"> [spi_board0] </span></h3>
+<ul><li> <b>modalias</b>: Alias
+</li><li> <b>max_speed_hz: Maximum speed in Hz</b>
+</li><li> <b>bus_num</b>: Bus number of SPI controller
+</li><li> <b>mode</b>: SPI mode, bitfield defined in <a rel="nofollow" class="external text" href="http://git.kernel.org/cgit/linux/kernel/git/arm/arm-soc.git/tree/include/linux/spi/spi.h">spi.h</a>
+</li><li> <b>full_duplex</b>: 0 for half-duplex; 1 for full-duplex mode
+</li><li> <b>manual_cs</b>: manually control Chip Select level (unsupported for now)
+</li><li> <b>irq_gpio</b>: Some SPI boards should need a IRQ to work properly and register the irq handler inside the device driver
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[spi_board0]
+modalias = &quot;External SPI connection&quot;
+max_speed_hz = 12000000
+bus_num = 1
+chip_select = 0
+mode = 3
+full_duplex = 0
+manual_cs = 0
+irq_gpio = 1
+
+[gpio_para]
+gpio_used = 1
+gpio_num = 1
+gpio_pin_1 = port:PB04&lt;6&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt; 
+</pre>
+<h2> <span class="mw-headline" id="resistive_touch_panel_configuration"> resistive touch panel configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Brtp_para.5D"> [rtp_para] </span></h3>
+<ul><li> <b>rtp_used</b>: 0 to disable; 1 to enable
+</li><li> <b>rtp_screen_size</b>: diagonal screen size rounded to full inches
+</li><li> <b>rtp_regidity_level</b>: touchscreen regidty in 10 ms units
+</li><li> <b>rtp_press_threshold_enable</b>: 0 to disable; 1 to enable
+</li><li> <b>rtp_press_threshold</b>: defines the press-threshold sensitivity; (0x0 is least sensitive, 0xffffff is most sensitive) using TP Pressure Management threshold control (PRE_MEA_THRE_CNT register in <a href="/A20#Documentation" title="A20">A20 User Manual</a>)
+</li><li> <b>rtp_sensitive_level</b>: defines the sensitivity (0x0 is least sensitive, 0xf is most sensitive) using internal pull-up resistor control (TP_SENSITIVE_ADJUST register in <a href="/A20#Documentation" title="A20">A20 User Manual</a>)
+</li><li> <b>rtp_exchange_x_y_flag</b>: 0 for normal operation; 1 to flip X and Y coordinates
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+rtp_used = 0
+rtp_screen_size = 7
+rtp_regidity_level = 7
+rtp_press_threshold_enable = 0
+rtp_press_threshold = 0x1f40
+rtp_sensitive_level = 0xf
+rtp_exchange_x_y_flag = 0
+</pre>
+<h2> <span class="mw-headline" id="capacitive_touch_panel_configuration"> capacitive touch panel configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bctp_para.5D"> [ctp_para] </span></h3>
+<p>Several touch panel's can be configured. Their name must match to the linux ctp-driver!
+</p>
+<ul><li> <b>ctp_used</b>: 0 to disable; 1 to enable
+</li><li> <b>ctp_name</b>: Name of the touch panel driver to use
+</li><li> <b>ctp_twi_id</b>: twi controller to use
+</li><li> <b>ctp_twi_addr</b>: hardware specfic twi address in hex
+</li><li> <b>ctp_screen_rotate</b>: 0 for normal operation; 1 for 180° rotation
+</li><li> <b>ctp_screen_max_x</b>: Maximum X screen resolution
+</li><li> <b>ctp_screen_max_y</b>: Maximum Y screen resolution
+</li><li> <b>ctp_revert_x_flag</b>: 0 for normal operation; 1 to flip the X axis
+</li><li> <b>ctp_revert_y_flag</b>: 0 for normal operation; 1 to flip the Y axis
+</li><li> <b>ctp_havekey</b>: 0 for normal operation; 1 if the touch panel also has touch-<i>keys</i>.
+</li><li> <b>ctp_int_port</b>: interrupt line GPIO configuration
+</li><li> <b>ctp_wakeup</b>: screen wake up GPIO configuration
+</li><li> <b>ctp_io_port</b>: I/O port GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[ctp_para]
+ctp_used = 1
+ctp_twi_id = 2
+ctp_name = &quot;ft5x_ts&quot;
+ctp_twi_addr = 0x38
+
+ctp1_used = 1
+ctp1_name = &quot;Goodix-TS&quot;
+ctp1_twi_addr = 0x55
+
+ctp2_used = 1
+ctp2_name = &quot;ssd253x-ts&quot;
+ctp2_twi_addr = 0x48
+
+ctp3_used = 1
+ctp3_name = &quot;novatek-ts&quot;
+ctp3_twi_addr = 0x09
+
+ctp4_used = 1
+ctp4_name = &quot;zet622x-ts&quot;
+ctp4_twi_addr = 0x76
+
+ctp5_used = 1
+ctp5_name = &quot;byd693x-ts&quot;
+ctp5_twi_addr = 0x52
+
+ctp6_used = 0
+ctp6_name = &quot;gt82x&quot;
+ctp6_twi_addr = 0x5d
+
+ctp7_used = 0
+ctp7_name = &quot;px811&quot;
+ctp7_twi_addr = 0x5c
+
+ctp_screen_rotate = 0
+ctp_screen_max_x = 800
+ctp_screen_max_y = 480
+ctp_revert_x_flag = 0
+ctp_revert_y_flag = 0
+ctp_exchange_x_y_flag = 0
+ctp_havekey = 0
+ctp_int_port = port: PH21&lt;6&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ctp_wakeup = port: PB13&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt;
+ctp_io_port = port: PH21&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="touch_key_configuration"> touch key configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Btkey_para.5D"> [tkey_para] </span></h3>
+<p>Touch 'key', only for "hv_keypad" for now
+</p>
+<ul><li> <b>tkey_used</b>: 0 to disable; 1 to enable
+</li><li> <b>tkey_name</b>: driver name, must match linux driver name
+</li><li> <b>tkey_twi_id</b>: twi controller to use
+</li><li> <b>tkey_twi_addr</b>: hardware specfic twi address in hex
+</li><li> <b>tkey_int</b>: interrupt line GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[tkey_para]
+tkey_used = 0
+tkey_name = &quot;hv_keypad&quot;
+tkey_twi_id = 2
+tkey_twi_addr = 0x62
+tkey_int = port: PI13&lt;6&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="tablet_key_configuration"> tablet key configuration </span></h2>
+<p>Configures tablet physical buttons - usually Vol+ and Vol-, may have Home, Back and others.
+</p><p>Power key is usually handled by the AXP PMU. Buttons like reset and FEL are special and should work without a driver.
+</p>
+<h3> <span class="mw-headline" id=".5Btabletkeys_para.5D"> [tabletkeys_para] </span></h3>
+<ul><li> <b>tabletkeys_used</b>: 0 to disable; 1 to enable
+</li><li> <b>keyN_code</b>: numeric keycode - easily found with evtest. N seems to be 0-4 by default.
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[tabletkeys_para]
+tabletkeys_used=1
+key0_code = 114
+key1_code = 115
+</pre>
+<h2> <span class="mw-headline" id="motor_configuration"> motor configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bmotor_para.5D"> [motor_para] </span></h3>
+<ul><li> <b>motor_used</b>: 0 to disable; 1 to enable
+</li><li> <b>motor_shake</b>: motor control pin GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[motor_para]
+motor_used = 0
+motor_shake = port:PB03&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt;
+</pre>
+<h2> <span class="mw-headline" id="lock_configuration"> lock configuration </span></h2>
+<p>Locks are either very new or really old as nothing can be found in any fex file in git. It seems reasonable to believe that this would be a screen lock 'button'.
+</p>
+<h3> <span class="mw-headline" id=".5Blocks_para.5D"> [locks_para] </span></h3>
+<ul><li> <b>locks_used</b>: 0 to disable; 1 to enable
+</li><li> <b>locks_gpio</b>: switch GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[locks_para]
+locks_used = 0
+locks_gpio = port:PH00&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<h2> <span class="mw-headline" id="nand_flash_configuration"> nand flash configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bnand_para.5D"> [nand_para] </span></h3>
+<ul><li> <b>nand_used</b>: 0 to disable; 1 to enable
+</li><li> <b>nand_we</b>: Write Enable GPIO configuration
+</li><li> <b>nand_ale</b>: Address Latch Enable GPIO configuration
+</li><li> <b>nand_cle</b>: Command Latch Enable GPIO configuration
+</li><li> <b>nand_ce0</b>: Chip sElect bit 0 GPIO configuration
+</li><li> <b>nand_ce1</b>: Chip sElect bit 1 GPIO configuration
+</li><li> <b>nand_ce2</b>: Chip sElect bit 2 GPIO configuration
+</li><li> <b>nand_ce3</b>: Chip sElect bit 3 GPIO configuration
+</li><li> <b>nand_ce4</b>: Chip sElect bit 4 GPIO configuration
+</li><li> <b>nand_ce5</b>: Chip sElect bit 5 GPIO configuration
+</li><li> <b>nand_ce6</b>: Chip sElect bit 6 GPIO configuration
+</li><li> <b>nand_ce7</b>: Chip sElect bit 7 GPIO configuration
+</li><li> <b>nand_nre</b>: Nand Read Enable GPIO configuration
+</li><li> <b>nand_rb0</b>: Read / Busy bit 0 GPIO configuration
+</li><li> <b>nand_rb1</b>: Read / Busy bit 1 GPIO configuration
+</li><li> <b>nand_d0</b>: data bus bit 0 GPIO configuration
+</li><li> <b>nand_d1</b>: data bus bit 1 GPIO configuration
+</li><li> <b>nand_d2</b>: data bus bit 2 GPIO configuration
+</li><li> <b>nand_d3</b>: data bus bit 3 GPIO configuration
+</li><li> <b>nand_d4</b>: data bus bit 4 GPIO configuration
+</li><li> <b>nand_d5</b>: data bus bit 5 GPIO configuration
+</li><li> <b>nand_d6</b>: data bus bit 6 GPIO configuration
+</li><li> <b>nand_d7</b>: data bus bit 7 GPIO configuration
+</li><li> <b>nand_wp</b>: Write Protect GPIO configuration
+</li><li> <b>nand_spi</b>: SPI data line GPIO configuration
+</li><li> <b>nand_ndqs</b>: nand ddr clock signal GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[Nand_para]
+nand_used = 1
+nand_we = port:PC00&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ale = port:PC01&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_cle = port:PC02&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ce1 = port:PC03&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ce0 = port:PC04&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_nre = port:PC05&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_rb0 = port:PC06&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_rb1 = port:PC07&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_d0 = port:PC08&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_d1 = port:PC09&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_d2 = port:PC10&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_d3 = port:PC11&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_d4 = port:PC12&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_d5 = port:PC13&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_d6 = port:PC14&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_d7 = port:PC15&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_wp = port:PC16&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ce2 = port:PC17&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ce3 = port:PC18&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ce4 = port:PC19&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ce5 = port:PC20&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ce6 = port:PC21&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ce7 = port:PC22&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_spi = port:PC23&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+nand_ndqs = port:PC24&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="disp_init_configuration"> disp init configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bdisp_init.5D"> [disp_init] </span></h3>
+<ul><li> <b>disp_init_enable</b>: 0 to disable; 1 to enable
+</li><li> <b>disp_mode</b>: Display mode to use:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> mode
+</th>
+<th> display mode
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>screen0(screen0, fb0)
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>screen1(screen1, fb0)
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>dualhead(screen0, screen1, fb0, fb1) (2 screens, 2 framebuffers)
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>xinerama(screen0, screen1, fb0) (2 screens, one big framebuffer)
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>clone(screen0, screen1, fb0) (2 screens, one standard framebuffer)
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>screen0_out_color_range</b>: Output color range for HDMI (applies to both screen0/screen1 - there is no screen1_out_color_range):
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> type
+</th>
+<th> output color range
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>16-255 Limited Range (Default)
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>0-255 Full Range - PC Level
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>16-235 Limited Range - Video Level
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>screen0_output_type</b>: Output type for screen0:
+</li><li> <b>screen1_output_type</b>: Output type for screen1:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> type
+</th>
+<th> Output type
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>NONE
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>LCD
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>TV
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>HDMI
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>VGA
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>screen0_output_mode</b>: Output mode for screen0:
+</li><li> <b>screen1_output_mode</b>: Output mode for screen1:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> mode
+</th>
+<th> used for tv/hdmi output
+</th>
+<th> used for vga output
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>480i
+</td>
+<td>1680*1050
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>576i
+</td>
+<td>1440*900
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>480p
+</td>
+<td>1360*768
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>576p
+</td>
+<td>1280*1024
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>720p50
+</td>
+<td>1024*768
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>720p60
+</td>
+<td>800*600
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>1080i50
+</td>
+<td>640*480
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>1080i60
+</td>
+<td>
+</td></tr>
+<tr>
+<td>8
+</td>
+<td>1080p24
+</td>
+<td>
+</td></tr>
+<tr>
+<td>9
+</td>
+<td>1080p50
+</td>
+<td>
+</td></tr>
+<tr>
+<td>10
+</td>
+<td>1080p60
+</td>
+<td>1920*1080
+</td></tr>
+<tr>
+<td>11
+</td>
+<td>pal
+</td>
+<td>1280*720
+</td></tr>
+<tr>
+<td>14
+</td>
+<td>ntsc
+</td>
+<td>
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>fb0_framebuffer_num</b>: fb0 buffer number, use <i>2</i> for double buffering
+</li><li> <b>fb1_framebuffer_num</b>: fb1 buffer number, use <i>2</i> for double buffering
+</li><li> <b>fb0_format</b>: pixel format for fb0:
+</li><li> <b>fb1_format</b>: pixel format for fb1:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> format
+</th>
+<th> fb0_format
+</th></tr>
+<tr>
+<td>4
+</td>
+<td>RGB655
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>RGB565
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>RGB556
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>ARGB1555
+</td></tr>
+<tr>
+<td>8
+</td>
+<td>RGBA5551
+</td></tr>
+<tr>
+<td>9
+</td>
+<td>RGB888
+</td></tr>
+<tr>
+<td>10
+</td>
+<td>ARGB8888
+</td></tr>
+<tr>
+<td>12
+</td>
+<td>ARGB4444
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>fb0_pixel_sequence</b>: fb0 pixel sequence (0 generally for linux, 2 for android):
+</li><li> <b>fb1_pixel_sequence</b>: fb1 pixel sequence (0 generally for linux, 2 for android):
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> sequence
+</th>
+<th> fb0_pixel_sequence
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>ARGB
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>BGRA
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>fb0_scaler_mode_enable</b>: 0 to disable; 1 to enable
+</li><li> <b>fb1_scaler_mode_enable</b>: 0 to disable; 1 to enable
+</li><li> <b>lcd0_backlight</b>: value to 240 sets PWM rate on selected PWM gpio
+</li><li> <b>lcd1_backlight</b>: value to 240 sets PWM rate on selected PWM gpio
+</li></ul>
+<p><br/>
+Configuration example for LCD:
+</p>
+<pre class="brush: ini">
+[disp_init]
+disp_init_enable = 1
+disp_mode = 0
+
+screen0_output_type = 1
+screen0_output_mode = 4
+
+screen1_output_type = 1
+screen1_output_mode = 4
+
+fb0_framebuffer_num = 2
+fb0_format = 10
+fb0_pixel_sequence = 0
+fb0_scaler_mode_enable = 0
+
+fb1_framebuffer_num = 2
+fb1_format = 10
+fb1_pixel_sequence = 0
+fb1_scaler_mode_enable = 0
+</pre>
+<p>Configuration example for VGA:
+</p>
+<pre class="brush: ini">
+[disp_init]
+disp_init_enable = 1
+disp_mode = 0
+
+screen0_output_type = 4
+screen0_output_mode = 4
+
+screen1_output_type = 2
+screen1_output_mode = 14
+
+fb0_framebuffer_num = 2
+fb0_format = 10
+fb0_pixel_sequence = 0
+fb0_scaler_mode_enable = 1
+
+fb1_framebuffer_num = 2
+fb1_format = 10
+fb1_pixel_sequence = 0
+fb1_scaler_mode_enable = 1
+</pre>
+<p>Configuration example for Composite TV on an old TV (PAL mode):
+</p>
+<pre class="brush: ini">
+[disp_init]
+disp_init_enable = 1
+disp_mode = 0
+
+screen0_output_type = 2
+screen0_output_mode = 11
+
+screen1_output_type = 2
+screen1_output_mode = 11
+
+fb0_framebuffer_num = 2
+fb0_format = 10
+fb0_pixel_sequence = 0
+fb0_scaler_mode_enable = 1
+
+fb1_framebuffer_num = 2
+fb1_format = 10
+fb1_pixel_sequence = 0
+fb1_scaler_mode_enable = 1
+</pre>
+<h2> <span class="mw-headline" id="lcd.5B0.2F1.5D_configuration"> lcd[0/1] configuration </span></h2>
+<p>lcd0 is used when lcd output is selected by display screen0, lcd1 by display screen1.
+</p>
+<ul><li> <b>lcd_used</b>: 0 to disable; 1 to enable
+</li><li> <b>lcd_pwm_not_used</b>: 0 to enable PWM; 1 to disable
+</li><li> <b>lcd_pwm_ch</b>: PWM channel
+</li><li> <b>lcd_pwm_freq</b>: PWM frequency in Hz
+</li><li> <b>lcd_pwm_pol</b>: PWM polarity; 0 is pulse LOW for lcd[0|1]_backlight periods, 1 is pulse HIGH.
+</li><li> <b>lcd_x</b>: X-axis active width
+</li><li> <b>lcd_y</b>: Y-axis active height
+</li><li> <b>lcd_dclk_freq</b>: pixel clock frequency in MHz
+</li><li> <b>lcd_if</b>: lcd interface:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> interface
+</th>
+<th> lcd_interface
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>hv (sync + de)
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>8080
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>ttl
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>lvds
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>dsi (on <a href="/A20" title="A20">A20</a> it means the use of <a href="/SSD2828" title="SSD2828">SSD2828</a> bridge chip, on <a href="/A31" title="A31">A31</a> it might really mean native DSI)
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>edp
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>external dsi (the use of <a href="/SSD2828" title="SSD2828">SSD2828</a> bridge chip on <a href="/A31" title="A31">A31</a> and onwards)
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>lcd_hbp</b>: hsync back porch
+</li><li> <b>lcd_ht</b>: hsync total cycle
+</li><li> <b>lcd_vbp</b>: vsync back porch
+</li><li> <b>lcd_vt</b>: vsync total cycle * 2
+</li><li> <b>lcd_hv_if</b>: 0 for parallel hv interface; 1: for serial hv interface
+</li><li> <b>lcd_hv_smode</b>: 0 for RGB888 serial interface mode; 1 for CCIR656
+</li><li> <b>lcd_hv_s888_if</b>: serial RGB format
+</li><li> <b>lcd_hv_syuv_if</b>: serial YUV format
+</li><li> <b>lcd_hv_vspw</b>: vysnc plus width
+</li><li> <b>lcd_hv_hspw</b>: hsync plus width
+</li><li> <b>lcd_hv_lde_used</b>: 0 to disable; 1 to enable
+</li><li> <b>lcd_hv_lde_iovalue</b>: HV LDE iovalue
+</li><li> <b>lcd_lvds_ch</b>: 0 for single channel; 1 for dual channel
+</li><li> <b>lcd_lvds_mode</b>: 0 for NS mode; 1 for JEIDA mode
+</li><li> <b>lcd_lvds_bitwidth</b>: 0 for 24 bit; 1 for 18 bit
+</li><li> <b>lcd_io_cfg0</b>: lcd IO configuration
+</li><li> <b>lcd_lvds_io_cross</b>: 0 for normal; 1 for pn cross
+</li><li> <b>lcd_cpu_if</b>: cpu if mode:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> mode
+</th>
+<th> cpu_if
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>18 bit
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>16 bit mode0
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>16 bit mode1
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>16 bit mode2
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>16 bit mode3
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>9 bit
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>8 bit, 256k
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>8 bit, 65k
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>lcd_gamma_correction_en</b>: 0 to disable; 1 to enable
+</li><li> <b>lcd_gamma_tbl_[0-255]</b>: Gamma table 0 through 255
+</li><li> <b>lcd_frm</b>: 0 to disable dither; 1 to enable enable rgb666 dither; 2 to enable rgb656 dither
+</li><li> <b>lcd_io_cfg0</b>: lcd io inv
+</li><li> <b>lcd_bl_en_used</b>: 0 to disable; 1 to enable
+</li><li> <b>lcd_bl_en</b>: LCD BackLight GPIO configuration
+</li><li> <b>lcd_power_used</b>: 0 to disable; 1 to enable
+</li><li> <b>lcd_power</b>: LCD_VCC Voltage control GPIO configuration
+</li><li> <b>lcd_pwm_used</b>: 0 to disable; 1 to enable
+</li><li> <b>lcd_pwm</b>: lcd PWM, GPIO configuration (PWM0 fixed using the PB02 PWM1 fixed PI03 without user modification)
+</li><li> <b>lcd_gpio_0</b>: 2/3-wire SCL GPIO configuration
+</li><li> <b>lcd_gpio_1</b>: 2/3-wire SDA GPIO configuration
+</li><li> <b>lcd_gpio_2</b>: 2/3-wire SCEN GPIO configuration
+</li><li> <b>lcd_gpio_3</b>: LCD module RESET GPIO configuration
+</li><li> <b>lcdd0</b>: data bit 0 GPIO configuration
+</li><li> <b>lcdd1</b>: data bit 1 GPIO configuration
+</li><li> <b>lcdd2</b>: data bit 2 GPIO configuration
+</li><li> <b>lcdd3</b>: data bit 3 GPIO configuration
+</li><li> <b>lcdd4</b>: data bit 4 GPIO configuration
+</li><li> <b>lcdd5</b>: data bit 5 GPIO configuration
+</li><li> <b>lcdd6</b>: data bit 6 GPIO configuration
+</li><li> <b>lcdd7</b>: data bit 7 GPIO configuration
+</li><li> <b>lcdd8</b>: data bit 8 GPIO configuration
+</li><li> <b>lcdd9</b>: data bit 9 GPIO configuration
+</li><li> <b>lcdd10</b>: data bit 10 GPIO configuration
+</li><li> <b>lcdd11</b>: data bit 11 GPIO configuration
+</li><li> <b>lcdd12</b>: data bit 12 GPIO configuration
+</li><li> <b>lcdd13</b>: data bit 13 GPIO configuration
+</li><li> <b>lcdd14</b>: data bit 14 GPIO configuration
+</li><li> <b>lcdd15</b>: data bit 15 GPIO configuration
+</li><li> <b>lcdd16</b>: data bit 16 GPIO configuration
+</li><li> <b>lcdd17</b>: data bit 17 GPIO configuration
+</li><li> <b>lcdd18</b>: data bit 18 GPIO configuration
+</li><li> <b>lcdd19</b>: data bit 19 GPIO configuration
+</li><li> <b>lcdd20</b>: data bit 20 GPIO configuration
+</li><li> <b>lcdd21</b>: data bit 21 GPIO configuration
+</li><li> <b>lcdd22</b>: data bit 22 GPIO configuration
+</li><li> <b>lcdd23</b>: data bit 23 GPIO configuration
+</li><li> <b>lcdclk</b>: LCD Clock GPIO configuration
+</li><li> <b>lcdde</b>: LCD <i>de</i> GPIO configuration
+</li><li> <b>lcdhsync</b>: H sync GPIO configuration
+</li><li> <b>lcdvsync</b>: V sync GPIO configuration
+</li></ul>
+<h3> <span class="mw-headline" id=".5Blcd0_para.5D"> [lcd0_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[lcd0_para]
+lcd_used = 1
+lcd_x = 800
+lcd_y = 480
+lcd_dclk_freq = 33
+lcd_pwm_freq = 1000
+lcd_pwm_pol = 0
+lcd_swap = 0
+lcd_if = 0
+lcd_hbp = 215
+lcd_ht = 1055
+lcd_vbp = 34
+lcd_vt = 1050
+lcd_hv_if = 0
+lcd_hv_smode = 0
+lcd_hv_s888_if = 0
+lcd_hv_syuv_if = 0
+lcd_hv_vspw = 0
+lcd_hv_hspw = 0
+lcd_hv_lde_used = 0
+lcd_hv_lde_iovalue = 0
+lcd_lvds_ch = 0
+lcd_lvds_mode = 0
+lcd_lvds_bitwidth = 0
+lcd_lvds_io_cross = 0
+lcd_cpu_if = 0
+lcd_cpu_da = 0
+lcd_frm = 0
+lcd_io_cfg0 = 0x10000000
+lcd_io_cfg1 = 0
+lcd_io_strength = 0
+lcd_bl_en_used = 1
+lcd_bl_en = port: PH07&lt;1&gt;&lt;0&gt;&lt;default&gt;&lt;1&gt;
+lcd_power_used = 1
+lcd_power = port: PH08&lt;1&gt;&lt;0&gt;&lt;default&gt;&lt;1&gt;
+lcd_pwm_used = 1
+lcd_pwm = port:PB02&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcd_gpio_0 =
+lcd_gpio_1 =
+lcd_gpio_2 =
+lcd_gpio_3 =
+lcdd0 = port:PD00&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd1 = port:PD01&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd2 = port:PD02&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd3 = port:PD03&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd4 = port:PD04&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd5 = port:PD05&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd6 = port:PD06&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd7 = port:PD07&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd8 = port:PD08&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd9 = port:PD09&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd10 = port:PD10&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd11 = port:PD11&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd12 = port:PD12&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd13 = port:PD13&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd14 = port:PD14&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd15 = port:PD15&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd16 = port:PD16&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd17 = port:PD17&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd18 = port:PD18&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd19 = port:PD19&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd20 = port:PD20&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd21 = port:PD21&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd22 = port:PD22&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdd23 = port:PD23&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdclk = port:PD24&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdde = port:PD25&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdhsync = port:PD26&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+lcdvsync = port:PD27&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<p>Other configuration examples for certain panels:
+</p>
+<pre class="brush: ini">
+;lvds 640x480   module name: SG0570EDG
+lcd_x                    = 640
+lcd_y                    = 480
+lcd_dclk_freq            = 25
+lcd_if                   = 3
+lcd_hbp                  = 114
+lcd_ht                   = 800
+lcd_vt                   = 1050
+lcd_vbp                  = 34
+lcd_pwm_freq             = 20000
+lcd_lvds_bitwidth        = 1
+lcd_pwm_used             = 1
+lcd_pwm                  = port:PB02&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcd_pwm_pol              = 0
+
+;RGB 800x480	module name: H-B070D-15C
+lcd_x                    = 800
+lcd_y                    = 480
+lcd_dclk_freq            = 33
+lcd_if                   = 0
+lcd_hbp                  = 46
+lcd_ht                   = 1055
+lcd_vbp                  = 23
+lcd_vt                   = 1050
+
+;RGB 800x600    module name: H-B080D-24F
+lcd_x                    = 800
+lcd_y                    = 600
+lcd_dclk_freq            = 40
+lcd_if                   = 0
+lcd_hbp                  = 46
+lcd_ht                   = 1056
+lcd_vbp                  = 23
+lcd_vt                   = 1270
+
+
+;RGB 480x272    module name: KD43G18-40NB-A11
+lcd_x                    = 480
+lcd_y                    = 272
+lcd_dclk_freq            = 9
+lcd_if                   = 0
+lcd_hbp                  = 2
+lcd_ht                   = 525
+lcd_vbp                  = 2
+lcd_vt                   = 572
+
+;lvds 1024x600   module name: CLAP101NC01CW�
+lcd_x                    = 1024
+lcd_y                    = 600
+lcd_dclk_freq            = 52
+lcd_if                   = 3
+lcd_hbp                  = 33
+lcd_ht                   = 1344
+lcd_vbp                  = 23
+lcd_vt                   = 1270
+
+;lvds 1024x768   module name: KD080D3-40NA-A2
+lcd_x                    = 1024
+lcd_y                    = 768
+lcd_dclk_freq            = 65
+lcd_if                   = 3
+lcd_hbp                  = 160
+lcd_ht                   = 1344
+lcd_vbp                  = 23
+lcd_vt                   = 1612
+
+;lvds 1024x768   module name: LG-LP097X02
+lcd_x                    = 1024
+lcd_y                    = 768
+lcd_dclk_freq            = 100
+lcd_if                   = 3
+lcd_hbp                  = 480
+lcd_ht                   = 2084
+lcd_vbp                  = 6
+lcd_vt                   = 1600
+lcd_lvds_bitwidth        = 1
+lcd_io_cfg0              = 0x04000000
+lcd_frm                  = 1
+
+lcd_io_cfg0              = 0x10000000
+lcd_gamma_correction_en  = 0
+lcd_gamma_tbl_0          = 0x00000000
+lcd_gamma_tbl_1          = 0x00010101
+;........
+lcd_gamma_tbl_255        = 0x00ffffff
+</pre>
+<h3> <span class="mw-headline" id=".5Blcd1_para.5D"> [lcd1_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[lcd1_para]
+lcd_used                 = 0
+
+lcd_x                    = 0
+lcd_y                    = 0
+lcd_dclk_freq            = 0
+lcd_pwm_not_used         = 0
+lcd_pwm_ch               = 0
+lcd_pwm_freq             = 0
+lcd_pwm_pol              = 0
+lcd_if                   = 0
+lcd_hbp                  = 0
+lcd_ht                   = 0
+lcd_vbp                  = 0
+lcd_vt                   = 0
+lcd_hv_if                = 0
+lcd_hv_smode             = 0
+lcd_hv_s888_if           = 0
+lcd_hv_syuv_if           = 0
+lcd_hv_vspw              = 0
+lcd_hv_hspw              = 0
+lcd_lvds_ch              = 0
+lcd_lvds_mode            = 0
+lcd_lvds_bitwidth        = 0
+lcd_lvds_io_cross        = 0
+lcd_cpu_if               = 0
+lcd_frm                  = 0
+lcd_io_cfg0              = 0
+lcd_gamma_correction_en  = 0
+lcd_gamma_tbl_0          = 0x00000000
+lcd_gamma_tbl_1          = 0x00010101
+;........
+lcd_gamma_tbl_255        = 0x00ffffff
+
+lcd_bl_en_used           = 0
+lcd_bl_en                =
+
+lcd_power_used           = 0
+lcd_power                = 
+
+lcd_pwm_used             = 0
+lcd_pwm                  = port:PI03&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+
+lcd_gpio_0               = 
+lcd_gpio_1               = 
+lcd_gpio_2               = 
+lcd_gpio_3               = 
+
+lcdd0                    = port:PH00&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd1                    = port:PH01&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd2                    = port:PH02&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd3                    = port:PH03&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd4                    = port:PH04&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd5                    = port:PH05&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd6                    = port:PH06&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd7                    = port:PH07&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd8                    = port:PH08&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd9                    = port:PH09&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd10                   = port:PH10&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd11                   = port:PH11&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd12                   = port:PH12&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd13                   = port:PH13&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd14                   = port:PH14&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd15                   = port:PH15&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd16                   = port:PH16&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd17                   = port:PH17&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd18                   = port:PH18&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd19                   = port:PH19&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd20                   = port:PH20&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd21                   = port:PH21&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd22                   = port:PH22&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdd23                   = port:PH23&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdclk                   = port:PH24&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdde                    = port:PH25&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdhsync                 = port:PH26&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+lcdvsync                 = port:PH27&lt;2&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="tv_out_dac_configuration"> tv out dac configuration </span></h2>
+<p>The TV-Out Digital Analog Converter (DAC) modules the framebuffer to a signal suitable for a TV
+</p>
+<h3> <span class="mw-headline" id=".5Btv_out_dac_para.5D"> [tv_out_dac_para] </span></h3>
+<ul><li> <b>dac_used</b>: 0 to disable; 1 to enable
+</li><li> <b>dac0_src</b>: Output source for the DAC:
+</li><li> <b>dac1_src</b>: Output source for the DAC:
+</li><li> <b>dac2_src</b>: Output source for the DAC:
+</li><li> <b>dac3_src</b>: Output source for the DAC:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> dac
+</th>
+<th> Output source
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>Composite
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>Luma
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>Chroma
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>Y
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>Pb
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>Pr
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>None
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[tv_out_dac_para]
+dac_used = 1
+dac0_src = 4
+dac1_src = 5
+dac2_src = 6
+dac3_src = 0
+</pre>
+<h2> <span class="mw-headline" id="csi_gpio_configuration"> csi gpio configuration </span></h2>
+<ul><li> <b>csi_used</b>: 0 to enable; 1 to disable
+</li><li> <b>csi_mode</b>: 0 to sample one csi to one buffer; 1 to sample two csi to one buffer
+</li><li> <b>csi_dev_qty</b>: Quantity of devices linked to the csi interface
+</li><li> <b>csi_twi_id</b>: TWI controller to use
+</li><li> <b>csi_twi_id_b</b>: TWI controller to use for second device
+</li><li> <b>csi_mname</b>: Module name to match the csi device; currently known to work:
+</li><li> <b>csi_mname_b</b>: Module name to match the second csi device; currently known to work:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><ul><li>ov7670
+</li><li>gc0308
+</li><li>gt2005
+</li><li>hi704
+</li><li>hi253
+</li></ul>
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<ul><li> <b>csi_twi_addr</b>: TWI address for the used camera
+</li><li> <b>csi_twi_addr_b</b>: TWI address for the used camera for second device
+</li><li> <b>csi_if</b>: interface:
+</li><li> <b>csi_if_b</b>: interface for second device:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> if
+</th>
+<th> csi interface
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>hv_8bit
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>hv_16bit
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>hv_24bit
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>bt656 1ch
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>bt656 2ch
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>bt656 4ch
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>csi_pck</b>: <i>p</i> clock GPIO configuration
+</li><li> <b>csi_ck</b>: clock GPIO configuration
+</li><li> <b>csi_hsync</b>: H-sync GPIO configuration
+</li><li> <b>csi_vsync</b>: V-sync GPIO configuration
+</li><li> <b>csi_hflip</b>: Horizontal frame flip
+</li><li> <b>csi_hflip_b</b>: Horizontal frame flip for second device
+</li><li> <b>csi_vflip</b>: Vertical frame flip
+</li><li> <b>csi_vflip_b</b>: Vertical frame flip for second device
+</li><li> <b>csi_d0</b>: data bit 0 GPIO configuration
+</li><li> <b>csi_d1</b>: data bit 1 GPIO configuration
+</li><li> <b>csi_d2</b>: data bit 2 GPIO configuration
+</li><li> <b>csi_d3</b>: data bit 3 GPIO configuration
+</li><li> <b>csi_d4</b>: data bit 4 GPIO configuration
+</li><li> <b>csi_d5</b>: data bit 5 GPIO configuration
+</li><li> <b>csi_d6</b>: data bit 6 GPIO configuration
+</li><li> <b>csi_d7</b>: data bit 7 GPIO configuration
+</li><li> <b>csi_d8</b>: data bit 8 GPIO configuration
+</li><li> <b>csi_d9</b>: data bit 9 GPIO configuration
+</li><li> <b>csi_d10</b>: data bit 10 GPIO configuration
+</li><li> <b>csi_d11</b>: data bit 11 GPIO configuration
+</li><li> <b>csi_d12</b>: data bit 12 GPIO configuration
+</li><li> <b>csi_d13</b>: data bit 13 GPIO configuration
+</li><li> <b>csi_d14</b>: data bit 14 GPIO configuration
+</li><li> <b>csi_d15</b>: data bit 15 GPIO configuration
+</li><li> <b>csi_reset</b>: Camera reset; the default value, high or low ,depends on the module
+</li><li> <b>csi_power_en</b>: Power enable GPIO configuration
+</li><li> <b>csi_stby</b>: Camera standby GPIO configuration; the default value, high or low ,depends on the module
+</li><li> <b>csi_stby_b</b>: Camera standby GPIO configuration for second device; the default value, high or low ,depends on the module
+</li><li> <b>csi_stby_mode</b>: 0 to not shutdown power at standby; 1 shutdown power at standby
+</li><li> <b>csi_facing</b>: Tells the device if the camera is facing or otherwise. 0 for the back, 1 for the front camera.
+</li><li> <b>csi_facing_b</b>: Same as above.
+</li><li> <b>csi_vflip</b>: Vertical flip; 0: disabled, 1: enabled
+</li><li> <b>csi_hflip</b>: Horizontal flip; 0: disabled, 1: enabled
+</li><li> <b>csi_flash</b>: Camera Flash GPIO configuration
+</li><li> <b>csi_flash_b</b>: Camera Flash GPIO configuration for second device
+</li><li> <b>csi_flash_pol</b>: Flash polarity of flash light; 0 for active low; 1 for active high
+</li><li> <b>csi_flash_pol_b</b>: Flash polarity of flash light for second device; 0 for active low; 1 for active high
+</li><li> <b>csi_af_en</b>: Autofocus enable GPIO configuration
+</li><li> <b>csi_iovdd</b>: Camera module IO power, PMU power supply
+</li><li> <b>csi_iovdd_b</b>: Camera module IO power, PMU power supply for second device
+</li><li> <b>csi_avdd</b>: Camera analog power, PMU power supply
+</li><li> <b>csi_avdd_b</b>: Camera analog power, PMU power supply for second device
+</li><li> <b>csi_dvdd</b>: Camera digital power, PMU power supply
+</li><li> <b>csi_dvdd_b</b>: Camera digital power, PMU power supply for second device
+</li><li> <b>pmu_ldo3</b>: "axp20_pll" or leave empty empty when not using any PMU power supply
+</li><li> <b>pmu_ldo4</b>: "axp20_hdmi" or empty when not using any PMU power supply
+</li></ul>
+<h3> <span class="mw-headline" id=".5Bcsi0_para.5D"> [csi0_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[csi0_para]
+csi_used = 1
+csi_mode = 0
+csi_dev_qty = 1
+csi_stby_mode = 1
+
+csi_mname = &quot;gc0308&quot;
+csi_twi_id = 1
+csi_twi_addr =0x42
+csi_if = 0
+csi_vflip = 0
+csi_hflip = 1
+csi_iovdd = &quot;&quot;
+csi_avdd = &quot;&quot;
+csi_dvdd  = &quot;&quot;
+csi_flash_pol = 1
+
+csi_mname_b = &quot;gt2005&quot;
+csi_twi_id_b = 1
+csi_twi_addr_b = 0x78
+csi_if_b = 0
+csi_vflip_b = 0
+csi_hflip_b = 0
+csi_iovdd_b = &quot;&quot;
+csi_avdd_b = &quot;&quot;
+csi_dvdd_b = &quot;&quot;
+csi_flash_pol_b = 1
+
+csi_pck = port:PE00&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_ck = port:PE01&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_hsync = port:PE02&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_vsync= port:PE03&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d0 = port:PE04&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d1 = port:PE05&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d2 = port:PE06&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d3 = port:PE07&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d4 = port:PE08&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d5 = port:PE09&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d6 = port:PE10&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d7 = port:PE11&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d8 = port:PG04&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d9 = port:PG05&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d10 = port:PG06&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d11 = port:PG07&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d12 = port:PG08&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d13 = port:PG09&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d14 = port:PG10&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d15 = port:PG11&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_reset = port:PH13&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_power_en = port:PH16&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_stby = port:PH18&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_flash = 
+csi_af_en = 
+csi_reset_b = port:PH13&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_power_en_b = port:PH16&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_stby_b = port:PH19&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_flash_b = 
+csi_af_en_b = 
+</pre>
+<h3> <span class="mw-headline" id=".5Bcsi1_para.5D"> [csi1_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[csi1_para]
+csi_used = 1
+csi_mode = 0
+csi_dev_qty = 1
+csi_stby_mode = 1
+
+csi_mname = &quot;gc0308&quot;
+csi_twi_id = 1
+csi_twi_addr =0x42
+csi_if = 0
+csi_vflip = 0
+csi_hflip = 1
+csi_iovdd = &quot;&quot;
+csi_avdd = &quot;&quot;
+csi_dvdd  = &quot;&quot;
+csi_flash_pol = 1
+
+csi_mname_b = &quot;gt2005&quot;
+csi_twi_id_b = 1
+csi_twi_addr_b = 0x78
+csi_if_b = 0
+csi_vflip_b = 0
+csi_hflip_b = 0
+csi_iovdd_b = &quot;&quot;
+csi_avdd_b = &quot;&quot;
+csi_dvdd_b = &quot;&quot;
+csi_flash_pol_b = 1
+
+csi_pck = port:PG00&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_ck = port:PG01&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d0 = port:PH00&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d1 = port:PH01&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d2 = port:PH02&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d3 = port:PH03&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d4 = port:PH04&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d5 = port:PH05&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d6 = port:PH06&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d7 = port:PH07&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d8 = port:PH08&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d9 = port:PH09&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d10 = port:PH10&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d11 = port:PH11&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d12 = port:PH12&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d13 = port:PH13&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d14 = port:PH14&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d15 = port:PH15&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d16 = port:PH16&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d17 = port:PH17&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d18 = port:PH18&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d19 = port:PH19&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d20 = port:PH20&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d21 = port:PH21&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d22 = port:PH22&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_d23 = port:PH23&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_hsync = port:PH26&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_vsync= port:PH27&lt;7&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+csi_reset = port:PG13&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_power_en = port:PG16&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_stby = port:PG18&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_flash = 
+csi_af_en = 
+csi_reset_b = port:PG13&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_power_en_b = port:PG16&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_stby_b = port:PG19&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+csi_flash_b = 
+csi_af_en_b =
+</pre>
+<h2> <span class="mw-headline" id="tv_configuration"> tv configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Btvout_para.5D"> [tvout_para] </span></h3>
+<ul><li> <b>tvout_used</b>: 0 to disable; 1 to enable
+</li><li> <b>tvout_channel_num</b>: Channel number
+</li><li> <b>tv_en</b>: TV encoder GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+tvout_used = 1
+tvout_channel_num = 1
+tv_en = port:PI12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Btvin_para.5D"> [tvin_para] </span></h3>
+<ul><li> <b>tvin_used</b>: 0 to disable; 1 to enable
+</li><li> <b>tvin_channel_num</b>: channel number
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+tvin_used = 1
+tvin_channel_num = 4
+</pre>
+<h2> <span class="mw-headline" id="sata_configuration"> sata configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bsata_para.5D"> [sata_para] </span></h3>
+<ul><li> <b>sata_used</b>: 0 to disable; 1 to enable
+</li><li> <b>sata_power_en</b>: Sata power enable GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+sata_used = 1
+sata_power_en = port:PB08&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<h2> <span class="mw-headline" id="sdmmc_configuration"> sdmmc configuration </span></h2>
+<p>There are several things to notice when configuring the sdmmc controller.
+</p>
+<ul><li> <b>sdc_used</b>: 0 to disable; 1 to enable;（0=不使用，1=使用）
+</li><li> <b>sdc_detmode</b>: detection mode （卡检测模式）:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> mode
+</th>
+<th> detection mode
+</th>
+<th> note
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>GPIO detection
+</td>
+<td>Also configure <b>sdc_det</b> to map to a GPIO （GPIO检测模式，需在sdc_det配置一个GPIO口）
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>sdc_d3 detection
+</td>
+<td><b>sdc_d3</b> must be configured as HiZ GPIO and have an external 1 MΩ pull-down resistor （SD卡D3数据口检测模式，需配置GPIO口为高阻，并使用1M欧下拉）
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>polling (card cannot be swapped)
+</td>
+<td>不检测，卡常在
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>manually (via the proc file system node)
+</td>
+<td>
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>bus_width</b>: 1 for 1bit; 4 for 4bit (may also be called sdc_bwid?!? verify please)
+</li><li> <b>sdc_d0</b>: data line 0 GPIO configuration
+</li><li> <b>sdc_d1</b>: data line 1 GPIO configuration
+</li><li> <b>sdc_d2</b>: data line 2 GPIO configuration
+</li><li> <b>sdc_d3</b>: data line 3 GPIO configuration
+</li><li> <b>sdc_clk</b>: CLK GPIO configuration
+</li><li> <b>sdc_cmd</b>: CMD GPIO configuration
+</li><li> <b>sdc_det</b>: DET GPIO configuration
+</li><li> <b>sdc_use_wp</b>: 0 is normal operation; 1 is write protect
+</li><li> <b>sdc_wp</b>: Write Protect the GPIO configuration
+</li></ul>
+<h3> <span class="mw-headline" id=".5Bmmc0_para.5D"> [mmc0_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[mmc0_para]
+sdc_used = 1
+sdc_detmode = 1
+bus_width = 4
+sdc_d1 = port:PF00&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d0 = port:PF01&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_clk = port:PF02&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_cmd = port:PF03&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d3 = port:PF04&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_d2 = port:PF05&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_det = port:PH01&lt;0&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_use_wp = 0
+sdc_wp =
+</pre>
+<h3> <span class="mw-headline" id=".5Bmmc1_para.5D"> [mmc1_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[mmc1_para]              
+sdc_used = 1
+sdc_detmode = 1
+bus_width = 4
+sdc_cmd = port:PH22&lt;5&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_clk = port:PH23&lt;5&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_d0 = port:PH24&lt;5&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_d1 = port:PH25&lt;5&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_d2 = port:PH26&lt;5&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_d3 = port:PH27&lt;5&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_det = port:PH2&lt;0&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+sdc_use_wp = 0
+sdc_wp =
+</pre>
+<h3> <span class="mw-headline" id=".5Bmmc2_para.5D"> [mmc2_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[mmc2_para]              
+sdc_used = 0
+</pre>
+<h3> <span class="mw-headline" id=".5Bmmc3_para.5D"> [mmc3_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">                         
+[mmc3_para]              
+sdc_used = 1
+sdc_detmode = 4
+bus_width = 4
+sdc_cmd = port:PI04&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_clk = port:PI05&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_d0 = port:PI06&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_d1 = port:PI07&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_d2 = port:PI08&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_d3 = port:PI09&lt;2&gt;&lt;1&gt;&lt;2&gt;&lt;default&gt;
+sdc_det = 
+sdc_use_wp = 0
+sdc_wp =
+</pre>
+<h2> <span class="mw-headline" id="memory_stick_configuration"> memory stick configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bms_para.5D"> [ms_para] </span></h3>
+<ul><li> <b>ms_used</b>: 0 to disable; 1 to enable
+</li><li> <b>ms_bs</b>: Bus State signal GPIO configuration
+</li><li> <b>ms_clk</b>: Clock GPIO configuration
+</li><li> <b>ms_d0</b>: Data line 0 GPIO Configuration
+</li><li> <b>ms_d1</b>: Data line 1 GPIO Configuration
+</li><li> <b>ms_d2</b>: Data line 2 GPIO Configuration
+</li><li> <b>ms_d3</b>: Data line 3 GPIO Configuration
+</li><li> <b>ms_det</b>: Stick detection GPIO Configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[ms_para]
+ms_used = 1
+ms_bs = port:PH06&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ms_clk = port:PH07&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ms_d0 = port:PH08&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ms_d1 = port:PH09&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ms_d2 = port:PH10&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ms_d3 = port:PH11&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+ms_det = port:PH2&lt;0&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="sim_card_configuration"> sim card configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bsmc_para.5D"> [smc_para] </span></h3>
+<ul><li> <b>smc_used</b>: 0 to disable; 1 to enable
+</li><li> <b>smc_rst</b>: Reset GPIO configuration
+</li><li> <b>smc_vppen</b>: VPP enable GPIO configuration
+</li><li> <b>smc_vppp</b>: Programming VPP GPIO configuration
+</li><li> <b>smc_det</b>: SIM Card detect GPIO configuration
+</li><li> <b>smc_vccen</b>: VCC enable GPIO configuration
+</li><li> <b>smc_sck</b>: Serial clock GPIO configuration
+</li><li> <b>smc_sda</b>: Serial data GPIO configurion
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[smc_para]
+smc_used = 1
+smc_rst = port:PH13&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+smc_vppen = port:PH14&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+smc_vppp = port:PH15&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+smc_det = port:PH16&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+smc_vccen = port:PH17&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+smc_sck = port:PH18&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+smc_sda = port:PH19&lt;5&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="ps2_configuration"> ps2 configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bps2_0_para.5D"> [ps2_0_para] </span></h3>
+<ul><li> <b>ps2_used</b>: 0 to disable; 1 to enable
+</li><li> <b>ps2_scl</b>: Serial clock GPIO configuration
+</li><li> <b>ps2_sda</b>: Serial data GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[ps2_0_para]
+ps2_used = 1
+ps2_scl = port:PI20&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+ps2_sda = port:PI21&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h3> <span class="mw-headline" id=".5Bps2_1_para.5D"> [ps2_1_para] </span></h3>
+<ul><li> <b>ps2_used</b>: 0 to disable; 1 to enable
+</li><li> <b>ps2_scl</b>: Serial clock GPIO configuration
+</li><li> <b>ps2_sda</b>: Serial data GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[ps2_1_para]
+ps2_used = 1
+ps2_scl = port:PI20&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+ps2_sda = port:PI21&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="can_bus_configuration"> can bus configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bcan_para.5D"> [can_para] </span></h3>
+<ul><li> <b>can_used</b>: 0 to disable; 1 to enable it
+</li><li> <b>can_tx</b>: transmit GPIO Configuration
+</li><li> <b>can_rx</b>: receive GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[Can_para]
+can_used = 1
+can_tx = port:PA16&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+can_rx = port:PA17&lt;3&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="matrix_keyboard"> matrix keyboard </span></h2>
+<h2> <span class="mw-headline" id="23.1_.5Bkeypad_para.5D"> 23.1 [keypad_para] </span></h2>
+<ul><li> <b>kp_used</b>: 0 to disable; 1 to enable
+</li><li> <b>kp_in_size</b>: column width
+</li><li> <b>kp_out_size</b>: row width
+</li><li> <b>kp_in0</b>: column 0 GPIO Configuration
+</li><li> <b>kp_in1</b>: column 1 GPIO Configuration
+</li><li> <b>kp_in2</b>: column 2 GPIO Configuration
+</li><li> <b>kp_in3</b>: column 3 GPIO Configuration
+</li><li> <b>kp_in4</b>: column 4 GPIO configuration
+</li><li> <b>kp_in5</b>: column 5 GPIO configuration
+</li><li> <b>kp_in6</b>: column 6 GPIO Configuration
+</li><li> <b>kp_in7</b>: column 7 GPIO configuration
+</li><li> <b>kp_out0</b>: row 0 GPIO Configuration
+</li><li> <b>kp_out1</b>: row 1 GPIO Configuration
+</li><li> <b>kp_out2</b>: row 2 GPIO Configuration
+</li><li> <b>kp_out3</b>: row 3 GPIO Configuration
+</li><li> <b>kp_out4</b>: row 4 GPIO configuration
+</li><li> <b>kp_out5</b>: row 5 GPIO configuration
+</li><li> <b>kp_out6</b>: row 6 GPIO Configuration
+</li><li> <b>kp_out7</b>: row 7 GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[Keypad_para]
+kp_used = 1
+kp_in_size = 8
+kp_out_size = 8
+kp_in0 = port:PH08&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_in1 = port:PH09&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_in2 = port:PH10&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_in3 = port:PH11&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_in4 = port:PH14&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_in5 = port:PH15&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_in6 = port:PH16&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_in7 = port:PH17&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_out0 = port:PH18&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_out1 = port:PH19&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_out2 = port:PH22&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_out3 = port:PH23&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_out4 = port:PH24&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_out5 = port:PH25&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_out6 = port:PH26&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+kp_out7 = port:PH27&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="USB_control_flags"> USB control flags </span></h2>
+<ul><li> <b>usb_used</b>: 0 to disable; 1 to enable
+</li><li> <b>usb_port_type</b>: USB port type:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> type
+</th>
+<th> usb port type
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>device only
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>host only
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>OTG
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>usb_detect_type</b>: 0 = no checking; 1 = VBus / id check
+</li><li> <b>usb_controller_type</b>: USB controller type:
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> type
+</th>
+<th> usb controller type
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>Unknown
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>EHCI
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>OHCI
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>usb_id_gpio</b>:USB ID pin GPIO configuration
+</li><li> <b>usb_det_vbus_gpio</b>: USB detect VBus pin GPIO configuration (VBus is USB speak for the +5V line)
+</li><li> <b>usb_drv_vbus_gpio</b>: USB drive VBus pin GPIO configuration
+</li><li> <b>usb_restrict_gpio</b>:
+</li><li> <b>usb_host_init_state</b>: In host only mode, host port initialization state; 0 do not initialize; 1 initializatie USB
+</li><li> <b>usb_restric_flag</b>:
+</li></ul>
+<h3> <span class="mw-headline" id=".5Busbc0.5D"> [usbc0] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[usbc0]
+usb_used = 1
+usb_port_type = 2
+usb_detect_type = 1
+usb_id_gpio = port:PH04&lt;0&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+usb_det_vbus_gpio = port:PH05&lt;0&gt;&lt;0&gt;&lt;default&gt;&lt;default&gt;
+usb_drv_vbus_gpio = port:PB09&lt;1&gt;&lt;0&gt;&lt;default&gt;&lt;0&gt;
+usb_host_init_state = 0
+</pre>
+<h3> <span class="mw-headline" id=".5Busbc1.5D"> [usbc1] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[usbc1]
+usb_used = 1
+usb_port_type = 1
+usb_detect_type = 0
+usb_id_gpio =
+usb_det_vbus_gpio =
+usb_drv_vbus_gpio = port:PH06&lt;1&gt;&lt;0&gt;&lt;default&gt;&lt;0&gt;
+usb_host_init_state = 1
+</pre>
+<h3> <span class="mw-headline" id=".5Busbc2.5D"> [usbc2] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[usbc2]
+usb_used = 1
+usb_port_type = 1
+usb_detect_type = 0
+usb_id_gpio =
+usb_det_vbus_gpio =
+usb_drv_vbus_gpio = port:PH03&lt;1&gt;&lt;0&gt;&lt;default&gt;&lt;0&gt;
+usb_host_init_state = 1
+</pre>
+<h2> <span class="mw-headline" id="USB_Device"> USB Device </span></h2>
+<h3> <span class="mw-headline" id=".5Busb_feature.5D"> [usb_feature] </span></h3>
+<ul><li> <b>vendor_id</b>: vendor ID
+</li><li> <b>mass_storage_id</b>: mass storage ID
+</li><li> <b>adb_id</b>: android debug bridge ID
+</li><li> <b>manufacturer_name</b>: vendor name
+</li><li> <b>product_name</b>: = product name
+</li><li> <b>serial_number</b>: = serial number
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[usb_feature]
+vendor_id = 0x18d1
+mass_storage_id = 0x0001
+adb_id = 0x0002
+manufacturer_name = &quot;USB Developer&quot;
+product_name = &quot;Android&quot;
+serial_number = &quot;20080411&quot;
+</pre>
+<h3> <span class="mw-headline" id=".5Bmsc_feature.5D"> [msc_feature] </span></h3>
+<ul><li> <b>vendor_name</b>: vendor name
+</li><li> <b>product_name</b>: product name
+</li><li> <b>release</b>: release version
+</li><li> <b>luns</b>: number of logical units
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[msc_feature]
+vendor_name = &quot;USB 2.0&quot;
+product_name = &quot;USB Flash Driver&quot;
+release = 100
+luns = 2
+</pre>
+<h2> <span class="mw-headline" id="G_Sensor_configuration"> G Sensor configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bgsensor_para.5D"> [gsensor_para] </span></h3>
+<ul><li> <b>gsensor_used</b>: 0 to disable; 1 to enable
+</li><li> <b>gsensor_name</b>: linux kernel module name to match configuration
+</li><li> <b>gsensor_twi_id</b>: TWI bus ID
+</li><li> <b>gsensor_twi_addr</b>: TWI address
+</li><li> <b>gsensor_int1</b>: interrupt 1 GPIO configuration
+</li><li> <b>gsensor_int2</b>: interrupt 2 GPIO configuration
+</li><li> <b>gsensor_revert_x_flag</b>: (untested)
+</li><li> <b>gsensor_revert_y_flag</b>: (untested)
+</li><li> <b>gsensor_revert_z_flag</b>: (untested)
+</li><li> <b>gsensor_exchange_x_y_flag</b>: (untested)
+</li></ul>
+<p>Configuration example 1:
+</p>
+<pre class="brush: ini">
+[Gsensor_para]
+gsensor_used = 1
+gsenser_name = &quot;bma250&quot;
+gsensor_twi_id = 1
+gsensor_twi_addr = 0x18
+gsensor_int1 = port:PH00&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+gsensor_int2 = port:PI10&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<p>Configuration example 2:
+</p>
+<pre class="brush: ini">
+[Gsensor_para]
+gsensor_used = 1
+gsenser_name = &quot;bma222&quot;
+gsensor_twi_id = 1
+gsensor_twi_addr = 0x08
+gsensor_int1 = port:PH00&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+gsensor_int2 = port:PI10&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<p>Configuration example 3:
+</p>
+<pre class="brush: ini">
+[Gsensor_para]
+gsensor_used = 1
+gsenser_name = &quot;mma7660&quot;
+gsensor_twi_id = 1
+gsensor_twi_addr = 0x4c
+gsensor_int1 = port:PH00&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+gsensor_int2 = port:PI10&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="gps_gpio_configuration"> gps gpio configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bgps_para.5D"> [gps_para] </span></h3>
+<ul><li> <b>gps_used</b>: 0 to disable; 1 to enable
+</li><li> <b>gps_spi_id</b>: SPI controller; 0 - 2 for SPI0, SPI1 or SPI2; 15 if no SPI is used
+</li><li> <b>gps_spi_cs_num</b>: chip select SPI controller; 0 = SPI0, 1 = SPI1
+</li><li> <b>gps_lradc</b>: 0 or 1 for Low Rate ADC Format; 2 for no Low Rate ADC Format
+</li><li> <b>gps_clk</b>: Clock GPIO configuration
+</li><li> <b>gps_sign</b>: GPS sign GPIO configuration
+</li><li> <b>gps_mag</b>: GPS Magnitude GPIO configuration
+</li><li> <b>gps_vcc_en</b>: GPS VCC enable GPIO configuration
+</li><li> <b>gps_osc_en</b>: GPS Oscillator enable GPIO configuration
+</li><li> <b>gps_rx_en</b>: GPS receive enable GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[gps_para]
+gps_used = 0
+gps_spi_id = 2
+gps_spi_cs_num = 0
+gps_lradc = 1
+gps_clk = port:PI00&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+gps_sign = port:PI01&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+gps_mag = port:PI02&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+gps_vcc_en = port:PC22&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+gps_osc_en = port:PI14&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+gps_rx_en = port:PI15&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<h2> <span class="mw-headline" id="sdio_wifi_configuration"> sdio wifi configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bsdio_wifi_para.5D"> [sdio_wifi_para] </span></h3>
+<ul><li> <b>sdio_wifi_used</b>: 0 to disable; 1 to enable
+</li><li> <b>sdio_wifi_sdc_id</b>: SD controller ID to use
+</li><li> <b>sdio_wifi_mod_sel</b>: SDI module selection (see <a class="external text" href="https://github.com/linux-sunxi/linux-sunxi/blob/sunxi-3.4/drivers/mmc/mmc-pm/mmc_pm.c">mmc_pm.c</a> ):
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="wikitable">
+<tr>
+<th> mode
+</th>
+<th> wifi selection mode
+</th>
+<th> note
+</th></tr>
+<tr>
+<td>0
+</td>
+<td>none
+</td>
+<td>
+</td></tr>
+<tr>
+<td>1
+</td>
+<td>swl-n20
+</td>
+<td>WiFi
+</td></tr>
+<tr>
+<td>2
+</td>
+<td>usi bm-01
+</td>
+<td>WiFi - Bluetooth - FM radio
+</td></tr>
+<tr>
+<td>3
+</td>
+<td>ar6302qfn
+</td>
+<td>
+</td></tr>
+<tr>
+<td>4
+</td>
+<td>apm6xxx
+</td>
+<td>
+</td></tr>
+<tr>
+<td>5
+</td>
+<td>swb b23
+</td>
+<td>WiFi - Bluetooth - FM radio
+</td></tr>
+<tr>
+<td>6
+</td>
+<td>hw-mw269x
+</td>
+<td>Huawei wifi driver
+</td></tr>
+<tr>
+<td>7
+</td>
+<td>bcm40181
+</td></tr>
+<tr>
+<td>8
+</td>
+<td>bcm40183
+</td>
+<td>BCM40183(BCM4330)
+</td></tr>
+<tr>
+<td>9
+</td>
+<td>rtl8723as
+</td>
+<td>RTL8723AS(RF-SM02B)
+</td></tr>
+<tr>
+<td>10
+</td>
+<td>rtl8189es
+</td>
+<td>RTL8189ES(SM89E00)
+</td></tr></table></dd></dl></dd></dl></dd></dl>
+<ul><li> <b>sdio_wifi_shdn</b>: SHDN GPIO configuration
+</li><li> <b>sdio_wifi_host_wakeup</b>: WiFi wakeup GPIO Configuration
+</li><li> <b>sdio_wifi_vdd_en</b>: VDD enable GPIO configuration
+</li><li> <b>sdio_wifi_vcc_en</b>: VCC enable GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[Sdio_wifi_para]
+sdio_wifi_used = 1
+sdio_wifi_sdc_id = 3
+sdio_wifi_mod_sel = 1
+
+sdio_wifi_shdn = port:PH09&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+sdio_wifi_host_wakeup = port:PH10&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt;
+sdio_wifi_vdd_en = port:PH11&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+sdio_wifi_vcc_en = port:PH12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<p>Optionally the following parameters can be used when other/multiple transceivers are installed.
+</p>
+<pre class="brush: ini">
+; 1 - samsung swl-n20 sdio wifi gpio config
+swl_n20_shdn            = port:PH09&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+swl_n20_host_wakeup     = port:PH10&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt;
+swl_n20_vdd_en          = port:PH11&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+swl_n20_vcc_en          = port:PH12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+
+; 2 - usi bm01a sdio wifi gpio config
+usi_bm01a_wl_pwr        = port:PH12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+usi_bm01a_wlbt_regon    = port:PI11&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+usi_bm01a_wl_rst        = port:PI10&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+usi_bm01a_wl_wake       = port:PI12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+usi_bm01a_bt_rst        = port:PB05&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+usi_bm01a_bt_wake       = port:PI20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+usi_bm01a_bt_hostwake   = port:PI21&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+
+; 3 - ar6302qfn sdio wifi gpio config
+ar6302_qfn_pwr          = port:PH12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+ar6302_qfn_shdn_n       = port:PH09&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+
+; 4 - apm sdio wifi gpio config
+apm_6981_vcc_en         = port:PA09&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+apm_6981_vdd_en         = port:PA10&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+apm_6981_wakeup         = port:PA11&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+apm_6981_rst_n          = port:PA12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+apm_6981_pwd_n          = port:PA13&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+
+; 6 - huawei mw269x(v1/v2) sdio wifi gpio config
+hw_mw269x_wl_pwr        = port:PH12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+hw_mw269x_wl_enb        = port:PH11&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+hw_mw269x_wl_hostwake   = port:PH10&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+hw_mw269x_wl_wake       = port:PH09&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+hw_mw269x_bt_enb        = port:PB05&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+hw_mw269x_bt_wake       = port:PI20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+hw_mw269x_bt_hostwake   = port:PI21&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+</pre>
+<h2> <span class="mw-headline" id="us_wifi_configuration"> us wifi configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Busb_wifi_para.5D"> [usb_wifi_para] </span></h3>
+<ul><li> <b>usb_wifi_used</b>: 0 to disable; 1 to enable
+</li><li> <b>usb_wifi_usbc_num</b>: USB controller to which USB wifi module is connected
+</li><li> <b>usb_host_init_state</b>: used together, such as xx = 2. Then usbc2 the usb_host_init_state 0
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[usb_wifi_para]
+usb_wifi_used = 0
+usb_wifi_usbc_num = 2
+</pre>
+<h2> <span class="mw-headline" id="3G_configuration"> 3G configuration </span></h2>
+<h3> <span class="mw-headline" id=".5B3g_para.5D"> [3g_para] </span></h3>
+<ul><li> <b>3g_used</b>: 0 to disable; 1 to enable
+</li><li> <b>3g_usbc_num</b>: USB controller to which the 3G module is connected
+</li><li> <b>3g_uart_num</b>: UART controller to which the 3G module is connected
+</li><li> <b>3g_pwr</b>: power enable GPIO configuration
+</li><li> <b>3g_wakeup</b>: wakeup GPIO configuration
+</li><li> <b>3g_int</b>: interrupt GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+3g_used = 1
+3g_usbc_num = 2
+3g_uart_num = 0
+3g_pwr = port:PH09&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt;
+3g_wakeup = port:PH10&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt;
+3g_int = port:PH11&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;1&gt;
+</pre>
+<h2> <span class="mw-headline" id="gyroscope"> gyroscope </span></h2>
+<h3> <span class="mw-headline" id=".5Bgy_para.5D"> [gy_para] </span></h3>
+<ul><li> <b>gy_used</b>: 0 to disable; 1 to enable
+</li><li> <b>gy_twi_id</b>: TWI controller to use
+</li><li> <b>gy_twi_addr</b>: TWI address to use
+</li><li> <b>gy_int1</b>: interrupt 1 GPIO configuration
+</li><li> <b>gy_int2</b>: interrupt 2 GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[gy_para]
+gy_used = 1
+gy_twi_id = 1
+gy_twi_addr = 0x0a
+gy_int1 = port:PH18&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+gy_int2 = port:PH19&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="light_sensor"> light sensor </span></h2>
+<h3> <span class="mw-headline" id=".5Bls_para.5D"> [ls_para] </span></h3>
+<ul><li> <b>ls_used</b>: 0 to disable; 1 to enable
+</li><li> <b>ls_twi_id</b>: TWI controller to use
+</li><li> <b>ls_twi_addr</b>: TWI address
+</li><li> <b>ls_int</b>: interrupt GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[ls_para]
+ls_used = 1
+ls_twi_id = 1
+ls_twi_addr = 0x0c
+ls_int = port:PH20&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="compass"> compass </span></h2>
+<h3> <span class="mw-headline" id=".5Bcompass_para.5D"> [compass_para] </span></h3>
+<ul><li> <b>compass_used</b>: 0 to disable; 1 to enable
+</li><li> <b>compass_twi_id</b>: TWI controller to use
+</li><li> <b>compass_twi_addr</b>: TWI address to use
+</li><li> <b>compass_int</b>: interrupt GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[compass_para]
+compass_used = 0
+compass_twi_id = 1
+compass_twi_addr = 0x0d
+compass_int = port:PI13&lt;6&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="blue_tooth"> blue tooth </span></h2>
+<h3> <span class="mw-headline" id=".5Bbt_para.5D"> [bt_para] </span></h3>
+<ul><li> <b>bt_used</b>: 0 to disable; 1 to enable
+</li><li> <b>bt_uart_id</b>: UART controller to use
+</li><li> <b>bt_wakeup</b>: wakeup GPIO configuration
+</li><li> <b>bt_gpio</b>: optional bluetooth pin GPIO configuration
+</li><li> <b>bt_rst</b>: = reset GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[Bt_para]
+bt_used = 1
+bt_uart_id = 2
+bt_wakeup = port:PI20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+bt_gpio = port:PI21&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+bt_rst = port:PB05&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="i2s_configuration"> i2s configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bi2s_para.5D"> [i2s_para] </span></h3>
+<ul><li> <b>i2s_used</b>: 0 to disable; 1 to enable
+</li><li> <b>i2s_channel</b>: channel control; 1 for one, 2 for two channels
+</li><li> <b>i2s_mclk</b>: master clock signal GPIO configuration
+</li><li> <b>i2s_bclk</b>: bit clock signal GPIO configuration
+</li><li> <b>i2s_lrclk</b>: word clock (left/right) signal GPIO configuration
+</li><li> <b>i2s_dout0</b>: digital out 0 GPIO configuration
+</li><li> <b>i2s_dout1</b>: (optional) digital out 1 GPIO configuration
+</li><li> <b>i2s_dout2</b>: (optional) digital out 2 GPIO configuration
+</li><li> <b>i2s_dout3</b>: (optional) digital out 3 GPIO configuration
+</li><li> <b>i2s_din</b>: multiplexed in signal GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[i2s_para]
+i2s_used = 1
+i2s_channel = 2
+i2s_mclk = port:PB05&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+i2s_bclk = port:PB06&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+i2s_lrclk = port:PB07&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+i2s_dout0 = port:PB08&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+i2s_dout1 =
+i2s_dout2 =
+i2s_dout3 =
+i2s_din = port:PB12&lt;2&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="spdif_configuration"> spdif configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bspdif_para.5D"> [spdif_para] </span></h3>
+<ul><li> <b>spdif_used</b>: 0 to disable; 1 to enable
+</li><li> <b>spdif_mclk</b>: optional master clock GPIO configuration
+</li><li> <b>spdif_dout</b>: digital out GPIO configuration
+</li><li> <b>spdif_din</b>: digital in GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[spdif_para]
+spdif_used = 1
+spdif_mclk =
+spdif_dout = port:PB13&lt;4&gt;&lt;1&gt;&lt;default&gt;&lt;default&gt;
+spdif_din =
+</pre>
+<h2> <span class="mw-headline" id="audio_configuration"> audio configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Baudio_para.5D"> [audio_para] </span></h3>
+<ul><li> <b>audio_used</b>: 0 to disable; 1 to enable
+</li><li> <b>speakers audio_pa_ctrl</b>: PA controller GPIO configuration
+</li><li> <b>audio_lr_change</b>: 0 for normal operation; 1 to swap left and right channels
+</li><li> <b>playback_used</b>: 0 to disable; 1 to enable <i><b>This is a linux-sunxi specific extention</b></i>
+</li><li> <b>capture_used</b>: 0 to dissable; 1 to enable <i><b>This is a linux-sunxi specific extention</b></i>
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[audio_para]
+audio_used = 1
+audio_pa_ctrl = port:PH15&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+audio_lr_change = 0
+playback_used = 1
+capture_used = 1
+</pre>
+<h2> <span class="mw-headline" id="infrared_remote_configuration"> infrared remote configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bir_para.5D"> [ir_para] </span></h3>
+<ul><li> <b>ir_used</b>: 0 to disable; 1 to enable
+</li><li> <b>ir0_rx</b>: receiver GPIO configuration
+</li><li> <b>ir0_tx</b>: transmitter GPIO configuration
+</li><li> <b>ir1_rx</b>: receiver GPIO configuration
+</li><li> <b>ir1_tx</b>: transmitter GPIO configuration
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+ir_used = 1
+ir0_tx = port:PB03&lt;2&gt;default&lt;default&gt;&lt;default&gt;
+ir0_rx = port:PB04&lt;2&gt;default&lt;default&gt;&lt;default&gt;
+
+ir1_tx = port:PB22&lt;2&gt;default&lt;default&gt;&lt;default&gt;
+ir1_rx = port:PB23&lt;2&gt;default&lt;default&gt;&lt;default&gt;
+</pre>
+<h2> <span class="mw-headline" id="pmu_configuration"> pmu configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bpmu_para.5D"> [pmu_para] </span></h3>
+<ul><li> <b>pmu_used</b>: 0 to disable; 1 to enable
+</li><li> <b>pmu_used2</b>: 0 to disable; 1 to enable secondary PMU
+</li><li> <b>pmu_twi_id</b>: TWI controller to use
+</li><li> <b>pmu_twi_addr</b>: TWI address to use
+</li><li> <b>pmu_irq_id</b>: interrupt to use; 0 = NMI; 1 - 15 = interrupt 1 to 15
+</li><li> <b>pmu_battery_rdc</b>: battery internal resistance in mΩ
+</li><li> <b>pmu_battery_cap</b>: battery capacity in mAh
+</li><li> <b>pmu_init_chgcur</b>: initial charging current in mA; 300, 400 ... 1800
+</li><li> <b>pmu_init_chgcur2</b>: initial charging current in mA for secondary PMU; 300, 400 ... 1800
+</li><li> <b>pmu_earlysuspend_chgcur2</b> early suspend charging current in mA; 300, 400 ... 1800
+</li><li> <b>pmu_suspend_chgcur</b>: suspended charging current in mA; 300, 400 ... 1800
+</li><li> <b>pmu_suspend_chgcur2</b>: suspended charging current in mA for secondary PMU; 300, 400 ... 1800
+</li><li> <b>pmu_resume_chgcur</b>: normal charging current in mA; 300, 400 ... 1800
+</li><li> <b>pmu_resume_chgcur2</b>: normal charging current in mA for secondary PMU; 300, 400 ... 1800
+</li><li> <b>pmu_shutdown_chgcur</b>: powered down charge current in mA; 300, 400 ... 1800
+</li><li> <b>pmu_shutdown_chgcur2</b>: powered down charge current in mA for secondary PMU; 300, 400 ... 1800
+</li><li> <b>pmu_init_chgvol</b>: initial charging target voltage in mV; 4100/4150/4200/4360
+</li><li> <b>pmu_init_chgend_rate</b>: initial charging current ratio in&#160;%; 10, 15
+</li><li> <b>pmu_init_chg_enabled</b>: 0 to disable; 1 to enable
+</li><li> <b>pmu_init_adc_freq</b>: initial ADC sampling rate in Hz; 25/50/100/200
+</li><li> <b>pmu_init_adc_freqc</b>: initial ADC coulomb meter sampling rate in Hz; 25/50/100/200
+</li><li> <b>pmu_init_chg_pretime</b>: initial precharge timeout in minutes; 40/50/60/70
+</li><li> <b>pmu_init_chg_csttime</b>: initial constant charging current timeout in minutes; 360/480/600/720
+</li><li> <b>pmu_bat_para1</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para2</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para3</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para4</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para5</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para6</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para7</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para8</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para9</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para10</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para11</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para12</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para13</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para14</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para15</b>: = battery charge LUT in&#160;%
+</li><li> <b>pmu_bat_para16</b>: = battery charge LUT in&#160;%; should always be 100
+</li><li> <b>pmu_usbvol_limit</b>: 0 no USB voltage limiter; 1 = limit USB voltage
+</li><li> <b>usb pmu_usbvol</b>: USB voltage limit in mV; 4000, 4100 ... 4700
+</li><li> <b>pmu_usbcur_limit</b>: 0 no USB current limiter; 1 = limit USB current
+</li><li> <b>pmu_usbcur</b>: USB current limit in mA; 100/500/900
+</li><li> <b>pmu_pwroff_vol</b>: boot hardware protection voltage in mV; 2600, 2700 ... 3300
+</li><li> <b>pmu_pwron_vol</b>: running hardware protection voltage in mV; 2600, 2700 ... 3300
+</li><li> <b>pmu_pekoff_time</b>: Power Enable Key, short power button off delay in ms; 4000, 6000, 8000, 10000
+</li><li> <b>pmu_pekoff_en</b>: 0 to disable; 1 to enable power button power off
+</li><li> <b>pmu_peklong_time</b>: long power off button delay in ms; 1000, 1500, 2000, 2500
+</li><li> <b>pmu_pekon_time</b>: power on button delay in ms; 128, 1000, 2000, 3000
+</li><li> <b>pmu_pwrok_time</b>: power 'ok' delay in ms; 8, 64
+</li><li> <b>pmu_pwrnoe_time</b>: n_oe from low to high shutdown delay time in ms; 128, 1000, 2000, 3000
+</li><li> <b>pmu_intotp_en</b>: 0 to disable; 1 to enable over temperature protection
+</li><li> <b>pmu_suspendpwroff_vol</b>: shutdown voltage when suspended and battery is low
+</li><li> <b>pmu_batdeten</b>: Battery detection enabled
+</li><li> <b>pmu_adpdet</b>: adapter detect GPIO configuration
+</li><li> <b>pmu_backupen</b>: 1 to enable RTC/backup battery charging
+</li></ul>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[pmu_para]
+pmu_used = 1
+pmu_twi_addr = 0x34
+pmu_twi_id = 0
+pmu_irq_id = 0
+pmu_battery_rdc = 200
+pmu_battery_cap = 2600
+pmu_init_chgcur = 300
+pmu_suspend_chgcur = 1000
+pmu_resume_chgcur = 300
+pmu_shutdown_chgcur = 1000
+pmu_init_chgvol = 4200
+pmu_init_chgend_rate = 15
+pmu_init_chg_enabled = 1
+pmu_init_adc_freq = 100
+pmu_init_adc_freqc = 100
+pmu_init_chg_pretime = 50
+pmu_init_chg_csttime = 720
+pmu_bat_para1 = 0
+pmu_bat_para2 = 0
+pmu_bat_para3 = 1
+pmu_bat_para4 = 5
+pmu_bat_para5 = 7
+pmu_bat_para6 = 13
+pmu_bat_para7 = 16
+pmu_bat_para8 = 26
+pmu_bat_para9 = 36
+pmu_bat_para10 = 46
+pmu_bat_para11 = 53
+pmu_bat_para12 = 61
+pmu_bat_para13 = 73
+pmu_bat_para14 = 84
+pmu_bat_para15 = 92
+pmu_bat_para16 = 100
+pmu_usbvol_limit = 1
+pmu_usbvol = 4400
+pmu_usbcur_limit = 1
+pmu_usbcur = 900
+pmu_pwroff_vol = 3300
+pmu_pwron_vol = 2900
+pmu_pekoff_time = 6000
+pmu_pekoff_en = 1
+pmu_peklong_time = 1500
+pmu_pekon_time = 1000
+pmu_pwrok_time = 64
+pmu_pwrnoe_time = 2000
+pmu_intotp_en = 1
+pmu_adpdet = port:PH02&lt;0&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+pmu_batdeten = 1
+pmu_suspendpwroff_vol = 3500
+
+pmu_used2 = 0
+pmu_init_chgcur2 = 400
+pmu_suspend_chgcur2 = 1200
+pmu_resume_chgcur2 = 400
+pmu_shutdown_chgcur2 = 1200
+</pre>
+<h2> <span class="mw-headline" id="recovery_key_configuration"> recovery key configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Brecovery_key.5D"> [recovery_key] </span></h3>
+<ul><li> <b>key_min</b>: minimal length for the key to be depressed in seconds
+</li><li> <b>key_max</b>: maximal length for the key to be depressed in seconds
+</li></ul>
+<p>Example configuration:
+</p>
+<pre class="brush: ini">
+key_min	= 4
+key_max	= 32
+</pre>
+<h2> <span class="mw-headline" id="dvfs_voltage-frequency_table_configuration"> dvfs voltage-frequency table configuration </span></h2>
+<p>Define at which frequency what voltage should be set. Recommended defaults:
+</p>
+<table class="wikitable">
+<tr>
+<th> voltage
+</th>
+<th> frequency range
+</th></tr>
+<tr>
+<td>1.50 v
+</td>
+<td>1008 MHz - 1056 MHz
+</td></tr>
+<tr>
+<td>1.40 v
+</td>
+<td>912 MHz - 1008 MHz
+</td></tr>
+<tr>
+<td>1.35 v
+</td>
+<td>864 MHz - 912 MHz
+</td></tr>
+<tr>
+<td>1.30 v
+</td>
+<td>624 MHz - 864 MHz
+</td></tr>
+<tr>
+<td>1.25 v
+</td>
+<td>60 MHz - 624 MHz
+</td></tr></table>
+<h3> <span class="mw-headline" id=".5Bdvfs_table.5D"> [dvfs_table] </span></h3>
+<ul><li> <b>max_freq</b>: cpu maximum frequency in Hz; can not be more than 1008 MHz
+</li><li> <b>min_freq</b>: cpu minimum frequency in Hz; can not be less than 60 MHz
+</li><li> <b>lv_count</b>: number of lv_freq/lv_volt pairs; must be &lt; 16
+</li><li> <b>lv1_freq</b>: state 1 frequency
+</li><li> <b>lv1_volt</b>: state 1 voltage
+</li></ul>
+<pre class="brush: ini">
+[dvfs_table]
+max_freq = 1008000000
+min_freq = 60000000
+lv_count = 5
+
+lv1_freq = 1056000000
+lv1_volt = 1500
+
+lv2_freq = 1008000000
+lv2_volt = 1400
+
+lv3_freq = 912000000
+lv3_volt = 1350
+
+lv4_freq = 864000000
+lv4_volt = 1300
+
+lv5_freq = 624000000
+lv5_volt = 1250
+</pre>
+<h2> <span class="mw-headline" id="led_configuration"> led configuration </span></h2>
+<p>LEDs are accessible via sys-fs; for example on the cubietruck you can find the following directory:
+/sys/class/leds/blue\:ph21\:led1
+`cat` the file trigger to see the triggers that can be set in .fex files. Currently these are
+</p>
+<ul><li> none (kinda defeats the purpose of setting a trigger)
+</li><li> rfkill0
+</li><li> battery-charging-or-full
+</li><li> battery-charging
+</li><li> battery-full
+</li><li> battery-charging-blink-full-solid
+</li><li> ac-online
+</li><li> usb-online
+</li><li> mmc0
+</li><li> mmc1
+</li><li> timer
+</li><li> heartbeat
+</li><li> cpu0
+</li><li> cpu1
+</li><li> default-on
+</li><li> rfkill1
+</li><li> rfkill2
+</li></ul>
+<p>How much they make sense - experiment. I'd be especially curious about the effects of rfkill settings.
+</p><p>Please note that depending on the trigger in question the sysfs will be populated with even more pseudo files. When you choose timer for example then you get a constant blinking led and two more files: delay_on and delay_off with which you can specify how many milliseconds will the LED stay in on/off state. Very convenient to indicate eg. disk usage or average load with higher blinking frequency and stuff like that.
+</p>
+<h3> <span class="mw-headline" id=".5Bleds_para.5D"> [leds_para] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[leds_para]
+leds_used = 1
+leds_num = 3
+leds_pin_1 = port:PH20&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+leds_name_1 = &quot;ph20:green:led1&quot;
+leds_trigger_1 = &quot;heartbeat&quot;
+leds_pin_2 = port:PH21&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+leds_name_2 = &quot;ph21:blue:led2&quot;
+leds_trigger_2 = &quot;cpu0&quot;
+leds_pin_3 = port:PI12&lt;1&gt;&lt;default&gt;&lt;default&gt;&lt;0&gt;
+leds_name_3 = &quot;red:pi12:led3&quot;
+leds_trigger_3 = &quot;cpu1&quot;
+</pre>
+<h3> <span class="mw-headline" id="external_leds"> external leds </span></h3>
+<p>External LEDs that are connected to one of the GPIO pins (don't forget to add a resistor!) can also be defined in the fex file and used like internal ones afterwards. You have to check which GPIO pin is connected to which SoC pin and use this in the definition. As an example a 3rd led on a Banana Pro connected to GPIO pin 19 (PI12) in the config above. This will lead to a sysfs entry /sys/class/leds/red:pi12:led3 where everything works just like with internal leds.
+</p>
+<h2> <span class="mw-headline" id="dynamic_configuration"> dynamic configuration </span></h2>
+<h3> <span class="mw-headline" id=".5Bdynamic.5D"> [dynamic] </span></h3>
+<p>Configuration example:
+</p>
+<pre class="brush: ini">
+[dynamic]
+MAC = &quot;000000000000&quot;
+</pre>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Fex_Guide&amp;oldid=17172">http://linux-sunxi.org/index.php?title=Fex_Guide&amp;oldid=17172</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Fex+Guide&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Fex+Guide" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Fex_Guide" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Fex_Guide" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Fex_Guide">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Fex_Guide&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Fex_Guide&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Fex_Guide" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Fex_Guide" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Fex_Guide&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Fex_Guide&amp;oldid=17172" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 15 May 2016, at 06:22.</li>
+<li id="footer-info-viewcount">This page has been accessed 265,183 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

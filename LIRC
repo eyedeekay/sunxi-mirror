@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>LIRC - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"LIRC","wgTitle":"LIRC","wgCurRevisionId":16453,"wgArticleId":263,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software","Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"LIRC","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/LIRC"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-LIRC skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">LIRC</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Many media players and set-top boxes based on A1x SoCs feature a built-in standard CIR<sup id="cite_ref-cir_1-0" class="reference"><a href="#cite_note-cir-1">[1]</a></sup> infrared receiver for 38&#160;kHz based IR controllers that has LIRC software support, which in turn is compatible with most known media center remotes made for computers and media players.
+</p>
+<dl><dd><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> People tend to mix up CIR with IrDA<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>. Most Allwinner SoCs can support the IrDA protocol via their UARTs, but would need additional hardware (an IrDA transceiver) to do so. Simple infrared receivers (which can be connected straight to <i>IR0</i> / <i>IR1</i>) always relate to CIR instead, using a different protocol.
+</dd></dl>
+<p><b>LIRC</b> (Linux Infrared Remote Control) supports this integrated infrared receiver, and it acts as a middleware between the hardware and the software applications that supports LIRC, which most media player and media center applications does.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#What_is_LIRC.3F"><span class="tocnumber">1</span> <span class="toctext">What is LIRC?</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Using_LIRC_with_Mele_A2000"><span class="tocnumber">2</span> <span class="toctext">Using LIRC with Mele A2000</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Mele_A1000.2FA2000_IR-receiver_udev_rule"><span class="tocnumber">3</span> <span class="toctext">Mele A1000/A2000 IR-receiver udev rule</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#irrecord_to_record_remote_control_key"><span class="tocnumber">4</span> <span class="toctext">irrecord to record remote control key</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Using_existing_remote_definitions"><span class="tocnumber">5</span> <span class="toctext">Using existing remote definitions</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#InfraRed_Remote_Controls_tested_with_standard_CIR_receivers_for_38.C2.A0kHz_based_IR_controllers"><span class="tocnumber">6</span> <span class="toctext">InfraRed Remote Controls tested with standard CIR receivers for 38&#160;kHz based IR controllers</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Using_LIRC_with_Cubieboard2_.28A20_SoC.29"><span class="tocnumber">7</span> <span class="toctext">Using LIRC with Cubieboard2 (A20 SoC)</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Troubleshooting"><span class="tocnumber">8</span> <span class="toctext">Troubleshooting</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#adding_new_remote_.28tl.3Bdr_version.29"><span class="tocnumber">8.1</span> <span class="toctext">adding new remote (tl;dr version)</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#adding_new_remote_in_mainline_.28tl.3Bdr_version.29"><span class="tocnumber">8.2</span> <span class="toctext">adding new remote in mainline (tl;dr version)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#See_Also"><span class="tocnumber">9</span> <span class="toctext">See Also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">11</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="What_is_LIRC.3F">What is LIRC?</span></h2>
+<p>LIRC (Linux Infrared Remote Control) is an open source (GPL) package that allows users to receive and send infrared signals with a Linux-based computer system and applications.
+</p><p>With LIRC and an IR receiver the user can control their computer with almost any infrared remote control (e.g. a TV remote control). The user may for instance control video or music playback software with their remote control.
+</p><p>One GUI frontend is KDELirc, built on the KDE libraries.
+</p>
+<h2> <span class="mw-headline" id="Using_LIRC_with_Mele_A2000">Using LIRC with Mele A2000</span></h2>
+<p>To use Mele's IR-Receiver you have to make lirc listen at <kbd>/dev/input/event&lt;X&gt;</kbd>, because the IR-receiver emulates keyboard input.
+The following steps are necessary to get Mele's IR to work with the supplied remote:
+</p>
+<ul><li> Install lirc
+</li><li> Be sure to have sun4i-ir.ko compiled and do a "modprobe sun4i_ir". This should result in something like:
+</li></ul>
+<pre> input: sun4i-ir as /devices/virtual/input/input4
+ IR Initial OK
+</pre>
+<ul><li> cat /proc/bus/input/devices may give you the right event&lt;X&gt;
+</li><li> Edit /etc/lirc/hardware.conf:
+</li></ul>
+<pre> REMOTE_DRIVER="devinput"
+ REMOTE_DEVICE="/dev/input/event4"
+ START_LIRCD="true"
+</pre>
+<ul><li> Copy a suitable <a href="/Lircd.conf" title="Lircd.conf">lircd.conf</a> to /etc/lirc/<a href="/Lircd.conf" title="Lircd.conf">lircd.conf</a>
+</li><li> Start lirc, and test input with irw
+</li><li> Further steps to be done ...
+</li></ul>
+<h2> <span class="mw-headline" id="Mele_A1000.2FA2000_IR-receiver_udev_rule">Mele A1000/A2000 IR-receiver udev rule</span></h2>
+<p>To use always the same name instead of looking for event&lt;X&gt; create udev rule (/etc/udev/rules.d/10-meleir.rules):
+</p>
+<pre> SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="sun4i-ir", SYMLINK+="input/meleir"
+</pre>
+<ul><li> Edit /etc/lirc/hardware.conf:
+</li></ul>
+<pre> REMOTE_DEVICE="/dev/input/meleir"
+</pre>
+<ul><li> reboot or
+</li></ul>
+<pre> # rmmod sun4i_ir
+ # /etc/init.d/udev restart
+ # /etc/init.d/lirc restart
+ # modprobe sun4i_ir
+</pre>
+<ul><li> ls -l /dev/input
+</li></ul>
+<pre> drwxr-xr-x 2 root root     60 Jan 11 13:44 by-path
+ crw-r----- 1 root root 13, 64 Jan 11 13:44 event0
+ crw-r----- 1 root root 13, 65 Jan 11 15:19 event1
+ lrwxrwxrwx 1 root root      6 Jan 11 15:19 meleir -&gt; event1
+ crw-r----- 1 root root 13, 63 Jan 11 13:44 mice
+</pre>
+<h2> <span class="mw-headline" id="irrecord_to_record_remote_control_key">irrecord to record remote control key</span></h2>
+<p>irrecord should do the job by recording your remote keys: <a rel="nofollow" class="external free" href="http://linux.die.net/man/1/irrecord">http://linux.die.net/man/1/irrecord</a>
+</p><p>For example, to teach LIRC about a Syabas Popcorn Hour A-100 Remote Control. Note that <b>lircd</b> cannot be running;
+</p>
+<pre># /etc/init.d/lirc stop     # or pkill lircd
+# irrecord -d /dev/lirc0 a100.conf
+Don't stop pressing buttons until two lines of dots (2x80) have been
+generated.
+
+Press RETURN now to start recording.
+................................................................................
+Found const length: 107344
+Please keep on pressing buttons like described above.
+................................................................................
+Space/pulse encoded remote control found.
+Signal length is 67.
+Found possible header: 8977 4440
+Found trail pulse: 591
+Found repeat code: 8977 2201
+Signals are space encoded.
+Signal length is 32
+Now enter the names for the buttons.
+Please enter the name for the next button (press &lt;ENTER&gt; to finish recording)
+KEY_PLAY
+
+Now hold down button "KEY_PLAY".
+[continue for all buttons]
+</pre>
+<h2> <span class="mw-headline" id="Using_existing_remote_definitions">Using existing remote definitions</span></h2>
+<p>A large repository of known remote controls are available at <a rel="nofollow" class="external free" href="http://lirc.sourceforge.net/remotes/">http://lirc.sourceforge.net/remotes/</a>
+</p><p>In this example case we will pick <a rel="nofollow" class="external text" href="http://lirc.sourceforge.net/remotes/syabas/">Syabas A-100</a> Remote Control (which is used with Syabas Popcorn Hour series of media player and other Networked Media Tank clones).
+</p>
+<pre># cd /etc/lirc/
+# wget <a rel="nofollow" class="external free" href="http://lirc.sourceforge.net/remotes/syabas/A-100">http://lirc.sourceforge.net/remotes/syabas/A-100</a>
+# cp A-100 lircd.conf
+# vi hardware.conf
+REMOTE="None"
+REMOTE_MODULES=""
+REMOTE_DRIVER=""
+REMOTE_DEVICE="<b>/dev/lirc0</b>"
+REMOTE_SOCKET="<b>/dev/lircd</b>"
+REMOTE_LIRCD_CONF=""
+REMOTE_LIRCD_ARGS=""
+
+START_LIRCD="<b>true</b>"
+</pre>
+<pre># /etc/init.d/lirc start     # Or reboot
+* Starting remote control daemon(s)&#160;: LIRC 
+  ...done.
+</pre>
+<p>If you run something like;
+</p>
+<pre> # tail -f /var/log/daemon.log &amp;
+</pre>
+<p>You can see the messages from <b>lircd</b>. Test that your remote now works with:
+</p>
+<pre>  # irw /dev/lircd
+Nov  1 02:48:26 a1x lircd-0.8.6[814]: accepted new client on /dev/lircd
+0000000020d30af5 00 KEY_PLAY Syabas_A-100
+0000000020d30af5 01 KEY_PLAY Syabas_A-100
+</pre>
+<p>Now when you start <b>xbmc</b> the remote control should work. You can check that it works by viewing the xbmc.log log file:
+</p>
+<pre># tail -f /home/a1x/.xbmc/temp/xbmc.log
+Nov  1 02:44:26 a1x lircd-0.8.6[814]: accepted new client on /dev/lircd
+02:44:46 T:1100938672   DEBUG: LIRC: Update - NEW at 20549:0000000020d350af 00 KEY_DOWN Syabas_A-100 (KEY_DOWN)
+02:44:46 T:1100938672   DEBUG: SDLKeyboard: scancode: 74, sym: 0112, unicode: 0000, modifier: 0
+02:44:46 T:1100938672   DEBUG: OnKey: down (f081) pressed, action is Down
+</pre>
+<p>We still need to tell xbmc to use the remote inputs, the best way to do that is to copy the default, and modify as needed:
+</p>
+<pre># cd /home/a1x/.xbmc/userdata
+# cp /usr/local/share/xbmc/system/Lircmap.xml .
+# vi Lircmap.xml
+        &lt;remote device="<b>Syabas_A-100</b>"&gt;
+</pre>
+<p>Change the remote name to that of what is in the lircd.conf you download/setup, (it is also printed in the xbmc.log output). Restart xbmc.
+</p>
+<h2> <span class="mw-headline" id="InfraRed_Remote_Controls_tested_with_standard_CIR_receivers_for_38.C2.A0kHz_based_IR_controllers">InfraRed Remote Controls tested with standard CIR receivers for 38&#160;kHz based IR controllers</span></h2>
+<p>This only lists infrared remote controls that are compatible with standard CIR infrared receiver for 38&#160;kHz based IR controllers.
+</p>
+<ol><li> <a rel="nofollow" class="external text" href="http://lirc.sourceforge.net/remotes/syabas/">Syabas Popcorn Hour A-100 Remote Control</a> works with <a rel="nofollow" class="external text" href="http://lirc.sourceforge.net/remotes/syabas/A-100">LIRC</a> 0.9.0 and Linux Kernel 2.6.32 on Ubuntu 10.04 or later.
+</li><li> Example #1 (works with <a rel="nofollow" class="external text" href="http://www.lirc.org/">LIRC</a> 0.9.0 and Linux Kernel 2.6.32 on Ubuntu 10.04)
+</li><li> Example #2 (works with <a rel="nofollow" class="external text" href="http://www.lirc.org/">LIRC</a> 0.9.0 and Linux Kernel 3.0 on Ubuntu 11.10)
+</li><li> Example #?
+</li></ol>
+<h2> <span class="mw-headline" id="Using_LIRC_with_Cubieboard2_.28A20_SoC.29">Using LIRC with Cubieboard2 (A20 SoC) </span></h2>
+<p>Most of the information above is useful, as well as the Troubleshooting section below. Here are the modifications and configurations required for LIRC to work on a Cubieboard2 (A20 SoC).
+</p>
+<ul><li> Using <b>Linux Cubian 3.4.79-sun7i</b>
+</li><li> LIRC kernel module here is <b>sunxi_ir</b> &gt; add it to <b>/etc/modules</b>
+</li><li> Create the <b>/etc/udev/rules.d/10-cb2ir.rules</b> file and add the rule:
+</li></ul>
+<pre>SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="sunxi-ir", SYMLINK+="input/cb2ir"
+</pre>
+<ul><li> <b>apt-get install lirc</b>
+</li><li> Create a new <b>/etc/lirc/hardware.conf</b> with just the following content:
+</li></ul>
+<pre># /etc/lirc/hardware.conf
+#
+START_LIRCMD=false
+START_IREXEC=false
+LOAD_MODULES=true
+DRIVER="devinput"
+DEVICE="/dev/input/cb2ir"
+START_LIRCD="true"
+</pre>
+<ul><li> Use <a rel="nofollow" class="external free" href="http://lirc.sourceforge.net/remotes/devinput/lircd.conf.devinput">http://lirc.sourceforge.net/remotes/devinput/lircd.conf.devinput</a> as /etc/lirc/lircd.conf (change it afterwards to suit your specific remote controller unit buttons)
+</li><li> After rebooting, the following is expected to happen: preloaded kernel module, input device successfully generated and the lirc service up and running.
+</li></ul>
+<pre><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="2a495f48434f6a695f48434b44">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:~$ lsmod|grep ir
+sunxi_ir                4045  0
+</pre>
+<pre><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="bcdfc9ded5d9fcffc9ded5ddd2">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:~$ ls -lh /dev/input/*ir
+lrwxrwxrwx 1 root root 6 Jul  8 10:56 /dev/input/cb2ir -&gt; event4
+</pre>
+<pre><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="abc8dec9c2ceebe8dec9c2cac5">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:~$ ps aux | grep [l]irc
+root      2340  0.0  0.0   3008   600&#160;?        Ss   10:56   0:00 /usr/sbin/lircd --driver=devinput --device=/dev/input/cb2ir
+</pre>
+<ul><li> Start irw and test with your remote. If it is a supported remote controller unit, it should start registering the events right away:
+</li></ul>
+<pre><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="630016010a06232016010a020d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>:~$ irw /dev/lircd 
+0000000080010012 00 KEY_E devinput
+000000008001000c 00 KEY_MINUS devinput
+0000000080010012 00 KEY_E devinput
+0000000080010017 00 KEY_I devinput
+0000000080010016 00 KEY_U devinput
+000000008001000c 00 KEY_MINUS devinput
+0000000080010001 00 KEY_ESC devinput
+000000008001001e 00 KEY_A devinput
+000000008001004f 00 KEY_KP1 devinput
+000000008001004b 00 KEY_KP4 devinput
+</pre>
+<p>If you're stuck, make sure it works using the Troubleshooting section and running lircd manually - and then transporting your working parameters to the <b>/etc/lirc/hardware.conf</b> file, for the service to work.
+</p>
+<h2> <span class="mw-headline" id="Troubleshooting">Troubleshooting</span></h2>
+<p>Some of the remote configuration files on sourceforge are seriously out of date. If <b>lircd</b> seems to be starting up, but none of the tools is getting any events, try running <b>lircd</b> manually:
+</p>
+<pre># /etc/init.d/lirc stop
+# /usr/sbin/lircd -n --output=/dev/lircd --driver=devinput --device=/dev/input/event1 &lt;suspect-config-file&gt;
+lircd-0.9.0[17422]: lircd(devinput) ready, using /dev/lircd
+</pre>
+<p>Now from another window, run <b>irw</b>:
+</p>
+<pre># irw /dev/lircd
+</pre>
+<p>You should see something like this from <b>lircd</b>:
+</p>
+<pre>lircd-0.9.0[17422]: accepted new client on /dev/lircd
+lircd-0.9.0[17422]: initializing '/dev/input/event1'
+</pre>
+<p>And when you press a button on the remote:
+</p>
+<pre>lircd-0.9.0[17422]: you are using an obsolete devinput config file: Success
+lircd-0.9.0[17422]: get the new version at <a rel="nofollow" class="external free" href="http://lirc.sourceforge.net/remotes/devinput/lircd.conf.devinput">http://lirc.sourceforge.net/remotes/devinput/lircd.conf.devinput</a>: Success
+</pre>
+<p>You'll have to get this new devinput file from sourceforge and use <b>irrecord</b> to create your own remote configuration file. Note that you can't just use an empty config file; <b>irrecord</b> appears to need some global values from the config file's header in order to capture the remote's signals.
+</p><p>The configuration files generated by <b>irrecord</b> also seem to have extra garbage at the end of the key codes. For example, this was generated from a Sound-Fly Bluetooth remote:
+</p>
+<pre>         KEY_UP                   0x01001200000001 0x000000BED7A9ED
+         KEY_DOWN                 0x01001100000001 0x000000BED7A9ED
+</pre>
+<p>The third field confused lircd, causing it to ignore these keys; removing the 0x000000BED7A9ED from each line fixed it. Not sure if these values are necessary under special conditions (they had to be removed from the .conf files of 5 different remotes to get them to work), though, so you should first try lircd with them and then remove them if it doesn't seem to be working.
+</p>
+<h3> <span class="mw-headline" id="adding_new_remote_.28tl.3Bdr_version.29">adding new remote (tl;dr version)</span></h3>
+<ul><li> essential fields in /etc/lirc/hardware.conf (event1 is an example, check other entries if it doesn't work)
+<ul><li> DRIVER="devinput"
+</li><li> DEVICE="/dev/input/event1"
+</li></ul>
+</li><li> learn the keys of the remote (to list the available standard keys do: irrecord -l)
+<ul><li> cd /tmp
+</li><li> wget -O newremote.conf <a rel="nofollow" class="external free" href="http://lirc.sourceforge.net/remotes/devinput/lircd.conf.devinput">http://lirc.sourceforge.net/remotes/devinput/lircd.conf.devinput</a>
+</li><li> irrecord -d /dev/input/event1 -H devinput newremote
+</li></ul>
+</li><li> if you were able to teach it new keys, just copy it onto default config:
+<ul><li> mv /etc/lircd.conf /etc/lircd.conf.old
+</li><li> mv newremote.conf /etc/lircd.conf
+</li></ul>
+</li><li> restart lircd and see if it can see your keys now:
+<ul><li> /etc/init.d/lirc restart
+</li><li> irw
+</li></ul>
+</li><li> if it doesn't work, check the troubleshooting above (remove third field from buttons in the config)
+</li></ul>
+<h3> <span class="mw-headline" id="adding_new_remote_in_mainline_.28tl.3Bdr_version.29">adding new remote in mainline (tl;dr version)</span></h3>
+<ul><li> essential fields in /etc/lirc/hardware.conf (event1 is an example, check other entries if it doesn't work: cat /proc/bus/input/devices|grep -A5 sunxi-ir|grep Handlers|grep -oE "event[0-9]+")
+<ul><li> # set protocol and keymap (lines like that in hardware.conf will get executed by shell)
+</li><li> /usr/bin/ir-keytable -c -p NEC -w /etc/rc_keymaps/my_remote
+</li><li> DRIVER="devinput"
+</li><li> DEVICE="/dev/input/event1"
+</li><li> MODULES="sunxi_cir"
+</li></ul>
+</li><li> create /etc/lircd.conf containing:
+<ul><li> include "/etc/lirc/lircd.conf.devinput"
+</li></ul>
+</li><li> get devinput table:
+<ul><li> wget -O /etc/lirc/lircd.conf.devinput <a rel="nofollow" class="external free" href="http://lirc.sourceforge.net/remotes/devinput/lircd.conf.devinput">http://lirc.sourceforge.net/remotes/devinput/lircd.conf.devinput</a>
+</li></ul>
+</li><li> create keys of the remote. you will have to press the keys and associate scancodes with KEY_XXX mappings.
+<ul><li> set rc protocol to nec (or anything else, cat the file for alternatives): echo nec &gt; /sys/class/rc/rc0/protocols
+</li><li> to get scancodes: ir-keytable -t
+</li><li> to get mapping names either: cat /etc/lirc/lircd.conf.devinput or irrecord -l
+</li><li> initialize your keytable: echo &gt;/etc/rc_keymaps/my_remote "# table my_remote, type: NEC"
+</li><li> add mappings to above file in the format: 0xSCANCODE KEY_XXX, fe: 0x00 KEY_POWER
+</li></ul>
+</li><li> when finished, restart lircd:
+<ul><li> /etc/init.d/lirc restart
+</li></ul>
+</li><li> check if it works:
+<ul><li> irw
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="See_Also">See Also</span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://wiki.xbmc.org/index.php?title=Remote">XBMC wiki articles with information about using remote controls in XBMC</a>
+<ul><li><a rel="nofollow" class="external text" href="http://wiki.xbmc.org/index.php?title=HOW-TO:Setup_Lirc">HOW-TO setup LIRC on Linux</a> - a guide on XBMC wiki that applies to all LIRC supporting applications
+</li><li><a rel="nofollow" class="external text" href="http://wiki.xbmc.org/index.php?title=Automatic_lirc_resume_script">Automatic LIRC resume script</a> - a guide on XBMC wiki that applies to all LIRC supporting applications
+</li><li><a rel="nofollow" class="external text" href="http://wiki.xbmc.org/index.php?title=Remote_Control_Reviews">Remote Control Reviews for XBMC usage</a>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul><li><a rel="nofollow" class="external text" href="http://www.lirc.org">LIRC - Linux Infrared Remote Control official homepage</a>
+<ul><li><a rel="nofollow" class="external text" href="http://lirc.sourceforge.net/remotes/">LIRC repository of lircd config files for known remote controls</a>
+</li></ul>
+</li><li><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/lirc/">SourceForge.net - LIRC project and source code</a>
+</li><li><a rel="nofollow" class="external text" href="http://linux.die.net/man/1/irrecord">irrecord - IR record remote control key recorder</a>
+</li><li><a rel="nofollow" class="external text" href="http://utils.kde.org/projects/kdelirc">KDELirc Homepage - KDELirc is a KDE frontend for the</a>
+</li></ul>
+<h2> <span class="mw-headline" id="References"> References </span></h2>
+<ol class="references"><li id="cite_note-cir-1"><span class="mw-cite-backlink"><a href="#cite_ref-cir_1-0">↑</a></span> <span class="reference-text">Consumer IR: <a class="external free" href="https://en.wikipedia.org/wiki/Consumer_IR">https://en.wikipedia.org/wiki/Consumer_IR</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">Infrared Data Association standard: <a class="external free" href="https://en.wikipedia.org/wiki/IrDA">https://en.wikipedia.org/wiki/IrDA</a></span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=LIRC&amp;oldid=16453">http://linux-sunxi.org/index.php?title=LIRC&amp;oldid=16453</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=LIRC&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=LIRC" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/LIRC" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:LIRC&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/LIRC">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=LIRC&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=LIRC&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/LIRC" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/LIRC" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=LIRC&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=LIRC&amp;oldid=16453" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 21 February 2016, at 22:21.</li>
+<li id="footer-info-viewcount">This page has been accessed 34,315 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

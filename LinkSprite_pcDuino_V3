@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>LinkSprite pcDuino3 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="canonical" href="/LinkSprite_pcDuino3"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"LinkSprite_pcDuino3","wgTitle":"LinkSprite pcDuino3","wgCurRevisionId":16614,"wgArticleId":1252,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Devices","A20 Boards","Devices with SATA port","Devices with Ethernet port","Devices with HDMI port","Mainline Kernel","Mainline U-Boot"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"LinkSprite_pcDuino3","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"LinkSprite_pcDuino_V3","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/LinkSprite_pcDuino3"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-LinkSprite_pcDuino3 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">LinkSprite pcDuino3</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub">(Redirected from <a href="/index.php?title=LinkSprite_pcDuino_V3&amp;redirect=no" title="LinkSprite pcDuino V3">LinkSprite pcDuino V3</a>)</div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">LinkSprite pcDuino3</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Pcd_v3_front.jpg" class="image"><img alt="Pcd v3 front.jpg" src="/images/thumb/9/99/Pcd_v3_front.jpg/250px-Pcd_v3_front.jpg" width="250" height="149"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.linksprite.com/">LinkSprite</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+125<i>mm</i> x 66<i>mm</i> x height<i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+April 2014</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.pcduino.com/pcduino-v3/">Device Product Page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A20" title="A20">A20</a> @ 1Ghz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+1GiB DDR3 @ 480MHz</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+4GB</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 2A (micro-USB)</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (Type A, full)</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5mm headphone plug, HDMI</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+WiFi 802.11bgn (Realtek RTL8188EUS), 10/100Mbps Ethernet (IC+ IP101A)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD, SATA</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+1 USB2.0 Host, 1 USB2.0 OTG</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+IR</td></tr>
+</table>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#HW-Pack"><span class="tocnumber">2.3</span> <span class="toctext">HW-Pack</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#BSP"><span class="tocnumber">2.4</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Manual_build"><span class="tocnumber">2.5</span> <span class="toctext">Manual build</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Mainline_kernel"><span class="tocnumber">2.6</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Expansion_headers"><span class="tocnumber">3.2</span> <span class="toctext">Expansion headers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Adding_a_serial_port"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Variants"><span class="tocnumber">6</span> <span class="toctext">Variants</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>On the back of the board, it helpfully reads "pcDuino Dual core".
+</p>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p>Supported.
+</p><p>There are even patches for <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto"> mainline</a> on the <a href="/Mailing_list" title="Mailing list">Mailing list</a>. These provide basic board support, along with USB and SATA.
+</p>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<h2> <span class="mw-headline" id="HW-Pack"> HW-Pack </span></h2>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<ul><li> For building u-boot, use the "pcduino3" target.
+</li><li> The .fex file can be found in sunxi-boards as <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/a20/linksprite_pcduino3.fex">linksprite_pcduino3.fex</a>
+</li></ul>
+<p>Everything else is the same as the <a href="/Manual_build_howto" title="Manual build howto">manual build howto</a>.
+</p>
+<h2> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h2>
+<p>Use the <i>sun7i-a20-pcduino3.dts</i> device-tree file for the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p><p>In order to make ethernet work for pcDuino3b, you will have to edit the device-tree file:
+simply copy <i>&amp;gmac{...}</i> section from <i>sun7i-a20-pcduino3<b>-nano</b>.dts</i> to <i>sun7i-a20-pcduino.dts</i>.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The UPGRADE/SW2 button triggers <a href="/FEL" title="FEL">FEL mode</a>.
+</p>
+<h2> <span class="mw-headline" id="Expansion_headers"> Expansion headers </span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:Pcduino3b-headers-front.png" class="image"><img alt="" src="/images/thumb/a/a6/Pcduino3b-headers-front.png/240px-Pcduino3b-headers-front.png" width="240" height="307" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Pcduino3b-headers-front.png" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>pcDuino3b headers</div></div></div>
+<p>SPI0 pins are wired to both: P7 and J8 pins. SPI0 clock is additionally wired to LED_CLK.
+</p>
+<div style="margin-right: 242px">
+<p><br/>
+</p>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> P3 (Debug Port)
+</caption>
+<tr>
+<th> Pin number </th>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> TX (Square Pad)</td>
+<td> <a href="/A20/PIO#PB23" title="A20/PIO">PB23</a>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> GND </td>
+<td>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> RX </td>
+<td> <a href="/A20/PIO#PB22" title="A20/PIO">PB22</a>
+</td></tr>
+</table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> P10
+</caption>
+<tr>
+<th> Pin number </th>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> GPIO14 </td>
+<td> <a href="/A20/PIO#PH11" title="A20/PIO">PH11</a>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> GPIO15 </td>
+<td> <a href="/A20/PIO#PH12" title="A20/PIO">PH12</a>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> GPIO16 </td>
+<td> <a href="/A20/PIO#PH13" title="A20/PIO">PH13</a>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> GPIO17 </td>
+<td> <a href="/A20/PIO#PH14" title="A20/PIO">PH14</a>
+</td></tr>
+</table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<tr>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<caption> LED
+</caption>
+<tr>
+<td> LED 1 - Power LED </td>
+<td>
+</td></tr>
+<tr>
+<td> LED 2 - Wifi LED </td>
+<td>
+</td></tr>
+<tr>
+<td> LED RX </td>
+<td><a href="/A20/PIO#PH15" title="A20/PIO">PH15</a>
+</td></tr>
+<tr>
+<td> LED RX </td>
+<td><a href="/A20/PIO#PH16" title="A20/PIO">PH16</a>
+</td></tr>
+<tr>
+<td> LED CLK / SPI0_CLK / GPIO13 </td>
+<td> <a href="/A20/PIO#PI11" title="A20/PIO">PI11</a>
+</td></tr>
+</table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> SW
+</caption>
+<tr>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> SW1 - Reset</td>
+<td>
+</td></tr>
+<tr>
+<td> SW2 - Upgrade </td>
+<td> <a href="/FEL" title="FEL">FEL mode</a>
+</td></tr>
+<tr>
+<td> SW3 - BACK </td>
+<td> <a href="/A20/PIO#PH17" title="A20/PIO">PH17</a>
+</td></tr>
+<tr>
+<td> SW4 - HOME </td>
+<td> <a href="/A20/PIO#PH18" title="A20/PIO">PH18</a>
+</td></tr>
+<tr>
+<td> SW5 - MENU </td>
+<td> <a href="/A20/PIO#PH19" title="A20/PIO">PH19</a>
+</td></tr>
+</table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> P6
+</caption>
+<tr>
+<th> Pin number </th>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> SPI1_MISO / GPIO12 </td>
+<td> <a href="/A20/PIO#PC22" title="A20/PIO">PC22</a>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> +5V DC / SPI1 GPIO20 / GPIO20 </td>
+<td> <a href="/A20/PIO#PC19" title="A20/PIO">PC19</a>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> SPI1_CLK / GPIO13 </td>
+<td> <a href="/A20/PIO#PC20" title="A20/PIO">PC20</a>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> SPI1_MOSI / GPIO11 / PWM11 </td>
+<td> <a href="/A20/PIO#PC21" title="A20/PIO">PC21</a>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> RESET </td>
+<td>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> GND </td>
+<td>
+</td></tr>
+</table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> P7
+</caption>
+<tr>
+<th> Pin number </th>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> SPI0_MISO / GPIO12 </td>
+<td> <a href="/A20/PIO#PI13" title="A20/PIO">PI13</a>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> +5V DC </td>
+<td>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> SPI0_CLK / GPIO13 </td>
+<td> <a href="/A20/PIO#PI11" title="A20/PIO">PI11</a>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> SPI0_MOSI / GPIO11 / PWM11 </td>
+<td> <a href="/A20/PIO#PI12" title="A20/PIO">PI12</a>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> RESET </td>
+<td>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> GND </td>
+<td>
+</td></tr>
+</table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> J12
+</caption>
+<tr>
+<th> Pin number </th>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> A0 </td>
+<td>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> A1 </td>
+<td>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> A2 </td>
+<td>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> A3 </td>
+<td>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> A4 </td>
+<td>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> A5 </td>
+<td>
+</td></tr></table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> J11
+</caption>
+<tr>
+<th> Pin number </th>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> GPIO0 / UART2_RX </td>
+<td> <a href="/A20/PIO#PI19" title="A20/PIO">PI19</a>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> GPIO1 / UART2_TX </td>
+<td> <a href="/A20/PIO#PI18" title="A20/PIO">PI18</a>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> GPIO2 </td>
+<td> <a href="/A20/PIO#PH7" title="A20/PIO">PH7</a>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> GPIO3 / PWM3 </td>
+<td> <a href="/A20/PIO#PH6" title="A20/PIO">PH6</a>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> GPIO4 </td>
+<td> <a href="/A20/PIO#PH8" title="A20/PIO">PH8</a>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> GPIO5 / PWM5 </td>
+<td> <a href="/A20/PIO#PB2" title="A20/PIO">PB2</a>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> GPIO6 / PWM6 </td>
+<td> <a href="/A20/PIO#PI3" title="A20/PIO">PI3</a>
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> GPIO7 </td>
+<td> <a href="/A20/PIO#PH9" title="A20/PIO">PH9</a>
+</td></tr></table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> J9
+</caption>
+<tr>
+<th> Pin number </th>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> not connected </td>
+<td>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> IOREF </td>
+<td>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> RESET </td>
+<td>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> 3.3V DC output </td>
+<td>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> 5V DC output </td>
+<td>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> GND </td>
+<td>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> GND </td>
+<td>
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> +5V in </td>
+<td>
+</td></tr></table>
+<table class="wikitable" style="width:auto; float: left; white-space: nowrap; margin: 1em;">
+<caption> J8
+</caption>
+<tr>
+<th> Pin number </th>
+<th> pcDuino name </th>
+<th> Sunxi name
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> GPIO8 </td>
+<td> <a href="/A20/PIO#PH10" title="A20/PIO">PH10</a>
+</td></tr>
+<tr>
+<td> 2 </td>
+<td> GPIO9 / PWM9 </td>
+<td> <a href="/A20/PIO#PH5" title="A20/PIO">PH5</a>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> SPI0_SS / GPIO10 / PWM10 </td>
+<td> <a href="/A20/PIO#PI10" title="A20/PIO">PI10</a>
+</td></tr>
+<tr>
+<td> 4 </td>
+<td> SPI0_MOSI / GPIO11 / PWM11 </td>
+<td> <a href="/A20/PIO#PI12" title="A20/PIO">PI12</a>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> SPI0_MISO / GPIO12 </td>
+<td> <a href="/A20/PIO#PI13" title="A20/PIO">PI13</a>
+</td></tr>
+<tr>
+<td> 6 </td>
+<td> SPI0_CLK / GPIO13 </td>
+<td> <a href="/A20/PIO#PI11" title="A20/PIO">PI11</a>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> GND </td>
+<td>
+</td></tr>
+<tr>
+<td> 8 </td>
+<td> AREF </td>
+<td>
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> TWI2_SDA </td>
+<td> <a href="/A20/PIO#PB21" title="A20/PIO">PB21</a>
+</td></tr>
+<tr>
+<td> 10 </td>
+<td> TWI2_SCL </td>
+<td> <a href="/A20/PIO#PB20" title="A20/PIO">PB20</a>
+</td></tr>
+</table>
+</div>
+<div style="clear: both;"></div>
+<h1> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:Pcd3_uart.jpg" class="image"><img alt="" src="/images/thumb/a/a2/Pcd3_uart.jpg/240px-Pcd3_uart.jpg" width="240" height="129" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Pcd3_uart.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART pads</div></div></div>
+<p>There is a 3pin 2.54mm pitch header near the wifi module, called "UART_0" (P3 - Debug Port). All you have to do is attach some jumper wires according to our <a href="/UART" title="UART">UART howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:39px auto;"><a href="/File:Pcd_v3_front.jpg" class="image"><img alt="Pcd v3 front.jpg" src="/images/thumb/9/99/Pcd_v3_front.jpg/120px-Pcd_v3_front.jpg" width="120" height="72"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:40.5px auto;"><a href="/File:Pcd_v3_back.jpg" class="image"><img alt="Pcd v3 back.jpg" src="/images/thumb/9/9a/Pcd_v3_back.jpg/120px-Pcd_v3_back.jpg" width="120" height="69"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Variants"> Variants </span></h1>
+<p>At some point in 2015, Linksprite started selling an updated variant of the pcDuino V3 called pcDuino v3<i>B</i> (or pcDuino3B). Compared to the original board, v3B updated the ethernet connection to Gigabit Ethernet. Other than that, the board layout stayed the same.
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/LinkSprite_pcDuino" title="LinkSprite pcDuino">LinkSprite pcDuino</a>
+</li><li> <a href="/LinkSprite_pcDuino2" title="LinkSprite pcDuino2">LinkSprite pcDuino2</a>
+</li><li> <a href="/LinkSprite_pcDuino3_Nano" title="LinkSprite pcDuino3 Nano">LinkSprite pcDuino3 Nano</a>
+</li><li> <a rel="nofollow" class="external text" href="https://s3.amazonaws.com/pcduino/Hardware/v3/PCDUINO3.pdf">Board schematic.</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=LinkSprite_pcDuino3&amp;oldid=16614">http://linux-sunxi.org/index.php?title=LinkSprite_pcDuino3&amp;oldid=16614</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A20_Boards" title="Category:A20 Boards">A20 Boards</a></li><li><a href="/Category:Devices_with_SATA_port" title="Category:Devices with SATA port">Devices with SATA port</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li><li><a href="/Category:Mainline_Kernel" title="Category:Mainline Kernel">Mainline Kernel</a></li><li><a href="/Category:Mainline_U-Boot" title="Category:Mainline U-Boot">Mainline U-Boot</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=LinkSprite+pcDuino+V3&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=LinkSprite+pcDuino+V3" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/LinkSprite_pcDuino3" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:LinkSprite_pcDuino3&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/LinkSprite_pcDuino3">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=LinkSprite_pcDuino3&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=LinkSprite_pcDuino3&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/LinkSprite_pcDuino3" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/LinkSprite_pcDuino3" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=LinkSprite_pcDuino3&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=LinkSprite_pcDuino3&amp;oldid=16614" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 19 March 2016, at 15:08.</li>
+<li id="footer-info-viewcount">This page has been accessed 12,149 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

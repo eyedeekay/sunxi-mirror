@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Boot Android from SdCard - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Boot_Android_from_SdCard","wgTitle":"Boot Android from SdCard","wgCurRevisionId":16503,"wgArticleId":548,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Android"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Boot_Android_from_SdCard","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Boot_Android_from_SdCard"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Boot_Android_from_SdCard skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Boot Android from SdCard</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#How_to_create_bootable_Android_SdCard"><span class="tocnumber">1</span> <span class="toctext">How to create bootable Android SdCard</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Extract_file_from_Android_Image"><span class="tocnumber">1.1</span> <span class="toctext">Extract file from Android Image</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#Extract_Kernel_and_Ramdisk"><span class="tocnumber">1.1.1</span> <span class="toctext">Extract Kernel and Ramdisk</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#Extract_system_image:"><span class="tocnumber">1.1.2</span> <span class="toctext">Extract system image:</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Extract_recovery_image:"><span class="tocnumber">1.1.3</span> <span class="toctext">Extract recovery image:</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Decompress_the_ramdisk_data:"><span class="tocnumber">1.1.4</span> <span class="toctext">Decompress the ramdisk data:</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#SD_card_Partition"><span class="tocnumber">1.2</span> <span class="toctext">SD card Partition</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#Format"><span class="tocnumber">1.2.1</span> <span class="toctext">Format</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="#BootLoader"><span class="tocnumber">1.3</span> <span class="toctext">BootLoader</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Copy_to_SD_card"><span class="tocnumber">1.4</span> <span class="toctext">Copy to SD card</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Automated_Flash_Kitchen"><span class="tocnumber">2</span> <span class="toctext">Automated Flash Kitchen</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Requirements"><span class="tocnumber">2.1</span> <span class="toctext">Requirements</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Enhancements"><span class="tocnumber">2.2</span> <span class="toctext">Enhancements</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#General_information"><span class="tocnumber">2.3</span> <span class="toctext">General information</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Pre-built_A10_SDcard_images"><span class="tocnumber">3</span> <span class="toctext">Pre-built A10 SDcard images</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="How_to_create_bootable_Android_SdCard"> How to create bootable Android SdCard </span></h2>
+<p>First extract needed files from an android image , You will need awutils and android tools.
+</p>
+<pre>  $ wget <a class="external free" href="http://dl.linux-sunxi.org/users/arete74/tools.tar.gz">http://dl.linux-sunxi.org/users/arete74/tools.tar.gz</a>
+  $ tar -zxvf tools.tar.gz
+</pre>
+<p><a href="/Awutils" title="Awutils">AWUtils</a>
+</p>
+<pre>  $ git clone <a class="external free" href="https://github.com/Ithamar/awutils.git">https://github.com/Ithamar/awutils.git</a>
+  $ cd awutils
+  $ make
+</pre>
+<h3> <span class="mw-headline" id="Extract_file_from_Android_Image"> Extract file from Android Image </span></h3>
+<p>Resources for Cubieboard A10:
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="http://docs.cubieboard.org/tutorials/cb1/installation/cubieboard_android-4.0.x_release">http://docs.cubieboard.org/tutorials/cb1/installation/cubieboard_android-4.0.x_release</a>
+</li><li> <a rel="nofollow" class="external free" href="http://dl.cubieboard.org/model/cubieboard1/Image/android/">http://dl.cubieboard.org/model/cubieboard1/Image/android/</a>
+</li></ul>
+<p>In this guide the name of the Android Image is android.img
+</p>
+<pre>  $ awimage -u android.img
+</pre>
+<p>This command creates a folder called android.dump which will contain many files.
+The three following files are the ones we are interested in:
+</p><p><b>RFSFAT16_BOOT_00000000000</b> (the boot partition)
+</p><p><b>RFSFAT16_RECOVERY_0000000</b> (the recovery partition)
+</p><p><b>RFSFAT16_SYSTEM_000000000</b> (the system partition, ext4 sparse)
+</p><p><b>RFSFAT16_BOOTLOADER_00000</b> (the bootloader partition)
+</p><p>For simplicity rename:
+</p>
+<pre>cp android.img.dump/RFSFAT16_BOOT_00000000000 ../boot.img
+cp android.img.dump/RFSFAT16_RECOVERY_0000000 ../recovery.img
+cp android.img.dump/RFSFAT16_SYSTEM_000000000 ../system.img
+cp android.img.dump/RFSFAT16_BOOTLOADER_00000 ../bootloader.img
+cd ..
+</pre>
+<h4> <span class="mw-headline" id="Extract_Kernel_and_Ramdisk"> Extract Kernel and Ramdisk </span></h4>
+<p>Extract the kernel and boot RAM disk as follows:
+</p>
+<pre>  $ ./tools/split_bootimg.pl boot.img
+  Page size: 2048 (0x00000800)
+  Kernel size: 4215036 (0x004050fc)
+  Ramdisk size: 974998 (0x000ee096)
+  Second size: 0 (0x00000000)
+  Board name:
+  Command line: console=ttyS0,115200 rw init=/init loglevel=5
+  Writing boot.img-kernel ... complete.
+  Writing boot.img-ramdisk.gz ... complete.
+</pre>
+<p>Decompress the ramdisk data:
+</p>
+<pre>  $ mkdir boot
+  $ cd boot 
+  $ gunzip -c ../boot.img-ramdisk.gz | cpio -i
+  $ tar -cpvf ../boot.tar *
+  $ cd ..
+</pre>
+<p>Convert <b>kernel</b> to <b>uImage</b>:
+</p>
+<pre>  $ mkimage -A arm -O linux -T kernel -C none -a 0x40008000 -e 0x40008000 -n "Linux 2.6" -d boot.img-kernel uImage
+</pre>
+<h4> <span class="mw-headline" id="Extract_system_image:"> Extract system image: </span></h4>
+<pre>  $ ./tools/simg2img system.img system1.img
+  $ mkdir system
+  $ mount -o loop system1.img system
+  $ cd system
+  $ tar -cpvf ../system.tar *
+  $ cd ..
+  $ umount system
+</pre>
+<h4> <span class="mw-headline" id="Extract_recovery_image:"> Extract recovery image: </span></h4>
+<pre>   $ ./tools/split_bootimg.pl recovery.img
+  Page size: 2048 (0x00000800)
+  Kernel size: 4215036 (0x004050fc)
+  Ramdisk size: 974998 (0x000ee096)
+  Second size: 0 (0x00000000)
+  Board name:
+  Command line: console=ttyS0,115200 rw init=/init loglevel=5
+  Writing recovery.img-kernel ... complete.
+  Writing recovery.img-ramdisk.gz ... complete.
+</pre>
+<h4> <span class="mw-headline" id="Decompress_the_ramdisk_data:"> Decompress the ramdisk data: </span></h4>
+<pre>  $ mkdir recovery
+  $ cd recovery
+  $ gunzip -c ../recovery.img-ramdisk.gz | cpio -i
+  $ tar -cpvf ../recovery.tar *
+  $ cd ..
+</pre>
+<h3> <span class="mw-headline" id="SD_card_Partition"> SD card Partition </span></h3>
+<p>Partitions description:
+</p><p>WARNING: At the start we need a 17 MB unallocated partition, required for flash sunxi-spl and u-boot.bin without corrupting the SD.
+</p>
+<table class="wikitable">
+<tr>
+<th> partition
+</th>
+<th> Size
+</th>
+<th> Name
+</th>
+<th> Fs
+</th>
+<th> Description
+</th></tr>
+<tr>
+<td> /dev/sdc1
+</td>
+<td> 16MiB
+</td>
+<td> bootloader
+</td>
+<td> VFAT
+</td>
+<td> Files to assist the bootloader.
+</td></tr>
+<tr>
+<td> /dev/sdc2
+</td>
+<td> 36MiB
+</td>
+<td> boot
+</td>
+<td> EXT4
+</td>
+<td> ramdisk
+</td></tr>
+<tr>
+<td> /dev/sdc3
+</td>
+<td> 500 MiB
+</td>
+<td> system
+</td>
+<td> EXT4
+</td>
+<td> Android's /system partition
+</td></tr>
+<tr>
+<td> /dev/sdc4
+</td>
+<td> Fill all space
+</td>
+<td> extend
+</td>
+<td> Extend Partition
+</td></tr>
+<tr>
+<td> /dev/sdc5
+</td>
+<td> 300MiB
+</td>
+<td> data
+</td>
+<td> EXT4
+</td>
+<td>
+</td></tr>
+<tr>
+<td> /dev/sdc6
+</td>
+<td> 16 MiB
+</td>
+<td> misc
+</td>
+<td> EXT4
+</td>
+<td>
+</td></tr>
+<tr>
+<td> /dev/sdc7
+</td>
+<td> 36 Mib
+</td>
+<td> recovery
+</td>
+<td> EXT4
+</td>
+<td> Android's recovery partition
+</td></tr>
+<tr>
+<td> /dev/sdc8
+</td>
+<td> 125 MiB
+</td>
+<td> cache
+</td>
+<td> EXT4
+</td>
+<td>
+</td></tr>
+<tr>
+<td> /dev/sdc9
+</td>
+<td> 16 MiB
+</td>
+<td> private
+</td>
+<td> EXT4
+</td>
+<td>
+</td></tr>
+<tr>
+<td> /dev/sdc10
+</td>
+<td> 1-2 GiB
+</td>
+<td> UDISK
+</td>
+<td> VFAT
+</td>
+<td>
+</td></tr>
+</table>
+<p><br/>
+Now, identify the device of the card and export it as <tt>$card</tt>:
+</p>
+<pre>card=/dev/XXX (XXX should be replaced with the name of your device, eg. sdc or mmcblk0)
+</pre>
+<p>Since /dev/mmcblk0 partitions are named like mmcblk0p1, let's define a prefix:
+</p>
+<pre>cardp=/dev/sdX
+</pre>
+<p>or:
+</p>
+<pre>cardp=/dev/mmcblkXp
+</pre>
+<pre>dd if=/dev/zero of=$card bs=1M count=1
+blockdev --rereadpt $card
+</pre>
+<p>When using sfdisk from an util-linux &lt; 2.26:
+</p>
+<pre>cat &lt;&lt;EOT | sfdisk --in-order -uM $card
+17,16,c
+,36,83
+,500,83
+,,5
+,300,83
+,16,83
+,36,83
+,125,83
+,16,83
+,,83
+EOT
+</pre>
+<p>Since util-linux 2.26 sfdisk has changed much, use:
+</p>
+<pre>cat &lt;&lt;EOT | sfdisk $card
+start=17MiB,size=16MiB,type=c
+start=33MiB,size=36MiB,type=83
+start=69MiB,size=500MiB,type=83
+start=596MiB,type=5
+size=300MiB,type=83
+size=16MiB,type=83
+size=36MiB,type=83
+size=125MiB,type=83
+size=16MiB,type=83
+type=83
+EOT
+</pre>
+<h4> <span class="mw-headline" id="Format"> Format </span></h4>
+<pre>mkfs.vfat -n bootloader ${cardp}1
+mkfs.ext4 -L boot       ${cardp}2
+mkfs.ext4 -L system     ${cardp}3
+mkfs.ext4 -L data       ${cardp}5
+mkfs.ext4 -L misc       ${cardp}6
+mkfs.ext4 -L recovery   ${cardp}7
+mkfs.ext4 -L cache      ${cardp}8
+mkfs.ext4 -L private    ${cardp}9
+mkfs.vfat -n UDISK      ${cardp}10
+</pre>
+<p>remove huge_file option from EXT4 fs (android kernel not have this option!!!)
+</p>
+<pre>tune2fs -O ^huge_file ${cardp}2
+tune2fs -O ^huge_file ${cardp}3
+tune2fs -O ^huge_file ${cardp}5
+tune2fs -O ^huge_file ${cardp}6
+tune2fs -O ^huge_file ${cardp}7
+tune2fs -O ^huge_file ${cardp}8
+tune2fs -O ^huge_file ${cardp}9
+</pre>
+<h3> <span class="mw-headline" id="BootLoader"> BootLoader </span></h3>
+<p>For SD card booting you can try one of these pair of files from <a href="/Miniand_Hackberry" title="Miniand Hackberry">Hackberry</a>:
+</p>
+<ul><li> <b>1GB:</b> <a rel="nofollow" class="external text" href="http://dl.miniand.com/jas-hacks/uboot/1gb/sunxi-spl.bin">sunxi-spl.bin</a> <a rel="nofollow" class="external text" href="http://dl.miniand.com/jas-hacks/uboot/1gb/u-boot.bin">u-boot.bin</a>
+</li><li> <b>512MB:</b> <a rel="nofollow" class="external text" href="http://dl.miniand.com/jas-hacks/uboot/512mb/sunxi-spl.bin">sunxi-spl.bin</a> <a rel="nofollow" class="external text" href="http://dl.miniand.com/jas-hacks/uboot/512mb/u-boot.bin">u-boot.bin</a>
+</li></ul>
+<pre>dd if=spl/sunxi-spl.bin of=$card bs=1024 seek=8
+dd if=u-boot.bin of=$card bs=1024 seek=32
+</pre>
+<p><b>Note:</b> The above will not work for the Cubieboard A10, you can try the images below or compile u-boot your self.
+</p><p><big><b>For Cubieboard A10:</b></big>
+</p><p>If you are in a pinch, you can try the files below, but it is recommended if you can that you compile them your self:
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/u-boot.img">u-boot.img</a>
+</li><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/sunxi-spl.bin">sunxi-spl.bin</a>
+</li><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/u-boot-sunxi-with-spl.bin">u-boot-sunxi-with-spl.bin</a>
+</li></ul>
+<pre>git clone <a class="external free" href="https://github.com/linux-sunxi/u-boot-sunxi.git">https://github.com/linux-sunxi/u-boot-sunxi.git</a>
+make cubieboard_config
+make
+</pre>
+<p><b>Note:</b> It is recommended for best results that you compile it if you can on the device you plan to use it on.
+</p><p>For cross compilation:
+</p>
+<pre>git clone <a class="external free" href="https://github.com/linux-sunxi/u-boot-sunxi.git">https://github.com/linux-sunxi/u-boot-sunxi.git</a>
+make cubieboard_config CROSS_COMPILE=arm-linux-gnueabihf-
+</pre>
+<p>Next, install your new u-boot on your sdcard:
+</p>
+<pre>dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8
+</pre>
+<p>or if you prefer to install the components separately:
+</p>
+<pre>dd if=spl/sunxi-spl.bin of=/dev/sdX bs=1024 seek=8
+dd if=u-boot.img of=/dev/sdX bs=1024 seek=40
+</pre>
+<p>If you have issues at boot time you will find that setting up debug serial console will help a lot to find your issue.
+</p><p><b>Reference:</b> <a class="external free" href="https://github.com/linux-sunxi/u-boot-sunxi/wiki">https://github.com/linux-sunxi/u-boot-sunxi/wiki</a>
+</p>
+<h3> <span class="mw-headline" id="Copy_to_SD_card"> Copy to SD card </span></h3>
+<pre>mkdir bootloader
+mount -o loop bootloader.img bootloader
+</pre>
+<p>Copy files to bootloader partition:
+</p>
+<pre>mount ${card}1 /mnt/
+cp uImage  /mnt
+cp bootloader/script.bin /mnt
+
+cat &gt;/mnt/uEnv.txt &lt;&lt; EOT
+fexfile=script.bin
+kernel=uImage
+extraargs=root=/dev/mmcblk0p2 loglevel=8 rootwait console=ttyS0,115200 rw init=/init mac_addr=00:AE:99:A3:E4:AF
+boot_mmc=fatload mmc 0 0x43000000 ${fexfile}; fatload mmc 0 0x48000000 ${kernel}; bootm 0x48000000
+EOT
+</pre>
+<p>Recovery uEnv.txt
+</p>
+<pre>cat &gt;/mnt/uEnv_recovery.txt &lt;&lt; EOT
+fexfile=script.bin
+kernel=uImage
+extraargs=root=/dev/mmcblk0p7 loglevel=8 rootwait console=ttyS0,115200 rw init=/init mac_addr=00:AE:99:A3:E4:AF
+boot_mmc=fatload mmc 0 0x43000000 ${fexfile}; fatload mmc 0 0x48000000 ${kernel}; bootm 0x48000000
+EOT
+
+umount /mnt
+umount bootloader
+</pre>
+<p>Copy data to Ramdisk partition:
+</p>
+<pre>mount ${card}2 /mnt
+tar -xpvf boot.tar -C /mnt
+</pre>
+<p><b>Note:</b> If you would like to add additional Wifi drivers, you can actually do that here.
+<a rel="nofollow" class="external text" href="http://taqlim.blogspot.com/2013/06/belkin-f7d1101-wireless-usb-on-android.html">This</a> reference will help you get the idea of what needs to be done to include additional Wifi modules for android.
+</p><p>This page also includes the kernel modules for r8712u and directions on how to compile and add your own Wifi modules.
+</p><p>Modify the name partition in init.sun4i.rc
+</p>
+<pre>sed -i "s/nandd/mmcblk0p3/g"  /mnt/init.sun4i.rc
+sed -i "s/nande/mmcblk0p5/g"  /mnt/init.sun4i.rc
+sed -i "s/nandh/mmcblk0p8/g"  /mnt/init.sun4i.rc
+sed -i "s/nandi/mmcblk0p10/g" /mnt/init.sun4i.rc
+umount /mnt
+</pre>
+<p>Copy data to system partition:
+</p>
+<pre>mount ${card}3 /mnt
+tar -xpvf system.tar -C /mnt
+umount /mnt
+</pre>
+<p>Copy data to recovery partition:
+</p>
+<pre>mount ${card}7 /mnt
+tar -xpvf recovery.tar -C /mnt
+sed -i "s/nandf/mmcblk0p6/g"  /mnt/ueventd.sun4i.rc
+umount /mnt
+sync
+</pre>
+<p>Now you can boot Android from SD card.
+</p>
+<h2> <span class="mw-headline" id="Automated_Flash_Kitchen"> Automated Flash Kitchen </span></h2>
+<p>Thierry Merle has assembled a Flash Kitchen originally for the Mele A2000 but it also works for other A10 devices.
+</p><p>Download v2 from here: <a rel="nofollow" class="external free" href="http://tmerle.blogspot.fr/2012/09/mele-a2000-my-own-linux-flash-kitchen.html">http://tmerle.blogspot.fr/2012/09/mele-a2000-my-own-linux-flash-kitchen.html</a>
+</p><p>After having put the original.img file (PhoenixCard source image), run "make build_sdcard" as root and it should create everything needed to generate the SD card boot files in sdcard/.
+</p><p>Then, you will have to 'cd sdcard/', then run 'make DEV=/dev/sdX' (where X is the device letter of your SD card).
+</p>
+<h3> <span class="mw-headline" id="Requirements"> Requirements </span></h3>
+<p>Wine - in order to extract/build the flash image (look below for enhancements).
+</p><p>Root access for scripts other than img_1extract.sh/img_2build.sh.
+</p><p>The script will create /system in your <a rel="nofollow" class="external text" href="http://www.coolmuster.com/android/how-to-root-android-device.html">root</a> directory. This is necessary if you make symbolic links in "system" filesystem.
+</p><p>Of course, you need an original image (that you will rename as original.img) to start hacking.
+</p>
+<h3> <span class="mw-headline" id="Enhancements"> Enhancements </span></h3>
+<ul><li> If you don't have Wine you can use Ithamar's awutils <a class="external autonumber" href="https://github.com/Ithamar/awutils">[1]</a> in img_1extract.sh instead of unimg.exe. You can find more info in <a href="/Awutils" title="Awutils">Awutils</a>.
+</li></ul>
+<ul><li> Here's abootimg statically linked and stripped for i386 and amd64: <a rel="nofollow" class="external free" href="https://www.dropbox.com/s/xbe2u7ai6aqaob1/abootimg_i386+amd64_statically_linked+stripped.tar.xz">https://www.dropbox.com/s/xbe2u7ai6aqaob1/abootimg_i386+amd64_statically_linked+stripped.tar.xz</a>
+</li></ul>
+<p>i386 is untested natively so to be sure also included are the static libraries libblkid.a and libuuid.a and you might need blkid.h
+</p><p>Change the LDLIBS line in the Makefile as follows:
+</p>
+<pre>LDLIBS=-static -lblkid -luuid -L.
+</pre>
+<ul><li> #!/bin/bash and function function_name() work better together in mkA10card.sh
+</li></ul>
+<ul><li> "partition ends on cylinder 1023, beyond the end of the disk"
+</li></ul>
+<p>You have to make some adjustments to partitions.txt. It's for a 16 GB <a rel="nofollow" class="external text" href="http://www.android-mobile-manager.com/android-mobile-recovery.html">SD card</a> and so <a rel="nofollow" class="external text" href="http://www.androidphonesoft.com/resources/recover-deleted-files-from-android-sd-card.html">Disk Utility</a> will show something like Capacity: 18446744 TB (-8,198,815,744 bytes). So you have to calculate partitions.txt yourself.
+</p>
+<h3> <span class="mw-headline" id="General_information"> General information </span></h3>
+<ul><li> When make fails and you want to run it again:
+</li></ul>
+<pre>tar: .: Cannot change ownership to uid 1000, gid 1000: Operation not permitted"
+</pre>
+<p>FAT does not allow UID, GID and symlinks. You have to <a rel="nofollow" class="external text" href="http://www.samsung-messages-backup.com/resources/astro-file-manager-alternative.html">copy the files</a> manually.
+</p>
+<h2> <span class="mw-headline" id="Pre-built_A10_SDcard_images"> Pre-built A10 SDcard images </span></h2>
+<p>As an assist here, I have created a few <b>8GB</b> SDcard images for Android on the Cubieboard A10 (<b>Use at your own risk, they are to be considered developmental images</b>):
+</p><p>Images based on Android TV 1.0 NAND image:
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/android.cubieboard.a10.512mb.8gbsd.img.7z">For Cubieboard A10 w/ 512MB Ram - Image</a>
+</li><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/android.cubieboard.a10.512mb.8gbsd.img.md5">For Cubieboard A10 w/ 512MB Ram - MD5 for Image</a>
+</li><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/android.cubieboard.a10.1024mb.8gbsd.img.7z">For Cubieboard A10 w/ 1024MB Ram - Image</a>
+</li><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/android.cubieboard.a10.1024mb.8gbsd.img.md5">For Cubieboard A10 w/ 1024MB Ram - MD5 for Image</a>
+</li></ul>
+<p>Image based on Android TV 2.2 (8192cu WiFi chipset) NAND image:
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/android.cubieboard.a10.1024mb.8gbsd.TV.2.2.img.7z">For Cubieboard A10 w/ 1024MB Ram - Image</a>
+</li><li> <a rel="nofollow" class="external text" href="http://dl.extremehosting.us/cubieboard/android.cubieboard.a10.1024mb.8gbsd.TV.2.2.img.md5">For Cubieboard A10 w/ 1024MB Ram - MD5 for Image</a>
+</li></ul>
+<p>To install use <code>dd</code> in Linux or Win32DiskImager in Windows to write the image to your SDcard.
+</p>
+<dl><dt> Notes about the above images</dt><dd>
+</dd></dl>
+<ul><li> The 512Mb image above is based on the A10-OLinuXino-LIME Android image located <a rel="nofollow" class="external text" href="https://www.olimex.com/wiki/A10-OLinuXino-LIME#Android">here.</a> but uses the system, boot and recovery from the linux-sunxi Android TV 1.0 image and uses the Olimex u-boot image and kernel.
+</li><li> If you want, the Olimex image will run on the Cubieboard A10, however, as Olimex never released an A10 board with 1GB ram, the image's u-boot only supports up to 512Mb of memory.
+</li><li> If you boot and use the 512mb image you will be limited to 512Mb ram in Android (Keep in mind that the GPU gets assigned memory as well so with this image you have roughly 306Mb of usable memory).
+</li><li> All other images have a custom compiled u-boot that was compiled using the directions below on a Cubieboard A10 running Debian Server.
+</li><li> These images do have some apps already installed and do not come in a factory reset state. I took the liberty to install Bubbleupnp, Mxplayer, Chrome, Firefox and a few other goodies that you may find useful.
+</li><li> If you do not care for the already installed apps, simply do a factory reset your self on first boot.
+</li><li> Since you will be booting from the SDcard, you will obviously not have an SDcard available to leverage for downloads. Some apps will give errors when trying to download files as there is no 'SDcard' present.
+</li><li> To help with not having an SDcard available, I have left you quite a large internal storage partition, so you shouldn't have issues with installing any needed apps.
+</li><li> Some wifi adapters may be compatible with these images, but I am not sure which are included in the Olimex kernel. The TV 2.2 images includes the chipsets noted.
+</li><li> Some SDcards are really slow! The slower your card the longer it will take to boot and the more laggy things will seem. I recommend a Class 10 card for best performance (Class 4 will work, but will be slow).
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Boot_Android_from_SdCard&amp;oldid=16503">http://linux-sunxi.org/index.php?title=Boot_Android_from_SdCard&amp;oldid=16503</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Android" title="Category:Android">Android</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Boot+Android+from+SdCard&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Boot+Android+from+SdCard" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Boot_Android_from_SdCard" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Boot_Android_from_SdCard&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Boot_Android_from_SdCard">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Boot_Android_from_SdCard&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Boot_Android_from_SdCard&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Boot_Android_from_SdCard" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Boot_Android_from_SdCard" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Boot_Android_from_SdCard&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Boot_Android_from_SdCard&amp;oldid=16503" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 1 March 2016, at 14:39.</li>
+<li id="footer-info-viewcount">This page has been accessed 123,267 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

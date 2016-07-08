@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Coreboot - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Coreboot","wgTitle":"Coreboot","wgCurRevisionId":9471,"wgArticleId":1022,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Coreboot","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Coreboot"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Coreboot skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Coreboot</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>This page is to be considered DUSTY due to CONSTRUCTION.
+</p><p>It is possible to bring up a limited number of board (currently, only cubieboard) using coreboot with a uboot payload.
+Please see <a rel="nofollow" class="external text" href="http://www.coreboot.org/Board:cubietech/cubieboard">coreboot instructions</a> for more details.
+</p>
+<h2> <span class="mw-headline" id="Hacks.27n.27tips"> Hacks'n'tips </span></h2>
+<h3> <span class="mw-headline" id="Using_coreboot_for_NAND_access"> Using coreboot for NAND access </span></h3>
+<p>coreboot (mrnuke's github branch) operates from MMC. It can load any uboot elf file included as the coreboot payload. This means that besides the regulat sunxi uboot, it can also load the non-SPL part of the lichee uboot.
+</p><p>From a checkout of sunxi/uboot do:
+</p>
+<pre>$ git checkout origin/lichee-dev -b lichee
+$ make CROSS_COMPILE=arm-linux-gnu- sun4i
+$ file u-boot                                                                                                                              
+u-boot: ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
+</pre>
+<p>Now take the resulting 'u-boot' file, and use it as the coreboot payload. Install as usual and monitor the serial console
+</p>
+<pre>coreboot-4.0-5661-ge282828-nuclearis Wed Mar 12 01:02:50 CDT 2014 starting...
+No valid CBFS master header at 7efbfe30
+Calling sunxi to init out MMC
+In sunxi MMC init. FUCK YEAH!!!
+Calling generic MMC init
+[mmc] mmc_init: 0, time 0
+Copying coreboot.rom to RAM
+MMC bread, no butter
+default_media-&gt;open()
+default_media-&gt;map(0x10, 0x20)
+default_media-&gt;close()
+default_media-&gt;open()
+default_media-&gt;map(0x5fd8, 0x20)
+default_media-&gt;map(0x5fc0, 0x6524)
+default_media-&gt;close()
+CBFS: loading stage fallback/romstage @ 0x41000000 (25808 bytes), entry @ 0x41000000
+
+
+coreboot-4.0-5661-ge282828-nuclearis Wed Mar 12 01:02:50 CDT 2014 starting...
+VDD CPU (DCDC2): 1400mv
+VDD DLL (DCDC3): 1250mv
+AVCC    (LDO2)&#160;: 3000mv
+CSI1-IO (LDO4)&#160;: 2800mv
+(LDO3)&#160;: 2800mv
+CPU: 1008 MHz, AXI 336 Mhz, AHB: 168 MHz APB0: 84 MHz
+Already have CBFS master header at 7efbfe30
+default_media-&gt;open()
+default_media-&gt;map(0x10, 0x20)
+default_media-&gt;close()
+default_media-&gt;open()
+default_media-&gt;map(0x5fd8, 0x20)
+default_media-&gt;map(0xc518, 0x20)
+default_media-&gt;map(0xc500, 0x6a3c)
+default_media-&gt;close()
+CBFS: loading stage fallback/coreboot_ram @ 0x40000000 (89184 bytes), entry @ 0x40000000
+entry is 0x40000000, leaving romstage.
+coreboot-4.0-5661-ge282828-nuclearis Wed Mar 12 01:02:50 CDT 2014 booting...
+CBMEM: root @ 7ffff000 254 entries.
+BS: BS_PRE_DEVICE times (us): entry 0 run 0 exit 0
+BS: BS_DEV_INIT_CHIPS times (us): entry 0 run 0 exit 0
+Enumerating buses...
+Show all devs...Before device enumeration.
+Root Device: enabled 1
+CPU_CLUSTER: 0: enabled 1
+I2C: 00:34: enabled 1
+Compare with tree...
+Root Device: enabled 1
+ CPU_CLUSTER: 0: enabled 1
+ I2C: 00:34: enabled 1
+scan_static_bus for Root Device
+CPU_CLUSTER: 0 enabled
+smbus: Root Device[0]-&gt;I2C: 00:34 enabled
+scan_static_bus for Root Device done
+done
+BS: BS_DEV_ENUMERATE times (us): entry 0 run 0 exit 0
+Allocating resources...
+Reading resources...
+Root Device read_resources bus 0 link: 0
+I2C: 00:34 missing read_resources
+Root Device read_resources bus 0 link: 0 done
+Done reading resources.
+Show resources in subtree (Root Device)...After reading.
+ Root Device child on link 0 CPU_CLUSTER: 0
+  CPU_CLUSTER: 0
+  I2C: 00:34
+Setting resources...
+Root Device assign_resources, bus 0 link: 0
+Root Device assign_resources, bus 0 link: 0
+Done setting resources.
+Show resources in subtree (Root Device)...After assigning values.
+ Root Device child on link 0 CPU_CLUSTER: 0
+  CPU_CLUSTER: 0
+  I2C: 00:34
+Done allocating resources.
+BS: BS_DEV_RESOURCES times (us): entry 0 run 0 exit 0
+Enabling resources...
+done.
+BS: BS_DEV_ENABLE times (us): entry 0 run 0 exit 0
+Initializing devices...
+Root Device init
+Root Device init 3221171766 usecs
+CPU_CLUSTER: 0 init
+CPU_CLUSTER: 0 init 4294967116 usecs
+Devices initialized
+Show all devs...After init.
+Root Device: enabled 1
+CPU_CLUSTER: 0: enabled 1
+I2C: 00:34: enabled 1
+BS: BS_DEV_INIT times (us): entry 0 run 0 exit 0
+Finalize devices...
+Devices finalized
+BS: BS_POST_DEVICE times (us): entry 0 run 0 exit 0
+BS: BS_OS_RESUME_CHECK times (us): entry 0 run 0 exit 0
+Writing coreboot table at 0x7fffd000
+rom_table_end = 0x7fffd000
+... aligned to 0x80000000
+ 0. 0000000040000000-000000007fffcfff: RAM
+ 1. 000000007fffd000-000000007fffffff: CONFIGURATION TABLES
+Wrote coreboot table at: 7fffd000, 0x1b8 bytes, checksum 7fb6
+coreboot table: 464 bytes.
+CBMEM ROOT  0. 7ffff000 00001000
+COREBOOT    1. 7fffd000 00002000
+BS: BS_WRITE_TABLES times (us): entry 0 run 0 exit 0
+Already have CBFS master header at 7efbfe30
+default_media-&gt;open()
+default_media-&gt;map(0x10, 0x20)
+default_media-&gt;close()
+default_media-&gt;open()
+default_media-&gt;map(0x5fd8, 0x20)
+default_media-&gt;map(0xc518, 0x20)
+default_media-&gt;map(0x12f58, 0x20)
+default_media-&gt;map(0x12f40, 0x19e0a)
+default_media-&gt;close()
+CBFS: located payload @ 7efd2d98, 105938 bytes.
+Loading segment from rom address 0x7efd2d98
+  code (compression=1)
+  New segment dstaddr 0x4a000000 memsize 0x3fe6c srcaddr 0x7efd2dd0 filesize 0x19d9a
+  (cleaned up) New segment addr 0x4a000000 size 0x3fe6c offset 0x7efd2dd0 filesize 0x19d9a
+Loading segment from rom address 0x7efd2db4
+  Entry Point 0x4a000000
+Bounce Buffer at 7ffd1000, 178368 bytes
+Loading Segment: addr: 0x000000004a000000 memsz: 0x000000000003fe6c filesz: 0x0000000000019d9a
+lb: [0x0000000040000000, 0x0000000040015c60)
+Post relocation: addr: 0x000000004a000000 memsz: 0x000000000003fe6c filesz: 0x0000000000019d9a
+using LZMA
+[ 0x4a000000, 4a03fe6c, 0x4a03fe6c) &lt;- 7efd2dd0
+dest 4a000000, end 4a03fe6c, bouncebuffer 7ffd1000
+Loaded segments
+BS: BS_PAYLOAD_LOAD times (us): entry 0 run 0 exit 0
+Jumping to boot code at 4a000000
+CPU0: stack: 00006000 - 00008000, lowest used address 00007c04, stack used: 1020 bytes
+entry    = 4a000000
+
+
+U-Boot 2011.09-rc1-00000-gbaa70c6 (Mar 12 2014 - 00:57:18) Allwinner Technology 
+
+CPU:   SUNXI Family
+Board: A10-EVB
+DRAM:  1 GiB
+boot type: 2
+NAND:  3896 MiB
+MMC:   SUNXI SD/MMC: 0
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+--------fastboot partitions--------
+-total partitions:0-
+-name-        -start-       -size-      
+-----------------------------------
+no misc partition is found
+Hit any key to stop autoboot:  0 
+sun4i#
+</pre>
+<p>TADA! NAND access without boot0/boot1. What happens is that coreboot boots from the MMC card, as usual, loads lichee uboot, which can now access the MMC. My NAND partition was previously wiped, hence the warning about "no misc partition is found".
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Coreboot&amp;oldid=9471">http://linux-sunxi.org/index.php?title=Coreboot&amp;oldid=9471</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Coreboot&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Coreboot" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Coreboot" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Coreboot&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Coreboot">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Coreboot&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Coreboot&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Coreboot" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Coreboot" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Coreboot&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Coreboot&amp;oldid=9471" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 15 June 2014, at 13:01.</li>
+<li id="footer-info-viewcount">This page has been accessed 3,633 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>NAND - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"NAND","wgTitle":"NAND","wgCurRevisionId":15322,"wgArticleId":811,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"NAND","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/NAND"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-NAND skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">NAND</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>In the sunxi world, NAND (a type of flash memory) signifies the on board flash memory of a sunxi device. Our main u-boot version currently does not support booting from NAND and an altered allwinner version or an experimental MTD u-boot version (with MTD kernel driver) needs to be used instead.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Background"><span class="tocnumber">1</span> <span class="toctext">Background</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Installing_to_NAND"><span class="tocnumber">2</span> <span class="toctext">Installing to NAND</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#nand-part"><span class="tocnumber">3</span> <span class="toctext">nand-part</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#nand-part_output"><span class="tocnumber">3.1</span> <span class="toctext">nand-part output</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#MTD_driver"><span class="tocnumber">4</span> <span class="toctext">MTD driver</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#MTD_driver_for_sunxi-3.4_kernel"><span class="tocnumber">4.1</span> <span class="toctext">MTD driver for sunxi-3.4 kernel</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#MTD_driver_for_mainline_Linux_kernel_.283.14.2B.29"><span class="tocnumber">4.2</span> <span class="toctext">MTD driver for mainline Linux kernel (3.14+)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#More_information_on_BROM_NAND"><span class="tocnumber">5</span> <span class="toctext">More information on BROM NAND</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Background"> Background </span></h1>
+<p>Our SoCs have a very specific <a href="/Boot_Process" title="Boot Process"> boot process</a>. First it executes <a href="/BROM" title="BROM"> a tiny on chip rom (BROM)</a> which then checks the buttons for <a href="/FEL" title="FEL">FEL</a> mode and then starts checking the various storage options for a valid boot signature at the right location.
+</p><p>There is no real difference between NAND and an SD-card apart from the fact that directly attached flash use the Sunxi NAND controller directly while SD-Cards come with a standard interface and an embedded controller usually based today on cortex-m0 core that runs proprietary firmware which implements flash translation layer that performs wear leveling. The sunxi nand controller is harder to implement than the sunxi sd-card controller, and the sample code provided by allwinner is rather large (and shared between U-boot and the kernel).
+</p><p>Then there is the NAND hw randomizer that gets in the way. Allwinner uses one setting for the BROM and the second boot stage (boot0/SPL), and another setting for normal use. With this setup, it is currently not implemented to access both bits at the same time. This currently provides another barrier for implementation, as one first needs to be able to read/write this area. While this is not beyond fixing, these are quite a few hoops to jump through.
+</p><p>As a result of the above, we have to use the existing second and third stages of the allwinner nand boot process, and we need to use nand-part for partitioning. If we had proper u-boot support, we would not need any of that.
+</p><p>It is very likely that this usage of the NAND is going to disappear completely in future. The plans for mainline support currently involves a <a href="#MTD_driver">MTD device driver</a>, and no longer a block device driver. This would render a large part of the content of this wiki page outdated.
+</p>
+<h1> <span class="mw-headline" id="Installing_to_NAND"> Installing to NAND </span></h1>
+<p>There is <a href="/Installing_to_NAND" title="Installing to NAND">a nice, full howto</a> available which explains how to install and boot from NAND.
+</p>
+<h1> <span class="mw-headline" id="nand-part"> nand-part </span></h1>
+<p>There is a utility which is part of <a href="/Sunxi-tools" title="Sunxi-tools">sunxi-tools</a>, called nand-part. It has many many issues:
+</p>
+<ul><li> The licensing is all muddled up. The author is not chinese, but the main file which only carries his copyright has chinese comments.
+</li><li> Barely passes as C-code. There are very few C style comments, and return values are 1 for success and 0 for failure.
+</li><li> Doesn't care about the size of the block device (how hard would it have been to check BLKGETSIZE64), and allows the creation of partition tables which are not contained within the bounds of the block device.
+</li><li> There are two known versions of allwinner nand partition tables. Instead of checking the magic and version fields, the code is fully duplicated but with different structs, and both versions of the code get run to see which one sticks. This needs to have the two versions of the structs living side by side (version the structure names!).
+</li></ul>
+<p>It needs a day or so of work by a proper coder.
+</p><p>As an extra, the format of the allwinner nand partitioning is really simple. It should be easy to write a simple interactive user interface like fdisk has, as the amount of options are really limited. <b>m</b>, <b>p</b>, <b>n</b>, <b>d</b>, <b>v</b>, <b>w</b>, <b>q</b> for the standard uses, and <b>f</b> for toggling a mode which gives the ability to alter the first partition and for changing the partitioning version.
+</p><p>This utility can be redeveloped without hardware. A dump of the nand of a machines first MB, plus a dd from /dev/zero, can be presented as a loop device. For an example of this, check <a href="/Installing_to_NAND#Accessing_the_full_backup" title="Installing to NAND"> this</a>.
+</p>
+<h2> <span class="mw-headline" id="nand-part_output"> nand-part output </span></h2>
+<p>Below is the typical output of the nand partitioning of a Mele A1000.
+</p>
+<pre>check partition table copy 0: mbr: version 0x00000100, magic softw311
+OK
+check partition table copy 1: mbr: version 0x00000100, magic softw311
+OK
+check partition table copy 2: mbr: version 0x00000100, magic softw311
+OK
+check partition table copy 3: mbr: version 0x00000100, magic softw311
+OK
+mbr: version 0x00000100, magic softw311
+9 partitions
+partition  1: class =         DISK, name =       BOOTFS, partition start =     2048, partition size =    32768 user_type=0
+partition  2: class =         DISK, name =      LROOTFS, partition start =    34816, partition size =    65536 user_type=2
+partition  3: class =         DISK, name =    LSYSTEMFS, partition start =   100352, partition size =   524288 user_type=2
+partition  4: class =         DISK, name =      LDATAFS, partition start =   624640, partition size =  3145728 user_type=2
+partition  5: class =         DISK, name =         MISC, partition start =  3770368, partition size =     2048 user_type=2
+partition  6: class =         DISK, name =  LRECOVERYFS, partition start =  3772416, partition size =    65536 user_type=2
+partition  7: class =         DISK, name =     LCACHEFS, partition start =  3837952, partition size =   262144 user_type=2
+partition  8: class =         DISK, name =          env, partition start =  4100096, partition size =     4096 user_type=0
+partition  9: class =         DISK, name =        UDISK, partition start =  4104192, partition size =        0 user_type=0
+check partition table copy 0: mbr: version 0x00000100, magic softw311
+OK
+check partition table copy 1: mbr: version 0x00000100, magic softw311
+OK
+check partition table copy 2: mbr: version 0x00000100, magic softw311
+OK
+check partition table copy 3: mbr: version 0x00000100, magic softw311
+OK
+mbr: version 0x00000100, magic softw311
+9 partitions
+partition  1: class =         DISK, name =       BOOTFS, partition start =     2048, partition size =    32768 user_type=0
+partition  2: class =         DISK, name =      LROOTFS, partition start =    34816, partition size =    65536 user_type=2
+partition  3: class =         DISK, name =    LSYSTEMFS, partition start =   100352, partition size =   524288 user_type=2
+partition  4: class =         DISK, name =      LDATAFS, partition start =   624640, partition size =  3145728 user_type=2
+partition  5: class =         DISK, name =         MISC, partition start =  3770368, partition size =     2048 user_type=2
+partition  6: class =         DISK, name =  LRECOVERYFS, partition start =  3772416, partition size =    65536 user_type=2
+partition  7: class =         DISK, name =     LCACHEFS, partition start =  3837952, partition size =   262144 user_type=2
+partition  8: class =         DISK, name =          env, partition start =  4100096, partition size =     4096 user_type=0
+partition  9: class =         DISK, name =        UDISK, partition start =  4104192, partition size =        0 user_type=0
+</pre>
+<h1> <span class="mw-headline" id="MTD_driver"> MTD driver </span></h1>
+<p>MTD U-Boot default partition table:
+</p>
+<table class="wikitable">
+<tr>
+<th> Partition Size </th>
+<th> Uses
+</th></tr>
+<tr>
+<td> 1M </td>
+<td> U-Boot SPL
+</td></tr>
+<tr>
+<td> 4M </td>
+<td> U-Boot
+</td></tr>
+<tr>
+<td> 3M </td>
+<td> U-Boot Enviroment
+</td></tr>
+<tr>
+<td> 9M </td>
+<td> Packimg(combine kernel &amp; script.bin)
+</td></tr>
+<tr>
+<td> 8M </td>
+<td> Linux Kernel
+</td></tr>
+<tr>
+<td> 64M </td>
+<td> Initramfs/Small rootfs
+</td></tr>
+<tr>
+<td> - </td>
+<td> Uses for custom
+</td></tr></table>
+<h2> <span class="mw-headline" id="MTD_driver_for_sunxi-3.4_kernel"> MTD driver for sunxi-3.4 kernel </span></h2>
+<p><a class="external text" href="https://github.com/rgwan/linux-sunxi">MTD driver for sunxi-3.4 kernel</a> requires <a class="external text" href="https://github.com/rgwan/u-boot-sunxi/tree/sunxi-current">modified u-boot</a>. It is not stable and therefore not suitable for production environment.
+</p>
+<h2> <span class="mw-headline" id="MTD_driver_for_mainline_Linux_kernel_.283.14.2B.29"> MTD driver for mainline Linux kernel (3.14+) </span></h2>
+<p><a class="external text" href="https://github.com/bbrezillon/linux-sunxi">MTD driver for Linux 3.14+</a> is currently in progress of <a href="/Mainlining_Effort#Major_drivers" title="Mainlining Effort" class="mw-redirect">being reviewed</a> and has <a href="/MTD_Driver" title="MTD Driver">its own page here</a>.
+</p>
+<h1> <span class="mw-headline" id="More_information_on_BROM_NAND"> More information on BROM NAND </span></h1>
+<p>The BROM contains a very basic NAND driver that does not support bad blocks. This driver also does <b>not</b> use Chip ID to identify the part, like the Linux NAND driver does, and so it blindly attempts to read Boot0 out of Flash using a sequence of predefined configurations. For A10/A20, the configurations, in order, are as follows:
+</p>
+<table class="wikitable">
+<tr>
+<th> Interface </th>
+<th> Hardware page </th>
+<th> Address cycles </th>
+<th> ECC capacity </th>
+<th> ECC page </th>
+<th> CPU
+</th></tr>
+<tr>
+<td> asynchronous </td>
+<td> 1024 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 1024 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> asynchronous </td>
+<td> 1024 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> asynchronous </td>
+<td> 1024 B </td>
+<td> 4 </td>
+<td> 64 b </td>
+<td> 1024 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> asynchronous </td>
+<td> 1024 B </td>
+<td> 4 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> asynchronous </td>
+<td> 8192 B </td>
+<td> 5 </td>
+<td> 24 b </td>
+<td> 1024 B </td>
+<td> A20
+</td></tr>
+<tr>
+<td> asynchronous </td>
+<td> 8192 B </td>
+<td> 5 </td>
+<td> 40 b </td>
+<td> 1024 B </td>
+<td> A20
+</td></tr>
+<tr>
+<td> asynchronous </td>
+<td> 4096 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 1024 B </td>
+<td> A20
+</td></tr>
+<tr>
+<td> asynchronous </td>
+<td> 4096 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A20
+</td></tr>
+<tr>
+<td> DDR timing 1 </td>
+<td> 1024 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 1024 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> DDR timing 2 </td>
+<td> 1024 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 1024 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> DDR timing 3 </td>
+<td> 1024 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 1024 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> DDR timing 1 </td>
+<td> 1024 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> DDR timing 2 </td>
+<td> 1024 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> DDR timing 3 </td>
+<td> 1024 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A10/A20
+</td></tr>
+<tr>
+<td> DDR timing 1 </td>
+<td> 4096 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A20
+</td></tr>
+<tr>
+<td> DDR timing 2 </td>
+<td> 4096 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A20
+</td></tr>
+<tr>
+<td> DDR timing 3 </td>
+<td> 4096 B </td>
+<td> 5 </td>
+<td> 64 b </td>
+<td> 512 B </td>
+<td> A20
+</td></tr></table>
+<p>Note that a lot of modern Flash (large page NAND) would not be supported well by the configurations available on A10, so A20 adds a whole bunch.
+</p><p>At first, the BROM tries to use all of those configurations to read a Boot0 image starting at page 0 of Flash. However, because of bad blocks (or other considerations like partition table location), all of those options may fail. BROM will then attempt reading a Boot0 image starting at pages 0x40, 0x80, 0xC0, ..., 0x1C0. Only then will it give up and proceed with other boot options (or FEL).
+</p>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.onfi.org/~/media/ONFI/specs/onfi_3_1_spec.pdf">Open NAND Flash Interface Specification</a>.
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=NAND&amp;oldid=15322">http://linux-sunxi.org/index.php?title=NAND&amp;oldid=15322</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks catlinks-allhidden'></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=NAND&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=NAND" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/NAND" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:NAND" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/NAND">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=NAND&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=NAND&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/NAND" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/NAND" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=NAND&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=NAND&amp;oldid=15322" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 24 October 2015, at 18:23.</li>
+<li id="footer-info-viewcount">This page has been accessed 28,104 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Hardware Reliability Tests - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Hardware_Reliability_Tests","wgTitle":"Hardware Reliability Tests","wgCurRevisionId":15482,"wgArticleId":1278,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Hardware_Reliability_Tests","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Hardware_Reliability_Tests"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Hardware_Reliability_Tests skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Hardware Reliability Tests</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#The_importance_of_the_hardware_diagnostic_tools"><span class="tocnumber">1</span> <span class="toctext">The importance of the hardware diagnostic tools</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#My_device_is_failing_these_reliability_tests._What_to_do_now.3F.21"><span class="tocnumber">2</span> <span class="toctext">My device is failing these reliability tests. What to do now?!</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#DRAM"><span class="tocnumber">3</span> <span class="toctext"><b>DRAM</b></span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Reliability"><span class="tocnumber">3.1</span> <span class="toctext">Reliability</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#CPU"><span class="tocnumber">4</span> <span class="toctext"><b>CPU</b></span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Reliability_of_cpufreq_voltage.2Ffrequency_settings"><span class="tocnumber">4.1</span> <span class="toctext">Reliability of cpufreq voltage/frequency settings</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Overheating"><span class="tocnumber">4.2</span> <span class="toctext">Overheating</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="The_importance_of_the_hardware_diagnostic_tools"> The importance of the hardware diagnostic tools </span></h2>
+<p>Because of the diversity of various Allwinner based devices we have to deal with different DRAM, CPU clock speed and voltage settings. They are primarily derived from the fex files found in the vendor provided firmware on NAND and also based on the information retrieved by the <a href="/Sunxi-tools#meminfo" title="Sunxi-tools">meminfo tool</a>. Some dishonest sellers also happily advertise way higher specs than the hardware can actually handle (for example, unrealistic 1.5GHz CPU clock speeds). Moreover, different chips have their own individual voltage and clock frequency tolerances within a certain range. So that the borderline stable settings may be good for one unit and bad for another.
+</p><p>In order to quickly identify obviously misconfigured hardware, we need some easy to use diagnostic tools. There is no magic involved. The general idea behind them is to find some real life or synthetic workloads, which are more likely to cause troubles. Then identify, which parts of these workloads are most problematic and convert them into (hopefully) user friendly test tools. Some of these tools are listed below.
+</p><p><b>Note:</b> naturally, the majority of devices are expected to pass these tests and you are likely not to get any exciting results. Still this is not a good justification for the "nah, this may happen to anyone, but me" attitude. The experience shows that there are definitely faulty/misconfigured devices out there. If you are experiencing occasional crashes or freezes once in a while, then making sure that these tests pass is strongly recommended before trying anything else.
+</p>
+<h2> <span class="mw-headline" id="My_device_is_failing_these_reliability_tests._What_to_do_now.3F.21"> My device is failing these reliability tests. What to do now?! </span></h2>
+<p>First of all, make sure that you are using an up to date u-boot bootloader, an up to date linux kernel and correct hardware description data (script.bin for the sunxi-3.4 kernel or a *.dtb file for the mainline kernel). It may be a matter of some hardware misconfiguration (<a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/commit/2d3330814b38a2a857958b3b3fd97c3f473bfd7b">just like it happened with the cubieboard2/cubietruck before</a>), and the intention is to have all of these problems ironed out eventually.
+</p><p>If the tests are still failing with the up to date software, be sure to report the problem in the linux-sunxi mailing list or in the irc channel. Please also include all the relevant information (the board type, the kernel version, the bootloader version, etc.). Even if you can resolve the problem yourself (by adjusting the voltages or the clock speed), reporting the incident is still rather important to ensure that other people don't encounter the same problem in the future. Thanks!
+</p>
+<h2> <span class="mw-headline" id="DRAM"> <b>DRAM</b> </span></h2>
+<h4> <span class="mw-headline" id="Reliability"> Reliability </span></h4>
+<div class="mw-collapsible mw-collapsed">
+<p>The <a class="external text" href="https://github.com/ssvb/lima-memtester">lima-memtester tool</a> can be used to check if the dram settings are reasonable and dcdc3 voltage is sufficient. If you have a shell access to your device, then you can download a static binary compiled for ARM (or click on the 'Expand' link to see how to compile it from sources):
+</p>
+<div class="mw-collapsible-content">
+<pre> git clone <a class="external free" href="https://github.com/ssvb/lima-memtester.git">https://github.com/ssvb/lima-memtester.git</a>
+ cd lima-memtester
+ cmake .
+ make -j2
+</pre>
+</div>
+</div>
+<pre> # The wget option --no-check-certificate is only here to make it work even if the date is set wrong (no RTC battery)
+ wget --no-check-certificate <a class="external free" href="https://github.com/ssvb/lima-memtester/releases/download/static-binary-20150126/lima-memtester">https://github.com/ssvb/lima-memtester/releases/download/static-binary-20150126/lima-memtester</a>
+ chmod +x lima-memtester
+</pre>
+<p>Now you should have the lima-memtester static binary. Running it only requires the sunxi-3.4 kernel with the mali kernel module and framebuffer enabled. This test does not depend on anything in the userland and should work with any Linux distribution (this also means that it does NOT require the userland <a href="/Mali_binary_driver" title="Mali binary driver">Mali binary driver</a>). Just run lima-memtester with root privileges as:
+</p>
+<pre> ./lima-memtester 100M
+</pre>
+<p>If everything is working fine, you should see a spinning cube demo running indefinitely. If something is very wrong, then the test fails after just a few seconds! If something is mildly wrong, this usually gets detected in less than 15-20 minutes. In the case of troubles, you may observe the following symptoms:
+</p>
+<ul><li> the system freezes
+</li><li> the display background starts glowing red (normally it is gray)
+</li></ul>
+<p>For even more confidence, it is a good idea to keep it running overnight (8-10 hours) at least once.
+</p>
+<h2> <span class="mw-headline" id="CPU"> <b>CPU</b> </span></h2>
+<h4> <span class="mw-headline" id="Reliability_of_cpufreq_voltage.2Ffrequency_settings"> Reliability of cpufreq voltage/frequency settings </span></h4>
+<p>The following ruby script can run basic reliability tests (correctness of jpeg decompression) for all cpufreq operating points. The kernel config needs to have support for 'userspace' cpufreq governor.
+</p>
+<pre> cd /tmp
+ git clone <a class="external free" href="https://github.com/ssvb/cpuburn-arm.git">https://github.com/ssvb/cpuburn-arm.git</a>
+ cd cpuburn-arm
+ ./cpufreq-ljt-stress-test
+</pre>
+<p>Example output:
+</p>
+<pre>
+Creating './whitenoise-1920x1080.jpg' ... done
+CPU stress test, which is doing JPEG decoding by libjpeg-turbo
+at different cpufreq operating points.
+
+Testing CPU 0
+ 1200 MHz SKIPPED
+ 1152 MHz SKIPPED
+ 1104 MHz SKIPPED
+ 1056 MHz SKIPPED
+ 1008 MHz ............................................................ OK
+  960 MHz ............................................................ OK
+  912 MHz ............................................................ OK
+  864 MHz ............................................................ OK
+  816 MHz ............................................................ OK
+  768 MHz ............................................................ OK
+  744 MHz ............................................................ OK
+  720 MHz ............................................................ OK
+  696 MHz SKIPPED
+  672 MHz SKIPPED
+  648 MHz SKIPPED
+  600 MHz SKIPPED
+  528 MHz SKIPPED
+  480 MHz SKIPPED
+  408 MHz SKIPPED
+  384 MHz SKIPPED
+  360 MHz SKIPPED
+  336 MHz SKIPPED
+  288 MHz SKIPPED
+  264 MHz SKIPPED
+  240 MHz SKIPPED
+  216 MHz SKIPPED
+  204 MHz SKIPPED
+  192 MHz SKIPPED
+  180 MHz SKIPPED
+  168 MHz SKIPPED
+  156 MHz SKIPPED
+  144 MHz SKIPPED
+  132 MHz SKIPPED
+  120 MHz SKIPPED
+   96 MHz SKIPPED
+   84 MHz SKIPPED
+   72 MHz SKIPPED
+   60 MHz SKIPPED
+</pre>
+<p>If voltage is configured wrong for one of the operating points, then data corruption may be detected and reported.
+</p><p><b>Be aware:</b> Please take the results of this script with a grain of salt. There are border cases in which extended tests show a device might not be stable at certain settings even though they pass the tests in this script. Especially on a multi-core system you may want to run CPU-intensive tasks in the background while running cpufreq-ljt-stress-test in order to keep all cores busy. The cpuburn scripts (see below) or compiling a kernel might be suitable tasks for this end. You may also want to change the duration of the tests by changing the number of test iterations per frequency setting (see line 203 of the script: the default value is 60 - feel free to set a higher value to make this script run longer).
+</p>
+<h4> <span class="mw-headline" id="Overheating"> Overheating </span></h4>
+<p>If the CPU is overclocked and/or overvolted, then it may overheat and fail under heavy load. To check for the potential CPU overheating (with or without overclocking), it is possible to use the <a class="external text" href="https://github.com/ssvb/cpuburn-arm">cpuburn</a> tool.
+</p><p>To run this test on the Allwinner A10 hardware:
+</p>
+<pre> git clone <a class="external free" href="https://github.com/ssvb/cpuburn-arm.git">https://github.com/ssvb/cpuburn-arm.git</a>
+ cd cpuburn-arm
+ gcc -o cpuburn-a8 cpuburn-a8.S
+ ./cpuburn-a8
+</pre>
+<p>Or on the Allwinner A20 hardware:
+</p>
+<pre> git clone <a class="external free" href="https://github.com/ssvb/cpuburn-arm.git">https://github.com/ssvb/cpuburn-arm.git</a>
+ cd cpuburn-arm
+ gcc -o cpuburn-a7 cpuburn-a7.S
+ ./cpuburn-a7
+</pre>
+<p>The cpuburn programs are only heating the CPU and are not providing any visible feedback. It may make sense to also run some other non CPU hungry program simultaneously to monitor whether it is still alive or not. Running some Mali400 graphics demo is the best for this purpose. And the GPU is also providing an extra source of heat.
+</p><p><span style="color:red"><b>WARNING: if the device is recklessly overclocked/overvolted too much, then some permanent hardware damage may theoretically happen.</b></span>
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Hardware_Reliability_Tests&amp;oldid=15482">http://linux-sunxi.org/index.php?title=Hardware_Reliability_Tests&amp;oldid=15482</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks catlinks-allhidden'></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Hardware+Reliability+Tests&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Hardware+Reliability+Tests" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Hardware_Reliability_Tests" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Hardware_Reliability_Tests&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Hardware_Reliability_Tests">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Hardware_Reliability_Tests&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Hardware_Reliability_Tests&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Hardware_Reliability_Tests" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Hardware_Reliability_Tests" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Hardware_Reliability_Tests&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Hardware_Reliability_Tests&amp;oldid=15482" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 24 November 2015, at 13:14.</li>
+<li id="footer-info-viewcount">This page has been accessed 6,531 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

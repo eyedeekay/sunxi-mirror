@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>DWC HDMI Controller - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"DWC_HDMI_Controller","wgTitle":"DWC HDMI Controller","wgCurRevisionId":17615,"wgArticleId":2591,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"DWC_HDMI_Controller","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/DWC_HDMI_Controller"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-DWC_HDMI_Controller skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">DWC HDMI Controller</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The <a href="/A83T" title="A83T">A83T</a>/<a href="/H3" title="H3">H3</a>/<a href="/A64" title="A64">A64</a>/<a href="/A80" title="A80">A80</a> SoCs use a Synopsys DesignWare HDMI controller. A80 (A83T too maybe) seem to use a PHY from Synopsys too, but H3 and A64 PHY is unknown.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Register_Guide"><span class="tocnumber">1</span> <span class="toctext">Register Guide</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#HDMI_READ_LOCK"><span class="tocnumber">1.1</span> <span class="toctext">HDMI_READ_LOCK</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#DWC_HDMI_Controller"><span class="tocnumber">1.2</span> <span class="toctext">DWC HDMI Controller</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#DWC_HDMI_PHY"><span class="tocnumber">1.3</span> <span class="toctext">DWC HDMI PHY</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#H3.2FA64_HDMI_PHY"><span class="tocnumber">1.4</span> <span class="toctext">H3/A64 HDMI PHY</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#HDMI_H3_PHY_CTRL"><span class="tocnumber">1.4.1</span> <span class="toctext">HDMI_H3_PHY_CTRL</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#HDMI_H3_PHY_PLL"><span class="tocnumber">1.4.2</span> <span class="toctext">HDMI_H3_PHY_PLL</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#HDMI_H3_PHY_CLK"><span class="tocnumber">1.4.3</span> <span class="toctext">HDMI_H3_PHY_CLK</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#HDMI_H3_PHY_STATUS"><span class="tocnumber">1.4.4</span> <span class="toctext">HDMI_H3_PHY_STATUS</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#HDMI_H3_PHY_CEC"><span class="tocnumber">1.4.5</span> <span class="toctext">HDMI_H3_PHY_CEC</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Register_Guide"> Register Guide </span></h1>
+<p>Base address: 0x01ee0000 (sun8i/sun50i), 0x03d00000 (sun9i)
+</p>
+<h3> <span class="mw-headline" id="HDMI_READ_LOCK"> HDMI_READ_LOCK </span></h3>
+<table class="wikitable" style="max-width:1000px; margin-right:0px;">
+<tr>
+<th style="padding:0em 1em; font-size:75%; color:#444444;">Offset</th>
+<td style="padding:0em 1em;" colspan="2"><center><tt>0x10010</tt></center></td>
+</tr>
+<tr style="font-size:75%; color:#444444;">
+<th style="padding:0em 1em; min-width:23em;">Name</th>
+<th style="padding:0em 1em;">Bits</th>
+<th style="padding:0em 1em;">R/W</th>
+<th style="padding:0em 1em;">Default</th>
+<th style="padding:0em 1em;">Values</th>
+<th style="padding:0em 1em; width:100%; text-align:left;">Description</th>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> HDMI_READ_LOCK
+</tt></td>
+<td><tt> 31:0 </tt></td>
+<td><center><tt>W</tt></center></td>
+<td><center><tt></tt></center></td>
+<td><pre>
+0x54524545 = unlock read access
+0x57415452 = lock read access
+</pre></td>
+<td style="padding:0em .4em;"></td>
+</tr>
+</table>
+<h2> <span class="mw-headline" id="DWC_HDMI_Controller"> DWC HDMI Controller </span></h2>
+<p>0x01ee0000 - 0x01eeffff (only byte-accessible)
+</p><p>(A similar version of) the controller is publicly documented in the i.MX6 Reference Manual, chapter 33.
+There also is a mainline Linux driver for the controller in <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/gpu/drm/bridge/dw-hdmi.c">drivers/gpu/drm/bridge/dw_hdmi.c</a>.
+</p><p>The design, revision, product and config IDs are 13 2a a0 c1 bf 02 fe 00 on H3/A64/A80 (A83T not tested).
+</p><p>Now the hard part, the register addresses are obfuscated in sunxi SoCs (except A80). To use existing drivers/documentation the address bits have to be rearranged in the following way:
+</p>
+<pre>real &lt;-&gt; obfuscated address bits
+A1   &lt;-&gt; A15
+A3   &lt;-&gt; A14
+A5   &lt;-&gt; A13
+A7   &lt;-&gt; A12
+A9   &lt;-&gt; A11
+A11  &lt;-&gt; A10
+A13  &lt;-&gt; A9
+A15  &lt;-&gt; A8
+A14  &lt;-&gt; A7
+A12  &lt;-&gt; A6
+A10  &lt;-&gt; A5
+A8   &lt;-&gt; A4
+A6   &lt;-&gt; A3
+A4   &lt;-&gt; A2
+A2   &lt;-&gt; A1
+A0   &lt;-&gt; A0</pre>
+<p>For example, to access register 0x100D (vsync width) one has to access 0x4043 on sunxi.
+</p>
+<pre>
+# Python functions to translate DWC registers to sunxi register value:
+def bitrev32(x):
+    x = ((x &amp; 0x55555555) &lt;&lt;  1) | ((x &amp; 0xAAAAAAAA) &gt;&gt;  1)
+    x = ((x &amp; 0x33333333) &lt;&lt;  2) | ((x &amp; 0xCCCCCCCC) &gt;&gt;  2)
+    x = ((x &amp; 0x0F0F0F0F) &lt;&lt;  4) | ((x &amp; 0xF0F0F0F0) &gt;&gt;  4)
+    x = ((x &amp; 0x00FF00FF) &lt;&lt;  8) | ((x &amp; 0xFF00FF00) &gt;&gt;  8)
+    x = ((x &amp; 0x0000FFFF) &lt;&lt; 16) | ((x &amp; 0xFFFF0000) &gt;&gt; 16)
+    return x
+
+def dwc2sunxi(x):
+    x = bitrev32(x) | x                 # put bit-reversed version in upper 16bit
+    x = x &amp; 0x55555555                  # extract all even bits
+    x = (x | (x &gt;&gt; 1)) &amp; 0x33333333     # move all of them to lower 16 bits
+    x = (x | (x &gt;&gt; 2)) &amp; 0x0f0f0f0f     # in multiple steps
+    x = (x | (x &gt;&gt; 4)) &amp; 0x00ff00ff
+    x = (x | (x &gt;&gt; 8)) &amp; 0x0000ffff
+    return x
+</pre>
+<pre>
+def sunxi2dwc(x):
+    x = ((x &amp; 0xff00) &lt;&lt; 8) | (x &amp; 0x00ff)
+    x = ((x &lt;&lt; 4) | x) &amp; 0x0f0f0f0f
+    x = ((x &lt;&lt; 2) | x) &amp; 0x33333333
+    x = ((x &lt;&lt; 1) | x) &amp; 0x55555555
+    x = (bitrev32(x) | x) &amp; 0xffff
+    return x
+</pre>
+<p>Optimized version (bitrev32() as defined in linux bitrev.h):
+</p>
+<pre>
+uint16_t dwc2sunxi(uint16_t addr)
+{
+    uint32_t x = bitrev32((uint32_t)addr) | (uint32_t)addr; // put bit-reversed version in upper 16bit
+    x = x &amp; 0x55555555;                                     // then extract all even bits
+    x = (x | (x &gt;&gt; 1)) &amp; 0x33333333;                        // and move them all to the lower 16bit
+    x = (x | (x &gt;&gt; 2)) &amp; 0x0f0f0f0f;                        // in multiple steps
+    x = (x | (x &gt;&gt; 4)) &amp; 0x00ff00ff;                        // ...
+    x = (x | (x &gt;&gt; 8)) &amp; 0x0000ffff;
+    return (uint16_t)x;
+}
+</pre>
+<h2> <span class="mw-headline" id="DWC_HDMI_PHY"> DWC HDMI PHY </span></h2>
+<p>It looks like A80 uses a Synopsys PHY, connected to controllers internal I2C bus. This PHY is documented in the i.MX6 Reference Manual, chapter 34, too. The existing Linux driver has support for this PHY, but SoC specific parameters are needed for configuration.
+</p>
+<h2> <span class="mw-headline" id="H3.2FA64_HDMI_PHY"> H3/A64 HDMI PHY </span></h2>
+<p>The H3/A64 PHY is unknown and undocumented.
+</p><p>The HDMI block uses PLL3 as input clock, not HDMI_CLK. It looks like the input clock has to be higher than ~165MHz to get a stable HDMI signal.
+</p><p>Some register guessing, only notes from experiments, no facts yet:
+</p>
+<h3> <span class="mw-headline" id="HDMI_H3_PHY_CTRL"> HDMI_H3_PHY_CTRL </span></h3>
+<table class="wikitable" style="max-width:1000px; margin-right:0px;">
+<tr>
+<th style="padding:0em 1em; font-size:75%; color:#444444;">Offset</th>
+<td style="padding:0em 1em;" colspan="2"><center><tt>0x10020</tt></center></td>
+</tr>
+<tr style="font-size:75%; color:#444444;">
+<th style="padding:0em 1em; min-width:23em;">Name</th>
+<th style="padding:0em 1em;">Bits</th>
+<th style="padding:0em 1em;">R/W</th>
+<th style="padding:0em 1em;">Default</th>
+<th style="padding:0em 1em;">Values</th>
+<th style="padding:0em 1em; width:100%; text-align:left;">Description</th>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> HDMI_TMDS_CLK_OUTPUT_EN </tt></td>
+<td><tt> 15 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">enable TMDS clock output</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> HDMI_TMDS_2_OUTPUT_EN </tt></td>
+<td><tt> 14 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">enable TMDS data2 output</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> HDMI_TMDS_1_OUTPUT_EN </tt></td>
+<td><tt> 13 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">enable TMDS data1 output</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> HDMI_TMDS_0_OUTPUT_EN </tt></td>
+<td><tt> 12 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">enable TMDS data0 output</td>
+</tr>
+</table>
+<h3> <span class="mw-headline" id="HDMI_H3_PHY_PLL"> HDMI_H3_PHY_PLL </span></h3>
+<table class="wikitable" style="max-width:1000px; margin-right:0px;">
+<tr>
+<th style="padding:0em 1em; font-size:75%; color:#444444;">Offset</th>
+<td style="padding:0em 1em;" colspan="2"><center><tt>0x1002c</tt></center></td>
+</tr>
+<tr style="font-size:75%; color:#444444;">
+<th style="padding:0em 1em; min-width:23em;">Name</th>
+<th style="padding:0em 1em;">Bits</th>
+<th style="padding:0em 1em;">R/W</th>
+<th style="padding:0em 1em;">Default</th>
+<th style="padding:0em 1em;">Values</th>
+<th style="padding:0em 1em; width:100%; text-align:left;">Description</th>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 25 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">enable pll?</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 5:0 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">some pll parameter</td>
+</tr>
+</table>
+<h3> <span class="mw-headline" id="HDMI_H3_PHY_CLK"> HDMI_H3_PHY_CLK </span></h3>
+<table class="wikitable" style="max-width:1000px; margin-right:0px;">
+<tr>
+<th style="padding:0em 1em; font-size:75%; color:#444444;">Offset</th>
+<td style="padding:0em 1em;" colspan="2"><center><tt>0x10030</tt></center></td>
+</tr>
+<tr style="font-size:75%; color:#444444;">
+<th style="padding:0em 1em; min-width:23em;">Name</th>
+<th style="padding:0em 1em;">Bits</th>
+<th style="padding:0em 1em;">R/W</th>
+<th style="padding:0em 1em;">Default</th>
+<th style="padding:0em 1em;">Values</th>
+<th style="padding:0em 1em; width:100%; text-align:left;">Description</th>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 19 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">?enable 18:16?</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 18:16 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">some pll parameter (bandwidth?)</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 15:12 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">some pll parameter</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> HDMI_CLK_DIV </tt></td>
+<td><tt> 3:0 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">clock divider</td>
+</tr>
+</table>
+<h3> <span class="mw-headline" id="HDMI_H3_PHY_STATUS"> HDMI_H3_PHY_STATUS </span></h3>
+<table class="wikitable" style="max-width:1000px; margin-right:0px;">
+<tr>
+<th style="padding:0em 1em; font-size:75%; color:#444444;">Offset</th>
+<td style="padding:0em 1em;" colspan="2"><center><tt>0x10038</tt></center></td>
+</tr>
+<tr style="font-size:75%; color:#444444;">
+<th style="padding:0em 1em; min-width:23em;">Name</th>
+<th style="padding:0em 1em;">Bits</th>
+<th style="padding:0em 1em;">R/W</th>
+<th style="padding:0em 1em;">Default</th>
+<th style="padding:0em 1em;">Values</th>
+<th style="padding:0em 1em; width:100%; text-align:left;">Description</th>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> HPD </tt></td>
+<td><tt> 19 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">HPD status</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 16:11 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">some pll calibration? result</td>
+</tr>
+</table>
+<h3> <span class="mw-headline" id="HDMI_H3_PHY_CEC"> HDMI_H3_PHY_CEC </span></h3>
+<table class="wikitable" style="max-width:1000px; margin-right:0px;">
+<tr>
+<th style="padding:0em 1em; font-size:75%; color:#444444;">Offset</th>
+<td style="padding:0em 1em;" colspan="2"><center><tt>0x1003c</tt></center></td>
+</tr>
+<tr style="font-size:75%; color:#444444;">
+<th style="padding:0em 1em; min-width:23em;">Name</th>
+<th style="padding:0em 1em;">Bits</th>
+<th style="padding:0em 1em;">R/W</th>
+<th style="padding:0em 1em;">Default</th>
+<th style="padding:0em 1em;">Values</th>
+<th style="padding:0em 1em; width:100%; text-align:left;">Description</th>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 7 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">if bit 2=0 send bit 0 on cec line</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 3 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">1 = disable input cec line(bit 1) If set to 1 hw tx will send but don't get ACKs</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 2 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">1 = pass cec line to hardware cec receiver<br/>
+0 = pass cec line to hardware cec transmitter. Transmitting works only when bits 2:7 = 0</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 1 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">status cec line when bit 3=0</td>
+</tr>
+<tr>
+<td style="padding:0em .4em;"><tt> </tt></td>
+<td><tt> 0 </tt></td>
+<td><center><tt>RW</tt></center></td>
+<td><center><tt></tt></center></td>
+<td></td>
+<td style="padding:0em .4em;">output on cec line when bit 2=0 and 7=1</td>
+</tr>
+</table>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=DWC_HDMI_Controller&amp;oldid=17615">http://linux-sunxi.org/index.php?title=DWC_HDMI_Controller&amp;oldid=17615</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=DWC+HDMI+Controller&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=DWC+HDMI+Controller" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/DWC_HDMI_Controller" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:DWC_HDMI_Controller&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/DWC_HDMI_Controller">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=DWC_HDMI_Controller&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=DWC_HDMI_Controller&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/DWC_HDMI_Controller" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/DWC_HDMI_Controller" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=DWC_HDMI_Controller&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=DWC_HDMI_Controller&amp;oldid=17615" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 13 June 2016, at 21:24.</li>
+<li id="footer-info-viewcount">This page has been accessed 923 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

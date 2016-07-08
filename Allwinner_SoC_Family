@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Allwinner SoC Family - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Allwinner_SoC_Family","wgTitle":"Allwinner SoC Family","wgCurRevisionId":17527,"wgArticleId":771,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["System on Chip"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Allwinner_SoC_Family","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Allwinner_SoC_Family"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Allwinner_SoC_Family skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Allwinner SoC Family</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#SoC_series"><span class="tocnumber">1</span> <span class="toctext">SoC series</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.22A.22-Series"><span class="tocnumber">1.1</span> <span class="toctext">"A"-Series</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#.22H.22-Series"><span class="tocnumber">1.2</span> <span class="toctext">"H"-Series</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#.22R.22-Series"><span class="tocnumber">1.3</span> <span class="toctext">"R"-Series</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#.22F.22-Series"><span class="tocnumber">1.4</span> <span class="toctext">"F"-Series</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#2013_naming_scheme_change"><span class="tocnumber">2</span> <span class="toctext">2013 naming scheme change</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Features"><span class="tocnumber">3</span> <span class="toctext">Features</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Comparison_table"><span class="tocnumber">3.1</span> <span class="toctext">Comparison table</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="SoC_series"> SoC series </span></h1>
+<h2> <span class="mw-headline" id=".22A.22-Series"> "A"-Series </span></h2>
+<p>Based on ARMv7 Cortex-A cores (Cortex-A7, A8 and A15) targeted for high-end devices like digital media players, tablets, and netbooks:
+</p>
+<table class="wikitable">
+<tr>
+<td> <a href="/A10" title="A10">Allwinner A10</a> </td>
+<td> <small>(sun4i)</small> </td>
+<td> 1 x Cortex-A8 CPU-core
+</td></tr>
+<tr>
+<td> <a href="/A13" title="A13">Allwinner A13</a> </td>
+<td> <small>(sun5i)</small> </td>
+<td> 1 x Cortex-A8 CPU-core
+</td></tr>
+<tr>
+<td> <a href="/A10s" title="A10s">Allwinner A10s</a> </td>
+<td> <small>(sun5i)</small> </td>
+<td> 1 x Cortex-A8 CPU-core
+</td></tr>
+<tr>
+<td> <a href="/A20" title="A20">Allwinner A20</a> </td>
+<td> <small>(sun7i)</small> </td>
+<td> 2 x Cortex-A7 CPU-cores
+</td></tr>
+<tr>
+<td> <a href="/A23" title="A23">Allwinner A23</a> </td>
+<td> <small>(sun8i)</small> </td>
+<td> 2 x Cortex-A7 CPU-cores
+</td></tr>
+<tr>
+<td> <a href="/A31" title="A31">Allwinner A31</a> </td>
+<td> <small>(sun6i)</small> </td>
+<td> 4 x Cortex-A7 CPU-cores
+</td></tr>
+<tr>
+<td> <a href="/A31s" title="A31s" class="mw-redirect">Allwinner A31s</a> </td>
+<td> <small>(sun6i)</small> </td>
+<td> 4 x Cortex-A7 CPU-cores
+</td></tr>
+<tr>
+<td> <a href="/A33" title="A33">Allwinner A33</a> </td>
+<td> <small>(sun8i)</small> </td>
+<td> 4 x Cortex-A7 CPU-cores
+</td></tr>
+<tr>
+<td> <a href="/A80" title="A80">Allwinner A80</a> </td>
+<td> <small>(sun9i)</small> </td>
+<td> 4 x Cortex-A7 CPU-cores + 4 x Cortex-A15 CPU-cores&#160;<br/><small>(using ARM big.LITTLE heterogeneous CPU architecture)</small>
+</td></tr>
+<tr>
+<td> <a href="/A83T" title="A83T">Allwinner A83T</a>&#160; </td>
+<td> <small>(sun8i)</small>&#160; </td>
+<td> 8 x Cortex-A7 CPU-cores
+</td></tr></table>
+<p><b>64-bit</b>
+</p>
+<table class="wikitable">
+<tr>
+<td> <a href="/A64" title="A64">Allwinner A64</a>&#160; </td>
+<td> <small>(sun50i)</small>&#160; </td>
+<td> 4 x Cortex-A53 CPU-core
+</td></tr></table>
+<h2> <span class="mw-headline" id=".22H.22-Series"> "H"-Series </span></h2>
+<p>Based on ARMv7/ARMv8 Cortex-A cores (A7/A53) targeted for video OTT (over-the-top) boxes and high-end gaming consoles:
+</p>
+<table class="wikitable">
+<tr>
+<td> <a href="/H3" title="H3">Allwinner H3</a>&#160; </td>
+<td> <small>(sun8i)</small>&#160; </td>
+<td> 4 x Cortex-A7 CPU-core&#160;
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=H8&amp;action=edit&amp;redlink=1" class="new" title="H8 (page does not exist)">Allwinner H8</a><sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> </td>
+<td> <small>(sun8i)</small> </td>
+<td> 8 x Cortex-A7 CPU-core
+</td></tr></table>
+<p><b>64-bit</b>
+</p>
+<table class="wikitable">
+<tr>
+<td> <a href="/H64" title="H64">Allwinner H64</a><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> </td>
+<td> <small>(sun50i)</small> </td>
+<td> 4 x Cortex-A53 CPU-core
+</td></tr></table>
+<h2> <span class="mw-headline" id=".22R.22-Series"> "R"-Series </span></h2>
+<table class="wikitable">
+<tr>
+<td> <a href="/R8" title="R8">Allwinner R8</a><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> </td>
+<td> <small>(sun5i)</small>&#160; </td>
+<td> 1 x Cortex-A8 CPU-core
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=R16&amp;action=edit&amp;redlink=1" class="new" title="R16 (page does not exist)">Allwinner R16</a><sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> </td>
+<td> <small>(sun8i)</small> </td>
+<td> 4 x Cortex-A7 CPU-core
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=R58&amp;action=edit&amp;redlink=1" class="new" title="R58 (page does not exist)">Allwinner R58</a><sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup>&#160; </td>
+<td> <small>(sun8i)</small> </td>
+<td> 8 x Cortex-A7 CPU-core
+</td></tr></table>
+<p>The Allwinner R8 is repackaged version of the A13. This SoC gets used in the minicomputer presented in Next Thing Co.'s <a href="/NextThingCo_CHIP" title="NextThingCo CHIP"><i>C.H.I.P.</i></a> kickstarter project ("The $9 computer")<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup>.
+</p><p>By comparing the product pages the R16 seems to be a relabeled version of A33.
+</p><p><b>64-bit</b>
+</p>
+<table class="wikitable">
+<tr>
+<td> <a href="/index.php?title=R18&amp;action=edit&amp;redlink=1" class="new" title="R18 (page does not exist)">Allwinner R18</a></td>
+<td> <small>sun50i</small> </td>
+<td> 4 x Cortex-A53 CPU-core
+</td></tr></table>
+<h2> <span class="mw-headline" id=".22F.22-Series"> "F"-Series </span></h2>
+<dl><dd><b><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> The F series is not supported by the linux-sunxi community due to lack of developers and hardware. <i>sun3i</i> have only official linux support, <i>sunii</i> have no linux support, only Allwinner's "Melis" RTOS.</b>
+</dd></dl>
+<p>Based on ARMv6 ARM926-EJS core and currently targeted for low market devices such as cheap ebook readers, etc.
+</p>
+<table class="wikitable">
+<tr>
+<td> <a href="/index.php?title=C100&amp;action=edit&amp;redlink=1" class="new" title="C100 (page does not exist)">Boxchip C100</a> </td>
+<td> <small>(sun3i)</small>
+</td></tr>
+<tr>
+<td> <a href="/E200" title="E200">Boxchip E200</a> </td>
+<td> <small>(sun3i)</small>
+</td></tr>
+<tr>
+<td> <a href="/F20" title="F20">Boxchip F20</a> </td>
+<td> <small>(sun3i)</small>
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=F10&amp;action=edit&amp;redlink=1" class="new" title="F10 (page does not exist)">Boxchip F10</a> <small>aka SoChip SC9800 aka Teclast T8100</small>&#160; </td>
+<td> <small>(sunii)</small>
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=F13&amp;action=edit&amp;redlink=1" class="new" title="F13 (page does not exist)">Boxchip F13</a> </td>
+<td> <small>(sunii)</small>
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=F13&amp;action=edit&amp;redlink=1" class="new" title="F13 (page does not exist)">Boxchip F15</a> <small>aka SoChip SC8600 aka Teclast T7200</small> </td>
+<td> <small>(sunii)</small>
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=F18&amp;action=edit&amp;redlink=1" class="new" title="F18 (page does not exist)">Boxchip F18</a> </td>
+<td> <small>(sunii)</small>
+</td></tr></table>
+<h1> <span class="mw-headline" id="2013_naming_scheme_change"> 2013 naming scheme change </span></h1>
+<p>Initially, Allwinner named their SoCs chronologically:
+</p>
+<ul><li> sun4i = A10
+</li><li> sun5i = A13/A10s
+</li><li> sun6i = A31
+</li><li> sun7i = A20
+</li></ul>
+<p>But, somewhere in 2013, Allwinner decided to update their naming scheme to be based on the ARM core used instead: (taken from the A80 SDK kernel code)
+</p>
+<pre>sunxi
+|-- sun4i  -----------------------------&#160;: cortex-a8
+|   |-- sun4iw1   --------------- wafer1
+|   |   `-- sun4iw1p1  ----- a10
+|   `-- sun4iw2   --------------- wafer2
+|       |-- sun4iw2p1  ----- a13
+|       |-- sun4iw2p2  ----- a12
+|       `-- sun4iw2p3  ----- a10s
+|-- sun8i  -----------------------------&#160;: cortex-a7 smp
+|   |-- sun8iw1  --------------- wafer1
+|   |   |-- sun8iw1p1  ----- a31
+|   |   `-- sun8iw1p2  ----- a31s
+|   |-- sun8iw2  --------------- wafer2
+|   |   |-- sun8iw2p1  ----- a20
+|   |   `-- sun8iw2p2
+|   |-- sun8iw3  --------------- wafer3
+|   |   |-- sun8iw3p1  ----- a23
+|   |   `-- sun8iw3p2
+|   |-- sun8iw5
+|   |   `-- sun8iw5p1  ----- a33
+|   `-- sun8iw6
+|       `-- sun8iw6p1  ----- a83t
+|   `-- sun8iw7
+|       `-- sun8iw7p1  ----- h3
+|-- sun9i  -----------------------------&#160;: cortex-a15.cortex-a7 big.LITTLE
+|   `-- sun9iw1
+|       |-- sun9iw1p1  ----- a80
+|       `-- sun9iw1p2  ----- a80t
+`-- sun50i -----------------------------&#160;: cortex-a53 smp
+    `-- sun50iw1
+        `-- sun50iw1p1 ----- a64</pre>
+<p>This new naming scheme is of absolutely no value with respect to the rest of the SoC. The actual ARM core(s) used are usually the least important piece of information for SoC support. This table completely ignores the fact that A20 is an updated A10 and is pin compatible. It also ignores the fact that A31 introduced a lot of changes which were carried on to the A23/A33 and possibly A80 parts. It therefore is quite likely that this naming scheme was purely a marketing decision, and that Allwinner marketing will change its mind again.
+</p>
+<h1> <span class="mw-headline" id="Features"> Features </span></h1>
+<ul><li> CPU: ARMv7-A <a class="external text" href="http://en.wikipedia.org/wiki/ARM_Cortex-A7">Cortex-A7</a>, <a class="external text" href="http://en.wikipedia.org/wiki/ARM_Cortex-A15">Cortex-A15</a> or <a class="external text" href="http://en.wikipedia.org/wiki/ARM_Cortex-A8">Cortex-A8</a> Central Processor Unit with (co-)processor extensions:
+<ul><li> Advanced SIMD: <a class="external text" href="http://en.wikipedia.org/wiki/ARM_architecture#Advanced_SIMD_.28NEON.29">NEON</a> (ARM's extended general-purpose advanced SIMD vector processing extension engine)
+</li><li> <a href="/index.php?title=Vector_Floating_Point_Unit&amp;action=edit&amp;redlink=1" class="new" title="Vector Floating Point Unit (page does not exist)">Vector Floating Point Unit</a> (<a class="external text" href="http://en.wikipedia.org/wiki/ARM_architecture#Floating-point_.28VFP.29">VFPU</a>): ARM VFPv3 lite (Cortex-A8) / VFPv4 (Cortex-A7)
+</li><li> Security Extensions:
+<ul><li> <a class="external text" href="http://en.wikipedia.org/wiki/ARM_architecture#Security_extensions_.28TrustZone.29">TrustZone</a> secure world
+</li><li> <a href="/Security_System" title="Security System">Security accelerator</a> supporting AES, DES, 3DES, SHA-1, MD5 and pseudo-random number generation
+</li></ul>
+</li><li> <a class="external text" href="http://en.wikipedia.org/wiki/ARM_architecture#Thumb-2">Thumb-2</a> instruction set extension for optimized code to reduce memory footprint and improve performance
+</li></ul>
+</li><li> GPU: <a href="/Mali400" title="Mali400">Mali400</a>, Mali400-MP2, SGX544 or PowerVR G6230 Graphics Procesor Unit, supporting OpenGL ES2.
+</li><li> VPU: <a href="/Cedar_Engine" title="Cedar Engine" class="mw-redirect">Cedar Engine</a> (Video Processor Unit for audio and video hardware decoding or encoding)
+</li><li> HDMI-transmitter with <a class="external text" href="http://en.wikipedia.org/wiki/HDMI#CEC">HDMI CEC</a> (Consumer Electronics Control), with exception of A13 which lacks HDMI-transmitter and SATA-controller<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup>
+</li><li> Hardware virtualization capabilities (Cortex-A7 only).
+</li><li> Up to 4GB memory (Cortex-A8), Up to 1TB memory with LPAE (Cortex-A7 only).
+</li></ul>
+<h2> <span class="mw-headline" id="Comparison_table"> Comparison table </span></h2>
+<table class="wikitable">
+<tr>
+<th scope="row"> </th>
+<th> <a href="/A10" title="A10">A10</a> </th>
+<th> <a href="/A10s" title="A10s">A10s</a> </th>
+<th> <a href="/A13" title="A13">A13</a> </th>
+<th> <a href="/A20" title="A20">A20</a> </th>
+<th> <a href="/A23" title="A23">A23</a> </th>
+<th> <a href="/A31" title="A31">A31</a> </th>
+<th> <a href="/A31s" title="A31s" class="mw-redirect">A31s</a> </th>
+<th> <a href="/A33" title="A33">A33</a> </th>
+<th> <a href="/A80" title="A80">A80</a>
+</th></tr>
+<tr>
+<th scope="row"> Generation
+</th>
+<td> sun4i </td>
+<td> sun5i </td>
+<td> sun5i </td>
+<td> sun7i </td>
+<td> sun8i </td>
+<td> sun6i </td>
+<td> sun6i </td>
+<td> sun8i </td>
+<td> sun9i
+</td></tr>
+<tr>
+<th scope="row"> CPU
+</th>
+<td> Cortex-A8 </td>
+<td> Cortex-A8 </td>
+<td> Cortex-A8 </td>
+<td> Cortex-A7 </td>
+<td> Cortex-A7 </td>
+<td>Cortex-A7 </td>
+<td> Cortex-A7 </td>
+<td> Cortex-A7 </td>
+<td> Cortex-A7 / A15
+</td></tr>
+<tr>
+<th scope="row"> CPU Maximum frequency
+</th>
+<td> 1 GHz</td>
+<td> 1 GHz </td>
+<td> 1 GHz</td>
+<td> 960 MHz</td>
+<td> 1.5 GHz </td>
+<td>&#160;? GHz </td>
+<td>&#160;? GHz </td>
+<td> 1.5 GHz </td>
+<td> 2 (??) GHz
+</td></tr>
+<tr>
+<th scope="row"> Cores
+</th>
+<td> 1 </td>
+<td> 1 </td>
+<td> 1 </td>
+<td> 2 </td>
+<td> 2 </td>
+<td> 4 </td>
+<td> 4 </td>
+<td> 4 </td>
+<td> 2 x 4
+</td></tr>
+<tr>
+<th scope="row"> Extensions
+</th>
+<td> NEON, VFPv3, Thumb-2 </td>
+<td> NEON, VFPv3, Thumb-2 </td>
+<td> NEON, VFPv3, Thumb-2 </td>
+<td> NEON, VFPv3 / VFPv4, Thumb-2 </td>
+<td>NEON, VFPv3 / VFPv4, Thumb-2 </td>
+<td> NEON, VFPv3 / VFPv4, Thumb-2 </td>
+<td> NEON, VFPv3 / VFPv4, Thumb-2 </td>
+<td> NEON, VFPv3 / VFPv4, Thumb-2 </td>
+<td>&#160;? (A80)
+</td></tr>
+<tr>
+<th scope="row"> Memory
+</th>
+<td> DDR2, DDR3</br> (max 2GB @ DDR800) </td>
+<td> DDR2, DDR3</br> (max 2GB @ DDR800) </td>
+<td> DDR2, DDR3</br> (max 512MB @ DDR800) </td>
+<td> LPDDR3, DDR3,</br>LPDDR2 </td>
+<td> DDR3</br>(max 1GB) </td>
+<td> 2-channel DDR3, LPDDR2, </br>2-channel DDR3L, DDR3U </td>
+<td> DDR3, DDR3L, LPDDR2 </td>
+<td>&#160;? (A33) </td>
+<td> 2-channel DDR3, DDR3L, LPDDR3, LPDDR2</br> up to 8GB
+</td></tr>
+<tr>
+<th scope="row"> GPU
+</th>
+<td> <a href="/Mali400" title="Mali400">Mali400</a></br>320&#160;MHz </td>
+<td> <a href="/Mali400" title="Mali400">Mali400</a></br>320&#160;MHz </td>
+<td> <a href="/Mali400" title="Mali400">Mali400</a></br>320&#160;MHz </td>
+<td> <a href="/Mali400" title="Mali400">Mali400</a>-MP2</br>350&#160;MHz </td>
+<td> <a href="/Mali400" title="Mali400">Mali400</a>-MP2 </td>
+<td> SGX544</br>200&#160;MHz </td>
+<td> SGX544</br>200&#160;MHz </td>
+<td> <a href="/Mali400" title="Mali400">Mali400</a>-MP2 </td>
+<td> 64-core PowerVR G6230
+</td></tr>
+<tr>
+<th scope="row"> GPU API
+</th>
+<td> OpenGL ES 2.0, OpenVG 1.1 </td>
+<td> OpenGL ES 2.0, OpenVG 1.1 </td>
+<td> OpenGL ES 2.0, OpenVG 1.1 </td>
+<td> OpenGL ES 2.0, OpenVG 1.1 </td>
+<td> OpenGL ES 2.0, OpenVG 1.1 </td>
+<td> OpenGL ES 2.0, OpenVG 1.1, OpenCL 1.1, and DirectX 9.3 </td>
+<td> OpenGL ES 2.0, OpenVG 1.1, OpenCL 1.1, and DirectX 9.3 </td>
+<td> OpenGL ES 2.0, OpenVG 1.1 </td>
+<td> OpenGL 3.x, OpenGL ES Next,3.0,2.0, Open CL 1.x, DirectX 11 level 9_3/10_0<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup>
+</td></tr>
+<tr>
+<th scope="row"> <a href="/Cedar_Engine" title="Cedar Engine" class="mw-redirect">Video decoder</a>
+</th>
+<td> 2160p </td>
+<td> 1080p </td>
+<td> 1080p </td>
+<td> 2160p, 4K×2K, 1080p 3D </td>
+<td> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e0d1d0d8d090a0d6d0869093">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> </td>
+<td> 2160p, 4K×2K, 1080p 3D </td>
+<td> 2160p, 1080p 3D </td>
+<td> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="99a8a9a1a9e9d9afa9ffe9ea">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> </td>
+<td>&#160;? (A80)
+</td></tr>
+<tr>
+<th scope="row"> <a href="/Cedar_Engine" title="Cedar Engine" class="mw-redirect">Video encoder</a>
+</th>
+<td> H.264 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="3d0c0d050d4d7d0e0d5b4d4e">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, JPEG </td>
+<td> H.264 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="4776777f7737077477213734">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, JPEG </td>
+<td> H.264 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="cbfafbf3fbbb8bf8fbadbbb8">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, JPEG </td>
+<td> H.264 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0e3f3e363e7e4e3d3e687e7d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, JPEG </td>
+<td> <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="8dbcbdb5bdfdcdbbbdebfdfe">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> </td>
+<td> H.264 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c6f7f6fef6b686f0f6a0b6b5">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, JPEG </td>
+<td> H264 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="eddcddd5dd9daddedd8b9d9e">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="9baca9abebdbadabfdebe8">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> </td>
+<td>&#160;? (A33) </td>
+<td> H.264 HP/VP8 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="ac98e7d49ee7ec9f9ccadc">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</td></tr>
+<tr>
+<th scope="row"> Audio decoder
+</th>
+<td> AC3, DTS </td>
+<td>&#160;? </td>
+<td>&#160;? </td>
+<td> AC3, DTS </td>
+<td> - </td>
+<td>&#160;? (A31) </td>
+<td>&#160;? (A31S) </td>
+<td>&#160;? (A33) </td>
+<td>&#160;? (A80)
+</td></tr>
+<tr>
+<th scope="row"> Video interfaces
+</th>
+<td> HDMI 1.3, YPbPr, VGA, CPU/RGB/LVDS LCD </td>
+<td> HDMI 1.3, RGB/LVDS LCD </td>
+<td> RGB LCD, VGA</td>
+<td> HDMI 1.4, CVBS, YPbPr, VGA, CPU/RGB/LVDS LCD </td>
+<td> CPU/RGB/LVDS LCD, MIPI DSI </td>
+<td> HDMI 1.4, MIPI DSI, 2-channel LVDS, 2-channel RGB LCD </td>
+<td> HDMI 1.4, LVDS, RGB LCD </td>
+<td>&#160;? (A33) </td>
+<td> HDMI 4K, RGB LCD <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0b393b3f33733a3e383d4b3d3b6d7b78">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, dual-channel LVDS <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="ffcec6cdcf87cecfc7cfbfc9cf998f8c">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, 4-lane MIPI DSI <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="86b7bfb4b6feb7b4b6b6c6b0b6e0f6f5">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, 4-lane eDP <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="3f0d0a090f470e090f0f7f090f594f4c">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</td></tr>
+<tr>
+<th scope="row"> Audio interfaces
+</th>
+<td> I2S, SPDIF, AC97 </td>
+<td> I2S, AC97 </td>
+<td> I2S, AC97 </td>
+<td> I2S, PCM, AC97 </td>
+<td> I2S, PCM </td>
+<td> 2 I2S, 2 PCM </td>
+<td> I2S, 2 PCM </td>
+<td>&#160;? (A33) </td>
+<td>&#160;? (A80)
+</td></tr>
+<tr>
+<th scope="row"> USB OTG
+</th>
+<td> 1 </td>
+<td> 1 </td>
+<td> 1 </td>
+<td> 1 </td>
+<td> 1 </td>
+<td> 1 </td>
+<td> 1 </td>
+<td>&#160;? (A33) </td>
+<td> 1
+</td></tr>
+<tr>
+<th scope="row"> USB Host
+</th>
+<td> 2 </td>
+<td> 1 </td>
+<td> 1 </td>
+<td> 2 </td>
+<td> 1 </td>
+<td> 2 </td>
+<td> 2 </td>
+<td>&#160;? (A33) </td>
+<td> 2x USB Host, USB 3.0/2.0 Dual-Role (host/device)
+</td></tr>
+<tr>
+<th scope="row"> Ethernet
+</th>
+<td> EMAC </td>
+<td> EMAC </td>
+<td> - </td>
+<td> EMAC/GMAC </td>
+<td> - </td>
+<td> GMAC </td>
+<td> GMAC </td>
+<td> - </td>
+<td> GMAC
+</td></tr>
+<tr>
+<th scope="row"> Storage
+</th>
+<td> NAND (max 64GB), SATA II, SD Card 3.0 </td>
+<td> NAND (max 64GB), SD Card 3.0 </td>
+<td> NAND (max 64GB), SD Card 3.0 </td>
+<td> NAND, MMC, <a rel="nofollow" class="external text" href="http://olimex.wordpress.com/2013/04/05/allwinners-a10-and-a20-are-they-really-pin-to-pin-compatible-and-drop-in-replacement/#comment-5452">SATA</a> </td>
+<td> raw NAND, eMMC, SD card </td>
+<td> 4 x SD Card, eMMC NAND, 2-channel raw NAND </td>
+<td> 4 x SD Card, eMMC NAND, raw NAND </td>
+<td> 3 x SD Card, eMMC NAND, raw NAND </td>
+<td> 4 x SD/MMC
+</td></tr>
+<tr>
+<th scope="row"> Package
+</th>
+<td> BGA441</br>19&#160;mm&#160;×&#160;19&#160;mm</br>0.80&#160;mm Pitch </td>
+<td> BGA336</br>14&#160;mm&#160;×&#160;14&#160;mm</br>0.65&#160;mm Pitch </td>
+<td> eLQFP176</br>20&#160;mm&#160;×&#160;20&#160;mm </td>
+<td>BGA441</br>19&#160;mm&#160;×&#160;19&#160;mm</br>0.80&#160;mm Pitch </td>
+<td> FBGA280</br>14&#160;mm&#160;x&#160;14&#160;mm&#160;x&#160;1.4&#160;mm</br>0.80&#160;mm Pitch </td>
+<td> BGA609</br>18&#160;mm&#160;×&#160;8&#160;mm</br>0.65&#160;mm Pitch </td>
+<td>&#160;? (A31S) </td>
+<td>&#160;? (Allwinner: pin compatible with A23) </td>
+<td>&#160;? (A80)
+</td></tr>
+<tr>
+<th scope="row"> Lithography
+</th>
+<td> 55 nm </td>
+<td> 55 nm</td>
+<td> 55 nm </td>
+<td> 40 nm </td>
+<td> 40 nm </td>
+<td> 40 nm </td>
+<td> 40 nm </td>
+<td> 40 nm </td>
+<td> 28 nm
+</td></tr></table>
+<p><sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup>
+</p>
+<h1> <span class="mw-headline" id="References"> References </span></h1>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.allwinnertech.com/clq/processorh/AllwinnerH8.html">http://www.allwinnertech.com/clq/processorh/AllwinnerH8.html</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.allwinnertech.com/plus/view.php?aid=6056">http://www.allwinnertech.com/plus/view.php?aid=6056</a></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.allwinnertech.com/en/clq/R_series/2015/0514/R8.html">http://www.allwinnertech.com/en/clq/R_series/2015/0514/R8.html</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.allwinnertech.com/en/clq/R_series/2015/0514/R16.html">http://www.allwinnertech.com/en/clq/R_series/2015/0514/R16.html</a></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.allwinnertech.com/en/clq/R_series/2015/0514/R58.html">http://www.allwinnertech.com/en/clq/R_series/2015/0514/R58.html</a></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://nextthing.co/">http://nextthing.co/</a></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://olimex.wordpress.com/2012/04/24/cortex-a8-in-tqfp-sure-allwinner-a13/">"Cortex A8 in TQFP? sure Allwinner A13"</a> <i>Retrieved 23 September 2012</i></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.imgtec.com/news/detail.asp?ID=845">http://www.imgtec.com/news/detail.asp?ID=845</a></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://blog.thinkteletronics.com/all-mobile-socsolutions/">http://blog.thinkteletronics.com/all-mobile-socsolutions/</a> All Mobile Soc/Solutions.</span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Allwinner_SoC_Family&amp;oldid=17527">http://linux-sunxi.org/index.php?title=Allwinner_SoC_Family&amp;oldid=17527</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:System_on_Chip" title="Category:System on Chip">System on Chip</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Allwinner+SoC+Family&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Allwinner+SoC+Family" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Allwinner_SoC_Family" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Allwinner_SoC_Family" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Allwinner_SoC_Family">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Allwinner_SoC_Family&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Allwinner_SoC_Family&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Allwinner_SoC_Family" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Allwinner_SoC_Family" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Allwinner_SoC_Family&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Allwinner_SoC_Family&amp;oldid=17527" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 6 June 2016, at 22:01.</li>
+<li id="footer-info-viewcount">This page has been accessed 65,973 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

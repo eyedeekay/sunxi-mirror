@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>GSL1680 - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"GSL1680","wgTitle":"GSL1680","wgCurRevisionId":17136,"wgArticleId":709,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Hardware"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"GSL1680","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/GSL1680"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-GSL1680 skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">GSL1680</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The <b>GSL1680</b> is a chip designed to add capacitive, multitactile capabilities to LCD screens. Is used in several devices.
+</p><p>See also <a href="/Touchscreen#Silead" title="Touchscreen">Touchscreen#Silead</a>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#GPIO"><span class="tocnumber">1</span> <span class="toctext">GPIO</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Linux_driver"><span class="tocnumber">2</span> <span class="toctext">Linux driver</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#I2C_communication"><span class="tocnumber">3</span> <span class="toctext">I2C communication</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Touch_coordinates_format"><span class="tocnumber">4</span> <span class="toctext">Touch coordinates format</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Chip_initialization"><span class="tocnumber">5</span> <span class="toctext">Chip initialization</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Firmware"><span class="tocnumber">6</span> <span class="toctext">Firmware</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Datasheet"><span class="tocnumber">7</span> <span class="toctext">Datasheet</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="GPIO">GPIO</span></h2>
+<p>The chip has four main pins to communicate with a CPU:
+</p>
+<ul><li> SDA and SCL: these two pins conform an <a class="external text" href="http://en.wikipedia.org/wiki/I%C2%B2C">I2C bus</a>, allowing to exchange data between the chip and the main CPU.
+</li><li> IOCNTL: this pin, when active (logic 1) enables the chip, making it to answer to I2C commands and read the touch screen. When inactive (logic 0), the chip is in Low Power state.
+</li><li> INT: when there is data available (a press) or in other cases (not sure, not have enough documentation), this pin gets active to signal this to the CPU.
+</li></ul>
+<h2> <span class="mw-headline" id="Linux_driver">Linux driver</span></h2>
+<p>Currently, there is no driver in sunxi-3.4 or upstream kernel for this chip, but the driver is available from multiple 3rd party locations:
+</p>
+<ul><li> <a class="external text" href="https://github.com/jwrdegoede/gslX68X">gslX68X</a> - supports multiple different versions of silead chips, though you need device-specific firmware.
+</li><li> <a class="external text" href="https://github.com/jabjoe/sunxi-gslx680">gslx680-for-sunxi</a>
+</li><li> <a rel="nofollow" class="external text" href="http://code.google.com/p/yuandao-n90-window-dual-core-2/source/browse/drivers/input/touchscreen/gslx680_ts.c">gslx680 from Yuandao N90 SDK</a> - original source code which was used for sunxi-3.4 port.
+</li></ul>
+<p>Eventually the support for this device appeared as <b>two</b> different drivers in <a href="/A23" title="A23">A23</a> SDK:
+</p>
+<ul><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/drivers/input/touchscreen/gslx680/">gslx680</a>
+</li><li> <a class="external text" href="http://dl.linux-sunxi.org/SDK/A23-v1.0/unpacked/A23/lichee/linux-3.4/drivers/input/touchscreen/gslx680new/">gslx680new</a>
+</li></ul>
+<p>There is also an user-space driver (which uses the UFILE system to link to the INPUT subsystem) available at <a class="external free" href="https://github.com/rastersoft/gsl1680">https://github.com/rastersoft/gsl1680</a>. Since it works like a true INPUT driver, it is fully compatible with Xorg and any other program in Linux compatible with a mouse. This driver has the advantage of emulating the mouse wheel when moving two fingers over the screen, allowing to use standard applications. It also emulates Ctrl+MENU when touching with three fingers, which allows to integrate with <a href="/Windowmanager" title="Windowmanager">TabletWM</a>.
+</p>
+<h2> <span class="mw-headline" id="I2C_communication">I2C communication</span></h2>
+<p>The communication between the chip and the CPU is done using an I2C bus. The GSL1680 always answers at the address 0x40. This allows to know if our device has a GSL1680 chip by using, under Linux, the command
+</p>
+<pre>   i2cdetect X
+</pre>
+<p>with X a number between 0 and the number of I2C buses in our system. If there isn't a device at address 0x40 in any of the buses, the device doesn't have a GSL1680.
+</p><p>The CPU can read or write in several eight-bit registers, allocated inside the GSL1680. Each time an I2C transmission starts, the first byte contains a register number, and the other bytes contain data to be stored in that register and the next ones. This is, if we send:
+</p>
+<pre>   START(W) 0x10 0x00 0x01 0xF5 0x41 0xFF STOP
+</pre>
+<p>the chip will store a 0x00 value in register 0x10; a 0x01 value in register 0x11; a 0xF5 value in register 0x12, and so on.
+</p><p>To read from the chip, just write a single byte with the register number to start to read, and then do as many reads as registers to read.
+</p><p>The known registers are:
+</p>
+<ul><li> 0x00-0x7F: these registers are used to load portions of the firmware
+</li><li> 0x80: contains the number of touches in the screen. If zero, the user isn't touching the screen; if one, only one finger is on the screen; if two, there are two fingers; and so on.
+</li><li> 0x84-0x87: contains the coordinates for the first touch.
+</li><li> 0x88-0x8B: contains the coordinates for the second touch.
+</li><li> 0x8C-0xAB: contains the coordinates for the third, fourth, and so on (up to five in some devices, up to ten in other), touches, in the same format than the previous ones (four bytes for each touch).
+</li><li> 0xE0: STATUS register
+</li><li> 0xE4, 0xBC-0xBF: some kind of control registers. Needed for uploading the firmware and soft resetting the chip (there's not more data available about them).
+</li><li> 0xF0: PAGE register. Contains the memory page number currently mapped in the 0x00-0x7F registers.
+</li></ul>
+<h2> <span class="mw-headline" id="Touch_coordinates_format">Touch coordinates format</span></h2>
+<p>The four bytes of each group of coordinates contains the X and Y values, and also the finger.
+</p><p>The first two bytes contains, in little endian format, the X coordinate in the 12 lower bits. The other two bytes contains, in little endian format, the Y coordinate in the 12 lower bits.
+</p><p>The 4 upper bits in the Y coordinate contains the finger identifier that did the touch.
+</p><p>Example:
+</p><p>Let's say that the user touches the screen with one finger. The register 0x80 will contain 1, and registers 0x84 to 0x87 will contain the X and Y coordinates, and the finger identifier will be 1.
+</p><p>Now the user, without removing the first finger, touches the screen with a second finger. The register 0x80 will contain 2. Registers 0x84 to 0x87 will contain the X and Y coordinates of the first touch and the finger identifier in them will be 1. Registers 0x88 to 0x8B will contain the X and Y coordinates of the second touch and the finger identifier in them will be 2.
+</p><p>Now the user removes the first finger, keeping the second one. The register 0x80 will contain 1. Registers 0x84 to 0x87 will contain the X and Y coordinates, but the finger identifier will be 2, because that's the finger that remains in the screen.
+</p>
+<h2> <span class="mw-headline" id="Chip_initialization">Chip initialization</span></h2>
+<p>The driver shows a quite obscure initialization procedure:
+</p>
+<ul><li> Enable the chip (<i>set IOCTNL to 1</i>)
+</li><li> Reset the chip (<i>explained later</i>)
+</li><li> Upload the firmware (<i>explained later</i>)
+</li><li> Startup chip (<i>set STATUS register to 0</i>)
+</li><li> Reset the chip
+</li><li> Disable the chip (<i>set IOCTNL to 0</i>)
+</li><li> Wait 50 ms
+</li><li> Enable the chip (<i>set IOCTNL to 1</i>)
+</li><li> Wait 30 ms
+</li><li> Disable the chip (<i>set IOCTNL to 0</i>)
+</li><li> Wait 5 ms
+</li><li> Enable the chip (<i>set IOCTNL to 1</i>)
+</li><li> Wait 20 ms
+</li><li> Reset the chip
+</li><li> Startup chip (<i>set STATUS register to 0</i>)
+</li></ul>
+<p>After this procedure, the chip will start to read touches and sending events.
+</p><p>To reset the chip, as requested in the previous process, follow this procedure:
+</p>
+<ul><li> set the STATUS register to 0x88
+</li><li> wait 10 ms
+</li><li> set register 0xE4 to 0x04
+</li><li> wait 10 ms
+</li><li> set registers 0xBC-0xBF to 0x00
+</li><li> wait 10 ms.
+</li></ul>
+<h2> <span class="mw-headline" id="Firmware">Firmware</span></h2>
+<p>This chip needs a firmware to be loaded before it would be able to work. This firmware seems specific to each device model, so it is mandatory to find it in your device. In the <a href="/XW711" title="XW711"> Szenio 1207</a> tablet, these files are available in <i>/system/etc</i>.
+</p><p>Sometimes the firmware is included in the driver module file, for instance: <i>/system/vendor/modules/gslx680.ko</i>.
+</p><p>To extract the firmware you can use <a rel="nofollow" class="external text" href="https://gitorious.org/gslx680-for-sunxi/gslx680-for-sunxi/source/firmware/fw_extractor">fw_extractor</a> or manually find it from the register sequence and dd it out.
+</p><p><br/>
+The user-space driver supports both a binary format or a plain-text format for the firmware. In the later case, it is divided in chunks, each of a maximum size of 128 bytes. Each chunk must be stored in a different page. Here is an example of one chunk:
+</p>
+<pre>   {0xf0,0x3},
+   {0x00,0xa5a5ffc0},
+   {0x04,0x00000000},
+   {0x08,0xe810c4e1},
+   {0x0c,0xd3dd7f4d},
+   {0x10,0xd7c56634},
+   {0x14,0xe3505a2a},
+   {0x18,0x514d494f},
+   {0x1c,0x5836e48b},
+   {0x20,0x00000000},
+   {0x24,0x00000000},
+   {0x28,0x00000000},
+   {0x2c,0x00000000},
+   {0x30,0x00001000},
+   {0x34,0x00000000},
+   {0x38,0x00000000},
+   {0x3c,0x00000000},
+   {0x40,0x00000001},
+   {0x44,0x00000000},
+   {0x48,0x00000000},
+   {0x4c,0x00000000},
+   {0x50,0x00000000},
+   {0x54,0x01020304},
+   {0x58,0x05060708},
+   {0x5c,0x090a0b0c},
+   {0x60,0x0d0e0e0f},
+   {0x64,0x10111213},
+   {0x68,0x14151617},
+   {0x6c,0x18191a1b},
+   {0x70,0x1b1c1e1f},
+   {0x74,0x00000000},
+   {0x78,0x00010000},
+   {0x7c,0x8c846af3},
+</pre>
+<p>Each line contains a pair of elements. The first one is the register number where the data must be stored; the second one is the data itself.
+</p><p>The first line has 0xF0 as register number. This is the PAGE register. This line specifies the page where this chunk must be stored. In this example it is the page number 0x03.
+</p><p>The other 32 lines contains the firmware itself, preceded by the offset for each 4-byte value. In this example, our code must write 0xC0 into the register 0x00; 0xFF into the register 0x01; 0xA5 into the register 0x02 and 0x05 again into the register 0x03 (remember that the values in ARM are stored in little endian format). Since 0x03 is stored in the PAGE register, the register 0x00 maps to the position 0x180 in memory, register 0x01 to position 0x181, and so on.
+</p><p>Since sending several bytes stores them in correlative registers, in theory the code has to set only 0x00 as the destination register, and send all the bytes of this chunk in one single transfer. Unfortunately, there is usually a limit in the size of a I2C transfer, so it is recommended to not build very large packets, sending each chunk in smaller parts.
+</p>
+<h2> <span class="mw-headline" id="Datasheet"> Datasheet </span></h2>
+<ul><li> <a class="external text" href="http://dl.linux-sunxi.org/touchscreen/GSL1680.pdf">GSL1680, GSL1688 datasheet, rev A1.6 – Oct 2012</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=GSL1680&amp;oldid=17136">http://linux-sunxi.org/index.php?title=GSL1680&amp;oldid=17136</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Hardware" title="Category:Hardware">Hardware</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=GSL1680&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=GSL1680" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/GSL1680" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:GSL1680&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/GSL1680">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=GSL1680&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=GSL1680&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/GSL1680" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/GSL1680" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=GSL1680&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=GSL1680&amp;oldid=17136" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 11 May 2016, at 07:29.</li>
+<li id="footer-info-viewcount">This page has been accessed 18,262 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

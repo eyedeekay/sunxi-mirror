@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Optimizing system performance - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Optimizing_system_performance","wgTitle":"Optimizing system performance","wgCurRevisionId":17516,"wgArticleId":584,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Optimizing_system_performance","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Optimizing_system_performance"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Optimizing_system_performance skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Optimizing system performance</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>When the root filesystem used on the device is a flash memory card or flash memory as will often be the case, the performance bottleneck will often be write access to the root file system. It is therefore beneficial for overall system performance to reduce unnecessary writing by using methods such as ramdisk file systems, tmpfs, and reducing system logging activity.
+</p><p>It is also possible to tweak the kernel and hardware devices to improve performance.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Reducing_system_logging_activity"><span class="tocnumber">1</span> <span class="toctext">Reducing system logging activity</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Optimizing_cache_directories"><span class="tocnumber">2</span> <span class="toctext">Optimizing cache directories</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Using_tmpfs"><span class="tocnumber">3</span> <span class="toctext">Using tmpfs</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Increasing_available_system_memory_at_boot_time"><span class="tocnumber">4</span> <span class="toctext">Increasing available system memory at boot time</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Increasing_the_memory_clock_speed"><span class="tocnumber">5</span> <span class="toctext">Increasing the memory clock speed</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Recompiling_the_kernel"><span class="tocnumber">6</span> <span class="toctext">Recompiling the kernel</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Optimizing_boot_speed"><span class="tocnumber">7</span> <span class="toctext">Optimizing boot speed</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Using_a_lower_resolution_graphics_mode"><span class="tocnumber">8</span> <span class="toctext">Using a lower resolution graphics mode</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Reducing_refresh_rate_for_1920x1080_video_mode"><span class="tocnumber">9</span> <span class="toctext">Reducing refresh rate for 1920x1080 video mode</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Notes_for_A20-based_devices"><span class="tocnumber">10</span> <span class="toctext">Notes for A20-based devices</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Changing_the_CPU_frequency_governor_settings"><span class="tocnumber">11</span> <span class="toctext">Changing the CPU frequency governor settings</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Using_an_optimized_Xorg_driver"><span class="tocnumber">12</span> <span class="toctext">Using an optimized Xorg driver</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Advanced_topic:_Using_more_recent_Mali_drivers"><span class="tocnumber">13</span> <span class="toctext">Advanced topic: Using more recent Mali drivers</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Reducing_system_logging_activity"> Reducing system logging activity </span></h2>
+<p>In a default distro install, system logging is often configured fully, suitable for a server or multi-user system. However, on a single-user system the constant writing of many system log files will result in reduced interactive system performance, and reducing logging activity will be beneficial for performance as well as the lifetime of the flash memory.
+</p><p>In a Debian Wheezy installation, the default system logger is rsyslog, and it configuration file is /etc/rsyslog.conf. In the rules section, the following logs are often enabled by default:
+</p>
+<pre>auth,authpriv.*                        /var/log/auth.log
+*.*;auth,authpriv.none         -/var/log/syslog
+cron.*                         /var/log/cron.log
+daemon.*                       -/var/log/daemon.log
+kern.*                         -/var/log/kern.log
+lpr.*                          -/var/log/lpr.log
+mail.*                         -/var/log/mail.log
+user.*                         -/var/log/user.log
+</pre>
+<p>There may also be rules for -/var/log/debug and -/var/log/messages, and |/dev/xconsole.
+</p><p>Note that kernel messages are logged in both kern.log and syslog, in addition to being available from the dmesg command from kernel memory. In a single user system, it is possible to disable most or all of these logs by placing a '#' character at the start of the corresponding lines. Logs can be re-enabled if it is necessary to debug a system problem.
+</p>
+<h2> <span class="mw-headline" id="Optimizing_cache_directories"> Optimizing cache directories </span></h2>
+<p>Applications like browsers and window managers that use a disk cache may conform to the XDG Base Directory Specification standard. In that case, the environment variable XDG_CACHE_HOME defines the directory where cache files are stored. By setting this variable to a ramdisk location, it is possible to greatly speed-up the performance of certain browsers that otherwise stall with heavy writing to the disk-cache in flash memory. For example, in a Debian Wheezy installation with LXDE, there may be a configuration file called /etc/alternatives/x-session-manager. By adding the line
+</p>
+<pre>export XDG_CACHE_HOME="/dev/shm/.cache"
+</pre>
+<p>to the start of this file, programs running in X conforming to the standard will be using the ramdisk in /dev/shm to store cache files. One browser popular on light-weight configurations that benefits from this is Midori. The default disk cache size in Midori is 100MB, you can lower this if you don't have much system memory available, but you can configure Midori to clean the cache on exit and thus give back the memory to the system in Tools-&gt;Clear Private Data.
+</p><p>In more recent Debian-based root file systems, the tmpfs device is called /run/shm (which must be present in /etc/fstab), and x-session-manager is a binary file, but you can add the same line to a new file in /etc/profile.d/, for example /etc/profile.d/xdg_cache_home.sh, that will be executed at the start of every login. The file should look like this:
+</p>
+<pre> #!/bin/bash
+export XDG_CACHE_HOME="/run/shm/.cache
+</pre>
+<h2> <span class="mw-headline" id="Using_tmpfs"> Using tmpfs </span></h2>
+<p>To mount /tmp and /var/tmp (the directories for temporary files used by programs) on a ramdisk, you may be able to add the following lines to /etc/fstab:
+</p>
+<pre>tmpfs    /tmp        tmpfs    defaults    0 0
+tmpfs    /var/tmp    tmpfs    defaults    0 0
+</pre>
+<p>There should also be line enabling /run/shm as tmpfs:
+</p>
+<pre>tmpfs    /run/shm    tmpfs    defaults    0 0
+</pre>
+<p>Refer to more general documentation sources for your distro for more details.
+</p>
+<h2> <span class="mw-headline" id="Increasing_available_system_memory_at_boot_time"> Increasing available system memory at boot time </span></h2>
+<p>It is possible to increase available system memory at boot time by reducing reserved memory allocated to video subsystems. See <a href="/Kernel_arguments" title="Kernel arguments">Kernel arguments</a> for more details.
+</p>
+<h2> <span class="mw-headline" id="Increasing_the_memory_clock_speed"> Increasing the memory clock speed </span></h2>
+<p>Overclocking the memory in your device may result in stability problems. However, the default memory clock on your device may be set up for reduced power consumption with battery usage (on a tablet), and when battery lifetime is not of great concern (you leave power connected) you may be able to significantly increase the memory clock speed and as a result system performance.
+</p><p>On some devices, the standard memory clock defined in Android's script.bin may even be too high and result in an unstable system. Reducing the memory clock may fix this.
+</p><p>There is a utility to read out the current DRAM settings, called <a href="/Sunxi-tools#meminfo" title="Sunxi-tools">meminfo</a>. The dram_clk parameter shows the current DRAM clock speed. The speed must be a multiple of 24 Mhz. The default speed for A10 tablets is generally 360 MHz, boards may have a higher default speed. Although speeds as high as 480 MHz may appear stable at first, on heavy workloads especially using the Mali GPU errors may occur at higher memory clock settings. Most people find that 384 or 408 MHz run stable.
+</p><p>Because the memory clock has to be configured at the beginning of the boot process, it is not straightforward to change the memory clock speed. It involves recompiling u-boot-sunxi and re-flashing the bootloader on your SD-card. If something goes wrong it has the potential to corrupt the SD-card installation or make it unbootable. So only continue if you are sure what you are doing.
+</p><p>If you don't already have u-boot-sunxi installed, clone it using
+</p>
+<pre>git clone <a rel="nofollow" class="external free" href="https:///github.com/linux-sunxi/u-boot-sunxi.git">https:///github.com/linux-sunxi/u-boot-sunxi.git</a>
+</pre>
+<p>Then go to the board/allwinner directory and select the configuration that most closely matches your device. For example. for a generic A10 1GB tablet you would pick a10_mid_1gb. Edit the file dram.c in the directory for your device and change the .clock parameter to the desired memory clock frequency. It must be a multiple of 24, usually in the range 360-480 MHz. Higher speeds may not be stable. Then run from the u-boot-sunxi base directory (replace a10_mid_1gb in the command below with the configuration that you selected):
+</p>
+<pre>make a10_mid_1gb
+</pre>
+<p>Now it's time to re-flash the bootloader on the SD-card. With a recent version of u-boot-sunxi, run:
+</p>
+<pre>sudo dd if=spl/sunxi-spl.bin of=/dev/mmcblkN bs=1024 seek=8
+sudo dd if=u-boot.img of=/dev/mmcblkN bs=1024 seek=40
+</pre>
+<p>With an old version of u-boot-sunx (&lt; 2013.7) the procedure is slightly different:
+</p>
+<pre>sudo dd if=./spl/sunxi-spl.bin of=/dev/mmcblkN bs=1024 seek=8
+sudo dd if=./u-boot.bin of=/dev/mmcblkN bs=1024 seek=32
+</pre>
+<p>/dev/mmcblkN is the device name of your SD-card (for example /dev/mmcblk0). After rebooting the new memory clock speed should have taken effect. Verify it by running a10-meminfo (see above).
+</p><p>The above procedure also works for A20-based devices. These may have a faster memory clock in their default configuration, although at least some devices (certain Android tablets) seem to be shipped with a memory clock may be too high resulting in stability problems.
+</p>
+<h2> <span class="mw-headline" id="Recompiling_the_kernel"> Recompiling the kernel </span></h2>
+<p>By default the kernel may be configured with a large set of drivers to support a large number of configurations. It is possible to disable drivers that you don't need to reduce kernel size. The kernel may also be set up with a wide range of debugging options. Reducing debugging options will reduce the kernel size and improve performance a bit, although it may make debugging hardware or software problems harder. An advanced option for expert users that may be enabled is the 2G/2G memory split with high memory disabled, which theoretically could result in a measurable performance improvement. Note: highmem is needed for systems with more tham 512MB of ram - the maximum usable ram without highmem is something like 700~800MB.
+</p>
+<h2> <span class="mw-headline" id="Optimizing_boot_speed"> Optimizing boot speed </span></h2>
+<p>All the steps above can contribute to reducing boot time. Smaller kernel loads faster from flash and decompresses faster. Reduced logging and optimized caching causes fewer stalls in the boot process. Setting default cpufreq governor to performance with as high cpu and memory speed as possible shortens time required for CPU intensive tasks during boot. However, picking your init system is also important and has very large impact with all else staying the same.
+</p><p><b>sysvinit</b> is ancient and <b>slow</b>. If your distribution uses it by default change it to <b>upstart</b> or <b>systemd</b>. If you want your board to run one self-contained application that does not need any system services running you can try passing <b>init=/path/to/your/application</b> to the kernel. Not many applications are made to run like that. Especially without udev running you might have hard time accessing devices but you might have good luck with eg. xbmc. Note the system crashes when the application exits so remember to pass something like <b>panic=1</b> as well so that it reboots again.
+</p>
+<h2> <span class="mw-headline" id="Using_a_lower_resolution_graphics_mode"> Using a lower resolution graphics mode </span></h2>
+<p>The Allwinner chip's graphics framebuffer is stored in the same memory chips as system memory. As a result, the memory access required for screen refresh detracts from the overall system memory bandwidth and latency. By setting a lower resolution graphics mode, or a graphics mode with a lower pixel (color) depth, it is possible to measurably increase system performance.
+</p><p>When using the console, using a color depth of 16bpp may not be visibly different from 32bpp while improving performance. In X, performance will be improved but you will see banding on color gradients and acceleration options such as VE and Mali may not available in X and in console mode. G2D acceleration does support 16bpp.
+</p><p>You can change the graphics mode with <a href="/Kernel_arguments" title="Kernel arguments">Kernel arguments</a>, changing script.bin, or after boot with utilities such as a10_display and a10disp (see <a href="/Display" title="Display">Display</a>).
+</p><p>The following tables show memory performance using the benchmark program tinymembench (<a class="external free" href="https://github.com/ssvb/tinymembench‎">https://github.com/ssvb/tinymembench‎</a>) at different resolutions, pixel depths and memory clock settings on the same monitor.
+</p><p>NEON read bandwidth (MB/s):
+</p>
+<pre>	Memclock (MHz):	 360	 384	 408
+Display output disabled	1114	1159	1198
+1280x720x16bpp		1075	1128	1195
+1280x720x32bpp		1053	1078	1126
+1920x1080x16bpp		1045	1089
+1920x1080x32bpp		 902	 972	 991
+</pre>
+<p>NEON fill bandwidth (MB/s):
+</p>
+<pre>	Memclock (MHz):	 360	 384	 408
+Display output disabled 1176	1256	1330
+1280x720x16bpp		1088	1171	1328
+1280x720x32bpp		 972	1078	1090
+1920x1080x16bpp		 934	1005
+1920x1080x32bpp		 545	 548	 552
+</pre>
+<p>NEON copy bandwidth (MB/s) (unrolled copy prefetched (64 bytes step)):
+</p>
+<pre>	Memclock (MHz):	 360	 384     408
+Display output disabled	 650	 714	 723
+1280x720x16bpp		 610	 650	 723
+1280x720x32bpp		 554	 594	 636
+1920x1080x16bpp		 538	 575
+1920x1080x32bpp		 453	 517	 523
+</pre>
+<p>Memory latency in ns (block size 1MB, single random read):
+</p>
+<pre>	Memclock (MHz):	 360	 384	 408
+Display output disabled	 171	 165	 159
+1280x720x16bpp		 173	 166	 159
+1280x720x32bpp		 174	 168	 159
+1920x1080x16bpp 	 175	 168
+1920x1080x32bpp		 176	 169	 163
+</pre>
+<p>Memory latency in ns (block size 64MB, single random read):
+</p>
+<pre>	Memclock (MHz):	 360	 384	 408
+Display output disabled	 264	 254	 240
+1280x720x16bpp		 265	 256	 240
+1280x720x32bpp		 268	 256	 241
+1920x1080x16bpp		 267	 257
+1920x1080x32bpp		 270	 259	 247
+
+</pre>
+<p>As you can see, running at 1920x1080x32bpp really detracts from memory performance, especially write (fill) speed, which is also reflected in copy speed. Lowering the resolution and pixel depth, and increasing the memory clock improves system performance. Running headless (no display output) is fastest.
+</p>
+<h2> <span class="mw-headline" id="Reducing_refresh_rate_for_1920x1080_video_mode"> Reducing refresh rate for 1920x1080 video mode </span></h2>
+<p>Most LCD monitors are using 60Hz refresh rate, and this is never a problem for more capable desktop hardware. However for Allwinner A10, using 1920x1080x32bpp at 60Hz is causing a major performance drop for memory write performance (from a bit less than ~1000MB/s down to a bit more than ~500MB/s). Instead of reducing the resolution or color depth, it is possible to reduce the refresh rate. The crossover point for this major memory write speed performance drop is around:
+</p>
+<pre> | <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="7849414a480049484048554b4a384e483002">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> | always slow with any memory frequency up to 480MHz
+ | <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="b988808b89c188898189948a8bf98c8ff1c3">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> | slow with 456MHz memory | fast with 480MHz memory
+ | <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="88b9b1bab8f0b9b8b0b8a5bbbac8bdb8c0f2">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> | slow with 408MHz memory | fast with 432MHz memory
+</pre>
+<p>Using 24bpp desktop color depth is also possible (via "fbset -depth 24 -rgba 8,8,8,0"), but it is poorly supported by software. However it avoids memory write performance drop until memory clock speed is reduced below 408MHz.
+</p>
+<pre> | <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="615058535119505159514c5355215751291b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> | 432MHz memory = ~970 MB/s write speed
+ | <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="76474f44460e47464e465b44423640463e0c">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> | 408MHz memory = ~840 MB/s write speed
+ | <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="4879717a783079787078657a7c087e780032">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> | 384MHz memory = ~430 MB/s write speed
+</pre>
+<p>It might be potentially possible to make use of 24bpp framebuffer in Xorg via some ShadowFB tweaks. The shadow framebuffer may just use 32bpp format (and do 32bpp-&gt;24bpp conversion when copying data to the real framebuffer). All the applications will think that the desktop color depths is 32bpp. But ShadowFB also has some other drawbacks, for example making the use of G2D acceleration problematic.
+</p>
+<h2> <span class="mw-headline" id="Notes_for_A20-based_devices"> Notes for A20-based devices </span></h2>
+<p>Even though the A20 uses a memory configuration similar to the A10 (with similar theoretical peak bandwidth), the memory interface on the A20 seems to be much more efficient. Higher memory bandwidth, especially for fills (writes), is seen and there are no dramatic drops in bandwidth when running 1080p at 32bpp. However, reducing the resolution, color depth or refresh rate of the display out still has a measurable influence on performance, as shown in the following table.
+</p><p>Benchmarks on an A20 device with 408 MHz memory clock.
+</p>
+<pre>HDMI output             copy speed      fill speed      Mali benchmark
+                        (NEON)          (NEON)          X11-EGL (1024x576 window)
+1920x1080x32bpp 60 Hz   580 MB/s        1390 MB/s       157.6 fps
+1920x1080x32bpp 50 Hz   600 MB/s        1510 MB/s       168.2 fps
+1920x1080x16bpp 60 Hz   640 MB/s        1690 MB/s       not supported
+1280x720x32bpp 60 Hz    660 MB/s        1750 MB/s       183.8 fps
+1280x720x32bpp 50 Hz    660 MB/s        1770 MB/s       190.4 fps
+</pre>
+<h2> <span class="mw-headline" id="Changing_the_CPU_frequency_governor_settings"> Changing the CPU frequency governor settings </span></h2>
+<p>The CPU frequency governor may not be setup for maximum performance. See <a href="/Cpufreq" title="Cpufreq">Cpufreq</a>.
+</p>
+<h2> <span class="mw-headline" id="Using_an_optimized_Xorg_driver"> Using an optimized Xorg driver </span></h2>
+<p>Your distro might be set up to only use the standard framebuffer driver for X. You can enable the fbturbo driver (new name for sunxifb) for X following the instructions in the section <a href="/Xorg#fbturbo_driver" title="Xorg"> FBTurbo driver of the Xorg page</a>. You can enable G2D for 2D acceleration using the G2D engine.
+</p>
+<h2> <span class="mw-headline" id="Advanced_topic:_Using_more_recent_Mali_drivers"> Advanced topic: Using more recent Mali drivers </span></h2>
+<p>The Mali-400MP2 used in the A20 chip has two pixel processor cores, as opposed only one in the A10's Mali-400. The standard Mali driver (r3p0) does not utilize the second pixel processor, while a more recent one (3p2) does. The r3p2 version of the Mali driver also seems to have other performance benefits. To use the r3p2 mali driver, a few steps have to be taken:
+</p>
+<ul><li> A kernel with the r3p2 Mali kernel driver must be used. An example is ssvb's 20130913-mali-r3p2-01rel2 branch of linux-sunxi (<a class="external free" href="https://github.com/ssvb/linux-sunxi.git">https://github.com/ssvb/linux-sunxi.git</a>). Note that this kernel does not include G2D (bitblt) acceleration, but that is generally not a critical performance issue with the A20.
+</li><li> The userspace mali drivers must be updated to r3p2. This is automatically handled by the mali drivers at <a class="external free" href="https://github.com/linux-sunxi/sunxi-mali.git">https://github.com/linux-sunxi/sunxi-mali.git</a> after updating the submodules.
+</li><li> The mali-r3p2-support branch of the xf86-video-fbturbo xorg driver must be installed.
+</li></ul>
+<p>The <a href="/Benchmarks" title="Benchmarks">Benchmarks</a> section has a comparison of glmark2 results between the different Mali driver versions.
+</p><p>The A10 should also work with the newer Mali driver, and performance may be a little better/more stable (needs verification).
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Optimizing_system_performance&amp;oldid=17516">http://linux-sunxi.org/index.php?title=Optimizing_system_performance&amp;oldid=17516</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Optimizing+system+performance&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Optimizing+system+performance" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Optimizing_system_performance" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Optimizing_system_performance&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Optimizing_system_performance">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Optimizing_system_performance&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Optimizing_system_performance&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Optimizing_system_performance" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Optimizing_system_performance" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Optimizing_system_performance&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Optimizing_system_performance&amp;oldid=17516" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 6 June 2016, at 21:20.</li>
+<li id="footer-info-viewcount">This page has been accessed 52,615 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

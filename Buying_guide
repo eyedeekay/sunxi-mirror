@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Buying guide - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Buying_guide","wgTitle":"Buying guide","wgCurRevisionId":15329,"wgArticleId":1223,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Buying_guide","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Buying_guide"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Buying_guide skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Buying guide</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>If you are looking to acquire an Allwinner based device, then chances are that you are looking for the device with the best community support.
+</p><p>While some development boards are very common in our sunxi community, and they therefor are best supported, we have the ability to easily support just about any <a href="/A10" title="A10">A10</a>, <a href="/A13" title="A13">A13</a>, <a href="/A10s" title="A10s">A10s</a> and <a href="/A20" title="A20">A20</a> based device (support for newer SoCs, like <a href="/A31" title="A31">A31</a>, <a href="/A23" title="A23">A23</a> and <a href="/A31s" title="A31s" class="mw-redirect">A31s</a>, is still lagging behind). This means that we can <a href="/New_Device_howto" title="New Device howto">easily bring up previously unknown devices</a>, but it might still be a good idea to choose the best known hardware.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Recommended_Development_boards"><span class="tocnumber">1</span> <span class="toctext">Recommended Development boards</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Open_Source_Hardware"><span class="tocnumber">1.1</span> <span class="toctext">Open Source Hardware</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#Olimex"><span class="tocnumber">1.1.1</span> <span class="toctext">Olimex</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-4"><a href="#Community_Hardware"><span class="tocnumber">1.2</span> <span class="toctext">Community Hardware</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Cubietech"><span class="tocnumber">1.2.1</span> <span class="toctext">Cubietech</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Rhombus_Tech"><span class="tocnumber">1.2.2</span> <span class="toctext">Rhombus Tech</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Recommended_tablets"><span class="tocnumber">2</span> <span class="toctext">Recommended tablets</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Other_devices"><span class="tocnumber">3</span> <span class="toctext">Other devices</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Recommended_Development_boards"> Recommended Development boards </span></h1>
+<h2> <span class="mw-headline" id="Open_Source_Hardware"> Open Source Hardware </span></h2>
+<p>At sunxi we fully support the <a href="/OSHW" title="OSHW" class="mw-redirect">OSHW</a> initiative, as this gives people the freedom to adapt hardware designs to their own needs.
+</p>
+<h3> <span class="mw-headline" id="Olimex"> Olimex </span></h3>
+<p>Currently, <a href="/Olimex" title="Olimex" class="mw-redirect">Olimex</a> is the only company creating Allwinner based <a href="/OSHW" title="OSHW" class="mw-redirect">OSHW</a>, and <a href="/Olimex" title="Olimex" class="mw-redirect">Olimex</a> actively contributes to the sunxi project. We particularly recommend:
+</p>
+<ul><li> <a href="/A10-OLinuXino-LIME" title="A10-OLinuXino-LIME" class="mw-redirect">A10-OLinuXino-LIME</a>: An ultra cheap board with 512MiB RAM, HDMI, ethernet and SATA.
+</li><li> <a href="/A13-OLinuXino" title="A13-OLinuXino" class="mw-redirect">A13-OLinuXino</a>: A more full featured board with 512MiB RAM, optional 4GB NAND and optional 4GB Wifi.
+</li><li> <a href="/Olimex_A20-OLinuXino-Lime" title="Olimex A20-OLinuXino-Lime">A20-OLinuXino-LIME</a>: Based on the <i>A10-OLinuXino-LIME</i>, but with a more advanced A20 CPU.
+</li><li> <a href="/Olimex_A20-OLinuXino-Lime2" title="Olimex A20-OLinuXino-Lime2">A20-OLinuXino-LIME2</a>: Similar to <i>A20-OLinuXino-LIME</i>, features 1GB RAM and Gigabit ethernet.
+</li><li> <a href="/A20-olinuxino-micro" title="A20-olinuxino-micro" class="mw-redirect">A20-OLinuXino-Micro</a>: Powerful and complete Olimex board, with 1GB RAM, 4GB NAND, ethernet (100MBit/s), SATA and HDMI.
+</li></ul>
+<p>Olimex devices offer a lot of expansion possibilities through GPIO connectors, or Olimex's own <a href="/Olimex_extensions" title="Olimex extensions">expansion modules</a>.
+</p>
+<h2> <span class="mw-headline" id="Community_Hardware"> Community Hardware </span></h2>
+<p>Some companies actively participate with and contribute to the sunxi community. While they don't always produce <a href="/OSHW" title="OSHW" class="mw-redirect">OSHW</a> devices, schematics tend to be available.
+</p>
+<h3> <span class="mw-headline" id="Cubietech"> Cubietech </span></h3>
+<p><a rel="nofollow" class="external text" href="http://www.cubietech.com/">Cubietech</a> has been working with the sunxi community from the start, and the devices they create come with full schematics.
+</p>
+<ul><li> <a href="/Cubieboard" title="Cubieboard" class="mw-redirect">Cubieboard</a>: The original cubietech board. Comes with an <a href="/A10" title="A10">A10</a> SoC, 1GB RAM, 4GB NAND, SATA, Ethernet and HDMI.
+</li><li> <a href="/Cubieboard2" title="Cubieboard2" class="mw-redirect">Cubieboard2</a>: An updated cubieboard with an <a href="/A20" title="A20">A20</a> SoC.
+</li><li> <a href="/Cubietruck" title="Cubietruck" class="mw-redirect">Cubietruck</a>: A full featured <a href="/A20" title="A20">A20</a> board with 2GB RAM, 4GB NAND, Gigabit ethernet, WiFi, SATA, Bluetooth, HDMI and VGA.
+</li></ul>
+<h3> <span class="mw-headline" id="Rhombus_Tech"> Rhombus Tech </span></h3>
+<p><a class="external text" href="http://rhombus-tech.net/">Rhombus Tech</a> has been working on creating a proper free software supported device since the start, they started the initial community that formed around Allwinner SoCs. They are working on a modular platform called <a rel="nofollow" class="external text" href="http://elinux.org/Embedded_Open_Modular_Architecture/EOMA-68">EOMA-68</a>, with plans for a modular tablet and netbook. Sadly, hardware is not easy to get by yet, and we hope that this changes soon.
+</p>
+<h1> <span class="mw-headline" id="Recommended_tablets"> Recommended tablets </span></h1>
+<p>This section is still under construction and no particular tablet recommendations are available yet. While we can hardly expect the tablets to be proper <a href="/OSHW" title="OSHW" class="mw-redirect">OSHW</a> hardware, some tablets are expected to be much less problematic than the others for free software enthusiasts. A preliminary checklist for the wanted features:
+</p>
+<ul><li> The device should be preferably easy to identify and the advertised specs should be reasonably accurate (trying to buy an Allwinner tablet and getting a Rockchip, Mediatek, Amlogic or Active instead is not always a pleasant surprise). If you are buying a no-name tablet from Aliexpress, Amazon or Ebay, pay special attention to negative reviews even if the vast majority of reviews are positive. Even if the description clearly states "Allwinner", it may still have a different SoC under the hood. Most users are happy as long as their cheap tablet just boots some sort of Android and works with it. But a few people who actually care about the SoC choice, may leave a lone warning somewhere in the comments.
+<ul><li> Read reviews of the device. eg. WiFi reception, screen durability and brightness, touch response, build quality and many other features of the tablet cannot be determined from a vendor specification. If the device is not identifiable easily enough that you can find reviews of it or that you can be sure the review actually applies to the device you are ordering you will never know what you get.
+</li></ul>
+</li><li> Availability of the stock firmware for download from the vendor site (for unbricking)
+</li><li> Availability of the firmware sources (for GPL compliance)
+</li><li> Good support for the peripherals (touchscreen, WIFI, ...) in the mainline kernel and sunxi-3.4
+</li><li> Reasonable features (screen resolution, screen quality, HDMI/USB connectors, battery capacity, ...)
+</li><li> Reasonable price
+</li></ul>
+<p>Somewhat worldwide available brands that produce Allwinner based tablets include
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.prestigio.com/">Prestigio</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.msi.com/product/windpad/">MSI</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.kurioworld.com/">KD Interactive(Kurio) </a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.sencor.eu/tablets-element">Sencor</a>
+</li><li> <a rel="nofollow" class="external text" href="http://store.hp.com/webapp/wcs/stores/servlet/us/en/pdp/tablets/hp-7-g2-tablet---1311">Hewlett-Packard</a>
+</li></ul>
+<p>Please add any other producers of recognizable Allwinner based hardware that you find.
+</p>
+<h1> <span class="mw-headline" id="Other_devices"> Other devices </span></h1>
+<p>If none of the above boards suit your goals, then there are plenty more devices to choose from:
+</p>
+<table style="width: 100%;">
+<tr style="vertical-align: top;">
+<td><div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A10_Boards" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A10_Boards">A10 Boards</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A10_HTPC" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A10_HTPC">A10 HTPC</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A10_Netbooks" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A10_Netbooks">A10 Netbooks</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A10_Tablets" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A10_Tablets">A10 Tablets</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+</td>
+<td><div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A13_Boards" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A13_Boards">A13 Boards</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A13_Tablets" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A13_Tablets">A13 Tablets</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+</td>
+<td><div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A10s_Boards" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A10s_Boards">A10s Boards</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A10s_HTPC" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A10s_HTPC">A10s HTPC</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A10s_Other" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A10s_Other">A10s Other</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+</td>
+<td><div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A20_Boards" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A20_Boards">A20 Boards</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A20_HTPC" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A20_HTPC">A20 HTPC</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A20_Other" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A20_Other">A20 Other</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A20_Tablets" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A20_Tablets">A20 Tablets</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+</td>
+<td><div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A23_Tablets" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A23_Tablets">A23 Tablets</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+</td>
+<td><div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A31_Boards" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A31_Boards">A31 Boards</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A31_HTPC" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A31_HTPC">A31 HTPC</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A31_Tablets" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A31_Tablets">A31 Tablets</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+</td>
+<td><div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A31s_Boards" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A31s_Boards">A31s Boards</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A31s_HTPC" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A31s_HTPC">A31s HTPC</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A31s_Tablets" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A31s_Tablets">A31s Tablets</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+</td></tr></table>
+<p>As previously stated, we have the ability to <a href="/New_Device_howto" title="New Device howto">easily support previously unknown hardware</a>, so the above list should not limit your options.
+</p>
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Buying_guide&amp;oldid=15329">http://linux-sunxi.org/index.php?title=Buying_guide&amp;oldid=15329</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks catlinks-allhidden'></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Buying+guide&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Buying+guide" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Buying_guide" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Buying_guide&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Buying_guide">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Buying_guide&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Buying_guide&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Buying_guide" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Buying_guide" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Buying_guide&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Buying_guide&amp;oldid=15329" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 25 October 2015, at 14:56.</li>
+<li id="footer-info-viewcount">This page has been accessed 21,432 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.categoryTree","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

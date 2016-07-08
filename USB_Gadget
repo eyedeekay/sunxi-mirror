@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>USB Gadget - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"USB_Gadget","wgTitle":"USB Gadget","wgCurRevisionId":17762,"wgArticleId":463,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["USB OTG","Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"USB_Gadget","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/USB_Gadget"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-USB_Gadget skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">USB Gadget</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>We can do all sorts of nifty things with a USB OTG connector. Here are some of them.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#USB_Ethernet_support"><span class="tocnumber">2</span> <span class="toctext">USB Ethernet support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Kernel_support"><span class="tocnumber">2.1</span> <span class="toctext">Kernel support</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Mainline_kernel"><span class="tocnumber">2.1.1</span> <span class="toctext">Mainline kernel</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#sunxi-3.4"><span class="tocnumber">2.1.2</span> <span class="toctext">sunxi-3.4</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Loading_the_driver_.28on_the_device.29"><span class="tocnumber">2.2</span> <span class="toctext">Loading the driver (on the device)</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Configuring_the_device.27s_networking"><span class="tocnumber">2.3</span> <span class="toctext">Configuring the device's networking</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#Ubuntu.2FDebian"><span class="tocnumber">2.3.1</span> <span class="toctext">Ubuntu/Debian</span></a>
+<ul>
+<li class="toclevel-4 tocsection-9"><a href="#Without_network_manager"><span class="tocnumber">2.3.1.1</span> <span class="toctext">Without network manager</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#Setting_up_the_host"><span class="tocnumber">2.4</span> <span class="toctext">Setting up the host</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#USB_storage_support"><span class="tocnumber">3</span> <span class="toctext">USB storage support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Kernel_support_2"><span class="tocnumber">3.1</span> <span class="toctext">Kernel support</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Preparing_shared_storage_device"><span class="tocnumber">3.2</span> <span class="toctext">Preparing shared storage device</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#Creating_a_sparse_file"><span class="tocnumber">3.2.1</span> <span class="toctext">Creating a sparse file</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#Partitioning_and_formatting_sparse_file"><span class="tocnumber">3.2.2</span> <span class="toctext">Partitioning and formatting sparse file</span></a>
+<ul>
+<li class="toclevel-4 tocsection-16"><a href="#Create_a_single_partition"><span class="tocnumber">3.2.2.1</span> <span class="toctext">Create a single partition</span></a></li>
+<li class="toclevel-4 tocsection-17"><a href="#Find_partition_offset"><span class="tocnumber">3.2.2.2</span> <span class="toctext">Find partition offset</span></a></li>
+<li class="toclevel-4 tocsection-18"><a href="#Set_up_loop_device"><span class="tocnumber">3.2.2.3</span> <span class="toctext">Set up loop device</span></a></li>
+<li class="toclevel-4 tocsection-19"><a href="#Format_device"><span class="tocnumber">3.2.2.4</span> <span class="toctext">Format device</span></a></li>
+<li class="toclevel-4 tocsection-20"><a href="#Test_device"><span class="tocnumber">3.2.2.5</span> <span class="toctext">Test device</span></a></li>
+<li class="toclevel-4 tocsection-21"><a href="#Release_device"><span class="tocnumber">3.2.2.6</span> <span class="toctext">Release device</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-22"><a href="#Exporting_mass_storage_.2F_Loading_the_driver_.28on_the_device.29"><span class="tocnumber">3.3</span> <span class="toctext">Exporting mass storage / Loading the driver (on the device)</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Emulating_a_USB_CD-ROM"><span class="tocnumber">3.4</span> <span class="toctext">Emulating a USB CD-ROM</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-24"><a href="#USB_MIDI_support"><span class="tocnumber">4</span> <span class="toctext">USB MIDI support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-25"><a href="#Kernel_Configuration"><span class="tocnumber">4.1</span> <span class="toctext">Kernel Configuration</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Loading_the_driver"><span class="tocnumber">4.2</span> <span class="toctext">Loading the driver</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Known_Error_Messages"><span class="tocnumber">4.3</span> <span class="toctext">Known Error Messages</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-28"><a href="#Possible_security_implications"><span class="tocnumber">5</span> <span class="toctext">Possible security implications</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Introduction"> Introduction </span></h1>
+<p>The term "<b>USB Gadget</b>" will usually refer to the <a rel="nofollow" class="external text" href="http://www.linux-usb.org/gadget/">Linux USB gadget framework</a>. This is relevant for those <i>sunxi</i> devices that offer a <a class="external text" href="https://en.wikipedia.org/wiki/USB_On-The-Go">"On-The-Go"</a> (OTG) port, allowing this USB connector to act in a "dual role" mode.
+(<span style="color:#ba0000">TODO:</span> Add those devices to a list/category and link it here?)
+</p><p>The 'gadget' part means we're particularly interested in the <i>slave mode</i> - where the sunxi board will present itself as "device" to another USB host (e.g. a PC), allowing it to 'mimic' a wide variety of USB peripherals.
+</p>
+<h1> <span class="mw-headline" id="USB_Ethernet_support"> USB Ethernet support </span></h1>
+<p>This allows ethernet emulation over USB, allowing for all sorts of nifty things like SSH and NFS in one go plus charging over the same wire, at higher speeds than most Wifi connections.
+</p>
+<h2> <span class="mw-headline" id="Kernel_support"> Kernel support </span></h2>
+<h3> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h3>
+<p>See <a rel="nofollow" class="external free" href="http://thread.gmane.org/gmane.comp.hardware.netbook.arm.sunxi/19214/focus=19215">http://thread.gmane.org/gmane.comp.hardware.netbook.arm.sunxi/19214/focus=19215</a>
+</p><p><i>(Instructions below were tested on A20 with kernel 4.4.6.)</i>
+</p><p>For Allwinner SoCs based on the sun4i controller (CONFIG_PHY_SUN4I_USB=y), the "MUSB" (Multipoint Highspeed Dual-Role Controller) driver provides the OTG / gadget functionality. For successful operation, a number of <i>Kconfig</i> options need to be enabled:
+</p>
+<pre>
+CONFIG_USB_MUSB_HDRC=m
+CONFIG_USB_MUSB_DUAL_ROLE=y
+CONFIG_USB_MUSB_SUNXI=m
+CONFIG_MUSB_PIO_ONLY=y
+CONFIG_USB_PHY=y
+CONFIG_NOP_USB_XCEIV=m
+</pre>
+<p>(Substitute "y" for "m" where desired, if you do not wish modules to be built and want the drivers compiled-in instead.)
+</p><p>With <i>menuconfig</i> this looks like
+</p>
+<pre>
+    Device Drivers  ---&gt;
+        [*] USB support  ---&gt;
+        &lt;M&gt; Inventra Highspeed Dual Role Controller (TI, ADI, AW, ...)
+                MUSB Mode Selection (Dual Role mode)  ---&gt;
+                *** Platform Glue Layer ***
+            &lt;M&gt; Allwinner (sunxi)
+                *** MUSB DMA mode ***
+            [*] Disable DMA (always use PIO)
+        USB Physical Layer drivers  ---&gt;
+            &lt;M&gt; NOP USB Transceiver Driver
+</pre>
+<dl><dd><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> You need to select both "Inventra Highspeed Dual Role Controller" and "NOP USB Transceiver Driver" <b>before</b> the required "Allwinner (sunxi)" option (<i>CONFIG_USB_MUSB_SUNXI</i>) becomes available.
+</dd></dl>
+<p>You'll probably also want to select
+</p>
+<pre>        &lt;*&gt; USB Gadget Support</pre>
+<p>and any desired gadget drivers on top of that.
+</p><p>Proceed with compiling and installing your kernel and its corresponding modules (for assistance check our <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">howto</a>).
+</p>
+<table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #2288EE; background-color: #DDEEFF">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_information.png" class="image"><img alt="MBOX icon information.png" src="/images/9/93/MBOX_icon_information.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;">If you compiled the MUSB driver as module(s), make sure to load those first - before you attempt to use any of the gadget drivers:
+<pre>modprobe sunxi</pre>
+</td></tr></table>
+<p>Upon successful initialization the kernel will report something similar to:
+</p>
+<pre>
+[   33.950832] usb_phy_generic.0.auto supply vcc not found, using dummy regulator
+[   33.951799] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, SoftConn)
+[   33.951833] musb-hdrc: MHDRC RTL version 0.0 
+[   33.951872] musb-hdrc: 11/11 max ep, 5184/8192 memory
+[   33.952312] musb-hdrc musb-hdrc.1.auto: MUSB HDRC host driver
+[   33.952355] musb-hdrc musb-hdrc.1.auto: new USB bus registered, assigned bus number 5
+[   33.956664] hub 5-0:1.0: USB hub found
+[   33.956828] hub 5-0:1.0: 1 port detected
+</pre>
+<p>After that, you should be able to use the USB gadget drivers/modules (<i>g_ether</i>, <i>g_mass_storage</i>, ...) as described below.
+</p>
+<h3> <span class="mw-headline" id="sunxi-3.4"> sunxi-3.4 </span></h3>
+<p>Currently, the g_ether module is not compiled as part of our kernel configuration.
+</p><p>To enable this, follow the kernel building information of <a href="/Manual_build_howto" title="Manual build howto">our manual build howto</a>. But then after making defconfig, either run:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- menuconfig</pre>
+<p>Then trawl down the options and set the "Ethernet Gadget" to "m":
+</p>
+<pre>
+    Device Drivers  ---&gt;
+        USB support  ---&gt;
+            &lt;*&gt;    USB Gadget Support  ---&gt;
+                &lt;m&gt;    Ethernet Gadget (with CDC Ethernet support)
+            &lt;*&gt;    NOP USB Transceiver Driver
+            [*]    SUNXI USB2.0 Dual Role Controller support ---&gt;
+                [*]    Sunxi USB2.0 Manager
+                       USB0 Controller support (otg support) ---&gt;
+                           (*) otg support
+</pre>
+<p>Or just run:
+</p>
+<pre>./scripts/config -m CONFIG_USB_ETH -e CONFIG_USB_ETH_RNDIS -e CONFIG_USB_OTG_UTILS -e CONFIG_NOP_USB_XCEIV 
+ -e CONFIG_USB_SW_SUNXI_USB -e CONFIG_USB_SW_SUNXI_USB_MANAGER -e CONFIG_USB_SW_SUNXI_USB0_OTG
+</pre>
+<p>You can now continue following <a href="/Manual_build_howto" title="Manual build howto">our manual build howto</a> to continue kernel compilation and installation.
+</p><p>Note that for sun4i devices (A10), you also need to enable SoftWinner SUNXI USB
+peripheral controller in order to enable high-speed operation
+for gadget- otherwise it will be limited to full-speed only.
+</p>
+<pre>
+    Device Drivers  ---&gt;
+        USB support  ---&gt;
+            &lt;*&gt;     USB Gadget Support ---&gt;
+                &lt;m&gt; SoftWinner SUNXI USB Peripheral Controller 
+</pre>
+<h2> <span class="mw-headline" id="Loading_the_driver_.28on_the_device.29"> Loading the driver (on the device) </span></h2>
+<p>We should now be able to run:
+</p>
+<pre>modprobe g_ether</pre>
+<p>successfully. We can then make this module autoload by adding it to /etc/modules.
+</p><p>Now, so that g_ether doesn't randomly generate a new id every reboot, stick the following in /etc/modprobe.d/g_ether.conf:
+</p>
+<pre>options g_ether host_addr=00:11:22:33:44:55</pre>
+<p>g_ether should've just generated a pair of addresses for you, so replace <i>00:11:22:33:44:55</i> with the outcome of:
+</p>
+<pre> dmesg | grep &quot;HOST MAC&quot;</pre>
+<p>We can also use <i>dev_addr</i> option to set device MAC address.
+</p>
+<h2> <span class="mw-headline" id="Configuring_the_device.27s_networking"> Configuring the device's networking </span></h2>
+<h3> <span class="mw-headline" id="Ubuntu.2FDebian"> Ubuntu/Debian </span></h3>
+<h4> <span class="mw-headline" id="Without_network_manager"> Without network manager </span></h4>
+<p>Stop networkmanager:
+</p>
+<pre> stop network-manager </pre>
+<p>To prevent network-manager from starting, run:
+</p>
+<pre>echo &quot;manual&quot; &gt; /etc/init/network-manager.override</pre>
+<p>Now add the following to /etc/network/interfaces:
+</p>
+<pre>auto usb0
+iface usb0 inet static
+	address 192.168.0.2
+	netmask 255.255.255.0
+</pre>
+<p>To manually activate the interface and set an IP (<b>NOTE:</b> if configured with ip from iproute2 it will not work):
+</p>
+</pre>
+<pre> ifconfig usb0 up
+ifconfig usb0 192.168.0.2
+</pre>
+</pre>
+<h2> <span class="mw-headline" id="Setting_up_the_host"> Setting up the host </span></h2>
+<p>You can convince networkmanager to connect automatically to a specific MAC address, and then you need to hardcode the address to 192.168.0.1 for this connection.
+</p><p>If all goes well, you should now be able to just plug in the USB cable.
+</p>
+<h1> <span class="mw-headline" id="USB_storage_support"> USB storage support </span></h1>
+<p>This allows your devices act as a USB mass storage like external hard drive or thumb drive.
+</p>
+<h2> <span class="mw-headline" id="Kernel_support_2"> Kernel support </span></h2>
+<p>Currently, the g_mass_storage module is not compiled as part of default kernel configuration.
+</p><p>To enable this, follow same kernel building information as previous section <a href="/USB_Gadget#Kernel_support" title="USB Gadget">USB Ethernet support</a> but instead of compiling "Ethernet Gadget", select the following to "m":
+</p>
+<pre>
+Device Drivers  ---&gt;
+	USB support  ---&gt;
+		USB Gadget Support  ---&gt;
+			&lt;M&gt;     Mass Storage Gadget
+</pre>
+<p>You can now continue following <a href="/Manual_build_howto" title="Manual build howto">manual build howto</a> to continue kernel compilation and installation.
+</p><p><br/>
+</p>
+<h2> <span class="mw-headline" id="Preparing_shared_storage_device"> Preparing shared storage device </span></h2>
+<p>See "<a rel="nofollow" class="external text" href="http://www.linux-usb.org/gadget/file_storage.html">Backing Storage for the Mass Storage Gadget</a>" for full instructions and recommendations.
+</p><p>Be aware that shared storage cannot be used in "read write" mode if both systems (device and host) are using it at same time except if you accept to corrupt your data...
+</p><p>An existing physical partition or a logical volume can be used as shared storage device; another option is to use a flat file as shared storage.
+</p>
+<h3> <span class="mw-headline" id="Creating_a_sparse_file"> Creating a sparse file </span></h3>
+<p>Use "dd" command's "count" and "seek" options to create a 1GB file that will not use storage until it is used:
+</p>
+<pre>
+# dd if=/dev/zero of=/mass_storage bs=1M seek=1024 count=0
+# ls -l /mass_storage 
+-rw-r--r-- 1 root root 1073741824 Feb 15 16:40 /mass_storage
+# du -hs /mass_storage 
+0       /mass_storage
+</pre>
+<h3> <span class="mw-headline" id="Partitioning_and_formatting_sparse_file"> Partitioning and formatting sparse file </span></h3>
+<p>To be recognized by most Operating Systems, create a single FAT type partition and format it as DOS filesystem using Linux loop device driver.
+</p>
+<h4> <span class="mw-headline" id="Create_a_single_partition"> Create a single partition </span></h4>
+<pre>
+# cat &lt;&lt;EOT | sfdisk --in-order -L -uM /mass_storage 
+,,c
+EOT
+</pre>
+<h4> <span class="mw-headline" id="Find_partition_offset"> Find partition offset </span></h4>
+<pre>
+# fdisk -lu /mass_storage 
+
+Disk /mass_storage: 1073 MB, 1073741824 bytes
+139 heads, 8 sectors/track, 1885 cylinders, total 2097152 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x00000000
+
+	Device Boot      Start         End      Blocks   Id  System
+/mass_storage1               1     2097151     1048575+   c  W95 FAT32 (LBA)
+</pre>
+<p>First partition starts at first sector: offset = 1 * 512 = 512 bytes
+</p>
+<h4> <span class="mw-headline" id="Set_up_loop_device"> Set up loop device </span></h4>
+<pre>
+# losetup -o512 /dev/loop0 /mass_storage
+# losetup -a
+/dev/loop0: [b302]:14867 (/mass_storage), offset 512
+</pre>
+<h4> <span class="mw-headline" id="Format_device"> Format device </span></h4>
+<pre>
+# apt-get install dosfstools
+# mkdosfs /dev/loop0
+</pre>
+<p><br/>
+</p>
+<h4> <span class="mw-headline" id="Test_device"> Test device </span></h4>
+<pre>
+# mount -t vfat /dev/loop0 /mnt/
+# df -h /mnt
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop0     1022M  4.0K 1022M   1% /mnt
+# mount | grep mnt
+/dev/loop0 on /mnt type vfat (rw,relatime,fmask=0022,dmask=0022,codepage=cp437,iocharset=ascii,shortname=mixed,errors=remount-ro)
+</pre>
+<h4> <span class="mw-headline" id="Release_device"> Release device </span></h4>
+<pre>
+# umount  /mnt/
+# losetup -d /dev/loop0 
+# losetup -a
+</pre>
+<p>As we can see below, 1GB sparse file is only using 2.1MB storage (size of filesystem metadata):
+</p>
+<pre>
+# du -sh /mass_storage 
+2.1M    /mass_storage
+# ls -lh /mass_storage 
+-rw-r--r-- 1 root root 1.0G Feb 15 16:54 /mass_storage
+</pre>
+<p><br/>
+</p>
+<h2> <span class="mw-headline" id="Exporting_mass_storage_.2F_Loading_the_driver_.28on_the_device.29"> Exporting mass storage / Loading the driver (on the device) </span></h2>
+<p>It looks like g_mass_storage conflicts with g_ether, remove g_ether first (if previously loaded):
+</p>
+<pre>
+# modprobe -r g_ether
+</pre>
+<p>Load g_mass_storage specifying storage to share (can also be a physical partition or a logical volume):
+</p>
+<pre>
+# modprobe g_mass_storage file=/mass_storage
+</pre>
+<p>We can now plug device to another host and use it as USB connected storage.
+</p><p>Notes: Surprisingly it works well my Mac OS hosts (device automatically appears in Finder, I can copy and read files) but not with my Linux hosts (device appears and disappears constantly and cannot be mounted). Not tested with Windows hosts.
+</p>
+<h2> <span class="mw-headline" id="Emulating_a_USB_CD-ROM"> Emulating a USB CD-ROM </span></h2>
+<p>The <i>g_mass_storage</i> module can also present an optical drive to the USB host. For this, your backing storage should be a suitable filesystem image - usually an .ISO file. Pass a "cdrom" module option like this: 
+</p>
+<pre>
+# modprobe g_mass_storage file=/path/to/your-image-file.iso cdrom=y
+</pre>
+<p>(This can be useful with old PCs where the BIOS may have trouble starting from USB sticks, but supports booting via USB-CDROM.)
+</p><p><a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> As of Linux v4.7-rc2, the <i>g_mass_storage</i> driver can only emulate CD-ROM drives, not DVD-ROMs.
+</p>
+<dl><dd>That means some restrictions, especially a hardcoded limit on the size of a backing (.iso) file. In case the file size exceeds 1152000 2KiB blocks (approx. 2.36GB / 2.2GiB), the driver will complain "<i>file too big</i>" and limit the usable range (sector count). If the filesystem driver on the USB host requests any sector beyond that, it will encounter I/O errors ("<i>attempt to access beyond end of device</i>").
+</dd></dl>
+<dl><dd>In order to use larger images and properly emulate DVD media, the <i>g_mass_storage</i> would have to be extended. Some ideas and patches for that have been around for a while, e.g. <a rel="nofollow" class="external free" href="https://lkml.org/lkml/2015/3/7/388">https://lkml.org/lkml/2015/3/7/388</a> and <a rel="nofollow" class="external free" href="http://linuxehacking.blogspot.de/2013/07/how-to-emulatore-dvd-rom-hardware-usb.html">http://linuxehacking.blogspot.de/2013/07/how-to-emulatore-dvd-rom-hardware-usb.html</a>.
+</dd></dl>
+<h1> <span class="mw-headline" id="USB_MIDI_support"> USB MIDI support </span></h1>
+<p>This allows your device to act as a MIDI USB client. The connection is set up as a separate ALSA sound card with MIDI port. 
+</p>
+<h2> <span class="mw-headline" id="Kernel_Configuration"> Kernel Configuration </span></h2>
+<p>Enable the module in the kernel config (it's not enabled by default):
+</p>
+<pre>
+    Device Drivers  ---&gt;
+        USB support  ---&gt;
+            &lt;*&gt;    USB Gadget Support  ---&gt;
+                &lt;m&gt;    MIDI Gadget (EXPERIMENTAL)
+</pre>
+<p>Make sure you also have the ALSA MIDI seqencer support enabled:
+</p>
+<pre>
+    Device Drivers  ---&gt;
+        Sound Card support  ---&gt;
+            Advanced Linux Sound Architecture  ---&gt;
+                &lt;M&gt;   Sequencer support
+</pre>
+<h2> <span class="mw-headline" id="Loading_the_driver"> Loading the driver </span></h2>
+<p>Load the midi gadget driver with:
+</p>
+<pre>modprobe g_midi</pre>
+<p>If it responds with a "device or resource busy" message, then you probably already have an ALSA sound card registered with index 0. You can specify the index via the module options, simply choose the next free index:
+</p>
+<pre>modprobe g_midi index=1</pre>
+<h2> <span class="mw-headline" id="Known_Error_Messages"> Known Error Messages </span></h2>
+<p>If you see the following message
+</p>
+<pre>WRN:L2385(drivers/usb/sunxi_usb/udc/sw_udc.c):ERR: sw_udc_queue: inval 2</pre>
+<p>it means that you attempted to send a MIDI message via the MIDI gadget without it being connected to a host. Just plug in the USB cable (or unplug and retry if the first registration failed) and the error should go away.
+</p>
+<h1> <span class="mw-headline" id="Possible_security_implications"> Possible security implications </span></h1>
+<table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #EE8822; background-color: #FFEEDD">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_important.png" class="image"><img alt="MBOX icon important.png" src="/images/f/f0/MBOX_icon_important.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;">The ability to act as a wide range of USB peripherals, with device behavior that can be customized to a very large degree, may have security implications for the USB host.<br>
+<p>See e.g. <a class="external free" href="https://en.wikipedia.org/wiki/Firmware#Security_risks">https://en.wikipedia.org/wiki/Firmware#Security_risks</a>, or search for "BadUSB".
+</p>
+</td></tr></table>
+
+ 
+
+ 
+
+ 
+</div>				 
+								 
+				<div class="printfooter">
+				Retrieved from "<a href="http://linux-sunxi.org/index.php?title=USB_Gadget&amp;oldid=17762">http://linux-sunxi.org/index.php?title=USB_Gadget&amp;oldid=17762</a>"				</div>
+				 
+												 
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:USB_OTG" title="Category:USB OTG">USB OTG</a></li><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>				 
+												<div class="visualClear"></div>
+				 
+								 
+			</div>
+			 
+		</div>
+		 
+		 
+		<div id="mw-head" class="noprint">
+			
+ 
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+		<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+		<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=USB+Gadget&amp;type=signup">Create account</a></li>
+		<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=USB+Gadget" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+ 
+			<div id="left-navigation">
+				
+ 
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li id="ca-nstab-main" class="selected"><span><a href="/USB_Gadget" title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:USB_Gadget&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+ 
+
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+ 
+			</div>
+			<div id="right-navigation">
+				
+ 
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/USB_Gadget">Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=USB_Gadget&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=USB_Gadget&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+ 
+
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+ 
+
+ 
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/>			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/>			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/>					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+ 
+			</div>
+		</div>
+		 
+		 
+			<div id="mw-panel" class="noprint">
+				 
+					<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+				 
+				
+ 
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+			<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+<div class="portal" id='p-tb'>
+	<h5>Tools</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/USB_Gadget" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/USB_Gadget" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-print"><a href="/index.php?title=USB_Gadget&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+			<li id="t-permalink"><a href="/index.php?title=USB_Gadget&amp;oldid=17762" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+ 
+
+ 
+
+ 
+			</div>
+		 
+		 
+		<div id="footer">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 26 June 2016, at 12:05.</li>
+											<li id="footer-info-viewcount">This page has been accessed 33,041 times.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+											<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		 
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+	</body>
+</html>

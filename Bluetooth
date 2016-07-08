@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Bluetooth - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Bluetooth","wgTitle":"Bluetooth","wgCurRevisionId":14334,"wgArticleId":1956,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial","Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Bluetooth","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Bluetooth"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Bluetooth skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Bluetooth</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview_of_the_Bluetooth_Stack"><span class="tocnumber">1</span> <span class="toctext">Overview of the Bluetooth Stack</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#User_Space"><span class="tocnumber">2</span> <span class="toctext">User Space</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Host_Controller_Interface_.28HCI.29"><span class="tocnumber">3</span> <span class="toctext">Host Controller Interface (HCI)</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#HCI_Transport_Layer"><span class="tocnumber">4</span> <span class="toctext">HCI Transport Layer</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#UART"><span class="tocnumber">4.1</span> <span class="toctext">UART</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#USB"><span class="tocnumber">4.2</span> <span class="toctext">USB</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Other"><span class="tocnumber">4.3</span> <span class="toctext">Other</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Controller_Specific_Information"><span class="tocnumber">5</span> <span class="toctext">Controller Specific Information</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#AMPAK"><span class="tocnumber">5.1</span> <span class="toctext">AMPAK</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#AP6210"><span class="tocnumber">5.1.1</span> <span class="toctext">AP6210</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#Broadcom"><span class="tocnumber">5.2</span> <span class="toctext">Broadcom</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#BCM20710"><span class="tocnumber">5.2.1</span> <span class="toctext">BCM20710</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="#Realtek"><span class="tocnumber">5.3</span> <span class="toctext">Realtek</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#8723au"><span class="tocnumber">5.3.1</span> <span class="toctext">8723au</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#8723bs"><span class="tocnumber">5.3.2</span> <span class="toctext">8723bs</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Overview_of_the_Bluetooth_Stack"> Overview of the Bluetooth Stack </span></h1>
+<p>Bluetooth provides a large number of application <a class="external text" href="http://en.wikipedia.org/wiki/List_of_Bluetooth_profiles">profiles</a>. Examples are playing audio between devices (A2DP), wireless keyboards and mice (HID) and transferring data wirelessly between devices (FTP, OPP).
+</p><p>These application profiles work on a stack of <a class="external text" href="http://en.wikipedia.org/wiki/List_of_Bluetooth_protocols">protocols</a>, similar in concept to the networking and USB stacks. For example the Object Push Profile (OPP) uses the OBject EXchange (OBEX) protocol, which uses the Radio Frequency COMMunication (RFCOMM) protocol, which uses the Logical Link Control and Adaptation Protocol (L2CAP), which uses the Host Controller Interface (HCI) protocol, which uses the radio link protocols.
+</p><p>This can rapidly become a complex area, but the user space tools make this all "just work" for users. It is beyond the scope of this page to configure Bluetooth profiles.
+</p><p>The focus of this wiki page is on the interface between host and controller.
+</p>
+<h1> <span class="mw-headline" id="User_Space"> User Space </span></h1>
+<p>The collection of user space tools is maintained by the <a rel="nofollow" class="external text" href="http://www.bluez.org">Bluez</a> project.
+Note that the tool chain requires D-Bus. For application development the <a rel="nofollow" class="external text" href="http://git.kernel.org/cgit/bluetooth/bluez.git/tree/doc">D-Bus API is documented in the Bluez source</a>.
+</p><p>A contemporary short instruction for CLI usage can be found in the <a rel="nofollow" class="external text" href="https://wiki.archlinux.org/index.php/bluetooth#Configuration_via_the_CLI">Archlinux Wiki</a>.
+</p>
+<h1> <span class="mw-headline" id="Host_Controller_Interface_.28HCI.29"> Host Controller Interface (HCI) </span></h1>
+<p>The Host Controller Interface is a lower level protocol in the Bluetooth stack. A host is usually a PC, tablet, SBC, phone, etc. A controller is the chip with the Bluetooth radio. Although some simpler Bluetooth devices, such as a headset, may have the host and controller implemented on a single processor.
+</p><p>The communication layer between host and controller can be over a number of interfaces, for example UART, USB and SPI.
+</p><p>The purpose of a Bluetooth driver for a sunxi system on chip is to set up the Bluetooth controller ready for user space to provide Bluetooth applications.
+</p>
+<h1> <span class="mw-headline" id="HCI_Transport_Layer"> HCI Transport Layer </span></h1>
+<p>This is the physical interface between host and controller. A number of <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/bluetooth">transport layer drivers</a> are provided in the Linux kernel and the Kernel's <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/bluetooth/Kconfig">Kconfig file</a> for the drivers gives a useful description.
+</p>
+<h2> <span class="mw-headline" id="UART"> UART </span></h2>
+<p>The Linux kernel driver is <kbd>hci_uart</kbd>
+</p><p>This is a serial interface and there are several protocols used, e.g. H4, H5, BCSP. The H4 protocol is probably the most common and uses serial control lines. The H5 protocol is a three-wire protocol so no serial control lines are used. There are also a number of proprietary protocols, BCSP (BlueCore Serial Protocol) being an example.
+</p><p>The datasheet for the controller and the schematics for the device should be enough to determine which protocol is used.
+</p>
+<h2> <span class="mw-headline" id="USB"> USB </span></h2>
+<p>The Linux kernel driver is <kbd>btusb</kbd>
+</p>
+<h2> <span class="mw-headline" id="Other"> Other </span></h2>
+<p>Examples are SPI and SDIO. These transport layers do not appear to be used in any devices with AllWinner SoCs.
+</p>
+<h1> <span class="mw-headline" id="Controller_Specific_Information"> Controller Specific Information </span></h1>
+<p>This section contains details on Bluetooth controller chips used alongside sunxi system on chips and how to drive them. A controller chip will need one or more of the following:
+</p>
+<ul><li> Power management, usually wake and sleep
+</li><li> Configuration of the transport between host and controller, often over UART, but could also be SPI or USB
+</li><li> Copying of controller's firmware to controller on start up
+</li><li> Co-ordination on the host with other drivers, e.g. Bluetooth A2DP will also need the audio driver configured
+</li></ul>
+<h2> <span class="mw-headline" id="AMPAK"> AMPAK </span></h2>
+<h3> <span class="mw-headline" id="AP6210"> AP6210 </span></h3>
+<p>The AMPAK AP<b>6210</b> combines Broadcom Wifi (BCM433<b>62</b>) and Bluetooth 4.0 (BCM207<b>10</b>) chips in a single <a class="external text" href="http://en.wikipedia.org/wiki/System_in_package">system in package</a>. The package exposes only the Bluetooth chip's UART transport layer. Audio is carried over a PCM interface.
+</p><p>Procedure for Sunxi Linux 3.4 kernel:
+</p>
+<ul><li> <a href="/Cubietruck/Bluetooth" title="Cubietruck/Bluetooth">Cubietruck/Bluetooth</a> - notes on this Wiki about the Cubietruck that contains an AP6210
+</li><li> <a rel="nofollow" class="external text" href="http://archlinuxarm.org/forum/viewtopic.php?f=33&amp;t=7253">"Got bluetooth working on Cubietruck - proof of concept"</a> - Arch Linux forum
+</li><li> <a class="external text" href="https://github.com/EddyBeaupre/ap6210">EddyBeaupre/ap6210</a> - GitHub, "Wifi and Bluetooth driver for CubieTruck"
+</li></ul>
+<p>Procedure for mainline Linux kernel:
+</p>
+<ul><li> <a class="external text" href="https://github.com/phelum/CT_Bluetooth">phelum/CT_Bluetooth</a> - working procedure for Bluetooth with AP6210 using both Linux mainline and 3.4 kernels, still a work in progress and the author is seeking feedback on the <a href="/Mailing_list" title="Mailing list">Mailing_list</a>
+</li><li> <a class="external text" href="https://github.com/wens/linux/commit/b3df2aa9dfb48d58ee590c9686dfc0e3946de5fc">"ARM: dts: sun7i: add bluetooth module to CubieTruck DTS"</a> - patch as an example DTS file
+</li><li> <a href="/User_talk:Sehraf" title="User talk:Sehraf">User_talk:Sehraf</a> - Sehraf has notes on an attempt to get the AP6210 working
+</li></ul>
+<h2> <span class="mw-headline" id="Broadcom"> Broadcom </span></h2>
+<p>Broadcom provide a <a rel="nofollow" class="external text" href="https://code.google.com/p/broadcom-bluetooth/">tool</a> for Linux to configure and test Broadcom Bluetooth chips. The tool source code is licensed under the Apache License 2.0. Binaries are also available for download. This tool can be used to upload firmware to the controller. For example a firmware upload over UART:
+</p>
+<pre>brcm_patchram_plus -d --no2bytes --patchram firmware_file.hcd /dev/ttyS1
+</pre>
+<h3> <span class="mw-headline" id="BCM20710"> BCM20710 </span></h3>
+<p>The BCM20710 provides both SPI and UART transport layers. See <a class="external text" href="http://dl.linux-sunxi.org/users/turl/20710-DS103-RDS.pdf">BCM20710 datasheet</a> for more details.
+</p><p>The firmware needs to be uploaded to the controller. The firmware .hcd file is available <a rel="nofollow" class="external text" href="http://dl.cubieboard.org/public/Cubieboard/benn/firmware/ap6210/">here</a>.
+</p>
+<h2> <span class="mw-headline" id="Realtek"> Realtek </span></h2>
+<h3> <span class="mw-headline" id="8723au"> 8723au </span></h3>
+<p>This device has no driver included in the kernel, but you can install it separately. It also supports <a href="/Wifi#8723au" title="Wifi">Wifi</a> functionality.
+</p><p>The Bluetooth functionality is included in the hardware that does the wifi, so you may need to have the wifi drivers described above working to also have this working. However, don't expect it to work particularly well as there appear to be numerous bugs (in either the driver or the hardware or both). There seems to also be an issue where using both wifi and bluetooth at the same time cause severe interference to the point where connections are dropped (this has been seen in the stock Android firmware as well).
+</p><p>check out the code from <a class="external free" href="https://github.com/lwfinger/rtl8723au_bt.git">https://github.com/lwfinger/rtl8723au_bt.git</a> and compile with the following command:
+</p>
+<pre>make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C ../linux-sunxi/ M=`pwd` modules
+</pre>
+<p><b>NOTE:</b> This command assumes that you checked out the rtl8723au_bt repo into the same directory as the linux-sunxi repo (note the <code>../linux-sunxi/</code> points to where your local kernel repository is)
+</p><p>copy the *.bin and *.ko files over to the device and run the following on the device (as root) where you have your files:
+</p>
+<pre>mkdir -p /lib/firmware/rtk_bt
+cp rlt8723a_chip_b_cut_bt40_fw_asic_rom_patch-svn8511-0x0020342E-20121105-LINUX_USB.bin /lib/firmware/rtk_bt/rtk8723a.bin
+install -p -m 644 rtk_btusb.ko /lib/modules/`uname -r`/kernel/drivers/bluetooth/
+/sbin/depmod
+modprobe rtk_btusb
+</pre>
+<p>Apparently, the RTL8723AU driver (r8728au) in mainline serves only wifi, though it has an option to coexist with BT.
+<a class="external text" href="https://github.com/lwfinger/rtl8723au_bt/tree/new">rtl8723au_bt, branch new</a> is the work repository for
+a current bluetooth driver.
+</p>
+<h3> <span class="mw-headline" id="8723bs"> 8723bs </span></h3>
+<p>Firmware and userspace loader can be found <a class="external text" href="https://github.com/lwfinger/rtl8723bs_bt">here</a>.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Bluetooth&amp;oldid=14334">http://linux-sunxi.org/index.php?title=Bluetooth&amp;oldid=14334</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Bluetooth&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Bluetooth" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Bluetooth" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Bluetooth&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Bluetooth">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Bluetooth&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Bluetooth&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Bluetooth" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Bluetooth" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Bluetooth&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Bluetooth&amp;oldid=14334" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 24 June 2015, at 06:10.</li>
+<li id="footer-info-viewcount">This page has been accessed 8,374 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

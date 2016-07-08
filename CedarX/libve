@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>CedarX/libve - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"CedarX/libve","wgTitle":"CedarX/libve","wgCurRevisionId":16195,"wgArticleId":573,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CedarX","Proprietary Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"CedarX/libve","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/CedarX/libve"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-CedarX_libve skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">CedarX/libve</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"><span class="subpages">&lt; <a href="/CedarX" title="CedarX">CedarX</a></span></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Using_the_native_Linux_library"><span class="tocnumber">2</span> <span class="toctext">Using the native Linux library</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Using_libhybris_wrapped_Android_libraries"><span class="tocnumber">3</span> <span class="toctext">Using libhybris wrapped Android libraries</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Testing_libhybris_wrapped_Android_libraries_with_VLC"><span class="tocnumber">3.1</span> <span class="toctext">Testing libhybris wrapped Android libraries with VLC</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Testing_libhybris_wrapped_Android_libraries_with_XBMC"><span class="tocnumber">3.2</span> <span class="toctext">Testing libhybris wrapped Android libraries with XBMC</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Having_problems_with_the_Android_libraries.3F"><span class="tocnumber">3.3</span> <span class="toctext">Having problems with the Android libraries?</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Introduction"> Introduction </span></h1>
+<p>libve is a small proprietary library, which is providing the core of <a href="/CedarX" title="CedarX">CedarX</a> video decoding functionality. There is some documentation about the use of libve API here <a class="external autonumber" href="https://github.com/linux-sunxi/cedarx-libs/tree/master/doc">[1]</a>. Also the sources of <a href="/VLC" title="VLC">VLC</a> and <a href="/XBMC_(outdated)" title="XBMC (outdated)">XBMC (outdated)</a> media players can be used as examples.
+</p>
+<h1> <span class="mw-headline" id="Using_the_native_Linux_library"> Using the native Linux library </span></h1>
+<p>There is a Linux armhf blob available at <a class="external autonumber" href="https://github.com/linux-sunxi/cedarx-libs/tree/master/libcedarv/linux-armhf/libvecore">[2]</a> (af9caeac58876819623e8e7ac3ee19798079a102 libvecore.so). Unfortunately it has little practical value because of a serious decoding bug: <a class="external free" href="https://github.com/linux-sunxi/cedarx-libs/issues/1">https://github.com/linux-sunxi/cedarx-libs/issues/1</a>
+</p><p>A good example of a file triggering this bug is Sintel trailer: <a rel="nofollow" class="external free" href="http://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4">http://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4</a>
+</p><p>But don't lose your hope yet and move on to the next section.
+</p>
+<h1> <span class="mw-headline" id="Using_libhybris_wrapped_Android_libraries"> Using <a rel="nofollow" class="external text" href="http://www.cnx-software.com/2013/04/08/libhybris-let-you-use-android-drivers-hw-libraries-in-linux/">libhybris</a> wrapped Android libraries </span></h1>
+<p>First we need to get access to the Android /system directory with the required Android libraries.
+</p><p>One way to do this is just by simply mounting this directory for the vendor provided Android firmware in NAND. But make sure that a recent Android firmware is used (unfortunately ABI keeps changing between releases). This method was successfully tested on Mele A2000 with Mele_HTPC_20130116_V1.3.1.img vendor provided firmware <a rel="nofollow" class="external autonumber" href="http://www.mele.cn/download/show/21.htm">[3]</a>.
+</p>
+<pre>  mkdir /system
+  mount /dev/nandd /system
+</pre>
+<p>An alternative method can be used in the case if your Android blobs are not compatible (cause crashes) or you don't have Android in NAND in the first place. It is possible to build Android from sources for cubieboard (or some other Allwinner A10 hardware) using the instructions from <a rel="nofollow" class="external free" href="http://martinbrook.blogspot.fi/2013/04/adventures-with-libhybris-and-andriod.html">http://martinbrook.blogspot.fi/2013/04/adventures-with-libhybris-and-andriod.html</a>. For convenience, a minimal set of pre-built libraries can be obtained by using the following instructions:
+</p>
+<pre>  cd /
+  wget <a rel="nofollow" class="external free" href="http://people.freedesktop.org/~siamashka/files/20130509/system.tar.gz">http://people.freedesktop.org/~siamashka/files/20130509/system.tar.gz</a>
+  tar -xzf system.tar.gz
+  cd /system/lib
+  wget <a class="external free" href="https://github.com/allwinner-dev-team/android_external_cedarx/raw/ef36cd760e9d76a2/CedarAndroidLib/LIB_JB_F23/libcedarv_adapter.so">https://github.com/allwinner-dev-team/android_external_cedarx/raw/ef36cd760e9d76a2/CedarAndroidLib/LIB_JB_F23/libcedarv_adapter.so</a>
+  wget <a class="external free" href="https://github.com/allwinner-dev-team/android_external_cedarx/raw/ef36cd760e9d76a2/CedarAndroidLib/LIB_JB_F23/libcedarv_base.so">https://github.com/allwinner-dev-team/android_external_cedarx/raw/ef36cd760e9d76a2/CedarAndroidLib/LIB_JB_F23/libcedarv_base.so</a>
+  wget <a class="external free" href="https://github.com/allwinner-dev-team/android_external_cedarx/raw/ef36cd760e9d76a2/CedarAndroidLib/LIB_JB_F23/libcedarxosal.so">https://github.com/allwinner-dev-team/android_external_cedarx/raw/ef36cd760e9d76a2/CedarAndroidLib/LIB_JB_F23/libcedarxosal.so</a>
+  wget <a class="external free" href="https://github.com/allwinner-dev-team/android_external_cedarx/raw/ef36cd760e9d76a2/CedarAndroidLib/LIB_JB_F23/libve.so">https://github.com/allwinner-dev-team/android_external_cedarx/raw/ef36cd760e9d76a2/CedarAndroidLib/LIB_JB_F23/libve.so</a>
+</pre>
+<p>Then we need to compile and install libhybris with CedarX libve patches (to some directory of your choice, but *not* into /usr because it would clash with GLESv2 Mali libraries):
+</p>
+<pre>  git clone -b cedarx <a class="external free" href="git://github.com/ssvb/libhybris.git">git://github.com/ssvb/libhybris.git</a>
+  cd libhybris/hybris
+  ./autogen.sh --prefix=/usr/local/hybris
+  make
+  make install
+</pre>
+<p>That's all. Now you should have /usr/local/hybris/lib/libvecore.so library, which is a drop-in replacement for the native libvecore.so
+</p>
+<h2> <span class="mw-headline" id="Testing_libhybris_wrapped_Android_libraries_with_VLC"> Testing libhybris wrapped Android libraries with <a href="/VLC" title="VLC">VLC</a> </span></h2>
+<p>The VLC test itself can be done with:
+</p>
+<pre>  export LD_LIBRARY_PATH=/usr/local/hybris/lib
+  wget <a rel="nofollow" class="external free" href="http://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4">http://download.blender.org/durian/trailer/sintel_trailer-1080p.mp4</a>
+  ./cvlc --demux ffmpeg --codec cedar --vout cedarfb --no-osd sintel_trailer-1080p.mp4
+</pre>
+<p>The Sintel trailer video used in this example normally triggers severe decoding bugs in the native Linux blob. With the libhybris wrapped and loaded Android blobs this video should play perfectly fine.
+</p>
+<h2> <span class="mw-headline" id="Testing_libhybris_wrapped_Android_libraries_with_XBMC"> Testing libhybris wrapped Android libraries with XBMC </span></h2>
+<p>First replace libvecore.so with a symlink to the libhybris wrapper:
+</p>
+<pre>  cd /allwinner/xbmc-pvr-binhf/lib
+  mv libvecore.so libvecore.so.old_native_linux_blob
+  ln -s /usr/local/hybris/lib/libvecore.so libvecore.so
+</pre>
+<p>Then run XBMC:
+</p>
+<pre>  cd /allwinner/xbmc-pvr-binhf/lib/xbmc
+  ./xbmc.bin
+</pre>
+<h2> <span class="mw-headline" id="Having_problems_with_the_Android_libraries.3F"> Having problems with the Android libraries? </span></h2>
+<p><strike>Please report them to <a class="external free" href="https://github.com/ssvb/libhybris/issues">https://github.com/ssvb/libhybris/issues</a>
+</p><p>Note: please only report the cases when libhybris wrapped Android libraries work worse than the native Linux library (otherwise it is unlikely to have anything to do with the libhybris wrapper). Also don't forget to describe the steps needed to reproduce the issue, some information about the video player (VLC or XBMC) and a link to the sample file causing problems.</strike>
+</p><p>The promise to debug issues in the libhybris libve wrapper has already expired and it is not maintained anymore. Please consider using <a class="external free" href="https://github.com/linux-sunxi/libvdpau-sunxi">https://github.com/linux-sunxi/libvdpau-sunxi</a> as a solution for hardware accelerated video decoding.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=CedarX/libve&amp;oldid=16195">http://linux-sunxi.org/index.php?title=CedarX/libve&amp;oldid=16195</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:CedarX" title="Category:CedarX">CedarX</a></li><li><a href="/Category:Proprietary_Software" title="Category:Proprietary Software">Proprietary Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=CedarX%2Flibve&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=CedarX%2Flibve" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/CedarX/libve" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:CedarX/libve&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/CedarX/libve">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=CedarX/libve&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=CedarX/libve&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/CedarX/libve" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/CedarX/libve" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=CedarX/libve&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=CedarX/libve&amp;oldid=16195" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 January 2016, at 17:28.</li>
+<li id="footer-info-viewcount">This page has been accessed 32,461 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

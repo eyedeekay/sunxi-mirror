@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Mixtile LOFT-Q - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mixtile_LOFT-Q","wgTitle":"Mixtile LOFT-Q","wgCurRevisionId":14441,"wgArticleId":2028,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Devices","A31 Boards","Devices with Ethernet port","Devices with HDMI port","Mainline Kernel"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Mixtile_LOFT-Q","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Mixtile_LOFT-Q"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Mixtile_LOFT-Q skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Mixtile LOFT-Q</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Mixtile LOFT-Q</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:IMG_0395.JPG" class="image"><img alt="IMG 0395.JPG" src="/images/thumb/d/d8/IMG_0395.JPG/250px-IMG_0395.JPG" width="250" height="188"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.focalcrest.com/">Focalcrest</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+120 <i>mm</i> x 120 <i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://focalcrest.com/en/pc.html#pro02">Device Product Page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/A31" title="A31">A31</a> @ 1Ghz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+2GiB DDR3 @ 312MHz</td></tr><tr class=""><th scope="row" style="text-align:left;">eMMC</th><td class="" style="">
+8GB</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 12V @ 4A</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (Type A - full)</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+toslink plug, HDMI, on-board microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+WiFi 802.11 b/g/n + BT (AP6234), 10/100/1000Mbps Ethernet, Zigbee NXP JN5168</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+SD SATA</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+4 USB2.0 Host</td></tr>
+</table>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Sunxi_Kernel"><span class="tocnumber">2.1.1</span> <span class="toctext">Sunxi Kernel</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Sunxi_U-Boot"><span class="tocnumber">2.1.2</span> <span class="toctext">Sunxi U-Boot</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Mainline_kernel"><span class="tocnumber">2.1.3</span> <span class="toctext">Mainline kernel</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Mainline_U-Boot"><span class="tocnumber">2.1.4</span> <span class="toctext">Mainline U-Boot</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#HW-Pack"><span class="tocnumber">2.3</span> <span class="toctext">HW-Pack</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#BSP"><span class="tocnumber">2.4</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Manual_build"><span class="tocnumber">2.5</span> <span class="toctext">Manual build</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#Datasheet"><span class="tocnumber">3.1.1</span> <span class="toctext">Datasheet</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-15"><a href="#Expansion_Ports"><span class="tocnumber">3.2</span> <span class="toctext">Expansion Ports</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Adding_a_serial_port"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Also_known_as"><span class="tocnumber">6</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>The board reads "Mixtile LOFT-Q"
+</p><p>The board comes with Android 4.4.2 (3.3.0 kernel) preloaded in the EMMC.
+</p>
+<ul><li> Model Number: Softwinner
+</li></ul>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<p>The Mixtile LOFT-Q is only partially supported, benefited from Humming bird.
+</p>
+<h3> <span class="mw-headline" id="Sunxi_Kernel"> Sunxi Kernel </span></h3>
+<p>Like all <a href="/A31" title="A31">A31</a> based devices, there is no support in our sunxi kernel.
+</p>
+<h3> <span class="mw-headline" id="Sunxi_U-Boot"> Sunxi U-Boot </span></h3>
+<p>Linux-sunxi's U-Boot currently lacks SPL support. This means that you have to chain load it from Allwinner's bootloader <span style="color:#ba0000">How?</span>.
+</p>
+<h3> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h3>
+<p>Mainline kernel support is included in 3.17.
+Currently only UARTs, USB, I2C, and GMAC are supported.
+</p><p>Use the sun6i-a31-hummingbird.dtb device-tree file for the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>.
+</p>
+<h3> <span class="mw-headline" id="Mainline_U-Boot"> Mainline U-Boot </span></h3>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<h2> <span class="mw-headline" id="HW-Pack"> HW-Pack </span></h2>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<ul><li> For building u-boot, use the "<span style="color:#ba0000">MANUFACTURER_DEVICE</span>" target.
+</li><li> The .fex file can be found in sunxi-boards as <a class="external text" href="https://github.com/linux-sunxi/sunxi-boards/blob/master/sys_config/a31/hummingbird_a31.fex">hummingbird_a31.fex</a>
+</li></ul>
+<p>Everything else is the same as the <a href="/Manual_build_howto" title="Manual build howto">manual build howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The U-Boot button triggers <a href="/FEL" title="FEL"> FEL mode</a>. See <a href="/BROM#A31" title="BROM"> BROM</a> for more information on the boot sequence.
+</p>
+<h3> <span class="mw-headline" id="Datasheet"> Datasheet </span></h3>
+<p>Will soon be released.
+</p>
+<h2> <span class="mw-headline" id="Expansion_Ports"> Expansion Ports </span></h2>
+<p>The Mixtile LOFT-Q exposes 3 x 60 pins 0.5&#160;mm pitch connectors with lots of expansion possibilities.
+</p>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="4"> J4 "CSI/MIPI-DSI"
+</th></tr>
+<tr>
+<th colspan="4"> 2x30 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> CSI-D0
+</td>
+<td> 2 </td>
+<td> CSI-D1
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> CSI-D2
+</td>
+<td> 4 </td>
+<td> CSI-D3
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> CSI-D4
+</td>
+<td> 6 </td>
+<td> CSI-D5
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> CSI-D6
+</td>
+<td> 8 </td>
+<td> CSI-D7
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> CSI-D8
+</td>
+<td> 10 </td>
+<td> CSI-D9
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> CSI-D10
+</td>
+<td> 12 </td>
+<td> CSI-D11
+</td></tr>
+<tr>
+<td> 13 </td>
+<td> <i>GND</i>
+</td>
+<td> 14 </td>
+<td> CSI-HSYNC
+</td></tr>
+<tr>
+<td> 15 </td>
+<td> CSI-VSYNC
+</td>
+<td> 16 </td>
+<td> TWI0-SCK
+</td></tr>
+<tr>
+<td> 17 </td>
+<td> TWI0-SDA
+</td>
+<td> 18 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 19 </td>
+<td> CSI-MCLK
+</td>
+<td> 20 </td>
+<td> CSI-PCLK
+</td></tr>
+<tr>
+<td> 21 </td>
+<td> <i>GND</i>
+</td>
+<td> 22 </td>
+<td> VDD1V8-CSI
+</td></tr>
+<tr>
+<td> 23 </td>
+<td> VDD1V8-CSI
+</td>
+<td> 24 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 25 </td>
+<td> <i>VCC-5V</i>
+</td>
+<td> 26 </td>
+<td> <i>VCC-5V</i>
+</td></tr>
+<tr>
+<td> 27 </td>
+<td> <i>GND</i>
+</td>
+<td> 28 </td>
+<td> <i>VCC-3V3</i>
+</td></tr>
+<tr>
+<td> 29 </td>
+<td> <i>VCC-3V3</i>
+</td>
+<td> 30 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 31 </td>
+<td> MCSI-MCLK
+</td>
+<td> 32 </td>
+<td> <i>NC</i>
+</td></tr>
+<tr>
+<td> 33 </td>
+<td> <i>NC</i>
+</td>
+<td> 34 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 35 </td>
+<td> DSI-D0N
+</td>
+<td> 36 </td>
+<td> DSI-D0P
+</td></tr>
+<tr>
+<td> 37 </td>
+<td> <i>GND</i>
+</td>
+<td> 38 </td>
+<td> DSI-D1N
+</td></tr>
+<tr>
+<td> 39 </td>
+<td> DSI-D1P
+</td>
+<td> 40 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 41 </td>
+<td> DSI-D2N
+</td>
+<td> 42 </td>
+<td> DSI-D2P
+</td></tr>
+<tr>
+<td> 43 </td>
+<td> <i>GND</i>
+</td>
+<td> 44 </td>
+<td> DSI-D3N
+</td></tr>
+<tr>
+<td> 45 </td>
+<td> DSI-D3P
+</td>
+<td> 46 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 47 </td>
+<td> DSI-CKN
+</td>
+<td> 48 </td>
+<td> DSI-CKP
+</td></tr>
+<tr>
+<td> 49 </td>
+<td> "GND"
+</td>
+<td> 50 </td>
+<td> SPDIF-IN
+</td></tr>
+<tr>
+<td> 51 </td>
+<td> SPDIF-OUT
+</td>
+<td> 52 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 53 </td>
+<td> I2S1-DIN
+</td>
+<td> 54 </td>
+<td> I2S1-BCLK
+</td></tr>
+<tr>
+<td> 55 </td>
+<td> I2S1-LRCK
+</td>
+<td> 56 </td>
+<td> I2S1-MCLK
+</td></tr>
+<tr>
+<td> 57 </td>
+<td> EARGND2
+</td>
+<td> 58 </td>
+<td> LRADC0
+</td></tr>
+<tr>
+<td> 59 </td>
+<td> EARGND2
+</td>
+<td> 60 </td>
+<td> LRADC0
+</td></tr></table>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="4"> J5 ""
+</th></tr>
+<tr>
+<th colspan="4"> 2x30 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> <i>VCC-5V</i>
+</td>
+<td> 2 </td>
+<td> <i>VCC-5V</i>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> <i>GND</i>
+</td>
+<td> 4 </td>
+<td> <i>VCC-LCD</i>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> <i>VCC-LCD</i>
+</td>
+<td> 6 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> UART4-TX
+</td>
+<td> 8 </td>
+<td> UART4-RX
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> <i>GND</i>
+</td>
+<td> 10 </td>
+<td> <i>VCC-JTAG</i>
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> <i>VCC-JTAG</i>
+</td>
+<td> 12 </td>
+<td> AP-RESET#
+</td></tr>
+<tr>
+<td> 13 </td>
+<td> TMS0
+</td>
+<td> 14 </td>
+<td> TCK0
+</td></tr>
+<tr>
+<td> 15 </td>
+<td> TDO0
+</td>
+<td> 16 </td>
+<td> TDI0
+</td></tr>
+<tr>
+<td> 17 </td>
+<td> JTAG-SEL0
+</td>
+<td> 18 </td>
+<td><i>GND</i>
+</td></tr>
+<tr>
+<td> 19 </td>
+<td> SPI0-MOSI
+</td>
+<td> 20 </td>
+<td> 'SPI0-MISO
+</td></tr>
+<tr>
+<td> 21 </td>
+<td> SPI0-CLK
+</td>
+<td> 22 </td>
+<td> SPI0-CS0
+</td></tr>
+<tr>
+<td> 23 </td>
+<td> <i>GND</i>
+</td>
+<td> 24 </td>
+<td> CSI2-D0N
+</td></tr>
+<tr>
+<td> 25 </td>
+<td> CSI2-D0P
+</td>
+<td> 26 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 27 </td>
+<td> CSI2-D1N
+</td>
+<td> 28 </td>
+<td> CSI2-D1P
+</td></tr>
+<tr>
+<td> 29 </td>
+<td> <i>GND</i>
+</td>
+<td> 30 </td>
+<td> CSI2-D2N
+</td></tr>
+<tr>
+<td> 31 </td>
+<td> CSI2-D2P
+</td>
+<td> 32 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 33 </td>
+<td> CSI2-D3N
+</td>
+<td> 34 </td>
+<td> CSI2-D3P
+</td></tr>
+<tr>
+<td> 35 </td>
+<td> <i>GND</i>
+</td>
+<td> 36 </td>
+<td> DSI-D0P
+</td></tr>
+<tr>
+<td> 37 </td>
+<td> CSI2-CKP
+</td>
+<td> 38 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 39 </td>
+<td> TWI3-SCK
+</td>
+<td> 40 </td>
+<td> TWI3-SDA
+</td></tr>
+<tr>
+<td> 41 </td>
+<td> <i>GND</i>
+</td>
+<td> 42 </td>
+<td> MCS-MCLK1
+</td></tr>
+<tr>
+<td> 43 </td>
+<td> <i>GND</i>
+</td>
+<td> 44 </td>
+<td> CAM-R-STBY-EN
+</td></tr>
+<tr>
+<td> 45 </td>
+<td> CAM-R-RESET#
+</td>
+<td> 46 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 47 </td>
+<td> GPIO-PH0
+</td>
+<td> 48 </td>
+<td> GPIO-PH1
+</td></tr>
+<tr>
+<td> 49 </td>
+<td> GPIO-PH2
+</td>
+<td> 50 </td>
+<td> GPIO-PH3
+</td></tr>
+<tr>
+<td> 51 </td>
+<td> GPIO-PH4
+</td>
+<td> 52 </td>
+<td> GPIO-PH5
+</td></tr>
+<tr>
+<td> 53 </td>
+<td> GPIO-PH6
+</td>
+<td> 54 </td>
+<td> GPIO-PH7
+</td></tr>
+<tr>
+<td> 55 </td>
+<td> GPIO-PH8
+</td>
+<td> 56 </td>
+<td> GPIO-PH29
+</td></tr>
+<tr>
+<td> 57 </td>
+<td> GPIO-PH30
+</td>
+<td> 58 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 59 </td>
+<td> USB-DP0
+</td>
+<td> 60 </td>
+<td> USB-DM0
+</td></tr></table>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="4"> J6 "LCD/LVDS"
+</th></tr>
+<tr>
+<th colspan="4"> 2x30 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> LVDS0-D0P (LCD0-D0)
+</td>
+<td> 2 </td>
+<td> LVDS0-D0N (LCD0-D1)
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> <i>GND</i>
+</td>
+<td> 4 </td>
+<td> LVDS0-D1P (LCD0-D2)
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> LVDS0-D1N (LCD0-D3)
+</td>
+<td> 6 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> LVDS0-D2P (LCD0-D4)
+</td>
+<td> 8 </td>
+<td> LVDS0-D2N (LCD0-D5)
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> <i>GND</i>
+</td>
+<td> 10 </td>
+<td> LVDS0-CLKP (LCD0-D6)
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> LVDS0-CLKN (LCD0-D7)
+</td>
+<td> 12 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 13 </td>
+<td> LVDS0-D3P (LCD0-D8)
+</td>
+<td> 14 </td>
+<td> LVDS0-D3N (LCD0-D9)
+</td></tr>
+<tr>
+<td> 15 </td>
+<td> <i>GND</i>
+</td>
+<td> 16 </td>
+<td> LVDS1-D0P (LCD0-D10)
+</td></tr>
+<tr>
+<td> 17 </td>
+<td> LVDS1-D0N (LCD0-D11)
+</td>
+<td> 18 </td>
+<td><i>GND</i>
+</td></tr>
+<tr>
+<td> 19 </td>
+<td> LVDS1-D1P (LCD0-D12)
+</td>
+<td> 20 </td>
+<td> LVDS1-D1N (LCD0-D13)
+</td></tr>
+<tr>
+<td> 21 </td>
+<td> <i>GND</i>
+</td>
+<td> 22 </td>
+<td> LVDS1-D2P (LCD0-D14)
+</td></tr>
+<tr>
+<td> 23 </td>
+<td> LVDS1-D2N (LCD0-D15)
+</td>
+<td> 24 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 25 </td>
+<td> LVDS1-CLKP (LCD0-D16)
+</td>
+<td> 26 </td>
+<td> LVDS1-CLKN (LCD0-D17)
+</td></tr>
+<tr>
+<td> 27 </td>
+<td> <i>GND</i>
+</td>
+<td> 28 </td>
+<td> LVDS1-D3P (LCD0-D18)
+</td></tr>
+<tr>
+<td> 29 </td>
+<td> LVDS1-D3N (LCD0-D19)
+</td>
+<td> 30 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 31 </td>
+<td> LCD0-D20
+</td>
+<td> 32 </td>
+<td> LCD0-D21
+</td></tr>
+<tr>
+<td> 33 </td>
+<td> LCD0-D22
+</td>
+<td> 34 </td>
+<td> LCD0-D23
+</td></tr>
+<tr>
+<td> 35 </td>
+<td> LCD0-CLK
+</td>
+<td> 36 </td>
+<td> LCD0-HSYNC
+</td></tr>
+<tr>
+<td> 37 </td>
+<td> LCD0-DE
+</td>
+<td> 38 </td>
+<td> LCD0-VSYNC
+</td></tr>
+<tr>
+<td> 39 </td>
+<td> LCD0-PWM
+</td>
+<td> 40 </td>
+<td> LCD0-BL-EN
+</td></tr>
+<tr>
+<td> 41 </td>
+<td> <i>GND</i>
+</td>
+<td> 42 </td>
+<td> CTP-WAKE
+</td></tr>
+<tr>
+<td> 43 </td>
+<td> CTP-INT
+</td>
+<td> 44 </td>
+<td> TWI1-SCK
+</td></tr>
+<tr>
+<td> 45 </td>
+<td> TWI1-SDA
+</td>
+<td> 46 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 47 </td>
+<td> RTP-X1
+</td>
+<td> 48 </td>
+<td> RTP-X2
+</td></tr>
+<tr>
+<td> 49 </td>
+<td> RTP-Y1
+</td>
+<td> 50 </td>
+<td> RTP-Y2
+</td></tr>
+<tr>
+<td> 51 </td>
+<td> <i>GND</i>
+</td>
+<td> 52 </td>
+<td> <i>VCC2V8-LCD</i>
+</td></tr>
+<tr>
+<td> 53 </td>
+<td> <i>VCC2V8-LCD</i>
+</td>
+<td> 54 </td>
+<td> <i>VCC2V8-LCD</i>
+</td></tr>
+<tr>
+<td> 55 </td>
+<td> <i>GND</i>
+</td>
+<td> 56 </td>
+<td> <i>VCC1V8-LCD</i>
+</td></tr>
+<tr>
+<td> 57 </td>
+<td> <i>VCC2V8-LCD</i>
+</td>
+<td> 58 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 59 </td>
+<td> <i>VCC-5V</i>
+</td>
+<td> 60 </td>
+<td> <i>VCC-5V</i>
+</td></tr></table>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="4"> J21 "LED/IR/POWER-ON"
+</th></tr>
+<tr>
+<th colspan="4"> 2x4 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> <i>VCC-NRF</i>
+</td>
+<td> 2 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> IR-RX
+</td>
+<td> 4 </td>
+<td> PWR-ON
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> LED1-R
+</td>
+<td> 6 </td>
+<td> LED2-G
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> LED3-B
+</td>
+<td> 8 </td>
+<td> <i>GND</i>
+</td></tr></table>
+<table class="wikitable" style="width:40%;">
+<tr>
+<th colspan="4"> J7 "AUDIO IN/OUT"
+</th></tr>
+<tr>
+<th colspan="4"> 2x3 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> SPKL
+</td>
+<td> 2 </td>
+<td> SPKR
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> AGND
+</td>
+<td> 4 </td>
+<td> AGND
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> LINEINL
+</td>
+<td> 6 </td>
+<td> LINEINR
+</td></tr></table>
+<h1> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a href="/File:LOFT-Q-uart.jpg" class="image"><img alt="" src="/images/thumb/a/ac/LOFT-Q-uart.jpg/200px-LOFT-Q-uart.jpg" width="200" height="267" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:LOFT-Q-uart.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART pins</div></div></div>
+<p>The UART header is next to USB host. Just attach some leads according to our <a href="/UART" title="UART">UART howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:LOFT-Q-FG.jpg" class="image"><img alt="LOFT-Q-FG.jpg" src="/images/thumb/2/21/LOFT-Q-FG.jpg/120px-LOFT-Q-FG.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:LOFT-Q-BG.jpg" class="image"><img alt="LOFT-Q-BG.jpg" src="/images/thumb/2/21/LOFT-Q-BG.jpg/120px-LOFT-Q-BG.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:LOFT-Q-FrontPanel.jpg" class="image"><img alt="LOFT-Q-FrontPanel.jpg" src="/images/thumb/4/4a/LOFT-Q-FrontPanel.jpg/120px-LOFT-Q-FrontPanel.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:30px auto;"><a href="/File:LOFT-Q-DiskConnector.jpg" class="image"><img alt="LOFT-Q-DiskConnector.jpg" src="/images/thumb/4/4c/LOFT-Q-DiskConnector.jpg/120px-LOFT-Q-DiskConnector.jpg" width="120" height="90"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Mixtile_LOFT-Q&amp;oldid=14441">http://linux-sunxi.org/index.php?title=Mixtile_LOFT-Q&amp;oldid=14441</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:A31_Boards" title="Category:A31 Boards">A31 Boards</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li><li><a href="/Category:Mainline_Kernel" title="Category:Mainline Kernel">Mainline Kernel</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mixtile+LOFT-Q&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Mixtile+LOFT-Q" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Mixtile_LOFT-Q" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Mixtile_LOFT-Q" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Mixtile_LOFT-Q">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Mixtile_LOFT-Q&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Mixtile_LOFT-Q&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Mixtile_LOFT-Q" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Mixtile_LOFT-Q" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Mixtile_LOFT-Q&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Mixtile_LOFT-Q&amp;oldid=14441" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 27 June 2015, at 20:12.</li>
+<li id="footer-info-viewcount">This page has been accessed 5,740 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

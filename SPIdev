@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>SPIdev - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"SPIdev","wgTitle":"SPIdev","wgCurRevisionId":16617,"wgArticleId":827,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"SPIdev","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/SPIdev"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-SPIdev skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">SPIdev</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The <b>SPI</b> bus (or <b>Serial Peripheral Interface bus</b>) is a synchronous serial data link originally created by motorola.<br/>
+For more information about SPI please refer to this link: <a class="external free" href="http://en.wikipedia.org/wiki/Serial_Peripheral_Interface">http://en.wikipedia.org/wiki/Serial_Peripheral_Interface</a><br/>
+<br/>
+In the linux kernel the SPI works only in master mode.<br/>
+There is a way of using the spi kernel driver to work as a device in the userspace. It's called SPIdev.<br/>
+<br/>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Configuring_your_kernel"><span class="tocnumber">1</span> <span class="toctext">Configuring your kernel</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#More_information"><span class="tocnumber">2</span> <span class="toctext">More information</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Configuring_your_FEX"><span class="tocnumber">3</span> <span class="toctext">Configuring your FEX</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Configuring_your_device-tree_.28mainline.29"><span class="tocnumber">4</span> <span class="toctext">Configuring your device-tree (mainline)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Example_for_pcDuino3"><span class="tocnumber">4.1</span> <span class="toctext">Example for pcDuino3</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Example_for_A10s_Olinuxino_Micro_UEXT_connector"><span class="tocnumber">4.2</span> <span class="toctext">Example for A10s Olinuxino Micro UEXT connector</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Using_the_SPI_bus"><span class="tocnumber">5</span> <span class="toctext">Using the SPI bus</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#In_the_user_space"><span class="tocnumber">5.1</span> <span class="toctext">In the user space</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#In_the_kernel_space"><span class="tocnumber">5.2</span> <span class="toctext">In the kernel space</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#SPI_NOR_Flash"><span class="tocnumber">6</span> <span class="toctext">SPI NOR Flash</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Configuring_your_kernel">Configuring your kernel</span></h1>
+<p>For using it you will have to enable this options in your defconfig or manually in your kernel:<br/>
+<br/>
+CONFIG_SPI_SUN4I=y<br/>
+CONFIG_SPI_SUN6I=y<br/>
+CONFIG_SPI=y<br/>
+CONFIG_SPI_MASTER=y<br/>
+CONFIG_EXPERIMENTAL=y<br/>
+CONFIG_SPI_SPIDEV=y<br/>
+<br/>
+</p>
+<h1> <span class="mw-headline" id="More_information">More information</span></h1>
+<p>For more information about using SPIdev in the userspace please refer to (Documentation/spi/): <a rel="nofollow" class="external free" href="http://lxr.free-electrons.com/source/Documentation/spi/">http://lxr.free-electrons.com/source/Documentation/spi/</a><br/>
+<br/>
+You will find there:<br/>
+spidev (contains the documentantion about the spidev)<br/>
+spidev_fdx.c (contains a simple example in C of a full duplex communication)<br/>
+spidev_test.c (contains a simple example in C of a half duplex communication)<br/>
+<br/>
+</p>
+<h1> <span class="mw-headline" id="Configuring_your_FEX">Configuring your FEX</span></h1>
+<p>It is important to configure your .fex file to be able to do so:<br/>
+<br/>
+(if you are using spi0)<br/>
+</p>
+<pre class="brush: ini">
+[spi0_para]
+spi_used = 1
+spi_cs_bitmap = 1
+spi_cs0 = port:PI10&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_sclk = port:PI11&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_mosi = port:PI12&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+spi_miso = port:PI13&lt;2&gt;&lt;default&gt;&lt;default&gt;&lt;default&gt;
+</pre>
+<p>(here you will specify the number of spi devices your card will have, if you plan only to use the spidev just put 1):
+</p>
+<pre class="brush: ini">
+[spi_devices]
+spi_dev_num = 1
+</pre>
+<p>(here you will have to put in the modalias "spidev")
+</p>
+<pre class="brush: ini">
+[spi_board0]
+modalias = &quot;spidev&quot;
+max_speed_hz = 12000000
+bus_num = 0
+chip_select = 0
+mode = 0
+full_duplex = 1
+manual_cs = 0
+</pre>
+<p>For more information about editing the fex file: <a rel="nofollow" class="external free" href="http://linux-sunxi.org/Fex_Guide">http://linux-sunxi.org/Fex_Guide</a><br/>
+</p>
+<h1> <span class="mw-headline" id="Configuring_your_device-tree_.28mainline.29">Configuring your device-tree (mainline)</span></h1>
+<p>For the most boards SPI is disabled by default. To enable it you have to modify <a href="/Device_Tree" title="Device Tree">device-tree</a> of your board.
+</p>
+<h3> <span class="mw-headline" id="Example_for_pcDuino3"> Example for pcDuino3 </span></h3>
+<p>As an example, we will enable SPI0 for this board. <br/>
+We will have to modify <i>arch/arm/boot/dts/sun7i-a20-pcduino3.dts</i>.<br/>
+First of all, for aesthetic reasons, we want spi0 to appear as <i>/sys/class/spi_master/spi0</i> and not as <i>ls /sys/class/spi_master/spi32766</i>, therefore we add <i>spi0 = &amp;spi0;</i> in the aliases section.<br/>
+Second - we enable spi0 by adding <i>+&amp;spi0</i> section. In example below spidev is also enabled, so that /dev/spidev0.0 could be accessible from the userspace (please note, that you must also enable CONFIG_SPI_SPIDEV in kernel configuration). If you don't need that functionality, you can omit <i><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="7d0e0d1419180b3d4d054d4d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></i> section.
+</p>
+<pre>
+--- a/arch/arm/boot/dts/sun7i-a20-pcduino3.dts
++++ b/arch/arm/boot/dts/sun7i-a20-pcduino3.dts
+@@ -56,6 +56,7 @@
+
+        aliases {
+                serial0 = &amp;uart0;
++               spi0 = &amp;spi0;
+        };
+
+        chosen {
+@@ -230,6 +231,19 @@
+        regulator-name = &quot;avcc&quot;;
+ };
+
++&amp;spi0 {
++       pinctrl-names = &quot;default&quot;;
++       pinctrl-0 = &lt;&amp;spi0_pins_a&gt;,
++                   &lt;&amp;spi0_cs0_pins_a&gt;;
++       status = &quot;okay&quot;;
++
++       <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="b1c2c1d8d5d4c7f181c98181">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
++               compatible = &quot;spidev&quot;;
++               spi-max-frequency = &lt;1200000&gt;;
++               reg = &lt;0&gt;;
++       };
++};
++
+ &amp;reg_usb1_vbus {
+        status = &quot;okay&quot;;
+ };
+</pre>
+<h3> <span class="mw-headline" id="Example_for_A10s_Olinuxino_Micro_UEXT_connector"> Example for A10s Olinuxino Micro UEXT connector </span></h3>
+<pre>--- a/arch/arm/boot/dts/sun5i-a10s.dtsi
++++ b/arch/arm/boot/dts/sun5i-a10s.dtsi
+@@ -154,6 +154,20 @@
+                        clocks = &lt;&amp;apb1_gates 18&gt;;
+                        status = &quot;disabled&quot;;
+                };
++
++               spi2: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c5b6b5ac85f5f4a6f4f2f5f5f5">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
++                       compatible = &quot;allwinner,sun4i-a10-spi&quot;;
++                       reg = &lt;0x01c17000 0x1000&gt;;
++                       interrupts = &lt;12&gt;;
++                       clocks = &lt;&amp;ahb_gates 22&gt;, &lt;&amp;spi2_clk&gt;;
++                       clock-names = &quot;ahb&quot;, &quot;mod&quot;;
++                       dmas = &lt;&amp;dma SUN4I_DMA_DEDICATED 29&gt;,
++                              &lt;&amp;dma SUN4I_DMA_DEDICATED 28&gt;;
++                       dma-names = &quot;rx&quot;, &quot;tx&quot;;
++                       status = &quot;disabled&quot;;
++                       #address-cells = &lt;1&gt;;
++                       #size-cells = &lt;0&gt;;
++               };
+        };
+ };
+ 
+@@ -198,4 +212,18 @@
+                allwinner,drive = &lt;SUN4I_PINCTRL_30_MA&gt;;
+                allwinner,pull = &lt;SUN4I_PINCTRL_NO_PULL&gt;;
+        };
++
++       spi2_pins_a: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="bac9cad388fa8a">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
++               allwinner,pins = &quot;PB11&quot;, &quot;PB12&quot;, &quot;PB13&quot;, &quot;PB14&quot;;
++               allwinner,function = &quot;spi2&quot;;
++               allwinner,drive = &lt;SUN4I_PINCTRL_10_MA&gt;;
++               allwinner,pull = &lt;SUN4I_PINCTRL_NO_PULL&gt;;
++       };
++
++       spi2_pins_b: <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="acdfdcc59eec9d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> {
++               allwinner,pins = &quot;PE00&quot;, &quot;PE01&quot;, &quot;PE02&quot;, &quot;PE03&quot;;
++               allwinner,function = &quot;spi2&quot;;
++               allwinner,drive = &lt;SUN4I_PINCTRL_10_MA&gt;;
++               allwinner,pull = &lt;SUN4I_PINCTRL_NO_PULL&gt;;
++       };
+ };
+
+
+--- a/arch/arm/boot/dts/sun5i-a10s-olinuxino-micro.dts
++++ b/arch/arm/boot/dts/sun5i-a10s-olinuxino-micro.dts
+@@ -182,6 +188,12 @@
+        status = &quot;okay&quot;;
+ };
+ 
++&amp;spi2 {
++       pinctrl-names = &quot;default&quot;;
++       pinctrl-0 = &lt;&amp;spi2_pins_a&gt;;
++       status = &quot;okay&quot;;
++};
++
+ &amp;ohci0 {
+        status = &quot;okay&quot;;
+ };
+
+--- a/arch/arm/boot/dts/sun5i-a10s-olinuxino-micro.dts
++++ b/arch/arm/boot/dts/sun5i-a10s-olinuxino-micro.dts
+@@ -192,6 +192,15 @@
+        pinctrl-names = &quot;default&quot;;
+        pinctrl-0 = &lt;&amp;spi2_pins_a&gt;;
+        status = &quot;okay&quot;;
++       spi2_0 {
++               #address-cells = &lt;1&gt;;
++               #size-cells = &lt;0&gt;;
++
++               compatible = &quot;spidev&quot;;
++
++               reg = &lt;0&gt;;
++               spi-max-frequency = &lt;50000000&gt;;
++       };
+ };
+ 
+ &amp;ohci0 {
+</pre>
+<h1> <span class="mw-headline" id="Using_the_SPI_bus">Using the SPI bus</span></h1>
+<h2> <span class="mw-headline" id="In_the_user_space"> In the user space </span></h2>
+<p>Once you will have this set you can boot your sunxi device and you will have in your dev in /dev/spidev<b>n</b>.0<br/>
+</p><p><b>Transfer size is limited to 64 bytes on sun4i and 128 bytes on sun6i</b>. You have to loop over longer messages in your code. Some SPI devices may require that you prefix each message fragment with a header, other may not. YMMV. Look up transfer diagrams in device datasheet.
+<br/>
+Known problems: Using the spidev_test.c example you will receive [spi]: drivers/spi/spi_sunxi.c(L1025) cpu tx data time out!<br/>
+Using the spidev_fdx.c method it works like a charm!&#160;:)<br/>
+<br/>
+I've made a user friendlier library (C functions) to comunicate using SPIdev:<br/>
+(Note, this library supose the read and write address to be 2 bytes)
+</p>
+<pre class="brush: ini">
+/*
+    spidevlib.c - A user-space program to comunicate using spidev.
+				Gustavo Zamboni
+*/
+#include &lt;stdint.h&gt;
+#include &lt;unistd.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;getopt.h&gt;
+#include &lt;fcntl.h&gt;
+#include &lt;sys/ioctl.h&gt;
+#include &lt;linux/types.h&gt;
+#include &lt;linux/spi/spidev.h&gt;
+
+char buf[10];
+char buf2[10];
+extern int com_serial;
+extern int failcount;
+
+struct spi_ioc_transfer xfer[2];
+
+
+//////////
+// Init SPIdev
+//////////
+int spi_init(char filename[40])
+	{
+    	int file;
+	__u8	mode, lsb, bits;
+	__u32 speed=2500000;
+
+    	if ((file = open(filename,O_RDWR)) &lt; 0)
+		{
+        	printf(&quot;Failed to open the bus.&quot;);
+        	/* ERROR HANDLING; you can check errno to see what went wrong */
+		com_serial=0;
+        	exit(1);
+    		}
+
+		///////////////
+		// Verifications
+		///////////////
+		//possible modes: mode |= SPI_LOOP; mode |= SPI_CPHA; mode |= SPI_CPOL; mode |= SPI_LSB_FIRST; mode |= SPI_CS_HIGH; mode |= SPI_3WIRE; mode |= SPI_NO_CS; mode |= SPI_READY;
+		//multiple possibilities using |
+		/*
+			if (ioctl(file, SPI_IOC_WR_MODE, &amp;mode)&lt;0)	{
+				perror(&quot;can't set spi mode&quot;);
+				return;
+				}
+		*/
+
+			if (ioctl(file, SPI_IOC_RD_MODE, &amp;mode) &lt; 0)
+				{
+				perror(&quot;SPI rd_mode&quot;);
+				return;
+				}
+			if (ioctl(file, SPI_IOC_RD_LSB_FIRST, &amp;lsb) &lt; 0)
+				{
+				perror(&quot;SPI rd_lsb_fist&quot;);
+				return;
+				}
+		//sunxi supports only 8 bits
+		/*
+			if (ioctl(file, SPI_IOC_WR_BITS_PER_WORD, 8)&lt;0)	
+				{
+				perror(&quot;can't set bits per word&quot;);
+				return;
+				}
+		*/
+			if (ioctl(file, SPI_IOC_RD_BITS_PER_WORD, &amp;bits) &lt; 0) 
+				{
+				perror(&quot;SPI bits_per_word&quot;);
+				return;
+				}
+		/*
+			if (ioctl(file, SPI_IOC_WR_MAX_SPEED_HZ, &amp;speed)&lt;0)	
+				{
+				perror(&quot;can't set max speed hz&quot;);
+				return;
+				}
+		*/
+			if (ioctl(file, SPI_IOC_RD_MAX_SPEED_HZ, &amp;speed) &lt; 0) 
+				{
+				perror(&quot;SPI max_speed_hz&quot;);
+				return;
+				}
+	
+
+	printf(&quot;%s: spi mode&#160;%d,&#160;%d bits&#160;%sper word,&#160;%d Hz max\n&quot;,filename, mode, bits, lsb&#160;? &quot;(lsb first) &quot;&#160;: &quot;&quot;, speed);
+
+	//xfer[0].tx_buf = (unsigned long)buf;
+	xfer[0].len = 3; /* Length of  command to write*/
+	xfer[0].cs_change = 0; /* Keep CS activated */
+	xfer[0].delay_usecs = 0, //delay in us
+	xfer[0].speed_hz = 2500000, //speed
+	xfer[0].bits_per_word = 8, // bites per word 8
+
+	//xfer[1].rx_buf = (unsigned long) buf2;
+	xfer[1].len = 4; /* Length of Data to read */
+	xfer[1].cs_change = 0; /* Keep CS activated */
+	xfer[0].delay_usecs = 0;
+	xfer[0].speed_hz = 2500000;
+	xfer[0].bits_per_word = 8;
+
+	return file;
+	}
+
+
+
+//////////
+// Read n bytes from the 2 bytes add1 add2 address
+//////////
+
+char * spi_read(int add1,int add2,int nbytes,int file)
+	{
+	int status;
+
+	memset(buf, 0, sizeof buf);
+	memset(buf2, 0, sizeof buf2);
+	buf[0] = 0x01;
+	buf[1] = add1;
+	buf[2] = add2;
+	xfer[0].tx_buf = (unsigned long)buf;
+	xfer[0].len = 3; /* Length of  command to write*/
+	xfer[1].rx_buf = (unsigned long) buf2;
+	xfer[1].len = nbytes; /* Length of Data to read */
+	status = ioctl(file, SPI_IOC_MESSAGE(2), xfer);
+	if (status &lt; 0)
+		{
+		perror(&quot;SPI_IOC_MESSAGE&quot;);
+		return;
+		}
+	//printf(&quot;env:&#160;%02x&#160;%02x&#160;%02x\n&quot;, buf[0], buf[1], buf[2]);
+	//printf(&quot;ret:&#160;%02x&#160;%02x&#160;%02x&#160;%02x\n&quot;, buf2[0], buf2[1], buf2[2], buf2[3]);
+
+	com_serial=1;
+	failcount=0;
+	return buf2;
+	}
+
+//////////
+// Write n bytes int the 2 bytes address add1 add2
+//////////
+void spi_write(int add1,int add2,int nbytes,char value[10],int file)
+	{
+	unsigned char	buf[32], buf2[32];
+	int status;
+
+	memset(buf, 0, sizeof buf);
+	memset(buf2, 0, sizeof buf2);
+	buf[0] = 0x00;
+	buf[1] = add1;
+	buf[2] = add2;
+	if (nbytes&gt;=1) buf[3] = value[0];
+	if (nbytes&gt;=2) buf[4] = value[1];
+	if (nbytes&gt;=3) buf[5] = value[2];
+	if (nbytes&gt;=4) buf[6] = value[3];
+	xfer[0].tx_buf = (unsigned long)buf;
+	xfer[0].len = nbytes+3; /* Length of  command to write*/
+	status = ioctl(file, SPI_IOC_MESSAGE(1), xfer);
+	if (status &lt; 0)
+		{
+		perror(&quot;SPI_IOC_MESSAGE&quot;);
+		return;
+		}
+	//printf(&quot;env:&#160;%02x&#160;%02x&#160;%02x\n&quot;, buf[0], buf[1], buf[2]);
+	//printf(&quot;ret:&#160;%02x&#160;%02x&#160;%02x&#160;%02x\n&quot;, buf2[0], buf2[1], buf2[2], buf2[3]);
+
+	com_serial=1;
+	failcount=0;
+	}
+</pre>
+<p>Usage example:<br/>
+</p>
+<pre class="brush: ini">
+char *buffer;
+char buf[10];
+
+file=spi_init(&quot;/dev/spidev0.0&quot;); //dev
+
+buf[0] = 0x41;
+buf[1] = 0xFF;
+spi_write(0xE6,0x0E,2,buf,file); //this will write value 0x41FF to the address 0xE60E
+
+buffer=(char *)spi_read(0xE6,0x0E,4,file); //reading the address 0xE60E
+
+close(file);
+</pre>
+<p><br/>
+For info it is possible to use all the 12000000 Hz frequency limit transfers.
+</p>
+<h2> <span class="mw-headline" id="In_the_kernel_space"> In the kernel space </span></h2>
+<p>If you are coding a driver for a SPI device, it makes most sense to code it as a kernel module. Instead of using /dev/spidevX.X you should register a new (slave) device and exchange data through it.
+If you are wondering what bus number you should use, you can find available buses by listing <i>/sys/class/spi_master</i>. There should be nodes like spi0, spi1... Number after spi is bus number. What number gets spi master depends on device-tree configuration.
+</p><p>Here is an example of module, that writes 0x00 to SPI when module is initialized and 0xff when uninitialized. It is using bus number 0 and communicating at the speed of 1Hz:
+</p>
+<pre class="brush: ini">
+
+#include &lt;linux/init.h&gt;
+#include &lt;linux/module.h&gt;
+#include &lt;linux/spi/spi.h&gt;
+
+#define MY_BUS_NUM 0
+static struct spi_device *spi_device;
+
+static int __init spi_init(void)
+{
+	int ret;
+	unsigned char ch = 0x00;
+	struct spi_master *master;
+	
+	//Register information about your slave device:
+	struct spi_board_info spi_device_info = {
+		.modalias = &quot;my-device-driver-name&quot;,
+		.max_speed_hz = 1, //speed your device (slave) can handle
+		.bus_num = MY_BUS_NUM,
+		.chip_select = 0,
+		.mode = 3,
+	};
+	
+	/*To send data we have to know what spi port/pins should be used. This information 
+	  can be found in the device-tree. */
+	master = spi_busnum_to_master( spi_device_info.bus_num );
+	if(&#160;!master ){
+		printk(&quot;MASTER not found.\n&quot;);
+        	return -ENODEV;
+	}
+	
+	// create a new slave device, given the master and device info
+	spi_device = spi_new_device( master, &amp;spi_device_info );
+
+	if(&#160;!spi_device ) {
+		printk(&quot;FAILED to create slave.\n&quot;);
+		return -ENODEV;
+	}
+	
+	spi_device-&gt;bits_per_word = 8;
+
+	ret = spi_setup( spi_device );
+	
+	if( ret ){
+		printk(&quot;FAILED to setup slave.\n&quot;);
+		spi_unregister_device( spi_device );
+		return -ENODEV;
+	}
+
+	spi_write(spi_device, &amp;ch, sizeof(ch));
+	
+	return 0;
+}
+
+
+static void __exit spi_exit(void)
+{
+	unsigned char ch = 0Xff;
+
+	if( spi_device ){
+		spi_write(spi_device, &amp;ch, sizeof(ch));
+		spi_unregister_device( spi_device );
+	}
+}
+
+module_init(spi_init);
+module_exit(spi_exit);
+
+MODULE_LICENSE(&quot;GPL&quot;);
+MODULE_AUTHOR(&quot;Piktas Zuikis &lt;[email protected]&gt;&quot;);
+MODULE_DESCRIPTION(&quot;SPI module example&quot;);
+
+</pre>
+<h1> <span class="mw-headline" id="SPI_NOR_Flash">SPI NOR Flash</span></h1>
+<p>The <a href="/BROM" title="BROM">Allwinner Boot Rom</a> can boot from NOR flash packaged over an SPI interface. There are currently no known devices that have onboard NOR flash.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=SPIdev&amp;oldid=16617">http://linux-sunxi.org/index.php?title=SPIdev&amp;oldid=16617</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Software" title="Category:Software">Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=SPIdev&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=SPIdev" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/SPIdev" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:SPIdev" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/SPIdev">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=SPIdev&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=SPIdev&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/SPIdev" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/SPIdev" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=SPIdev&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=SPIdev&amp;oldid=16617" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 19 March 2016, at 15:24.</li>
+<li id="footer-info-viewcount">This page has been accessed 45,235 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Linux mainlining effort - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Linux_mainlining_effort","wgTitle":"Linux mainlining effort","wgCurRevisionId":17893,"wgArticleId":267,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Development"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Linux_mainlining_effort","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Linux_mainlining_effort"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Linux_mainlining_effort skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Linux mainlining effort</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The purpose of this page is to try and define sub-goals and milestones for the mainlining effort, containing goals and sub-goals with milestones for adding Allwinner support in the upstream mainline Linux Kernel.
+</p><p>It is very important to note that this is intended as a rough set of minimal goals - it is not meant to collide with the huge effort of rewriting major drivers!
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Status"><span class="tocnumber">2</span> <span class="toctext">Status</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Status_Matrix"><span class="tocnumber">2.1</span> <span class="toctext">Status Matrix</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Work_In_Progress"><span class="tocnumber">2.2</span> <span class="toctext">Work In Progress</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Core_Stuff"><span class="tocnumber">2.2.1</span> <span class="toctext">Core Stuff</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Major_drivers"><span class="tocnumber">2.2.2</span> <span class="toctext">Major drivers</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Minor_drivers"><span class="tocnumber">2.2.3</span> <span class="toctext">Minor drivers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#Left_to_be_done"><span class="tocnumber">2.3</span> <span class="toctext">Left to be done</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Easy_Tasks"><span class="tocnumber">2.3.1</span> <span class="toctext">Easy Tasks</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Medium_Tasks"><span class="tocnumber">2.3.2</span> <span class="toctext">Medium Tasks</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Difficult_Tasks"><span class="tocnumber">2.3.3</span> <span class="toctext">Difficult Tasks</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Troublesome"><span class="tocnumber">2.3.4</span> <span class="toctext">Troublesome</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Unlikely"><span class="tocnumber">2.3.5</span> <span class="toctext">Unlikely</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Related_but_separate"><span class="tocnumber">2.3.6</span> <span class="toctext">Related but separate</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-15"><a href="#Planned_for_4.8"><span class="tocnumber">2.4</span> <span class="toctext">Planned for 4.8</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Planned_for_4.7"><span class="tocnumber">2.5</span> <span class="toctext">Planned for 4.7</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Merged_into_4.6"><span class="tocnumber">2.6</span> <span class="toctext">Merged into 4.6</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Merged_into_4.5"><span class="tocnumber">2.7</span> <span class="toctext">Merged into 4.5</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Merged_into_4.4"><span class="tocnumber">2.8</span> <span class="toctext">Merged into 4.4</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Merged_into_4.3"><span class="tocnumber">2.9</span> <span class="toctext">Merged into 4.3</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Merged_into_4.2"><span class="tocnumber">2.10</span> <span class="toctext">Merged into 4.2</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Merged_into_4.1"><span class="tocnumber">2.11</span> <span class="toctext">Merged into 4.1</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Merged_into_4.0"><span class="tocnumber">2.12</span> <span class="toctext">Merged into 4.0</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Merged_into_3.19"><span class="tocnumber">2.13</span> <span class="toctext">Merged into 3.19</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Merged_into_3.18"><span class="tocnumber">2.14</span> <span class="toctext">Merged into 3.18</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Merged_into_3.17"><span class="tocnumber">2.15</span> <span class="toctext">Merged into 3.17</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Merged_into_3.16"><span class="tocnumber">2.16</span> <span class="toctext">Merged into 3.16</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Merged_into_3.15"><span class="tocnumber">2.17</span> <span class="toctext">Merged into 3.15</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Merged_into_3.14"><span class="tocnumber">2.18</span> <span class="toctext">Merged into 3.14</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#Merged_into_3.13"><span class="tocnumber">2.19</span> <span class="toctext">Merged into 3.13</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#Merged_into_3.12"><span class="tocnumber">2.20</span> <span class="toctext">Merged into 3.12</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#Merged_into_3.11"><span class="tocnumber">2.21</span> <span class="toctext">Merged into 3.11</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#Merged_into_3.10"><span class="tocnumber">2.22</span> <span class="toctext">Merged into 3.10</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#Merged_into_3.9"><span class="tocnumber">2.23</span> <span class="toctext">Merged into 3.9</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#Merged_into_3.8"><span class="tocnumber">2.24</span> <span class="toctext">Merged into 3.8</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-36"><a href="#References"><span class="tocnumber">3</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-37"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-38"><a href="#External_Links"><span class="tocnumber">5</span> <span class="toctext">External Links</span></a>
+<ul>
+<li class="toclevel-2 tocsection-39"><a href="#How_to_upstream"><span class="tocnumber">5.1</span> <span class="toctext">How to upstream</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Overview">Overview</span></h1>
+<p>The idea is to submit the code needed to run the Linux kernel on Allwinner SoCs upstream, ie. to the official Linux kernel.
+</p><p>This can be achieved by following the concept outlined in the <i>Your new ARM SoC Linux support check-list!</i> article published by Thomas Petazzoni from Free Electrons.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>
+</p><p>Where relevant, I have attempted to include who is currently working on an item, mostly separate from any particular mainlining goal.
+</p>
+<h1> <span class="mw-headline" id="Status">Status</span></h1>
+<p>The <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">Mainline Kernel howto</a> contains the currently used repositories for the mainlining process. The U-Boot repository and toolchain is described in the <a href="/Mainline_U-Boot" title="Mainline U-Boot">Mainline U-Boot howto</a>.
+</p><p>The <a href="/Category:Mainline_Kernel" title="Category:Mainline Kernel"> Mainline Kernel category </a> gives an overview of currently supported devices.
+</p>
+<h2> <span class="mw-headline" id="Status_Matrix"> Status Matrix </span></h2>
+<p>The goal of this matrix is to give an easy view of work on each SoC worked on by linux-sunxi.
+</p>
+<table class="wikitable" style="text-align: center;">
+<tr>
+<th> SoC Name </th>
+<th> AC97 </th>
+<th> Audio Codec </th>
+<th> Clocks </th>
+<th> Crypto </th>
+<th> CSI </th>
+<th> Display (SimpleFB) </th>
+<th> Display (DRM) </th>
+<th> DMA </th>
+<th> EMAC </th>
+<th> HW Spinlocks </th>
+<th> I2C </th>
+<th> I2S </th>
+<th> IR </th>
+<th> Keypad </th>
+<th> LRADC </th>
+<th> MsgBox </th>
+<th> NAND </th>
+<th> Pinctrl </th>
+<th> PWM </th>
+<th> RSB </th>
+<th> RTC </th>
+<th> SATA </th>
+<th> SD / MMC </th>
+<th> SMP </th>
+<th> SPI </th>
+<th> Touch / Thermal / GPADC </th>
+<th> USB </th>
+<th> USB OTG </th>
+<th> Watchdog
+</th></tr>
+<tr>
+<td> A10 </td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 4.4
+</td>
+<td style="background: lightgreen;"> 3.10
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: lightgreen;"> 3.11
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.11
+</td>
+<td style="background: lightgreen;"> 4.8
+</td>
+<td style="background: lightgreen;"> 3.17
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 3.9
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.14
+</td>
+<td style="background: lightgreen;"> 3.15
+</td>
+<td style="background: lightgreen;"> 3.16
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.16
+</td>
+<td style="background: lightgreen;"> 3.16
+</td>
+<td style="background: lightgreen;"> 3.15
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: lightgreen;"> 3.12
+</td></tr>
+<tr>
+<td> A10s </td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.4
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 3.9
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td></tr>
+<tr>
+<td> A13 </td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.4
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> 4.7
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> 3.9
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td></tr>
+<tr>
+<td> A20 </td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 4.4
+</td>
+<td style="background: lightgreen;"> 3.12
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: lightgreen;"> 3.11 / 3.15 (GMAC)
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.13
+</td>
+<td style="background: lightgreen;"> 4.8
+</td>
+<td style="background: lightgreen;"> 3.17
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 3.12
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.14
+</td>
+<td style="background: lightgreen;"> 3.15
+</td>
+<td style="background: lightgreen;"> 3.16
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> 3.15
+</td>
+<td style="background: lightgreen;"> 3.16
+</td>
+<td style="background: lightgreen;"> 3.15
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: lightgreen;"> 3.12
+</td></tr>
+<tr>
+<td> A31 </td>
+<td> N/A
+</td>
+<td style="background: yellow;"> WIP
+</td>
+<td style="background: lightgreen;"> 3.12
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 3.17
+</td>
+<td style="background: lightgreen;"> 3.17
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.15
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 3.12
+</td>
+<td style="background: red;"> NO
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.18
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.16
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> 3.15
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Minor_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: lightgreen;"> 3.16
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: lightgreen;"> 3.18
+</td></tr>
+<tr>
+<td> A23 </td>
+<td> N/A
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 3.17
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 3.18
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.18
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td> N/A
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: lightgreen;"> 3.18
+</td>
+<td style="background: lightgreen;"> 4.4
+</td>
+<td style="background: lightgreen;"> 4.4
+</td>
+<td style="background: lightgreen;"> 3.18
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 3.18
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: lightgreen;"> 4.8
+</td>
+<td style="background: lightgreen;"> 3.18
+</td></tr>
+<tr>
+<td> A33 </td>
+<td> N/A
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: orange;"> <a class="external text" href="https://github.com/mripard/linux/tree/sunxi/wip/drm-a33">WIP</a>
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td> N/A
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td> N/A
+</td>
+<td style="background: darkgreen;">?
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td style="background: lightgreen;"> 4.4
+</td>
+<td style="background: lightgreen;"> 4.4
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: lightgreen;"> 4.8
+</td>
+<td style="background: lightgreen;"> 4.2
+</td></tr>
+<tr>
+<td> A80 </td>
+<td> N/A
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 3.19
+</td>
+<td style="background: orange;"> <a href="/index.php?title=Linux_Mainlining_Effort&amp;action=edit&amp;redlink=1" class="new" title="Linux Mainlining Effort (page does not exist)">WIP</a>
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: grey; color: white;">&#160;?
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: darkgreen;">?
+</td>
+<td style="background: yellow;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 3.19
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;">4.5
+</td>
+<td> N/A
+</td>
+<td style="background: grey; color: white;">&#160;?
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 3.19
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 4.3
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP (AC100)</a>
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> 4.0
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: darkgreen;">?
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> 3.19
+</td></tr>
+<tr>
+<td> H3 </td>
+<td> N/A
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: orange;"> <a href="/index.php?title=Linux_Mainlining_Effort&amp;action=edit&amp;redlink=1" class="new" title="Linux Mainlining Effort (page does not exist)">WIP</a>
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: grey; color: white;">&#160;?
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: lightgreen;"> 4.2
+</td>
+<td style="background: yellow;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: darkgreen;">?
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: grey; color: white;">&#160;?
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: lightgreen;">OK
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: grey; color: white;">&#160;?
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td style="background: darkgreen;">?
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">THS</a>
+</td>
+<td style="background: lightgreen;"> 4.8
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: lightgreen;"> OK
+</td></tr>
+<tr>
+<td> A64 </td>
+<td> N/A
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: yellow;"><a class="external text" href="https://github.com/apritzel/linux/commits/a64-v5">WIP</a>
+</td>
+<td style="background: orange;"> <a href="/index.php?title=Linux_Mainlining_Effort&amp;action=edit&amp;redlink=1" class="new" title="Linux Mainlining Effort (page does not exist)">WIP</a>
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: grey; color: white;">&#160;?
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: darkgreen;">&#160;?
+</td>
+<td style="background: yellow;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: yellow;"> WIP
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: darkgreen;">?
+</td>
+<td> N/A
+</td>
+<td style="background: grey; color: white;">&#160;?
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">WIP</a>
+</td>
+<td style="background: lightgreen;"> 4.6
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: grey; color: white;">&#160;?
+</td>
+<td style="background: lightgreen;"> OK
+</td>
+<td> N/A
+</td>
+<td style="background: yellow;"> slow <a href="#a64_slow_mmc">[1]</a>
+</td>
+<td style="background: lightgreen;">OK
+</td>
+<td style="background: yellow;"> WIP
+</td>
+<td style="background: orange;"> <a href="/Linux_mainlining_effort#Major_drivers" title="Linux mainlining effort">THS</a>
+</td>
+<td style="background: orange;"> WIP
+</td>
+<td style="background: red;"> NO
+</td>
+<td style="background: darkgreen;">&#160;?
+</td></tr></table>
+<div id="a64_slow_mmc"/>[1] MMC/SD transfer rate is limited to about 3 MiB/s at the moment, support for the slightly changed MMC h/w block needs to be implemented.
+<table class="wikitable" style="text-align: center;">
+<tr>
+<th> Legend
+</th></tr>
+<tr>
+<td style="background: lightgreen;"> In Linux mainline since version x
+</td></tr>
+<tr>
+<td style="background: darkgreen;"> Nobody works on it, but it should be compatible with already done drivers
+</td></tr>
+<tr>
+<td style="background: yellow;"> Somebody works on it and the result is mostly stable enough
+</td></tr>
+<tr>
+<td style="background: orange;"> Somebody works on it
+</td></tr>
+<tr>
+<td style="background: red;"> No support, nobody works on it
+</td></tr>
+<tr>
+<td style="background: black; color: white;"> support impossible
+</td></tr>
+<tr>
+<td style="background: grey; color: white;"> Status is unknown/to be completed
+</td></tr></table>
+<h2> <span class="mw-headline" id="Work_In_Progress"> Work In Progress </span></h2>
+<h3> <span class="mw-headline" id="Core_Stuff"> Core Stuff </span></h3>
+<ul><li> Modern Clock (clock-ng) support for sunxi (H3) (WiP: Maxime Ripard (mripard)) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-June/440077.html">patch-v3</a>
+</li><li> Allwinner <a href="/A64" title="A64">A64</a> support
+<ul><li> basic support (WiP: Andre Przywara) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-February/410338.html">patch-v3</a>
+</li></ul>
+</li><li> Allwinner <a href="/A80" title="A80">A80</a> support
+<ul><li> SMP support (WiP: Chen-Yu Tsai (wens)) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2015-May/343354.html">patch-rfc</a>
+</li></ul>
+</li><li> Allwinner <a href="/A83T" title="A83T">A83T</a> support
+<ul><li> Modern Clock (clock-ng) support (WiP: Jean-Francois Moine) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-June/435630.html">patch-v2</a>
+</li><li> Clocks, r_pio, MMC and RSB support (WiP: Vishnu Patekar) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-March/416027.html">patch-v4</a>
+</li><li> USB support (WiP: Chen-Yu Tsai (wens))
+</li></ul>
+</li><li> Suspend / Resume / CPUIdle (WiP: Antoine Tenart)
+</li></ul>
+<h3> <span class="mw-headline" id="Major_drivers"> Major drivers </span></h3>
+<ul><li> <a href="/A31" title="A31">A31</a> Audio Codec driver (WiP: Chen-Yu Tsai (wens))
+<ul><li> A31 PLL2 and module 1 clocks
+</li><li> ASoC driver
+</li></ul>
+</li></ul>
+<ul><li> Display Engine driver
+<ul><li> sun8i (H3) (WiP: Jean-Francois Moine) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-February/404278.html">patch-v4</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/MTD_Driver" title="MTD Driver">NAND support</a>
+<ul><li> NAND improvements/fixes (WiP: Boris Brezillon (bbrezillon)) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-March/414274.html">patch-v1</a>
+</li><li> NAND DMA support (WiP: Boris Brezillon (bbrezillon)) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-mtd/2016-April/066899.html">patch-v3</a>
+</li></ul>
+</li></ul>
+<ul><li> CSI (camera sensor interface) (WiP: Yassin Jaffer (ddc)) (WiP: Maxime Ripard (mripard))
+<ul><li> CSI clock driver (WiP: Yassin Jaffer (ddc)) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-March/416152.html">patch-RFC</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/Sun8i_emac" title="Sun8i emac">A64/H3 Emac</a> (WiP: LABBE Corentin <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-June/433151.html">patch-v1</a>)
+</li><li> Ac200 (At least EPHY) (WiP: LABBE Corentin)
+</li></ul>
+<ul><li> sun8i-ss/sun9i-ss/sun5i-ss (Security System/Crypto Engine)(WIP: LABBE Corentin more info at <a rel="nofollow" class="external free" href="http://sunxi.montjoie.ovh/">http://sunxi.montjoie.ovh/</a>)
+</li></ul>
+<ul><li> A80 related (WiP: Chen-Yu Tsai (wens))
+<ul><li> AXP806 PMIC
+</li><li> AC100 Codec mfd/rtc driver <a rel="nofollow" class="external text" href="http://www.spinics.net/lists/arm-kernel/msg515407.html">patch-v4</a>
+</li><li> GMAC
+</li><li> External SDIO WiFi
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="Minor_drivers"> Minor drivers </span></h3>
+<ul><li> A31 GPADC (WiP: Quentin Schulz) <a rel="nofollow" class="external text" href="https://lkml.org/lkml/2016/6/28/226">patch</a>
+</li><li> Enable and fix USB OTG port support on Orange Pi PC/One (wip: Ondřej Jirman) <a rel="nofollow" class="external text" href="https://files.megous.com/orange-pi-dvfs/linux-4.7-OrangePI/usb-otg/">wip-patch</a>
+</li><li> SY8106A regulator support for Orange Pi PC (and DVFS) (wip: Ondřej Jirman - megi) <a rel="nofollow" class="external autonumber" href="https://xff.cz/orange-pi-dvfs/">[1]</a> <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-June/438794.html">patch-v1</a>
+</li><li> Sunxi THS (H3) (Josef Gajdusek) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2015-November/387312.html">patch-v2</a>
+</li><li> Keypad (WiP: Yassin Jaffer (ddc)) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2015-September/370079.html">patch</a>
+</li><li> <a href="/AXP152" title="AXP152">AXP152</a>/<a href="/index.php?title=AXP202&amp;action=edit&amp;redlink=1" class="new" title="AXP202 (page does not exist)">AXP202</a>/<a href="/AXP209" title="AXP209">AXP209</a>/<a href="/index.php?title=AXP223&amp;action=edit&amp;redlink=1" class="new" title="AXP223 (page does not exist)">AXP223</a>
+<ul><li> AXP209 GPIO support (Wip: Maxime Ripard (mripard)) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-March/414784.html">patch</a>
+</li><li> AC driver: (WiP: Michael Haas (laga)) <a rel="nofollow" class="external text" href="https://groups.google.com/d/msg/linux-sunxi/nEUg87cV6KI/xH4_8BZMEgAJ">patch</a> <a rel="nofollow" class="external text" href="https://groups.google.com/forum/#!topic/linux-sunxi/Ee7i8DVI4F8">patch V2</a>
+</li><li> Battery driver (WiP: Bruno Prémont (bonbons)) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2014-October/295547.html">RFC-patch</a>
+<ul><li> Michael Haas will be re-submitting Brunos battery driver
+</li></ul>
+</li></ul>
+</li><li> hardware spinlock (H3/A83) (WIP: LABBE Corentin)
+</li><li> Activate pwm on A83T (necessary for PHY)
+</li></ul>
+<h2> <span class="mw-headline" id="Left_to_be_done"> Left to be done </span></h2>
+<h3> <span class="mw-headline" id="Easy_Tasks"> Easy Tasks </span></h3>
+<p>Following drivers should be doable by someone with no or a small kernel development experience:
+</p>
+<ul><li> <a href="/1-Wire" title="1-Wire">One Wire / 1-Wire</a> (dedicated HW only present on A31/A80)
+</li><li> Smart Card Reader
+</li><li> A23/A33 Thermal Sensor Controller
+</li></ul>
+<h3> <span class="mw-headline" id="Medium_Tasks"> Medium Tasks </span></h3>
+<p>Following drivers require some good knowledge of the kernel internals.
+</p>
+<ul><li> Audio Related drivers
+<ul><li> A23 Audio codec and AC97 audio interface support (A23 SDK contains drivers for both)
+</li><li> A33/A64 Audio codec driver (A33 SDK contains driver)
+<ul><li> According to the register map and the A33 SDK driver, there seems to be a internal I2S bus between the codec and the processor
+</li></ul>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="Difficult_Tasks"> Difficult Tasks </span></h3>
+<p>These drivers require some good knowledge of the kernel internals, plus a good experience with such piece of hardware.
+</p>
+<ul><li> Video Engine (See <a href="/VE_Planning" title="VE Planning">VE_Planning</a>)
+</li><li> Audio Engine (Only exists in A10)
+</li><li> V4L driver for G2D/Mixer is based on samsung g2d and fimc driver. Only initial work started. <a rel="nofollow" class="external autonumber" href="https://bitbucket.org/cybrixsystems/linux-next-devel/">[2]</a>
+</li></ul>
+<h3> <span class="mw-headline" id="Troublesome"> Troublesome </span></h3>
+<ul><li> Memory Stick (missing hardware?)
+</li><li> TV Decoder (Analog in, no existing driver, no datasheet)
+</li><li> Transport Stream(DVB) in
+<ul><li> IRC user woprr has started to work on this
+</li></ul>
+</li><li> PATA (old tech, while still interesting for Compact Flash, possibly removed from A20, though A20 memory map still mentions it)
+</li><li> GPS backend IP (only present on <a href="/A10" title="A10">A10</a>, not much interesting, as all modern GPS receivers have MCU with UART output, no documentation)
+</li></ul>
+<h3> <span class="mw-headline" id="Unlikely"> Unlikely </span></h3>
+<p>These are too far off the track third party drivers making it unlikely they will ever get accepted mainline.
+</p>
+<ul><li> Mali driver (will not happen unless libv gets a proper lima driver out)
+</li></ul>
+<h3> <span class="mw-headline" id="Related_but_separate"> Related but separate </span></h3>
+<ul><li> Device-specific drivers
+</li></ul>
+<h2> <span class="mw-headline" id="Planned_for_4.8"> Planned for 4.8 </span></h2>
+<ul><li> <a href="/A10" title="A10">A10</a>/<a href="/A20" title="A20">A20</a>
+<ul><li> Display engine clocks (TCON, FE, DE)
+</li><li> I2S audio interface driver
+</li></ul>
+</li></ul>
+<ul><li> <a href="/H3" title="H3">H3</a>
+<ul><li> USB multi-reset lines support
+</li></ul>
+</li><li> AXP2xx driver:
+<ul><li> External drivebus support
+</li><li> AXP223 USB power supply support
+</li><li> AXP809 PMIC support
+</li></ul>
+</li></ul>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.spinics.net/lists/arm-kernel/msg510602.html">BCM53125 support</a>
+<ul><li> This switch is used in <a href="/Lamobo_R1" title="Lamobo R1">Lamobo / Banana Pi R1</a>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Planned_for_4.7"> Planned for 4.7 </span></h2>
+<ul><li> <a href="/A13" title="A13">A13</a>/<a href="/R8" title="R8">R8</a>
+<ul><li> Display Engine support
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A10" title="A10">A10</a>/<a href="/A20" title="A20">A20</a>
+<ul><li> SPDIF Support
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A31" title="A31">A31</a>/<a href="/A23" title="A23">A23</a>/<a href="/H3" title="H3">H3</a> DMAengine improvements for H3 audio support (WiP: Jean-Francois Moine) <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-April/424280.html">patch-v6</a>
+</li></ul>
+<ul><li> <a href="/H3" title="H3">H3</a>
+<ul><li> USB support (multi-reset line support delayed til 4.8)
+</li></ul>
+</li></ul>
+<p>Added board support: Dserve DSRV9703C, Polaroid MID2809PXE4, colorfly e708 q1, Difrence DIT4350
+</p>
+<h2> <span class="mw-headline" id="Merged_into_4.6"> Merged into 4.6 </span></h2>
+<ul><li> <a href="/File:Sticky-note-pin.png" class="image"><img alt="Sticky-note-pin.png" src="/images/f/f0/Sticky-note-pin.png" width="16" height="16"/></a> <i>Note:</i> For devices that use eMMC, old device trees may no longer work with this version (i.e. you have to rebuild your <i>.dtb</i> files). Expect eMMC I/O errors otherwise.
+</li></ul>
+<ul><li> Allwinner <a href="/A83T" title="A83T">A83T</a> support
+<ul><li> Initial bringup
+</li><li> timer, watchdog and reboot
+</li></ul>
+</li></ul>
+<ul><li> <a href="/H3" title="H3">H3</a>
+<ul><li> R_PIO support
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A64" title="A64">A64</a>
+<ul><li> pinctrl driver
+</li><li> generic arm64 Allwinner platform (ARCH_SUNXI) support
+</li></ul>
+</li></ul>
+<ul><li> NAND
+<ul><li> ECC layout definition rework (partially) and randomizer support
+</li></ul>
+</li></ul>
+<ul><li> A10/A20 SPDIF driver
+</li></ul>
+<ul><li> AXP223 PMIC support
+</li></ul>
+<ul><li> eMMC HS-DDR support for all currently supported SoCs except <a href="/A80" title="A80">A80</a>
+</li></ul>
+<p>Added board support: <a href="/Allwinner_A83TDevBoard" title="Allwinner A83TDevBoard">Allwinner A83TDevBoard</a>, <a href="/Cubietech_Cubietruck_Plus" title="Cubietech Cubietruck Plus">Cubietech Cubietruck Plus</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_4.5"> Merged into 4.5 </span></h2>
+<ul><li> Allwinner <a href="/A80" title="A80">A80</a> support
+<ul><li> IR receiver driver
+</li><li> NMI controller
+</li><li> PRCM driver
+</li><li> R_PIO support
+</li><li> RSB driver
+</li></ul>
+</li></ul>
+<ul><li> Allwinner H3 SoC support
+<ul><li> H3 USB PHY clocks
+</li></ul>
+</li></ul>
+<ul><li> A10/A20 Video Engine clocks
+</li></ul>
+<ul><li> MIC1 capture for sun4i codec
+</li></ul>
+<ul><li> Audio codec enabled on various boards
+</li></ul>
+<p>Added board support: <a href="/Xunlong_Orange_Pi_Plus" title="Xunlong Orange Pi Plus">Xunlong Orange Pi Plus</a>
+</p><p><a href="/File:Exclamation.png" class="image"><img alt="Exclamation.png" src="/images/c/c0/Exclamation.png" width="16" height="16"/></a> <span style="color:#ba0000">Known problems:</span>
+</p>
+<ul><li> Release tag v4.5 contains a change that broke <i>stmmac</i> networking on quite a few sunxi devices. The symptoms are
+</li></ul>
+<pre>[ 13.196778] libphy: PHY stmmac-0:ffffffff not found
+[ 13.204800] eth0: Could not attach to PHY
+[ 13.204809] stmmac_open: Cannot attach to PHY (error: -19)</pre>
+<p>A quick fix is to revert commit <b>88f8b1b</b> which introduced the regression. See <a rel="nofollow" class="external free" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2016-March/415939.html">http://lists.infradead.org/pipermail/linux-arm-kernel/2016-March/415939.html</a>, <a rel="nofollow" class="external free" href="https://www.mail-archive.com/netdev@vger.kernel.org/msg104119.html">https:<span class="__cf_email__" data-cfemail="1e313169696930737f7772337f6c7d7677687b307d717331707b6a7a7b685e68797b6c30757b6c707b7230716c79">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>/msg104119.html</a>, <a rel="nofollow" class="external free" href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823493">https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=823493</a>.<br>
+Version <i>v4.5-rc7</i> is known to be still okay, <i>v4.6-rc2</i> fixes stmmac again.
+</p>
+<h2> <span class="mw-headline" id="Merged_into_4.4"> Merged into 4.4 </span></h2>
+<ul><li> <a href="/R8" title="R8">R8</a> SoC support
+</li></ul>
+<ul><li> <a href="/A10" title="A10">A10</a> / <a href="/A20" title="A20">A20</a>
+<ul><li> CAN driver <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0738eff14d817a02ab082c392c96a1613006f158">(commit)</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A10" title="A10">A10</a> / <a href="/A10s" title="A10s">A10s</a> / <a href="/A13" title="A13">A13</a> / <a href="/A20" title="A20">A20</a>
+<ul><li> Audio Codec driver
+</li><li> Audio clocks (PLL2)
+</li><li> Audio codec related DTS bits
+<ul><li> Enabled on <a href="/Cubieboard" title="Cubieboard" class="mw-redirect">Cubieboard</a>, <a href="/Cubieboard2" title="Cubieboard2" class="mw-redirect">Cubieboard2</a>, <a href="/Cubietruck" title="Cubietruck" class="mw-redirect">Cubietruck</a>, C.H.I.P., <a href="/Mele_A1000" title="Mele A1000">Mele A1000</a>
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A23" title="A23">A23</a> / <a href="/A33" title="A33">A33</a>
+<ul><li> RSB (Reduced Serial Bus) driver
+</li><li> PWM enabled
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A83T" title="A83T">A83T</a>
+<ul><li> PIO driver
+</li></ul>
+</li></ul>
+<ul><li> <a href="/index.php?title=AXP202&amp;action=edit&amp;redlink=1" class="new" title="AXP202 (page does not exist)">AXP202</a>/<a href="/AXP209" title="AXP209">AXP209</a>
+<ul><li> USB power supply driver
+</li><li> Support for OTG vbus detection via AXP pmic
+</li><li> DTS nodes for OTG vbus support
+</li></ul>
+</li></ul>
+<p>Added board support: Olimex A20 EVB <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=15ada16dc7657c08242d24067a4ddf07a2662062">(commit)</a>, Unified Q8 format tablet, Wits Pro A20 DKT <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b5cf0022450d2068e56b60cbbd0b5ff1430b7656">(commit)</a>, Yones Toptech bs1078v2 <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=849147cdb540266883cb49f2094a87b3ee6e12ec">(commit)</a>, Wobo i5 <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=adfa06ce9bd30f8bc5439be49bcfaa7ceb1b6c2a">(commit)</a>, C.H.I.P <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=465a225fb2afb3ebf1becbe76d46b084d46f30a5">(commit)</a>, <a href="/Sinlinx_SinA31s" title="Sinlinx SinA31s">Sinlinx SinA31s</a>, <a href="/MSI_Primo81" title="MSI Primo81">MSI Primo81</a> <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a5ea06d0bc123cc7f49d042fab60ddd3964764c8">(commit)</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_4.3"> Merged into 4.3 </span></h2>
+<ul><li> <a href="/A10" title="A10">A10</a> / <a href="/A13" title="A13">A13</a> / <a href="/A20" title="A20">A20</a> / <a href="/A23" title="A23">A23</a> / <a href="/A31" title="A31">A31</a>
+<ul><li> Enable OTG controller <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4ff12049d6b6cc79ad8ee092ae226434687062ec">(commit)</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A10" title="A10">A10</a> / <a href="/A10s" title="A10s">A10s</a> / <a href="/A13" title="A13">A13</a> / <a href="/A20" title="A20">A20</a>
+<ul><li> Support for DMA engine
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A23" title="A23">A23</a> / <a href="/A33" title="A33">A33</a>
+<ul><li> Support for USB-controllers
+</li></ul>
+</li></ul>
+<ul><li> most of Allwinner SoC
+<ul><li> Support for <a href="/Security_System" title="Security System">Security System</a> <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=d4c90396ed7ef9b4e4d221e008e54be8bea8307f">(commit)</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/AXP152" title="AXP152">AXP152</a>
+<ul><li> AXP152 mfd support
+</li></ul>
+</li></ul>
+<p>Added board support: Iteaduino Plus A10, Ippo-q8h-a33 v1.2
+</p>
+<h2> <span class="mw-headline" id="Merged_into_4.2"> Merged into 4.2 </span></h2>
+<ul><li> <a href="/A10" title="A10">A10</a> / <a href="/A10s" title="A10s">A10s</a> / <a href="/A13" title="A13">A13</a> / <a href="/A20" title="A20">A20</a> / <a href="/A31" title="A31">A31</a> / <a href="/A23" title="A23">A23</a>
+<ul><li> SRAM Controller
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A23" title="A23">A23</a>
+<ul><li> SMP support <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=73e601ea57020c42d989120061dfc83ce9c85360">(commit)</a>
+</li><li> Architected timer support
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A31" title="A31">A31</a>/<a href="/A31s" title="A31s" class="mw-redirect">A31s</a>
+<ul><li> CPUFreq support
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A33" title="A33">A33</a>
+<ul><li> Machine support <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=159870d2413c92622790e9cecbce95099bed539a">(commit)</a>
+</li><li> Bring-up sharing most drivers with <a href="/A23" title="A23">A23</a>
+</li><li> pinctl driver <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=93a4b1b9465d92e8be031b57166afa3d5611e142">(commit)</a>
+</li><li> PIO controller <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7164873e7c69d6bab74726debc3b495a86332b1f">(commit)</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A80" title="A80">A80</a>
+<ul><li> Architected timer support
+</li><li> USB support
+</li></ul>
+</li></ul>
+<ul><li> <a href="/AXP221" title="AXP221">AXP221</a> PMIC driver
+</li></ul>
+<ul><li> <a href="/H3" title="H3">H3</a>
+<ul><li> Introduce H3 support <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=14a882df14a5ae859b245bc708ce3fce47a91594">(commit)</a>
+</li><li> DMA Controller <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=1bc5e157ed2b4f5b206155fc772d860158acd201">(commit)</a>
+</li></ul>
+</li></ul>
+<p>Added board support: <a href="/LinkSprite_pcDuino3_Nano" title="LinkSprite pcDuino3 Nano">LinkSprite pcDuino3 Nano</a>, <a href="/Cubietech_Cubieboard4" title="Cubietech Cubieboard4">Cubietech Cubieboard4</a>, <a href="/Gemei_G9" title="Gemei G9">Gemei G9</a>, <a href="/Auxtek_T004" title="Auxtek T004">Auxtek T004</a>, <a href="/index.php?title=Utoo_P66&amp;action=edit&amp;redlink=1" class="new" title="Utoo P66 (page does not exist)">Utoo P66</a>, <a href="/Wexler_TAB_7200" title="Wexler TAB 7200">Wexler TAB 7200</a>, <a href="/MK808C" title="MK808C">MK808C</a>, <a href="/Jesurun_Q5" title="Jesurun Q5">Jesurun Q5</a>, <a href="/Xunlong_Orange_Pi" title="Xunlong Orange Pi">Xunlong Orange Pi</a>, <a href="/Xunlong_Orange_Pi_Mini" title="Xunlong Orange Pi Mini">Xunlong Orange Pi Mini</a>, <a href="/Sinlinx_SinA33" title="Sinlinx SinA33">Sinlinx SinA33</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_4.1"> Merged into 4.1 </span></h2>
+<ul><li> <a href="/A80" title="A80">A80</a>
+<ul><li> USB PHY driver
+</li></ul>
+</li></ul>
+<ul><li> <a href="/index.php?title=AXP202&amp;action=edit&amp;redlink=1" class="new" title="AXP202 (page does not exist)">AXP202</a>/<a href="/AXP209" title="AXP209">AXP209</a>
+<ul><li> DT bindings
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Merged_into_4.0"> Merged into 4.0 </span></h2>
+<ul><li> <a href="/A10" title="A10">A10</a> / <a href="/A20" title="A20">A20</a>
+<ul><li> PS/2 Controller
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A13" title="A13">A13</a> / <a href="/A31" title="A31">A31</a>
+<ul><li> IR receiver
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A31s" title="A31s" class="mw-redirect">A31s</a>
+<ul><li> bring-up sharing majority of drivers with <a href="/A31" title="A31">A31</a>
+</li><li> pinctrl driver
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A80" title="A80">A80</a>
+<ul><li> MMC
+</li></ul>
+</li></ul>
+<ul><li> All SoCs
+<ul><li> LRADC Input driver
+</li><li> CPUFreq
+</li><li> PWM Driver
+</li></ul>
+</li></ul>
+<ul><li> AXP209 power button input driver
+</li></ul>
+<p>Added board support: <a href="/index.php?title=CSQ_CS908&amp;action=edit&amp;redlink=1" class="new" title="CSQ CS908 (page does not exist)">CSQ CS908</a>, <a href="/LeMaker_Banana_Pro" title="LeMaker Banana Pro">LeMaker Banana Pro</a>, <a href="/index.php?title=Chuwi_V7_CW0825&amp;action=edit&amp;redlink=1" class="new" title="Chuwi V7 CW0825 (page does not exist)">Chuwi V7 CW0825</a>, <a href="/Rikomagic_mk802" title="Rikomagic mk802">Rikomagic mk802</a>, <a href="/Rikomagic_mk802ii" title="Rikomagic mk802ii">Rikomagic mk802ii</a>, <a href="/index.php?title=Rikomagic_mk802_a10s&amp;action=edit&amp;redlink=1" class="new" title="Rikomagic mk802 a10s (page does not exist)">Rikomagic mk802_a10s</a>, <a href="/MarsBoard_A10" title="MarsBoard A10">MarsBoard A10</a>, <a href="/Hyundai_A7HD" title="Hyundai A7HD">Hyundai A7HD</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.19"> Merged into 3.19 </span></h2>
+<ul><li> <a href="/A10" title="A10">A10</a> / <a href="/A10s" title="A10s">A10s</a> / <a href="/A13" title="A13">A13</a> / <a href="/A20" title="A20">A20</a> / <a href="/A31" title="A31">A31</a> / <a href="/A23" title="A23">A23</a>
+<ul><li> Simple Framebuffer
+<ul><li> In order to use that, you'll need a recent mainline u-boot (2015.01+)
+</li></ul>
+</li><li> USB phy driver support for usb0
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A10" title="A10">A10</a> / <a href="/A20" title="A20">A20</a>
+<ul><li> NAND <a rel="nofollow" class="external autonumber" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2014-October/295818.html">[3]</a>
+<ul><li> Only works for SLC NAND for now
+</li><li> Some additional work is needed for MLC NANDs
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A23" title="A23">A23</a>
+<ul><li> DMAengine driver (shared with A31) <a rel="nofollow" class="external autonumber" href="http://www.spinics.net/lists/arm-kernel/msg375529.html">[4]</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A80" title="A80">A80</a>
+<ul><li> initial machine support <a rel="nofollow" class="external autonumber" href="http://www.spinics.net/lists/arm-kernel/msg368569.html">[5]</a>
+</li><li> basic clocks and reset <a rel="nofollow" class="external autonumber" href="http://www.spinics.net/lists/arm-kernel/msg370495.html">[6]</a>
+</li><li> pinctrl driver <a rel="nofollow" class="external autonumber" href="http://www.spinics.net/lists/arm-kernel/msg372176.html">[7]</a>
+</li><li> extra UART, I2C, LEDS <a rel="nofollow" class="external autonumber" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2014-October/298729.html">[8]</a>
+</li></ul>
+</li></ul>
+<p>Related merges:
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=fe0c888">sunxi-simplefb-for-3.19</a>
+</p><p>Added board support: <a href="/Mele_M3" title="Mele M3">Mele M3</a>, <a href="/LeMaker_Banana_Pi" title="LeMaker Banana Pi">LeMaker Banana Pi</a>, <a href="/Merrii_A80_Optimus_Board" title="Merrii A80 Optimus Board">Merrii A80 Optimus Board</a>, <a href="/Olimex_A20-OLinuXino-Lime2" title="Olimex A20-OLinuXino-Lime2">Olimex A20-OLinuXino-Lime2</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.18"> Merged into 3.18 </span></h2>
+<ul><li> <a href="/A31" title="A31">A31</a>/<a href="/A23" title="A23">A23</a>
+<ul><li> RTC <a rel="nofollow" class="external autonumber" href="http://www.spinics.net/lists/arm-kernel/msg351626.html">[9]</a>
+</li><li> Watchdog <a rel="nofollow" class="external autonumber" href="http://lists.infradead.org/pipermail/linux-arm-kernel/2014-September/287807.html">[10]</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="/A23" title="A23">A23</a>
+<ul><li> MMC
+</li><li> pinctrl
+</li><li> DMA
+</li><li> I2C
+</li></ul>
+</li></ul>
+<p>Added board support: <a href="/Olimex_A20-OLinuXino-Lime" title="Olimex A20-OLinuXino-Lime">Olimex A20-OLinuXino-Lime</a>, <a href="/Merrii_Hummingbird_A20" title="Merrii Hummingbird A20">Merrii Hummingbird A20</a>, <a href="/HSG_H702" title="HSG H702">HSG H702</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.17"> Merged into 3.17 </span></h2>
+<ul><li> A10/A20
+<ul><li> IR driver
+</li></ul>
+</li></ul>
+<ul><li> A31
+<ul><li> PIO/R_PIO external interrupts
+</li><li> DMAengine
+</li><li> GMAC
+</li></ul>
+</li></ul>
+<ul><li> A23
+<ul><li> Timers, UARTs, initial bringup
+</li><li> Basic clocks
+</li><li> PIO/R_PIO drivers
+</li></ul>
+</li></ul>
+<p>Related merges:
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e4ca430">clk-for-linus-3.17</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=54c72d5">mfd-for-linus-3.17</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e0b8b78">pinctrl-v3.17-1</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b3345d7">soc-for-3.17</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=d4e1f5a">dt-for-3.17</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c7a19c7">slave-dma for-linus</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f4d3333">v4l_for_linus</a>,
+</p><p>Added Board Support: <a href="/Merrii_Hummingbird_A31" title="Merrii Hummingbird A31">Merrii Hummingbird A31</a>, BA10, <a href="/LinkSprite_pcDuino_V3" title="LinkSprite pcDuino V3" class="mw-redirect">LinkSprite pcDuino V3</a>, <a href="/Ippo_q8h" title="Ippo q8h">Ippo q8h</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.16"> Merged into 3.16 </span></h2>
+<ul><li> AXP20x regulator support
+</li></ul>
+<ul><li> All
+<ul><li> MMC support
+</li></ul>
+</li></ul>
+<ul><li> A31
+<ul><li> USB support
+</li><li> PRCM
+</li><li> SMBus Regmap
+</li><li> Special Pins Muxer
+</li><li> P2WI Controller
+</li></ul>
+</li></ul>
+<ul><li> A10
+<ul><li> Touchscreen controller <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=6decea7c5438e2955f64e2513ec9a2fac7602a7d">[11]</a>
+</li><li> Touchscreen controller temperature sensor <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f09f98d3240b7ed2dd84ef6d84ff86df9d61e0f5">[12]</a>
+</li></ul>
+</li></ul>
+<p>Related Merges:
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7477838f2e481256a40e0c44b92f9bccb065bc51">defconfig-for-3.16</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a727eaf64ff084a50b983fc506810c7a576b7ce3">drivers-for-3.16</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=755a9ba7bf24a45b6dbf8bb15a5a56c8ed12461a">dt-for-3.16</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=825f4e0271b0de3f7f31d963dcdaa0056fe9b73a">soc-for-3.16</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=e5c4ecdc55b6d824365ba7964bcd3185223f9688">usb-3.16-rc1</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=bd698cf6595b079ce36423e8c7eb4a69a31b1733">pinctrl-v3.16-1</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=1a5700bc2d10cd379a795fd2bb377a190af5acd4">clk-for-linus-3.16</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dd1845af24a47b70cf84c29126698884f740ff9c">clk-for-linus-3.16-part2</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=07888238f55056605cd23aa4ea3ca97d5e15938f">mmc-updates-for-3.16-rc1</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=1fe9eb184721132c7254d76d9ef31c96edad8870">mfd-for-linus-3.16</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=312c76f1a3989b8d0c0c13fee765bb2c41f2d114">regulator-v3.16</a>,
+<a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f4f9b8fc73f9aa93744f0e91e18f367d7766f523">input-for-linus</a>
+</p><p>Added board support: <a href="/Mele_M9" title="Mele M9">Mele M9</a>, <a href="/index.php?title=R7&amp;action=edit&amp;redlink=1" class="new" title="R7 (page does not exist)">R7</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.15"> Merged into 3.15 </span></h2>
+<ul><li> All SoCs
+<ul><li> SPI
+</li></ul>
+</li><li> A10/A10s/A13/A20
+<ul><li> OHCI
+</li><li> EHCI
+</li></ul>
+</li><li> A10/A20
+<ul><li> AHCI
+</li></ul>
+</li><li> A20/A31
+<ul><li> NMI controller
+</li></ul>
+</li><li> A20
+<ul><li> GMAC
+</li></ul>
+</li><li> A31
+<ul><li> I2C
+</li></ul>
+</li></ul>
+<p>Related merges: <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3e75c6de1ac33fe3500f44573d9212dc82c99f59">[13]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=01d5f3b598b18a5035426c30801adf65822dbd0c">[14]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ff050ad12c551233e546506409c89eb2f640d9f3">[15]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=930b440cd8256f3861bdb0a59d26efaadac7941a">[16]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f83ccb93585d1f472c30fa2bbb8b56c23dbdb506">[17]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=19bc2eec3cbf9a282b592749a93ec9027d352bf2">[18]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c12ac9f98ec08d6eb69f84e3f72241d56a8b0822">[19]</a>
+</p><p>Added board support: <a href="/LinkSprite_pcDuino" title="LinkSprite pcDuino">LinkSprite_pcDuino</a>, <a href="/Inet_97f" title="Inet 97f">Inet 97f</a>, <a href="/A10-OLinuXino-LIME" title="A10-OLinuXino-LIME" class="mw-redirect">A10-OLinuXino-LIME</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.14"> Merged into 3.14 </span></h2>
+<ul><li> A31
+<ul><li> Reset Controller Support
+</li><li> SMP
+</li></ul>
+</li><li> A20
+<ul><li> SMP (via PSCI)
+</li><li> External clock outputs
+</li></ul>
+</li><li> High Speed Timers
+</li><li> RTC driver (A10/A20) <a rel="nofollow" class="external text" href="http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=594c6fb92446a07a4d12337adeb3e9fb3ec7e203">(commit)</a>
+</li><li> RTP (DT only)
+</li><li> GMAC support in stmmac driver
+</li><li> AP6210 WiFi (BCM43362) support in brcmfmac driver
+</li></ul>
+<p>Related merges: <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dfd10e7ae60c6c1b24b5d601744b4fd1ecab2f31">[20]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=9b6d351a75dae25430383b29a3764ae7921f6c47">[21]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0ba3307a8ec35252f7b1e222e32889a6f3d9ceb3">[22]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=7e21774db5cc9cf8fe93a64a2f0c6cf47db8ab24">[23]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4ba9920e5e9c0e16b5ed24292d45322907bb9035">[24]</a>
+</p><p>Added board support: <a href="/Olimex_A13-OLinuXino-Micro" title="Olimex A13-OLinuXino-Micro">Olimex A13-OLinuXino-Micro</a> <a rel="nofollow" class="external text" href="http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=52e86b37b1d3f7c02938def3a036e0bb0f723964">(commit)</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.13"> Merged into 3.13 </span></h2>
+<ul><li> SID Driver
+</li><li> I2C for A20
+</li><li> sunxi_defconfig
+</li><li> Bug fixes <a rel="nofollow" class="external autonumber" href="http://www.spinics.net/lists/arm-kernel/msg290495.html">[25]</a>
+</li></ul>
+<p>Added board support: <a href="/Cubietruck" title="Cubietruck" class="mw-redirect">Cubietruck</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.12"> Merged into 3.12 </span></h2>
+<ul><li> A31 support
+<ul><li> Basic SoC + GPIO
+</li><li> Clock support
+</li></ul>
+</li><li> A20 support
+<ul><li> Basic SoC + GPIO
+</li><li> Clock support
+</li></ul>
+</li><li> A10s clocks
+</li><li> Clock Source and Clock Event rework
+</li><li> Watchdog driver
+</li></ul>
+<p>Related merges: <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=aa7054f5a5a9ff728ce291cb103afa19f4f849eb">[26]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b4b50fd78b1e31989940dfc647e64453d0f7176a">[27]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dccfd1e439c11422d7aca0d834b0430d24650e85">[28]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ac3c1c4f1c77190408162aee559c655090597072">[29]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=bef4a0ab984662d4ccd68d431a7c4ef3daebcb43">[30]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=24ba40588fe50adce2a99e026fc0026872ebeb85">[31]</a>
+</p><p>Added board support: <a href="/index.php?title=A31_EVB&amp;action=edit&amp;redlink=1" class="new" title="A31 EVB (page does not exist)">A31 EVB</a>, <a href="/A20-olinuxino-micro" title="A20-olinuxino-micro" class="mw-redirect">A20-OLinuXino-Micro</a>, <a href="/Cubieboard2" title="Cubieboard2" class="mw-redirect">Cubieboard2</a>, <a href="/Mele_A1000" title="Mele A1000">Mele A1000</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.11"> Merged into 3.11 </span></h2>
+<ul><li> IRQ support for the PIO
+</li><li> I2C Driver
+</li><li> EMAC Driver
+</li><li> A10s support
+</li></ul>
+<p>Related merges: <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ee1a8d402e7e204d57fb108aa40003b6d1633036">[32]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3883cbb6c1bda013a3ce2dbdab7dc97c52e4a232">[33]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=d2033f2c1d1de2239ded15e478ddb4028f192a15">[34]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3dbde57ad941c55345fd7fac0ee3f70f204b02d8">[35]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=98f486f18d16e2214728d101ed8b6a12dce75539">[36]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=496322bc91e35007ed754184dcd447a02b6dd685">[37]</a>
+</p><p>Added board support: <a href="/Olimex_A10s-OLinuXino-Micro" title="Olimex A10s-OLinuXino-Micro">Olimex A10s-OLinuXino-Micro</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.10"> Merged into 3.10 </span></h2>
+<ul><li> LED support
+</li><li> Clock driver
+</li><li> Complete UART support
+</li></ul>
+<p>Related merges: <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=000a74f41e601bc4e36a760aa42f219a019c5391">[38]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=362ed48dee509abe24cf84b7e137c7a29a8f4d2d">[39]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dfab34aa61a0f8c14a67d7b4c1dae28e57ba592d">[40]</a>
+</p><p>Added Board Support: <a href="/Pineriver_H24" title="Pineriver H24">Pineriver_H24</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.9"> Merged into 3.9 </span></h2>
+<ul><li> PINCTRL driver
+</li><li> GPIO-lib based driver
+</li></ul>
+<p>Related merges: <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/drivers/pinctrl?id=8a3a11f91def34424b1995cb54ccd658efde8568">[41]</a>
+</p><p>Added Board Support: <a href="/Miniand_Hackberry" title="Miniand Hackberry">Miniand_Hackberry</a>
+</p>
+<h2> <span class="mw-headline" id="Merged_into_3.8"> Merged into 3.8 </span></h2>
+<ul><li> Initial support for Allwinner SoCs <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3b52634f0b7adaaf2b29569025287b938b7c71a6">(commit)</a>
+</li><li> Timer <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b2ac5d7549710173ea0217bf8c7b3f71da5220d4">(commit)</a>
+</li><li> UART
+</li><li> Device Tree
+</li><li> Interrupt controller <a rel="nofollow" class="external text" href="https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=afd24e146826cec0f46929263a0c874406a19cd8">(commit)</a>
+</li></ul>
+<p>Related merges: <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/?p=linux/kernel/git/arm/arm-soc.git;a=commit;h=5ffd785402c295328d3866d9f8630152f51d332a">[42]</a>, <a rel="nofollow" class="external autonumber" href="https://git.kernel.org/?p=linux/kernel/git/arm/arm-soc.git;a=commit;h=e9f6d13513ea9fd33b0184db8fc33cf51baa584b">[43]</a>
+</p><p>Added board support: <a href="/Cubieboard" title="Cubieboard" class="mw-redirect">Cubieboard</a>, <a href="/A13-OLinuXino" title="A13-OLinuXino" class="mw-redirect">A13-OLinuXino</a>
+</p>
+<h1> <span class="mw-headline" id="References">References</span></h1>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.elinux.org/images/a/ad/Arm-soc-checklist.pdf">http://www.elinux.org/images/a/ad/Arm-soc-checklist.pdf</a></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.cnx-software.com/2013/01/16/your-new-arm-soc-linux-support-check-list-elce-2012/">Your New ARM SoC Linux Support Check-List – ELCE 2012</a></span>
+</li></ol>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">Mainline Kernel Howto</a>
+</li><li> <a href="/Possible_setups_for_hacking_on_mainline" title="Possible setups for hacking on mainline">Possible setups for hacking on mainline</a>
+</li><li> <a href="/Linux_Kernel" title="Linux Kernel">Linux Kernel</a>
+<ul><li><a href="/Toolchain" title="Toolchain">Toolchain</a>
+</li></ul>
+</li></ul>
+<h1> <span class="mw-headline" id="External_Links">External Links</span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.kernel.org">kernel.org</a> - Official website for the Linux Kernel
+<ul><li> <a class="external free" href="http://github.com/torvalds/linux">http://github.com/torvalds/linux</a> - Linus Torvalds' GitHub account with the upstream Linux kernel
+</li></ul>
+</li><li> <a rel="nofollow" class="external text" href="http://www.kernel.org/doc/">Linux Kernel documentation index</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.kernel.org/doc/man-pages/">Linux Kernel man pages</a>
+</li><li> <a rel="nofollow" class="external text" href="http://kernelnewbies.org/">Kernel Newbies Site - Excellent source of information for people new to kernel</a>
+</li><li> <a rel="nofollow" class="external text" href="http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=summary">Linus' kernel tree for 2.6</a>
+</li><li> <a rel="nofollow" class="external text" href="https://bugzilla.kernel.org/">Kernel bugzilla</a> - <a rel="nofollow" class="external text" href="https://bugzilla.kernel.org/show_bug.cgi?id=15790">Regressions for each of recent versions</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.fsfla.org/svnwiki/selibre/linux-libre/">Linux-libre project - Maintains and distributes fully free kernel</a>
+</li><li> <a rel="nofollow" class="external text" href="http://lingrok.org/">LinGrok, Linux kernel source code cross-reference</a>
+</li><li> <a rel="nofollow" class="external text" href="http://lxr.free-electrons.com/source/?a=arm">Free Electrons LXR (Linux Cross Reference)</a>
+</li><li> <a rel="nofollow" class="external text" href="http://lists.infradead.org/pipermail/linux-arm-kernel/">linux-arm-kernel - Mailing list archive</a>
+</li></ul>
+<h3> <span class="mw-headline" id="How_to_upstream">How to upstream</span></h3>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.elinux.org/images/a/ad/Arm-soc-checklist.pdf">Your new ARM SoC Linux support check-list! by Thomas Petazzoni of Free Electrons</a>
+</li><li><a rel="nofollow" class="external text" href="http://www.cnx-software.com/2014/03/04/linux-kernel-upstreaming-how-to-linaro-connect-asia-2014/">Linux Kernel Upstreaming How-To (CNXSoft - Embedded Software Development)</a>
+<ul><li><a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=dY7fikYZ42c">Matt Porter's YouTube video talk on “Upstreaming 101" (LCA14-111)</a>
+<ul><li><a rel="nofollow" class="external text" href="http://www.linaro.org/documents/download/65f888c674508efcf9bd5d90398a186a530d01c4c78db">Matt Porter's presentation slides for “Upstreaming 101" (LCA14-111)</a>
+</li></ul>
+</li><li><a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=FiQ5uV_Mm5c">Matt Porter's YouTube video talk on “Upstreaming 201" (LCA14-112)</a>
+<ul><li><a rel="nofollow" class="external text" href="http://www.linaro.org/documents/download/7b9920fcc89589bad9063d87d9137f08530d020b71924">Matt Porter's presentation slides for “Upstreaming 201" (LCA14-112)</a>
+</li></ul>
+</li></ul>
+</li><li><a rel="nofollow" class="external text" href="http://www.cnx-software.com/2011/08/19/how-to-write-and-submit-a-linux-kernel-patch/">How to Write and Submit a Linux Kernel Patch (CNXSoft - Embedded Software Development)</a>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=LLBrBBImJt4">YouTube Video- Write and Submit your first Linux kernel Patch</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.cnx-software.com/pdf/kernel-tutorial/kernel_patch_tutorial.pdf">Greg Kroah-­Hartman Kernel Tutorial Write and Submit your first Linux Kernel Patch</a>
+</li></ul>
+</li><li><a rel="nofollow" class="external text" href="http://www.linaro.org/connect-lca14/resources">Linaro resources page from LCA (Linaro Connect Asia) 2014</a>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Linux_mainlining_effort&amp;oldid=17893">http://linux-sunxi.org/index.php?title=Linux_mainlining_effort&amp;oldid=17893</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Development" title="Category:Development">Development</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Linux+mainlining+effort&amp;type=signup">Create account</a></li>
+<li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Linux+mainlining+effort" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Linux_mainlining_effort" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Linux_mainlining_effort&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Linux_mainlining_effort">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Linux_mainlining_effort&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Linux_mainlining_effort&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Linux_mainlining_effort" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Linux_mainlining_effort" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Linux_mainlining_effort&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Linux_mainlining_effort&amp;oldid=17893" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 8 July 2016, at 11:22.</li>
+<li id="footer-info-viewcount">This page has been accessed 151,238 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

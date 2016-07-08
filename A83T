@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>A83T - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"A83T","wgTitle":"A83T","wgCurRevisionId":17732,"wgArticleId":2213,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["System on Chip"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"A83T","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/A83T"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-A83T skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">A83T</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">A83T</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Allwinner_A83T_logo.png" class="image"><img alt="Allwinner A83T logo.png" src="/images/5/58/Allwinner_A83T_logo.png" width="250" height="253"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+Allwinner</td></tr><tr class=""><th scope="row" style="text-align:left;">Process</th><td class="" style="">
+28nm HPC</td></tr><tr class=""><th scope="row" style="text-align:left;">CPU</th><td class="" style="">
+Octa-core Cortex-A7 @ 1.6GHz</td></tr><tr class=""><th scope="row" style="text-align:left;">Extensions</th><td class="" style="">
+CoolFlex</td></tr><tr class=""><th scope="row" style="text-align:left;">Memory</th><td class="" style="">
+dual-channel DDR3/DDR3L/LPDDR2/LPDDR3, up to 2GB</td></tr><tr class=""><th scope="row" style="text-align:left;">GPU</th><td class="" style="">
+<a href="/Power_VR" title="Power VR">Power VR</a> SGX544MP1</td></tr><tr class=""><th scope="row" style="text-align:left;">VPU</th><td class="" style="">
+Video decoding MPEG 1/2/4, H.263, H.264, WMV9/VC-1, VP8</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Connectivity</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI 2K output, RGB LCD <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="96a7afa4a6eea7a4a6a6d6a0a6deec">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, LVDS <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c4f5f7f2f2bcf3f2fc84f2f48cbe">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>, 4-lane MIPI DSI <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0b3a32393b733a393b3b4b3d3b6d7b78">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+EMAC&#160;????</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+3x SD/MMC, eMMC4.41</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+USB Host, USB 2.0 Dual-Role (host/device)</td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+September 2014</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.allwinnertech.com/en/clq/processora/AllwinnerA83T.html">Product Page</a></td></tr>
+</table>
+<p>This SoC does <b>NOT</b> comply with the ARM big.LITTLE architecture, therefore it is in no way energy efficent and gets very hot.
+This is the fourth Allwinner SoC which uses <a href="/Power_VR" title="Power VR">Power VR</a> instead of MALI for GPU. See also SoCs <a href="/A31" title="A31">A31</a>, <a href="/A31s" title="A31s" class="mw-redirect">A31s</a> and <a href="/A80" title="A80">A80</a>.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#A83T_SoC_Features"><span class="tocnumber">2</span> <span class="toctext">A83T SoC Features</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Rumours"><span class="tocnumber">3</span> <span class="toctext">Rumours</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Documentation"><span class="tocnumber">4</span> <span class="toctext">Documentation</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Register_guide"><span class="tocnumber">5</span> <span class="toctext">Register guide</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Wiki"><span class="tocnumber">5.1</span> <span class="toctext">Wiki</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Software"><span class="tocnumber">6</span> <span class="toctext">Software</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Boot0"><span class="tocnumber">6.1</span> <span class="toctext">Boot0</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#BSP"><span class="tocnumber">6.2</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Android"><span class="tocnumber">6.3</span> <span class="toctext">Android</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#fastboot_.28under_windows.29"><span class="tocnumber">6.3.1</span> <span class="toctext">fastboot (under windows)</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Android_device_repository"><span class="tocnumber">7</span> <span class="toctext">Android device repository</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#U-boot"><span class="tocnumber">7.1</span> <span class="toctext">U-boot</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#Allwinner"><span class="tocnumber">7.1.1</span> <span class="toctext">Allwinner</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#Sunxi_Community"><span class="tocnumber">7.1.2</span> <span class="toctext">Sunxi Community</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="#Kernel_code"><span class="tocnumber">7.2</span> <span class="toctext">Kernel code</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="#Allwinner_Kernel"><span class="tocnumber">7.2.1</span> <span class="toctext">Allwinner Kernel</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Sunxi_Community_2"><span class="tocnumber">7.2.2</span> <span class="toctext">Sunxi Community</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#Devices"><span class="tocnumber">8</span> <span class="toctext">Devices</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#References"><span class="tocnumber">10</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Overview">Overview</span></h1>
+<p>A product verification board was created and several boards were sent to developers that applied for them. That board came with buildoot and Linux 3.4. There was no GUI in that image.
+</p>
+<h1> <span class="mw-headline" id="A83T_SoC_Features">A83T SoC Features</span></h1>
+<ul><li> CPU:
+<ul><li> ARM Cortex-A7 Octa-Core
+</li><li> 256KB L1-Cache
+</li><li> 512KB L2-Cache
+</li><li> 32bit address bus with 2GB usable RAM
+</li></ul>
+</li><li> GPU:
+<ul><li> <a href="/Power_VR" title="Power VR">Power VR</a> SGX544MP1
+</li><li> Comply with OpenGL ES1.1/2.0, OpenCL1.1 and DirectX 9.3
+</li></ul>
+</li><li> Video:
+<ul><li> Support video playback up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="d2e3e2eae2a292e4e2a2a1">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> Support multi-format video playback, including MPEG1/2, MPEG4 SP/ASP GMC, H.263 including Sorenson Spark, H.264 BP/MP/HP,VP8, WMV9/VC1, JPEG/MJPEG
+</li><li> HEVC/H.265 decoder(software),Main Profile,<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="4b7a7b737b3b0b787b2d3b38">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> Support H.264 video encoding up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c5f4f5fdf5b585f3f5a3b5b6">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>,<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="3b0c090b4b7b0a090b5d4b48">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> JPEG baseline: picture size up to 8192x8192
+</li><li> Support input picture size up to 4800x4800
+</li><li> Support input format: tiled(128x32)/YU12/YV12/NU12/NV12/ARGB/YUYV
+</li><li> Support Alpha blending
+</li><li> Support thumb generation
+</li><li> Support 4x2 scaling ratio: from 1/16 to 64 arbitrary non-integer ratio
+</li><li> Support rotated input
+</li></ul>
+</li><li> Display:
+<ul><li> Support two independent display channels
+</li><li> Support RGB up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a899919a98d0999a9898e89e98e0d2">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> resolution
+</li><li> Support RGB666/656 dither function
+</li><li> Support LVDS up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="4e7f7d7878367978760e787e0634">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> resolution
+</li><li> Support 4-lane MIPI DSI(V1.0) up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="b6878f8486ce87848686f68086fecc">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> resolution
+</li><li> Support HDMI V1.4 output with HDCP1.2
+</li></ul>
+</li><li> Camera:
+<ul><li> Compliant with MIPI-CSI2 V1.00 and MIPI DPHY V1.00.00
+</li><li> 4-lane MIPI CSI
+</li><li> Up to 1Gbps per Lane in HS Transmission
+</li><li> Maximum to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="5c64111c6f6c3a2c2f">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> with 4 data lane
+</li><li> Support video shot up to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a091909890d0e09690c6d0d3">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
+</li><li> Supports format: YUV422-8bit/10bit,YUV420-8bit/10bit,RAW-8,RAW-10, RAW-12,RGB888,RGB565
+</li></ul>
+</li><li> Memory:
+<ul><li> DDR3/DDR3L/LPDDR3/LPDDR2, up to 2GB
+</li><li> Raw NAND
+</li><li> eMMC V4.41
+</li></ul>
+</li><li> Connectivity
+<ul><li> USB 2.0 Host, USB OTG, HSIC for chip interconnection
+</li><li> HSIC
+</li><li> Ethernet MAC
+</li><li> 2x SPI, 4x TWI, 6x UART
+</li><li> 3x SD/MMC
+</li><li> PCM/I2S
+</li></ul>
+</li><li> PMIC:
+<ul><li> AXP818
+</li></ul>
+</li><li> Audio:
+<ul><li> unknown
+</li></ul>
+</li><li> OS:
+<ul><li> Buildroot
+</li></ul>
+</li></ul>
+<h1> <span class="mw-headline" id="Rumours"> Rumours </span></h1>
+<ul><li> empty
+</li></ul>
+<h1> <span class="mw-headline" id="Documentation"> Documentation </span></h1>
+<ul><li> <a class="external text" href="https://github.com/allwinner-zh/documents/blob/master/A83T/A83T_User_Manual_v1.5.1_20150513.pdf">A83T User Manual v1.5.1</a> <small>(PDF, 547 pages, 2015-05-11)</small>
+</li><li> <a class="external text" href="https://github.com/allwinner-zh/documents/blob/master/A83T/A83T_Datasheet_v1.3_20150510.pdf">A83T Datasheet Rev 1.3</a> <small>(PDF, 35 pages, 2015-04-10)</small>
+</li><li> <a class="external text" href="https://github.com/allwinner-zh/documents/blob/master/A83T/H8_HOMLET_STD_V2_0_20150428.pdf">A83T Schematics v2.0</a> <small>(PDF, 15 pages, 2015-04-28)</small>
+</li><li> <a href="/File:AXP818_datasheet_Revision1.0.pdf" title="File:AXP818 datasheet Revision1.0.pdf">File:AXP818 datasheet Revision1.0.pdf</a>
+</li></ul>
+<h1> <span class="mw-headline" id="Register_guide"> Register guide </span></h1>
+<h2> <span class="mw-headline" id="Wiki"> Wiki </span></h2>
+<h1> <span class="mw-headline" id="Software"> Software </span></h1>
+<h2> <span class="mw-headline" id="Boot0"> Boot0 </span></h2>
+<p><a href="/BROM" title="BROM">Boot0</a> initializes the DRAM, basic clocks and loads U-boot from NAND or MMC.
+There is no boot1 on A83T. Boot0 directly loads U-boot.
+</p><p>The sources can be found under <a class="external free" href="https://github.com/allwinner-zh/bootloader/tree/master/basic_loader/boot0">https://github.com/allwinner-zh/bootloader/tree/master/basic_loader/boot0</a>
+</p>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<p><a class="external text" href="https://github.com/allwinner-zh/bootloader/tree/master/basic_loader/bsp">A83T BSP</a>
+</p>
+<h2> <span class="mw-headline" id="Android"> Android </span></h2>
+<h3> <span class="mw-headline" id="fastboot_.28under_windows.29"> fastboot (under windows) </span></h3>
+<h1> <span class="mw-headline" id="Android_device_repository">Android device repository</span></h1>
+<h2> <span class="mw-headline" id="U-boot"> U-boot </span></h2>
+<p><a class="external text" href="https://github.com/allwinner-zh/bootloader/tree/master/u-boot-2011.09">U-Boot 2011.09</a>
+</p>
+<h3> <span class="mw-headline" id="Allwinner"> Allwinner </span></h3>
+<h3> <span class="mw-headline" id="Sunxi_Community"> Sunxi Community </span></h3>
+<h2> <span class="mw-headline" id="Kernel_code"> Kernel code </span></h2>
+<h3> <span class="mw-headline" id="Allwinner_Kernel"> Allwinner Kernel </span></h3>
+<p><a class="external text" href="https://github.com/allwinner-zh/linux-3.4-sunxi/tree/A83T">A83T Linux 3.4 kernel</a>
+</p>
+<h3> <span class="mw-headline" id="Sunxi_Community_2"> Sunxi Community </span></h3>
+<h1> <span class="mw-headline" id="Devices"> Devices </span></h1>
+<div class="CategoryTreeTag" data-ct-mode="10" data-ct-options="{&quot;mode&quot;:10,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}"><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A83T_Boards" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A83T_Boards">A83T Boards</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+<div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="A83T_Tablets" title="expand" data-ct-state="collapsed">[<b>+</b>]</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/Category:A83T_Tablets">A83T Tablets</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div></div>
+</div>
+<p><br/>
+Announced devices:
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.cnx-software.com/2014/12/16/infocus-cs1-a83-c2107-android-tablet-review/">Tablet InFocus C2107</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.onda-tablet.com/onda-v975s-octa-core-a83t-tablet.html">Tablet Onda V975s</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.onda-tablet.com/onda-v989-air-a83t-16gb.html">Tablet Onda V989</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.banana-pi.org/m3.html">"Banana Pi" M3</a>
+</li></ul>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<ul><li> <a href="/A31" title="A31">A31</a>
+</li></ul>
+<h1> <span class="mw-headline" id="References">References</span></h1>
+<p><br/>
+</p>
+<h1> <span class="mw-headline" id="External_links"> External links </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="http://www.allwinnertech.com/en/clq/processora/AllwinnerA83T.html">Product Page</a>
+</li></ul>
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=A83T&amp;oldid=17732">http://linux-sunxi.org/index.php?title=A83T&amp;oldid=17732</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:System_on_Chip" title="Category:System on Chip">System on Chip</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=A83T&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=A83T" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/A83T" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:A83T&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/A83T">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=A83T&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=A83T&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/A83T" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/A83T" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=A83T&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=A83T&amp;oldid=17732" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 19 June 2016, at 22:17.</li>
+<li id="footer-info-viewcount">This page has been accessed 10,879 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.categoryTree","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

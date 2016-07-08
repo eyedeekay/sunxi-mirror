@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Cedrus/libvdpau-sunxi - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Cedrus/libvdpau-sunxi","wgTitle":"Cedrus/libvdpau-sunxi","wgCurRevisionId":17646,"wgArticleId":2657,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Outdated Pages","Tutorial","Video Engine","Cedrus"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Cedrus/libvdpau-sunxi","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Cedrus/libvdpau-sunxi"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Cedrus_libvdpau-sunxi skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Cedrus/libvdpau-sunxi</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"><span class="subpages">&lt; <a href="/Cedrus" title="Cedrus">Cedrus</a></span></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #EECC22; background-color: #FFEECC">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_edit-clear.png" class="image"><img alt="MBOX icon edit-clear.png" src="/images/2/21/MBOX_icon_edit-clear.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;"><b>This page is kind of outdated and needs a cleanup.</b>
+<p>Prerequisites, the OSD part and memory reservation have changed a bit with the last few commits. See the <a class="external text" href="https://github.com/linux-sunxi/libvdpau-sunxi">README</a> in the meantime.
+</p>
+</td></tr></table>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Installation"><span class="tocnumber">2</span> <span class="toctext">Installation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Prerequisites"><span class="tocnumber">2.1</span> <span class="toctext">Prerequisites</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Reserve_memory_for_the_VPU"><span class="tocnumber">2.2</span> <span class="toctext">Reserve memory for the VPU</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Cedar_module"><span class="tocnumber">2.3</span> <span class="toctext">Cedar module</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#Write_access_persmissions"><span class="tocnumber">2.3.1</span> <span class="toctext">Write access persmissions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#Installing_libvdpau-sunxi_library"><span class="tocnumber">2.4</span> <span class="toctext">Installing libvdpau-sunxi library</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#Prerequisites_2"><span class="tocnumber">2.4.1</span> <span class="toctext">Prerequisites</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Compiling_source"><span class="tocnumber">2.4.2</span> <span class="toctext">Compiling source</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#Playing_video"><span class="tocnumber">2.5</span> <span class="toctext">Playing video</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#OSD_support"><span class="tocnumber">2.6</span> <span class="toctext">OSD support</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Overview"> Overview </span></h2>
+<p><a class="external text" href="https://github.com/linux-sunxi/libvdpau-sunxi">libvdpau-sunxi</a> is a vdpau driver backend implementation for the <a class="external text" href="https://en.wikipedia.org/wiki/VDPAU">vdpau framework</a>.
+</p><p><a href="/Cedrus/libvdpau_integration_matrix" title="Cedrus/libvdpau integration matrix"> Cedrus/libvdpau_integration_matrix </a> gives an overview about the VDPAU API functions currently supported in libvdpau-sunxi.
+It also lists the required functions for various programs.
+</p>
+<h2> <span class="mw-headline" id="Installation"> Installation </span></h2>
+<table style="margin: 0.7em; border-width: 1px 1px 1px 10px; border-style: solid; border-color: #EE8822; background-color: #FFEEDD">
+<tr>
+<td style="padding: 0.2em; vertical-align: baseline;"><a href="/File:MBOX_icon_important.png" class="image"><img alt="MBOX icon important.png" src="/images/f/f0/MBOX_icon_important.png" width="40" height="40"/></a>
+</td>
+<td style="width:100%; padding-left: 0.2em; padding-right: 0.2em; vertical-align: baseline;"><b>SECURITY NOTE</b>: Currently the open source driver is implemented as replacement of the blob. Blob and current open source replacement driver (libvdpau-sunxi) use Allwinner's kernel driver that remaps registers for use in userspace, with Allwinner's display driver used for hardware overlay. Together with access to physical memory, and dangerous VE DMA ability it makes a serious security problem.
+<p>That should be replaced in a proper way in ongoing mainline process.
+</p>
+</td></tr></table>
+<h3> <span class="mw-headline" id="Prerequisites"> Prerequisites </span></h3>
+<p>Various things are required to get cedrus to play back video. This list can act as a quick start.
+</p>
+<ul><li> <a rel="nofollow" class="external text" href="http://linux-sunxi.org/Kernel_arguments">Proper memory reservation</a>
+</li><li> cedar module either compiled in or the module loaded
+</li><li> write access permissions on /dev/disp and /dev/cedar_dev
+</li></ul>
+<dl><dd><ul><li> on A10/A20, A13, add /dev/g2d for osd
+</li><li> on A33 or H3, add /dev/ion
+</li></ul>
+</dd></dl>
+<ul><li> libvdpau-sunxi library installed
+</li><li> enviroment variable telling libvdpau which library to use
+</li></ul>
+<h3> <span class="mw-headline" id="Reserve_memory_for_the_VPU"> Reserve memory for the VPU </span></h3>
+<p>The VE needs a block of memory to store (de)coded frames in. The kernel needs to be informed about this before booting.
+To do so, the kernel command line needs to be modified. This can be done at compiletime or by modifying the bootloaders <a href="/Kernel_arguments" title="Kernel arguments">Kernel_arguments</a>. By default Allwinner reserves 80 Megabytes but depending on the player being used and video being decoded, less can suffice or more can be necessary. Feel free to experiment with the amount, but if available, 128 MiB is a nice number to test things with. This can be set by the following kernel argument.
+</p>
+<pre>sunxi_ve_mem_reserve=128</pre>
+<p><b>NOTE:</b> This kernel parameter is ignored in recent linux-sunxi 3.4 kernels, if CMA is enabled in kernel configuration.
+If CONFIG_CMA=y, ve_size is hardcoded to 80MB in sunxi_cedar kernel module.
+</p><p>For A33 or H3, if you use the kernel from official SDK, you should modify the memory reservation configuration of ion memory allocator. 32 MB seems to be enough for 720p H.264 decoding, and 64MB is enough for 1080p H.264 decoding.
+</p>
+<h3> <span class="mw-headline" id="Cedar_module"> Cedar module </span></h3>
+<p>Depending on where the kernel came from, the Cedar kernel driver is either available as module or built in. To see whether it is available, check whether /dev/cedar_dev exists. If not, run <i>modprobe sun4i_cedar_dev</i> (in future versions this should be called sunxi_cedar_dev, and for official kernel of A33 or H3 it's called cedar_dev). There should now be a /dev/cedar_dev.
+</p>
+<h4> <span class="mw-headline" id="Write_access_persmissions"> Write access persmissions </span></h4>
+<p>To be able to pass data to the VE, proper permission to /dev/cedar_dev is required.
+</p><p>For testing, manually setting permissions is fine.
+</p>
+<pre>chown &lt;username&gt;:&lt;usergroup&gt; /dev/cedar_dev
+chmod 666 /dev/cedar_dev</pre>
+<p>The VE only decodes the video codec. To have it appear on the display, write access permission to /dev/disp is required.
+</p>
+<pre>chown &lt;username&gt;:&lt;usergroup&gt; /dev/disp
+chmod 666 /dev/disp</pre>
+<p>For the official kernel of A33 or H3, cedar do not allocate memory by itself, but it uses ion. So for these devices, write and read permission to /dev/ion is needed.
+</p>
+<pre>chown &lt;username&gt;:&lt;usergroup&gt; /dev/ion
+chmod 666 /dev/ion</pre>
+<p>To do this properly with udev rules, create files for each under /etc/udev/rules.d/
+</p><p>50-disp.rules
+</p>
+<pre>KERNEL==&quot;disp&quot;, MODE=&quot;0660&quot;, GROUP=&quot;video&quot;</pre>
+<p>50-cedar.rules
+</p>
+<pre>KERNEL==&quot;cedar_dev&quot;, MODE=&quot;0660&quot;, GROUP=&quot;video&quot;</pre>
+<p>50-ion.rules
+</p>
+<pre>KERNEL==&quot;ion&quot;, MODE=&quot;0660&quot;, GROUP=&quot;video&quot;</pre>
+<h3> <span class="mw-headline" id="Installing_libvdpau-sunxi_library"> Installing libvdpau-sunxi library </span></h3>
+<p>There are currently no pre-compiled binaries available and have to be compiled from source. This most likely has to be performed on the target device, while possible to be cross compiled.
+</p>
+<h4> <span class="mw-headline" id="Prerequisites_2"> Prerequisites </span></h4>
+<ul><li> git (yum install git | apt-get install git | emerge git)
+</li><li> gcc (yum group-install "Development Tools" | apt-get install build-essential)
+</li><li> libvdpau-dev &gt;= 0.9 (yum install libvdpau-dev | apt-get install libvdpau-dev | emerge libvdpau)
+</li></ul>
+<h4> <span class="mw-headline" id="Compiling_source"> Compiling source </span></h4>
+<p>The current libvdpau-sunxi code is stored on github.
+</p>
+<pre>git clone https://github.com/linux-sunxi/libvdpau-sunxi.git
+cd libvdpau-sunxi
+make
+sudo make install</pre>
+<p>Pay close attention as to where these libraries get installed. Depending on the distro in use, it's most likely they will need to be put in <b>/usr/lib/vdpau</b>. If they are not put there, manually copy them there.
+With the driver now installed, it is important to tell vdpau to use this library. By default it will try to load and use the nVidia vdpau implementation.
+</p>
+<pre>export VDPAU_DRIVER=sunxi</pre>
+<p>The latest git version of <a href="/Xorg#fbturbo_driver" title="Xorg">Xorg#fbturbo_driver</a> can report the DRI2 VDPAU name as 'sunxi', if 'sunxi_cedar_mod' kernel module loaded successfully. See <a class="external text" href="https://github.com/ssvb/xf86-video-fbturbo/commit/4c7313c6db9ee770f39740c735268c88fcd136cf">commit</a>
+</p>
+<h3> <span class="mw-headline" id="Playing_video"> Playing video </span></h3>
+<p>With everything setup properly, it should now be possible to playback hardware accelerated media!
+</p><p>The best test file would be one of the well known sample media's. The big buck bunny is an often used one.
+<a rel="nofollow" class="external free" href="http://samplemedia.linaro.org/H264/big_buck_bunny_1080p_H264_AAC_25fps_7200K.MP4">http://samplemedia.linaro.org/H264/big_buck_bunny_1080p_H264_AAC_25fps_7200K.MP4</a>
+</p><p>Depending if you use mpv or mplayer2, the following options are required.
+For mplayer2:
+</p>
+<pre> mplayer -vo vdpau -vc ffmpeg12vdpau,ffh264vdpau, [filename]</pre>
+<p>For mpv:
+</p>
+<pre> mpv --vo=vdpau --hwdec=vdpau --hwdec-codecs=all [filename]</pre>
+<p>Note: There have been reports that some mplayer versions in certain repositories are not compiled with vdpau support.
+</p><p>Now you can also try to use other files, but note it has to be mpeg1, mpeg2 or h264 encoded!
+</p>
+<h3> <span class="mw-headline" id="OSD_support"> OSD support </span></h3>
+<p>Now we have simple OSD implementation, using g2d hardware.
+</p><p>Access to g2d (as xorg turbo driver) is also required.
+</p>
+<pre>chmod 666 /dev/g2d</pre>
+<p>To do this properly with udev rules, create a file under /etc/udev/rules.d/
+</p><p>50-g2d.rules
+</p>
+<pre>KERNEL==&quot;g2d&quot;, MODE=&quot;0660&quot;, GROUP=&quot;video&quot;</pre>
+<p>and make sure that the user wanting to decode video is in the video group!
+</p><p>To turn on OSD support during runtime:
+</p>
+<pre>export VDPAU_OSD=1</pre>
+<p><br/>
+Note: mplayer's "-ass" osd not currently supported, due to lack of 'alpha only' surfaces support in current g2d driver
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Cedrus/libvdpau-sunxi&amp;oldid=17646">http://linux-sunxi.org/index.php?title=Cedrus/libvdpau-sunxi&amp;oldid=17646</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/index.php?title=Category:Outdated_Pages&amp;action=edit&amp;redlink=1" class="new" title="Category:Outdated Pages (page does not exist)">Outdated Pages</a></li><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li><li><a href="/Category:Video_Engine" title="Category:Video Engine">Video Engine</a></li><li><a href="/index.php?title=Category:Cedrus&amp;action=edit&amp;redlink=1" class="new" title="Category:Cedrus (page does not exist)">Cedrus</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Cedrus%2Flibvdpau-sunxi&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Cedrus%2Flibvdpau-sunxi" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Cedrus/libvdpau-sunxi" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Cedrus/libvdpau-sunxi&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Cedrus/libvdpau-sunxi">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Cedrus/libvdpau-sunxi&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Cedrus/libvdpau-sunxi&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Cedrus/libvdpau-sunxi" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Cedrus/libvdpau-sunxi" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Cedrus/libvdpau-sunxi&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Cedrus/libvdpau-sunxi&amp;oldid=17646" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 15 June 2016, at 22:06.</li>
+<li id="footer-info-viewcount">This page has been accessed 2,592 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Replace NAND with eMMC howto - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Replace_NAND_with_eMMC_howto","wgTitle":"Replace NAND with eMMC howto","wgCurRevisionId":14435,"wgArticleId":2266,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Tutorial"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Replace_NAND_with_eMMC_howto","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Replace_NAND_with_eMMC_howto"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Replace_NAND_with_eMMC_howto skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Replace NAND with eMMC howto</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The page describes the process to replace some board 's internal raw-NAND flash to eMMC. It will destroy your device warranty. So please think carefully before you do it.
+</p><p><br/>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Why_replace_NAND_with_eMMC"><span class="tocnumber">1</span> <span class="toctext">Why replace NAND with eMMC</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Why_it_can_work.3F"><span class="tocnumber">2</span> <span class="toctext">Why it can work?</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Equipment_Required"><span class="tocnumber">3</span> <span class="toctext">Equipment Required</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#A_example_on_modify_Mele_i7.28A31.29"><span class="tocnumber">4</span> <span class="toctext">A example on modify Mele i7(A31)</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#External_Links"><span class="tocnumber">5</span> <span class="toctext">External Links</span></a></li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Why_replace_NAND_with_eMMC"> Why replace NAND with eMMC </span></h1>
+<p>The documents of the SUNXI-NFC is very hard to find. Although Allwinner has been release the open-source version of all-series Allwinner SoCs. But to write a usable MTD-driver is still a hardwork to do.
+</p><p>Compare NAND with eMMC. The eMMC is more fast, more safe and more open in Allwinner platform. To avoid the bad support of Allwinner NFC, you can choose to replace NAND with eMMC.
+</p>
+<h1> <span class="mw-headline" id="Why_it_can_work.3F"> Why it can work? </span></h1>
+<p><a href="/File:FORESEE_TSDPinout.png" class="image"><img alt="FORESEE TSDPinout.png" src="/images/thumb/9/94/FORESEE_TSDPinout.png/960px-FORESEE_TSDPinout.png" width="960" height="622"/></a>
+</p><p><a href="/File:EMMCseeinBottom.jpg" class="image"><img alt="EMMCseeinBottom.jpg" src="/images/b/b0/EMMCseeinBottom.jpg" width="325" height="441"/></a>
+</p><p>As you can see in this picture from CubieTruck. The NANDD[0:7] is multiplexed with SDC2D[0:3](on A10/A20) or SDC2D[0:7](on A31 and later SoC).
+</p><p>And SDCMD/SDCLK is multiplexed with N0RB0 &amp; N0RB1. So we can simply connect this pins to the eMMC. And we're ready to go!
+</p>
+<h1> <span class="mw-headline" id="Equipment_Required"> Equipment Required </span></h1>
+<p>Tools: A iron, a nipper. Maybe a piece of glass(To handle the eMMC chip，otherwise the chip maybe slip. And to prevent your desktop from iron) and a pair of glass if you donˊt have a good vision on small thing&#160;:).
+</p><p>Materials: A eMMC, some thin wire, some tins and rosins.
+</p><p><big><font>WARNING: Please make sure that you know what you're doing! And you must to make sure that you can solder chip with in TSSOP package! Otherwise the device maybe DAMAGED!</font></big>
+</p>
+<h1> <span class="mw-headline" id="A_example_on_modify_Mele_i7.28A31.29"> A example on modify Mele i7(A31) </span></h1>
+<div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="/File:Mele_I7_PCB.JPG" class="image"><img alt="Mele I7 PCB.JPG" src="/images/thumb/0/07/Mele_I7_PCB.JPG/180px-Mele_I7_PCB.JPG" width="180" height="118" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Mele_I7_PCB.JPG" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div></div></div></div>
+<p>With the following step, you can replace the NAND with eMMC.
+</p><p>First, unload the case of this device. And watch the PCB of it. Now you can see what place the NAND is.
+</p><p><a href="/File:Melei7_UnloadNAND.jpg" class="image"><img alt="Melei7 UnloadNAND.jpg" src="/images/0/01/Melei7_UnloadNAND.jpg" width="960" height="720"/></a>
+</p><p>Second, put tins and rosins on the NAND's pin, when the tin on the pin is full, you can stop it. You can do the anyside first. And you should drag the irons up and down, back and forward to make sure that the side of NAND's tin is fully melted. With in the tin is melted, please use your nipper to catch the side of this chip, and steadly handle it up, that the one side of the chip has been removed from the PCB. And you can do the same of the other side to remove the NAND flash from the PCB.
+</p><p>Third, uses rosins to clean up spare tins on the board, make sure that there are no pins is linked by tins.
+</p><p>Forth, wire the thin wire on the eMMC, and connect it to board. I haven't good advice for it. I just can tell that you have to be calm. Maybe you should wear your glass for doing this job. You can wire the eMMC part first, and wire another part to the empty-SDcard to test if you're right. If you make sure that you have do the right thing, then wire another part to the board.
+</p><p><a href="/File:WireaeMMCtoSD.jpg" class="image"><img alt="WireaeMMCtoSD.jpg" src="/images/8/8a/WireaeMMCtoSD.jpg" width="720" height="960"/></a>
+</p><p>Finally you can got that, and you can drop some rosins to fix the eMMC right on the place. If your board is A31 based, you must to setup boot jumper.Enjoy your new board with eMMC!
+</p><p><a href="/File:Melei7withSandisk4GBeMMC.jpg" class="image"><img alt="Melei7withSandisk4GBeMMC.jpg" src="/images/6/6d/Melei7withSandisk4GBeMMC.jpg" width="960" height="720"/></a>
+</p>
+<h1> <span class="mw-headline" id="External_Links"> External Links </span></h1>
+<ul><li> <a rel="nofollow" class="external text" href="https://svr.weirm.info/sunxi/110.html">The original version of this article</a>
+<ul><li> <a rel="nofollow" class="external text" href="https://svr.weirm.info/">A Blog running at this device</a>
+</li></ul>
+</li></ul>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Replace_NAND_with_eMMC_howto&amp;oldid=14435">http://linux-sunxi.org/index.php?title=Replace_NAND_with_eMMC_howto&amp;oldid=14435</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Tutorial" title="Category:Tutorial">Tutorial</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Replace+NAND+with+eMMC+howto&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Replace+NAND+with+eMMC+howto" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Replace_NAND_with_eMMC_howto" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk"><span><a href="/Talk:Replace_NAND_with_eMMC_howto" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Replace_NAND_with_eMMC_howto">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Replace_NAND_with_eMMC_howto&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Replace_NAND_with_eMMC_howto&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Replace_NAND_with_eMMC_howto" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Replace_NAND_with_eMMC_howto" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Replace_NAND_with_eMMC_howto&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Replace_NAND_with_eMMC_howto&amp;oldid=14435" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 27 June 2015, at 15:25.</li>
+<li id="footer-info-viewcount">This page has been accessed 2,325 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

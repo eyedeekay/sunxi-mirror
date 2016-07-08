@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>SID Register Guide - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"SID_Register_Guide","wgTitle":"SID Register Guide","wgCurRevisionId":17677,"wgArticleId":583,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["A10 Register guide","A13 Register guide","A20 Register guide"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"SID_Register_Guide","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/SID_Register_Guide"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-SID_Register_Guide skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">SID Register Guide</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Security_ID"><span class="tocnumber">1</span> <span class="toctext">Security ID</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Info"><span class="tocnumber">1.1</span> <span class="toctext">Info</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#SID_Registers"><span class="tocnumber">1.1.1</span> <span class="toctext">SID Registers</span></a>
+<ul>
+<li class="toclevel-4 tocsection-4"><a href="#SID_KEY.5B0-3.5D"><span class="tocnumber">1.1.1.1</span> <span class="toctext">SID_KEY[0-3]</span></a></li>
+<li class="toclevel-4 tocsection-5"><a href="#SID_WRITE_DATA"><span class="tocnumber">1.1.1.2</span> <span class="toctext">SID_WRITE_DATA</span></a></li>
+<li class="toclevel-4 tocsection-6"><a href="#SID_WRITE_CTRL"><span class="tocnumber">1.1.1.3</span> <span class="toctext">SID_WRITE_CTRL</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#Currently_known_SID.27s"><span class="tocnumber">1.2</span> <span class="toctext">Currently known SID's</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Security_ID"> Security ID </span></h1>
+<p>So far, all Allwinner A-series SoC come with a bit of memory called 'SID'. So far, for all chips this is 128 bits of freely? usable memory, with a catch. These 128 bits of memory, are not in RAM or ROM, they are so called <a class="external text" href="http://en.wikipedia.org/wiki/EFUSE">e-fuses</a>.
+</p><p>By default, the chip ID or revision is written to these fusions and possibly some form of serial number. While modifying is untested at this moment, it is possible to read the fuses.
+</p><p>A few use cases for the SID are, but not limited to:
+</p>
+<ul><li> Generate per-device unique MAC address
+</li><li> Store/use as an RSA etc key
+</li><li> Write in-house serial numbers
+</li></ul>
+<h2> <span class="mw-headline" id="Info"> Info </span></h2>
+<p>SID Base address: <b>0x01c23800</b>
+</p><p>For Allwinner <a href="/A83T" title="A83T">A83T</a> and <a href="/H3" title="H3">H3</a> the SID address space starts at 0x01c14000, and the e-fuses are at offset 0x200 - so the address to use for these SoCs is <b>0x01c14200</b>.
+</p>
+<h4> <span class="mw-headline" id="SID_Registers"> SID Registers </span></h4>
+<table class="wikitable">
+<tr>
+<th> Register Name
+</th>
+<th> Offset
+</th>
+<th> Size
+</th>
+<th> Description
+</th>
+<th> Note
+</th></tr>
+<tr>
+<td> <tt>SID_KEY0</tt>
+</td>
+<td> <tt>0x00</tt>
+</td>
+<td> <tt>4 B</tt>
+</td>
+<td> Key0 [0:31]
+</td>
+<td>
+</td></tr>
+<tr>
+<td> <tt>SID_KEY1</tt>
+</td>
+<td> <tt>0x04</tt>
+</td>
+<td> <tt>4 B</tt>
+</td>
+<td> Key1 [32:63]
+</td>
+<td>
+</td></tr>
+<tr>
+<td> <tt>SID_KEY2</tt>
+</td>
+<td> <tt>0x08</tt>
+</td>
+<td> <tt>4 B</tt>
+</td>
+<td> Key2 [64:95]
+</td>
+<td>
+</td></tr>
+<tr>
+<td> <tt>SID_KEY3</tt>
+</td>
+<td> <tt>0x0c</tt>
+</td>
+<td> <tt>4 B</tt>
+</td>
+<td> Key3 [96:127]
+</td>
+<td>
+</td></tr>
+<tr>
+<td> <tt>SID_WRITE_DATA</tt>
+</td>
+<td> <tt>0x40</tt>
+</td>
+<td> <tt>4 B</tt>
+</td>
+<td> Data [0:31]
+</td>
+<td> NOT VERIFIED
+</td></tr>
+<tr>
+<td> <tt>SID_WRITE_CTRL</tt>
+</td>
+<td> <tt>0x44</tt>
+</td>
+<td> <tt>4 B</tt>
+</td>
+<td> SID Program Control register
+</td>
+<td>
+</td></tr></table>
+<p><br/>
+</p>
+<h5> <span class="mw-headline" id="SID_KEY.5B0-3.5D"> SID_KEY[0-3] </span></h5>
+<p>Default value: undefined<br/>
+Offset: 0x0{0, 4, 8, c}
+</p>
+<table class="wikitable">
+<tr>
+<th> Name
+</th>
+<th> Bit
+</th>
+<th> Read/Write
+</th>
+<th> Default (Hex)
+</th>
+<th> Values
+</th>
+<th> Description
+</th></tr>
+<tr>
+<td> <tt>KEY[0-3]</tt>
+</td>
+<td> <tt>0:31</tt>
+</td>
+<td> <tt>Read</tt>
+</td>
+<td> <tt></tt>
+</td>
+<td> <tt></tt>
+</td>
+<td> 32 bits for SID
+</td></tr></table>
+<p><br/>
+</p>
+<h5> <span class="mw-headline" id="SID_WRITE_DATA"> SID_WRITE_DATA </span></h5>
+<p>Default value: 0x00000000<br/>
+Offset: 0x40
+</p>
+<p>We think this is the data register used when programming the SID efuses.
+<p>There is also a EFUSE_VDDQ pin (pin T9 on A10) which is normally tied to GND but which we guess needs to have suitable power to enable efuse programming. Details unknown.
+<h5> <span class="mw-headline" id="SID_WRITE_CTRL"> SID_WRITE_CTRL </span></h5>
+<p>Default value: 0x00000000<br/>
+Offset: 0x44
+</p>
+<table class="wikitable">
+<tr>
+<th> Name
+</th>
+<th> Bit
+</th>
+<th> Read/Write
+</th>
+<th> Default (Hex)
+</th>
+<th> Values
+</th>
+<th> Description
+</th></tr>
+<tr>
+<td> <tt>SID_WRITE_START</tt>
+</td>
+<td> <tt>0</tt>
+</td>
+<td> <tt>Read/Write</tt>
+</td>
+<td> <tt>0x00</tt>
+</td>
+<td> <tt>
+<pre>    0x00 = done writing
+    0x01 = start writing
+  </tt>
+</pre>
+</td>
+<td> Writes when enabled, returns to 0 after writing.
+</td></tr>
+<tr>
+<td> <tt>no operation</tt>
+</td>
+<td> <tt>1:3</tt>
+</td>
+<td> <tt></tt>
+</td>
+<td> <tt></tt>
+</td>
+<td> <tt></tt>
+</td>
+<td>
+</td></tr>
+<tr>
+<td> <tt>SID_WRITE_POS</tt>
+</td>
+<td> <tt>4:7</tt>
+</td>
+<td> <tt>Read/Write</tt>
+</td>
+<td> <tt>0x00</tt>
+</td>
+<td> <tt>
+<pre>    0x00 = macrocell 0
+    0x01 = macrocell 1
+    0x02 = macrocell 2
+    0x03 = macrocell 3
+  </tt>
+</pre>
+</td>
+<td> Index of which of the 4 hardware macrocell fuses to burn. It is currently unknown where to obtain said value from but a guess is register 0x40.
+</td></tr>
+<tr>
+<td> <tt>no operation</tt>
+</td>
+<td> <tt>8:31</tt>
+</td>
+<td> <tt></tt>
+</td>
+<td> <tt></tt>
+</td>
+<td> <tt></tt>
+</td>
+<td>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Currently_known_SID.27s"> Currently known SID's </span></h2>
+<p>You may try to retrieve the SID value via our <a href="/Sunxi-tools" title="Sunxi-tools">sunxi-tools</a> (<code>./sunxi-fel sid</code>) - or dump it from within U-Boot using the corresponding, SoC-specific address (e.g. <code>md.l 0x01c23800 4</code>). If running a mainline kernel hexdump should be sufficient.
+</p>
+<pre>hexdump -C <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="59762a202a763d3c2f303a3c2a762935382d3f362b34762a363a1969683a6969696969">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>/1c23800.eeprom/eeprom
+00000000  16 51 66 c6 80 51 77 89  54 53 48 48 0a 40 f2 67  |.Qf..Qw.TSHH.@.g|
+00000010  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
+</pre>.
+<table class="wikitable sortable">
+<tr>
+<th> Board </th>
+<th> eeprom
+</th></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b>A10</b>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>16236747 80728452 50574848 064163D5</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>162367C7 80778052 50554848 0201DDC3</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>16236750 80758352 52574848 08025081</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>16236745 80778052 50554848 07C171AD</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>16236743 80758952 54544848 0642d3e9</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>16236790 80758952 54544848 03c21c4e</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>162367d9 80758952 54544848 08c21483</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>16236798 80758952 54544848 0781186a</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>1623674c 80758952 54544848 0a02c845</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>1623670f 80758952 54544848 0981e268</tt>
+</td></tr>
+<tr>
+<td> Cubieboard 1.0 1024 (A10) </td>
+<td> <tt>1623678b 80778251 54534848 0a4285d6</tt>
+</td></tr>
+<tr>
+<td> Gemei G9 (A10) </td>
+<td> <tt>16236712 80726652 57524848 04c29968</tt>
+</td></tr>
+<tr>
+<td> Mele A1000 (A10) early version </td>
+<td> <tt>00000000 00000000 00000000 00000000</tt>
+</td></tr>
+<tr>
+<td> pcDuino (A10) </td>
+<td> <tt>16236755 80758952 53554848 0a41e8c9 </tt>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b>A10s</b>
+</td></tr>
+<tr>
+<td> R7 hdmi-stick (A10s) </td>
+<td> <tt>16254157 504B4133 30397030 0A41FA85</tt>
+</td></tr>
+<tr>
+<td> mk802 hdmi-stick (A10s) </td>
+<td> <tt>16254115 50484E39 35397030 0D02F6E8</tt>
+</td></tr>
+<tr>
+<td> OlinuXino (A10S) </td>
+<td> <tt>162541d3 50485937 30357030 04020663</tt>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b>A13</b>
+</td></tr>
+<tr>
+<td> A13B tablet (A13) </td>
+<td> <tt>16254216 504E4837 39313030 06819C58</tt>
+</td></tr>
+<tr>
+<td> OlinuXIno (A13) </td>
+<td> <tt>16254147 50475838 36313030 0341B75D</tt>
+</td></tr>
+<tr>
+<td> OlinuXIno (A13) </td>
+<td> <tt>16254159 50475838 36313030 0B4181E9</tt>
+</td></tr>
+<tr>
+<td> OlinuXIno (A13) </td>
+<td> <tt>16254158 504B4E39 35303030 0A0185F5</tt>
+</td></tr>
+<tr>
+<td> OlinuXIno Micro (A13) </td>
+<td> <tt>16254187 504b4e39 35303030 094313f2</tt>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b>A20</b>
+</td></tr>
+<tr>
+<td> EOMA68-A20 (A20) </td>
+<td> <tt>165165c7 80807552 55564848 0842c7fb</tt>
+</td></tr>
+<tr>
+<td> Cubietruck (A20) </td>
+<td> <tt>16516507 80808952 56524848 03c18168</tt>
+</td></tr>
+<tr>
+<td> Cubietruck (A20) </td>
+<td> <tt>16516581 80808952 56524848 0583548e </tt>
+</td></tr>
+<tr>
+<td> Cubietruck (A20) </td>
+<td> <tt>16516587 80808952 56524848 0b81d536 </tt>
+</td></tr>
+<tr>
+<td> Banana Pi (A20) </td>
+<td> <tt>1651664f 80485686 53504848 0702dde9</tt>
+</td></tr>
+<tr>
+<td> Banana Pi (A20) </td>
+<td> <tt>1651668a 80485788 51484848 02825172</tt>
+</td></tr>
+<tr>
+<td> A20-OLinuXIno-LIME2: (A20) </td>
+<td> <tt>16516608 80485172 49484848 0800ccfc</tt>
+</td></tr>
+<tr>
+<td> A20-OLinuXIno-LIME2: (A20) </td>
+<td> <tt>165166c6 80517789 54534848 0a40f267</tt>
+</td></tr>
+<tr>
+<td> A20-OLinuXino-MICRO (A20) </td>
+<td> <tt>00000000 00000000 00000000 00000000 </tt> (2 verified)
+</td></tr>
+<tr>
+<td> Cubieboard 2.0 1024 (A20) </td>
+<td> <tt>00000000 00000000 00000000 00000000 </tt> (3 verified)
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b>A31s</b>, sid in AXP221
+</td></tr>
+<tr>
+<td> CSQ CS908 (A31s) </td>
+<td> <tt>16524251 434e3038 34010088 080d81eb</tt>
+</td></tr>
+<tr>
+<td> Mele A1000G quad (A31) </td>
+<td> <tt>16524251 43423635 32000045 060a7a38</tt>
+</td></tr></table>
+<p>Newer SoC families no longer seem to follow the above pattern of containing the SoC ID within the first value.<br>
+However, the leading 32 bits still seem to be consistent among the same SoCs:
+</p>
+<table class="wikitable">
+<tr>
+<th> SoC </th>
+<th> ID </th>
+<th> SID key
+</th></tr>
+<tr>
+<td> A64 </td>
+<td> 0x1689 </td>
+<td> <tt>92c000ba [...]</tt>
+</td></tr>
+<tr>
+<td> A83T </td>
+<td> 0x1673 </td>
+<td> <tt>32c00401 [...]</tt>
+</td></tr>
+<tr>
+<td> H3 </td>
+<td> 0x1680 </td>
+<td> <tt>02004620 [...]</tt>
+</td></tr></table>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=SID_Register_Guide&amp;oldid=17677">http://linux-sunxi.org/index.php?title=SID_Register_Guide&amp;oldid=17677</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:A10_Register_guide" title="Category:A10 Register guide">A10 Register guide</a></li><li><a href="/Category:A13_Register_guide" title="Category:A13 Register guide">A13 Register guide</a></li><li><a href="/Category:A20_Register_guide" title="Category:A20 Register guide">A20 Register guide</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:108.162.237.232" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">108.162.237.232</a></li>
+<li id="pt-anontalk"><a href="/User_talk:108.162.237.232" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=SID+Register+Guide&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=SID+Register+Guide" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/SID_Register_Guide" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:SID_Register_Guide&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/SID_Register_Guide">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=SID_Register_Guide&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=SID_Register_Guide&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/SID_Register_Guide" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/SID_Register_Guide" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=SID_Register_Guide&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=SID_Register_Guide&amp;oldid=17677" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 16 June 2016, at 20:55.</li>
+<li id="footer-info-viewcount">This page has been accessed 7,252 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

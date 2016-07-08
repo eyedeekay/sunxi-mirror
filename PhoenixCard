@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>PhoenixCard - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PhoenixCard","wgTitle":"PhoenixCard","wgCurRevisionId":7701,"wgArticleId":21,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Proprietary Software"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PhoenixCard","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/PhoenixCard"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PhoenixCard skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">PhoenixCard</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Phoenixcard</b> is a <i>closed source</i> win32 application developed by <a href="/Allwinner" title="Allwinner">Allwinner</a>. It's used to convert an Official Image into a bootable self-installing SD card.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Installing_Phoenixcard"><span class="tocnumber">1</span> <span class="toctext">Installing Phoenixcard</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Using_Phoenixcard"><span class="tocnumber">2</span> <span class="toctext">Using Phoenixcard</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Resulting_Card"><span class="tocnumber">3</span> <span class="toctext">Resulting Card</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#PhoenixCard_for_A31"><span class="tocnumber">4</span> <span class="toctext">PhoenixCard for A31</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Make_bootable_sd_card"><span class="tocnumber">4.1</span> <span class="toctext">Make bootable sd card</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Resulting_Card_2"><span class="tocnumber">4.2</span> <span class="toctext">Resulting Card</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#make_a_bootable_sd_card_without_PhoenixCard.28fail.29"><span class="tocnumber">4.3</span> <span class="toctext">make a bootable sd card without PhoenixCard(fail)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Installing_Phoenixcard"> Installing Phoenixcard </span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a href="/File:Phoenixcard.png" class="image"><img alt="" src="/images/thumb/3/3d/Phoenixcard.png/200px-Phoenixcard.png" width="200" height="132" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Phoenixcard.png" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>Phienix card 3.0.3</div></div></div>
+<h2> <span class="mw-headline" id="Using_Phoenixcard"> Using Phoenixcard </span></h2>
+<h2> <span class="mw-headline" id="Resulting_Card"> Resulting Card </span></h2>
+<p>The mbr of the resulting card refers to an empty fat partition, but there is a real but hidden vfat <a href="/index.php?title=Nanda&amp;action=edit&amp;redlink=1" class="new" title="Nanda (page does not exist)">boot partition</a> at offset 0x1500000 (21MB) or 0x2400000 (36MB).
+</p><p>The partitions to be installed are stored raw in the card in an special format been reverse engineered<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>.
+</p>
+<h2> <span class="mw-headline" id="PhoenixCard_for_A31"> PhoenixCard for A31 </span></h2>
+<p>i try the <b>PhoenixCard 3.09</b> for <a href="/Mele_M9" title="Mele M9">Mele M9</a> STB. there are some differences between above description.
+</p>
+<h3> <span class="mw-headline" id="Make_bootable_sd_card"> Make bootable sd card </span></h3>
+<ul><li> press <b>DiskCheck</b> button for scaning the removable disk.
+</li><li> select your sdcard in <i>disk</i>
+</li><li> select image from <b>Img File</b>
+</li><li> if you want to write a bootable, check <i>Startup</i>.
+</li><li> <b>Burn</b> Sd card
+</li></ul>
+<h3> <span class="mw-headline" id="Resulting_Card_2"> Resulting Card </span></h3>
+<p>boot1 will found the fat partition at 73728. but this partition is broken. i delete all other partition and re-create the fat start from 73728, size 50M.
+</p>
+<h3> <span class="mw-headline" id="make_a_bootable_sd_card_without_PhoenixCard.28fail.29"> make a bootable sd card without PhoenixCard(fail) </span></h3>
+<p>according to <a rel="nofollow" class="external text" href="http://linux-sunxi.org/Boot#A31">A31 boot progress</a>, i want to make a bootable sd card by myself. but i do not success, here is my tring:
+</p><p>repack the image through image imgrepacker, i could get boot0_sdcard.fex, boot1_sdcard.fex, sunxi_mbr.fex and sys_config.fex. convert sys_config.fex to sys_config.bin through <a class="external text" href="https://github.com/linux-sunxi/sunxi-tools">fex2bin</a>
+</p>
+<ul><li> boot0 locate at 8k
+</li></ul>
+<pre>   dd if=boot0_sdcard.fex of=/dev/sdd seek=8 bs=1024
+</pre>
+<ul><li> boot1 locate at 19096k
+</li></ul>
+<pre>   dd if=boot1_sdcard.fex of=/dev/sdd seek=19096 bs=1024
+</pre>
+<p>after this, boot1 will boot successfull and found sd card. but boot into burning nand.
+</p>
+<pre>   [       0.210] boot1 version&#160;: 2.0.0
+   [       0.215] script installed ok
+   [       0.216] PMU: AXP221
+   [       0.216] bat ratio = 100
+   [       0.218] dcdc3 1260
+   [       0.264] pll1 1008
+   [       0.320] power finish
+   [       0.325] dcdc1 3300
+   [       0.325] dcdc2 1200
+   [       0.325] dcdc4 1200
+   [       0.326] dcdc5 1500
+   [       0.329] flash init start
+   [       0.585] [mmc]: init mmc pll6clk 600000000, clk 25000000, mclkbase 0x8151030b
+   [       0.587] [mmc]: SD/MMC Card: 4bit, capacity: 968MB
+   [       0.592] [mmc]: vendor: Man 0x00035344 Snr 0x00ba5beb
+   [       0.598] [mmc]: product: SD01G
+   [       0.601] [mmc]: revision: 8.0
+   [       0.604] flash init finish
+   [       0.641] fs init ok
+   [       0.642] fattype FAT16
+   [       0.642] fs mount ok
+   [       0.649] dram_para_set start
+   [       0.652] dram_para_set end
+   [       0.652] type=1
+   [       0.719] Sprite start
+   [       0.719] 0
+   [       0.719] card sprite begin
+   [       0.723] display init
+   [       0.885] lcd 0 timeout=50
+   [       0.939] try gpio config
+   [       0.939] gpio start
+   [       0.939] mbr fetch
+   [       0.989] lcd 1 timeout=200
+   [       1.189] lcd 2 timeout=100
+   [       1.289] lcd 3 timeout=0
+   [       1.289] lcd 4 timeout=0
+   [       1.300] erase flag=1
+   [       1.301] storage type = 1
+   [       1.305] burn nand
+   [       1.305] dram ch=0
+   [       1.305] nand ch=2
+   [       1.307] nand init
+</pre>
+<p>compare with the right log:
+</p>
+<pre>   [       0.215] boot1 version&#160;: 2.0.0
+   [       0.220] script installed ok
+   [       0.221] PMU: AXP221
+   [       0.221] bat ratio = 100
+   [       0.223] dcdc3 1260
+   [       0.269] pll1 1008
+   [       0.325] power finish
+   [       0.330] dcdc1 3300
+   [       0.330] dcdc2 1200
+   [       0.330] dcdc4 1200
+   [       0.331] dcdc5 1500
+   [       0.334] flash init start
+   [       0.590] [mmc]: init mmc pll6clk 600000000, clk 25000000, mclkbase 0x8151030b
+   [       0.592] [mmc]: SD/MMC Card: 4bit, capacity: 1886MB
+   [       0.597] [mmc]: vendor: Man 0x00035344 Snr 0x5049ccd1
+   [       0.602] [mmc]: product: SD02G
+   [       0.606] [mmc]: revision: 8.0
+   [       0.609] flash init finish
+   [       0.647] fs init ok
+   [       0.648] fattype FAT16
+   [       0.649] fs mount ok
+   [       0.655] dram_para_set start
+   [       0.658] dram_para_set end
+   [       0.658] type=1
+   [       0.689] 0
+   [       0.855] boot_disp.output_type=3
+   [       0.855] boot_disp.output_mode=5
+   [       0.857] boot_disp.auto_hpd=1
+   [       0.860] hdmi open
+   [       0.862] DRV_hdmi_set_display_mode,mode:5
+   [       0.867] DRV_hdmi_open
+   [       0.990] ERR: Parse_Pic_BMP failed
+   [       0.991] key 0
+   [       0.991] cant find rcvy value
+   [       0.994] cant find fstbt value
+   [       0.999] try to boot
+   [       1.000] load kernel start
+   [       1.036] load kernel successed
+   [       1.036] start address = 0x4a000000
+</pre>
+<ul><li> i also the try the following things accoring the hexdump the bootable sd card. but no more luck.
+</li></ul>
+<pre>   dd if=sunxi_mbr.fex of=/dev/sdd seek=20480 bs=1024
+   dd if=sys_config.bin of=/dev/sdd seek=19848 bs=1024
+</pre>
+<ul><li> boot1 will load the boot.axt, and boot.axf will load u-boot according to linux/linux.ini
+</li></ul>
+<h2> <span class="mw-headline" id="See_also"> See also </span></h2>
+<ul><li> <a href="/LiveSuit" title="LiveSuit">LiveSuit</a>
+</li></ul>
+<h2> <span class="mw-headline" id="References"> References </span></h2>
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a class="external text" href="https://github.com/linux-sunxi/sunxi-tools/blob/master/phoenix_info.c"><span class="__cf_email__" data-cfemail="5c2c3433393235240335323a331c2f2932243571283333302f">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></span>
+</li></ol>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=PhoenixCard&amp;oldid=7701">http://linux-sunxi.org/index.php?title=PhoenixCard&amp;oldid=7701</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/Category:Proprietary_Software" title="Category:Proprietary Software">Proprietary Software</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=PhoenixCard&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=PhoenixCard" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/PhoenixCard" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:PhoenixCard&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/PhoenixCard">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=PhoenixCard&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=PhoenixCard&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/PhoenixCard" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/PhoenixCard" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=PhoenixCard&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=PhoenixCard&amp;oldid=7701" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 29 March 2014, at 02:42.</li>
+<li id="footer-info-viewcount">This page has been accessed 57,046 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Xunlong Orange Pi Plus - linux-sunxi.org</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.20.8"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="linux-sunxi.org (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//linux-sunxi.org/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="linux-sunxi.org Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}</style>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Xunlong_Orange_Pi_Plus","wgTitle":"Xunlong Orange Pi Plus","wgCurRevisionId":17602,"wgArticleId":2074,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["NDH TODO","Devices","H3 Boards","Xunlong","Devices with Ethernet port","Devices with HDMI port"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Xunlong_Orange_Pi_Plus","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+/* cache key: sunxi-mw:resourceloader:filter:minify-js:7:7946f03af3782603db0ba9e475496170 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<link rel="canonical" href="http://linux-sunxi.org/Xunlong_Orange_Pi_Plus"/>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Xunlong_Orange_Pi_Plus skin-vector action-view vector-animateLayout">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+ 
+<div id="content" class="mw-body">
+<a id="top"></a>
+<div id="mw-js-message" style="display:none;"></div>
+ 
+<h1 id="firstHeading" class="firstHeading"><span dir="auto">Xunlong Orange Pi Plus</span></h1>
+ 
+ 
+<div id="bodyContent">
+ 
+<div id="siteSub">From linux-sunxi.org</div>
+ 
+ 
+<div id="contentSub"></div>
+ 
+ 
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+ 
+ 
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="5" style="width:22em;">
+<tr><th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold; background: #dedede;">Xunlong Orange Pi Plus</th></tr>
+<tr class=""><td colspan="2" class="" style="text-align:center;">
+<a href="/File:Xunlong_OrangePi_Plus.jpg" class="image"><img alt="Xunlong OrangePi Plus.jpg" src="/images/thumb/9/9e/Xunlong_OrangePi_Plus.jpg/250px-Xunlong_OrangePi_Plus.jpg" width="250" height="179"/></a></td></tr><tr class=""><th scope="row" style="text-align:left;">Manufacturer</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.orangepi.org/">OrangePi</a></td></tr><tr class=""><th scope="row" style="text-align:left;">Dimensions</th><td class="" style="">
+108<i>mm</i> x 60<i>mm</i></td></tr><tr class=""><th scope="row" style="text-align:left;">Release Date</th><td class="" style="">
+February 2015</td></tr><tr class=""><th scope="row" style="text-align:left;">Website</th><td class="" style="">
+<a rel="nofollow" class="external text" href="http://www.orangepi.org">Orange Pi Plus Product Page</a></td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Specifications</th></tr><tr class=""><th scope="row" style="text-align:left;">SoC</th><td class="" style="">
+<a href="/H3" title="H3">H3</a> @ 1.3GHz</td></tr><tr class=""><th scope="row" style="text-align:left;">DRAM</th><td class="" style="">
+1GiB DDR3 @ 672MHz (<a href="/DDR3#K4B4G1646Q-HYK0" title="DDR3">K4B4G1646Q-HYK0</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">NAND</th><td class="" style="">
+8GB EMMC Flash</td></tr><tr class=""><th scope="row" style="text-align:left;">Power</th><td class="" style="">
+DC 5V @ 2A (4.0mm/1.7mm barrel plug - centre positive)</td></tr><tr><th colspan="2" class="" style="text-align:center; background: #dedede;">Features</th></tr><tr class=""><th scope="row" style="text-align:left;">Video</th><td class="" style="">
+HDMI (HDCP, CEC), CVBS</td></tr><tr class=""><th scope="row" style="text-align:left;">Audio</th><td class="" style="">
+3.5 mm Jack, HDMI, Microphone</td></tr><tr class=""><th scope="row" style="text-align:left;">Network</th><td class="" style="">
+10/100/1000Mbps Ethernet (<a href="/Ethernet#Realtek_RTL8211E" title="Ethernet">Realtek RTL8211E</a>), WiFi 802.11 b/g/n (<a href="/Wifi#Realtek" title="Wifi">Realtek RTL8189ETV</a>)</td></tr><tr class=""><th scope="row" style="text-align:left;">Storage</th><td class="" style="">
+µSD (max 64GB), SATA 2.0 (via GL830 USB-to-SATA bridge, +5V power on JST XH 2.5mm connector)</td></tr><tr class=""><th scope="row" style="text-align:left;">USB</th><td class="" style="">
+4 USB 2.0 Host (via FE1.1s hub), 1 USB 2.0 OTG</td></tr>
+<tr class=""><th scope="row" style="text-align:left;">Other</th><td class="" style="">
+IRDA</td></tr>
+</table>
+<p><span style="color:#ba0000">This page needs to be properly filled according to the <a href="/New_Device_howto" title="New Device howto">New Device Howto</a> and the <a href="/New_Device_page" title="New Device page">New Device Page guide</a>.</span>
+</p><p>Orange Pi Plus is <a href="/H3" title="H3">H3</a> based development board produced by <a href="/Xunlong" title="Xunlong" class="mw-redirect">Xunlong</a>.
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Identification"><span class="tocnumber">1</span> <span class="toctext">Identification</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Sunxi_support"><span class="tocnumber">2</span> <span class="toctext">Sunxi support</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Current_status"><span class="tocnumber">2.1</span> <span class="toctext">Current status</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Images"><span class="tocnumber">2.2</span> <span class="toctext">Images</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#HW-Pack"><span class="tocnumber">2.3</span> <span class="toctext">HW-Pack</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#BSP"><span class="tocnumber">2.4</span> <span class="toctext">BSP</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Manual_build"><span class="tocnumber">2.5</span> <span class="toctext">Manual build</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Mainline_kernel"><span class="tocnumber">2.6</span> <span class="toctext">Mainline kernel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Tips.2C_Tricks.2C_Caveats"><span class="tocnumber">3</span> <span class="toctext">Tips, Tricks, Caveats</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#FEL_mode"><span class="tocnumber">3.1</span> <span class="toctext">FEL mode</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#LEDs"><span class="tocnumber">3.2</span> <span class="toctext">LEDs</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#SATA"><span class="tocnumber">3.3</span> <span class="toctext">SATA</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Expansion_Port"><span class="tocnumber">3.4</span> <span class="toctext">Expansion Port</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#DRAM_clock_speed_limit"><span class="tocnumber">3.5</span> <span class="toctext">DRAM clock speed limit</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#DRAM_clock_speed_limit_.28automated_statistical_analysis.29"><span class="tocnumber">3.6</span> <span class="toctext">DRAM clock speed limit (automated statistical analysis)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Adding_a_serial_port"><span class="tocnumber">4</span> <span class="toctext">Adding a serial port</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#Locating_the_UART"><span class="tocnumber">4.1</span> <span class="toctext">Locating the UART</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Pictures"><span class="tocnumber">5</span> <span class="toctext">Pictures</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Variants"><span class="tocnumber">6</span> <span class="toctext">Variants</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Also_known_as"><span class="tocnumber">7</span> <span class="toctext">Also known as</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Manufacturer_images"><span class="tocnumber">8.1</span> <span class="toctext">Manufacturer images</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1> <span class="mw-headline" id="Identification"> Identification </span></h1>
+<p>The PCB has the following silkscreened on it:
+</p>
+<pre>Orange Pi Plus</pre>
+<h1> <span class="mw-headline" id="Sunxi_support"> Sunxi support </span></h1>
+<h2> <span class="mw-headline" id="Current_status"> Current status </span></h2>
+<ul><li> support is included is mainline u-boot 2016.01
+</li><li> a 3.4-lichee-based kernel can be found in <a class="external free" href="https://github.com/O-Computers/linux-sunxi">https://github.com/O-Computers/linux-sunxi</a>, based on work by <a class="external text" href="https://github.com/ssvb/linux-sunxi">ssvb</a> and <a class="external text" href="https://github.com/loboris/OrangePI-Kernel/">loboris</a>
+</li><li> yocto support can be found in <a class="external free" href="https://github.com/O-Computers/meta-sunxi">https://github.com/O-Computers/meta-sunxi</a>, which glues together all the required parts to get this kernel to work with mainline u-boot, as well as accelerated X11/GLES support
+</li></ul>
+<h2> <span class="mw-headline" id="Images"> Images </span></h2>
+<h2> <span class="mw-headline" id="HW-Pack"> HW-Pack </span></h2>
+<h2> <span class="mw-headline" id="BSP"> BSP </span></h2>
+<h2> <span class="mw-headline" id="Manual_build"> Manual build </span></h2>
+<ul><li> The .fex file can be found in sunxi-boards as <a class="external text" href="https://github.com/vonfritz/sunxi-boards/raw/H3/sys_config/h3/orange_pi_plus.fex">orange_pi_plus.fex</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Mainline_kernel"> Mainline kernel </span></h2>
+<p>As yet there is no support for the orange pi plus in the <a href="/Mainline_Kernel_Howto" title="Mainline Kernel Howto">mainline kernel</a>
+</p>
+<h1> <span class="mw-headline" id="Tips.2C_Tricks.2C_Caveats"> Tips, Tricks, Caveats </span></h1>
+<h2> <span class="mw-headline" id="FEL_mode"> FEL mode </span></h2>
+<p>The button marked <i>SW3</i>, located between the HDMI and SATA, triggers <a href="/FEL" title="FEL"> FEL mode</a> when pressed during boot. (<i>SW3</i> pulls the H3 <i>BOOTSEL</i> pin to low level.)
+</p><p>To <a href="/FEL#Verifying_FEL_mode" title="FEL"> verify</a> you have successfully entered FEL mode, check the output of <code>fel version</code>. For the Orange Pi Plus, it should look like:
+</p>
+<pre>AWUSBFEX soc=00001680(unknown) 00000001 ver=0001 44 08 scratchpad=00007e00 00000000 00000000</pre>
+<h2> <span class="mw-headline" id="LEDs"> LEDs </span></h2>
+<p>For those with a transparent case (or no case at all) the Orange Pi Plus's LED activity is good. The <b>red</b> power LED (<i>D7</i>) can be turned off.
+</p>
+<h2> <span class="mw-headline" id="SATA"> SATA </span></h2>
+<p>Be aware that the H3 SoC used on the Orange Pi Plus isn't SATA capable and therefore the SATA port is provided by a slow USB-to-SATA-bridge (especially write speeds are substandard and <a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepibbsen/forum.php?mod=viewthread&amp;tid=788&amp;fromuid=29411">do not exceed 15 MB/s</a>). This means you can neither expect <a href="/Sunxi_devices_as_NAS#Per_connection_limits" title="Sunxi devices as NAS">SATA performance</a> nor full SATA functionality. While the used GL830 bridge supports <a class="external text" href="https://en.wikipedia.org/wiki/S.M.A.R.T.">S.M.A.R.T.</a> attributes it does not support S.M.A.R.T. status notification (overall health indicator of the disk – instead of <i>PASSED</i> or <i>FAILED</i> you will only get <i>SMART Status not supported: Incomplete response, ATA output registers missing</i>).
+</p><p>If you wish to connect a SATA drive (2.5" mobile harddisk or SSD) to the Orange Pi Plus: Make sure your power supply is connected to the "DC-IN" port, and can deliver sufficient current (e.g. 5V/2000mA). Using the OTG port or an inadequate power supply might result in your board not being working. You should also note that the board's SATA-power connector uses the same polarity as other Orange or Banana Pis. Therefore cable kits from CubieTech and LinkSprite that use the same jack are incompatible due to inverted polarity.
+</p>
+<h2> <span class="mw-headline" id="Expansion_Port"> Expansion Port </span></h2>
+<p>The Orange Pi Plus has a 40-pin, 0.1" connector with several low-speed interfaces.
+</p>
+<table class="wikitable" style="width:600px;">
+<tr>
+<th colspan="4"> 2x20 Header
+</th></tr>
+<tr>
+<td> 1 </td>
+<td> <i>3.3V</i>
+</td>
+<td> 2 </td>
+<td> <i>5V</i>
+</td></tr>
+<tr>
+<td> 3 </td>
+<td> PA12 <small>(TWI0_SDA/DI_RX/PA_EINT12)</small>
+</td>
+<td> 4 </td>
+<td> <i>5V</i>
+</td></tr>
+<tr>
+<td> 5 </td>
+<td> PA11 <small>(TWI0_SCK/DI_TX/PA_EINT11)</small>
+</td>
+<td> 6 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 7 </td>
+<td> PA6 <small>(SIM_PWREN/PWM1/PA_EINT6)</small>
+</td>
+<td> 8 </td>
+<td> PA13 <small>(SPI1_CS/UART3_TX/PA_EINT13)</small>
+</td></tr>
+<tr>
+<td> 9 </td>
+<td> <i>GND</i>
+</td>
+<td> 10 </td>
+<td> PA14 <small>(SPI1_CLK/UART3_RX/PA_EINT14)</small>
+</td></tr>
+<tr>
+<td> 11 </td>
+<td> PA1 <small>(UART2_RX/JTAG_CK/PA_EINT1)</small>
+</td>
+<td> 12 </td>
+<td> PD14
+</td></tr>
+<tr>
+<td> 13 </td>
+<td> PA0 <small>(UART2_TX/JTAG_MS/PA_EINT0)</small>
+</td>
+<td> 14 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 15 </td>
+<td> PA3 <small>(UART2_CTS/JTAG_DI/PA_EINT3)</small>
+</td>
+<td> 16 </td>
+<td> PC4
+</td></tr>
+<tr>
+<td> 17 </td>
+<td> <i>3.3V</i>
+</td>
+<td> 18 </td>
+<td> PC7
+</td></tr>
+<tr>
+<td> 19 </td>
+<td> PC0 <small>(SPI0_MOSI)</small>
+</td>
+<td> 20 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 21 </td>
+<td> PC1 <small>(SPI0_MISO)</small>
+</td>
+<td> 22 </td>
+<td> PA2 <small>(UART2_RTS/JTAG_DO/PA_EINT2)</small>
+</td></tr>
+<tr>
+<td> 23 </td>
+<td> PC2 <small>(SPI0_CLK)</small>
+</td>
+<td> 24 </td>
+<td> PC3 <small>(SPI0_CS)</small>
+</td></tr>
+<tr>
+<td> 25 </td>
+<td> <i>GND</i>
+</td>
+<td> 26 </td>
+<td> PA21 <small>(PCM0_DIN/SIM_VPPPP/PA_EINT21)</small>
+</td></tr>
+<tr>
+<td> 27 </td>
+<td> PA19 <small>(PCM0_CLK/TWI1_SDA/PA_EINT19)</small>
+</td>
+<td> 28 </td>
+<td> PA18 <small>(PCM0_SYNC/TWI1_SCK/PA_EINT18)</small>
+</td></tr>
+<tr>
+<td> 29 </td>
+<td> PA7 <small>(SIM_CLK/PA_EINT7)</small>
+</td>
+<td> 30 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 31 </td>
+<td> PA8 <small>(SIM_DATA/PA_EINT8)</small>
+</td>
+<td> 32 </td>
+<td> PG8 <small>(UART1_RTS/PG_EINT8)</small>
+</td></tr>
+<tr>
+<td> 33 </td>
+<td> PA9 <small>(SIM_RST/PA_EINT9)</small>
+</td>
+<td> 34 </td>
+<td> <i>GND</i>
+</td></tr>
+<tr>
+<td> 35 </td>
+<td> PA10 <small>(SIM_DET/PA_EINT10)</small>
+</td>
+<td> 36 </td>
+<td> PG9 <small>(UART1_CTS/PG_EINT9)</small>
+</td></tr>
+<tr>
+<td> 37 </td>
+<td> PA20 <small>(PCM0_DOUT/SIM_VPPEN/PA_EINT20)</small>
+</td>
+<td> 38 </td>
+<td> PG6 <small>(UART1_TX/PG_EINT6)</small>
+</td></tr>
+<tr>
+<td> 39 </td>
+<td> <i>GND</i>
+</td>
+<td> 40 </td>
+<td> PG7 <small>(UART1_RX/PG_EINT7)</small>
+</td></tr></table>
+<h2> <span class="mw-headline" id="DRAM_clock_speed_limit"> DRAM clock speed limit </span></h2>
+<p>DRAM is clocked at <b>672 MHz</b> by the hardware vendor. But the reliability still needs to be verified. One of the ways of doing reliability tests may be <a class="external free" href="https://github.com/ssvb/lima-memtester/releases/tag/20151207-orange-pi-pc-fel-test">https://github.com/ssvb/lima-memtester/releases/tag/20151207-orange-pi-pc-fel-test</a> (it checks the Orange Pi PC DRAM setup in the current mainline U-Boot v2016.01-rc2 + <a rel="nofollow" class="external text" href="https://www.mail-archive.com/linux-sunxi@googlegroups.com/msg14969.html">a bugfix</a>).
+</p><p>NOTE: While this test image was made for the Orange Pi PC, it also runs on the Orange Pi Plus.
+</p>
+<table class="wikitable">
+<tr>
+<th> Hardware
+</th>
+<th> Diagnostic software
+</th>
+<th> lima-memtester passes (survives until the red LED)
+</th>
+<th> lima-memtester fails
+</th>
+<th> Notes
+</th></tr>
+<tr>
+<td> <a href="/index.php?title=User:Camh&amp;action=edit&amp;redlink=1" class="new" title="User:Camh (page does not exist)">User:Camh</a>'s Orange Pi Plus 1 </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 720 MHz </td>
+<td> 744 MHz </td>
+<td> <b>Heatsink (35mmx25mm) covering SoC and RAM</b>. 744MHz only failed when left running overnight. It made it to the red LED.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Camh&amp;action=edit&amp;redlink=1" class="new" title="User:Camh (page does not exist)">User:Camh</a>'s Orange Pi Plus 2 </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 696 MHz </td>
+<td> 720 MHz </td>
+<td> <b>Heatsink (35mmx25mm) covering SoC and RAM</b>. 720MHz failed in &lt; 30s.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Camh&amp;action=edit&amp;redlink=1" class="new" title="User:Camh (page does not exist)">User:Camh</a>'s Orange Pi Plus 3 </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 720 MHz </td>
+<td> 744 MHz </td>
+<td> <b>Heatsink (35mmx25mm) covering SoC and RAM</b>. 744MHz failed in &lt; 30s.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Camh&amp;action=edit&amp;redlink=1" class="new" title="User:Camh (page does not exist)">User:Camh</a>'s Orange Pi Plus 4 </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 672 MHz </td>
+<td> 696 MHz </td>
+<td> <b>Heatsink (35mmx25mm) covering SoC and RAM</b>. 696MHz failed in &gt; 4 hrs. It made it to the red LED.
+</td></tr>
+<tr>
+<td> <a href="/index.php?title=User:Jemk&amp;action=edit&amp;redlink=1" class="new" title="User:Jemk (page does not exist)">User:Jemk</a>'s Orange Pi Plus </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 768 MHz </td>
+<td> 792 MHz </td>
+<td> <b>Small Heatsink (15mmx15mm)</b>. 792 MHz fails in SPL, but 768 MHz passes overnight run. I don't know if these results can be trusted.
+</td></tr>
+<tr>
+<td> <a href="/User:Rellla" title="User:Rellla">User:Rellla</a>'s Orange Pi Plus </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 720 MHz </td>
+<td> 744 MHz </td>
+<td> <b>No Heatsink</b>. Up to 720 MHz passed until red led.
+</td></tr>
+<tr>
+<td> <a href="/User:Von_fritz" title="User:Von fritz">User:von fritz</a>'s Orange Pi Plus </td>
+<td> fel-boot-lima-memtester-on-orange-pi-pc-v3.tar.gz </td>
+<td> 768 MHz </td>
+<td> 792 MHz </td>
+<td> <b>Heatsink (20mmx20mm)</b>. Up to 768 MHz passed until red led, 792 MHz fails with libusb usb_bulk_send error -9.
+</td></tr></table>
+<p>See the <a href="/Orange_Pi_PC#DRAM_clock_speed_limit" title="Orange Pi PC" class="mw-redirect">Orange Pi PC DRAM clock speed limit</a> for how to perform an analysis of these results.
+</p>
+<h2> <span class="mw-headline" id="DRAM_clock_speed_limit_.28automated_statistical_analysis.29"> DRAM clock speed limit (automated statistical analysis) </span></h2>
+Updating the analysis report:<pre>
+wget https://raw.githubusercontent.com/ssvb/lima-memtester/master/lima-memtester-genchart
+ruby lima-memtester-genchart https://linux-sunxi.org/Xunlong_Orange_Pi_Plus
+# copy/paste the script output into the linux-sunxi wiki
+</pre>
+<table class="wikitable">
+<tr>
+<th rowspan="2"> DRAM clock speed
+</th>
+<th colspan="2"> Percentage of boards failing the lima-memtester test
+</th>
+<th rowspan="2"> Theoretical pessimistic upper bound of the failure percentage using Chebyshev's inequality for lower semivariance <sup id="cite_ref-chebyshev_1-0" class="reference"><a href="#cite_note-chebyshev-1">[1]</a></sup>
+</th>
+<th rowspan="2"> Histogram
+</th></tr>
+<tr>
+<th> Experimental results
+</th>
+<th> Theoretical prediction (assuming Gaussian distribution) <sup id="cite_ref-gaussian_2-0" class="reference"><a href="#cite_note-gaussian-2">[2]</a></sup>
+</th></tr>
+<tr>
+<td> 528 MHz </td>
+<td> 0.00&#160;% (0/7) </td>
+<td> 0.00&#160;% </td>
+<td> 1.33&#160;% </td>
+<td>
+</td></tr>
+<tr>
+<td> 552 MHz </td>
+<td> 0.00&#160;% (0/7) </td>
+<td> 0.00&#160;% </td>
+<td> 1.70&#160;% </td>
+<td>
+</td></tr>
+<tr>
+<td> 576 MHz </td>
+<td> 0.00&#160;% (0/7) </td>
+<td> 0.00&#160;% </td>
+<td> 2.25&#160;% </td>
+<td>
+</td></tr>
+<tr>
+<td> 600 MHz </td>
+<td> 0.00&#160;% (0/7) </td>
+<td> 0.01&#160;% </td>
+<td> 3.12&#160;% </td>
+<td>
+</td></tr>
+<tr>
+<td> 624 MHz </td>
+<td> 0.00&#160;% (0/7) </td>
+<td> 0.08&#160;% </td>
+<td> 4.61&#160;% </td>
+<td>
+</td></tr>
+<tr style="color: orange;">
+<td> 648 MHz </td>
+<td> 0.00&#160;% (0/7) </td>
+<td> 0.64&#160;% </td>
+<td> 7.48&#160;% </td>
+<td>
+</td></tr>
+<tr style="color: orange;">
+<td> 672 MHz </td>
+<td> 0.00&#160;% (0/7) </td>
+<td> 3.55&#160;% </td>
+<td> 14.22&#160;% </td>
+<td>
+</td></tr>
+<tr style="color: red;">
+<td> 696 MHz </td>
+<td> 14.29&#160;% (1/7) </td>
+<td> 13.09&#160;% </td>
+<td> 36.80&#160;% </td>
+<td> *
+</td></tr>
+<tr style="color: red;">
+<td> 720 MHz </td>
+<td> 28.57&#160;% (2/7) </td>
+<td> 33.03&#160;% </td>
+<td> 100.00&#160;% </td>
+<td> *
+</td></tr>
+<tr style="color: red;">
+<td> 744 MHz </td>
+<td> 71.43&#160;% (5/7) </td>
+<td> 59.64&#160;% </td>
+<td> 100.00&#160;% </td>
+<td> ***
+</td></tr>
+<tr style="color: red;">
+<td> 768 MHz </td>
+<td> 71.43&#160;% (5/7) </td>
+<td> 82.31&#160;% </td>
+<td> 100.00&#160;% </td>
+<td>
+</td></tr>
+<tr style="color: red;">
+<td> 792 MHz </td>
+<td> 100.00&#160;% (7/7) </td>
+<td> 94.63&#160;% </td>
+<td> 100.00&#160;% </td>
+<td> **
+</td></tr>
+<tr style="color: red;">
+<td> 816 MHz </td>
+<td> 100.00&#160;% (7/7) </td>
+<td> 98.91&#160;% </td>
+<td> 100.00&#160;% </td>
+<td>
+</td></tr>
+<tr style="color: red;">
+<td> 840 MHz </td>
+<td> 100.00&#160;% (7/7) </td>
+<td> 99.85&#160;% </td>
+<td> 100.00&#160;% </td>
+<td>
+</td></tr></table>
+<ol class="references"><li id="cite_note-chebyshev-1"><span class="mw-cite-backlink"><a href="#cite_ref-chebyshev_1-0">↑</a></span> <span class="reference-text">
+If nothing is known about the distribution of samples, then at least
+<a class="external text" href="https://en.wikipedia.org/wiki/Chebyshev's_inequality">Chebyshev's inequality</a>
+can be used to get a rough idea about the probabilities of encountering reliability
+problems at different DRAM clock speeds. But this method is <u>very conservative</u>
+and substantially overestimates probabilities (being too generic has its price).</span>
+</li>
+<li id="cite_note-gaussian-2"><span class="mw-cite-backlink"><a href="#cite_ref-gaussian_2-0">↑</a></span> <span class="reference-text">
+We can assume that the <a class="external text" href="https://en.wikipedia.org/wiki/Normal_distribution">Gaussian distribution</a>
+is a good approximation for our experimental data, calculate theoretical probabilities and do an
+<a rel="nofollow" class="external text" href="http://www.biostathandbook.com/exactgof.html">exact test of goodness-of-fit</a>
+to see if the experimental data does not contradict with the theory.
+There is a nice <a rel="nofollow" class="external text" href="https://cran.r-project.org/web/packages/XNomial/vignettes/XNomial.html">XNomial</a>
+library for R, which can do the job:<pre>
+    P value  (LLR)  =  0.5425
+    P value (Prob)  =  0.5506
+    P value (Chisq) =  0.6407
+</pre>
+<p>If the <a class="external text" href="https://en.wikipedia.org/wiki/P-value">p-values</a> listed above happen to be too low
+(less than 0.05) and reject our <a class="external text" href="https://en.wikipedia.org/wiki/Null_hypothesis">null hypothesis</a>
+about having the Gaussian distribution, then Chebyshev's inequality estimates still can be used.</span>
+</p>
+</li></ol>
+<h1> <span class="mw-headline" id="Adding_a_serial_port"> Adding a serial port </span></h1>
+<p><span style="color:#ba0000">TODO: The section is mostly a copy&amp;paste from the "Banana Pi" page. Some of it may be incorrect, or might not apply to this device. Please review / rework the information, and remove this reminder when done.</span>
+</p><p>While the GPIO pinout of the Orange Pi Plus is designed to be compatible to the Raspberry Pi, it's important to notice subtle differences in the serial ports. The Orange Pi Plus has some additional pins that already provide two more serial ports.
+</p><p>The default serial port <b>/dev/ttyS0</b>, used for (bootstrap) debugging and the serial console, is located at J11 - refer to the picture and instructions below. The Raspberry's "original" serial port on GPIO 14 and 15 (CON3, pins 8 and 10) can usually be accessed as <b>/dev/ttyS2</b> on the Orange Pi Plus. J12 also provides another serial port on pins 4 (<i>RX</i>) and 6 (<i>TX</i>), which should map to <b>/dev/ttyS3</b>.
+</p><p><u>Note:</u> The actual mapping between physical pins, UART numbers and/or device names may depend on the specific kernel and <a href="/Fex_Guide#uart_configuration" title="Fex Guide"> configuration</a> used. If in doubt, check the boot messages: <code>dmesg | grep -i uart</code>
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a href="/File:Xunlong_Orange_Pi_Plus_uart.jpg" class="image"><img alt="" src="/images/thumb/4/4d/Xunlong_Orange_Pi_Plus_uart.jpg/240px-Xunlong_Orange_Pi_Plus_uart.jpg" width="240" height="101" class="thumbimage"/></a> <div class="thumbcaption"><div class="magnify"><a href="/File:Xunlong_Orange_Pi_Plus_uart.jpg" class="internal" title="Enlarge"><img src="/skins/common/images/magnify-clip.png" width="15" height="11" alt=""/></a></div>UART pads</div></div></div>
+<h2> <span class="mw-headline" id="Locating_the_UART"> Locating the UART </span></h2>
+<p>The UART pins are located between MIC and audio input of the board. They are marked as <i>TX</i>, <i>RX</i> and <i>GND</i> on the PCB. Just attach some leads according to our <a href="/UART" title="UART">UART Howto</a>.
+</p>
+<h1> <span class="mw-headline" id="Pictures"> Pictures </span></h1>
+<ul class="gallery">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:42.5px auto;"><a href="/File:Xunlong_OrangePi_Plus_front.jpg" class="image"><img alt="Xunlong OrangePi Plus front.jpg" src="/images/thumb/d/d1/Xunlong_OrangePi_Plus_front.jpg/120px-Xunlong_OrangePi_Plus_front.jpg" width="120" height="65"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:42.5px auto;"><a href="/File:Xunlong_OrangePi_Plus_back.jpg" class="image"><img alt="Xunlong OrangePi Plus back.jpg" src="/images/thumb/4/40/Xunlong_OrangePi_Plus_back.jpg/120px-Xunlong_OrangePi_Plus_back.jpg" width="120" height="65"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:49.5px auto;"><a href="/File:Xunlong_Orange_Pi_Plus_side_d.jpg" class="image"><img alt="Xunlong Orange Pi Plus side d.jpg" src="/images/thumb/3/33/Xunlong_Orange_Pi_Plus_side_d.jpg/120px-Xunlong_Orange_Pi_Plus_side_d.jpg" width="120" height="51"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:49.5px auto;"><a href="/File:Xunlong_Orange_Pi_Plus_side_u.jpg" class="image"><img alt="Xunlong Orange Pi Plus side u.jpg" src="/images/thumb/0/09/Xunlong_Orange_Pi_Plus_side_u.jpg/120px-Xunlong_Orange_Pi_Plus_side_u.jpg" width="120" height="51"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:49.5px auto;"><a href="/File:Xunlong_Orange_Pi_Plus_side_l.jpg" class="image"><img alt="Xunlong Orange Pi Plus side l.jpg" src="/images/thumb/0/01/Xunlong_Orange_Pi_Plus_side_l.jpg/120px-Xunlong_Orange_Pi_Plus_side_l.jpg" width="120" height="51"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:49.5px auto;"><a href="/File:Xunlong_Orange_Pi_Plus_side_r.jpg" class="image"><img alt="Xunlong Orange Pi Plus side r.jpg" src="/images/thumb/3/3c/Xunlong_Orange_Pi_Plus_side_r.jpg/120px-Xunlong_Orange_Pi_Plus_side_r.jpg" width="120" height="51"/></a></div></div>
+<div class="gallerytext">
+</div>
+</div></li>
+</ul>
+<h1> <span class="mw-headline" id="Variants"> Variants </span></h1>
+<ul><li> The original <b>Orange Pi</b> was released in November 2014. The orange pi features a standard TF card slot and a 26 pin GPIO connector (similar to the Raspberry Pi A/B).
+</li><li> The <b>Orange Pi Mini</b> was released in November 2014, too. It has two TF card slots and only has 2 USB Host.
+</li><li> The <b>Orange Pi Plus</b> was presented in February 2015. It's a new board, and it uses the AllWinner <a href="/H3" title="H3">H3</a> SoC. It Has a 8GB EMMC Flash, Onboard Network(10/100/1000M Ethernet RJ45), Onboard WIFI(Realtek RTL8189ETV, IEEE 802.11 b/g/n), Video Outputs(Supports HDMI CEC, Supports HDMI 3D function, Integrated CVBS, Supports simultaneous output of HDMI and CVBS) and a 40 pin GPIO header (that mimics the Raspberry Pi A+/B+ models).
+</li><li> Now <b>Orange Pi 2</b> and <b>Orange Pi Mini 2</b> are released in March 2015. They are both based on a quad-core <a href="/H3" title="H3">H3</a> CPU, and offer TF card slot, onboard Network(10/100M Ethernet RJ45), 40 pin GPIO and 4 USB type A connectors. They are difference in <i>onboard wifi</i>. Orange Pi 2 has wifi module, while Orange Pi Mini 2 does not have. However, the two kinds of devices do not have <u>SATA</u> any more.
+</li></ul>
+<h1> <span class="mw-headline" id="Also_known_as"> Also known as </span></h1>
+<h1> <span class="mw-headline" id="See_also"> See also </span></h1>
+<p>There are several websites about Orange Pi Plus and claiming to support it. It has to be clarified, what is "official" and who is behind this sites.
+</p>
+<ul><li><a rel="nofollow" class="external text" href="http://www.orangepi.org">Xunlong Orange Pi site</a>
+</li><li><a class="external text" href="https://github.com/orangepi-xunlong">"Official" Github Repository</a>.
+</li><li><a rel="nofollow" class="external text" href="http://www.orangepi.org/orangepibbsen">"Official" Orange Pi Form</a>.
+</li><li><a href="/H3_Manual_build_howto" title="H3 Manual build howto">H3_Manual_build_howto</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Manufacturer_images"> Manufacturer images </span></h2>
+<p>A various amount of <a rel="nofollow" class="external text" href="http://www.orangepi.org/downloaded/download.html">prebuilt images</a> is provided via OrangePi's Website.
+</p>
+ 
+ 
+ 
+</div>  
+ 
+<div class="printfooter">
+Retrieved from "<a href="http://linux-sunxi.org/index.php?title=Xunlong_Orange_Pi_Plus&amp;oldid=17602">http://linux-sunxi.org/index.php?title=Xunlong_Orange_Pi_Plus&amp;oldid=17602</a>" </div>
+ 
+ 
+<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/Category:NDH_TODO" title="Category:NDH TODO">NDH TODO</a></li><li><a href="/Category:Devices" title="Category:Devices">Devices</a></li><li><a href="/Category:H3_Boards" title="Category:H3 Boards">H3 Boards</a></li><li><a href="/Category:Xunlong" title="Category:Xunlong">Xunlong</a></li><li><a href="/Category:Devices_with_Ethernet_port" title="Category:Devices with Ethernet port">Devices with Ethernet port</a></li><li><a href="/Category:Devices_with_HDMI_port" title="Category:Devices with HDMI port">Devices with HDMI port</a></li></ul></div></div>  
+<div class="visualClear"></div>
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+<div id="mw-head" class="noprint">
+ 
+<div id="p-personal" class="">
+<h5>Personal tools</h5>
+<ul>
+<li id="pt-anonuserpage"><a href="/User:162.158.76.107" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">162.158.76.107</a></li>
+<li id="pt-anontalk"><a href="/User_talk:162.158.76.107" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li>
+<li id="pt-createaccount"><a href="/index.php?title=Special:UserLogin&amp;returnto=Xunlong+Orange+Pi+Plus&amp;type=signup">Create account</a></li>
+<li id="pt-anonlogin"><a href="/index.php?title=Special:UserLogin&amp;returnto=Xunlong+Orange+Pi+Plus" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+</ul>
+</div>
+ 
+<div id="left-navigation">
+ 
+<div id="p-namespaces" class="vectorTabs">
+<h5>Namespaces</h5>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/Xunlong_Orange_Pi_Plus" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/index.php?title=Talk:Xunlong_Orange_Pi_Plus&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-variants" class="vectorMenu emptyPortlet">
+<h4>
+</h4>
+<h5><span>Variants</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+</div>
+<div id="right-navigation">
+ 
+<div id="p-views" class="vectorTabs">
+<h5>Views</h5>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/Xunlong_Orange_Pi_Plus">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/index.php?title=Xunlong_Orange_Pi_Plus&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Xunlong_Orange_Pi_Plus&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+ 
+ 
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+<h5><span>Actions</span><a href="#"></a></h5>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+ 
+ 
+<div id="p-search">
+<h5><label for="searchInput">Search</label></h5>
+<form action="/index.php" id="searchform">
+<div>
+<input type="search" name="search" title="Search linux-sunxi.org [f]" accesskey="f" id="searchInput"/> <input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/> <input type='hidden' name="title" value="Special:Search"/>
+</div>
+</form>
+</div>
+ 
+</div>
+</div>
+ 
+ 
+<div id="mw-panel" class="noprint">
+ 
+<div id="p-logo"><a style="background-image: url(//linux-sunxi.org/images/c/c5/Logo-155x155.png);" href="/Main_Page" title="Visit the main page"></a></div>
+ 
+ 
+<div class="portal" id='p-navigation'>
+<h5>Navigation</h5>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+<li id="n-portal"><a href="/sunxi:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+<li id="n-randompage"><a href="/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+<li id="n-help"><a href="/Help:Contents" title="The place to find out">Help</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+ 
+<div class="portal" id='p-tb'>
+<h5>Tools</h5>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/Special:WhatLinksHere/Xunlong_Orange_Pi_Plus" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+<li id="t-recentchangeslinked"><a href="/Special:RecentChangesLinked/Xunlong_Orange_Pi_Plus" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+<li id="t-print"><a href="/index.php?title=Xunlong_Orange_Pi_Plus&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+<li id="t-permalink"><a href="/index.php?title=Xunlong_Orange_Pi_Plus&amp;oldid=17602" title="Permanent link to this revision of the page">Permanent link</a></li>
+</ul>
+</div>
+</div>
+ 
+ 
+ 
+</div>
+ 
+ 
+<div id="footer">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last modified on 13 June 2016, at 03:25.</li>
+<li id="footer-info-viewcount">This page has been accessed 32,614 times.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/sunxi:Privacy_policy" title="sunxi:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/sunxi:About" title="sunxi:About">About linux-sunxi.org</a></li>
+<li id="footer-places-disclaimer"><a href="/sunxi:General_disclaimer" title="sunxi:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-copyrightico">
+<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31"/></a>
+</li>
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</div>
+ 
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","ext.cite"], null, true);
+}</script>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shCore.css"></link>
+<link rel="stylesheet" type="text/css" href="/extensions/SyntaxHighlighter/styles/shThemeDefault.css"></link>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/XRegExp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shCore.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushBash.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushIni.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushJava.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushCpp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPlain.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="/extensions/SyntaxHighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script src="//linux-sunxi.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33223122-1");
+pageTracker._trackPageview();
+</script> 
+</body>
+</html>
